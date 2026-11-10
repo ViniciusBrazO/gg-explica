@@ -63,7 +63,9 @@ def atualizar(sessao=None, so: Optional[str] = None, mostrar=print) -> list[Path
             mostrar(f"  {pacote['nome']}: o servidor respondeu {cab.status_code} (o link mudou?)")
             continue
         assinatura = f"{cab.headers.get('Content-Length', '')}|{cab.headers.get('Last-Modified', '')}"
-        if estado.get(url, {}).get("assinatura") == assinatura:
+        pasta = PASTA_OFICIAL / pacote["nome"]
+        tem_arquivos = pasta.exists() and any(pasta.iterdir())
+        if estado.get(url, {}).get("assinatura") == assinatura and tem_arquivos:
             mostrar(f"  {pacote['nome']}: sem novidade")
             continue
         tamanho_mb = int(cab.headers.get("Content-Length", 0) or 0) / 1e6

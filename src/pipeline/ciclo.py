@@ -79,8 +79,10 @@ def rodar(publicar: bool = True) -> int:
 
     def material_oficial():
         horas = cfg.get("biblioteca", {}).get("verificar_a_cada_horas", 24)
-        if not _passou(ULTIMA_BIBLIOTECA, horas * 3600):
-            return
+        oficial = biblioteca.PASTA_OFICIAL
+        vazia = not oficial.exists() or not any(p.is_dir() for p in oficial.iterdir())
+        if not _passou(ULTIMA_BIBLIOTECA, horas * 3600) and not vazia:
+            return            # (na nuvem, se o cache da biblioteca sumiu, baixa de novo na hora)
         ULTIMA_BIBLIOTECA.parent.mkdir(parents=True, exist_ok=True)
         ULTIMA_BIBLIOTECA.write_text(datetime.now().isoformat())
         novos = biblioteca.atualizar(mostrar=_log)

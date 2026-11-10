@@ -139,13 +139,16 @@ def enviar_para_aprovacao(tg: Telegram, dias_a_frente: int = 1, hoje: Optional[d
             if v.status != "rascunho" or not hoje <= v.data <= limite:
                 continue
             tok, imp = _token(arq, v.id), _impressao(v)
-            if pendentes.get(tok, {}).get("impressao") == imp:
+            anterior = pendentes.get(tok, {})
+            ja_avisado = anterior.get("impressao") == imp and anterior.get("situacao") == "bloqueado"
+            if anterior.get("impressao") == imp and not ja_avisado:
                 continue
             bloqueios, avisos = checar_pauta(marca, v)
             if MARCADOR_AJUSTE in (v.notas_revisao or ""):
                 continue    # esperando o Claude refazer
             if bloqueios:
-                tg.texto(f"⚠️ {v.id} ({v.data:%d/%m} {v.horario:%H:%M}) ainda não pode ir:\n- " + "\n- ".join(bloqueios))
+                if not ja_avisado:   # avisa uma vez; quando o bloqueio sumir, a prévia sai sozinha
+                    tg.texto(f"⚠️ {v.id} ({v.data:%d/%m} {v.horario:%H:%M}) ainda não pode ir:\n- " + "\n- ".join(bloqueios))
                 pendentes[tok] = {"pauta": str(arq), "video": v.id, "impressao": imp, "situacao": "bloqueado"}
                 continue
             r = produzir(marca, v, previa=True)
