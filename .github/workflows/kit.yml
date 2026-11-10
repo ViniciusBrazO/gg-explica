@@ -66,6 +66,8 @@ jobs:
           echo "tarefa: $t"
 
       - uses: actions/checkout@v4
+        with:
+          ref: main      # sempre o estado mais novo (a rodada que esperou na fila não pode usar o estado velho)
 
       - uses: actions/setup-python@v5
         with:
@@ -161,7 +163,7 @@ jobs:
           git add -A pautas saida clipes/catalogo.json 2>/dev/null || true
           if git diff --cached --quiet; then echo "nada mudou"; exit 0; fi
           git commit -q -m "estado: ${{ steps.t.outputs.tarefa }} $(date +'%d/%m %H:%M')"
-          for i in 1 2 3; do git pull -q --rebase -X theirs && git push -q && exit 0; sleep 5; done
+          for i in 1 2 3; do git pull -q --rebase && git push -q && exit 0; git rebase --abort 2>/dev/null; sleep 5; done
           exit 1
 
       - name: Apagar slides e vídeos com mais de 10 dias

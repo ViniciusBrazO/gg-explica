@@ -193,3 +193,17 @@ def test_carrossel_sem_pagina_vai_para_o_lote(monkeypatch, tmp_path):
         "cenas": [{"tipo": "gancho", "titulo": "a"}, {"tipo": "cta", "titulo": "b", "texto": "c"}]})
     producao.enfileirar_carrossel(carregar_marca("gg_explica"), video, tmp_path, "l", [])
     assert lotes == ["instagram", "tiktok"] and fila.carregar() == []
+
+
+def test_nao_publica_de_novo_o_que_ja_esta_no_ar():
+    from datetime import datetime, timezone
+    from pipeline.cli import ja_no_ar
+    from pipeline.fila import Item
+    agora = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S+0000")
+    recentes = [{"caption": "TRAILER 4 NO AR!\n\nx", "media_product_type": "REELS", "media_type": "VIDEO",
+                 "permalink": "https://ig/r", "timestamp": agora}]
+    reel = Item(id="t_reel", marca="gg_explica", video="v", capa="", legenda="TRAILER 4 NO AR!\n\nx", quando="")
+    carrossel = Item(id="t", marca="gg_explica", video="v", capa="", legenda="TRAILER 4 NO AR!\n\nx", quando="",
+                     tipo="carrossel")
+    assert ja_no_ar(reel, recentes) == "https://ig/r"
+    assert ja_no_ar(carrossel, recentes) == ""          # mesmo texto, mas o carrossel ainda não saiu

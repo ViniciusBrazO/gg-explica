@@ -27,12 +27,15 @@ import re
 import sys
 from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 from dotenv import load_dotenv
 from pydantic import ValidationError
 
 from .marca import RAIZ, carregar_marca
 from .modelos import Pauta
+
+FUSO_BR = ZoneInfo("America/Sao_Paulo")
 
 
 def _carregar_env() -> None:
@@ -113,6 +116,22 @@ def cmd_renderizar(args) -> int:
     return 0
 
 
+def ja_no_ar(item, recentes: list[dict]) -> str:
+    """Link do post igual (mesma legenda e mesmo tipo) publicado nas últimas 36 horas, ou ""."""
+    from datetime import timedelta
+    def chave(t: str) -> str:
+        return " ".join((t or "").split())[:160]
+    tipo = "CAROUSEL_ALBUM" if item.tipo == "carrossel" else "REELS"
+    limite = datetime.now(FUSO_BR) - timedelta(hours=36)
+    for m in recentes:
+        quando = datetime.fromisoformat(m.get("timestamp", "1970-01-01T00:00:00+0000").replace("+0000", "+00:00"))
+        mesmo_tipo = (m.get("media_product_type") == "REELS") == (tipo == "REELS") and \
+            ((m.get("media_type") == "CAROUSEL_ALBUM") == (tipo == "CAROUSEL_ALBUM"))
+        if quando >= limite and mesmo_tipo and chave(m.get("caption")) == chave(item.legenda):
+            return m.get("permalink", "") or "?"
+    return ""
+
+
 def avisar_publicado(item) -> None:
     """Aviso no Telegram com o link; a resposta vira orientação para os próximos posts."""
     try:
@@ -172,6 +191,7 @@ def cmd_publicar(args) -> int:
     agora = datetime.now(FUSO)
     itens = carregar()
     publicados = 0
+    no_ar: dict[str, list[dict]] = {}     # posts recentes de cada conta, contra publicação repetida
     for item in itens:
         if item.status != "pendente" or datetime.fromisoformat(item.quando) > agora:
             continue
@@ -202,9 +222,21 @@ def cmd_publicar(args) -> int:
                 if hosp is None:
                     raise ErroInstagram(f"faltam META_TOKEN/FB_PAGE_ID de {item.marca} no .env (carrossel)")
                 slides = sorted(Path(item.video).glob("[0-9][0-9].jpg"))
-                res = Publicador(Credenciais.da_marca(item.marca)).publicar_carrossel(slides, item.legenda, hosp)
+                pub = Publicador(Credenciais.da_marca(item.marca))
+                repetido = ja_no_ar(item, no_ar.setdefault(item.marca, pub.recentes()))
+                if repetido:
+                    hosp.limpar()
+                    item.status, item.permalink = "publicado", repetido
+                    print(f"  já estava no ar ({repetido}); não publiquei de novo")
+                    continue
+                res = pub.publicar_carrossel(slides, item.legenda, hosp)
             else:
                 pub = Publicador(Credenciais.da_marca(item.marca))
+                repetido = ja_no_ar(item, no_ar.setdefault(item.marca, pub.recentes()))
+                if repetido:
+                    item.status, item.permalink = "publicado", repetido
+                    print(f"  já estava no ar ({repetido}); não publiquei de novo")
+                    continue
                 res = publicar_reel_com_capa(pub, item)
             item.status, item.media_id, item.permalink = "publicado", res["media_id"], res["permalink"]
             publicados += 1

@@ -80,6 +80,13 @@ class Publicador:
                        params={"fields": "quota_usage,config", "access_token": self.c.token}, timeout=30)
         return _checar(r)
 
+    def recentes(self, limite: int = 25) -> list[dict]:
+        """Os últimos posts da conta (legenda, tipo e link), para nunca publicar a mesma coisa duas vezes."""
+        dados = _checar(self.s.get(self._url(f"{self.c.ig_user_id}/media"), params={
+            "fields": "caption,media_product_type,media_type,permalink,timestamp", "limit": str(limite),
+            "access_token": self.c.token}, timeout=30))
+        return dados.get("data", [])
+
     def _esperar(self, cid: str, limite_espera_s: int) -> None:
         inicio = time.monotonic()
         while True:
