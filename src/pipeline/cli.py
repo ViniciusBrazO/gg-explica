@@ -281,17 +281,36 @@ def cmd_resumo(args) -> int:
 
 
 def cmd_teste_voz(args) -> int:
-    """Gera o Reel narrado de teste (pautas/demo_teste_voz.json) e manda no Telegram. Não publica."""
+    """Gera o Reel narrado de teste (pautas/demo_teste_voz.json) e manda no Telegram. Não publica.
+    Com --vozes, manda um trecho curto com cada voz da Azure, para comparar."""
+    import copy
     from .producao import produzir
     from .telegram import Telegram
     pauta = Pauta.carregar(RAIZ / "pautas" / "demo_teste_voz.json")
     marca = carregar_marca(pauta.marca)
+    tg = Telegram.do_ambiente()
+    if args.vozes:
+        base = pauta.videos[0]
+        for n, nome in enumerate(args.vozes.split(","), start=1):
+            m = copy.copy(marca)
+            m.dados = copy.deepcopy(marca.dados)
+            m.dados["voz"]["azure"].update({"voz": nome.strip(), "velocidade": args.velocidade, "tom": args.tom})
+            v = base.model_copy(update={"id": f"teste_voz_{n}", "cenas": base.cenas[:3]})
+            r = produzir(m, v, previa=True)
+            if r.arquivo is None:
+                print(f"{nome}: não gerou ({r.pulado})")
+                continue
+            curto = nome.replace("pt-BR-", "").replace("Neural", "")
+            print(f"opção {n}: {curto} ({r.duracao_s}s)")
+            if tg:
+                tg.video(r.arquivo, f"🎙️ Opção {n}: {curto} (velocidade {args.velocidade}, tom {args.tom}). "
+                         f"Responda com o número da que gostou.", [])
+        return 0
     r = produzir(marca, pauta.videos[0], previa=True)
     if r.arquivo is None:
         print(f"não gerou: {r.pulado}")
         return 1
     print(f"gerado: {r.arquivo} ({r.duracao_s}s)")
-    tg = Telegram.do_ambiente()
     if tg:
         tg.video(r.arquivo, "🎙️ Teste do Reel narrado (não vai ao ar). Gostou da voz? Responda aqui "
                  "\"mais rápida\", \"mais lenta\", \"outra voz\" ou \"aprovada\".", [])
@@ -485,6 +504,9 @@ def main(argv: list[str] | None = None) -> int:
     p.set_defaults(func=cmd_fila)
 
     p = sub.add_parser("teste-voz", help="gera o Reel narrado de teste e manda no Telegram")
+    p.add_argument("--vozes", default="", help="vozes da Azure separadas por vírgula, para comparar")
+    p.add_argument("--velocidade", default="+12%")
+    p.add_argument("--tom", default="+3%")
     p.set_defaults(func=cmd_teste_voz)
 
     p = sub.add_parser("resumo", help="resumo do dia no Telegram, com músicas em alta para cada post")

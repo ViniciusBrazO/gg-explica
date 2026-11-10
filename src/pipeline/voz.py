@@ -177,7 +177,8 @@ class Azure:
         sintetizador.synthesis_word_boundary.connect(marcar)
         ssml = (
             '<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="pt-BR">'
-            f'<voice name="{self.cfg["voz"]}"><prosody rate="{self.cfg.get("velocidade", "+0%")}">'
+            f'<voice name="{self.cfg["voz"]}"><prosody rate="{self.cfg.get("velocidade", "+0%")}" '
+            f'pitch="{self.cfg.get("tom", "+0%")}">'
             f"{_escapar_xml(texto)}</prosody></voice></speak>"
         )
         res = sintetizador.speak_ssml_async(ssml).get()

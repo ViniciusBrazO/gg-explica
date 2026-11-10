@@ -19,6 +19,10 @@ on:
     - cron: "30 2 * * *"         # métricas 23h30
   workflow_dispatch:
     inputs:
+      vozes:
+        description: "teste-voz: vozes da Azure para comparar (vírgula)"
+        default: ""
+        required: false
       tarefa:
         description: "ciclo | radar | pauta | catalogo | metricas | resumo | teste-voz | biblioteca | telegram-teste | simular"
         default: ciclo
@@ -134,7 +138,7 @@ jobs:
             radar) paginas claude radar && paginas ciclo ;;
             pauta) paginas claude pauta && paginas ciclo ;;
             catalogo) paginas catalogar && paginas claude catalogo ;;
-            teste-voz) paginas teste-voz ;;
+            teste-voz) paginas teste-voz --vozes "${{ github.event.inputs.vozes }}" ;;
             metricas) paginas metricas; paginas resumo ;;
             resumo) paginas resumo ;;
             biblioteca) paginas biblioteca ;;
