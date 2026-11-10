@@ -80,12 +80,12 @@ def atualizar(sessao=None, so: Optional[str] = None, mostrar=print) -> list[Path
                     f.write(pedaco)
         extraidos = extrair(arq_zip, PASTA_OFICIAL / pacote["nome"])
         arq_zip.unlink(missing_ok=True)       # o zip ocupa espaço à toa depois de extraído
-        novos += extraidos
+        if estado.get(url, {}).get("assinatura") != assinatura:
+            novos += extraidos                # só pacote que mudou é novidade (baixar de novo não é)
         estado[url] = {"assinatura": assinatura, "atualizado": datetime.now().isoformat(),
                        "arquivos": len(extraidos)}
         ESTADO.parent.mkdir(parents=True, exist_ok=True)
         ESTADO.write_text(json.dumps(estado, ensure_ascii=False, indent=2), encoding="utf-8")
         mostrar(f"  {pacote['nome']}: {len(extraidos)} arquivo(s) novo(s)")
-    if novos:
-        catalogar(PASTA_CLIPES)
+    catalogar(PASTA_CLIPES)        # também refaz as folhas quando a biblioteca foi baixada de novo
     return novos

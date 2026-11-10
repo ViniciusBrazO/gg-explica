@@ -85,20 +85,24 @@ def registrar(video: Video, imagens: list[str], estilo: str) -> None:
 
 
 def estilo_capa(video: Video) -> str:
-    """Gira os modelos de capa: nunca o mesmo dos 2 posts anteriores (pela data e hora)."""
+    """Gira os modelos de capa: diferente dos 2 posts mais próximos no tempo (antes ou depois).
+    Depois de escolhido (na prévia), o estilo do post fica fixo."""
+    dados = _carregar()
+    if chave(video) in dados and dados[chave(video)].get("estilo_capa"):
+        return dados[chave(video)]["estilo_capa"]
     quando = datetime.combine(video.data, video.horario)
-    anteriores = []
-    for k, info in _carregar().items():
+    vizinhos = []
+    for k, info in dados.items():
         if k == chave(video) or "estilo_capa" not in info:
             continue
         t = datetime.fromisoformat(f"{info['data']}T{info.get('horario', '00:00')}")
-        if quando - timedelta(days=3) <= t < quando:
-            anteriores.append((t, info["estilo_capa"]))
-    recentes = {e for _, e in sorted(anteriores)[-2:]}
+        if abs(t - quando) <= timedelta(days=2):
+            vizinhos.append((abs(t - quando), info["estilo_capa"]))
+    evitar = {e for _, e in sorted(vizinhos)[:2]}
     inicio = int(hashlib.sha1(chave(video).encode()).hexdigest(), 16) % len(ESTILOS_CAPA)
     for i in range(len(ESTILOS_CAPA)):
         estilo = ESTILOS_CAPA[(inicio + i) % len(ESTILOS_CAPA)]
-        if estilo not in recentes:
+        if estilo not in evitar:
             return estilo
     return ESTILOS_CAPA[inicio]
 

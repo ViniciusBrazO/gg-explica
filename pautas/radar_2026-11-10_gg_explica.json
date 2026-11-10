@@ -287,14 +287,17 @@
   {
    "id": "radar_2026-11-10_pagina_midia",
    "serie": "radar",
-   "status": "rascunho",
+   "status": "descartado",
    "data": "2026-11-10",
    "horario": "21:00",
    "formato": "carrossel",
-   "plataformas": ["instagram", "tiktok"],
+   "plataformas": [
+    "instagram",
+    "tiktok"
+   ],
    "voz_ia": false,
    "legenda_post": "TEM IMAGEM NOVA DE GTA 6 PRA BAIXAR!\n\nA página oficial de mídia da Rockstar está com screenshots, vídeos, artes e wallpapers de GTA VI, incluindo pacotes da Ultimate Edition e do Vintage Vice City Pack. A página não marca quais itens são novos de hoje.\n\nFonte: Rockstar Games, página de mídia de GTA VI, 10/11.\n\nQual imagem vira seu papel de parede?",
-   "notas_revisao": "CONFIRMADO só para o que a página lista: abri https://www.rockstargames.com/VI/media nesta execução (5 vídeos, 9 clipes, 138 screenshots, 51 da Ultimate Edition, 12 do Vintage Vice City Pack, 27 artes/wallpapers). A página não mostra datas: o '352 novos' vem do nosso baixador (biblioteca.py), não da Rockstar, por isso o post não cita esse número nem diz 'novas hoje'. Conferir os itens citados antes de aprovar. Imagens por busca no catálogo; se alguma busca vier vazia, trocar. `paginas validar` não rodou (Bash negado nesta execução): rode antes de aprovar.",
+   "notas_revisao": "CONFIRMADO só para o que a página lista: abri https://www.rockstargames.com/VI/media nesta execução (5 vídeos, 9 clipes, 138 screenshots, 51 da Ultimate Edition, 12 do Vintage Vice City Pack, 27 artes/wallpapers). A página não mostra datas: o '352 novos' vem do nosso baixador (biblioteca.py), não da Rockstar, por isso o post não cita esse número nem diz 'novas hoje'. Conferir os itens citados antes de aprovar. Imagens por busca no catálogo; se alguma busca vier vazia, trocar. `paginas validar` não rodou (Bash negado nesta execução): rode antes de aprovar.\\nDescartado: alarme falso (a biblioteca foi baixada de novo na nuvem, não houve material novo da Rockstar).",
    "cenas": [
     {
      "tipo": "gancho",
@@ -348,7 +351,11 @@
      "texto": "Manda pra quem curte *wallpaper* de GTA 6"
     }
    ],
-   "hashtags": ["#gta6", "#gtavi", "#rockstar"]
+   "hashtags": [
+    "#gta6",
+    "#gtavi",
+    "#rockstar"
+   ]
   }
  ]
 }
