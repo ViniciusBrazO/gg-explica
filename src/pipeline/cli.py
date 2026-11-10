@@ -343,7 +343,9 @@ def cmd_telegram(args) -> int:
         chats = {str(u["message"]["chat"]["id"]): u["message"]["chat"].get("first_name", "")
                  for u in r.get("result", []) if "message" in u}
         if not chats:
-            print("Mande um 'oi' para o seu bot no Telegram e rode de novo.")
+            eu = requests.get(f"https://api.telegram.org/bot{token.strip()}/getMe", timeout=30).json()
+            nome = (eu.get("result") or {}).get("username", "?")
+            print(f"Mande um 'oi' para o seu bot @{nome} no Telegram e rode de novo.")
             return 1
         privados = {str(u["message"]["chat"]["id"]) for u in r.get("result", [])
                     if "message" in u and u["message"]["chat"].get("type") == "private"}
