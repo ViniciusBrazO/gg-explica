@@ -33,15 +33,16 @@ barato). Prepare a pauta da próxima semana (segunda a domingo).
 
 ## GG Explica: o que entregar
 
-Arquivo `pautas/<AAAA>-W<semana>_gg_explica.json` com **21 posts**, 3 por dia. O Radar do dia
-(19h00, estilo manchete) é escrito todo dia de manhã pela tarefa `radar`; não ocupe esse horário.
+Arquivo `pautas/<AAAA>-W<semana>_gg_explica.json` com **14 posts**, 2 por dia (os de conteúdo que não
+dependem de notícia). As notícias do dia ficam com a tarefa `radar`, que roda 3 vezes por dia e ocupa
+os horários livres (09h00, 11h00, 15h00, 17h00, 19h00): não use esses horários aqui.
 
 | Horário | Formato | Série |
 | --- | --- | --- |
-| 10h00 | carrossel 4:5, 6 a 10 slides (`"formato": "carrossel"`) | `gg_explica` ou `rumor_ou_confirmado` |
 | 12h30 | reel | `gta_no_brasil` (todo dia) |
-| 21h30 | reel | `gg_explica` (4 na semana) e `rumor_ou_confirmado` (3) |
+| 21h30 | carrossel | `gg_explica` (4 na semana) e `rumor_ou_confirmado` (3) |
 
+- **Cada post único:** formato, capa e imagens diferentes do post anterior; nunca caminho direto de arquivo, só `busca:` com palavras diferentes por slide e por post (o validador bloqueia imagem repetida).
 - **Sem jogar.** Toda imagem vem da biblioteca: `fundo_clipe`/`midia` com `"busca:<palavras>"` que
   combinem com as tags do catálogo (personagem, lugar, ação, clima). Varie as buscas; o kit evita
   repetir trecho. `credito: "Imagens: Rockstar Games"` em toda cena com material oficial.

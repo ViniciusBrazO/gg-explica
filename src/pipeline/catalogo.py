@@ -9,6 +9,7 @@ O que já foi preenchido no catálogo nunca é apagado: rodar de novo só acresc
 """
 from __future__ import annotations
 
+import hashlib
 import json
 import math
 import re
@@ -253,11 +254,14 @@ def registrar_uso(escolha: Escolha) -> None:
     ARQUIVO_USO.write_text(json.dumps(uso, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def buscar_clipe(consulta: str, pasta: Path = PASTA_CLIPES, aceitar_spoiler: bool = False) -> Optional[Escolha]:
+def buscar_clipe(consulta: str, pasta: Path = PASTA_CLIPES, aceitar_spoiler: bool = False,
+                 evitar: Optional[set] = None, semente: str = "") -> Optional[Escolha]:
     """Acha no catálogo o trecho que mais combina com a consulta ("praia pôr do sol carro").
 
     Pontua cada momento (e o clipe inteiro) pelas palavras em comum; em empate, prefere o
-    trecho menos usado. Clipes marcados com spoiler ficam de fora, salvo se pedido.
+    trecho menos usado e, depois, sorteia pela `semente` (o id do post), para posts diferentes
+    não caírem sempre na mesma imagem. Arquivos em `evitar` (já usados em outros posts) ficam de
+    fora enquanto houver alternativa. Clipes marcados com spoiler ficam de fora, salvo se pedido.
     """
     arquivo = pasta / "catalogo.json"
     if not arquivo.exists():
@@ -270,6 +274,8 @@ def buscar_clipe(consulta: str, pasta: Path = PASTA_CLIPES, aceitar_spoiler: boo
     for e in json.loads(arquivo.read_text(encoding="utf-8")):
         if e.get("spoiler") and not aceitar_spoiler:
             continue
+        if "logo" in e.get("tags", []) and "logo" not in termos and "logos" not in termos:
+            continue      # arte com o logotipo do jogo por cima: só quando pedida
         base = set(_normalizar(_texto_entrada(e)))
         candidatos = [(0.0, e.get("duracao_s"), base)]
         for m in e.get("momentos", []):
@@ -282,18 +288,23 @@ def buscar_clipe(consulta: str, pasta: Path = PASTA_CLIPES, aceitar_spoiler: boo
                 continue
             bonus = 0.5 if fim is not None and inicio > 0 else 0.0   # momento específico vale mais
             vezes = uso.get(f"{e['arquivo']}@{inicio:.1f}", 0)
-            melhores.append((pontos + bonus, -vezes, Escolha(RAIZ / e["arquivo"], inicio,
-                                                              float(fim) if fim else None, e)))
+            sorteio = hashlib.sha1(f"{semente}|{e['arquivo']}|{inicio}".encode()).hexdigest()
+            melhores.append((pontos + bonus, -vezes, sorteio, Escolha(RAIZ / e["arquivo"], inicio,
+                                                                       float(fim) if fim else None, e)))
     if not melhores:
         return None
-    melhores.sort(key=lambda x: (x[0], x[1]), reverse=True)
-    return melhores[0][2]
+    if evitar:
+        livres = [m for m in melhores if m[3].entrada["arquivo"] not in evitar]
+        melhores = livres or melhores
+    melhores.sort(key=lambda x: (x[0], x[1], x[2]), reverse=True)
+    return melhores[0][3]
 
 
-def resolver_midia(midia: str, inicio: float = 0.0, fim: Optional[float] = None) -> Optional[Escolha]:
+def resolver_midia(midia: str, inicio: float = 0.0, fim: Optional[float] = None,
+                   evitar: Optional[set] = None, semente: str = "") -> Optional[Escolha]:
     """"busca:<palavras>" procura no catálogo; qualquer outro texto é um caminho de arquivo."""
     if midia.startswith("busca:"):
-        return buscar_clipe(midia.split(":", 1)[1])
+        return buscar_clipe(midia.split(":", 1)[1], evitar=evitar, semente=semente)
     p = Path(midia)
     return Escolha(p if p.is_absolute() else RAIZ / p, inicio, fim)
 

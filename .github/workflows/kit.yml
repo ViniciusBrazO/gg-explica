@@ -1,6 +1,7 @@
 # GG Explica na nuvem: tudo roda aqui, sem computador ligado.
 #   ciclo     a cada 30 min, 08h00-00h30 de Brasília: radar, botões do Telegram, prévias, publicação
-#   radar     07h10 todo dia: o Claude escreve o post do dia (rascunho; a prévia chega no Telegram)
+#   radar     07h10, 12h10 e 17h10: o Claude escreve 2 a 3 posts para os horários livres (rascunhos;
+#             as prévias chegam no Telegram). Notícia quente vira post na hora (alerta).
 #   pauta     segunda 07h40: o Claude monta a pauta da semana
 #   metricas  23h30 todo dia: números do Instagram para a revisão
 # Segredos (Settings > Secrets and variables > Actions): META_TOKEN_GG_EXPLICA, TELEGRAM_BOT_TOKEN,
@@ -12,6 +13,8 @@ on:
     - cron: "*/30 11-23 * * *"   # ciclo (UTC; Brasília = UTC-3)
     - cron: "*/30 0-3 * * *"     # ciclo, da noite
     - cron: "10 10 * * *"        # radar 07h10
+    - cron: "10 15 * * *"        # radar 12h10
+    - cron: "10 20 * * *"        # radar 17h10
     - cron: "40 10 * * 1"        # pauta segunda 07h40
     - cron: "30 2 * * *"         # métricas 23h30
   workflow_dispatch:
@@ -46,7 +49,7 @@ jobs:
         id: t
         run: |
           case "${{ github.event.schedule }}" in
-            "10 10 * * *") t=radar ;;
+            "10 10 * * *"|"10 15 * * *"|"10 20 * * *") t=radar ;;
             "40 10 * * 1") t=pauta ;;
             "30 2 * * *") t=metricas ;;
             "") t="${{ github.event.inputs.tarefa || 'ciclo' }}" ;;

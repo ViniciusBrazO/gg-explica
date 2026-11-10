@@ -51,10 +51,17 @@ Atualize a coluna `virou` (sim, não, aberto).
 
 ## 4. Escreva a pauta do dia
 
-- Todo dia sai um RADAR às 19h00 (20 a 35 s), em `pautas/radar_{hoje}_gg_explica.json`, com
-  `status: "rascunho"`, `serie: "radar"` e data de hoje. Se a notícia for forte e oficial, crie
-  também um RADAR extra para sair **em até 2 horas** (horário mais próximo possível). O kit manda a
-  prévia no Telegram sozinho.
+- Esta tarefa roda **3 vezes por dia** (07h10, 12h10 e 17h10). Em cada rodada, escreva de **2 a 3 posts**
+  para os horários livres de hoje: 09h00, 11h00, 12h30, 15h00, 17h00, 19h00 e 21h00. Use só horários que
+  estejam a pelo menos 90 minutos de agora e que nenhum outro post de hoje (em qualquer arquivo de
+  `pautas/`, menos os descartados) já ocupe. Meta do dia: 5 a 6 posts. Na rodada das 17h10, se não
+  sobrar horário hoje, use os de amanhã cedo (09h00 e 11h00).
+- Arquivo: `pautas/radar_{hoje}_gg_explica.json`. Se ele já existe, **acrescente** os posts novos à lista
+  `videos` (ids únicos, nunca apague os que estão lá). `status: "rascunho"`, `serie: "radar"`.
+- **Nada repetido.** Antes de escrever, leia os títulos e as legendas dos posts dos últimos 3 dias em
+  `pautas/` (inclusive os já publicados). Um assunto já coberto só volta se houver fato novo de verdade,
+  e aí o post é uma atualização ("AGORA É OFICIAL", "MUDOU"). Notícias do mesmo assunto viram um post só.
+  Se a notícia for forte e oficial (trailer, data, preço, edição), ela vai no **primeiro horário livre**.
   Estrutura: fato no gancho → selo e fonte → o que muda para quem está no Brasil (preço em reais,
   horário de Brasília) → o que ainda não se sabe → pergunta.
 - Se não houve: mantenha a pauta da semana; só corrija o que a notícia de hoje tornou errado.
@@ -63,6 +70,13 @@ Atualize a coluna `virou` (sim, não, aberto).
   isso.** Se só a imprensa disse, é RELATO com o veículo como fonte; se várias fontes sérias citam um
   anúncio oficial que você não conseguiu abrir, use RELATO e escreva em `notas_revisao`:
   "confira <link oficial> e troque para CONFIRMADO" (o Vinicius vê isso na aprovação).
+- **Cada post único.** Formato diferente do post anterior (notícia, guia "o que fazer", dado/tabela,
+  comparação, rumor ou confirmado, contagem: veja `docs/guia_de_estilo.md`), fórmula de capa diferente
+  e imagens próprias. Imagem **sempre** por `"busca:<personagem lugar ação>"`, com palavras diferentes em
+  cada slide e em cada post (veja as tags em `clipes/catalogo.json`: jason, lucia, casal, vice city,
+  leonida keys, port gellhorn, grassrivers, ambrosia, praia, carro, assalto, telhado, cartão-postal,
+  paisagem, boobie ike, cal hampton, raul bautista...). Nunca caminho direto de arquivo: o validador
+  bloqueia imagem repetida, e a busca já evita as imagens dos outros posts. O kit gira o modelo da capa.
 - Visual de revista: gancho com `"estilo": "manchete"` e `fundo_clipe` com `"busca:..."` (cena forte
   da biblioteca que combine com a notícia), `tela_cheia` para mostrar um lugar, `midia` com
   `midia_animacao: "aproximar"` e `midia_destaque` para apontar um detalhe. A primeira frase falada é

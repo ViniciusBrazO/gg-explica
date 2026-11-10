@@ -30,6 +30,14 @@ com bom senso e deixe tudo pronto para o Vinicius aprovar pelo celular. Hoje é 
 > mesmo post sozinho e o publica 3 horas depois. Nada de `midia`/`tela_cheia` nesse modo: imagem só por
 > `fundo_clipe` com `"busca:..."`.
 
+
+> **Antes de tudo:** leia os posts de hoje e de ontem em `pautas/`. Se o assunto desta notícia já tem
+> post (rascunho, aprovado ou publicado), não crie outro: só acrescente o fato novo ao rascunho que
+> existe, se ainda for rascunho. Senão, crie **um** post no primeiro horário livre de hoje (09h00, 11h00,
+> 12h30, 15h00, 17h00, 19h00, 21h00) a pelo menos 60 minutos de agora, no arquivo
+> `pautas/radar_{hoje}_gg_explica.json` (acrescente à lista, não apague nada). Imagens só por `busca:`
+> com palavras diferentes das dos outros posts.
+
 ## Estilo
 
 Siga `docs/guia_de_estilo.md` em tudo que escrever: formato do post, capa (até 9 palavras, uma

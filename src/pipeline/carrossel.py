@@ -33,11 +33,12 @@ TEXTO_CONVITE = {"pt": "Salva e manda pra quem vai jogar", "es": "Guárdalo y co
 SEGUNDOS_POR_SLIDE = 2.6
 
 
-def _imagem_da_cena(cena, trabalho: Path, i: int) -> Path | None:
+def _imagem_da_cena(cena, trabalho: Path, i: int, evitar: set | None = None, semente: str = "") -> Path | None:
     origem = cena.midia or cena.fundo_clipe
     if not origem:
         return None
-    escolha = resolver_midia(origem, cena.midia_inicio if cena.midia else cena.fundo_inicio)
+    escolha = resolver_midia(origem, cena.midia_inicio if cena.midia else cena.fundo_inicio,
+                             evitar=evitar, semente=semente)
     if escolha is None or not escolha.caminho.exists():
         return None
     if escolha.caminho.suffix.lower() in EXT_IMAGEM:
@@ -90,7 +91,7 @@ def modelo_da_marca(marca: Marca) -> str:
 
 
 def montar_slide(marca: Marca, video: Video, i: int, foto: Path | None, *, vertical: bool = False,
-                 mostrar_arraste: bool = True) -> str:
+                 mostrar_arraste: bool = True, estilo_capa: str = "base") -> str:
     cena = video.cenas[i].model_dump()
     for campo in ("titulo", "texto", "kicker", "fonte", "rodape"):
         cena[campo] = preencher_variaveis(cena[campo], video.data)
@@ -106,6 +107,7 @@ def montar_slide(marca: Marca, video: Video, i: int, foto: Path | None, *, verti
         serie=marca.nome_serie(video.serie), cena=cena, papel=papel, n=i + 1, total=len(video.cenas),
         itens=[dividir_item(x) for x in cena["itens"]],
         foto=foto.resolve().as_uri() if foto else "", foco=round(video.cenas[i].foco_x * 100),
+        estilo_capa=estilo_capa,
         foco_y=_foco_vertical(foto),
         logo=logo.resolve().as_uri() if logo.exists() else "", idioma=idioma,
         largura=LARGURA, altura=ALTURA_REEL if vertical else ALTURA, mostrar_arraste=mostrar_arraste,
@@ -180,22 +182,33 @@ def renderizar_carrossel(marca: Marca, video: Video, pasta_saida: Path, com_reel
     trabalho = pasta / "_trabalho"
     trabalho.mkdir(parents=True)
     fundo_marca = marca.pasta_assets / "fundo.png"
-    slides, fotos = [], []
+    from . import variedade
+    evitar = variedade.imagens_de_outros(video)      # cada post com imagens próprias
+    estilo = variedade.estilo_capa(video)
+    slides, fotos, usadas = [], [], []
     with desenhista() as d:
         for i, cena in enumerate(video.cenas):
-            foto = _imagem_da_cena(cena, trabalho, i)
+            foto = _imagem_da_cena(cena, trabalho, i, evitar=evitar | set(usadas), semente=video.id)
+            if foto is not None:
+                try:
+                    usadas.append(foto.resolve().relative_to(RAIZ.resolve()).as_posix())
+                except ValueError:
+                    pass
             if foto is None and fotos and papel_do_slide(video, i) == "final":
                 foto = fotos[0]      # o slide final repete a imagem da capa, desfocada
             foto = foto or (fundo_marca if fundo_marca.exists() else None)
             fotos.append(foto)
             destino = pasta / f"{i + 1:02d}.jpg"
-            _fotografar(d, montar_slide(marca, video, i, foto), trabalho / f"slide_{i:02d}.html", destino, ALTURA)
+            _fotografar(d, montar_slide(marca, video, i, foto, estilo_capa=estilo),
+                        trabalho / f"slide_{i:02d}.html", destino, ALTURA)
             slides.append(destino)
         capa = None
         if com_reel and modelo_da_marca(marca) != "classico":
             capa = pasta / "capa_reel.jpg"
-            _fotografar(d, montar_slide(marca, video, 0, fotos[0], vertical=True, mostrar_arraste=False),
+            _fotografar(d, montar_slide(marca, video, 0, fotos[0], vertical=True, mostrar_arraste=False,
+                                        estilo_capa=estilo),
                         trabalho / "capa_reel.html", capa, ALTURA_REEL)
+    variedade.registrar(video, usadas, estilo)
     if com_reel:
         reel_dos_slides(slides, capa, pasta / "reel.mp4")
     shutil.rmtree(trabalho)

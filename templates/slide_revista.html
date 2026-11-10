@@ -56,6 +56,21 @@ mark { background: none; color: var(--destaque); }
   text-transform: uppercase; color: var(--destaque); }
 .p-capa .arraste b { letter-spacing: -.1em; margin-left: .3em; }
 
+/* variações da capa (o kit gira entre elas para nenhum post ficar igual ao anterior) */
+.p-capa.capa-topo .veu { background: linear-gradient(180deg, rgba(11,13,18,.96) 0%, rgba(11,13,18,.86) 30%,
+    rgba(11,13,18,.25) 56%, rgba(11,13,18,0) 70%, rgba(11,13,18,.55) 100%); }
+.p-capa.capa-topo .bloco { top: {{ 230 if altura > 1400 else 150 }}px; bottom: auto; justify-content: flex-start;
+  align-items: flex-start; text-align: left; }
+.p-capa.capa-faixa .bloco { align-items: flex-start; text-align: left; }
+.p-capa.capa-faixa h1 { border-left: 16px solid var(--destaque); padding-left: 30px; }
+.p-capa.capa-faixa .sub { padding-left: 46px; }
+.p-capa.capa-faixa .arraste { padding-left: 46px; }
+.p-capa.capa-impacto .veu { background: radial-gradient(ellipse at 50% 72%, rgba(11,13,18,.9) 0%,
+    rgba(11,13,18,.55) 45%, rgba(11,13,18,.2) 75%), linear-gradient(180deg, rgba(11,13,18,.5) 0%, rgba(11,13,18,0) 18%); }
+.p-capa.capa-impacto .bloco { bottom: auto; top: 50%; transform: translateY(-38%); justify-content: center; }
+.p-capa.capa-impacto h1 { font-size: calc({{ 116 if altura > 1400 else 96 }}px * var(--escala)); }
+.p-capa.capa-impacto h1 mark { display: block; font-size: 1.7em; line-height: .92; margin: .06em 0; }
+
 /* ---------- fato: imagem inteira, título colorido e texto embaixo (estilo IGN) ---------- */
 .p-fato .bloco { position: absolute; left: 60px; right: 60px; bottom: 76px; max-height: 640px;
   display: flex; flex-direction: column; justify-content: flex-end; }
@@ -104,7 +119,7 @@ mark { background: none; color: var(--destaque); }
 .p-final .convite { margin-top: 16px; font-weight: 600; font-size: 36px; color: rgba(244,246,248,.8); }
 </style>
 </head>
-<body class="p-{{ papel }}{% if papel in ('lista', 'tabela', 'final') %} desfocada{% endif %}">
+<body class="p-{{ papel }} capa-{{ estilo_capa|default('base') }}{% if papel in ('lista', 'tabela', 'final') %} desfocada{% endif %}">
 {% if foto %}<div class="foto" style="background-image: url('{{ foto }}')"></div>{% endif %}
 <div class="veu"></div>
 <p class="assinatura">{{ arroba|replace('@', '') }}</p>

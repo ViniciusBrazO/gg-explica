@@ -59,6 +59,8 @@ def checar_pauta(marca: Marca, video: Video) -> tuple[list[str], list[str]]:
     if video.formato != "carrossel" and so_carrossel():
         bloqueios.append("sem voz configurada (conteudo.so_carrossel em config/automacao.yaml): "
                          "faça este post como carrossel")
+    from .variedade import repetidas
+    bloqueios += repetidas(video)
     b, a = _checar_selos_e_midia(marca, video)
     bloqueios += b
     avisos += a
