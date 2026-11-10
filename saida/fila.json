@@ -220,8 +220,8 @@
     "produtos_para_marcar": [],
     "media_id": "",
     "permalink": "",
-    "erro": "",
-    "tentativas": 0
+    "erro": "HTTP 400: {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}}",
+    "tentativas": 1
   },
   {
     "id": "radar_2026-11-10_maior_prevenda",
@@ -232,10 +232,10 @@
     "quando": "2026-11-10T18:40:00-03:00",
     "plataforma": "facebook",
     "tipo": "reel",
-    "status": "pendente",
+    "status": "publicado",
     "produtos_para_marcar": [],
-    "media_id": "",
-    "permalink": "",
+    "media_id": "1852980956141061",
+    "permalink": "https://www.facebook.com/reel/1852980956141061",
     "erro": "",
     "tentativas": 0
   },
@@ -248,10 +248,10 @@
     "quando": "2026-11-10T19:00:00-03:00",
     "plataforma": "instagram",
     "tipo": "carrossel",
-    "status": "pendente",
+    "status": "publicado",
     "produtos_para_marcar": [],
-    "media_id": "",
-    "permalink": "",
+    "media_id": "18174747460460179",
+    "permalink": "https://www.instagram.com/p/Dfk77ovFHWh/",
     "erro": "",
     "tentativas": 0
   },
