@@ -21,6 +21,9 @@ radar:
   alerta:
     fontes_diferentes: 3
     janela_horas: 3
+    # Assunto muito relevante: uma fonte séria basta, e o post sai na hora (ignora os horários base).
+    palavras_quentes: [trailer, adiad, delay, data de lançamento, release date, preço, price, edição, edition,
+                       gameplay, pc, oficial, official, revela, reveals, anuncia, announces, vaz, leak]
   acionar_claude_no_alerta: true   # escreve o RADAR do assunto e manda a prévia para aprovação
 
 # ---------------------------------------------------------------- biblioteca oficial (sem jogar)
@@ -74,6 +77,9 @@ claude:
 
 # ---------------------------------------------------------------- aprovação pelo Telegram
 telegram:
+  # automatica: o kit agenda sozinho cada rascunho sem bloqueio e só avisa (✍️ Ajustar / 🗑 Cancelar até
+  # sair, e o link quando sai). manual: cada post espera o ✅ no Telegram.
+  aprovacao: automatica
   # O ciclo manda a prévia de cada rascunho de hoje e de amanhã assim que ele fica pronto. A prévia já
   # sai com a voz de verdade, que fica em cache: aprovar não gasta crédito de voz de novo.
   enviar_dias_a_frente: 1

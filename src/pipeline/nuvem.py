@@ -70,6 +70,8 @@ def motivos_para_pesado(hoje: date | None = None, telegram=None, agora: datetime
                     info = pendentes.get(tgmod._token(arq, v.id), {})
                     if info.get("impressao") != tgmod._impressao(v):
                         motivos.append(f"prévia de {v.id}")
+                    elif info.get("situacao") == "aguardando" and tgmod.modo_aprovacao() == "automatica":
+                        motivos.append(f"agendar {v.id}")
                     elif info.get("situacao") == "bloqueado":     # reconfere de 3 em 3 horas
                         conferido = info.get("conferido")
                         if not conferido or agora - datetime.fromisoformat(conferido) >= timedelta(hours=3):

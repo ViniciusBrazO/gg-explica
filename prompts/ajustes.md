@@ -13,10 +13,12 @@ Hoje é {data de hoje}. Pelo Telegram, o Vinicius pediu ajustes em alguns vídeo
 6. Responda em até 3 linhas o que mudou em cada vídeo.
 
 
+> **Orientações do Vinicius:** leia `saida/telegram/orientacoes.md` (se existir) e siga tudo o que está lá: são as respostas dele no Telegram e valem para todos os posts.
+
 > **Formato:** se `conteudo.so_carrossel` estiver `true` em `config/automacao.yaml`, todo post (inclusive
 > o RADAR e o alerta) é `"formato": "carrossel"` no modelo revista, sem `narracao`, de 4 a 7 slides
 > (gancho/capa, fatos com selo, `lista` ou `lista` com `"estilo": "tabela"`, `cta`). O kit gera o Reel do
-> mesmo post sozinho e o publica 3 horas depois. Nada de `midia`/`tela_cheia` nesse modo: imagem só por
+> mesmo post sozinho: o Reel sai no horário e o carrossel 2 horas depois. Nada de `midia`/`tela_cheia` nesse modo: imagem só por
 > `fundo_clipe` com `"busca:..."`.
 
 ## Estilo

@@ -173,10 +173,10 @@ def test_carrossel_entra_na_fila_com_o_reel_depois(monkeypatch, tmp_path):
         "legenda_post": "x", "cenas": [{"tipo": "gancho", "titulo": "a"}, {"tipo": "cta", "titulo": "b", "texto": "c"}]})
     producao.enfileirar_carrossel(carregar_marca("gg_explica"), video, pasta, "legenda", [])
     itens = {(i.id, i.plataforma, i.tipo): i for i in fila.carregar()}
-    assert ("guia", "instagram", "carrossel") in itens
-    reel = itens[("guia_reel", "instagram", "reel")]
-    assert reel.quando.startswith("2026-11-10T15:30") and reel.capa.endswith("capa_reel.jpg")
+    reel = itens[("guia_reel", "instagram", "reel")]       # o Reel sai no horário do post
+    assert reel.quando.startswith("2026-11-10T12:30") and reel.capa.endswith("capa_reel.jpg")
     assert ("guia_reel", "facebook", "reel") in itens
+    assert itens[("guia", "instagram", "carrossel")].quando.startswith("2026-11-10T14:30")
 
 
 def test_carrossel_sem_pagina_vai_para_o_lote(monkeypatch, tmp_path):

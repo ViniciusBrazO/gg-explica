@@ -4,6 +4,20 @@ Instrução fixa para toda criação de post (pauta semanal, radar do dia, alert
 partir do estudo das páginas grandes de games em 10/11/2026. Copiamos **o jeito** de fazer, nunca
 o conteúdo, a imagem ou o texto de outra página.
 
+## 0. Regra fixa do Vinicius (10/11/2026): cada post é único
+
+- **Nenhum post igual ao outro:** imagens oficiais diferentes em cada post e em cada slide, capa diferente
+  (o kit gira 4 modelos: base, topo, faixa, impacto), fórmula de manchete diferente, formato diferente
+  do post anterior e assunto que ainda não saiu nos últimos 3 dias.
+- Imagem sempre por `"busca:<personagem lugar ação>"` com palavras novas; o kit evita as imagens dos
+  outros posts dos últimos 14 dias e o validador bloqueia imagem repetida.
+- **Notícia muito relevante sai na hora** (trailer, data, adiamento, preço, edição, gameplay, PC, anúncio
+  oficial): ignora os horários base, post curto, `horario` = agora.
+- Muitos posts por dia: 5 a 6 de notícia (radar 3 vezes por dia) mais a pauta da semana.
+- **Reel primeiro:** o Reel do post sai no horário; o carrossel, 2 horas depois.
+- O kit publica sozinho e avisa no Telegram; as respostas do Vinicius ficam em
+  `saida/telegram/orientacoes.md` e valem para todos os próximos posts.
+
 ## 1. O que as páginas grandes fazem
 
 | Página | Seguidores (10/11) | O que funciona lá |
@@ -38,7 +52,7 @@ o conteúdo, a imagem ou o texto de outra página.
 ## 2. Os formatos da GG Explica
 
 Todos saem no modelo **revista** do carrossel (`templates/slide_revista.html`). Cada carrossel
-também gera `reel.mp4` e `capa_reel.jpg`, para postar a versão em Reel 2 a 4 horas depois.
+também gera `reel.mp4` e `capa_reel.jpg`: o Reel sai no horário do post e o carrossel 2 horas depois.
 
 | Formato | Como montar na pauta | Exemplo de capa |
 | --- | --- | --- |

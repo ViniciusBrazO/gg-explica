@@ -40,29 +40,30 @@ def automatico_em(plataforma: str, marca_id: str) -> bool:
     return False
 
 
-HORAS_ATE_O_REEL = 3     # a versão em Reel do carrossel sai 2 a 4 horas depois (guia de estilo)
+HORAS_ENTRE_REEL_E_CARROSSEL = 2   # o Reel sai no horário do post (é o que leva a quem não segue)
 
 
 def enfileirar_carrossel(marca: Marca, video: Video, pasta: Path, legenda: str, produtos: list[str]) -> None:
-    """Com a Página ligada (META_TOKEN + FB_PAGE_ID), o carrossel e o Reel dele entram na fila da API;
-    sem ela, vão para o lote manual. TikTok sempre no lote."""
+    """Com a Página ligada (META_TOKEN + FB_PAGE_ID), o Reel do post sai no horário (Instagram e Página
+    do Facebook) e o carrossel 2 horas depois; sem ela, tudo vai para o lote manual. TikTok sempre no lote."""
     from .meta import pode_hospedar
     quando = horario_publicacao(video)
     if "instagram" in video.plataformas:
         if pode_hospedar(marca.id):
-            enfileirar_instagram(Item(id=video.id, marca=marca.id, video=str(pasta), capa=str(pasta / "01.jpg"),
-                                      legenda=legenda, quando=quando.isoformat(), tipo="carrossel",
-                                      produtos_para_marcar=produtos))
             reel = pasta / "reel.mp4"
+            depois = quando
             if reel.exists():
-                depois = (quando + timedelta(hours=HORAS_ATE_O_REEL)).isoformat()
                 capa = pasta / "capa_reel.jpg"
                 for plataforma in ("instagram", "facebook"):
                     if automatico_em(plataforma, marca.id):
                         enfileirar_instagram(Item(id=f"{video.id}_reel", marca=marca.id, video=str(reel),
                                                   capa=str(capa) if capa.exists() else "", legenda=legenda,
-                                                  quando=depois, plataforma=plataforma,
+                                                  quando=quando.isoformat(), plataforma=plataforma,
                                                   produtos_para_marcar=produtos))
+                depois = quando + timedelta(hours=HORAS_ENTRE_REEL_E_CARROSSEL)
+            enfileirar_instagram(Item(id=video.id, marca=marca.id, video=str(pasta), capa=str(pasta / "01.jpg"),
+                                      legenda=legenda, quando=depois.isoformat(), tipo="carrossel",
+                                      produtos_para_marcar=produtos))
         else:
             exportar_lote("instagram", marca, video, pasta, legenda, produtos)
     if "tiktok" in video.plataformas:

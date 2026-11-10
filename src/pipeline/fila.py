@@ -100,6 +100,20 @@ def enfileirar_instagram(item: Item) -> None:
     salvar(itens)
 
 
+def cancelar(marca: str, video_id: str) -> int:
+    """Tira da fila o que ainda não saiu deste post (carrossel e Reel). Devolve quantos itens saíram."""
+    itens = carregar()
+    ficam = [i for i in itens if not (i.marca == marca and i.status == "pendente"
+                                      and i.id in (video_id, f"{video_id}_reel"))]
+    salvar(ficam)
+    return len(itens) - len(ficam)
+
+
+def _titulo(legenda: str) -> str:
+    linhas = [l for l in legenda.splitlines() if l.strip() and not l.startswith("#publi")]
+    return (linhas[0] if linhas else "")[:120]
+
+
 def exportar_lote(plataforma: str, marca: Marca, video: Video, origem: Path, legenda: str,
                   produtos: list[str]) -> Path:
     """Copia o vídeo (ou os slides do carrossel) e a legenda para saida/lotes/<plataforma>/<dia>/

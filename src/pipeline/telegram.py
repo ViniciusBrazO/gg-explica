@@ -1,4 +1,11 @@
-"""Aprovação pelo celular: o kit manda cada prévia no Telegram com três botões.
+"""Aprovação pelo celular.
+
+Modo automático (`telegram.aprovacao: automatica` em config/automacao.yaml, o padrão): o kit agenda
+sozinho cada rascunho sem bloqueio e avisa no Telegram com os slides e dois botões, ✍️ Ajustar e
+🗑 Cancelar, que valem até o post sair. Quando sai, chega o link. Resposta a esse aviso vira
+orientação para os próximos posts (saida/telegram/orientacoes.md, lida pelo Claude).
+
+Modo manual (`aprovacao: manual`): o kit manda cada prévia com três botões.
 
   ✅ Aprovar   -> renderiza a versão final (voz já em cache), agenda o Instagram e monta o lote do TikTok
   ✍️ Ajustar   -> você responde dizendo o que mudar; o Claude refaz e manda de novo
@@ -29,6 +36,21 @@ ARQ_PENDENTES = PASTA / "pendentes.json"
 ARQ_OFFSET = PASTA / "offset.txt"
 MARCADOR_AJUSTE = "AJUSTE PEDIDO:"
 ARQ_CHAT = RAIZ / "saida" / "telegram" / "chat_id.txt"
+ARQ_ORIENTACOES = RAIZ / "saida" / "telegram" / "orientacoes.md"
+
+
+def modo_aprovacao() -> str:
+    from .radar import config
+    return (config().get("telegram") or {}).get("aprovacao", "manual")
+
+
+def guardar_orientacao(texto: str) -> None:
+    ARQ_ORIENTACOES.parent.mkdir(parents=True, exist_ok=True)
+    novo = not ARQ_ORIENTACOES.exists()
+    with ARQ_ORIENTACOES.open("a", encoding="utf-8") as f:
+        if novo:
+            f.write("# Orientações do Vinicius (respostas no Telegram). Valem para todos os próximos posts.\n\n")
+        f.write(f"- {datetime.now():%d/%m/%Y %H:%M}: {texto.strip()}\n")
 
 
 def chat_salvo() -> str:
@@ -141,7 +163,9 @@ def enviar_para_aprovacao(tg: Telegram, dias_a_frente: int = 1, hoje: Optional[d
             tok, imp = _token(arq, v.id), _impressao(v)
             anterior = pendentes.get(tok, {})
             ja_avisado = anterior.get("impressao") == imp and anterior.get("situacao") == "bloqueado"
-            if anterior.get("impressao") == imp and not ja_avisado:
+            automatico = modo_aprovacao() == "automatica"
+            esperando_ok = automatico and anterior.get("situacao") == "aguardando"   # prévia do modo manual
+            if anterior.get("impressao") == imp and not ja_avisado and not esperando_ok:
                 continue
             bloqueios, avisos = checar_pauta(marca, v)
             if MARCADOR_AJUSTE in (v.notas_revisao or ""):
@@ -152,10 +176,23 @@ def enviar_para_aprovacao(tg: Telegram, dias_a_frente: int = 1, hoje: Optional[d
                 pendentes[tok] = {"pauta": str(arq), "video": v.id, "impressao": imp, "situacao": "bloqueado",
                                   "conferido": datetime.now().isoformat(timespec="minutes")}
                 continue
-            r = produzir(marca, v, previa=True)
+            if automatico:
+                v.status = "aprovado"
+                r = produzir(marca, v, previa=False)
+                if r.arquivo is None:
+                    v.status = "rascunho"
+                    continue
+                pauta.salvar(arq)
+            else:
+                r = produzir(marca, v, previa=True)
             if r.arquivo is None:
                 continue
             corpo = f"{marca.nome_serie(v.serie)} · {v.data:%d/%m} às {v.horario:%H:%M}"
+            if automatico:
+                reel = r.arquivo.is_dir() and (r.arquivo / "reel.mp4").exists()
+                corpo = ("🗓️ Agendado, sai sozinho: " + (f"Reel às {v.horario:%H:%M} e carrossel 2 h depois"
+                         if reel else f"{v.horario:%H:%M}") + f" de {v.data:%d/%m}.\n"
+                         "Quer mudar algo? ✍️ Ajustar (o Claude refaz) ou 🗑 Cancelar, até a hora de sair.")
             links = sorted({c.fonte_url for c in v.cenas if c.fonte_url})
             if links:   # primeiro as fontes: a legenda do Telegram corta depois de 1024 caracteres
                 corpo += "\n\nConfira as fontes:\n" + "\n".join(links)
@@ -165,12 +202,16 @@ def enviar_para_aprovacao(tg: Telegram, dias_a_frente: int = 1, hoje: Optional[d
             botoes = [[{"text": "✅ Aprovar", "callback_data": f"a|{tok}"},
                        {"text": "✍️ Ajustar", "callback_data": f"r|{tok}"},
                        {"text": "🗑 Descartar", "callback_data": f"d|{tok}"}]]
+            if automatico:
+                botoes = [[{"text": "✍️ Ajustar", "callback_data": f"r|{tok}"},
+                           {"text": "🗑 Cancelar", "callback_data": f"c|{tok}"}]]
             if r.arquivo.is_dir():    # carrossel: os slides primeiro, depois o texto com os botões
                 tg.album(sorted(r.arquivo.glob("*.jpg")))
                 msg = tg.texto(corpo, reply_markup=json.dumps({"inline_keyboard": botoes}))
             else:
                 msg = tg.video(r.arquivo, corpo, botoes)
-            pendentes[tok] = {"pauta": str(arq), "video": v.id, "impressao": imp, "situacao": "aguardando",
+            pendentes[tok] = {"pauta": str(arq), "video": v.id, "impressao": _impressao(v),
+                              "situacao": "agendado" if automatico else "aguardando",
                               "message_id": msg.get("message_id"), "enviado": datetime.now().isoformat()}
             enviados += 1
     _salvar(ARQ_PENDENTES, pendentes)
@@ -209,7 +250,19 @@ def processar_respostas(tg: Telegram, produzir=None) -> list[str]:
             if v is None:
                 tg.responder_botao(cb["id"], "O vídeo não está mais na pauta")
                 continue
-            if v.status != "rascunho":      # prévia antiga de um post já aprovado, descartado ou publicado
+            if acao in ("r", "c") and info.get("situacao") == "agendado" and v.status in ("aprovado", "renderizado"):
+                from .fila import cancelar
+                cancelar(pauta.marca, v.id)                 # sai da fila antes de ir ao ar
+                v.status = "rascunho" if acao == "r" else "descartado"
+                pauta.salvar(arq)
+                if acao == "c":
+                    info["situacao"] = "descartado"
+                    tg.responder_botao(cb["id"], "Cancelado: não vai ao ar")
+                    if info.get("message_id"):
+                        tg.tirar_botoes(info["message_id"])
+                    feito.append(f"cancelado {v.id}")
+                    continue
+            elif v.status != "rascunho":      # prévia antiga de um post já aprovado, descartado ou publicado
                 tg.responder_botao(cb["id"], f"Esse post já está {v.status}; nada mudou")
                 continue
             marca = carregar_marca(pauta.marca)
@@ -246,6 +299,10 @@ def processar_respostas(tg: Telegram, produzir=None) -> list[str]:
                 continue
             esperando = [(t, i) for t, i in pendentes.items() if i.get("situacao") == "aguardando_nota"]
             if not esperando:
+                guardar_orientacao(texto)
+                tg.texto("Anotado ✅ Vale para os próximos posts. (Post que já saiu se edita no app: "
+                         "a API do Instagram não muda post publicado.)")
+                feito.append("orientação anotada")
                 continue
             tok, info = esperando[-1]
             arq, pauta, v = _achar_video(info)

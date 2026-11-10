@@ -30,6 +30,7 @@ concurrency:
 
 permissions:
   contents: write
+  actions: write            # rodada leve que acha notícia quente chama uma rodada pesada na hora
 
 env:
   TZ: America/Sao_Paulo
@@ -126,6 +127,12 @@ jobs:
             telegram-teste) paginas telegram teste ;;
             simular) paginas meta conferir --marca gg_explica && paginas publicar --simular ;;
           esac
+
+      - name: Notícia quente numa rodada leve? Chama a rodada pesada agora
+        if: always() && steps.plano.outputs.pesado != 'true' && hashFiles('saida/radar/alertas_pendentes.json') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run kit.yml -f tarefa=ciclo && echo "rodada pesada chamada para a notícia quente"
 
       # ---------------------------------------------------------------- guardar
       - name: Guardar o estado no repositório

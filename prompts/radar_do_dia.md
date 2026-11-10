@@ -9,10 +9,12 @@ Você é o editor da página **GG Explica** (games explicados em 1 minuto; GTA 6
 Hoje é {data de hoje}. Prepare o Radar do dia e ajuste a pauta da semana.
 
 
+> **Orientações do Vinicius:** leia `saida/telegram/orientacoes.md` (se existir) e siga tudo o que está lá: são as respostas dele no Telegram e valem para todos os posts.
+
 > **Formato:** se `conteudo.so_carrossel` estiver `true` em `config/automacao.yaml`, todo post (inclusive
 > o RADAR e o alerta) é `"formato": "carrossel"` no modelo revista, sem `narracao`, de 4 a 7 slides
 > (gancho/capa, fatos com selo, `lista` ou `lista` com `"estilo": "tabela"`, `cta`). O kit gera o Reel do
-> mesmo post sozinho e o publica 3 horas depois. Nada de `midia`/`tela_cheia` nesse modo: imagem só por
+> mesmo post sozinho: o Reel sai no horário e o carrossel 2 horas depois. Nada de `midia`/`tela_cheia` nesse modo: imagem só por
 > `fundo_clipe` com `"busca:..."`.
 
 ## 1. Leia antes
@@ -61,7 +63,9 @@ Atualize a coluna `virou` (sim, não, aberto).
 - **Nada repetido.** Antes de escrever, leia os títulos e as legendas dos posts dos últimos 3 dias em
   `pautas/` (inclusive os já publicados). Um assunto já coberto só volta se houver fato novo de verdade,
   e aí o post é uma atualização ("AGORA É OFICIAL", "MUDOU"). Notícias do mesmo assunto viram um post só.
-  Se a notícia for forte e oficial (trailer, data, preço, edição), ela vai no **primeiro horário livre**.
+  **Notícia muito relevante** (trailer, data, adiamento, preço, edição, gameplay, versão de PC, anúncio
+  oficial): ignore os horários base e marque `horario` = a hora atual, para sair **agora**; faça esse
+  post primeiro, curto (4 ou 5 slides), e só depois os outros.
   Estrutura: fato no gancho → selo e fonte → o que muda para quem está no Brasil (preço em reais,
   horário de Brasília) → o que ainda não se sabe → pergunta.
 - Se não houve: mantenha a pauta da semana; só corrija o que a notícia de hoje tornou errado.

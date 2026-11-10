@@ -113,6 +113,22 @@ def cmd_renderizar(args) -> int:
     return 0
 
 
+def avisar_publicado(item) -> None:
+    """Aviso no Telegram com o link; a resposta vira orientação para os próximos posts."""
+    try:
+        from .fila import _titulo
+        from .telegram import Telegram
+        tg = Telegram.do_ambiente()
+        if tg is None:
+            return
+        rede = {"instagram": "Instagram", "facebook": "Facebook", "youtube": "YouTube"}.get(item.plataforma, item.plataforma)
+        tipo = "Carrossel" if item.tipo == "carrossel" else "Reel"
+        tg.texto(f"✅ No ar ({tipo} no {rede}): {_titulo(item.legenda)}\n{item.permalink}\n\n"
+                 "Quer mudar algo? Responda esta mensagem dizendo o quê: eu anoto e vale para os próximos posts.")
+    except Exception as e:      # aviso nunca derruba a publicação
+        print(f"  aviso no Telegram falhou: {e}")
+
+
 def publicar_reel_com_capa(pub, item) -> dict:
     """Usa a capa feita para o Reel (capa_reel.jpg) quando dá para hospedá-la; senão, um quadro do vídeo."""
     from .meta import ErroMeta, hospedeiro_da_marca, pode_hospedar
@@ -193,6 +209,7 @@ def cmd_publicar(args) -> int:
             item.status, item.media_id, item.permalink = "publicado", res["media_id"], res["permalink"]
             publicados += 1
             print(f"  no ar: {item.permalink}")
+            avisar_publicado(item)
             if item.produtos_para_marcar:
                 print(f"  marque no app: {', '.join(item.produtos_para_marcar)}")
         except (ErroInstagram, OSError, RuntimeError) as e:

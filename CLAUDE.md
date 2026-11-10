@@ -39,7 +39,21 @@ Estas regras protegem as contas e o dono do projeto. Nenhuma tarefa justifica qu
 6. **Sem marca de terceiros como se fosse parceira.** Nada de "parceria oficial" ou uso de logo.
 7. **Segredos só no `.env`.** Nunca grave chave ou token em código, log ou pauta.
 
+8. **Cada post é único** (pedido fixo do Vinicius): imagens oficiais diferentes em cada post e slide,
+   capa, manchete, formato e assunto diferentes dos posts próximos (`src/pipeline/variedade.py` e
+   `docs/guia_de_estilo.md`, seção 0). Notícia muito relevante sai na hora, fora dos horários base.
+
 `config/regras.yaml` tem as frases bloqueadas; `paginas validar` aplica tudo isso.
+
+## Modo nuvem (como roda hoje)
+
+Repositório privado `ViniciusBrazO/gg-explica`, `.github/workflows/kit.yml` (GitHub Actions, sem PC):
+ciclo a cada 30 min (08h-00h30), radar do Claude às 07h10, 12h10 e 17h10, pauta na segunda, métricas
+às 23h30. `telegram.aprovacao: automatica`: o kit agenda sozinho todo rascunho sem bloqueio, avisa no
+Telegram (✍️ Ajustar / 🗑 Cancelar até sair) e manda o link quando publica; respostas viram
+`saida/telegram/orientacoes.md`. Reel no horário, carrossel 2 h depois. Notícia quente numa rodada leve
+chama uma rodada pesada na hora. Segredos no GitHub: META_TOKEN_GG_EXPLICA, TELEGRAM_BOT_TOKEN,
+CLAUDE_CODE_OAUTH_TOKEN (chat do Telegram em `saida/telegram/chat_id.txt`).
 
 ## Como o projeto funciona
 

@@ -123,7 +123,9 @@ def alertas(noticias: list[Noticia], cfg_alerta: dict, agora: Optional[datetime]
     for g in grupos:
         oficiais = any(n.selo_sugerido == "confirmado" for n in g)
         serias = {n.dominio for n in g if n.selo_sugerido in ("confirmado", "relato")}
-        if oficiais or len(serias) >= cfg_alerta.get("fontes_diferentes", 3):
+        palavras = [p.lower() for p in cfg_alerta.get("palavras_quentes", [])]
+        quente = serias and any(p in n.titulo.lower() for n in g for p in palavras)   # trailer, data, preço...
+        if oficiais or quente or len(serias) >= cfg_alerta.get("fontes_diferentes", 3):
             quentes.append(g)
     return quentes
 

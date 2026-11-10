@@ -622,3 +622,51 @@ def test_aprovacao_pelo_telegram(tmp_path, monkeypatch):
     assert telegram.processar_respostas(tg, produzir=produzir) == ["aprovado radar_x"]
     assert P.carregar(arq).videos[0].status == "renderizado" and produzidos[-1] is False
     assert telegram.processar_respostas(tg, produzir=produzir) == []                   # offset guardado
+
+
+def test_modo_automatico_agenda_avisa_e_cancela(tmp_path, monkeypatch):
+    from datetime import date
+    from pipeline import fila, telegram
+    from pipeline.fila import Item
+    from pipeline.producao import Resultado
+    from pipeline.modelos import Pauta as P
+
+    monkeypatch.setattr(telegram, "modo_aprovacao", lambda: "automatica")
+    for nome, valor in (("PASTA", tmp_path), ("ARQ_PENDENTES", tmp_path / "p.json"), ("ARQ_OFFSET", tmp_path / "o.txt"),
+                        ("ARQ_ORIENTACOES", tmp_path / "orientacoes.md")):
+        monkeypatch.setattr(telegram, nome, valor)
+    monkeypatch.setattr(fila, "ARQUIVO_FILA", tmp_path / "fila.json")
+    arq = _pauta_telegram(tmp_path)
+    monkeypatch.setattr(telegram, "pautas_de_trabalho", lambda: [arq])
+    video_falso = tmp_path / "v.mp4"
+    video_falso.write_bytes(b"0")
+
+    def produzir(marca, v, previa=False, voz=None):
+        assert previa is False                       # automático: já é a versão final
+        v.status = "renderizado"
+        fila.enfileirar_instagram(Item(id=v.id, marca="gg_explica", video=str(video_falso), capa="",
+                                       legenda="TÍTULO\n\nx", quando="2026-11-05T19:00:00-03:00"))
+        return Resultado(video_falso, "Legenda montada", [])
+
+    tg = TelegramFalso()
+    assert telegram.enviar_para_aprovacao(tg, 1, hoje=date(2026, 11, 5), produzir=produzir) == 1
+    _, texto, botoes = tg.enviados[0]
+    assert "Agendado" in texto and [b["text"] for b in botoes[0]] == ["✍️ Ajustar", "🗑 Cancelar"]
+    assert P.carregar(arq).videos[0].status == "renderizado" and len(fila.carregar()) == 1
+    tok = botoes[0][1]["callback_data"].split("|")[1]
+
+    tg.fila = [{"update_id": 1, "callback_query": {"id": "c1", "data": f"c|{tok}", "message": {"chat": {"id": 42}}}},
+               {"update_id": 2, "message": {"chat": {"id": 42}, "text": "menos texto nos slides"}}]
+    assert telegram.processar_respostas(tg, produzir=produzir) == ["cancelado radar_x", "orientação anotada"]
+    assert P.carregar(arq).videos[0].status == "descartado" and fila.carregar() == []
+    assert "menos texto nos slides" in (tmp_path / "orientacoes.md").read_text(encoding="utf-8")
+
+
+def test_palavra_quente_com_uma_fonte_seria_vira_alerta():
+    from datetime import datetime, timezone
+    from pipeline.radar import Noticia, alertas
+    agora = datetime(2026, 11, 10, 18, 0, tzinfo=timezone.utc)
+    n = Noticia(titulo="GTA 6 ganha novo trailer", link="https://ign.com/a", fonte="IGN", dominio="ign.com",
+                publicada=agora.isoformat(), selo_sugerido="relato", consulta="GTA 6")
+    assert alertas([n], {"palavras_quentes": ["trailer"]}, agora) == [[n]]
+    assert alertas([n], {"palavras_quentes": []}, agora) == []
