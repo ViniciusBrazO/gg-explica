@@ -360,7 +360,9 @@ def renderizar_video(marca: Marca, video: Video, pasta_saida: Path, voz_forcada:
     from . import variedade
     from .catalogo import chave_uso
     evitar = variedade.imagens_de_outros(video)     # o Reel não repete imagem nem plano de outro post
+    estilo_capa = variedade.estilo_capa(video)
     usadas: list[str] = []
+    midia_capa: Optional[tuple[str, float]] = None
 
     with desenhista() as d:
         fundo_marca = marca.pasta_assets / "fundo.png"
@@ -387,6 +389,11 @@ def renderizar_video(marca: Marca, video: Video, pasta_saida: Path, voz_forcada:
                 if cena.fundo_clipe else None
             if fundo_midia is not None and fundo_midia.escolha is not None:
                 usadas.append(chave_uso(fundo_midia.escolha))
+            if midia_capa is None:          # a imagem da capa do Reel: a primeira cena com imagem
+                for m in (fundo_midia, midia):
+                    if m is not None:
+                        midia_capa = (str(m.caminho), m.inicio or 0.0)
+                        break
             broll = buscar_broll(cena.broll) if cena.broll and midia is None and fundo_midia is None else None
             anel, anel_inicio = None, 0.5
             if midia is not None and midia.destaque:
@@ -467,13 +474,14 @@ def renderizar_video(marca: Marca, video: Video, pasta_saida: Path, voz_forcada:
          "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart",
          "-t", f"{deslocamento:.3f}", str(final)], cwd=trabalho)
 
-    variedade.registrar(video, usadas, "reel")
+    variedade.registrar(video, usadas, estilo_capa)
     # capa: quadro do primeiro cartão, já com o fundo
     capa = final.with_suffix(".jpg")
     _ff(["-ss", "0.6", "-i", str(final), "-frames:v", "1", "-q:v", "2", str(capa)])
 
     info = {
         "video": final.name, "capa": capa.name, "duracao_s": round(deslocamento, 2),
+        "midia_capa": midia_capa, "estilo_capa": estilo_capa,
         "cenas": len(trechos), "palavras": len(palavras), "voz": type(getattr(voz, "voz", voz)).__name__,
     }
     (trabalho / "info.json").write_text(json.dumps(info, ensure_ascii=False, indent=2), encoding="utf-8")

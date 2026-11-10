@@ -214,3 +214,25 @@ def renderizar_carrossel(marca: Marca, video: Video, pasta_saida: Path, com_reel
         reel_dos_slides(slides, capa, pasta / "reel.mp4")
     shutil.rmtree(trabalho)
     return pasta
+
+
+def capa_do_reel(marca: Marca, video: Video, midia: tuple[str, float] | None, destino: Path,
+                 estilo_capa: str = "base") -> Path:
+    """Capa 1080x1920 do Reel narrado, no modelo revista (manchete, etiqueta, imagem oficial)."""
+    foto = None
+    if midia:
+        caminho, inicio = Path(midia[0]), float(midia[1] or 0)
+        if caminho.suffix.lower() in EXT_IMAGEM:
+            foto = caminho
+        elif caminho.exists():
+            foto = destino.with_name(destino.stem + "_quadro.jpg")
+            subprocess.run(["ffmpeg", "-nostdin", "-hide_banner", "-loglevel", "error", "-y", "-ss",
+                            f"{inicio + 0.5:.2f}", "-i", str(caminho), "-frames:v", "1", "-q:v", "2", str(foto)],
+                           check=True)
+    foto = foto or (marca.pasta_assets / "fundo.png")
+    with desenhista() as d:
+        _fotografar(d, montar_slide(marca, video, 0, foto, vertical=True, mostrar_arraste=False,
+                                    estilo_capa=estilo_capa),
+                    destino.with_suffix(".html"), destino, ALTURA_REEL)
+    destino.with_suffix(".html").unlink(missing_ok=True)
+    return destino

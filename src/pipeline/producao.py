@@ -98,11 +98,18 @@ def produzir(marca: Marca, video: Video, previa: bool = False, voz: Optional[str
     arquivo = pasta / info["video"]
     problemas = checar_arquivo(marca, arquivo)
     arquivo.with_suffix(".txt").write_text(legenda, encoding="utf-8")
+    capa = pasta / info["capa"]
+    try:                       # capa de verdade do Reel (vai como cover_url), não um quadro do vídeo
+        from .carrossel import capa_do_reel
+        capa = capa_do_reel(marca, video, info.get("midia_capa"), arquivo.with_name(arquivo.stem + "_capa.jpg"),
+                            info.get("estilo_capa", "base"))
+    except Exception as e:
+        problemas = list(problemas) + [f"capa do Reel não saiu ({e}); vai um quadro do vídeo"]
     if not previa:
         quando = horario_publicacao(video).isoformat()
         for plataforma in video.plataformas:
             if automatico_em(plataforma, marca.id):
-                enfileirar_instagram(Item(id=video.id, marca=marca.id, video=str(arquivo), capa=info["capa"],
+                enfileirar_instagram(Item(id=video.id, marca=marca.id, video=str(arquivo), capa=str(capa.resolve()),
                                           legenda=legenda, quando=quando, plataforma=plataforma,
                                           produtos_para_marcar=produtos))
             else:
