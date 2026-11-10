@@ -54,5 +54,13 @@
     "situacao": "agendado",
     "message_id": 125,
     "enviado": "2026-11-10T17:39:51.829393"
+  },
+  "c2cdfc9de5": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-10_gg_explica.json",
+    "video": "radar_2026-11-10_maior_prevenda",
+    "impressao": "20c7a244b752",
+    "situacao": "agendado",
+    "message_id": 141,
+    "enviado": "2026-11-10T18:20:15.536460"
   }
 }
