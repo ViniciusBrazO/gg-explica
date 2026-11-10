@@ -325,7 +325,8 @@ def cmd_telegram(args) -> int:
     from .radar import config
     from .telegram import Telegram, enviar_para_aprovacao, processar_respostas
 
-    if args.acao == "teste" and not os.environ.get("TELEGRAM_CHAT_ID"):
+    from .telegram import chat_salvo
+    if args.acao == "teste" and not os.environ.get("TELEGRAM_CHAT_ID") and not chat_salvo():
         import requests
         token = os.environ.get("TELEGRAM_BOT_TOKEN")
         if not token:
@@ -344,8 +345,18 @@ def cmd_telegram(args) -> int:
         if not chats:
             print("Mande um 'oi' para o seu bot no Telegram e rode de novo.")
             return 1
+        privados = {str(u["message"]["chat"]["id"]) for u in r.get("result", [])
+                    if "message" in u and u["message"]["chat"].get("type") == "private"}
+        if len(privados) == 1:     # um só chat falou com o bot: é o dono; grava e já testa
+            from .telegram import ARQ_CHAT, Telegram as Tg
+            cid = privados.pop()
+            ARQ_CHAT.parent.mkdir(parents=True, exist_ok=True)
+            ARQ_CHAT.write_text(cid, encoding="utf-8")
+            Tg(token.strip(), cid).texto("✅ GG Explica conectado. Daqui saem as prévias para aprovar.")
+            print(f"chat do dono gravado ({chats.get(cid, '')}) e mensagem de teste enviada")
+            return 0
         for cid, nome in chats.items():
-            print(f"TELEGRAM_CHAT_ID={cid}   ({nome})  <- copie para o .env")
+            print(f"TELEGRAM_CHAT_ID={cid}   ({nome})  <- mais de um chat: copie o seu para o .env")
         return 0
     tg = Telegram.do_ambiente()
     if tg is None:

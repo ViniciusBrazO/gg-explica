@@ -28,6 +28,12 @@ PASTA = RAIZ / "saida" / "telegram"
 ARQ_PENDENTES = PASTA / "pendentes.json"
 ARQ_OFFSET = PASTA / "offset.txt"
 MARCADOR_AJUSTE = "AJUSTE PEDIDO:"
+ARQ_CHAT = RAIZ / "saida" / "telegram" / "chat_id.txt"
+
+
+def chat_salvo() -> str:
+    """O chat do dono, gravado pelo `paginas telegram teste` (no modo nuvem dispensa o segredo)."""
+    return ARQ_CHAT.read_text(encoding="utf-8").strip() if ARQ_CHAT.exists() else ""
 
 
 class Telegram:
@@ -38,7 +44,8 @@ class Telegram:
 
     @classmethod
     def do_ambiente(cls, sessao=None) -> Optional["Telegram"]:
-        token, chat = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
+        token = (os.environ.get("TELEGRAM_BOT_TOKEN") or "").strip()
+        chat = (os.environ.get("TELEGRAM_CHAT_ID") or "").strip() or chat_salvo()
         return cls(token, chat, sessao) if token and chat else None
 
     def _chamar(self, metodo: str, **kw) -> dict:
