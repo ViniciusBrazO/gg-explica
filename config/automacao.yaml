@@ -59,7 +59,7 @@ biblioteca:
 # ---------------------------------------------------------------- quem escreve os posts
 # gemini: grátis (GEMINI_API_KEY, plano gratuito do Google AI Studio); o kit pesquisa e confere, o Gemini
 # só escreve. claude: o Claude Code (gasta o plano do Claude). Sem a chave do Gemini, volta para o Claude.
-redator: gemini
+redator: claude      # gemini testado em 10/11: texto raso e assunto repetido; fica desligado até melhorar
 gemini:
   modelo: auto       # o Flash mais novo liberado para a chave; ou um nome fixo, ex.: gemini-2.5-flash
 
