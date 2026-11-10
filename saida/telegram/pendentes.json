@@ -76,7 +76,7 @@
     "video": "radar_2026-11-10_pechincha",
     "impressao": "0ad17f3fac97",
     "situacao": "bloqueado",
-    "conferido": "2026-11-10T20:18"
+    "conferido": "2026-11-10T20:36"
   },
   "b9d4465f1f": {
     "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-11_gg_explica.json",
@@ -93,5 +93,37 @@
     "situacao": "agendado",
     "message_id": 155,
     "enviado": "2026-11-10T20:20:52.292791"
+  },
+  "12cf35af49": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-11_gg_explica.json",
+    "video": "radar_2026_11_11_212gb_preload_reel",
+    "impressao": "2e0f01f65e23",
+    "situacao": "agendado",
+    "message_id": 157,
+    "enviado": "2026-11-10T20:38:19.156748"
+  },
+  "d43c31cf4a": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-11_gg_explica.json",
+    "video": "radar_2026_11_11_212gb_preload",
+    "impressao": "7eebc8aa4b2e",
+    "situacao": "agendado",
+    "message_id": 163,
+    "enviado": "2026-11-10T20:38:29.704176"
+  },
+  "c7fde313d7": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-11_gg_explica.json",
+    "video": "radar_2026_11_11_ps5_preload_reel",
+    "impressao": "a11afadfff13",
+    "situacao": "agendado",
+    "message_id": 164,
+    "enviado": "2026-11-10T20:40:02.164115"
+  },
+  "7a6a9211cb": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-11_gg_explica.json",
+    "video": "radar_2026_11_11_ps5_preload",
+    "impressao": "9fc76ec908ab",
+    "situacao": "agendado",
+    "message_id": 170,
+    "enviado": "2026-11-10T20:40:05.441251"
   }
 }
