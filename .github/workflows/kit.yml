@@ -17,7 +17,7 @@ on:
   workflow_dispatch:
     inputs:
       tarefa:
-        description: "ciclo | radar | pauta | metricas | biblioteca | telegram-teste | simular"
+        description: "ciclo | radar | pauta | catalogo | metricas | biblioteca | telegram-teste | simular"
         default: ciclo
         required: true
 
@@ -113,6 +113,7 @@ jobs:
             ciclo) paginas ciclo ;;
             radar) paginas claude radar && paginas ciclo ;;
             pauta) paginas claude pauta && paginas ciclo ;;
+            catalogo) paginas claude catalogo ;;
             metricas) paginas metricas ;;
             biblioteca) paginas biblioteca ;;
             telegram-teste) paginas telegram teste ;;
