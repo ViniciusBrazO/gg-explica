@@ -331,7 +331,14 @@ def cmd_telegram(args) -> int:
         if not token:
             print("Falta TELEGRAM_BOT_TOKEN no .env (crie o bot com o @BotFather).")
             return 1
-        r = requests.get(f"https://api.telegram.org/bot{token}/getUpdates", timeout=30).json()
+        r = requests.get(f"https://api.telegram.org/bot{token.strip()}/getUpdates", timeout=30).json()
+        if not r.get("ok"):
+            print(f"O Telegram recusou o token do bot: {r.get('description', '?')} (confira TELEGRAM_BOT_TOKEN)")
+            return 1
+        if r.get("result") == []:
+            info = requests.get(f"https://api.telegram.org/bot{token.strip()}/getWebhookInfo", timeout=30).json()
+            if (info.get("result") or {}).get("url"):
+                print("O bot tem um webhook ligado, que engole as mensagens.")
         chats = {str(u["message"]["chat"]["id"]): u["message"]["chat"].get("first_name", "")
                  for u in r.get("result", []) if "message" in u}
         if not chats:
