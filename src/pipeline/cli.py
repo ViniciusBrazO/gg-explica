@@ -350,6 +350,17 @@ def cmd_teste_voz(args) -> int:
     return 0
 
 
+def cmd_gemini(args) -> int:
+    """Mostra os modelos que a chave do Gemini enxerga e testa cada um com um pedido mínimo."""
+    import requests
+    from .gemini import API, _chave, modelos_candidatos
+    for nome in modelos_candidatos():
+        r = requests.post(f"{API}/models/{nome}:generateContent", params={"key": _chave()}, timeout=60,
+                          json={"contents": [{"parts": [{"text": "Responda só: ok"}]}]})
+        print(f"{nome}: HTTP {r.status_code} {r.text[:120].replace(chr(10), ' ') if r.status_code != 200 else 'ok'}")
+    return 0
+
+
 def cmd_catalogar(args) -> int:
     from .catalogo import PASTA_CLIPES, catalogar
 
@@ -541,6 +552,9 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--velocidade", default="+12%")
     p.add_argument("--tom", default="+3%")
     p.set_defaults(func=cmd_teste_voz)
+
+    p = sub.add_parser("gemini", help="testa a chave e os modelos do Gemini")
+    p.set_defaults(func=cmd_gemini)
 
     p = sub.add_parser("resumo", help="resumo do dia no Telegram, com músicas em alta para cada post")
     p.set_defaults(func=cmd_resumo)
