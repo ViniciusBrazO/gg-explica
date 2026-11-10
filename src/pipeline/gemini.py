@@ -34,9 +34,10 @@ def _versao(nome: str) -> tuple:
     return tuple(int(x) for x in re.findall(r"\d+", nome)[:3]) or (0,)
 
 
-def escolher_modelo(preferido: str = "auto", sessao=None) -> str:
+def modelos_candidatos(preferido: str = "auto", sessao=None) -> list[str]:
+    """Do melhor para o pior: Flash estáveis mais novos primeiro, depois prévias, depois Flash-Lite."""
     if preferido and preferido != "auto":
-        return preferido
+        return [preferido]
     s = sessao or requests.Session()
     r = s.get(f"{API}/models", params={"key": _chave(), "pageSize": 200}, timeout=30)
     if r.status_code != 200:
@@ -44,46 +45,57 @@ def escolher_modelo(preferido: str = "auto", sessao=None) -> str:
     candidatos = []
     for m in r.json().get("models", []):
         nome = m.get("name", "").removeprefix("models/")
-        if "generateContent" not in m.get("supportedGenerationMethods", []):
+        if "generateContent" not in m.get("supportedGenerationMethods", []) or "flash" not in nome:
             continue
-        if "flash" not in nome or any(x in nome for x in ("lite", "image", "tts", "audio", "live", "thinking-exp")):
+        if any(x in nome for x in ("image", "tts", "audio", "live", "thinking-exp", "embedding")):
             continue
         estavel = 0 if ("preview" in nome or "exp" in nome) else 1
-        candidatos.append((estavel, _versao(nome), nome))
+        cheio = 0 if "lite" in nome else 1
+        candidatos.append((cheio, estavel, _versao(nome), nome))
     if not candidatos:
         raise ErroGemini("nenhum modelo Flash disponível para esta chave")
-    return sorted(candidatos)[-1][2]
+    return [c[3] for c in sorted(candidatos, reverse=True)]
+
+
+def escolher_modelo(preferido: str = "auto", sessao=None) -> str:
+    return modelos_candidatos(preferido, sessao)[0]
 
 
 def gerar_json(instrucoes: str, conteudo: str, modelo: str = "auto", temperatura: float = 0.8,
                tentativas: int = 3, sessao=None) -> dict:
     """Pede uma resposta em JSON. Repete em erro temporário (429/500/503) com espera crescente."""
     s = sessao or requests.Session()
-    nome = escolher_modelo(modelo, s)
-    corpo = {
-        "systemInstruction": {"parts": [{"text": instrucoes}]},
-        "contents": [{"role": "user", "parts": [{"text": conteudo}]}],
-        "generationConfig": {"temperature": temperatura, "responseMimeType": "application/json"},
-    }
     ultimo = ""
-    for k in range(tentativas):
-        r = s.post(f"{API}/models/{nome}:generateContent", params={"key": _chave()}, json=corpo, timeout=180)
-        if r.status_code in (429, 500, 503):
-            ultimo = f"HTTP {r.status_code}: {r.text[:300]}"
-            time.sleep(20 * (k + 1))
-            continue
-        if r.status_code != 200:
-            raise ErroGemini(f"HTTP {r.status_code}: {r.text[:500]}")
-        dados = r.json()
-        try:
-            texto = "".join(p.get("text", "") for p in dados["candidates"][0]["content"]["parts"])
-        except (KeyError, IndexError):
-            raise ErroGemini(f"resposta sem texto: {json.dumps(dados)[:500]}") from None
-        texto = re.sub(r"^```(?:json)?\s*|\s*```$", "", texto.strip())
-        try:
-            return json.loads(texto)
-        except json.JSONDecodeError as e:
-            ultimo = f"JSON inválido ({e}): {texto[:200]}"
-            corpo["contents"].append({"role": "model", "parts": [{"text": texto}]})
-            corpo["contents"].append({"role": "user", "parts": [{"text": "Responda só com JSON válido, sem texto fora."}]})
+    for nome in modelos_candidatos(modelo, s)[:4]:          # modelo lotado: tenta o próximo
+        corpo = {
+            "systemInstruction": {"parts": [{"text": instrucoes}]},
+            "contents": [{"role": "user", "parts": [{"text": conteudo}]}],
+            "generationConfig": {"temperature": temperatura, "responseMimeType": "application/json"},
+        }
+        for k in range(tentativas):
+            r = s.post(f"{API}/models/{nome}:generateContent", params={"key": _chave()}, json=corpo, timeout=180)
+            if r.status_code in (429, 500, 503):
+                ultimo = f"{nome}: HTTP {r.status_code}: {r.text[:200]}"
+                time.sleep(10 * (k + 1))
+                continue
+            if r.status_code == 404:
+                ultimo = f"{nome}: não disponível"
+                break
+            if r.status_code != 200:
+                raise ErroGemini(f"{nome}: HTTP {r.status_code}: {r.text[:500]}")
+            dados = r.json()
+            try:
+                texto = "".join(p.get("text", "") for p in dados["candidates"][0]["content"]["parts"])
+            except (KeyError, IndexError):
+                ultimo = f"{nome}: resposta sem texto"
+                continue
+            texto = re.sub(r"^```(?:json)?\s*|\s*```$", "", texto.strip())
+            try:
+                resultado = json.loads(texto)
+                print(f"(redator: {nome})")
+                return resultado
+            except json.JSONDecodeError as e:
+                ultimo = f"{nome}: JSON inválido ({e})"
+                corpo["contents"].append({"role": "model", "parts": [{"text": texto}]})
+                corpo["contents"].append({"role": "user", "parts": [{"text": "Responda só com JSON válido, sem texto fora."}]})
     raise ErroGemini(f"o Gemini não respondeu direito: {ultimo}")
