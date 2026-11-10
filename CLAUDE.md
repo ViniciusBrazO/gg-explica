@@ -54,7 +54,7 @@ Telegram (✍️ Ajustar / 🗑 Cancelar até sair) e manda o link quando public
 `saida/telegram/orientacoes.md`. Reel no horário, carrossel 2 h depois. Notícia quente numa rodada leve
 chama uma rodada pesada na hora. Segredos no GitHub: META_TOKEN_GG_EXPLICA, TELEGRAM_BOT_TOKEN,
 CLAUDE_CODE_OAUTH_TOKEN, AZURE_SPEECH_KEY (voz Antonio) e GEMINI_API_KEY (chat do Telegram em
-`saida/telegram/chat_id.txt`). **Redator:** `redator: gemini` (grátis, `src/pipeline/redator.py` +
+`saida/telegram/chat_id.txt`). **Redator:** hoje `redator: claude`. Opção `redator: gemini` (grátis, testada em 10/11 e desligada: texto raso e assunto repetido; `src/pipeline/redator.py` +
 `prompts/gemini_sistema.md`: o kit lê as matérias, o Gemini escreve, o validador confere); sem a chave
 do Gemini, volta para o Claude Code (`claude -p`).
 
