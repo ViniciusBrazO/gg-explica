@@ -62,8 +62,9 @@ voz:
     estilo: 0.25
     velocidade: 1.05            # notícia pode subir para 1.10; história e teoria, 1.00
   azure:
-    voz: pt-BR-MacerioMultilingualNeural   # alternativa: pt-BR-AntonioNeural
-    velocidade: "+5%"
+    voz: pt-BR-AntonioNeural      # escolhida pelo Vinicius em 10/11 (teste com Julio, Nicolau, Fabio e Antonio)
+    velocidade: "+12%"
+    tom: "+3%"
 
 video:
   duracao_min_s: 15
