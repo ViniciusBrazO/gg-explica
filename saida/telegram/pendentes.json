@@ -2,10 +2,8 @@
   "73e548b9bd": {
     "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-10_gg_explica.json",
     "video": "radar_2026-11-10_xbox_one_nuvem",
-    "impressao": "5cd63f4160f9",
-    "situacao": "aguardando",
-    "message_id": 18,
-    "enviado": "2026-11-10T14:39:25.410875"
+    "impressao": "690fe7ae267e",
+    "situacao": "bloqueado"
   },
   "7c9ed3039f": {
     "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-10_gg_explica.json",
@@ -18,9 +16,13 @@
   "bbdbc102fe": {
     "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-10_gg_explica.json",
     "video": "radar_2026-11-10_mais_reservado_playstation",
-    "impressao": "a51c0900e893",
-    "situacao": "aguardando",
-    "message_id": 31,
-    "enviado": "2026-11-10T14:39:59.301558"
+    "impressao": "3c0065205e1b",
+    "situacao": "bloqueado"
+  },
+  "85a11455c5": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-10_gg_explica.json",
+    "video": "radar_2026-11-10_trailer_4",
+    "impressao": "8c5c29d43147",
+    "situacao": "bloqueado"
   }
 }
