@@ -175,6 +175,7 @@ def reel_dos_slides(slides: list[Path], capa_vertical: Path | None, destino: Pat
 
 
 def renderizar_carrossel(marca: Marca, video: Video, pasta_saida: Path, com_reel: bool = True) -> Path:
+    com_reel = com_reel and video.gerar_reel
     """Gera os slides em pasta_saida/<data>_<id>/NN.jpg (e capa_reel.jpg + reel.mp4) e devolve a pasta."""
     pasta = (pasta_saida / f"{video.data.isoformat()}_{video.id}").resolve()
     if pasta.exists():

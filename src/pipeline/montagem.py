@@ -69,11 +69,11 @@ class MidiaCena:
     escolha: Optional[Escolha] = None
 
     @classmethod
-    def da_cena(cls, cena: Cena, fundo: bool = False) -> "MidiaCena":
+    def da_cena(cls, cena: Cena, fundo: bool = False, evitar: set | None = None, semente: str = "") -> "MidiaCena":
         if fundo:
-            escolha = resolver_midia(cena.fundo_clipe, cena.fundo_inicio)
+            escolha = resolver_midia(cena.fundo_clipe, cena.fundo_inicio, evitar=evitar, semente=semente)
         else:
-            escolha = resolver_midia(cena.midia, cena.midia_inicio, cena.midia_fim)
+            escolha = resolver_midia(cena.midia, cena.midia_inicio, cena.midia_fim, evitar=evitar, semente=semente)
         if escolha is None:
             raise FileNotFoundError(f"nenhum clipe do catálogo para '{cena.fundo_clipe if fundo else cena.midia}'")
         largura, altura = _dimensoes(escolha.caminho)
@@ -120,6 +120,9 @@ class MidiaCena:
         if not self.e_video:
             return ["-loop", "1", "-framerate", str(FPS), "-i", str(self.caminho)], ""
         dur = (self.fim - self.inicio) if self.fim is not None else d
+        if self.inicio == 0 and self.fim is not None and dur < 3 and dur < d:
+            # clipe oficial curto (os retratos animados têm 1 s): repete em laço até o fim da cena
+            return ["-stream_loop", "-1", "-t", f"{d:.3f}", "-i", str(self.caminho)], ""
         return (["-ss", f"{self.inicio:.3f}", "-t", f"{min(dur, d):.3f}", "-i", str(self.caminho)],
                 f",tpad=stop_mode=clone:stop_duration={d:.3f}")
 
@@ -354,6 +357,11 @@ def renderizar_video(marca: Marca, video: Video, pasta_saida: Path, voz_forcada:
     trechos: list[Trecho] = []
     molduras: dict[str, Path] = {}
 
+    from . import variedade
+    from .catalogo import chave_uso
+    evitar = variedade.imagens_de_outros(video)     # o Reel não repete imagem nem plano de outro post
+    usadas: list[str] = []
+
     with desenhista() as d:
         fundo_marca = marca.pasta_assets / "fundo.png"
         if not fundo_marca.exists():
@@ -371,8 +379,14 @@ def renderizar_video(marca: Marca, video: Video, pasta_saida: Path, voz_forcada:
             fala = voz.falar(texto_falado, trabalho / f"fala_{i:02d}")
             duracao = max(DURACAO_MINIMA_CENA, fala.duracao + PAUSA_ENTRE_CENAS)
 
-            midia = MidiaCena.da_cena(cena) if cena.tipo in TIPOS_COM_MIDIA else None
-            fundo_midia = MidiaCena.da_cena(cena, fundo=True) if cena.fundo_clipe else None
+            midia = MidiaCena.da_cena(cena, evitar=evitar | set(usadas), semente=video.id) \
+                if cena.tipo in TIPOS_COM_MIDIA else None
+            if midia is not None and midia.escolha is not None:
+                usadas.append(chave_uso(midia.escolha))
+            fundo_midia = MidiaCena.da_cena(cena, fundo=True, evitar=evitar | set(usadas), semente=video.id) \
+                if cena.fundo_clipe else None
+            if fundo_midia is not None and fundo_midia.escolha is not None:
+                usadas.append(chave_uso(fundo_midia.escolha))
             broll = buscar_broll(cena.broll) if cena.broll and midia is None and fundo_midia is None else None
             anel, anel_inicio = None, 0.5
             if midia is not None and midia.destaque:
@@ -453,6 +467,7 @@ def renderizar_video(marca: Marca, video: Video, pasta_saida: Path, voz_forcada:
          "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart",
          "-t", f"{deslocamento:.3f}", str(final)], cwd=trabalho)
 
+    variedade.registrar(video, usadas, "reel")
     # capa: quadro do primeiro cartão, já com o fundo
     capa = final.with_suffix(".jpg")
     _ff(["-ss", "0.6", "-i", str(final), "-frames:v", "1", "-q:v", "2", str(capa)])

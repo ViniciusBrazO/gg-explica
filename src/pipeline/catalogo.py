@@ -243,6 +243,12 @@ def _carregar_uso() -> dict:
     return {}
 
 
+def chave_uso(escolha: Escolha) -> str:
+    """Imagem: o arquivo. Vídeo: o arquivo e o plano (cada plano do trailer conta como uma cena)."""
+    arquivo = escolha.entrada["arquivo"] if escolha.entrada else escolha.caminho.as_posix()
+    return arquivo if not escolha.inicio else f"{arquivo}@{escolha.inicio:.1f}"
+
+
 def registrar_uso(escolha: Escolha) -> None:
     """Conta quantas vezes cada trecho já foi ao ar, para a busca variar os clipes."""
     if escolha.entrada is None:
@@ -294,7 +300,7 @@ def buscar_clipe(consulta: str, pasta: Path = PASTA_CLIPES, aceitar_spoiler: boo
     if not melhores:
         return None
     if evitar:
-        livres = [m for m in melhores if m[3].entrada["arquivo"] not in evitar]
+        livres = [m for m in melhores if chave_uso(m[3]) not in evitar and m[3].entrada["arquivo"] not in evitar]
         melhores = livres or melhores
     melhores.sort(key=lambda x: (x[0], x[1], x[2]), reverse=True)
     return melhores[0][3]

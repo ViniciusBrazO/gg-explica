@@ -48,7 +48,7 @@ biblioteca:
 # carrossel no modelo revista, que já gera o Reel do mesmo post (sem narração). Mude para false quando
 # a voz estiver pronta e os Reels narrados voltam.
 conteudo:
-  so_carrossel: true
+  so_carrossel: auto      # auto: só carrossel enquanto não houver AZURE_SPEECH_KEY (ou ELEVENLABS_API_KEY)
 
 # ---------------------------------------------------------------- página em espanhol
 # Ligue depois de umas 3 semanas da página em português (Plano, seção Escala). Com `ativa: true`, a

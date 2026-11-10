@@ -40,6 +40,8 @@ env:
   TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
   TELEGRAM_CHAT_ID: ${{ vars.TELEGRAM_CHAT_ID || secrets.TELEGRAM_CHAT_ID }}
   CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+  AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+  AZURE_SPEECH_REGION: brazilsouth
 
 jobs:
   kit:
@@ -107,6 +109,7 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y -qq --no-install-recommends ffmpeg fonts-noto-color-emoji >/dev/null
           python -m playwright install --with-deps chromium >/dev/null
+          if [ -n "$AZURE_SPEECH_KEY" ]; then pip install -e ".[azure]" --quiet; fi
 
       - name: Claude Code
         if: steps.plano.outputs.pesado == 'true' && env.CLAUDE_CODE_OAUTH_TOKEN != ''
@@ -115,6 +118,12 @@ jobs:
           echo "$HOME/.local/bin" >> "$GITHUB_PATH"
 
       # ---------------------------------------------------------------- a tarefa
+      - name: Voz ligada?
+        run: |
+          mkdir -p saida
+          if [ -n "$AZURE_SPEECH_KEY" ] || [ -n "$ELEVENLABS_API_KEY" ]; then echo ligada; else echo desligada; fi > saida/estado_voz.txt
+          echo "voz: $(cat saida/estado_voz.txt)"
+
       - name: Rodar
         run: |
           case "${{ steps.t.outputs.tarefa }}" in

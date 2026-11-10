@@ -52,7 +52,7 @@ def enfileirar_carrossel(marca: Marca, video: Video, pasta: Path, legenda: str, 
         if pode_hospedar(marca.id):
             reel = pasta / "reel.mp4"
             depois = quando
-            if reel.exists():
+            if reel.exists() and video.gerar_reel:
                 capa = pasta / "capa_reel.jpg"
                 for plataforma in ("instagram", "facebook"):
                     if automatico_em(plataforma, marca.id):

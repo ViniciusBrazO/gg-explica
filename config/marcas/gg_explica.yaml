@@ -53,7 +53,7 @@ legenda:
   max_caracteres: 18
 
 voz:
-  provedor: elevenlabs          # elevenlabs | azure | silencio (teste sem áudio)
+  provedor: azure               # elevenlabs | azure | silencio (teste sem áudio)
   elevenlabs:
     voice_id: ""                # a mesma voz da página de games (Manual, passo da voz)
     modelo: eleven_multilingual_v2

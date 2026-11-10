@@ -33,10 +33,19 @@ def _textos(video: Video) -> list[str]:
     return [x for x in t if x]
 
 
+def voz_disponivel() -> bool:
+    import os
+    return bool(os.environ.get("AZURE_SPEECH_KEY") or os.environ.get("ELEVENLABS_API_KEY"))
+
+
 def so_carrossel() -> bool:
-    """Enquanto não há voz de IA configurada, todo post sai como carrossel (que também vira Reel)."""
+    """Sem voz de IA, todo post sai como carrossel (que também vira Reel). `auto`: liga sozinho a
+    narração assim que a chave da voz existir no ambiente."""
     from .radar import config
-    return bool((config().get("conteudo") or {}).get("so_carrossel", False))
+    valor = (config().get("conteudo") or {}).get("so_carrossel", False)
+    if valor == "auto":
+        return not voz_disponivel()
+    return bool(valor)
 
 
 def checar_pauta(marca: Marca, video: Video) -> tuple[list[str], list[str]]:

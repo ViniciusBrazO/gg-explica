@@ -136,6 +136,7 @@ class Video(BaseModel):
     data: date
     horario: time
     formato: Literal["reel", "carrossel"] = "reel"     # carrossel: cada cena vira um slide 4:5
+    gerar_reel: bool = True     # carrossel: false quando o post tem um Reel narrado próprio (outro vídeo da pauta)
     plataformas: list[Literal["instagram", "tiktok", "facebook", "youtube", "kwai"]] = [
         "instagram", "tiktok", "facebook", "youtube", "kwai"]
     legenda_post: str
