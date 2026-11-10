@@ -66,7 +66,10 @@ def gerar_json(instrucoes: str, conteudo: str, modelo: str = "auto", temperatura
     """Pede uma resposta em JSON. Repete em erro temporário (429/500/503) com espera crescente."""
     s = sessao or requests.Session()
     ultimo = ""
-    for nome in modelos_candidatos(modelo, s)[:8]:          # modelo lotado: tenta o próximo
+    todos = modelos_candidatos(modelo, s)
+    cheios = [m for m in todos if "lite" not in m][:7]
+    # modelo lotado: tenta o próximo; duas voltas nos modelos cheios antes de cair para o Flash-Lite
+    for nome in cheios + cheios + [m for m in todos if "lite" in m][:3]:
         corpo = {
             "systemInstruction": {"parts": [{"text": instrucoes}]},
             "contents": [{"role": "user", "parts": [{"text": conteudo}]}],
@@ -92,6 +95,8 @@ def gerar_json(instrucoes: str, conteudo: str, modelo: str = "auto", temperatura
             texto = re.sub(r"^```(?:json)?\s*|\s*```$", "", texto.strip())
             try:
                 resultado = json.loads(texto)
+                if isinstance(resultado, list):
+                    resultado = {"videos": resultado}
                 print(f"(redator: {nome})")
                 return resultado
             except json.JSONDecodeError as e:

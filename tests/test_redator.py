@@ -29,3 +29,10 @@ def test_confirmado_sem_fonte_oficial_lida_vira_relato(monkeypatch):
 def test_rodar_tarefa_sem_redator_nao_falha():
     ex = redator.rodar("catalogo")
     assert ex.ok
+
+
+def test_assunto_ja_postado_e_reconhecido():
+    recentes = [{"id": "radar_xbox", "capa": "Xbox One vai jogar *GTA 6*, mas só pela nuvem", "legenda": "XBOX ONE NA NUVEM"}]
+    assert redator.ja_coberto("GTA 6 confirmado no Xbox One via nuvem", recentes) == "radar_xbox"
+    assert redator.ja_coberto("GTA 6 roda a 30 fps nos consoles", recentes) == ""
+    assert redator._par_do_mesmo_assunto("x_reel", "x_carrossel") and not redator._par_do_mesmo_assunto("x_reel", "y")

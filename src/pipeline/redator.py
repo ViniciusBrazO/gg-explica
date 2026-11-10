@@ -81,6 +81,19 @@ def horarios_livres(dia: date, agora: datetime, antecedencia_min: int = 90) -> l
     return livres
 
 
+def ja_coberto(titulo: str, recentes: list[dict], limite: float = 0.34) -> str:
+    """Id do post recente que trata do mesmo assunto (palavras em comum), ou ""."""
+    from .radar import _palavras
+    base = _palavras(titulo.replace("*", ""))
+    for p in recentes:
+        for texto in (p.get("capa") or "", p.get("legenda") or ""):
+            outra = _palavras(texto.replace("*", ""))
+            if base and outra and len(base & outra) / min(len(base), len(outra)) >= 0.6 \
+                    and len(base & outra) / len(base | outra) >= limite:
+                return p["id"]
+    return ""
+
+
 def _usadas() -> set[str]:
     return set(json.loads(USADAS.read_text(encoding="utf-8"))) if USADAS.exists() else set()
 
@@ -101,9 +114,10 @@ def noticias_pendentes(hoje: date, maximo: int = 6) -> list[dict]:
         if arq.exists():
             itens += [json.loads(l) for l in arq.read_text(encoding="utf-8").splitlines() if l.strip()]
     usadas = _usadas()
+    recentes = posts_recentes(hoje)
     grupos: list[list[dict]] = []
     for n in sorted(itens, key=lambda x: x["publicada"], reverse=True):
-        if n["id"] in usadas:
+        if n["id"] in usadas or ja_coberto(n["titulo"], recentes):
             continue
         base = _palavras(n["titulo"])
         for g in grupos:
@@ -195,7 +209,17 @@ def problemas(v: dict) -> list[str]:
     except Exception as e:
         return [f"formato inválido: {str(e)[:600]}"]
     bloqueios, _ = checar_pauta(carregar_marca(MARCA), video)
+    recentes = [p for p in posts_recentes(video.data) if not p["id"].startswith(video.id.removesuffix("_reel"))]
+    repetido = ja_coberto(video.cenas[0].titulo, recentes)
+    if repetido and not _par_do_mesmo_assunto(video.id, repetido):
+        bloqueios.append(f"assunto repetido: já saiu no post {repetido}; escolha outro assunto ou outro ângulo")
     return bloqueios
+
+
+def _par_do_mesmo_assunto(a: str, b: str) -> bool:
+    """Reel e carrossel do mesmo post (escritos juntos) não contam como repetição."""
+    limpa = lambda x: re.sub(r"_(reel|carrossel|narrado)$", "", x)
+    return limpa(a) == limpa(b)
 
 
 def arquivo_do_dia(hoje: date) -> Path:

@@ -162,7 +162,13 @@ def publicar_reel_com_capa(pub, item) -> dict:
         print(f"  capa do Reel não subiu ({e}); usando um quadro do vídeo")
         url = ""
     try:
-        return pub.publicar_reel(Path(item.video), item.legenda, capa_url=url)
+        try:
+            return pub.publicar_reel(Path(item.video), item.legenda, capa_url=url)
+        except Exception as e:
+            if not url:
+                raise
+            print(f"  o Instagram recusou com a capa ({str(e)[:120]}); tentando sem ela")
+            return pub.publicar_reel(Path(item.video), item.legenda)
     finally:
         if hosp is not None:
             hosp.limpar()
