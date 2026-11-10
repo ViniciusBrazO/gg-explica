@@ -20,7 +20,7 @@ on:
   workflow_dispatch:
     inputs:
       tarefa:
-        description: "ciclo | radar | pauta | catalogo | metricas | biblioteca | telegram-teste | simular"
+        description: "ciclo | radar | pauta | catalogo | metricas | resumo | teste-voz | biblioteca | telegram-teste | simular"
         default: ciclo
         required: true
 
@@ -109,7 +109,10 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y -qq --no-install-recommends ffmpeg fonts-noto-color-emoji >/dev/null
           python -m playwright install --with-deps chromium >/dev/null
-          if [ -n "$AZURE_SPEECH_KEY" ]; then pip install -e ".[azure]" --quiet; fi
+          if [ -n "$AZURE_SPEECH_KEY" ]; then
+            sudo apt-get install -y -qq libasound2t64 >/dev/null 2>&1 || sudo apt-get install -y -qq libasound2 >/dev/null 2>&1 || true
+            pip install -e ".[azure]" --quiet
+          fi
 
       - name: Claude Code
         if: steps.plano.outputs.pesado == 'true' && env.CLAUDE_CODE_OAUTH_TOKEN != ''
@@ -131,7 +134,9 @@ jobs:
             radar) paginas claude radar && paginas ciclo ;;
             pauta) paginas claude pauta && paginas ciclo ;;
             catalogo) paginas catalogar && paginas claude catalogo ;;
+            teste-voz) paginas teste-voz ;;
             metricas) paginas metricas; paginas resumo ;;
+            resumo) paginas resumo ;;
             biblioteca) paginas biblioteca ;;
             telegram-teste) paginas telegram teste ;;
             simular) paginas meta conferir --marca gg_explica && paginas publicar --simular ;;

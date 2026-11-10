@@ -1,0 +1,35 @@
+{
+ "marca": "gg_explica",
+ "semana": "2026-W46",
+ "videos": [
+  {
+   "id": "teste_voz_trailer4",
+   "serie": "radar",
+   "status": "rascunho",
+   "data": "2026-11-10",
+   "horario": "18:00",
+   "formato": "reel",
+   "voz_ia": true,
+   "legenda_post": "TESTE DE VOZ (não vai ao ar)",
+   "cenas": [
+    {"tipo": "gancho", "estilo": "manchete", "titulo": "*Trailer 4* de GTA 6 saiu hoje",
+     "fundo_clipe": "busca:lucia retrato vertical", "credito": "Imagens: Rockstar Games",
+     "narracao": "Saiu hoje o trailer quatro de GTA 6. E tem coisa que quase ninguém reparou."},
+    {"tipo": "tela_cheia", "midia": "busca:vice city paisagem cartão-postal", "panoramica": true,
+     "titulo": "Gravado no *PS5*", "credito": "Imagens: Rockstar Games", "selo": "relato",
+     "fonte": "Game Rant, 10/11/2026", "fonte_url": "https://gamerant.com/gta-6-trailer-4-pre-load/",
+     "narracao": "Segundo o Game Rant, as imagens foram capturadas no PS5, e o vídeo saiu com a marca do PlayStation no canal da Rockstar."},
+    {"tipo": "texto", "titulo": "Jason e *Lucia* em Vice City", "texto": "Mortal para trás e balada na cidade",
+     "fundo_clipe": "busca:jason telhado", "credito": "Imagens: Rockstar Games", "selo": "relato",
+     "fonte": "Game Rant, 10/11/2026", "fonte_url": "https://gamerant.com/gta-6-trailer-4-pre-load/",
+     "narracao": "Tem o Jason dando um mortal para trás e a Lucia dançando numa boate de Vice City. Clima de festa, nove dias antes do lançamento."},
+    {"tipo": "lista", "titulo": "O que mais saiu *hoje*", "itens": ["Pré-download liberado", "Até 212 GB", "Cópia física dia 12"],
+     "fundo_clipe": "busca:leonida keys praia", "credito": "Imagens: Rockstar Games", "selo": "relato",
+     "fonte": "Game Rant, 10/11/2026", "fonte_url": "https://gamerant.com/gta-6-trailer-4-pre-load/",
+     "narracao": "E não parou aí: o pré-download abriu no PS5 e no Xbox, o jogo ocupa até duzentos e doze gigas, e a cópia física chega dia doze."},
+    {"tipo": "cta", "titulo": "Qual cena você quer *jogar*?", "texto": "Comenta aqui",
+     "narracao": "Qual cena do trailer você quer jogar primeiro? Comenta aqui e manda pra quem vai jogar no dia dezenove."}
+   ]
+  }
+ ]
+}

@@ -280,6 +280,24 @@ def cmd_resumo(args) -> int:
     return 0
 
 
+def cmd_teste_voz(args) -> int:
+    """Gera o Reel narrado de teste (pautas/demo_teste_voz.json) e manda no Telegram. Não publica."""
+    from .producao import produzir
+    from .telegram import Telegram
+    pauta = Pauta.carregar(RAIZ / "pautas" / "demo_teste_voz.json")
+    marca = carregar_marca(pauta.marca)
+    r = produzir(marca, pauta.videos[0], previa=True)
+    if r.arquivo is None:
+        print(f"não gerou: {r.pulado}")
+        return 1
+    print(f"gerado: {r.arquivo} ({r.duracao_s}s)")
+    tg = Telegram.do_ambiente()
+    if tg:
+        tg.video(r.arquivo, "🎙️ Teste do Reel narrado (não vai ao ar). Gostou da voz? Responda aqui "
+                 "\"mais rápida\", \"mais lenta\", \"outra voz\" ou \"aprovada\".", [])
+    return 0
+
+
 def cmd_catalogar(args) -> int:
     from .catalogo import PASTA_CLIPES, catalogar
 
@@ -465,6 +483,9 @@ def main(argv: list[str] | None = None) -> int:
 
     p = sub.add_parser("fila", help="mostra a fila de publicação")
     p.set_defaults(func=cmd_fila)
+
+    p = sub.add_parser("teste-voz", help="gera o Reel narrado de teste e manda no Telegram")
+    p.set_defaults(func=cmd_teste_voz)
 
     p = sub.add_parser("resumo", help="resumo do dia no Telegram, com músicas em alta para cada post")
     p.set_defaults(func=cmd_resumo)
