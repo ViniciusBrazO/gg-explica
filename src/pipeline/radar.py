@@ -154,6 +154,15 @@ def rodar(sessao=None, agora: Optional[datetime] = None) -> tuple[list[Noticia],
             todas += ler_feed(r.text, cfg["fontes"], c["q"])
         except (requests.RequestException, ET.ParseError):
             continue        # um feed fora do ar não derruba os outros
+    filtro = re.compile(cfg.get("filtro_diretos", r"gta\s*(6|vi)\b|grand theft auto vi"), re.IGNORECASE)
+    for url in cfg.get("feeds_diretos", []):
+        try:     # sites que dão o link da matéria (o do Google Notícias não abre sem navegador)
+            r = sessao.get(url, timeout=20, headers={"User-Agent": "Mozilla/5.0 (paginas-nicho-radar)"})
+            if r.status_code != 200:
+                continue
+            todas += [n for n in ler_feed(r.text, cfg["fontes"], "direto") if filtro.search(n.titulo)]
+        except (requests.RequestException, ET.ParseError):
+            continue
     vistos = _vistos()
     novas = [n for n in {n.id: n for n in todas}.values() if n.id not in vistos]
     if novas:

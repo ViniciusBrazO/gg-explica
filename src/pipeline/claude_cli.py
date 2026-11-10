@@ -55,13 +55,24 @@ def montar_comando(prompt: str) -> list[str]:
     return cmd
 
 
+def usa_gemini() -> bool:
+    """`redator: gemini` em config/automacao.yaml e a chave no ambiente: escreve sem gastar o Claude."""
+    from .gemini import disponivel as tem_chave
+    return config().get("redator", "claude") == "gemini" and tem_chave()
+
+
 def disponivel() -> bool:
+    if usa_gemini():
+        return True
     return shutil.which(config()["claude"].get("comando", "claude")) is not None
 
 
 def rodar(tarefa: str, contexto: str = "", executar=subprocess.run) -> Execucao:
     if tarefa not in TAREFAS:
         raise ValueError(f"tarefa desconhecida: {tarefa}. Opções: {', '.join(TAREFAS)}")
+    if usa_gemini() and executar is subprocess.run:
+        from .redator import rodar as rodar_gemini
+        return rodar_gemini(tarefa, contexto)
     cfg = config()["claude"]
     cmd = montar_comando(montar_prompt(tarefa, contexto))
     # O Claude chama `paginas validar`: o comando do kit precisa estar no PATH dele.

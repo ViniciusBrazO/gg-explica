@@ -53,7 +53,10 @@ ciclo a cada 30 min (08h-00h30), radar do Claude às 07h10, 12h10 e 17h10, pauta
 Telegram (✍️ Ajustar / 🗑 Cancelar até sair) e manda o link quando publica; respostas viram
 `saida/telegram/orientacoes.md`. Reel no horário, carrossel 2 h depois. Notícia quente numa rodada leve
 chama uma rodada pesada na hora. Segredos no GitHub: META_TOKEN_GG_EXPLICA, TELEGRAM_BOT_TOKEN,
-CLAUDE_CODE_OAUTH_TOKEN (chat do Telegram em `saida/telegram/chat_id.txt`).
+CLAUDE_CODE_OAUTH_TOKEN, AZURE_SPEECH_KEY (voz Antonio) e GEMINI_API_KEY (chat do Telegram em
+`saida/telegram/chat_id.txt`). **Redator:** `redator: gemini` (grátis, `src/pipeline/redator.py` +
+`prompts/gemini_sistema.md`: o kit lê as matérias, o Gemini escreve, o validador confere); sem a chave
+do Gemini, volta para o Claude Code (`claude -p`).
 
 ## Como o projeto funciona
 

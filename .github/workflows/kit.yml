@@ -45,6 +45,7 @@ env:
   TELEGRAM_CHAT_ID: ${{ vars.TELEGRAM_CHAT_ID || secrets.TELEGRAM_CHAT_ID }}
   CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
   AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+  GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
   AZURE_SPEECH_REGION: brazilsouth
 
 jobs:
@@ -121,7 +122,7 @@ jobs:
           fi
 
       - name: Claude Code
-        if: steps.plano.outputs.pesado == 'true' && env.CLAUDE_CODE_OAUTH_TOKEN != ''
+        if: steps.plano.outputs.pesado == 'true' && env.CLAUDE_CODE_OAUTH_TOKEN != '' && env.GEMINI_API_KEY == ''
         run: |
           curl -fsSL https://claude.ai/install.sh | bash >/dev/null
           echo "$HOME/.local/bin" >> "$GITHUB_PATH"
@@ -134,11 +135,13 @@ jobs:
           echo "voz: $(cat saida/estado_voz.txt)"
 
       - name: Rodar
+        env:
+          RODADA: ${{ steps.plano.outputs.pesado == 'true' && 'pesada' || 'leve' }}
         run: |
           case "${{ steps.t.outputs.tarefa }}" in
             ciclo) paginas ciclo ;;
-            radar) paginas claude radar && paginas ciclo ;;
-            pauta) paginas claude pauta && paginas ciclo ;;
+            radar) paginas claude radar; paginas ciclo ;;
+            pauta) paginas claude pauta; paginas ciclo ;;
             catalogo) paginas catalogar && paginas claude catalogo ;;
             teste-voz) paginas teste-voz --vozes "${{ github.event.inputs.vozes }}" ;;
             metricas) paginas metricas; paginas resumo ;;
@@ -148,11 +151,15 @@ jobs:
             simular) paginas meta conferir --marca gg_explica && paginas publicar --simular ;;
           esac
 
-      - name: Notícia quente numa rodada leve? Chama a rodada pesada agora
-        if: always() && steps.plano.outputs.pesado != 'true' && hashFiles('saida/radar/alertas_pendentes.json') != ''
+      - name: Rodada leve deixou trabalho (notícia quente, post novo)? Chama a rodada pesada agora
+        if: always() && steps.plano.outputs.pesado != 'true'
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh workflow run kit.yml -f tarefa=ciclo && echo "rodada pesada chamada para a notícia quente"
+          GITHUB_OUTPUT: /dev/null
+        run: |
+          if paginas nuvem plano | grep -q "rodada pesada"; then
+            gh workflow run kit.yml -f tarefa=ciclo && echo "rodada pesada chamada"
+          fi
 
       # ---------------------------------------------------------------- guardar
       - name: Guardar o estado no repositório

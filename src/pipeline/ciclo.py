@@ -137,6 +137,8 @@ def rodar(publicar: bool = True) -> int:
             _log(f"Claude refez os vídeos pedidos: {'ok' if ex.ok else ex.resumo[:200]}")
 
     def previas():
+        if os.environ.get("RODADA") == "leve":
+            return            # sem navegador e ffmpeg nesta rodada: a próxima rodada pesada agenda
         if tg:
             n = telegram.enviar_para_aprovacao(tg, cfg["telegram"].get("enviar_dias_a_frente", 1))
             if n:

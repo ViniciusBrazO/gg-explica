@@ -10,6 +10,19 @@ radar:
     - {q: "GTA VI Rockstar", idioma: en}
     - {q: "Grand Theft Auto VI", idioma: en}
     - {q: "The Game Awards 2026", idioma: en}
+  # Feeds dos próprios sites (o link abre a matéria; o redator lê o texto). Só entra o que fala de GTA 6.
+  feeds_diretos:
+    - https://blog.playstation.com/feed/
+    - https://news.xbox.com/en-us/feed/
+    - https://www.videogameschronicle.com/feed/
+    - https://www.eurogamer.net/feed
+    - https://feeds.ign.com/ign/games-all
+    - https://www.gamespot.com/feeds/news/
+    - https://www.polygon.com/rss/index.xml
+    - https://rss.tecmundo.com.br/feed
+    - https://canaltech.com.br/rss/
+    - https://www.theenemy.com.br/rss
+  filtro_diretos: 'gta\s*(6|vi)\b|grand theft auto vi|rockstar games'
   # Domínio da fonte -> selo sugerido. O Claude confere antes de usar.
   fontes:
     confirmado: [rockstargames.com, take2games.com, blog.playstation.com, playstation.com, news.xbox.com,
@@ -42,6 +55,13 @@ biblioteca:
       url: https://media-rockstargames-com.akamaized.net/VI/downloads/screenshots/GTAVI_Ultimate_Edition_Benefits.zip
     - nome: vintage_vice_city_pack
       url: https://media-rockstargames-com.akamaized.net/VI/downloads/screenshots/GTAVI_Vintage_Vice_City_Pack.zip
+
+# ---------------------------------------------------------------- quem escreve os posts
+# gemini: grátis (GEMINI_API_KEY, plano gratuito do Google AI Studio); o kit pesquisa e confere, o Gemini
+# só escreve. claude: o Claude Code (gasta o plano do Claude). Sem a chave do Gemini, volta para o Claude.
+redator: gemini
+gemini:
+  modelo: auto       # o Flash mais novo liberado para a chave; ou um nome fixo, ex.: gemini-2.5-flash
 
 # ---------------------------------------------------------------- formato dos posts
 # Sem voz de IA configurada (ELEVENLABS_API_KEY + voice_id, ou AZURE_SPEECH_KEY), todo post sai como
