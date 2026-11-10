@@ -70,7 +70,7 @@ claude:
   ferramentas: "Read,Edit,Write,Glob,Grep,WebSearch,WebFetch,Bash(paginas validar *),Bash(paginas catalogar *),Bash(paginas fila),PowerShell(paginas validar *),PowerShell(paginas catalogar *),PowerShell(paginas fila)"
   modo_permissao: acceptEdits
   sem_perguntas: true              # --permission-prompts none (Claude Code 2.1.259 ou mais novo)
-  limite_minutos: 20
+  limite_minutos: 45
 
 # ---------------------------------------------------------------- aprovação pelo Telegram
 telegram:
