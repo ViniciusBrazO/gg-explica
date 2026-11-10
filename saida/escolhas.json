@@ -34,5 +34,17 @@
     ],
     "estilo_capa": "impacto",
     "registrado": "2026-11-10T15:16"
+  },
+  "2026-11-10|teste_voz_trailer4": {
+    "data": "2026-11-10",
+    "horario": "18:00",
+    "imagens": [
+      "clipes/oficial/artes_e_wallpapers/Jason_and_Lucia_Beach_portrait.jpg",
+      "clipes/oficial/artes_e_wallpapers/Vice_City_Postcard_phone.jpg",
+      "clipes/oficial/artes_e_wallpapers/Jason_Lucia_Rooftop_phone.jpg",
+      "clipes/oficial/screenshots/Leonida_Keys_07.jpg"
+    ],
+    "estilo_capa": "reel",
+    "registrado": "2026-11-10T16:52"
   }
 }
