@@ -140,5 +140,29 @@
     ],
     "estilo_capa": "impacto",
     "registrado": "2026-11-10T19:47"
+  },
+  "2026-11-11|xbox_one_nuvem_reel": {
+    "data": "2026-11-11",
+    "horario": "09:00",
+    "imagens": [
+      "clipes/oficial/screenshots/Vice_City_01.jpg",
+      "clipes/oficial/vintage_vice_city_pack/VINTAGE_VICE_CITY_PACK_VAPID_STANIER_04.jpg",
+      "clipes/oficial/artes_e_wallpapers/Leonida_Keys_Postcard_phone.jpg",
+      "clipes/oficial/artes_e_wallpapers/Mount_Kalaga_National_Park_Postcard_phone.jpg"
+    ],
+    "estilo_capa": "faixa",
+    "registrado": "2026-11-10T20:20"
+  },
+  "2026-11-11|xbox_one_nuvem_carrossel": {
+    "data": "2026-11-11",
+    "horario": "11:00",
+    "imagens": [
+      "clipes/oficial/artes_e_wallpapers/Jason_and_Lucia_Beach_phone.jpg",
+      "clipes/oficial/screenshots/Vice_City_20.jpg",
+      "clipes/oficial/ultimate_edition/ULTIMATE_EDITION_VICE_CITY_STYLE_05.jpg",
+      "clipes/oficial/vintage_vice_city_pack/VINTAGE_VICE_CITY_WEAPON_PATTERN_01.jpg"
+    ],
+    "estilo_capa": "base",
+    "registrado": "2026-11-10T20:20"
   }
 }

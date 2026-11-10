@@ -76,6 +76,22 @@
     "video": "radar_2026-11-10_pechincha",
     "impressao": "0ad17f3fac97",
     "situacao": "bloqueado",
-    "conferido": "2026-11-10T19:47"
+    "conferido": "2026-11-10T20:18"
+  },
+  "b9d4465f1f": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-11_gg_explica.json",
+    "video": "xbox_one_nuvem_reel",
+    "impressao": "d31e2ddfde49",
+    "situacao": "agendado",
+    "message_id": 150,
+    "enviado": "2026-11-10T20:20:49.539389"
+  },
+  "6854d24e58": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-11_gg_explica.json",
+    "video": "xbox_one_nuvem_carrossel",
+    "impressao": "a3e19b941a7b",
+    "situacao": "agendado",
+    "message_id": 155,
+    "enviado": "2026-11-10T20:20:52.292791"
   }
 }
