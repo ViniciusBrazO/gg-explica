@@ -670,3 +670,19 @@ def test_palavra_quente_com_uma_fonte_seria_vira_alerta():
                 publicada=agora.isoformat(), selo_sugerido="relato", consulta="GTA 6")
     assert alertas([n], {"palavras_quentes": ["trailer"]}, agora) == [[n]]
     assert alertas([n], {"palavras_quentes": []}, agora) == []
+
+
+def test_publicados_hoje_lista_um_por_post(tmp_path, monkeypatch):
+    from datetime import date
+    from pipeline import fila
+    from pipeline.cli import publicados_hoje
+    from pipeline.fila import Item
+    monkeypatch.setattr(fila, "ARQUIVO_FILA", tmp_path / "fila.json")
+    base = dict(marca="gg_explica", video="v", capa="", legenda="TRAILER 4 NO AR!\n\nx", status="publicado")
+    fila.salvar([Item(id="t_reel", quando="2026-11-10T17:00:00-03:00", permalink="https://ig/r", **base),
+                 Item(id="t_reel", quando="2026-11-10T17:00:00-03:00", plataforma="facebook", permalink="f", **base),
+                 Item(id="t", quando="2026-11-10T19:00:00-03:00", tipo="carrossel", permalink="https://ig/c", **base),
+                 Item(id="ontem", quando="2026-11-09T19:00:00-03:00", permalink="x", **base)])
+    lista = publicados_hoje(date(2026, 11, 10))
+    assert [(p["tipo"], p["link"]) for p in lista] == [("Reel", "https://ig/r"), ("Carrossel", "https://ig/c")]
+    assert lista[0]["titulo"] == "TRAILER 4 NO AR!"

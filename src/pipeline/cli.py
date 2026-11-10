@@ -238,6 +238,48 @@ def cmd_metricas(args) -> int:
     return 0
 
 
+def publicados_hoje(hoje=None) -> list:
+    from .fila import _titulo, carregar
+    hoje = (hoje or datetime.now().date()).isoformat()
+    vistos, lista = set(), []
+    for i in sorted(carregar(), key=lambda x: x.quando):
+        if i.status != "publicado" or i.plataforma != "instagram" or not i.quando.startswith(hoje):
+            continue
+        if i.id in vistos:
+            continue
+        vistos.add(i.id)
+        lista.append({"tipo": "Carrossel" if i.tipo == "carrossel" else "Reel", "titulo": _titulo(i.legenda),
+                      "link": i.permalink, "quando": i.quando[11:16]})
+    return lista
+
+
+def cmd_resumo(args) -> int:
+    """23h30: o Claude monta o resumo do dia com músicas em alta e o kit manda no Telegram."""
+    from . import claude_cli
+    from .telegram import Telegram
+    hoje = datetime.now().date()
+    posts = publicados_hoje(hoje)
+    contexto = "\n".join(f"- {p['quando']} {p['tipo']}: {p['titulo']} {p['link']}" for p in posts) or "(nenhum)"
+    arq = RAIZ / "saida" / "telegram" / f"resumo_{hoje.isoformat()}.md"
+    if posts and claude_cli.disponivel():
+        ex = claude_cli.rodar("resumo", contexto=contexto)
+        print(f"Claude: {'ok' if ex.ok else ex.resumo[:300]}")
+    if arq.exists():
+        texto = arq.read_text(encoding="utf-8")
+    else:
+        reels = sum(p["tipo"] == "Reel" for p in posts)
+        texto = (f"📊 Resumo de {hoje:%d/%m}: {reels} Reels e {len(posts) - reels} carrosséis no ar\n\n"
+                 + "\n".join(f"{n}) {p['titulo']} ({p['tipo']})\n{p['link']}" for n, p in enumerate(posts, 1)))
+    tg = Telegram.do_ambiente()
+    if tg is None:
+        print(texto)
+        return 0
+    for k in range(0, len(texto), 3900):
+        tg.texto(texto[k:k + 3900], disable_web_page_preview="true")
+    print("resumo enviado no Telegram")
+    return 0
+
+
 def cmd_catalogar(args) -> int:
     from .catalogo import PASTA_CLIPES, catalogar
 
@@ -423,6 +465,9 @@ def main(argv: list[str] | None = None) -> int:
 
     p = sub.add_parser("fila", help="mostra a fila de publicação")
     p.set_defaults(func=cmd_fila)
+
+    p = sub.add_parser("resumo", help="resumo do dia no Telegram, com músicas em alta para cada post")
+    p.set_defaults(func=cmd_resumo)
 
     p = sub.add_parser("metricas", help="coleta métricas dos Reels publicados")
     p.set_defaults(func=cmd_metricas)
