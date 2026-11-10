@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <!-- Mapa esquemático feito pela página (visual próprio), com as 6 regiões anunciadas pela
+       Rockstar. Posições aproximadas, fora de escala: serve para explicar, não para navegar. -->
+  <defs>
+    <pattern id="grade" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" fill="none" stroke="#FFFFFF" stroke-opacity=".05" stroke-width="2"/>
+    </pattern>
+    <radialGradient id="mar" cx="70%" cy="70%" r="80%">
+      <stop offset="0" stop-color="#12304A"/><stop offset="1" stop-color="#0B0D12"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#mar)"/>
+  <rect width="1600" height="900" fill="url(#grade)"/>
+  <!-- terra -->
+  <path d="M230 150 L880 128 Q975 130 1010 196 L1066 338 Q1108 458 1090 566 Q1072 690 1018 764
+           Q980 806 938 774 Q866 650 806 528 Q764 430 704 344 Q664 290 566 280 L230 272 Z"
+        fill="#1C2430" stroke="#3A4757" stroke-width="5" stroke-linejoin="round"/>
+  <!-- pântano de Grassrivers -->
+  <path d="M868 520 Q930 470 1000 520 Q1040 600 990 680 Q940 700 905 640 Q870 590 868 520 Z" fill="#23402F" opacity=".9"/>
+  <!-- parque de Mount Kalaga -->
+  <path d="M770 150 Q860 136 930 160 Q960 210 900 236 Q820 250 780 214 Z" fill="#244030" opacity=".9"/>
+  <!-- ilhas -->
+  <g fill="#1C2430" stroke="#3A4757" stroke-width="4">
+    <ellipse cx="990" cy="808" rx="26" ry="12"/><ellipse cx="935" cy="830" rx="30" ry="12"/>
+    <ellipse cx="872" cy="846" rx="26" ry="11"/><ellipse cx="812" cy="856" rx="22" ry="10"/>
+    <ellipse cx="760" cy="862" rx="16" ry="8"/>
+  </g>
+  <!-- marcadores e nomes -->
+  <g font-family="Anton" font-size="44" fill="#F4F6F8" stroke-linecap="round">
+    <g><line x1="372" y1="214" x2="372" y2="318" stroke="#9AA3AE" stroke-width="3"/>
+       <circle cx="372" cy="214" r="15" fill="#C8FF2E"/><text x="300" y="368">PORT GELLHORN</text></g>
+    <g><line x1="862" y1="190" x2="1010" y2="96" stroke="#9AA3AE" stroke-width="3"/>
+       <circle cx="862" cy="190" r="15" fill="#C8FF2E"/><text x="1020" y="104">MOUNT KALAGA</text></g>
+    <g><line x1="884" y1="372" x2="612" y2="428" stroke="#9AA3AE" stroke-width="3"/>
+       <circle cx="884" cy="372" r="15" fill="#C8FF2E"/><text x="600" y="444" text-anchor="end">AMBROSIA</text></g>
+    <g><line x1="944" y1="598" x2="700" y2="640" stroke="#9AA3AE" stroke-width="3"/>
+       <circle cx="944" cy="598" r="15" fill="#C8FF2E"/><text x="688" y="656" text-anchor="end">GRASSRIVERS</text></g>
+    <g><line x1="1066" y1="640" x2="1170" y2="640" stroke="#C8FF2E" stroke-width="4"/>
+       <circle cx="1066" cy="640" r="22" fill="#C8FF2E"/><text x="1184" y="660" font-size="60" fill="#C8FF2E">VICE CITY</text></g>
+    <g><line x1="1004" y1="806" x2="1170" y2="806" stroke="#9AA3AE" stroke-width="3"/>
+       <circle cx="1004" cy="806" r="13" fill="#C8FF2E"/><text x="1184" y="822">LEONIDA KEYS</text></g>
+  </g>
+  <text x="56" y="70" font-family="Barlow" font-weight="700" font-size="30" letter-spacing="4" fill="#C8FF2E">LEONIDA</text>
+  <text x="56" y="110" font-family="Barlow" font-weight="600" font-size="24" fill="#9AA3AE">Esquema fora de escala · posições aproximadas</text>
+</svg>

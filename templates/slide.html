@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="{{ 'es' if idioma == 'es' else 'pt-BR' }}">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face { font-family: "Anton"; src: url("{{ fontes }}/Anton-Regular.ttf"); }
+@font-face { font-family: "Barlow"; font-weight: 600; src: url("{{ fontes }}/Barlow-SemiBold.ttf"); }
+@font-face { font-family: "Barlow"; font-weight: 700; src: url("{{ fontes }}/Barlow-Bold.ttf"); }
+:root {
+{% for k, v in cores.items() %}  --{{ k|replace('_','-') }}: {{ v }};
+{% endfor %}  --escala: 1; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 1080px; height: 1350px; overflow: hidden; background: var(--fundo); color: var(--texto);
+  font-family: "Barlow", sans-serif; }
+.foto { position: absolute; inset: 0; background-size: cover; background-position: {{ foco }}% 50%; }
+.escuro { position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(11,13,18,.72) 0%, rgba(11,13,18,.08) 22%, rgba(11,13,18,.12) 42%,
+              rgba(11,13,18,.86) 70%, rgba(11,13,18,.97) 100%); }
+.slide-final .escuro { background: rgba(11,13,18,.82); }
+.topo { position: absolute; top: 48px; left: 60px; right: 60px; display: flex; align-items: center; gap: 14px; }
+.marca-nome { font-family: "Anton"; font-size: 34px; color: var(--destaque); text-transform: uppercase; }
+.serie { font-weight: 700; font-size: 22px; letter-spacing: .12em; text-transform: uppercase;
+  background: rgba(255,255,255,.1); border: 2px solid var(--borda); padding: 6px 12px; }
+.contador { margin-left: auto; font-weight: 700; font-size: 26px; color: var(--texto-suave); }
+.conteudo { position: absolute; left: 60px; right: 60px; bottom: 84px; max-height: 760px;
+  display: flex; flex-direction: column; justify-content: flex-end; }
+.slide-capa .conteudo, .slide-final .conteudo { align-items: center; text-align: center; }
+.slide-final .conteudo { top: 0; bottom: 0; max-height: none; justify-content: center; }
+.selo-fato { align-self: flex-start; display: inline-flex; align-items: center; gap: 10px; font-weight: 700;
+  font-size: calc(26px * var(--escala)); letter-spacing: .14em; text-transform: uppercase; padding: 7px 16px 6px;
+  margin-bottom: 20px; }
+.slide-capa .selo-fato, .slide-final .selo-fato { align-self: center; }
+.selo-fato::before { content: ""; width: .5em; height: .5em; border-radius: 50%; background: currentColor; }
+.kicker { font-weight: 700; font-size: calc(28px * var(--escala)); letter-spacing: .14em; text-transform: uppercase;
+  color: var(--destaque); margin-bottom: 14px; }
+h1 { font-family: "Anton"; font-weight: 400; text-transform: uppercase; line-height: 1.02;
+  font-size: calc(96px * var(--escala)); text-shadow: 0 4px 16px rgba(0,0,0,.6); }
+.slide-capa h1 { font-size: calc(124px * var(--escala)); }
+mark { background: none; color: var(--destaque); }
+.texto { font-weight: 600; font-size: calc(42px * var(--escala)); line-height: 1.2; margin-top: 18px; }
+.texto mark { background: var(--destaque); color: var(--texto-sobre-destaque); padding: 0 .1em; }
+ol { list-style: none; margin-top: 18px; }
+li { display: flex; gap: 20px; align-items: center; font-weight: 600; font-size: calc(38px * var(--escala));
+  line-height: 1.15; margin-top: calc(16px * var(--escala)); }
+li .num { flex: 0 0 auto; width: 62px; height: 62px; display: grid; place-items: center; font-family: "Anton";
+  font-size: 40px; background: var(--destaque); color: var(--texto-sobre-destaque); }
+.fonte-fato { font-weight: 600; font-size: 24px; color: var(--texto-suave); margin-top: 18px; }
+.arraste { margin-top: 26px; font-weight: 700; font-size: 28px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--texto-sobre-destaque); background: var(--destaque); padding: 10px 22px; }
+.arroba { margin-top: 30px; font-weight: 700; font-size: 46px; color: var(--destaque); }
+.credito { position: absolute; left: 60px; bottom: 30px; font-weight: 600; font-size: 20px; color: var(--texto-suave); }
+</style>
+</head>
+<body class="marca-{{ marca_id }} slide-{{ papel }}">
+{% if foto %}<div class="foto" style="background-image: url('{{ foto }}')"></div>{% endif %}
+<div class="escuro"></div>
+<header class="topo">
+  <span class="marca-nome">{{ marca_nome }}</span>
+  {% if serie and serie|upper != marca_nome|upper %}<span class="serie">{{ serie }}</span>{% endif %}
+  <span class="contador">{{ n }}/{{ total }}</span>
+</header>
+<main class="conteudo">
+  {% if cena.selo and selos.get(cena.selo) %}{% set s = selos[cena.selo] %}
+  <p class="selo-fato" style="background: {{ s.cor }}; color: {{ s.texto }}">{{ s.rotulo }}</p>{% endif %}
+  {% if cena.kicker %}<p class="kicker">{{ cena.kicker }}</p>{% endif %}
+  {% if cena.titulo %}<h1>{{ cena.titulo|destaque }}</h1>{% endif %}
+  {% if cena.texto %}{% if papel == 'final' and not cena.titulo %}<h1>{{ cena.texto|destaque }}</h1>{% else %}<p class="texto">{{ cena.texto|destaque }}</p>{% endif %}{% endif %}
+  {% if cena.itens %}<ol>{% for item in cena.itens %}<li><span class="num">{{ loop.index }}</span><span>{{ item|destaque }}</span></li>{% endfor %}</ol>{% endif %}
+  {% if cena.fonte %}<p class="fonte-fato">{{ 'Fuente' if idioma == 'es' else 'Fonte' }}: {{ cena.fonte }}</p>{% endif %}
+  {% if papel == 'capa' %}<p class="arraste">{{ arraste }} ›</p>{% endif %}
+  {% if papel == 'final' %}<p class="arroba">{{ arroba }}</p>{% endif %}
+</main>
+{% if cena.credito %}<p class="credito">{{ cena.credito }}</p>{% endif %}
+<script>
+  window.__ajustar = async () => {
+    await document.fonts.ready;
+    const c = document.querySelector('.conteudo');
+    let s = 1;
+    while (c.scrollHeight > c.clientHeight + 1 && s > 0.5) {
+      s -= 0.04;
+      document.documentElement.style.setProperty('--escala', s.toFixed(2));
+    }
+    return s;
+  };
+</script>
+</body>
+</html>

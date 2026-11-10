@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="{{ 'es' if idioma == 'es' else 'pt-BR' }}">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face { font-family: "Anton"; src: url("{{ fontes }}/Anton-Regular.ttf"); }
+@font-face { font-family: "Barlow"; font-weight: 500; src: url("{{ fontes }}/Barlow-Medium.ttf"); }
+@font-face { font-family: "Barlow"; font-weight: 600; src: url("{{ fontes }}/Barlow-SemiBold.ttf"); }
+@font-face { font-family: "Barlow"; font-weight: 700; src: url("{{ fontes }}/Barlow-Bold.ttf"); }
+@font-face { font-family: "DM Serif Display"; src: url("{{ fontes }}/DMSerifDisplay-Regular.ttf"); }
+@font-face { font-family: "DM Serif Display"; font-style: italic; src: url("{{ fontes }}/DMSerifDisplay-Italic.ttf"); }
+@font-face { font-family: "Poppins"; font-weight: 600; src: url("{{ fontes }}/Poppins-SemiBold.ttf"); }
+@font-face { font-family: "Poppins"; font-weight: 700; src: url("{{ fontes }}/Poppins-Bold.ttf"); }
+@font-face { font-family: "Poppins"; font-weight: 800; src: url("{{ fontes }}/Poppins-ExtraBold.ttf"); }
+:root {
+{% for k, v in cores.items() %}  --{{ k|replace('_','-') }}: {{ v }};
+{% endfor %}}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 1080px; height: 1920px; background: transparent; overflow: hidden; }
+.oculto { visibility: hidden; }
+/* Selo de confiança e fonte do fato (cores vêm do YAML da marca). */
+.selo-fato { display: inline-flex; align-items: center; gap: 12px; font-family: "Barlow", sans-serif; font-weight: 700;
+  font-size: calc(28px * var(--escala, 1)); letter-spacing: .14em; text-transform: uppercase; padding: 8px 18px 7px;
+  margin-bottom: 22px; }
+.selo-fato::before { content: ""; width: .5em; height: .5em; border-radius: 50%; background: currentColor; }
+.fonte-fato { font-family: "Barlow", sans-serif; font-weight: 600; font-size: calc(28px * var(--escala, 1));
+  letter-spacing: .02em; opacity: .72; margin-top: 24px; }
+/* Cena "midia": título em cima, clipe na caixa fixa (desenhada pelo ffmpeg), crédito no canto. */
+.tipo-midia .palco { top: 300px; height: {{ caixa.y - 330 }}px; left: {{ caixa.x }}px; right: {{ 1080 - caixa.x - caixa.l }}px;
+  justify-content: flex-end; }
+/* Estilo "manchete": título grande sobre a imagem, sem painel (dentro do recorte 3:4 do grid). */
+body.estilo-manchete .palco { top: 760px; height: 560px; left: 56px; right: 56px; justify-content: flex-end;
+  text-align: center; align-items: center; }
+.manchete { display: flex; flex-direction: column; align-items: center; }
+.manchete-titulo { font-family: "Anton", sans-serif; font-weight: 400; text-transform: uppercase;
+  font-size: calc(118px * var(--escala, 1)); line-height: 1.02; color: #FFFFFF;
+  text-shadow: 0 4px 18px rgba(0,0,0,.85), 0 0 4px rgba(0,0,0,.9); }
+.manchete-titulo mark { background: none; color: var(--destaque); padding: 0; }
+.manchete-kicker { font-family: "Barlow", sans-serif; font-weight: 700; font-size: calc(32px * var(--escala, 1));
+  letter-spacing: .14em; text-transform: uppercase; color: #FFFFFF; margin-bottom: 14px;
+  text-shadow: 0 2px 10px rgba(0,0,0,.9); }
+.manchete .selo-fato { margin-bottom: 18px; }
+.manchete .fonte-fato { color: #FFFFFF; opacity: .85; text-shadow: 0 2px 8px rgba(0,0,0,.9); }
+/* Cena "tela_cheia": o clipe ocupa a tela; o título fica numa barra compacta no alto. */
+.tipo-tela_cheia .palco { top: 300px; height: 460px; justify-content: flex-start; }
+.credito-midia.credito-tela { left: 60px; top: 1586px; }
+.credito-midia { position: absolute; left: {{ caixa.x + 18 }}px; top: {{ caixa.y + caixa.a - 58 }}px;
+  font-family: "Barlow", sans-serif; font-weight: 600; font-size: 24px; color: #F4F6F8;
+  background: rgba(11,13,18,.78); padding: 6px 14px; }
+</style>
+<link rel="stylesheet" href="{{ estilo }}">
+</head>
+{% macro selo_fato(c) -%}
+  {%- if c.selo and selos.get(c.selo) -%}
+  {%- set s = selos[c.selo] -%}
+  <p class="selo-fato" style="background: {{ s.cor }}; color: {{ s.texto }}">{{ s.rotulo }}</p>
+  {%- endif -%}
+{%- endmacro %}
+{% macro fonte_fato(c) -%}
+  {%- if c.fonte %}<p class="fonte-fato">{{ 'Fuente' if idioma == 'es' else 'Fonte' }}: {{ c.fonte }}</p>{% endif -%}
+{%- endmacro %}
+<body class="marca-{{ marca_id }} tipo-{{ cena.tipo }} estilo-{{ cena.estilo or 'cartao' }}{% if fundo_solido %} fundo-solido{% endif %}">
+{% if cena.tipo == 'fundo' %}
+  <div class="fundo"><div class="fundo-a"></div><div class="fundo-b"></div><div class="fundo-grade"></div></div>
+{% else %}
+  {% if modo != 'cartao' %}
+  <div class="veu"></div>
+  <header class="topo">
+    <span class="marca-nome">{{ marca_nome }}</span>
+    {% if serie and serie|upper != marca_nome|upper %}<span class="serie">{{ serie }}</span>{% endif %}
+  </header>
+  {% endif %}
+  {% if modo != 'moldura' %}
+  <main class="palco">
+  {% if (cena.estilo or 'cartao') == 'manchete' and cena.tipo in ('gancho', 'texto', 'tela_cheia') %}
+    <section class="manchete">
+      {{ selo_fato(cena) }}
+      {% if cena.kicker %}<p class="manchete-kicker">{{ cena.kicker }}</p>{% endif %}
+      <h1 class="manchete-titulo">{{ (cena.titulo or cena.texto)|destaque }}</h1>
+      {{ fonte_fato(cena) }}
+    </section>
+  {% elif cena.tipo == 'gancho' %}
+    <section class="painel gancho">
+      {{ selo_fato(cena) }}
+      {% if cena.kicker %}<p class="kicker">{{ cena.kicker }}</p>{% endif %}
+      <h1 class="titulo">{{ cena.titulo|destaque }}</h1>
+      {{ fonte_fato(cena) }}
+    </section>
+
+  {% elif cena.tipo == 'texto' %}
+    <section class="painel texto">
+      {{ selo_fato(cena) }}
+      {% if cena.kicker %}<p class="kicker">{{ cena.kicker }}</p>{% endif %}
+      <p class="frase">{{ cena.texto|destaque }}</p>
+      {% if cena.rodape %}<p class="rodape">{{ cena.rodape }}</p>{% endif %}
+      {{ fonte_fato(cena) }}
+    </section>
+
+  {% elif cena.tipo == 'lista' %}
+    <section class="painel lista">
+      {{ selo_fato(cena) }}
+      {% if cena.titulo %}<h2 class="subtitulo">{{ cena.titulo|destaque }}</h2>{% endif %}
+      <ol>
+      {% for item in cena.itens %}
+        <li{% if revelar is not none and loop.index > revelar %} class="oculto"{% endif %}><span class="num">{{ loop.index }}</span><span class="item">{{ item|destaque }}</span></li>
+      {% endfor %}
+      </ol>
+      {% if cena.rodape %}<p class="rodape">{{ cena.rodape }}</p>{% endif %}
+      {{ fonte_fato(cena) }}
+    </section>
+
+  {% elif cena.tipo == 'produto' %}
+    <section class="painel produto">
+      {% if produto.loja_oficial %}<span class="selo-oficial">LOJA OFICIAL</span>{% endif %}
+      <div class="foto">{% if produto.imagem %}<img src="{{ produto.imagem }}" alt="">{% endif %}</div>
+      <h2 class="nome">{{ produto.nome }}</h2>
+      <div class="preco-linha">
+        <span class="preco">{{ produto.preco|reais }}</span>
+        {% if cena.rotulo %}<span class="por-unidade">{{ cena.rotulo }}</span>{% endif %}
+      </div>
+      {% if produto.preco_referencia %}
+        <p class="referencia">antes/média: <s>{{ produto.preco_referencia|reais }}</s>
+        {% set dif = (1 - produto.preco / produto.preco_referencia) * 100 %}
+        {% if dif >= 1 %}<b class="economia">-{{ dif|round|int }}%</b>{% endif %}</p>
+      {% endif %}
+      {% if cena.rodape %}<p class="rodape">{{ cena.rodape }}</p>{% endif %}
+    </section>
+
+  {% elif cena.tipo == 'comparativo' %}
+    <section class="painel comparativo">
+      {% if cena.titulo %}<h2 class="subtitulo">{{ cena.titulo|destaque }}</h2>{% endif %}
+      <div class="tabela">
+        <div class="cab"><span></span><span>{{ cena.coluna_a }}</span><span>{{ cena.coluna_b }}</span></div>
+        {% for l in cena.linhas %}
+        <div class="linha{% if revelar is not none and loop.index > revelar %} oculto{% endif %}">
+          <span class="rot">{{ l[0] }}</span>
+          <span class="val{% if l|length > 3 and l[3] == 'a' %} vence{% endif %}">{{ l[1] }}</span>
+          <span class="val{% if l|length > 3 and l[3] == 'b' %} vence{% endif %}">{{ l[2] }}</span>
+        </div>
+        {% endfor %}
+      </div>
+      {% if cena.rodape %}<p class="rodape">{{ cena.rodape }}</p>{% endif %}
+    </section>
+
+  {% elif cena.tipo == 'veredito' %}
+    {% set sf = selos.get(cena.selo) if cena.selo else none %}
+    <section class="veredito {{ 'sim' if cena.aprovado else 'nao' }}"{% if sf %} style="color: {{ sf.cor }}"{% endif %}>
+      <div class="carimbo">
+        {% if sf %}
+          <span class="l1">{{ cena.kicker or 'Veredito' }}</span><span class="l2{% if sf.rotulo|length > 7 %} longo{% endif %}">{{ sf.rotulo }}</span>
+        {% elif estilo_carimbo == 'duas_linhas' %}
+          {% set partes = (selo.aprova if cena.aprovado else selo.reprova).split(' ') %}
+          <span class="l1">{{ partes[0] }}</span><span class="l2">{{ partes[1:]|join(' ') }}</span>
+        {% else %}
+          <span class="icone">{{ '✓' if cena.aprovado else '✕' }}</span>
+          <span class="l1">{{ (selo.aprova if cena.aprovado else selo.reprova)|capitalize }}</span>
+        {% endif %}
+      </div>
+      {% if cena.texto %}<p class="motivo">{{ cena.texto|destaque }}</p>{% endif %}
+      {% if cena.fonte %}<p class="fonte-fato motivo-fonte">{{ 'Fuente' if idioma == 'es' else 'Fonte' }}: {{ cena.fonte }}</p>{% endif %}
+    </section>
+
+  {% elif cena.tipo == 'contagem' %}
+    <section class="painel contagem">
+      {{ selo_fato(cena) }}
+      {% if cena.kicker %}<p class="kicker">{{ cena.kicker }}</p>{% endif %}
+      <p class="numero">{{ cena.numero }}</p>
+      <p class="rotulo">{{ cena.rotulo|destaque }}</p>
+      {% if cena.rodape %}<p class="rodape">{{ cena.rodape }}</p>{% endif %}
+      {{ fonte_fato(cena) }}
+    </section>
+
+  {% elif cena.tipo == 'cta' %}
+    <section class="painel cta">
+      <p class="frase">{{ cena.texto|destaque }}</p>
+      {% if cena.rodape %}<p class="rodape">{{ cena.rodape }}</p>{% endif %}
+      <p class="arroba">{{ arroba }}</p>
+    </section>
+
+  {% elif cena.tipo in ('midia', 'tela_cheia') %}
+    {% if cena.titulo or cena.kicker or cena.selo %}
+    <section class="painel midia-topo">
+      {{ selo_fato(cena) }}
+      {% if cena.kicker %}<p class="kicker">{{ cena.kicker }}</p>{% endif %}
+      {% if cena.titulo %}<h2 class="subtitulo">{{ cena.titulo|destaque }}</h2>{% endif %}
+      {{ fonte_fato(cena) }}
+    </section>
+    {% endif %}
+  {% endif %}
+  </main>
+  {% if cena.credito and cena.tipo == 'midia' %}<p class="credito-midia">{{ cena.credito }}</p>
+  {% elif cena.credito and (cena.tipo == 'tela_cheia' or cena.fundo_clipe) %}<p class="credito-midia credito-tela">{{ cena.credito }}</p>{% endif %}
+  {% endif %}
+{% endif %}
+<script>
+  // Encolhe o texto até caber no palco, para manchetes longas não vazarem.
+  window.__ajustar = async () => {
+    await document.fonts.ready;
+    const palco = document.querySelector('.palco');
+    if (!palco) return 1;
+    let s = 1;
+    while (palco.scrollHeight > palco.clientHeight + 1 && s > 0.55) {
+      s -= 0.03;
+      palco.style.setProperty('--escala', s.toFixed(2));
+    }
+    return s;
+  };
+</script>
+</body>
+</html>

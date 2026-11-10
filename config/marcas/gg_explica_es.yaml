@@ -1,0 +1,114 @@
+# GG Explica em espanhol (América Latina): mesmo material, mesma identidade, outro público.
+# As pautas chegam traduzidas e adaptadas pela tarefa `paginas claude traducao`.
+
+id: gg_explica_es
+idioma: es
+nome: GG Explica
+arroba: "@gg.explica.es"
+nicho: videojuegos (GTA 6 primero)
+
+personagem: >
+  El amigo que leyó todo y te lo cuenta en 40 segundos. Empieza por el hecho, dice de dónde
+  viene la información, separa lo confirmado del rumor y termina con una pregunta. Español
+  latino neutro (que se entienda en México, Colombia y Argentina).
+
+# Carimbo do quadro Pão-Duro (cena "veredito" sem selo).
+selo:
+  aprova: GG APRUEBA
+  reprova: GG NO APRUEBA
+estilo_carimbo: duas_linhas
+
+# Selos de confiança: aparecem no cartão junto do fato, com a fonte.
+selos:
+  confirmado: {rotulo: CONFIRMADO, cor: "#C8FF2E", texto: "#0B0D12"}
+  relato:     {rotulo: REPORTE,     cor: "#4DB8FF", texto: "#0B0D12"}
+  rumor:      {rotulo: RUMOR,      cor: "#FFB020", texto: "#0B0D12"}
+  teoria:     {rotulo: TEORÍA,     cor: "#B48CFF", texto: "#0B0D12"}
+  falso:      {rotulo: FALSO,      cor: "#FF4D2E", texto: "#0B0D12"}
+
+cores:
+  fundo: "#0B0D12"
+  superficie: "#161A22"
+  borda: "#2A303B"
+  destaque: "#C8FF2E"      # verde-limão: a cor da marca e do selo CONFIRMADO
+  alerta: "#FF4D2E"        # vermelho: FALSO, cuidado, reprovado
+  apoio: "#4DB8FF"         # azul: detalhes do fundo e selo RELATO
+  texto: "#F4F6F8"
+  texto_suave: "#9AA3AE"
+  texto_sobre_destaque: "#0B0D12"
+
+fontes:
+  titulo: Anton            # manchetes e legendas, sempre em caixa alta
+  corpo: Barlow            # textos de apoio, selos e fontes
+  legenda: Anton
+  legenda_caixa_alta: true
+
+legenda:
+  tamanho: 92
+  contorno: 7
+  sombra: 0
+  max_palavras: 3
+  max_caracteres: 18
+
+voz:
+  provedor: elevenlabs          # elevenlabs | azure | silencio (teste sem áudio)
+  elevenlabs:
+    voice_id: ""                # uma voz em espanhol latino (Voice Library do ElevenLabs)
+    modelo: eleven_multilingual_v2
+    estabilidade: 0.45
+    similaridade: 0.75
+    estilo: 0.25
+    velocidade: 1.05            # notícia pode subir para 1.10; história e teoria, 1.00
+  azure:
+    voz: es-MX-JorgeNeural      # alternativa: es-US-AlonsoNeural
+    velocidade: "+5%"
+
+video:
+  duracao_min_s: 15
+  duracao_max_s: 90           # GG EXPLICA pode passar de 1 min (só com visual próprio)
+  musica_volume_db: -24       # só use música de biblioteca com licença comercial
+  busca_broll_padrao: "neon city night aerial"
+
+post:
+  aviso_publi: "#publicidad Enlace de afiliado: puedo ganar comisión."
+  aviso_ia: "Narración con voz de IA."
+  hashtags_base: ["#videojuegos"]   # máximo 3 hashtags en total
+  cta_padrao: "Sigue a GG Explica para enterarte antes que nadie."
+
+series:
+  radar:
+    nome: RADAR
+    descricao: La noticia del día, con sello y fuente.
+    leva_link: false
+  gg_explica:
+    nome: GG EXPLICA
+    descricao: Historia, personajes y lugares, como episodios de una serie.
+    leva_link: false
+  contagem_15:
+    nome: 15 DATOS EN 15 DÍAS
+    descricao: Un dato oficial por día hasta el lanzamiento de GTA VI (19/11).
+    leva_link: false
+  gta_no_brasil:
+    nome: GTA EN LATAM
+    descricao: El ángulo local, con dato y fuente (precio en dólares y en horas de trabajo, hora de lanzamiento por país).
+    leva_link: false
+  rumor_ou_confirmado:
+    nome: ¿RUMOR O CONFIRMADO?
+    descricao: El rumor, la evidencia a favor y en contra, y el sello al final.
+    leva_link: false
+  na_tela:
+    nome: EN PANTALLA
+    descricao: Detalles de los tráilers, con corte corto y análisis encima.
+    leva_link: false
+  comunidade:
+    nome: COMUNIDAD
+    descricao: Encuestas, rankings y respuestas a comentarios.
+    leva_link: false
+  pao_duro:
+    nome: OFERTAS GG
+    descricao: "Oferta (só quando houver programa de afiliado no país): produto do setup com arte da página, nunca imagem do jogo."
+    leva_link: true
+  setup_de_rs:
+    nome: SETUP CON PRESUPUESTO
+    descricao: "Oferta (só quando houver programa de afiliado no país): setup com orçamento fechado, nunca imagem do jogo."
+    leva_link: true

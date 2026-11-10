@@ -1,0 +1,82 @@
+{
+  "marca": "gg_explica",
+  "semana": "demo",
+  "videos": [
+    {
+      "id": "demo_formatos_jogo",
+      "serie": "na_tela",
+      "status": "rascunho",
+      "data": "2026-11-08",
+      "horario": "12:30",
+      "legenda_post": "Demonstração dos formatos com trecho de jogo. A cena é ilustrativa, feita pela página: troque pelas suas gravações em clipes/.",
+      "notas_revisao": "Só para conferir o visual: fica em rascunho para nunca entrar na fila.",
+      "cenas": [
+        {
+          "tipo": "gancho",
+          "kicker": "Na Tela",
+          "titulo": "4 jeitos de mostrar o *jogo* no vídeo",
+          "fundo_clipe": "assets/exemplos/cena_ilustrativa.mp4",
+          "foco_x": 0.55,
+          "midia_terceiros": false,
+          "credito": "Cena ilustrativa (não é do jogo)",
+          "narracao": "Quatro jeitos de colocar o jogo no vídeo sem perder a cara da página."
+        },
+        {
+          "tipo": "tela_cheia",
+          "midia": "assets/exemplos/cena_ilustrativa.mp4",
+          "panoramica": true,
+          "midia_terceiros": false,
+          "credito": "Cena ilustrativa (não é do jogo)",
+          "kicker": "1 · Tela cheia",
+          "titulo": "A câmera *passeia* pela cena",
+          "narracao": "Um: tela cheia. A câmera passeia pela cena enquanto você explica o que está acontecendo."
+        },
+        {
+          "tipo": "midia",
+          "midia": "assets/exemplos/cena_ilustrativa.mp4",
+          "midia_inicio": 1.0,
+          "midia_recorte": [0.42, 0.2, 0.3, 0.3],
+          "midia_animacao": "aproximar",
+          "midia_destaque": [0.57, 0.36, 0.07],
+          "midia_terceiros": false,
+          "credito": "Cena ilustrativa (não é do jogo)",
+          "selo": "teoria",
+          "kicker": "2 · Zoom no detalhe",
+          "titulo": "Pausa e *aproxima*",
+          "narracao": "Dois: zoom no detalhe. A câmera aproxima e o anel mostra exatamente onde olhar."
+        },
+        {
+          "tipo": "texto",
+          "fundo_clipe": "assets/exemplos/cena_ilustrativa.mp4",
+          "fundo_inicio": 3.0,
+          "foco_x": 0.3,
+          "midia_terceiros": false,
+          "credito": "Cena ilustrativa (não é do jogo)",
+          "selo": "confirmado",
+          "fonte": "exemplo de fonte · 04/11",
+          "kicker": "3 · Fundo em movimento",
+          "texto": "O cartão da página por cima do *gameplay*.",
+          "narracao": "Três: o jogo vira o fundo, e o cartão da página fica por cima, com selo e fonte."
+        },
+        {
+          "tipo": "midia",
+          "midia": "assets/exemplos/cena_ilustrativa.jpg",
+          "midia_terceiros": false,
+          "credito": "Cena ilustrativa (não é do jogo)",
+          "kicker": "4 · Caixa com moldura",
+          "titulo": "Imagem oficial ou *print*",
+          "narracao": "Quatro: a caixa com moldura, para imagem oficial ou print, sempre com o crédito no canto."
+        },
+        {
+          "tipo": "cta",
+          "texto": "Qual formato você quer ver *primeiro*?",
+          "fundo_clipe": "assets/exemplos/cena_ilustrativa.mp4",
+          "fundo_inicio": 5.0,
+          "midia_terceiros": false,
+          "credito": "Cena ilustrativa (não é do jogo)",
+          "narracao": "E você, qual desses quer ver primeiro no GTA seis?"
+        }
+      ]
+    }
+  ]
+}

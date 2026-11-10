@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <!-- Avatar GG Explica: balão de fala verde-limão com "GG" (alguém explicando) e um ponto
+       vermelho de notificação (notícia nova). Tudo dentro do círculo central, que é o que
+       Instagram e TikTok mostram. -->
+  <rect width="1080" height="1080" fill="#0B0D12"/>
+  <g fill="#C8FF2E">
+    <rect x="180" y="262" width="720" height="492" rx="132"/>
+    <path d="M318 724 L262 884 L470 744 Z"/>                           <!-- rabinho do balão -->
+  </g>
+  <text x="540" y="672" font-family="Anton" font-size="430" letter-spacing="10" text-anchor="middle"
+        fill="#0B0D12">GG</text>
+  <circle cx="858" cy="292" r="78" fill="#FF4D2E" stroke="#0B0D12" stroke-width="22"/>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <!-- Avatar Gamer Pão-Duro: cofrinho de porco com headset, moeda caindo na fenda. -->
+  <rect width="1080" height="1080" fill="#C8FF2E"/>
+  <g fill="#0B0D12">
+    <circle cx="705" cy="235" r="84"/>                                  <!-- moeda -->
+    <ellipse cx="575" cy="640" rx="320" ry="245"/>                      <!-- corpo -->
+    <rect x="200" y="560" width="140" height="150" rx="52"/>            <!-- focinho -->
+    <path d="M352 462 L388 322 L478 436 Z"/>                             <!-- orelha -->
+    <rect x="370" y="800" width="78" height="130" rx="30"/>             <!-- pernas -->
+    <rect x="480" y="820" width="78" height="115" rx="30"/>
+    <rect x="640" y="820" width="78" height="115" rx="30"/>
+    <rect x="750" y="800" width="78" height="130" rx="30"/>
+  </g>
+  <path d="M880 600 c70 -40 110 30 60 60 c-40 24 -60 -30 -20 -40" fill="none" stroke="#0B0D12" stroke-width="30" stroke-linecap="round"/>
+  <g fill="#C8FF2E">
+    <rect x="645" y="426" width="120" height="28" rx="14"/>             <!-- fenda -->
+    <text x="705" y="267" font-family="Anton" font-size="94" text-anchor="middle">R$</text>
+    <circle cx="380" cy="570" r="21"/>                                   <!-- olho -->
+    <ellipse cx="245" cy="635" rx="14" ry="24"/>                         <!-- narinas -->
+    <ellipse cx="293" cy="635" rx="14" ry="24"/>
+  </g>
+  <!-- headset visto de lado: concha na orelha e arco sobre a cabeça -->
+  <path d="M478 492 C 470 380, 540 330, 620 372" fill="none" stroke="#C8FF2E" stroke-width="58" stroke-linecap="round"/>
+  <path d="M478 492 C 470 380, 540 330, 620 372" fill="none" stroke="#0B0D12" stroke-width="28" stroke-linecap="round"/>
+  <rect x="428" y="480" width="100" height="150" rx="42" fill="#0B0D12" stroke="#C8FF2E" stroke-width="16"/>
+  <path d="M470 630 C 470 700, 410 712, 362 698" fill="none" stroke="#C8FF2E" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="356" cy="697" r="19" fill="#C8FF2E"/>
+</svg>

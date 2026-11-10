@@ -1,0 +1,96 @@
+{
+  "marca": "seul_no_bolso",
+  "semana": "2026-W45",
+  "videos": [
+    {
+      "id": "original-ou-falso-4-sinais",
+      "serie": "original_ou_falso",
+      "status": "aprovado",
+      "data": "2026-11-05",
+      "horario": "20:00",
+      "plataformas": ["instagram", "tiktok"],
+      "legenda_post": "4 sinais de skincare coreano falso, pra conferir antes de comprar. Qual desses você já viu?",
+      "hashtags": ["#skincare"],
+      "publi": false,
+      "voz_ia": true,
+      "produtos": [],
+      "cenas": [
+        {
+          "tipo": "gancho",
+          "titulo": "4 sinais de que seu skincare coreano é *falso*",
+          "narracao": "Quatro sinais de que o seu skincare coreano pode ser falso. O terceiro quase ninguém confere.",
+          "broll": "skincare serum bottle pastel"
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Desconfie se tiver:",
+          "itens": [
+            "Preço *muito abaixo* da loja oficial",
+            "Vendedor sem nota fiscal nem histórico",
+            "Lacre violado ou *erro de impressão*",
+            "Lote e validade *diferentes* na caixa e no frasco"
+          ],
+          "narracao": "Um: preço muito abaixo do que a loja oficial cobra. Dois: vendedor sem nota fiscal e sem histórico de vendas. Três: lacre violado ou erro de impressão na embalagem. Quatro: lote e validade diferentes na caixa e no frasco."
+        },
+        {
+          "tipo": "texto",
+          "kicker": "Na dúvida",
+          "texto": "Compre da *loja oficial* da marca dentro do marketplace.",
+          "narracao": "Na dúvida, compra direto da loja oficial da marca dentro do marketplace. Custa um pouco mais, mas você sabe o que tá passando no rosto."
+        },
+        {
+          "tipo": "cta",
+          "texto": "Salva pra conferir antes de comprar e manda pra *amiga*",
+          "narracao": "Salva esse vídeo pra conferir antes da próxima compra, e manda pra amiga que ama skincare."
+        }
+      ]
+    },
+    {
+      "id": "ingrediente-niacinamida",
+      "serie": "ingrediente_em_20s",
+      "status": "aprovado",
+      "data": "2026-11-06",
+      "horario": "20:00",
+      "plataformas": ["instagram", "tiktok"],
+      "legenda_post": "Niacinamida em 20 segundos: o que é e o que ela promete no rótulo. Qual ingrediente você quer no próximo?",
+      "hashtags": ["#niacinamida"],
+      "publi": false,
+      "voz_ia": true,
+      "produtos": [],
+      "cenas": [
+        {
+          "tipo": "gancho",
+          "titulo": "*Niacinamida*: pra que serve de verdade",
+          "narracao": "Niacinamida: o ingrediente que aparece em muito sérum coreano. Pra que serve de verdade?"
+        },
+        {
+          "tipo": "texto",
+          "texto": "É uma forma da *vitamina B3* usada em cosméticos.",
+          "narracao": "É uma forma da vitamina B3 usada em cosméticos."
+        },
+        {
+          "tipo": "lista",
+          "titulo": "O que ela promete",
+          "itens": [
+            "Controlar a *oleosidade*",
+            "Melhorar a aparência dos *poros*",
+            "Ajudar a *uniformizar* o tom"
+          ],
+          "narracao": "Ela aparece em fórmulas pra controlar a oleosidade, melhorar a aparência dos poros e ajudar a uniformizar o tom da pele."
+        },
+        {
+          "tipo": "texto",
+          "kicker": "Pele sensível?",
+          "texto": "Comece usando *em dias alternados*.",
+          "rodape": "Não substitui a consulta com dermatologista.",
+          "narracao": "Se a sua pele é sensível, começa usando em dias alternados e observa como ela reage."
+        },
+        {
+          "tipo": "cta",
+          "texto": "Segue pra entender o *rótulo* antes de gastar",
+          "narracao": "Segue o Seul no Bolso pra entender o rótulo antes de gastar."
+        }
+      ]
+    }
+  ]
+}

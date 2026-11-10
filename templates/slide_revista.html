@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="{{ 'es' if idioma == 'es' else 'pt-BR' }}">
+<head>
+<meta charset="utf-8">
+<style>
+/* Carrossel no estilo das grandes páginas de games (IGN Brasil, MeuPS, Fluid Game, Seek Key):
+   imagem oficial ocupando o slide inteiro, véu escuro embaixo, manchete condensada em caixa alta
+   com 1 ou 2 palavras na cor da marca, etiqueta no alto, crédito da imagem no rodapé. */
+@font-face { font-family: "Anton"; src: url("{{ fontes }}/Anton-Regular.ttf"); }
+@font-face { font-family: "Cond"; font-weight: 500; src: url("{{ fontes }}/BarlowCondensed-500.woff2"); }
+@font-face { font-family: "Cond"; font-weight: 600; src: url("{{ fontes }}/BarlowCondensed-600.woff2"); }
+@font-face { font-family: "Cond"; font-weight: 700; src: url("{{ fontes }}/BarlowCondensed-700.woff2"); }
+@font-face { font-family: "Cond"; font-weight: 800; src: url("{{ fontes }}/BarlowCondensed-800.woff2"); }
+:root {
+{% for k, v in cores.items() %}  --{{ k|replace('_','-') }}: {{ v }};
+{% endfor %}  --escala: 1; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: {{ largura }}px; height: {{ altura }}px; overflow: hidden; background: var(--fundo);
+  color: var(--texto); font-family: "Cond", sans-serif; }
+mark { background: none; color: var(--destaque); }
+
+.foto { position: absolute; inset: 0; background-size: cover; background-position: {{ foco }}% {{ foco_y|default(50) }}%; }
+.desfocada .foto { filter: blur(14px) saturate(1.15); transform: scale(1.12); }
+.veu { position: absolute; inset: 0; }
+.p-capa .veu, .p-fato .veu { background: linear-gradient(180deg, rgba(11,13,18,.55) 0%, rgba(11,13,18,0) 16%,
+    rgba(11,13,18,0) 40%, rgba(11,13,18,.78) 64%, rgba(11,13,18,.97) 84%, #0B0D12 100%); }
+.p-fato .veu { background: linear-gradient(180deg, rgba(11,13,18,.5) 0%, rgba(11,13,18,0) 14%,
+    rgba(11,13,18,0) 46%, rgba(11,13,18,.86) 68%, #0B0D12 90%); }
+.desfocada .veu { background: rgba(11,13,18,.80); }
+
+/* marca: assinatura discreta no alto (como "MEUPS.COM.BR") e o selo da página no canto */
+.assinatura { position: absolute; top: 46px; left: 56px; font-weight: 600; font-size: 22px;
+  letter-spacing: .32em; text-transform: uppercase; color: rgba(244,246,248,.78); }
+.logo { position: absolute; top: 32px; right: 40px; width: 78px; height: 78px; border-radius: 18px;
+  background: url("{{ logo }}") center/cover; box-shadow: 0 6px 18px rgba(0,0,0,.45); }
+.credito { position: absolute; left: 56px; bottom: 26px; font-weight: 500; font-size: 20px;
+  letter-spacing: .04em; color: rgba(244,246,248,.62); }
+
+/* etiqueta: selo de confiança (CONFIRMADO, RUMOR...) ou palavra de chamada (GUIA, NOTÍCIA) */
+.etiqueta { display: inline-flex; align-items: center; gap: 10px; font-weight: 800;
+  font-size: calc(30px * var(--escala)); letter-spacing: .14em; text-transform: uppercase;
+  padding: 8px 18px 7px; background: var(--alerta); color: #fff; }
+.etiqueta.selo::before { content: ""; width: .48em; height: .48em; border-radius: 50%; background: currentColor; }
+
+/* ---------- capa ---------- */
+.p-capa .bloco { position: absolute; left: 60px; right: 60px; bottom: {{ 150 if altura > 1400 else 96 }}px;
+  max-height: {{ 900 if altura > 1400 else 700 }}px; display: flex; flex-direction: column; align-items: center;
+  justify-content: flex-end; text-align: center; }
+.p-capa .etiqueta { margin-bottom: 26px; }
+.p-capa h1 { font-family: "Anton"; font-weight: 400; text-transform: uppercase; line-height: .98;
+  font-size: calc({{ 150 if altura > 1400 else 128 }}px * var(--escala)); letter-spacing: .005em;
+  text-shadow: 0 6px 26px rgba(0,0,0,.7); }
+.p-capa .sub { margin-top: 22px; font-weight: 600; font-size: calc(44px * var(--escala)); line-height: 1.12;
+  color: rgba(244,246,248,.94); text-transform: uppercase; }
+.p-capa .arraste { margin-top: 30px; font-weight: 800; font-size: 28px; letter-spacing: .24em;
+  text-transform: uppercase; color: var(--destaque); }
+.p-capa .arraste b { letter-spacing: -.1em; margin-left: .3em; }
+
+/* ---------- fato: imagem inteira, título colorido e texto embaixo (estilo IGN) ---------- */
+.p-fato .bloco { position: absolute; left: 60px; right: 60px; bottom: 76px; max-height: 640px;
+  display: flex; flex-direction: column; justify-content: flex-end; }
+.p-fato .etiqueta { align-self: flex-start; margin-bottom: 20px; }
+.p-fato h2 { font-family: "Anton"; font-weight: 400; text-transform: uppercase; line-height: 1;
+  font-size: calc(84px * var(--escala)); color: var(--destaque); }
+.p-fato h2 mark { color: var(--texto); }
+.p-fato .corpo { margin-top: 14px; font-weight: 700; font-size: calc(50px * var(--escala)); line-height: 1.1; }
+.fonte { margin-top: 18px; font-weight: 500; font-size: 24px; color: rgba(244,246,248,.66); letter-spacing: .02em; }
+
+/* ---------- lista: guia com ícones (estilo Seek Key) ---------- */
+.p-lista .bloco, .p-tabela .bloco { position: absolute; left: 64px; right: 64px; top: 150px; bottom: 92px;
+  display: flex; flex-direction: column; }
+.p-lista .etiqueta, .p-tabela .etiqueta { align-self: flex-start; margin-bottom: 22px; }
+.p-lista h2 { font-weight: 800; text-transform: uppercase; line-height: 1; font-size: calc(76px * var(--escala)); }
+.subtitulo { margin-top: 10px; font-weight: 500; font-size: calc(32px * var(--escala)); color: rgba(244,246,248,.8); }
+.barra { width: 128px; height: 6px; background: var(--destaque); margin-top: 18px; }
+.itens, .linhas { list-style: none; flex: 1 1 auto; display: flex; flex-direction: column;
+  justify-content: space-evenly; margin-top: calc(24px * var(--escala)); gap: calc(22px * var(--escala)); }
+.itens li { display: flex; align-items: center; gap: 30px; }
+.icone { flex: 0 0 auto; width: calc(112px * var(--escala)); height: calc(112px * var(--escala)); border-radius: 50%;
+  display: grid; place-items: center; font-family: "Anton"; font-size: calc(54px * var(--escala));
+  color: var(--destaque); background: rgba(255,255,255,.07); border: 3px solid rgba(200,255,46,.55); }
+.itens .t { font-weight: 800; font-size: calc(54px * var(--escala)); line-height: 1.04; color: var(--destaque); }
+.itens .d { font-weight: 600; font-size: calc(42px * var(--escala)); line-height: 1.14; margin-top: 4px; }
+.rodape { padding-top: 22px; font-weight: 500; font-size: 22px; color: rgba(244,246,248,.6); }
+
+/* ---------- tabela: dado que se compara (estilo Fluid Game) ---------- */
+.p-tabela h2 { font-family: "Anton"; font-weight: 400; text-transform: uppercase; line-height: 1.02;
+  font-size: calc(96px * var(--escala)); }
+.linhas li { display: flex; align-items: center; gap: 28px; font-weight: 700; font-size: calc(66px * var(--escala));
+  line-height: 1; }
+.linhas li::before { content: ""; flex: 0 0 auto; width: 150px; height: calc(58px * var(--escala));
+  margin-left: -64px; border-radius: 0 999px 999px 0; background: var(--destaque); }
+.linhas li > span { flex: 1; }
+.linhas .v { color: var(--destaque); }
+
+/* ---------- final ---------- */
+.p-final .bloco { position: absolute; inset: 0; padding: 0 80px; display: flex; flex-direction: column;
+  align-items: center; justify-content: center; text-align: center; }
+.p-final .avatar { width: 190px; height: 190px; border-radius: 40px; background: url("{{ logo }}") center/cover;
+  box-shadow: 0 10px 40px rgba(0,0,0,.5); margin-bottom: 46px; }
+.p-final h1 { font-family: "Anton"; font-weight: 400; text-transform: uppercase; line-height: 1;
+  font-size: calc(112px * var(--escala)); }
+.p-final .arroba { margin-top: 30px; font-weight: 800; font-size: 50px; color: var(--destaque); letter-spacing: .02em; }
+.p-final .convite { margin-top: 16px; font-weight: 600; font-size: 36px; color: rgba(244,246,248,.8); }
+</style>
+</head>
+<body class="p-{{ papel }}{% if papel in ('lista', 'tabela', 'final') %} desfocada{% endif %}">
+{% if foto %}<div class="foto" style="background-image: url('{{ foto }}')"></div>{% endif %}
+<div class="veu"></div>
+<p class="assinatura">{{ arroba|replace('@', '') }}</p>
+{% if papel != 'final' %}<div class="logo"></div>{% endif %}
+
+{% macro etiqueta() -%}
+  {%- if cena.selo and selos.get(cena.selo) %}{% set s = selos[cena.selo] -%}
+  <p class="etiqueta selo" style="background: {{ s.cor }}; color: {{ s.texto }}">{{ s.rotulo }}</p>
+  {%- elif cena.kicker and papel in ('capa', 'fato') %}<p class="etiqueta">{{ cena.kicker }}</p>{% endif -%}
+{%- endmacro %}
+
+<main class="bloco">
+{% if papel == 'capa' %}
+  {{ etiqueta() }}
+  <h1>{{ cena.titulo|destaque }}</h1>
+  {% if cena.texto %}<p class="sub">{{ cena.texto|destaque }}</p>{% endif %}
+  {% if mostrar_arraste %}<p class="arraste">{{ arraste }}<b>›››</b></p>{% endif %}
+
+{% elif papel == 'fato' %}
+  {{ etiqueta() }}
+  {% if cena.titulo %}<h2>{{ cena.titulo|destaque }}</h2>{% endif %}
+  {% if cena.texto %}<p class="corpo">{{ cena.texto|destaque }}</p>{% endif %}
+  {% if cena.fonte %}<p class="fonte">{{ 'Fuente' if idioma == 'es' else 'Fonte' }}: {{ cena.fonte }}</p>{% endif %}
+
+{% elif papel == 'lista' %}
+  {{ etiqueta() }}
+  <h2>{{ cena.titulo|destaque }}</h2>
+  {% if cena.kicker or cena.texto %}<p class="subtitulo">{{ (cena.kicker or cena.texto)|destaque }}</p>{% endif %}
+  <div class="barra"></div>
+  <ol class="itens">{% for item in itens %}
+    <li><span class="icone">{{ item.icone or loop.index }}</span>
+      <div>{% if item.t %}<p class="t">{{ item.t|destaque }}</p>{% endif %}<p class="d">{{ item.d|destaque }}</p></div></li>{% endfor %}
+  </ol>
+  <p class="rodape">{{ cena.rodape or (('Fuente: ' if idioma == 'es' else 'Fonte: ') + cena.fonte if cena.fonte else '') }}</p>
+
+{% elif papel == 'tabela' %}
+  {{ etiqueta() }}
+  <h2>{{ cena.titulo|destaque }}</h2>
+  {% if cena.kicker or cena.texto %}<p class="subtitulo">{{ (cena.kicker or cena.texto)|destaque }}</p>{% endif %}
+  <ul class="linhas">{% for item in itens %}
+    <li><span>{{ item.t }}{% if item.t %}:{% endif %} <span class="v">{{ item.d }}</span></span></li>{% endfor %}
+  </ul>
+  <p class="rodape">{{ cena.rodape or (('Fuente: ' if idioma == 'es' else 'Fonte: ') + cena.fonte if cena.fonte else '') }}</p>
+
+{% else %}
+  <div class="avatar"></div>
+  <h1>{{ (cena.titulo or cena.texto)|destaque }}</h1>
+  <p class="arroba">{{ arroba }}</p>
+  <p class="convite">{{ cena.rodape or convite }}</p>
+{% endif %}
+</main>
+{% if cena.credito %}<p class="credito">{{ cena.credito }}</p>{% endif %}
+<script>
+  window.__ajustar = async () => {
+    await document.fonts.ready;
+    const c = document.querySelector('.bloco');
+    let s = 1;
+    const sobra = () => c.scrollHeight > c.clientHeight + 1 ||
+      [...c.children].some(e => e.getBoundingClientRect().top < 120);
+    while (sobra() && s > 0.5) {
+      s -= 0.03;
+      document.documentElement.style.setProperty('--escala', s.toFixed(2));
+    }
+    return s;
+  };
+</script>
+</body>
+</html>

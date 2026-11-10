@@ -1,0 +1,35 @@
+{
+  "marca": "gg_explica",
+  "semana": "demo",
+  "videos": [
+    {
+      "id": "demo_revista",
+      "serie": "gg_explica",
+      "status": "rascunho",
+      "data": "2026-11-10",
+      "horario": "12:30",
+      "formato": "carrossel",
+      "plataformas": ["instagram", "tiktok"],
+      "legenda_post": "Demonstração do estilo revista. A cena de fundo é ilustrativa: na página entram as imagens oficiais da biblioteca.",
+      "notas_revisao": "Só para conferir o visual.",
+      "cenas": [
+        {"tipo": "gancho", "kicker": "Guia", "titulo": "9 dias pra GTA 6: o que fazer *antes do dia 19*",
+         "texto": "Salva pra não esquecer nada", "fundo_clipe": "assets/exemplos/cena_ilustrativa.jpg", "midia_terceiros": false,
+         "credito": "Imagem: cena ilustrativa"},
+        {"tipo": "texto", "selo": "confirmado", "titulo": "Libere 212 GB", "texto": "É o tamanho máximo do jogo. Quem tem PS5 de 825 GB precisa apagar jogos antes do *pré-download*.",
+         "fonte": "Rockstar Games, 3/11", "fonte_url": "https://www.tweaktown.com/news/114473/rockstar-reveals-gta-6-pre-load-times-confirms-212gb-install-size/index.html",
+         "fundo_clipe": "assets/exemplos/cena_ilustrativa.jpg", "foco_x": 0.3, "midia_terceiros": false, "credito": "Imagem: cena ilustrativa"},
+        {"tipo": "lista", "titulo": "O que já é *oficial*", "kicker": "Tudo confirmado pela Rockstar", "selo": "confirmado",
+         "itens": ["Data: 19 de novembro, no PS5 e no Xbox Series", "Protagonistas: Lucia Caminos e Jason Duval", "Lugar: o estado de Leonida, com Vice City", "Pré-download: aberto desde 9/11 no Xbox e 10/11 no PS5"],
+         "fonte": "Rockstar Games", "fonte_url": "https://www.rockstargames.com/VI",
+         "rodape": "Fonte: Rockstar Games. Atualizado em 10/11.",
+         "fundo_clipe": "assets/exemplos/cena_ilustrativa.jpg", "foco_x": 0.6, "midia_terceiros": false},
+        {"tipo": "lista", "estilo": "tabela", "titulo": "Tempo pra baixar *212 GB*", "kicker": "Conta feita com a velocidade cheia da internet",
+         "itens": ["50 Mbps: 9 h 25 min", "100 Mbps: 4 h 43 min", "300 Mbps: 1 h 34 min", "500 Mbps: 57 min", "1 Gbps: 28 min"],
+         "rodape": "Cálculo da GG Explica com 212 GB. Na prática demora mais.",
+         "fundo_clipe": "assets/exemplos/cena_ilustrativa.jpg", "foco_x": 0.2, "midia_terceiros": false},
+        {"tipo": "cta", "texto": "Manda pra quem vai *jogar no dia 19*"}
+      ]
+    }
+  ]
+}

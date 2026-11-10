@@ -1,0 +1,87 @@
+# Identidade da página Seul no Bolso.
+
+id: seul_no_bolso
+nome: Seul no Bolso
+arroba: "@seulnobolso"
+nicho: skincare e beleza coreana
+
+personagem: >
+  A amiga que já pesquisou: fala de ingrediente e de preço por ml sem enrolar,
+  acolhedora e prática. Nunca diz que usou ou testou um produto; compara
+  fórmula, tamanho, preço e avaliações. Não promete resultado nem trata doença.
+
+selo:
+  aprova: CABE NO BOLSO
+  reprova: NÃO CABE NO BOLSO
+
+cores:
+  fundo: "#FFF6F0"
+  superficie: "#FFFFFF"
+  borda: "#F1DCD2"
+  destaque: "#FF6F61"      # coral: palavra-chave, preço
+  aprovado: "#2FA58A"      # menta escura: cabe no bolso
+  alerta: "#D93A4A"        # vermelho framboesa: não cabe, cuidado
+  texto: "#2B1B2E"
+  texto_suave: "#7A6670"
+  texto_sobre_destaque: "#FFFFFF"
+
+fontes:
+  titulo: DM Serif Display  # manchetes editoriais
+  corpo: Poppins
+  legenda: Poppins ExtraBold
+  legenda_caixa_alta: false
+
+legenda:
+  tamanho: 82
+  contorno: 22             # na legenda em caixa, é o respiro da faixa
+  sombra: 0
+  caixa: true               # legenda dentro de uma faixa clara, estilo revista
+  max_palavras: 3
+  max_caracteres: 20
+
+voz:
+  provedor: elevenlabs
+  elevenlabs:
+    voice_id: ""
+    modelo: eleven_multilingual_v2
+    estabilidade: 0.5
+    similaridade: 0.75
+    estilo: 0.2
+    velocidade: 1.04
+  azure:
+    voz: pt-BR-ThalitaMultilingualNeural   # alternativa: pt-BR-FranciscaNeural
+    velocidade: "+4%"
+
+video:
+  duracao_min_s: 15
+  duracao_max_s: 75
+  musica_volume_db: -26
+  busca_broll_padrao: "skincare serum texture pastel"
+
+post:
+  aviso_publi: "#publi Link de afiliado: posso ganhar comissão."
+  aviso_ia: "Narração com voz de IA."
+  hashtags_base: ["#skincarecoreano"]  # no máximo 3 hashtags no total
+  cta_padrao: "Salva pra conferir antes de comprar."
+
+series:
+  cabe_no_bolso:
+    nome: CABE NO BOLSO?
+    descricao: Um produto, preço por ml, o que a fórmula promete e o selo.
+    leva_link: true
+  rotina_de_rs:
+    nome: ROTINA DE R$
+    descricao: Rotina completa com orçamento fechado, na ordem certa de uso.
+    leva_link: true
+  coreano_x_farmacia:
+    nome: COREANO X FARMÁCIA
+    descricao: Comparativo de preço por ml e de fórmula.
+    leva_link: true
+  original_ou_falso:
+    nome: ORIGINAL OU FALSO?
+    descricao: Sinais de falsificação e onde comprar com segurança. Sem link.
+    leva_link: false
+  ingrediente_em_20s:
+    nome: INGREDIENTE EM 20s
+    descricao: O que um ingrediente faz, sem promessa de tratamento. Sem link.
+    leva_link: false

@@ -1,0 +1,33 @@
+# Regras de conformidade checadas antes de qualquer vídeo ir ao ar.
+# Se uma frase proibida aparecer na narração, na tela ou na legenda, o vídeo não é renderizado.
+
+frases_proibidas:
+  # A página não manuseia produtos: afirmar uso ou teste é publicidade enganosa (CONAR).
+  - "\\btestei\\b"
+  - "\\beu uso\\b"
+  - "\\buso todo dia\\b"
+  - "\\bcomprei\\b"
+  - "\\bno meu rosto\\b"
+  # Os mesmos cuidados na página em espanhol.
+  - "\\bprobé\\b"
+  - "\\blo uso\\b"
+  - "\\bcompré\\b"
+  - "\\bpatrocinado por\\b"
+  # Promessas que um cosmético ou acessório não pode fazer.
+  - "\\bcura\\b"
+  - "\\btrata(r)? (a )?acne\\b"
+  - "\\bgarantid[oa]\\b"
+  - "\\b100% original\\b"
+  - "\\bresultado garantido\\b"
+  # Marcas de terceiros como se fossem parceiras.
+  - "\\bparceria oficial\\b"
+
+# Termos que pedem atenção humana (não bloqueiam, só avisam).
+atencao:
+  - "\\bBTS\\b"
+  - "\\bBlackpink\\b"
+  # Vazamento nunca entra; adiamento só com selo CONFIRMADO e fonte oficial.
+  - "\\bvaz(ou|ad[oa]s?|amentos?)\\b"
+  - "\\badia(d[oa]|mento|ram|ou)\\b"
+  - "\\bmelhor do mundo\\b"
+  - "\\bmais barato do Brasil\\b"

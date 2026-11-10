@@ -1,0 +1,31 @@
+.env
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.venv/
+
+# saida/: só o estado vai para o repositório (no modo nuvem); vídeos e slides ficam no cache
+saida/*
+!saida/fila.json
+!saida/metricas.csv
+!saida/biblioteca.json
+!saida/biblioteca_ultimo.txt
+!saida/uso_clipes.json
+!saida/ciclo_erros.log
+!saida/radar/
+!saida/telegram/
+!saida/claude/
+
+# biblioteca oficial e gravações (pesadas): só o catálogo e o LEIA
+clipes/*
+!clipes/LEIA.md
+!clipes/catalogo.json
+!clipes/oficial/
+clipes/oficial/*
+!clipes/oficial/Jason_and_Lucia_Beach_portrait.jpg
+!clipes/oficial/Jason_and_Lucia_11.jpg
+!clipes/oficial/Leonida_Keys_01.jpg
+!clipes/oficial/Lucia_Caminos_10.jpg
+!clipes/oficial/Jason_and_Lucia_01.jpg
+!clipes/oficial/Jason_and_Lucia_09.jpg
+!clipes/oficial/Jason_and_Lucia_Robbery_portrait.jpg

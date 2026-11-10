@@ -1,0 +1,95 @@
+{
+  "marca": "gamer_pao_duro",
+  "semana": "2026-W45",
+  "videos": [
+    {
+      "id": "radar-gta6-datas",
+      "serie": "radar_gta6",
+      "status": "aprovado",
+      "data": "2026-11-05",
+      "horario": "19:00",
+      "plataformas": ["instagram", "tiktok"],
+      "legenda_post": "Faltam {dias_ate:2026-11-19} dias pro GTA 6: as 3 datas que importam e o preço de tabela. Qual edição você vai pegar?",
+      "hashtags": ["#gta6", "#ps5"],
+      "publi": false,
+      "voz_ia": true,
+      "produtos": [],
+      "notas_revisao": "Fontes: Mix Vale 21/10/2026 (cronograma e preços), Arkade 26/10/2026 (preços nas lojas digitais). Sem cenas do jogo.",
+      "cenas": [
+        {
+          "tipo": "gancho",
+          "titulo": "Faltam *{dias_ate:2026-11-19} dias*. Anota essas 3 datas",
+          "narracao": "Faltam {dias_ate:2026-11-19} dias pro GTA 6. E tem três datas que você precisa anotar agora.",
+          "broll": "gaming controller dark neon"
+        },
+        {
+          "tipo": "lista",
+          "titulo": "As datas",
+          "itens": [
+            "*12/11*: pré-download liberado",
+            "*19/11*: lançamento no PS5 e Xbox Series",
+            "*Até 19/11*: compra com bônus de pré-venda"
+          ],
+          "narracao": "Dia doze libera o pré-download. Dia dezenove é o lançamento, no PS5 e no Xbox Series. E quem compra até o dia dezenove leva o bônus de pré-venda."
+        },
+        {
+          "tipo": "texto",
+          "kicker": "Atenção",
+          "texto": "A versão física vem com *código na caixa*. Não tem disco.",
+          "narracao": "Atenção: a versão física vem só com um código dentro da caixa. Não tem disco."
+        },
+        {
+          "tipo": "comparativo",
+          "titulo": "Preço de tabela",
+          "coluna_a": "Standard",
+          "coluna_b": "Ultimate",
+          "linhas": [
+            ["Preço", "R$ 449,90", "R$ 549,90", "a"],
+            ["Diferença", "-", "+ R$ 100", ""]
+          ],
+          "rodape": "PS Store e Microsoft Store, outubro de 2026",
+          "narracao": "Na tabela, a Standard sai por quatrocentos e quarenta e nove e noventa, e a Ultimate por quinhentos e quarenta e nove e noventa. No Pix, o varejo já mostrou mais barato."
+        },
+        {
+          "tipo": "cta",
+          "texto": "Segue o Pão-Duro: *menor preço* todo dia até o dia 19",
+          "rodape": "Sem link neste vídeo",
+          "narracao": "Segue o Pão-Duro, que até o dia dezenove eu mostro o menor preço todo dia."
+        }
+      ]
+    },
+    {
+      "id": "pao-duro-aprova-modelo",
+      "serie": "pao_duro_aprova",
+      "status": "rascunho",
+      "data": "2026-11-06",
+      "horario": "19:00",
+      "plataformas": ["instagram", "tiktok"],
+      "legenda_post": "MODELO: o Claude preenche com o produto da semana. Pergunta no fim para puxar comentário.",
+      "hashtags": ["#setupgamer"],
+      "publi": true,
+      "voz_ia": true,
+      "produtos": [
+        {
+          "nome": "MODELO: nome do produto escolhido",
+          "loja": "shopee",
+          "link_afiliado": "",
+          "preco": null,
+          "preco_referencia": null,
+          "fonte_preco": "",
+          "imagem": "",
+          "loja_oficial": false
+        }
+      ],
+      "notas_revisao": "Modelo da série. Não renderiza enquanto houver pendências (link, preço do dia e fonte do preço).",
+      "cenas": [
+        {"tipo": "gancho", "kicker": "Pão-Duro aprova?", "titulo": "MODELO: pergunta com o *preço* em destaque", "narracao": "MODELO"},
+        {"tipo": "produto", "produto": 0, "rodape": "Preço conferido em DD/MM às HHh", "narracao": "MODELO"},
+        {"tipo": "comparativo", "titulo": "Contra o mais vendido", "coluna_a": "Este", "coluna_b": "Outro",
+         "linhas": [["Critério 1", "valor", "valor", "a"], ["Critério 2", "valor", "valor", "b"]], "narracao": "MODELO"},
+        {"tipo": "veredito", "aprovado": true, "texto": "MODELO: o motivo em uma frase", "narracao": "MODELO"},
+        {"tipo": "cta", "texto": "O link tá no *carrinho*", "narracao": "MODELO"}
+      ]
+    }
+  ]
+}

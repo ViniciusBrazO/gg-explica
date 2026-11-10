@@ -1,0 +1,154 @@
+# GG Explica na nuvem: tudo roda aqui, sem computador ligado.
+#   ciclo     a cada 30 min, 08h00-00h30 de Brasília: radar, botões do Telegram, prévias, publicação
+#   radar     07h10 todo dia: o Claude escreve o post do dia (rascunho; a prévia chega no Telegram)
+#   pauta     segunda 07h40: o Claude monta a pauta da semana
+#   metricas  23h30 todo dia: números do Instagram para a revisão
+# Segredos (Settings > Secrets and variables > Actions): META_TOKEN_GG_EXPLICA, TELEGRAM_BOT_TOKEN,
+# TELEGRAM_CHAT_ID e CLAUDE_CODE_OAUTH_TOKEN (gerado com `claude setup-token`).
+name: kit
+
+on:
+  schedule:
+    - cron: "*/30 11-23 * * *"   # ciclo (UTC; Brasília = UTC-3)
+    - cron: "*/30 0-3 * * *"     # ciclo, da noite
+    - cron: "10 10 * * *"        # radar 07h10
+    - cron: "40 10 * * 1"        # pauta segunda 07h40
+    - cron: "30 2 * * *"         # métricas 23h30
+  workflow_dispatch:
+    inputs:
+      tarefa:
+        description: "ciclo | radar | pauta | metricas | biblioteca | telegram-teste | simular"
+        default: ciclo
+        required: true
+
+concurrency:
+  group: gg-explica          # uma rodada por vez: o estado volta para o repositório no fim
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  TZ: America/Sao_Paulo
+  PYTHONUTF8: "1"
+  FB_PAGE_ID_GG_EXPLICA: "1368551089682268"
+  META_TOKEN_GG_EXPLICA: ${{ secrets.META_TOKEN_GG_EXPLICA }}
+  TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+  TELEGRAM_CHAT_ID: ${{ vars.TELEGRAM_CHAT_ID || secrets.TELEGRAM_CHAT_ID }}
+  CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+
+jobs:
+  kit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Qual tarefa
+        id: t
+        run: |
+          case "${{ github.event.schedule }}" in
+            "10 10 * * *") t=radar ;;
+            "40 10 * * 1") t=pauta ;;
+            "30 2 * * *") t=metricas ;;
+            "") t="${{ github.event.inputs.tarefa || 'ciclo' }}" ;;
+            *) t=ciclo ;;
+          esac
+          echo "tarefa=$t" >> "$GITHUB_OUTPUT"
+          echo "tarefa: $t"
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: pyproject.toml
+
+      - name: Kit
+        run: pip install -e . --quiet
+
+      - name: Slides e vídeos já prontos (cache)
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            saida/carrosseis
+            saida/videos
+            saida/cache
+            saida/cache_voz
+          key: midia-${{ github.run_id }}
+          restore-keys: midia-
+
+      - name: Leve ou pesada
+        id: plano
+        run: |
+          t="${{ steps.t.outputs.tarefa }}"
+          if [ "$t" = "ciclo" ]; then paginas nuvem plano; else echo "pesado=$([ "$t" = metricas ] || [ "$t" = telegram-teste ] && echo false || echo true)" >> "$GITHUB_OUTPUT"; fi
+
+      # ---------------------------------------------------------------- só nas rodadas pesadas
+      - name: Biblioteca oficial (cache)
+        if: steps.plano.outputs.pesado == 'true'
+        id: clipes
+        uses: actions/cache/restore@v4
+        with:
+          path: clipes/oficial
+          key: clipes-${{ hashFiles('saida/biblioteca.json') }}
+          restore-keys: clipes-
+
+      - name: ffmpeg, fontes e navegador
+        if: steps.plano.outputs.pesado == 'true'
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq --no-install-recommends ffmpeg fonts-noto-color-emoji >/dev/null
+          python -m playwright install --with-deps chromium >/dev/null
+
+      - name: Claude Code
+        if: steps.plano.outputs.pesado == 'true' && env.CLAUDE_CODE_OAUTH_TOKEN != ''
+        run: |
+          curl -fsSL https://claude.ai/install.sh | bash >/dev/null
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+
+      # ---------------------------------------------------------------- a tarefa
+      - name: Rodar
+        run: |
+          case "${{ steps.t.outputs.tarefa }}" in
+            ciclo) paginas ciclo ;;
+            radar) paginas claude radar && paginas ciclo ;;
+            pauta) paginas claude pauta && paginas ciclo ;;
+            metricas) paginas metricas ;;
+            biblioteca) paginas biblioteca ;;
+            telegram-teste) paginas telegram teste ;;
+            simular) paginas meta conferir --marca gg_explica && paginas publicar --simular ;;
+          esac
+
+      # ---------------------------------------------------------------- guardar
+      - name: Guardar o estado no repositório
+        if: always()
+        run: |
+          git config user.name "gg-explica-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A pautas saida clipes/catalogo.json 2>/dev/null || true
+          if git diff --cached --quiet; then echo "nada mudou"; exit 0; fi
+          git commit -q -m "estado: ${{ steps.t.outputs.tarefa }} $(date +'%d/%m %H:%M')"
+          for i in 1 2 3; do git pull -q --rebase -X theirs && git push -q && exit 0; sleep 5; done
+          exit 1
+
+      - name: Apagar slides e vídeos com mais de 10 dias
+        if: always() && steps.plano.outputs.pesado == 'true'
+        run: find saida/carrosseis saida/videos -type f -mtime +10 -delete 2>/dev/null || true
+
+      - name: Guardar slides e vídeos (cache)
+        if: always() && steps.plano.outputs.pesado == 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            saida/carrosseis
+            saida/videos
+            saida/cache
+            saida/cache_voz
+          key: midia-${{ github.run_id }}
+
+      - name: Guardar a biblioteca (cache)
+        if: always() && steps.plano.outputs.pesado == 'true' && steps.clipes.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: clipes/oficial
+          key: clipes-${{ hashFiles('saida/biblioteca.json') }}

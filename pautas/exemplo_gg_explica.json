@@ -1,0 +1,186 @@
+{
+  "marca": "gg_explica",
+  "semana": "2026-W45",
+  "videos": [
+    {
+      "id": "fato15_lucia",
+      "serie": "contagem_15",
+      "status": "aprovado",
+      "data": "2026-11-04",
+      "horario": "19:00",
+      "legenda_post": "Fato 15 de 15: quem é Lucia Caminos 👇\nTudo aqui é oficial da Rockstar, menos a teoria do final (essa é minha).\nTime Lucia ou time Jason?",
+      "hashtags": ["#gta6", "#gtavi"],
+      "notas_revisao": "Quando tiver o quadro do trailer salvo em clipes/, troque a cena 4 por uma cena 'midia' (credito: 'Imagens: Rockstar Games').",
+      "cenas": [
+        {
+          "tipo": "gancho",
+          "kicker": "Fato 15 de 15",
+          "titulo": "Faltam *{dias_ate:2026-11-19} dias*. E ela acabou de sair da cadeia",
+          "narracao": "Faltam {dias_ate:2026-11-19} dias pro GTA seis, e a protagonista acabou de sair da cadeia. Fato quinze: quem é Lucia Caminos."
+        },
+        {
+          "tipo": "texto",
+          "selo": "confirmado",
+          "fonte": "Rockstar Games · perfil oficial da Lucia",
+          "texto": "O pai ensinou a Lucia a *lutar* assim que ela aprendeu a andar.",
+          "narracao": "Segundo a Rockstar, o pai ensinou a Lucia a lutar assim que ela aprendeu a andar. E a vida nunca parou de bater de volta."
+        },
+        {
+          "tipo": "texto",
+          "selo": "confirmado",
+          "fonte": "Rockstar Games · perfil oficial da Lucia",
+          "texto": "Lutar pela família a levou para a *Penitenciária de Leonida*.",
+          "narracao": "Foi lutando pela família que ela foi parar na Penitenciária de Leonida. E saiu, nas palavras da Rockstar, por pura sorte."
+        },
+        {
+          "tipo": "texto",
+          "selo": "confirmado",
+          "fonte": "Trailer de lançamento · 15/10/2026",
+          "texto": "No trailer de lançamento, ela pula no *trem de pouso de um avião*.",
+          "narracao": "No trailer de lançamento, ela pula no trem de pouso de um avião em movimento. Saiu da cadeia, mas não sossegou."
+        },
+        {
+          "tipo": "texto",
+          "selo": "teoria",
+          "texto": "Foi sorte… ou *alguém tirou ela de lá*?",
+          "narracao": "Agora, teoria minha: foi sorte mesmo, ou alguém tirou ela de lá e vai cobrar o favor?"
+        },
+        {
+          "tipo": "cta",
+          "texto": "Time Lucia ou *time Jason*?",
+          "rodape": "Amanhã: fato 14, Jason Duval",
+          "narracao": "Amanhã, fato quatorze: o Jason. E você, time Lucia ou time Jason?"
+        }
+      ]
+    },
+    {
+      "id": "fato13_regioes",
+      "serie": "contagem_15",
+      "status": "aprovado",
+      "data": "2026-11-06",
+      "horario": "12:30",
+      "legenda_post": "Fato 13 de 15: as 6 regiões de Leonida 🗺️\nMapa esquemático feito por nós, com as regiões anunciadas pela Rockstar.\nQual você explora primeiro?",
+      "hashtags": ["#gta6", "#gtavi"],
+      "cenas": [
+        {
+          "tipo": "gancho",
+          "kicker": "Fato 13 de 15",
+          "titulo": "As *6 regiões* de Leonida em menos de 1 minuto",
+          "narracao": "Faltam {dias_ate:2026-11-19} dias, e o mapa do GTA seis tem seis regiões. Fato treze: Leonida em menos de um minuto."
+        },
+        {
+          "tipo": "midia",
+          "midia": "assets/exemplos/mapa_leonida_esquema.png",
+          "midia_terceiros": false,
+          "credito": "Mapa: GG Explica (esquema)",
+          "selo": "confirmado",
+          "fonte": "Rockstar Games · site oficial",
+          "titulo": "Leonida é o *estado* do jogo",
+          "narracao": "Leonida é o estado onde o jogo acontece. A Rockstar já mostrou seis regiões, e cada uma tem uma cara."
+        },
+        {
+          "tipo": "lista",
+          "selo": "confirmado",
+          "fonte": "Rockstar Games · site oficial",
+          "titulo": "As 6 regiões",
+          "itens": [
+            "Vice City: *praia* e neon",
+            "Leonida Keys: *ilhas*",
+            "Grassrivers: *pântanos*",
+            "Port Gellhorn: litoral *decadente*",
+            "Ambrosia: *refinaria*",
+            "Mount Kalaga: *mata* no norte"
+          ],
+          "narracao": "Vice City, a cidade grande, de praia e vida noturna. As Leonida Keys, ilhas e barcos. Grassrivers, os pântanos. Port Gellhorn, um litoral decadente, de motel barato. Ambrosia, a cidade da refinaria de açúcar e dos motoqueiros. E Mount Kalaga, o parque nacional de mata fechada, no norte."
+        },
+        {
+          "tipo": "cta",
+          "texto": "Qual você *explora primeiro*?",
+          "rodape": "Amanhã: fato 12, a Vice City de 2002 x a de agora",
+          "narracao": "Agora me diz nos comentários: qual região você explora primeiro? Amanhã, fato doze: a Vice City de 2002 contra a de agora."
+        }
+      ]
+    },
+    {
+      "id": "rumor_pc_2027",
+      "serie": "rumor_ou_confirmado",
+      "status": "aprovado",
+      "data": "2026-11-06",
+      "horario": "19:00",
+      "legenda_post": "GTA 6 no PC em 2027: rumor ou confirmado? 🖥️\nSelo RELATO: veio de um site sério, mas a Rockstar não confirmou. Se mudar, a gente avisa.\nVocê espera ou joga no console?",
+      "hashtags": ["#gta6", "#gtavi"],
+      "cenas": [
+        {
+          "tipo": "gancho",
+          "titulo": "GTA 6 no PC em 2027: *rumor ou confirmado?*",
+          "narracao": "GTA seis no PC no começo de 2027. Rumor ou confirmado? Vamos às provas."
+        },
+        {
+          "tipo": "texto",
+          "selo": "relato",
+          "fonte": "GamesBeat, via Tecnoblog",
+          "kicker": "A favor",
+          "texto": "Um site especializado publicou que a versão de PC sai no *começo de 2027*.",
+          "narracao": "A favor: o site GamesBeat publicou que a versão de PC chega no começo de 2027."
+        },
+        {
+          "tipo": "texto",
+          "selo": "confirmado",
+          "fonte": "Rockstar Games · plataformas anunciadas",
+          "kicker": "Contra",
+          "texto": "Oficialmente, só *PS5 e Xbox Series*.",
+          "narracao": "Contra: oficialmente, a Rockstar só anunciou PS5 e Xbox Series. Nenhuma palavra sobre PC."
+        },
+        {
+          "tipo": "veredito",
+          "selo": "relato",
+          "kicker": "Veredito",
+          "fonte": "GamesBeat, via Tecnoblog",
+          "texto": "Fonte séria, mas *a Rockstar não confirmou*.",
+          "narracao": "Veredito: relato. Tem fonte séria, mas a Rockstar não confirmou. Se mudar, você fica sabendo aqui primeiro."
+        },
+        {
+          "tipo": "cta",
+          "texto": "Você espera o PC ou *joga no console*?",
+          "narracao": "E você: espera o PC ou joga no console no dia dezenove?"
+        }
+      ]
+    },
+    {
+      "id": "na_tela_trailer",
+      "serie": "na_tela",
+      "status": "rascunho",
+      "data": "2026-11-07",
+      "horario": "12:30",
+      "legenda_post": "Na Tela: o detalhe do trailer de lançamento que passou batido 👀\nAchou outro? Comenta o segundo.",
+      "hashtags": ["#gta6", "#gtavi"],
+      "notas_revisao": "Modelo: salve o quadro do trailer oficial em clipes/trailer_lancamento_quadro_01.jpg, ajuste o recorte no detalhe e troque os textos MODELO pela sua análise.",
+      "cenas": [
+        {
+          "tipo": "gancho",
+          "titulo": "Ninguém reparou nisso no *trailer de lançamento*",
+          "narracao": "Ninguém reparou nisso no trailer de lançamento. Pausa aqui."
+        },
+        {
+          "tipo": "midia",
+          "midia": "clipes/trailer_lancamento_quadro_01.jpg",
+          "midia_recorte": [0.55, 0.15, 0.4, 0.4],
+          "credito": "Imagens: Rockstar Games",
+          "titulo": "Olha o *canto direito*",
+          "narracao": "MODELO: descreva aqui o detalhe que aparece no quadro."
+        },
+        {
+          "tipo": "texto",
+          "selo": "teoria",
+          "texto": "O que isso *pode significar*",
+          "narracao": "MODELO: a sua leitura do detalhe, dita como teoria."
+        },
+        {
+          "tipo": "cta",
+          "texto": "Achou outro? *Comenta o segundo*",
+          "narracao": "Achou outro detalhe? Comenta o segundo do trailer."
+        }
+      ]
+    }
+  ]
+}

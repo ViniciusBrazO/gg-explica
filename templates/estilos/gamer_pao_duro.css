@@ -1,0 +1,81 @@
+/* Gamer Pão-Duro: escuro, verde-limão de etiqueta de preço, cantos chanfrados, carimbo. */
+body { color: var(--texto); font-family: "Barlow", sans-serif; }
+mark { background: var(--destaque); color: var(--texto-sobre-destaque); padding: 0 .1em; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+
+.veu { position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(11,13,18,.62) 0%, rgba(11,13,18,.28) 30%, rgba(11,13,18,.32) 62%, rgba(11,13,18,.9) 100%); }
+.fundo-solido .veu { display: none; }
+
+.topo { position: absolute; top: 196px; left: 80px; display: flex; align-items: center; gap: 16px; }
+.marca-nome { font-family: "Anton"; font-size: 36px; letter-spacing: .02em; color: var(--destaque); text-transform: uppercase; }
+.serie { font-weight: 700; font-size: 25px; letter-spacing: .1em; text-transform: uppercase; color: var(--texto);
+  background: rgba(255,255,255,.07); border: 2px solid var(--borda); padding: 8px 16px; }
+
+.palco { position: absolute; left: 80px; right: 140px; top: 300px; height: 960px;
+  display: flex; flex-direction: column; justify-content: center; --escala: 1; }
+
+.painel { position: relative; background: rgba(22,26,34,.93); border: 2px solid var(--borda);
+  padding: 56px 56px 56px 66px;
+  clip-path: polygon(0 0, calc(100% - 56px) 0, 100% 56px, 100% 100%, 0 100%); }
+.painel::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 12px; background: var(--destaque); }
+
+.kicker { font-weight: 700; font-size: calc(30px * var(--escala)); letter-spacing: .14em; text-transform: uppercase; color: var(--destaque); margin-bottom: 22px; }
+.rodape { font-weight: 500; font-size: calc(30px * var(--escala)); color: var(--texto-suave); margin-top: 28px; line-height: 1.3; }
+
+.gancho .titulo { font-family: "Anton"; font-weight: 400; font-size: calc(132px * var(--escala)); line-height: 1.03; text-transform: uppercase; }
+
+.texto .frase { font-weight: 600; font-size: calc(72px * var(--escala)); line-height: 1.14; }
+
+.subtitulo { font-family: "Anton"; font-weight: 400; font-size: calc(86px * var(--escala)); line-height: 1.04; text-transform: uppercase; margin-bottom: 18px; }
+.lista ol { list-style: none; }
+.lista li { display: flex; align-items: center; gap: 28px; margin-top: calc(28px * var(--escala)); }
+.lista .num { flex: 0 0 auto; width: calc(92px * var(--escala)); height: calc(92px * var(--escala)); display: grid; place-items: center;
+  font-family: "Anton"; font-size: calc(60px * var(--escala)); background: var(--destaque); color: var(--texto-sobre-destaque); }
+.lista .item { font-weight: 600; font-size: calc(50px * var(--escala)); line-height: 1.16; }
+
+.produto .foto { height: calc(520px * var(--escala)); background: #F2F4F7; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+.produto .foto img { max-width: 86%; max-height: 86%; object-fit: contain; }
+.produto .nome { font-weight: 700; font-size: calc(50px * var(--escala)); line-height: 1.12; margin: 30px 0 6px; }
+.produto .preco-linha { display: flex; align-items: baseline; gap: 22px; flex-wrap: wrap; }
+.produto .preco { font-family: "Anton"; font-size: calc(170px * var(--escala)); line-height: 1; color: var(--destaque); }
+.produto .por-unidade { font-weight: 700; font-size: 34px; color: var(--texto-suave); }
+.produto .referencia { font-weight: 500; font-size: calc(38px * var(--escala)); color: var(--texto-suave); margin-top: 8px; }
+.produto .economia { background: var(--destaque); color: var(--texto-sobre-destaque); padding: 2px 12px; margin-left: 10px; font-weight: 700; }
+.selo-oficial { position: absolute; top: 28px; right: 80px; z-index: 2; font-weight: 700; font-size: 24px; letter-spacing: .1em;
+  border: 2px solid var(--destaque); color: var(--destaque); background: rgba(11,13,18,.85); padding: 6px 12px; }
+
+.comparativo .tabela { margin-top: 10px; }
+.comparativo .cab, .comparativo .linha { display: grid; grid-template-columns: 1.15fr 1fr 1fr; align-items: center; gap: 16px; }
+.comparativo .cab span { font-family: "Anton"; font-size: calc(54px * var(--escala)); text-transform: uppercase; color: var(--texto); }
+.comparativo .linha { border-top: 2px solid var(--borda); padding: calc(22px * var(--escala)) 0; }
+.comparativo .rot { font-weight: 600; font-size: calc(36px * var(--escala)); color: var(--texto-suave); }
+.comparativo .val { font-weight: 700; font-size: calc(44px * var(--escala)); }
+.comparativo .vence { color: var(--texto-sobre-destaque); background: var(--destaque); padding: 4px 12px; justify-self: start; }
+
+.veredito { display: flex; flex-direction: column; align-items: center; text-align: center; }
+.veredito.sim { color: var(--destaque); }
+.veredito.nao { color: var(--alerta); }
+.carimbo { transform: rotate(-7deg); background: rgba(11,13,18,.9); border: 12px solid currentColor;
+  box-shadow: inset 0 0 0 10px rgba(11,13,18,.9), inset 0 0 0 16px currentColor; padding: 44px 64px 38px; }
+.carimbo span { display: block; font-family: "Anton"; text-transform: uppercase; line-height: .98; }
+.carimbo .l1 { font-size: 110px; }
+.carimbo .l2 { font-size: 168px; }
+.veredito .motivo { margin-top: 80px; color: var(--texto); font-weight: 600; font-size: calc(50px * var(--escala)); line-height: 1.2;
+  background: rgba(22,26,34,.93); border: 2px solid var(--borda); padding: 32px 40px; }
+
+.contagem { text-align: center; }
+.contagem .numero { font-family: "Anton"; font-size: calc(470px * var(--escala)); line-height: .92; color: var(--destaque); }
+.contagem .rotulo { font-family: "Anton"; font-size: calc(84px * var(--escala)); line-height: 1.05; text-transform: uppercase; margin-top: 18px; }
+
+.cta .frase { font-family: "Anton"; font-size: calc(104px * var(--escala)); line-height: 1.05; text-transform: uppercase; }
+.cta .arroba { font-weight: 700; font-size: 46px; color: var(--destaque); margin-top: 34px; }
+
+/* Fundo próprio, usado quando não há vídeo de fundo */
+.fundo { position: absolute; inset: 0; background: var(--fundo); overflow: hidden; }
+.fundo-a { position: absolute; width: 1400px; height: 1400px; right: -620px; top: -520px; border-radius: 50%;
+  background: radial-gradient(circle, rgba(200,255,46,.22) 0%, rgba(200,255,46,0) 62%); }
+.fundo-b { position: absolute; width: 1300px; height: 1300px; left: -700px; bottom: -560px; border-radius: 50%;
+  background: radial-gradient(circle, rgba(255,77,46,.14) 0%, rgba(255,77,46,0) 62%); }
+.fundo-grade { position: absolute; inset: 0;
+  background-image: linear-gradient(rgba(255,255,255,.04) 2px, transparent 2px), linear-gradient(90deg, rgba(255,255,255,.04) 2px, transparent 2px);
+  background-size: 72px 72px; }

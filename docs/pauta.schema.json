@@ -1,0 +1,447 @@
+{
+  "$defs": {
+    "Cena": {
+      "properties": {
+        "tipo": {
+          "enum": [
+            "gancho",
+            "texto",
+            "lista",
+            "produto",
+            "comparativo",
+            "veredito",
+            "contagem",
+            "cta",
+            "midia",
+            "tela_cheia"
+          ],
+          "title": "Tipo",
+          "type": "string"
+        },
+        "narracao": {
+          "default": "",
+          "description": "O que a voz fala nesta cena, escrito como se fala (vazio no carrossel).",
+          "title": "Narracao",
+          "type": "string"
+        },
+        "estilo": {
+          "default": "cartao",
+          "enum": [
+            "cartao",
+            "manchete"
+          ],
+          "title": "Estilo",
+          "type": "string"
+        },
+        "kicker": {
+          "default": "",
+          "title": "Kicker",
+          "type": "string"
+        },
+        "titulo": {
+          "default": "",
+          "title": "Titulo",
+          "type": "string"
+        },
+        "texto": {
+          "default": "",
+          "title": "Texto",
+          "type": "string"
+        },
+        "itens": {
+          "default": [],
+          "items": {
+            "type": "string"
+          },
+          "title": "Itens",
+          "type": "array"
+        },
+        "numero": {
+          "default": "",
+          "title": "Numero",
+          "type": "string"
+        },
+        "rotulo": {
+          "default": "",
+          "title": "Rotulo",
+          "type": "string"
+        },
+        "rodape": {
+          "default": "",
+          "title": "Rodape",
+          "type": "string"
+        },
+        "coluna_a": {
+          "default": "",
+          "title": "Coluna A",
+          "type": "string"
+        },
+        "coluna_b": {
+          "default": "",
+          "title": "Coluna B",
+          "type": "string"
+        },
+        "linhas": {
+          "default": [],
+          "items": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "title": "Linhas",
+          "type": "array"
+        },
+        "aprovado": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Aprovado"
+        },
+        "produto": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Produto"
+        },
+        "broll": {
+          "default": "",
+          "title": "Broll",
+          "type": "string"
+        },
+        "selo": {
+          "anyOf": [
+            {
+              "enum": [
+                "confirmado",
+                "relato",
+                "rumor",
+                "teoria",
+                "falso"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Selo"
+        },
+        "fonte": {
+          "default": "",
+          "title": "Fonte",
+          "type": "string"
+        },
+        "fonte_url": {
+          "default": "",
+          "title": "Fonte Url",
+          "type": "string"
+        },
+        "midia": {
+          "default": "",
+          "title": "Midia",
+          "type": "string"
+        },
+        "midia_inicio": {
+          "default": 0.0,
+          "title": "Midia Inicio",
+          "type": "number"
+        },
+        "midia_fim": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Midia Fim"
+        },
+        "midia_recorte": {
+          "default": [],
+          "items": {
+            "type": "number"
+          },
+          "title": "Midia Recorte",
+          "type": "array"
+        },
+        "midia_animacao": {
+          "default": "nenhuma",
+          "enum": [
+            "nenhuma",
+            "aproximar"
+          ],
+          "title": "Midia Animacao",
+          "type": "string"
+        },
+        "midia_destaque": {
+          "default": [],
+          "items": {
+            "type": "number"
+          },
+          "title": "Midia Destaque",
+          "type": "array"
+        },
+        "foco_x": {
+          "default": 0.5,
+          "title": "Foco X",
+          "type": "number"
+        },
+        "panoramica": {
+          "default": false,
+          "title": "Panoramica",
+          "type": "boolean"
+        },
+        "fundo_clipe": {
+          "default": "",
+          "title": "Fundo Clipe",
+          "type": "string"
+        },
+        "fundo_inicio": {
+          "default": 0.0,
+          "title": "Fundo Inicio",
+          "type": "number"
+        },
+        "midia_terceiros": {
+          "default": true,
+          "title": "Midia Terceiros",
+          "type": "boolean"
+        },
+        "credito": {
+          "default": "",
+          "title": "Credito",
+          "type": "string"
+        }
+      },
+      "required": [
+        "tipo"
+      ],
+      "title": "Cena",
+      "type": "object"
+    },
+    "Produto": {
+      "properties": {
+        "nome": {
+          "title": "Nome",
+          "type": "string"
+        },
+        "loja": {
+          "enum": [
+            "shopee",
+            "mercado_livre",
+            "amazon",
+            "tiktok_shop",
+            "outra"
+          ],
+          "title": "Loja",
+          "type": "string"
+        },
+        "link_afiliado": {
+          "default": "",
+          "title": "Link Afiliado",
+          "type": "string"
+        },
+        "preco": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Preco"
+        },
+        "preco_referencia": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Preco Referencia"
+        },
+        "fonte_preco": {
+          "default": "",
+          "title": "Fonte Preco",
+          "type": "string"
+        },
+        "imagem": {
+          "default": "",
+          "title": "Imagem",
+          "type": "string"
+        },
+        "loja_oficial": {
+          "default": false,
+          "title": "Loja Oficial",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "nome",
+        "loja"
+      ],
+      "title": "Produto",
+      "type": "object"
+    },
+    "Video": {
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "serie": {
+          "title": "Serie",
+          "type": "string"
+        },
+        "status": {
+          "default": "rascunho",
+          "enum": [
+            "rascunho",
+            "aprovado",
+            "renderizado",
+            "publicado",
+            "descartado"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "data": {
+          "format": "date",
+          "title": "Data",
+          "type": "string"
+        },
+        "horario": {
+          "format": "time",
+          "title": "Horario",
+          "type": "string"
+        },
+        "formato": {
+          "default": "reel",
+          "enum": [
+            "reel",
+            "carrossel"
+          ],
+          "title": "Formato",
+          "type": "string"
+        },
+        "plataformas": {
+          "default": [
+            "instagram",
+            "tiktok",
+            "facebook",
+            "youtube",
+            "kwai"
+          ],
+          "items": {
+            "enum": [
+              "instagram",
+              "tiktok",
+              "facebook",
+              "youtube",
+              "kwai"
+            ],
+            "type": "string"
+          },
+          "title": "Plataformas",
+          "type": "array"
+        },
+        "legenda_post": {
+          "title": "Legenda Post",
+          "type": "string"
+        },
+        "hashtags": {
+          "default": [],
+          "items": {
+            "type": "string"
+          },
+          "title": "Hashtags",
+          "type": "array"
+        },
+        "publi": {
+          "default": false,
+          "title": "Publi",
+          "type": "boolean"
+        },
+        "voz_ia": {
+          "default": true,
+          "title": "Voz Ia",
+          "type": "boolean"
+        },
+        "produtos": {
+          "default": [],
+          "items": {
+            "$ref": "#/$defs/Produto"
+          },
+          "title": "Produtos",
+          "type": "array"
+        },
+        "cenas": {
+          "items": {
+            "$ref": "#/$defs/Cena"
+          },
+          "title": "Cenas",
+          "type": "array"
+        },
+        "notas_revisao": {
+          "default": "",
+          "title": "Notas Revisao",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "serie",
+        "data",
+        "horario",
+        "legenda_post",
+        "cenas"
+      ],
+      "title": "Video",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "marca": {
+      "title": "Marca",
+      "type": "string"
+    },
+    "semana": {
+      "title": "Semana",
+      "type": "string"
+    },
+    "videos": {
+      "items": {
+        "$ref": "#/$defs/Video"
+      },
+      "title": "Videos",
+      "type": "array"
+    }
+  },
+  "required": [
+    "marca",
+    "semana",
+    "videos"
+  ],
+  "title": "Pauta",
+  "type": "object"
+}

@@ -1,0 +1,80 @@
+{
+  "marca": "gg_explica",
+  "semana": "2026-W46",
+  "videos": [
+    {
+      "id": "guia_9_dias",
+      "serie": "gg_explica",
+      "status": "rascunho",
+      "data": "2026-11-10",
+      "horario": "12:30",
+      "formato": "carrossel",
+      "plataformas": [
+        "instagram",
+        "tiktok"
+      ],
+      "voz_ia": false,
+      "legenda_post": "FALTAM 9 DIAS PRA GTA 6!\n\nO pré-download já está aberto no PS5 e no Xbox Series, e o jogo pede até 212 GB. Juntei o que fazer antes do dia 19 pra ninguém ser pego de surpresa: espaço, tempo de download, caixa física e o feriado logo depois do lançamento.\n\nFonte: Rockstar Games (anúncio de 3/11).\n\nVocê já começou a baixar?",
+      "cenas": [
+        {
+          "tipo": "gancho",
+          "kicker": "Guia",
+          "titulo": "9 dias pra GTA 6: o que fazer *antes do dia 19*",
+          "texto": "Salva pra não esquecer nada",
+          "fundo_clipe": "clipes/oficial/Jason_and_Lucia_Beach_portrait.jpg",
+          "credito": "Imagem: Rockstar Games"
+        },
+        {
+          "tipo": "texto",
+          "selo": "confirmado",
+          "titulo": "Baixe hoje",
+          "texto": "O pré-download já está aberto no PS5 e no Xbox Series. Assim, no dia 19, é só *abrir e jogar*.",
+          "fonte": "Rockstar Games, 3/11",
+          "fonte_url": "https://www.tweaktown.com/news/114473/rockstar-reveals-gta-6-pre-load-times-confirms-212gb-install-size/index.html",
+          "fundo_clipe": "clipes/oficial/Jason_and_Lucia_11.jpg",
+          "foco_x": 0.62,
+          "credito": "Imagem: Rockstar Games"
+        },
+        {
+          "tipo": "lista",
+          "estilo": "tabela",
+          "titulo": "Tempo pra baixar *212 GB*",
+          "kicker": "Com a internet na velocidade máxima",
+          "itens": [
+            "50 Mbps: 9 h 25 min",
+            "100 Mbps: 4 h 43 min",
+            "300 Mbps: 1 h 34 min",
+            "500 Mbps: 57 min",
+            "1 Gbps: 28 min"
+          ],
+          "rodape": "Conta da GG Explica com 212 GB. Na prática, demora mais.",
+          "fundo_clipe": "clipes/oficial/Leonida_Keys_01.jpg",
+          "credito": "Imagem: Rockstar Games"
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Antes do *dia 19*",
+          "kicker": "O checklist do lançamento",
+          "itens": [
+            "Espaço: deixe até 212 GB livres no console",
+            "Caixa física: vem com código, sem disco. Os códigos saem a partir do dia 12",
+            "Feriado: sexta, 20/11, é feriado nacional",
+            "Controle: deixe carregado e o console atualizado"
+          ],
+          "rodape": "Fontes: Rockstar Games (3/11) e PlayNews (códigos na caixa).",
+          "fundo_clipe": "clipes/oficial/Lucia_Caminos_10.jpg",
+          "foco_x": 0.4,
+          "credito": "Imagem: Rockstar Games"
+        },
+        {
+          "tipo": "cta",
+          "texto": "Manda pra quem vai *jogar no dia 19*"
+        }
+      ],
+      "hashtags": [
+        "#gta6",
+        "#gtavi"
+      ]
+    }
+  ]
+}

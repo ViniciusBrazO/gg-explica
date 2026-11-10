@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Ilustração genérica de controle, só para prévias de layout -->
+  <path d="M95 70h210c40 0 62 26 72 70l18 80c8 36-14 60-42 60-22 0-34-14-46-34l-18-30H111l-18 30c-12 20-24 34-46 34-28 0-50-24-42-60l18-80c10-44 32-70 72-70z" fill="#1E232D"/>
+  <circle cx="120" cy="140" r="26" fill="#3A4250"/>
+  <rect x="112" y="112" width="16" height="56" rx="3" fill="#5C6676"/>
+  <rect x="92" y="132" width="56" height="16" rx="3" fill="#5C6676"/>
+  <circle cx="282" cy="118" r="13" fill="#C8FF2E"/>
+  <circle cx="310" cy="146" r="13" fill="#5C6676"/>
+  <circle cx="254" cy="146" r="13" fill="#5C6676"/>
+  <circle cx="282" cy="174" r="13" fill="#5C6676"/>
+  <circle cx="160" cy="200" r="24" fill="#3A4250"/>
+  <circle cx="240" cy="200" r="24" fill="#3A4250"/>
+</svg>

@@ -1,0 +1,79 @@
+# Automação: o que roda sozinho, de quanto em quanto tempo e com quais limites.
+# Segredos (tokens) ficam no .env, nunca aqui.
+
+# ---------------------------------------------------------------- radar de notícias
+radar:
+  intervalo_min: 30            # o `paginas ciclo` só consulta as notícias a cada 30 min
+  # Buscas no Google Notícias (RSS público). Em português e em inglês: a notícia de fora chega antes.
+  consultas:
+    - {q: "GTA 6", idioma: pt}
+    - {q: "GTA VI Rockstar", idioma: en}
+    - {q: "Grand Theft Auto VI", idioma: en}
+    - {q: "The Game Awards 2026", idioma: en}
+  # Domínio da fonte -> selo sugerido. O Claude confere antes de usar.
+  fontes:
+    confirmado: [rockstargames.com, take2games.com, blog.playstation.com, playstation.com, news.xbox.com,
+                 xbox.com, thegameawards.com]
+    relato: [bloomberg.com, ign.com, gamesbeat.com, venturebeat.com, kotaku.com, eurogamer.net, polygon.com,
+             theverge.com, videogameschronicle.com, gamespot.com, tecnoblog.net, canaltech.com.br,
+             tecmundo.com.br, omelete.com.br, theenemy.com.br, uol.com.br, g1.globo.com]
+  # Alerta quente: fonte oficial, ou o mesmo assunto em várias fontes sérias em pouco tempo.
+  alerta:
+    fontes_diferentes: 3
+    janela_horas: 3
+  acionar_claude_no_alerta: true   # escreve o RADAR do assunto e manda a prévia para aprovação
+
+# ---------------------------------------------------------------- biblioteca oficial (sem jogar)
+# Pacotes da página de mídia oficial de GTA VI (rockstargames.com/VI/media): a Rockstar oferece
+# "Download All" de trailers, clipes, screenshots e artes. O ciclo confere uma vez por dia.
+biblioteca:
+  verificar_a_cada_horas: 24
+  pacotes:
+    - nome: trailers_e_clipes
+      url: https://media-rockstargames-com.akamaized.net/VI/downloads/videos/GTAVI_Videos.zip
+    - nome: screenshots
+      url: https://media-rockstargames-com.akamaized.net/VI/downloads/screenshots/GTAVI_Screenshots.zip
+    - nome: artes_e_wallpapers
+      url: https://media-rockstargames-com.akamaized.net/VI/downloads/artwork_wallpapers/GTAVI_Artwork_Wallpapers.zip
+    - nome: ultimate_edition
+      url: https://media-rockstargames-com.akamaized.net/VI/downloads/screenshots/GTAVI_Ultimate_Edition_Benefits.zip
+    - nome: vintage_vice_city_pack
+      url: https://media-rockstargames-com.akamaized.net/VI/downloads/screenshots/GTAVI_Vintage_Vice_City_Pack.zip
+
+# ---------------------------------------------------------------- formato dos posts
+# Sem voz de IA configurada (ELEVENLABS_API_KEY + voice_id, ou AZURE_SPEECH_KEY), todo post sai como
+# carrossel no modelo revista, que já gera o Reel do mesmo post (sem narração). Mude para false quando
+# a voz estiver pronta e os Reels narrados voltam.
+conteudo:
+  so_carrossel: true
+
+# ---------------------------------------------------------------- página em espanhol
+# Ligue depois de umas 3 semanas da página em português (Plano, seção Escala). Com `ativa: true`, a
+# tarefa `paginas claude traducao` (todo dia às 08:10) adapta as pautas novas para a GG Explica ES.
+traducao:
+  ativa: false
+
+# ---------------------------------------------------------------- material salvo à mão
+# Prints de trailer, imagens de divulgação (Xbox, PlayStation) e trechos gravados da tela vão para
+# clipes/entrada; o ciclo organiza e cataloga.
+clipes:
+  pasta_entrada: clipes/entrada
+  segundos_parado: 45              # arquivo sem mudar há 45 s = gravação terminada
+  etiquetar_com_claude: true       # o Claude olha a folha de contato e preenche o catálogo
+
+# ---------------------------------------------------------------- Claude Code (claude -p)
+claude:
+  comando: claude
+  # Ferramentas liberadas nas tarefas automáticas: ler e editar o kit, pesquisar na web e rodar
+  # só os comandos do próprio kit. Nada de apagar arquivo ou rodar programa qualquer.
+  # No Windows sem Git Bash o Claude Code usa a ferramenta PowerShell; por isso as duas formas.
+  ferramentas: "Read,Edit,Write,Glob,Grep,WebSearch,WebFetch,Bash(paginas validar *),Bash(paginas catalogar *),Bash(paginas fila),PowerShell(paginas validar *),PowerShell(paginas catalogar *),PowerShell(paginas fila)"
+  modo_permissao: acceptEdits
+  sem_perguntas: true              # --permission-prompts none (Claude Code 2.1.259 ou mais novo)
+  limite_minutos: 20
+
+# ---------------------------------------------------------------- aprovação pelo Telegram
+telegram:
+  # O ciclo manda a prévia de cada rascunho de hoje e de amanhã assim que ele fica pronto. A prévia já
+  # sai com a voz de verdade, que fica em cache: aprovar não gasta crédito de voz de novo.
+  enviar_dias_a_frente: 1

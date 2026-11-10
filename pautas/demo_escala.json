@@ -1,0 +1,123 @@
+{
+  "marca": "gg_explica",
+  "semana": "demo",
+  "videos": [
+    {
+      "id": "demo_manchete",
+      "serie": "radar",
+      "status": "rascunho",
+      "data": "2026-11-09",
+      "horario": "19:00",
+      "legenda_post": "Demonstração do estilo manchete (o mesmo das páginas grandes de games). A cena é ilustrativa, feita pela página: na página de verdade entra a imagem oficial da biblioteca.",
+      "notas_revisao": "Só para conferir o visual: fica em rascunho para nunca entrar na fila.",
+      "cenas": [
+        {
+          "tipo": "gancho",
+          "estilo": "manchete",
+          "titulo": "GTA VI chega em *10 dias*",
+          "selo": "confirmado",
+          "fonte": "Rockstar Games",
+          "fonte_url": "https://www.rockstargames.com/VI",
+          "fundo_clipe": "assets/exemplos/cena_ilustrativa.mp4",
+          "foco_x": 0.55,
+          "midia_terceiros": false,
+          "credito": "Cena ilustrativa (não é do jogo)",
+          "narracao": "Faltam dez dias para GTA seis."
+        },
+        {
+          "tipo": "texto",
+          "estilo": "manchete",
+          "selo": "confirmado",
+          "fonte": "Rockstar Games",
+          "fonte_url": "https://www.rockstargames.com/VI",
+          "fundo_clipe": "assets/exemplos/cena_ilustrativa.mp4",
+          "fundo_inicio": 2.0,
+          "foco_x": 0.35,
+          "midia_terceiros": false,
+          "credito": "Cena ilustrativa (não é do jogo)",
+          "narracao": "Dezenove de novembro, no PlayStation cinco e no Xbox Series.",
+          "texto": "*19 de novembro* no PS5 e no Xbox Series"
+        },
+        {
+          "tipo": "tela_cheia",
+          "estilo": "manchete",
+          "midia": "assets/exemplos/cena_ilustrativa.mp4",
+          "panoramica": true,
+          "titulo": "Versão de PC? *Nada anunciado*",
+          "selo": "confirmado",
+          "fonte": "Rockstar Games",
+          "fonte_url": "https://www.rockstargames.com/VI",
+          "midia_terceiros": false,
+          "credito": "Cena ilustrativa (não é do jogo)",
+          "narracao": "E versão de PC? Até agora, nada anunciado."
+        },
+        {
+          "tipo": "cta",
+          "texto": "Segue pra não perder *nada*",
+          "narracao": "Segue a GG Explica pra não perder nada."
+        }
+      ]
+    },
+    {
+      "id": "demo_carrossel",
+      "serie": "gg_explica",
+      "status": "rascunho",
+      "data": "2026-11-09",
+      "horario": "12:30",
+      "formato": "carrossel",
+      "plataformas": [
+        "instagram",
+        "tiktok"
+      ],
+      "legenda_post": "Demonstração do carrossel 4:5 (o formato que mais gera salvamento). Fotos ilustrativas: na página de verdade entram as screenshots oficiais da biblioteca.",
+      "notas_revisao": "Só para conferir o visual: fica em rascunho para nunca entrar na fila.",
+      "cenas": [
+        {
+          "tipo": "gancho",
+          "kicker": "Guia do lançamento",
+          "titulo": "GTA VI: o que já é *oficial*",
+          "fundo_clipe": "assets/exemplos/cena_ilustrativa.jpg",
+          "midia_terceiros": false
+        },
+        {
+          "tipo": "texto",
+          "selo": "confirmado",
+          "titulo": "Data: *19 de novembro*",
+          "texto": "Lançamento no PS5 e no Xbox Series X|S.",
+          "fonte": "Rockstar Games",
+          "fonte_url": "https://www.rockstargames.com/VI",
+          "fundo_clipe": "assets/exemplos/cena_ilustrativa.jpg",
+          "foco_x": 0.3,
+          "midia_terceiros": false
+        },
+        {
+          "tipo": "lista",
+          "selo": "confirmado",
+          "titulo": "Quem você controla",
+          "itens": [
+            "Lucia Caminos",
+            "Jason Duval"
+          ],
+          "fonte": "Rockstar Games",
+          "fonte_url": "https://www.rockstargames.com/VI",
+          "fundo_clipe": "assets/exemplos/cena_ilustrativa.jpg",
+          "foco_x": 0.7,
+          "midia_terceiros": false
+        },
+        {
+          "tipo": "texto",
+          "selo": "rumor",
+          "titulo": "Data do PC",
+          "texto": "Toda data que circula por aí é *rumor*: a Rockstar não anunciou versão de PC.",
+          "fundo_clipe": "assets/exemplos/cena_ilustrativa.jpg",
+          "foco_x": 0.5,
+          "midia_terceiros": false
+        },
+        {
+          "tipo": "cta",
+          "texto": "Salva pra consultar no dia 19"
+        }
+      ]
+    }
+  ]
+}

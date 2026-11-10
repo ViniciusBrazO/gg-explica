@@ -1,0 +1,116 @@
+# Identidade da página GG Explica (games: notícia, história e teorias).
+# Página sem jogar: notícia, história e teorias com a biblioteca oficial da Rockstar (trailers,
+# screenshots, artes) e visual de revista. O "Pão-Duro" é o quadro de ofertas (série pao_duro):
+# desde o primeiro dia, no máximo 1 a cada 6 posts, sempre com arte da página e foto do produto.
+
+id: gg_explica
+idioma: pt
+nome: GG Explica
+arroba: "@gg.explica"
+nicho: games (GTA 6 primeiro)
+
+personagem: >
+  O amigo que leu tudo e te conta em 40 segundos. Começa pelo fato, diz de onde veio a
+  informação na mesma frase, separa o que é confirmado do que é rumor e termina com uma
+  pergunta. Empolgado sem gritar; nunca finge saber o que não sabe.
+
+# Carimbo do quadro Pão-Duro (cena "veredito" sem selo).
+selo:
+  aprova: PÃO-DURO APROVA
+  reprova: PÃO-DURO REPROVA
+estilo_carimbo: duas_linhas
+
+# Selos de confiança: aparecem no cartão junto do fato, com a fonte.
+selos:
+  confirmado: {rotulo: CONFIRMADO, cor: "#C8FF2E", texto: "#0B0D12"}
+  relato:     {rotulo: RELATO,     cor: "#4DB8FF", texto: "#0B0D12"}
+  rumor:      {rotulo: RUMOR,      cor: "#FFB020", texto: "#0B0D12"}
+  teoria:     {rotulo: TEORIA,     cor: "#B48CFF", texto: "#0B0D12"}
+  falso:      {rotulo: FALSO,      cor: "#FF4D2E", texto: "#0B0D12"}
+
+cores:
+  fundo: "#0B0D12"
+  superficie: "#161A22"
+  borda: "#2A303B"
+  destaque: "#C8FF2E"      # verde-limão: a cor da marca e do selo CONFIRMADO
+  alerta: "#FF4D2E"        # vermelho: FALSO, cuidado, reprovado
+  apoio: "#4DB8FF"         # azul: detalhes do fundo e selo RELATO
+  texto: "#F4F6F8"
+  texto_suave: "#9AA3AE"
+  texto_sobre_destaque: "#0B0D12"
+
+fontes:
+  titulo: Anton            # manchetes e legendas, sempre em caixa alta
+  corpo: Barlow            # textos de apoio, selos e fontes
+  legenda: Anton
+  legenda_caixa_alta: true
+
+legenda:
+  tamanho: 92
+  contorno: 7
+  sombra: 0
+  max_palavras: 3
+  max_caracteres: 18
+
+voz:
+  provedor: elevenlabs          # elevenlabs | azure | silencio (teste sem áudio)
+  elevenlabs:
+    voice_id: ""                # a mesma voz da página de games (Manual, passo da voz)
+    modelo: eleven_multilingual_v2
+    estabilidade: 0.45
+    similaridade: 0.75
+    estilo: 0.25
+    velocidade: 1.05            # notícia pode subir para 1.10; história e teoria, 1.00
+  azure:
+    voz: pt-BR-MacerioMultilingualNeural   # alternativa: pt-BR-AntonioNeural
+    velocidade: "+5%"
+
+video:
+  duracao_min_s: 15
+  duracao_max_s: 90           # GG EXPLICA pode passar de 1 min (só com visual próprio)
+  musica_volume_db: -24       # só use música de biblioteca com licença comercial
+  busca_broll_padrao: "neon city night aerial"
+
+post:
+  aviso_publi: "#publi Link de afiliado: posso ganhar comissão."
+  aviso_ia: "Narração com voz de IA."
+  hashtags_base: ["#games"]         # no máximo 3 hashtags no total
+  cta_padrao: "Segue a GG Explica pra entender antes de todo mundo."
+
+series:
+  radar:
+    nome: RADAR
+    descricao: A notícia do dia, com selo e fonte. O que aconteceu, por que importa, o que falta saber.
+    leva_link: false
+  gg_explica:
+    nome: GG EXPLICA
+    descricao: História, personagens e lugares, como episódios de uma série.
+    leva_link: false
+  contagem_15:
+    nome: 15 FATOS EM 15 DIAS
+    descricao: Um fato oficial por dia até o lançamento de GTA VI (19/11).
+    leva_link: false
+  gta_no_brasil:
+    nome: GTA NO BRASIL
+    descricao: O ângulo que faz mandar para o amigo, com dado e fonte (feriado, preço em reais e em horas de trabalho, horário de liberação).
+    leva_link: false
+  rumor_ou_confirmado:
+    nome: RUMOR OU CONFIRMADO?
+    descricao: O boato, a evidência a favor e contra, e o selo no final.
+    leva_link: false
+  na_tela:
+    nome: NA TELA
+    descricao: Detalhes de trailers e do jogo, com corte curto e análise por cima.
+    leva_link: false
+  comunidade:
+    nome: COMUNIDADE
+    descricao: Enquetes, rankings e respostas a comentários.
+    leva_link: false
+  pao_duro:
+    nome: PÃO-DURO
+    descricao: "Oferta: um produto do setup, preço de hoje contra a média e o carimbo. Arte da página e foto do produto, nunca imagem do jogo. No máximo 1 a cada 6 posts."
+    leva_link: true
+  setup_de_rs:
+    nome: SETUP DE R$
+    descricao: "Oferta: setup para jogar com orçamento fechado. Arte da página e foto do produto, nunca imagem do jogo."
+    leva_link: true

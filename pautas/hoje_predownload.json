@@ -1,0 +1,64 @@
+{
+  "marca": "gg_explica",
+  "semana": "2026-W46",
+  "videos": [
+    {
+      "id": "predownload_liberado",
+      "serie": "radar",
+      "status": "rascunho",
+      "data": "2026-11-09",
+      "horario": "21:00",
+      "formato": "carrossel",
+      "plataformas": [
+        "instagram"
+      ],
+      "legenda_post": "Pré-download de GTA 6 liberado.",
+      "cenas": [
+        {
+          "tipo": "gancho",
+          "titulo": "Pré-download de GTA 6 *liberado*",
+          "fundo_clipe": "assets/exemplos/cena_ilustrativa.jpg",
+          "midia_terceiros": false,
+          "foco_x": 0.5
+        },
+        {
+          "tipo": "texto",
+          "selo": "confirmado",
+          "titulo": "Xbox: *hoje, 21h*",
+          "texto": "No Xbox Series X|S, o pré-download abre às 21h de 9/11, horário de Brasília.",
+          "fonte": "Rockstar Games, 3/11",
+          "fonte_url": "https://www.tweaktown.com/news/114473/rockstar-reveals-gta-6-pre-load-times-confirms-212gb-install-size/index.html",
+          "fundo_clipe": "assets/exemplos/cena_ilustrativa.jpg",
+          "midia_terceiros": false,
+          "foco_x": 0.25
+        },
+        {
+          "tipo": "texto",
+          "selo": "confirmado",
+          "titulo": "PS5: *meia-noite*",
+          "texto": "No PS5, à 0h de 10/11, também pelo horário de Brasília.",
+          "fonte": "Rockstar Games, 3/11",
+          "fonte_url": "https://www.tweaktown.com/news/114473/rockstar-reveals-gta-6-pre-load-times-confirms-212gb-install-size/index.html",
+          "fundo_clipe": "assets/exemplos/cena_ilustrativa.jpg",
+          "midia_terceiros": false,
+          "foco_x": 0.75
+        },
+        {
+          "tipo": "texto",
+          "selo": "confirmado",
+          "titulo": "Até *212 GB*",
+          "texto": "Libere espaço antes de baixar. O lançamento é em *19/11*.",
+          "fonte": "Rockstar Games, 3/11",
+          "fonte_url": "https://www.tweaktown.com/news/114473/rockstar-reveals-gta-6-pre-load-times-confirms-212gb-install-size/index.html",
+          "fundo_clipe": "assets/exemplos/cena_ilustrativa.jpg",
+          "midia_terceiros": false,
+          "foco_x": 0.5
+        },
+        {
+          "tipo": "cta",
+          "texto": "Xbox ou PS5? *Comenta aí*"
+        }
+      ]
+    }
+  ]
+}

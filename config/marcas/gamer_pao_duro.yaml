@@ -1,0 +1,89 @@
+# Identidade antiga da página de games (Gamer Pão-Duro).
+# A página de games agora é a GG Explica (gg_explica.yaml); este arquivo fica como referência
+# e para quem quiser uma página só de ofertas.
+# Tudo que muda a cara dos vídeos fica aqui: cores, fontes, voz, séries e textos fixos.
+
+id: gamer_pao_duro
+nome: Gamer Pão-Duro
+arroba: "@gamerpaoduro"
+nicho: games e setup
+
+personagem: >
+  O Pão-Duro: gamer que se recusa a pagar caro e faz as contas por você.
+  Fala direto, com humor seco, sempre com número na mão. Nunca diz que testou
+  um produto: compara especificações, preços e avaliações.
+
+selo:
+  aprova: PÃO-DURO APROVA
+  reprova: PÃO-DURO REPROVA
+estilo_carimbo: duas_linhas
+
+cores:
+  fundo: "#0B0D12"
+  superficie: "#161A22"
+  borda: "#2A303B"
+  destaque: "#C8FF2E"      # verde-limão: preço bom, aprovado, palavra-chave
+  alerta: "#FF4D2E"        # laranja-vermelho: reprovado, cuidado
+  texto: "#F4F6F8"
+  texto_suave: "#9AA3AE"
+  texto_sobre_destaque: "#0B0D12"
+
+fontes:
+  titulo: Anton            # manchetes e legendas, sempre em caixa alta
+  corpo: Barlow            # textos de apoio e números
+  legenda: Anton
+  legenda_caixa_alta: true
+
+legenda:
+  tamanho: 92
+  contorno: 7
+  sombra: 0
+  max_palavras: 3
+  max_caracteres: 18
+
+voz:
+  provedor: elevenlabs          # elevenlabs | azure | silencio (teste sem áudio)
+  elevenlabs:
+    voice_id: ""                # cole aqui o ID da voz criada no Voice Design
+    modelo: eleven_multilingual_v2
+    estabilidade: 0.45
+    similaridade: 0.75
+    estilo: 0.25
+    velocidade: 1.08
+  azure:
+    voz: pt-BR-MacerioMultilingualNeural   # alternativa: pt-BR-AntonioNeural
+    velocidade: "+8%"
+
+video:
+  duracao_min_s: 15
+  duracao_max_s: 75
+  musica_volume_db: -24       # só use música de biblioteca com licença comercial
+  busca_broll_padrao: "gaming setup neon keyboard controller"
+
+post:
+  aviso_publi: "#publi Link de afiliado: posso ganhar comissão."
+  aviso_ia: "Narração com voz de IA."
+  hashtags_base: ["#gamerbr"]       # no máximo 3 hashtags no total
+  cta_padrao: "Segue o Pão-Duro pra não pagar caro."
+
+series:
+  radar_gta6:
+    nome: RADAR GTA 6
+    descricao: Notícias e contagem até o lançamento. Sem cenas do jogo e sem link de produto.
+    leva_link: false
+  pao_duro_aprova:
+    nome: PÃO-DURO APROVA?
+    descricao: Um produto, preço de hoje contra a média, especificações e o selo.
+    leva_link: true
+  setup_de_rs:
+    nome: SETUP DE R$
+    descricao: Monta um setup com um orçamento fechado e mostra o total no carrinho.
+    leva_link: true
+  barato_x_caro:
+    nome: BARATO X CARO
+    descricao: Comparativo lado a lado com vencedor por critério.
+    leva_link: true
+  alerta_de_preco:
+    nome: ALERTA DE PREÇO
+    descricao: Queda de preço do dia, com o preço anterior e o atual.
+    leva_link: true
