@@ -46,5 +46,49 @@
     ],
     "estilo_capa": "reel",
     "registrado": "2026-11-10T16:52"
+  },
+  "2026-11-10|teste_voz_1": {
+    "data": "2026-11-10",
+    "horario": "18:00",
+    "imagens": [
+      "clipes/oficial/Jason_and_Lucia_Robbery_portrait.jpg",
+      "clipes/oficial/artes_e_wallpapers/Vice_City_Postcard_square.jpg",
+      "clipes/oficial/artes_e_wallpapers/Jason_Lucia_Rooftop_ultrawide.jpg"
+    ],
+    "estilo_capa": "reel",
+    "registrado": "2026-11-10T17:06"
+  },
+  "2026-11-10|teste_voz_2": {
+    "data": "2026-11-10",
+    "horario": "18:00",
+    "imagens": [
+      "clipes/oficial/artes_e_wallpapers/Jason_and_Lucia_Motel_portrait.jpg",
+      "clipes/oficial/artes_e_wallpapers/Vice_City_Postcard_ultrawide.jpg",
+      "clipes/oficial/artes_e_wallpapers/Jason_Lucia_Rooftop_landscape.jpg"
+    ],
+    "estilo_capa": "reel",
+    "registrado": "2026-11-10T17:08"
+  },
+  "2026-11-10|teste_voz_3": {
+    "data": "2026-11-10",
+    "horario": "18:00",
+    "imagens": [
+      "clipes/oficial/artes_e_wallpapers/Jason_and_Lucia_02_portrait.jpg",
+      "clipes/oficial/artes_e_wallpapers/Vice_City_Postcard_tablet.jpg",
+      "clipes/oficial/artes_e_wallpapers/Jason_Lucia_Rooftop_portrait.jpg"
+    ],
+    "estilo_capa": "reel",
+    "registrado": "2026-11-10T17:09"
+  },
+  "2026-11-10|teste_voz_4": {
+    "data": "2026-11-10",
+    "horario": "18:00",
+    "imagens": [
+      "clipes/oficial/artes_e_wallpapers/Jason_Lucia_Lock_And_Load_portrait.jpg",
+      "clipes/oficial/artes_e_wallpapers/Vice_City_Postcard_portrait.jpg",
+      "clipes/oficial/artes_e_wallpapers/Jason_Lucia_Rooftop_square.jpg"
+    ],
+    "estilo_capa": "reel",
+    "registrado": "2026-11-10T17:10"
   }
 }
