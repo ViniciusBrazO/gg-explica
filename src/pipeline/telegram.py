@@ -149,7 +149,8 @@ def enviar_para_aprovacao(tg: Telegram, dias_a_frente: int = 1, hoje: Optional[d
             if bloqueios:
                 if not ja_avisado:   # avisa uma vez; quando o bloqueio sumir, a prévia sai sozinha
                     tg.texto(f"⚠️ {v.id} ({v.data:%d/%m} {v.horario:%H:%M}) ainda não pode ir:\n- " + "\n- ".join(bloqueios))
-                pendentes[tok] = {"pauta": str(arq), "video": v.id, "impressao": imp, "situacao": "bloqueado"}
+                pendentes[tok] = {"pauta": str(arq), "video": v.id, "impressao": imp, "situacao": "bloqueado",
+                                  "conferido": datetime.now().isoformat(timespec="minutes")}
                 continue
             r = produzir(marca, v, previa=True)
             if r.arquivo is None:

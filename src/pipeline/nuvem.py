@@ -66,9 +66,14 @@ def motivos_para_pesado(hoje: date | None = None, telegram=None, agora: datetime
             elif v.status == "rascunho" and v.data <= limite:
                 if tgmod.MARCADOR_AJUSTE in (v.notas_revisao or ""):
                     motivos.append(f"ajuste de {v.id}")
-                elif telegram is not None and \
-                        pendentes.get(tgmod._token(arq, v.id), {}).get("impressao") != tgmod._impressao(v):
-                    motivos.append(f"prévia de {v.id}")
+                elif telegram is not None:
+                    info = pendentes.get(tgmod._token(arq, v.id), {})
+                    if info.get("impressao") != tgmod._impressao(v):
+                        motivos.append(f"prévia de {v.id}")
+                    elif info.get("situacao") == "bloqueado":     # reconfere de 3 em 3 horas
+                        conferido = info.get("conferido")
+                        if not conferido or agora - datetime.fromisoformat(conferido) >= timedelta(hours=3):
+                            motivos.append(f"reconferir {v.id}")
 
     if telegram is not None:
         offset = int(tgmod.ARQ_OFFSET.read_text()) if tgmod.ARQ_OFFSET.exists() else 0
