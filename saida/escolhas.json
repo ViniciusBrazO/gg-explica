@@ -90,5 +90,43 @@
     ],
     "estilo_capa": "reel",
     "registrado": "2026-11-10T17:10"
+  },
+  "2026-11-10|radar_2026-11-10_30fps_reel": {
+    "data": "2026-11-10",
+    "horario": "19:00",
+    "imagens": [
+      "clipes/oficial/artes_e_wallpapers/Jason_and_Lucia_Robbery_With_Logo_landscape.jpg",
+      "clipes/oficial/artes_e_wallpapers/Cal_Hampton_portrait.jpg",
+      "clipes/oficial/artes_e_wallpapers/Jason_and_Lucia_Beach_landscape.jpg",
+      "clipes/oficial/screenshots/Raul_Bautista_04.jpg",
+      "clipes/oficial/ultimate_edition/ULTIMATE_EDITION_STOCK_305_03.jpg"
+    ],
+    "estilo_capa": "reel",
+    "registrado": "2026-11-10T17:27"
+  },
+  "2026-11-10|radar_2026-11-10_30fps": {
+    "data": "2026-11-10",
+    "horario": "21:00",
+    "imagens": [
+      "clipes/oficial/screenshots/Lucia_Caminos_08.jpg",
+      "clipes/oficial/ultimate_edition/ULTIMATE_EDITION_VICE_CITY_STYLE_05.jpg",
+      "saida/carrosseis/gg_explica/2026-11-10_radar_2026-11-10_30fps/_trabalho/quadro_02.jpg",
+      "clipes/oficial/artes_e_wallpapers/Jason_Lucia_Lock_And_Load_phone.jpg"
+    ],
+    "estilo_capa": "base",
+    "registrado": "2026-11-10T17:27"
+  },
+  "2026-11-10|radar_2026-11-10_pechincha_reel": {
+    "data": "2026-11-10",
+    "horario": "17:25",
+    "imagens": [
+      "clipes/oficial/vintage_vice_city_pack/VINTAGE_VICE_CITY_WEAPON_PATTERN_01.jpg",
+      "clipes/oficial/screenshots/Jason_and_Lucia_13.jpg",
+      "clipes/oficial/artes_e_wallpapers/Jason_and_Lucia_01_tablet.jpg",
+      "clipes/oficial/artes_e_wallpapers/Jason_and_Lucia_Motel_square.jpg",
+      "clipes/oficial/ultimate_edition/ULTIMATE_EDITION_SQUALO_03.jpg"
+    ],
+    "estilo_capa": "reel",
+    "registrado": "2026-11-10T17:31"
   }
 }
