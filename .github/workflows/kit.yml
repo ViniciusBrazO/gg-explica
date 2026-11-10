@@ -122,7 +122,7 @@ jobs:
           fi
 
       - name: Claude Code
-        if: steps.plano.outputs.pesado == 'true' && env.CLAUDE_CODE_OAUTH_TOKEN != '' && env.GEMINI_API_KEY == ''
+        if: steps.plano.outputs.pesado == 'true' && env.CLAUDE_CODE_OAUTH_TOKEN != ''
         run: |
           curl -fsSL https://claude.ai/install.sh | bash >/dev/null
           echo "$HOME/.local/bin" >> "$GITHUB_PATH"
