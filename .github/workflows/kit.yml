@@ -140,8 +140,8 @@ jobs:
         run: |
           case "${{ steps.t.outputs.tarefa }}" in
             ciclo) paginas ciclo ;;
-            radar) paginas claude radar; paginas ciclo ;;
-            pauta) paginas claude pauta; paginas ciclo ;;
+            radar) paginas claude radar || true; paginas ciclo ;;
+            pauta) paginas claude pauta || true; paginas ciclo ;;
             catalogo) paginas catalogar && paginas claude catalogo ;;
             teste-voz) paginas teste-voz --vozes "${{ github.event.inputs.vozes }}" ;;
             metricas) paginas metricas; paginas resumo ;;

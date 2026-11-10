@@ -76,7 +76,11 @@ def gerar_json(instrucoes: str, conteudo: str, modelo: str = "auto", temperatura
             "generationConfig": {"temperature": temperatura, "responseMimeType": "application/json"},
         }
         for k in range(tentativas):
-            r = s.post(f"{API}/models/{nome}:generateContent", params={"key": _chave()}, json=corpo, timeout=180)
+            try:
+                r = s.post(f"{API}/models/{nome}:generateContent", params={"key": _chave()}, json=corpo, timeout=120)
+            except requests.RequestException as e:      # demorou ou caiu: tenta o próximo modelo
+                ultimo = f"{nome}: {type(e).__name__}"
+                break
             if r.status_code in (429, 500, 503):
                 ultimo = f"{nome}: HTTP {r.status_code}: {r.text[:200]}"
                 time.sleep(6 * (k + 1))
