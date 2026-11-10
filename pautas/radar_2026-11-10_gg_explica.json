@@ -283,6 +283,72 @@
     "#gtavi",
     "#trailer4"
    ]
+  },
+  {
+   "id": "radar_2026-11-10_pagina_midia",
+   "serie": "radar",
+   "status": "rascunho",
+   "data": "2026-11-10",
+   "horario": "21:00",
+   "formato": "carrossel",
+   "plataformas": ["instagram", "tiktok"],
+   "voz_ia": false,
+   "legenda_post": "TEM IMAGEM NOVA DE GTA 6 PRA BAIXAR!\n\nA página oficial de mídia da Rockstar está com screenshots, vídeos, artes e wallpapers de GTA VI, incluindo pacotes da Ultimate Edition e do Vintage Vice City Pack. A página não marca quais itens são novos de hoje.\n\nFonte: Rockstar Games, página de mídia de GTA VI, 10/11.\n\nQual imagem vira seu papel de parede?",
+   "notas_revisao": "CONFIRMADO só para o que a página lista: abri https://www.rockstargames.com/VI/media nesta execução (5 vídeos, 9 clipes, 138 screenshots, 51 da Ultimate Edition, 12 do Vintage Vice City Pack, 27 artes/wallpapers). A página não mostra datas: o '352 novos' vem do nosso baixador (biblioteca.py), não da Rockstar, por isso o post não cita esse número nem diz 'novas hoje'. Conferir os itens citados antes de aprovar. Imagens por busca no catálogo; se alguma busca vier vazia, trocar. `paginas validar` não rodou (Bash negado nesta execução): rode antes de aprovar.",
+   "cenas": [
+    {
+     "tipo": "gancho",
+     "estilo": "manchete",
+     "kicker": "Radar",
+     "titulo": "Rockstar libera *imagens* de GTA 6 pra baixar",
+     "texto": "O que tem na página oficial",
+     "fundo_clipe": "busca:jason lucia rooftop",
+     "credito": "Imagem: Rockstar Games"
+    },
+    {
+     "tipo": "texto",
+     "selo": "confirmado",
+     "titulo": "Página de *mídia*",
+     "texto": "A Rockstar mantém no site oficial 138 screenshots, 27 artes e wallpapers e 5 vídeos de GTA VI, todos para baixar.",
+     "fonte": "Rockstar Games, página de mídia de GTA VI, 10/11",
+     "fonte_url": "https://www.rockstargames.com/VI/media",
+     "fundo_clipe": "busca:vice city noite",
+     "foco_x": 0.55,
+     "credito": "Imagem: Rockstar Games"
+    },
+    {
+     "tipo": "lista",
+     "selo": "confirmado",
+     "titulo": "O que *tem* lá",
+     "kicker": "Pacotes oficiais",
+     "itens": [
+      "🖼️ Screenshots: 138 imagens de Jason, Lucia e Vice City",
+      "🎨 Artes e wallpapers: 27, com a capa do álbum",
+      "🎬 Vídeos: 5, entre eles o Pre-Load Now",
+      "🚗 Ultimate Edition: 51 imagens dos benefícios",
+      "👗 Vintage Vice City Pack: 12 imagens, com um Vapid Stanier '55"
+     ],
+     "fonte": "Rockstar Games, página de mídia de GTA VI, 10/11",
+     "fonte_url": "https://www.rockstargames.com/VI/media",
+     "rodape": "Fonte: Rockstar Games, 10/11. Quantidades listadas na página.",
+     "fundo_clipe": "busca:leonida praia pôr do sol",
+     "credito": "Imagem: Rockstar Games"
+    },
+    {
+     "tipo": "texto",
+     "selo": "rumor",
+     "titulo": "O que *falta saber*",
+     "texto": "A página não mostra datas, então não dá pra dizer *o que é novo* de hoje. A Rockstar não detalhou.",
+     "fundo_clipe": "busca:lucia caminos retrato",
+     "foco_x": 0.4,
+     "credito": "Imagem: Rockstar Games"
+    },
+    {
+     "tipo": "cta",
+     "texto": "Manda pra quem curte *wallpaper* de GTA 6"
+    }
+   ],
+   "hashtags": ["#gta6", "#gtavi", "#rockstar"]
   }
  ]
 }

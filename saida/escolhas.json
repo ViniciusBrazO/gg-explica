@@ -1,0 +1,50 @@
+{
+  "2026-11-10|radar_2026-11-10_xbox_one_nuvem": {
+    "data": "2026-11-10",
+    "horario": "19:00",
+    "imagens": [
+      "clipes/oficial/artes_e_wallpapers/Vice_City_Postcard_landscape.jpg",
+      "clipes/oficial/screenshots/Jason_Duval_01.jpg",
+      "clipes/oficial/artes_e_wallpapers/Port_Gellhorn_Postcard_phone.jpg",
+      "clipes/oficial/screenshots/Grassrivers_05.jpg"
+    ],
+    "estilo_capa": "topo",
+    "registrado": "2026-11-10T14:58"
+  },
+  "2026-11-10|radar_2026-11-10_mais_reservado_playstation": {
+    "data": "2026-11-10",
+    "horario": "18:00",
+    "imagens": [
+      "clipes/oficial/artes_e_wallpapers/Jason_and_Lucia_01_portrait.jpg",
+      "clipes/oficial/screenshots/Ambrosia_05.jpg",
+      "clipes/oficial/artes_e_wallpapers/Leonida_Keys_Postcard_ultrawide.jpg",
+      "clipes/oficial/screenshots/Boobie_Ike_01.jpg"
+    ],
+    "estilo_capa": "topo",
+    "registrado": "2026-11-10T14:59"
+  },
+  "2026-11-10|radar_2026-11-10_trailer_4": {
+    "data": "2026-11-10",
+    "horario": "17:00",
+    "imagens": [
+      "clipes/oficial/ultimate_edition/ULTIMATE_EDITION_VICE_CITY_STYLE_04.jpg",
+      "clipes/oficial/artes_e_wallpapers/Jason_Lucia_Rooftop_tablet.jpg",
+      "clipes/oficial/artes_e_wallpapers/Jason_and_Lucia_Motel_ultrawide.jpg",
+      "clipes/oficial/vintage_vice_city_pack/VINTAGE_VICE_CITY_PACK_VAPID_STANIER_01.jpg"
+    ],
+    "estilo_capa": "impacto",
+    "registrado": "2026-11-10T14:59"
+  },
+  "2026-11-10|radar_2026-11-10_pagina_midia": {
+    "data": "2026-11-10",
+    "horario": "21:00",
+    "imagens": [
+      "clipes/oficial/artes_e_wallpapers/Jason_Lucia_Rooftop_portrait.jpg",
+      "clipes/oficial/screenshots/Vice_City_16.jpg",
+      "clipes/oficial/screenshots/Leonida_Keys_04.jpg",
+      "saida/carrosseis/gg_explica/2026-11-10_radar_2026-11-10_pagina_midia/_trabalho/quadro_03.jpg"
+    ],
+    "estilo_capa": "faixa",
+    "registrado": "2026-11-10T14:59"
+  }
+}

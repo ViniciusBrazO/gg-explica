@@ -3,7 +3,9 @@
     "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-10_gg_explica.json",
     "video": "radar_2026-11-10_xbox_one_nuvem",
     "impressao": "690fe7ae267e",
-    "situacao": "bloqueado"
+    "situacao": "aguardando",
+    "message_id": 44,
+    "enviado": "2026-11-10T14:58:59.413894"
   },
   "7c9ed3039f": {
     "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-10_gg_explica.json",
@@ -17,12 +19,24 @@
     "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-10_gg_explica.json",
     "video": "radar_2026-11-10_mais_reservado_playstation",
     "impressao": "3c0065205e1b",
-    "situacao": "bloqueado"
+    "situacao": "aguardando",
+    "message_id": 51,
+    "enviado": "2026-11-10T14:59:15.450650"
   },
   "85a11455c5": {
     "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-10_gg_explica.json",
     "video": "radar_2026-11-10_trailer_4",
     "impressao": "8c5c29d43147",
-    "situacao": "bloqueado"
+    "situacao": "aguardando",
+    "message_id": 58,
+    "enviado": "2026-11-10T14:59:30.341961"
+  },
+  "a7ffbac115": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-10_gg_explica.json",
+    "video": "radar_2026-11-10_pagina_midia",
+    "impressao": "a280720c73a7",
+    "situacao": "aguardando",
+    "message_id": 65,
+    "enviado": "2026-11-10T14:59:48.695457"
   }
 }
