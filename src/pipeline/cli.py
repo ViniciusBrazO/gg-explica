@@ -284,6 +284,7 @@ def cmd_teste_voz(args) -> int:
     """Gera o Reel narrado de teste (pautas/demo_teste_voz.json) e manda no Telegram. Não publica.
     Com --vozes, manda um trecho curto com cada voz da Azure, para comparar."""
     import copy
+    import dataclasses
     from .producao import produzir
     from .telegram import Telegram
     pauta = Pauta.carregar(RAIZ / "pautas" / "demo_teste_voz.json")
@@ -292,9 +293,9 @@ def cmd_teste_voz(args) -> int:
     if args.vozes:
         base = pauta.videos[0]
         for n, nome in enumerate(args.vozes.split(","), start=1):
-            m = copy.copy(marca)
-            m.dados = copy.deepcopy(marca.dados)
-            m.dados["voz"]["azure"].update({"voz": nome.strip(), "velocidade": args.velocidade, "tom": args.tom})
+            dados = copy.deepcopy(marca.dados)
+            dados["voz"]["azure"].update({"voz": nome.strip(), "velocidade": args.velocidade, "tom": args.tom})
+            m = dataclasses.replace(marca, dados=dados)
             v = base.model_copy(update={"id": f"teste_voz_{n}", "cenas": base.cenas[:3]})
             r = produzir(m, v, previa=True)
             if r.arquivo is None:
