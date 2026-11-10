@@ -205,6 +205,9 @@ def processar_respostas(tg: Telegram, produzir=None) -> list[str]:
             if v is None:
                 tg.responder_botao(cb["id"], "O vídeo não está mais na pauta")
                 continue
+            if v.status != "rascunho":      # prévia antiga de um post já aprovado, descartado ou publicado
+                tg.responder_botao(cb["id"], f"Esse post já está {v.status}; nada mudou")
+                continue
             marca = carregar_marca(pauta.marca)
             if acao == "a":
                 v.status = "aprovado"
