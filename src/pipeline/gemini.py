@@ -47,7 +47,7 @@ def modelos_candidatos(preferido: str = "auto", sessao=None) -> list[str]:
         nome = m.get("name", "").removeprefix("models/")
         if "generateContent" not in m.get("supportedGenerationMethods", []) or "flash" not in nome:
             continue
-        if any(x in nome for x in ("image", "tts", "audio", "live", "thinking-exp", "embedding")):
+        if any(x in nome for x in ("image", "tts", "audio", "live", "thinking-exp", "embedding", "omni")):
             continue
         estavel = 0 if ("preview" in nome or "exp" in nome) else 1
         cheio = 0 if "lite" in nome else 1
@@ -62,11 +62,11 @@ def escolher_modelo(preferido: str = "auto", sessao=None) -> str:
 
 
 def gerar_json(instrucoes: str, conteudo: str, modelo: str = "auto", temperatura: float = 0.8,
-               tentativas: int = 3, sessao=None) -> dict:
+               tentativas: int = 2, sessao=None) -> dict:
     """Pede uma resposta em JSON. Repete em erro temporário (429/500/503) com espera crescente."""
     s = sessao or requests.Session()
     ultimo = ""
-    for nome in modelos_candidatos(modelo, s)[:4]:          # modelo lotado: tenta o próximo
+    for nome in modelos_candidatos(modelo, s)[:8]:          # modelo lotado: tenta o próximo
         corpo = {
             "systemInstruction": {"parts": [{"text": instrucoes}]},
             "contents": [{"role": "user", "parts": [{"text": conteudo}]}],
@@ -76,7 +76,7 @@ def gerar_json(instrucoes: str, conteudo: str, modelo: str = "auto", temperatura
             r = s.post(f"{API}/models/{nome}:generateContent", params={"key": _chave()}, json=corpo, timeout=180)
             if r.status_code in (429, 500, 503):
                 ultimo = f"{nome}: HTTP {r.status_code}: {r.text[:200]}"
-                time.sleep(10 * (k + 1))
+                time.sleep(6 * (k + 1))
                 continue
             if r.status_code == 404:
                 ultimo = f"{nome}: não disponível"
