@@ -31,11 +31,11 @@ def motivo_para_segurar(item, itens, agora: datetime) -> str:
     """'' se pode sair agora; senão, o motivo de esperar."""
     lim = limites(item.plataforma)
     saidas = sorted(t for i in itens if i.plataforma == item.plataforma and i.marca == item.marca
-                    and (t := _saiu_em(i)) and t <= agora)
+                    and (t := _saiu_em(i)))
     ultimas_24h = [t for t in saidas if agora - t < timedelta(hours=24)]
     if len(ultimas_24h) >= lim["max_24h"]:
         libera = ultimas_24h[0] + timedelta(hours=24)
         return f"limite de {lim['max_24h']} posts em 24 h (libera às {libera:%H:%M})"
-    if saidas and agora - saidas[-1] < timedelta(minutes=lim["minutos_entre_posts"]):
+    if saidas and agora - saidas[-1] < timedelta(minutes=lim["minutos_entre_posts"]):  # inclui o desta rodada
         return f"o último saiu às {saidas[-1]:%H:%M}; intervalo mínimo de {lim['minutos_entre_posts']} min"
     return ""

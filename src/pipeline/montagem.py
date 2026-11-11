@@ -12,6 +12,7 @@ import json
 import os
 import shutil
 import subprocess
+import dataclasses
 from dataclasses import dataclass
 from datetime import date
 from pathlib import Path
@@ -31,7 +32,11 @@ DURACAO_MINIMA_CENA = 1.6
 ENTRADA_CARTAO = 0.28
 EXT_IMAGEM = {".jpg", ".jpeg", ".png", ".webp", ".bmp"}
 BORDA_MIDIA = 4          # moldura colorida em volta do clipe, em pixels
-ZOOM_IMAGEM = 0.08       # imagem parada ganha uma aproximação lenta de 8% durante a cena
+ZOOM_IMAGEM = 0.10       # imagem parada ganha uma aproximação lenta de 10% durante a cena
+SUPER = 4                # zoom/deriva calculados em 4x e reduzidos: passo de 1/4 de pixel, sem tremer
+SUPER_FUNDO = 3          # o fundo dos cartões é grande; 3x já tira o "degrau" da deriva
+TRANSICAO = 0.35         # segundos de transição entre cenas (o trecho anterior dura isso a mais)
+TRANSICOES = ("fade", "smoothleft", "fade", "smoothup", "fade", "slideleft")
 
 
 def _ff(args: list[str], cwd: Path | None = None) -> None:
@@ -221,6 +226,26 @@ def _ffmpeg_trecho(entradas: list[str], partes: list[str], t: Trecho, saida: Pat
          "-an", str(saida)])
 
 
+def _expr_suave_t(d: float) -> str:
+    """0 no início da cena, 1 no fim, com aceleração e freada suaves (em segundos, para crop/overlay)."""
+    p = f"clip(t/{max(d, 0.01):.3f},0,1)"
+    return f"({p}*{p}*(3-2*{p}))"
+
+
+def _imagem_ampliada(origem: Path, largura: int, altura: int, foco_x: float, destino: Path) -> Path:
+    """Imagem parada já do tamanho final (cobrindo e recortada no foco), feita uma vez só:
+    o ffmpeg não precisa ampliar o quadro a cada frame."""
+    from PIL import Image
+    with Image.open(origem) as im:
+        im = im.convert("RGB")
+        esc = max(largura / im.width, altura / im.height)
+        im = im.resize((round(im.width * esc), round(im.height * esc)), Image.LANCZOS)
+        x = round((im.width - largura) * foco_x)
+        y = (im.height - altura) // 2
+        im.crop((x, y, x + largura, y + altura)).save(destino, quality=95)
+    return destino
+
+
 def _expr_suave(a: int, b: int) -> str:
     """0 até o quadro a, sobe suave até 1 no quadro b (smoothstep), para o zoom da câmera."""
     p = f"clip((on-{a})/{max(1, b - a)},0,1)"
@@ -242,7 +267,7 @@ def _trecho_midia_ffmpeg(t: Trecho, saida: Path) -> None:
         cx, cy = rx + f / 2, ry + f / 2
         a, b = round(0.5 * FPS), round(1.4 * FPS)
         s_ = _expr_suave(a, b)
-        nitido = (f"scale={w * 2}:{h * 2},zoompan=z='1+({1 / f:.4f}-1)*{s_}'"
+        nitido = (f"scale={w * SUPER}:{h * SUPER}:flags=lanczos,zoompan=z='1+({1 / f:.4f}-1)*{s_}'"
                   f":x='clip(iw*(0.5+({cx:.4f}-0.5)*{s_})-iw/zoom/2,0,iw-iw/zoom)'"
                   f":y='clip(ih*(0.5+({cy:.4f}-0.5)*{s_})-ih/zoom/2,0,ih-ih/zoom)'"
                   f":d=1:s={w}x{h}:fps={FPS}")
@@ -250,7 +275,8 @@ def _trecho_midia_ffmpeg(t: Trecho, saida: Path) -> None:
         nitido = f"scale={w}:{h}"
     else:
         quadros = max(1, round(d * FPS))
-        nitido = (f"scale={w * 2}:{h * 2},zoompan=z='1+{ZOOM_IMAGEM}*on/{quadros}'"
+        nitido = (f"scale={w * SUPER}:{h * SUPER}:flags=lanczos,"
+                  f"zoompan=z='1+{ZOOM_IMAGEM}*{_expr_suave(0, quadros)}'"
                   f":x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s={w}x{h}:fps={FPS}")
     borda = t.cor_borda.lstrip("#")
     topo = CAIXA_MIDIA["y"] + (CAIXA_MIDIA["a"] - (h + 2 * BORDA_MIDIA)) // 2
@@ -282,16 +308,22 @@ def _trecho_tela_cheia_ffmpeg(t: Trecho, saida: Path) -> None:
     if m.recorte:
         x, y, rw, rh = m.recorte
         recorte = f"crop=iw*{rw:.4f}:ih*{rh:.4f}:iw*{x:.4f}:ih*{y:.4f},"
+    e = _expr_suave_t(d)
     if m.panoramica:
-        x_expr = f"'(iw-ow)*(0.1+0.8*t/{d:.3f})'"     # passeia de um lado ao outro durante a cena
+        x_expr = f"'(iw-ow)*(0.1+0.8*{e})'"     # passeia de um lado ao outro, sem tranco no começo e no fim
     else:
         x_expr = f"'(iw-ow)*{m.foco_x:.3f}'"
-    zoom = "" if m.e_video else f",scale=iw*(1+{ZOOM_IMAGEM}*t/{d:.3f}):-2:eval=frame"
-    partes = [
-        f"[0:v]{recorte}fps={FPS},setsar=1{prolonga},trim=duration={d:.3f},setpts=PTS-STARTPTS,"
-        f"scale=1080:1920:force_original_aspect_ratio=increase{zoom},"
-        f"crop=1080:1920:x={x_expr}:y='(ih-oh)/2',setsar=1[f0]",
-    ]
+    base = f"[0:v]{recorte}fps={FPS},setsar=1{prolonga},trim=duration={d:.3f},setpts=PTS-STARTPTS,"
+    if not m.e_video and not m.panoramica:
+        quadros = max(1, round(d * FPS))
+        cobre = f"{1080 * SUPER}:{1920 * SUPER}"
+        partes = [base + f"scale={cobre}:force_original_aspect_ratio=increase:flags=lanczos,"
+                  f"crop={cobre}:x={x_expr}:y='(ih-oh)/2',"
+                  f"zoompan=z='1+{ZOOM_IMAGEM}*{_expr_suave(0, quadros)}':x='iw/2-(iw/zoom/2)'"
+                  f":y='ih/2-(ih/zoom/2)':d=1:s=1080x1920:fps={FPS},setsar=1[f0]"]
+    else:
+        partes = [base + f"scale=1080:1920:force_original_aspect_ratio=increase,"
+                  f"crop=1080:1920:x={x_expr}:y='(ih-oh)/2',setsar=1[f0]"]
     if t.anel:
         partes.append(f"[2:v]format=rgba,fade=t=in:st={t.anel_inicio:.2f}:d=0.25:alpha=1[anel]")
         partes.append("[f0][anel]overlay=0:0:shortest=0[f1]")
@@ -309,24 +341,49 @@ def _trecho_ffmpeg(t: Trecho, saida: Path) -> None:
         return _trecho_midia_ffmpeg(t, saida)
     d = t.duracao
     # Fundo um pouco maior que a tela, com deriva lenta: dá vida sem distrair.
-    t0 = 0.0 if t.fundo_e_video else t.inicio_global
-    deriva = (f"crop=1080:1920:x='(iw-ow)/2+(iw-ow)/2*sin(2*PI*(t+{t0:.3f})/14)'"
-              f":y='(ih-oh)/2+(ih-oh)/2*cos(2*PI*(t+{t0:.3f})/18)'")
-    if t.fundo_midia is not None:
-        # Clipe do jogo atrás do cartão: recorte vertical no foco escolhido, com a mesma deriva.
-        fm = t.fundo_midia
+    t0 = t.inicio_global
+    S = SUPER_FUNDO
+    deriva = (f"crop={1080 * S}:{1920 * S}:x='(iw-ow)/2+(iw-ow)/2*sin(2*PI*(t+{t0:.3f})/14)'"
+              f":y='(ih-oh)/2+(ih-oh)/2*cos(2*PI*(t+{t0:.3f})/18)',scale=1080:1920:flags=lanczos")
+    fm = t.fundo_midia
+    if fm is not None and fm.e_video:
+        # Clipe do jogo atrás do cartão: recorte vertical no foco escolhido (o clipe já tem movimento).
         entrada_fundo, prolonga = fm.entrada(d)
-        cobrir = (f"scale=1166:2074:force_original_aspect_ratio=increase,"
-                  f"crop=1166:2074:x='(iw-1166)*{fm.foco_x:.3f}':y='(ih-2074)/2',{deriva}{prolonga}")
+        cobrir = (f"scale=1080:1920:force_original_aspect_ratio=increase,"
+                  f"crop=1080:1920:x='(iw-1080)*{fm.foco_x:.3f}':y='(ih-1920)/2'{prolonga}")
+    elif fm is not None or not t.fundo_e_video:
+        origem, foco = (fm.caminho, fm.foco_x) if fm is not None else (t.fundo, 0.5)
+        ampliada = _imagem_ampliada(Path(origem), 1166 * S, 2074 * S, foco,
+                                    saida.with_name(saida.stem + "_fundo.jpg"))
+        entrada_fundo = ["-loop", "1", "-framerate", str(FPS), "-i", str(ampliada)]
+        cobrir = deriva
     else:
-        if t.fundo_e_video:
-            entrada_fundo = ["-stream_loop", "-1", "-i", str(t.fundo)]
-        else:
-            entrada_fundo = ["-loop", "1", "-framerate", str(FPS), "-i", str(t.fundo)]
-        cobrir = f"scale=1166:2074:force_original_aspect_ratio=increase,crop=1166:2074,{deriva}"
+        entrada_fundo = ["-stream_loop", "-1", "-i", str(t.fundo)]
+        cobrir = "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920"
     partes = [f"[0:v]{cobrir},fps={FPS},setsar=1,trim=duration={d:.3f},setpts=PTS-STARTPTS[f0]",
               "[1:v]format=rgba[m]", "[f0][m]overlay=x=0:y=0:shortest=0[s0]"]
     _ffmpeg_trecho(entrada_fundo, partes, t, saida, idx_moldura=1)
+
+
+def filtro_transicoes(duracoes: list[float]) -> tuple[str, str]:
+    """Cadeia de xfade: a cena i entra no segundo em que a narração dela começa (soma das anteriores)."""
+    if len(duracoes) == 1:
+        return "[0:v]null[vx]", "vx"
+    partes, atual, inicio = [], "0:v", 0.0
+    for i in range(1, len(duracoes)):
+        inicio += duracoes[i - 1]
+        saida = f"x{i}"
+        partes.append(f"[{atual}][{i}:v]xfade=transition={TRANSICOES[(i - 1) % len(TRANSICOES)]}"
+                      f":duration={TRANSICAO}:offset={inicio:.3f}[{saida}]")
+        atual = saida
+    return ";".join(partes), atual
+
+
+def _juntar_com_transicoes(arquivos: list[Path], duracoes: list[float], saida: Path) -> None:
+    entradas = [x for a in arquivos for x in ("-i", str(a))]
+    filtro, rotulo = filtro_transicoes(duracoes)
+    _ff([*entradas, "-filter_complex", filtro, "-map", f"[{rotulo}]", "-r", str(FPS),
+         "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-pix_fmt", "yuv420p", "-an", str(saida)])
 
 
 def _juntar_narracao(trechos: list[Trecho], saida: Path) -> None:
@@ -436,12 +493,12 @@ def renderizar_video(marca: Marca, video: Video, pasta_saida: Path, voz_forcada:
     arquivos = []
     for i, t in enumerate(trechos):
         arq = trabalho / f"trecho_{i:02d}.mp4"
-        _trecho_ffmpeg(t, arq)
+        # cada cena (menos a última) dura TRANSICAO a mais: é o pedaço que se mistura com a seguinte
+        extra = TRANSICAO if i < len(trechos) - 1 else 0.0
+        _trecho_ffmpeg(dataclasses.replace(t, duracao=t.duracao + extra), arq)
         arquivos.append(arq)
-    lista = trabalho / "lista.txt"
-    lista.write_text("".join(f"file '{a.as_posix()}'\n" for a in arquivos), encoding="utf-8")
     mudo = trabalho / "mudo.mp4"
-    _ff(["-f", "concat", "-safe", "0", "-i", str(lista), "-c", "copy", str(mudo)])
+    _juntar_com_transicoes(arquivos, [t.duracao for t in trechos], mudo)
 
     # narração contínua + palavras com tempo global
     narr = trabalho / "narracao.wav"

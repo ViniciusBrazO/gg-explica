@@ -204,7 +204,7 @@ def cmd_publicar(args) -> int:
             continue
         if item.tentativas >= 3:
             continue
-        espera = motivo_para_segurar(item, itens, agora)
+        espera = motivo_para_segurar(item, itens, datetime.now(FUSO))
         if espera:
             print(f"  {item.plataforma} {item.id}: espera ({espera})")
             continue

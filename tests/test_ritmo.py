@@ -75,3 +75,10 @@ def test_dossie_monta_com_texto_das_materias(tmp_path, monkeypatch):
                     "manchete": "Horas de trabalho", "link": "https://x", "texto": "São 37 horas de trabalho."}]}])
     assert dossie.montar(date(2026, 11, 11)) == (1, 1)
     assert "37 horas" in (tmp_path / "dossie.md").read_text(encoding="utf-8")
+
+
+def test_freio_segura_o_segundo_post_da_mesma_rodada():
+    agora = datetime(2026, 11, 11, 19, 14, tzinfo=FUSO)
+    acabou_de_sair = _item(1, agora - timedelta(hours=5), "publicado", (agora + timedelta(seconds=40)).isoformat())
+    proximo = _item(2, agora - timedelta(hours=4))
+    assert "intervalo" in motivo_para_segurar(proximo, [acabou_de_sair, proximo], agora)
