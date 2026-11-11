@@ -26,6 +26,13 @@ barato). Prepare a pauta da próxima semana (segunda a domingo).
 >    depois** do Reel, com outra capa, outra manchete e outras imagens (o kit também evita repetir).
 > Quando `saida/estado_voz.txt` diz `desligada`, siga a regra de formato abaixo (só carrossel).
 
+> **Visual do Reel (pedido do Vinicius, 11/11): mais vídeo, menos imagem parada.** Pelo menos metade
+> das cenas com trecho de trailer em movimento (`tela_cheia` ou `fundo_clipe` com `"busca:..."` de
+> ação: carro, perseguição, praia, cidade à noite, lancha), cortes de 2 a 4 segundos, e imagem parada
+> só quando o detalhe importa (personagem, arte, mapa). O kit já prefere trecho de vídeo na busca e
+> faz o título entrar palavra por palavra, a transição entre cenas e a barra de progresso: não
+> escreva isso na pauta. Títulos curtos (3 a 7 palavras) entram melhor.
+
 > **Formato:** se `conteudo.so_carrossel` estiver `true` (ou `auto` com a voz desligada) em `config/automacao.yaml`, todo post (inclusive
 > o RADAR e o alerta) é `"formato": "carrossel"` no modelo revista, sem `narracao`, de 4 a 7 slides
 > (gancho/capa, fatos com selo, `lista` ou `lista` com `"estilo": "tabela"`, `cta`). O kit gera o Reel do

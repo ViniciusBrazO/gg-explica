@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import shutil
 import subprocess
 import dataclasses
@@ -26,7 +27,7 @@ from .midia import buscar_broll, imagem_produto
 from .modelos import TIPOS_COM_MIDIA, Cena, Video
 from .voz import Fala, Palavra, criar_voz, texto_para_fala
 
-FPS = 30
+FPS = 60                 # movimento mais liso no celular (o Instagram aceita até 60)
 PAUSA_ENTRE_CENAS = 0.18
 DURACAO_MINIMA_CENA = 1.6
 ENTRADA_CARTAO = 0.28
@@ -36,6 +37,9 @@ ZOOM_IMAGEM = 0.10       # imagem parada ganha uma aproximação lenta de 10% du
 SUPER = 4                # zoom/deriva calculados em 4x e reduzidos: passo de 1/4 de pixel, sem tremer
 SUPER_FUNDO = 3          # o fundo dos cartões é grande; 3x já tira o "degrau" da deriva
 TRANSICAO = 0.35         # segundos de transição entre cenas (o trecho anterior dura isso a mais)
+PASSO_PALAVRA = 0.11     # o título entra palavra por palavra, uma a cada 0,11 s
+MAX_PASSOS_TITULO = 9    # título longo: as últimas palavras entram juntas
+BARRA_ALTURA = 9         # barra de progresso no topo do Reel
 TRANSICOES = ("fade", "smoothleft", "fade", "smoothup", "fade", "slideleft")
 
 
@@ -76,9 +80,11 @@ class MidiaCena:
     @classmethod
     def da_cena(cls, cena: Cena, fundo: bool = False, evitar: set | None = None, semente: str = "") -> "MidiaCena":
         if fundo:
-            escolha = resolver_midia(cena.fundo_clipe, cena.fundo_inicio, evitar=evitar, semente=semente)
+            escolha = resolver_midia(cena.fundo_clipe, cena.fundo_inicio, evitar=evitar, semente=semente,
+                                     preferir_video=True)
         else:
-            escolha = resolver_midia(cena.midia, cena.midia_inicio, cena.midia_fim, evitar=evitar, semente=semente)
+            escolha = resolver_midia(cena.midia, cena.midia_inicio, cena.midia_fim, evitar=evitar, semente=semente,
+                                     preferir_video=True)
         if escolha is None:
             raise FileNotFoundError(f"nenhum clipe do catálogo para '{cena.fundo_clipe if fundo else cena.midia}'")
         largura, altura = _dimensoes(escolha.caminho)
@@ -365,6 +371,23 @@ def _trecho_ffmpeg(t: Trecho, saida: Path) -> None:
     _ffmpeg_trecho(entrada_fundo, partes, t, saida, idx_moldura=1)
 
 
+def passos_do_titulo(n_palavras: int) -> list[int]:
+    """Quantas palavras aparecem em cada passo (o último passo é o cartão completo, que vem depois)."""
+    passos = list(range(1, n_palavras))
+    if len(passos) > MAX_PASSOS_TITULO - 1:
+        passos = passos[:MAX_PASSOS_TITULO - 1]
+    return passos
+
+
+def filtro_barra(duracao: float, cor: str) -> str:
+    """Barra fina no topo que enche do começo ao fim do vídeo (trilha escura por baixo)."""
+    c = cor.lstrip("#")
+    return (f"color=c=black@0.35:s=1080x{BARRA_ALTURA}:r={FPS}[trilha];"
+            f"color=c=0x{c}:s=1080x{BARRA_ALTURA}:r={FPS}[barra];"
+            f"[vl][trilha]overlay=x=0:y=0:shortest=1[vt];"
+            f"[vt][barra]overlay=x='-w+W*t/{max(duracao, 0.1):.3f}':y=0:shortest=1[v]")
+
+
 def filtro_transicoes(duracoes: list[float]) -> tuple[str, str]:
     """Cadeia de xfade: a cena i entra no segundo em que a narração dela começa (soma das anteriores)."""
     if len(duracoes) == 1:
@@ -476,11 +499,22 @@ def renderizar_video(marca: Marca, video: Video, pasta_saida: Path, voz_forcada:
             n_itens = len(dados["itens"]) if cena.tipo == "lista" else (
                 len(dados["linhas"]) if cena.tipo == "comparativo" else 1)
             cartoes = []
+            # título palavra por palavra no começo da cena (cartões com título, menos o final)
+            n_palavras = len(re.findall(r"\S+", re.sub(r"[*_]", "", dados.get("titulo") or "")))
+            if cena.tipo not in ("cta",) and n_palavras > 1:
+                for passo, mostrar in enumerate(passos_do_titulo(n_palavras)):
+                    html_doc = montar_html(marca, dados, serie=serie, produto=produto, fundo_solido=True,
+                                           revelar=1 if n_itens > 1 else None, modo="cartao",
+                                           palavras_titulo=mostrar)
+                    cartoes.append((d.desenhar(html_doc, trabalho / f"cartao_{i:02d}_t{passo:02d}.png"),
+                                    passo * PASSO_PALAVRA))
+            atraso = len(cartoes) * PASSO_PALAVRA
             for k, inicio in enumerate(momentos_de_revelacao(n_itens, fala.palavras), start=1):
                 revelar = k if n_itens > 1 else None
                 html_doc = montar_html(marca, dados, serie=serie, produto=produto,
                                        fundo_solido=True, revelar=revelar, modo="cartao")
-                cartoes.append((d.desenhar(html_doc, trabalho / f"cartao_{i:02d}_{k:02d}.png"), inicio))
+                cartoes.append((d.desenhar(html_doc, trabalho / f"cartao_{i:02d}_{k:02d}.png"),
+                                max(inicio, atraso) if k == 1 else inicio))
             inicio_global = sum(x.duracao for x in trechos)
             trechos.append(Trecho(cartoes, molduras[chave_moldura], broll or fundo_marca, broll is not None,
                                   fala, duracao, inicio_global, midia, marca.cores["destaque"], cena.tipo,
@@ -523,7 +557,8 @@ def renderizar_video(marca: Marca, video: Video, pasta_saida: Path, voz_forcada:
                  f"loudnorm=I=-14:TP=-1.5:LRA=11[a]")
     else:
         audio = "[1:a]loudnorm=I=-14:TP=-1.5:LRA=11[a]"
-    filtro = f"[0:v]ass='{ass.name}':fontsdir='{fontes}'[v];{audio}"
+    filtro = (f"[0:v]ass='{ass.name}':fontsdir='{fontes}'[vl];"
+              f"{filtro_barra(deslocamento, marca.cores['destaque'])};{audio}")
     _ff([*entradas, "-filter_complex", filtro, "-map", "[v]", "-map", "[a]",
          "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p",
          "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart",

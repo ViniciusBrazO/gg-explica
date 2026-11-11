@@ -82,3 +82,22 @@ def test_freio_segura_o_segundo_post_da_mesma_rodada():
     acabou_de_sair = _item(1, agora - timedelta(hours=5), "publicado", (agora + timedelta(seconds=40)).isoformat())
     proximo = _item(2, agora - timedelta(hours=4))
     assert "intervalo" in motivo_para_segurar(proximo, [acabou_de_sair, proximo], agora)
+
+
+def test_passos_do_titulo_e_barra():
+    from pipeline.montagem import MAX_PASSOS_TITULO, filtro_barra, passos_do_titulo
+    assert passos_do_titulo(4) == [1, 2, 3]
+    assert len(passos_do_titulo(20)) == MAX_PASSOS_TITULO - 1
+    assert passos_do_titulo(1) == []
+    assert "W*t/30.000" in filtro_barra(30, "#C6FF3D")
+
+
+def test_busca_prefere_video_no_reel(tmp_path, monkeypatch):
+    import json
+    from pipeline import catalogo
+    (tmp_path / "catalogo.json").write_text(json.dumps([
+        {"arquivo": "clipes/a.jpg", "tipo": "imagem", "tags": ["praia"], "descricao": "praia"},
+        {"arquivo": "clipes/b.mp4", "tipo": "video", "tags": ["praia"], "descricao": "praia", "duracao_s": 5},
+    ]), encoding="utf-8")
+    monkeypatch.setattr(catalogo, "_carregar_uso", lambda: {})
+    assert catalogo.buscar_clipe("praia", pasta=tmp_path, preferir_video=True).entrada["tipo"] == "video"

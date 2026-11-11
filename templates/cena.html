@@ -203,6 +203,40 @@ body.estilo-manchete .palco { top: 760px; height: 560px; left: 56px; right: 56px
       s -= 0.03;
       palco.style.setProperty('--escala', s.toFixed(2));
     }
+    {% if palavras_titulo is not none %}
+    // Título entrando palavra por palavra: as que ainda não "saíram" ficam invisíveis, mas ocupam o
+    // lugar, para a quebra de linha não mudar entre um quadro e outro.
+    const titulo = document.querySelector('.manchete-titulo, .titulo, .subtitulo');
+    if (titulo) {
+      let n = 0;
+      const mostrar = {{ palavras_titulo }};
+      const andar = (no) => {
+        for (const filho of [...no.childNodes]) {
+          if (filho.nodeType === 3) {
+            const pedacos = filho.textContent.split(/(\s+)/);
+            const frag = document.createDocumentFragment();
+            for (const p of pedacos) {
+              if (!p.trim()) { frag.appendChild(document.createTextNode(p)); continue; }
+              const span = document.createElement('span');
+              span.textContent = p;
+              if (n >= mostrar) span.style.visibility = 'hidden';
+              n += 1;
+              frag.appendChild(span);
+            }
+            filho.replaceWith(frag);
+          } else if (filho.nodeType === 1) {
+            andar(filho);
+          }
+        }
+      };
+      andar(titulo);
+      // o fundo do destaque (marca) só aparece junto com a palavra
+      for (const el of titulo.querySelectorAll('mark, em, strong, b')) {
+        const ws = [...el.querySelectorAll('span')];
+        if (ws.length && ws.every(w => w.style.visibility === 'hidden')) el.style.visibility = 'hidden';
+      }
+    }
+    {% endif %}
     return s;
   };
 </script>

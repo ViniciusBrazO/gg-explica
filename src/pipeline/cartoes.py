@@ -51,7 +51,7 @@ def _ambiente() -> Environment:
 
 def montar_html(marca: Marca, cena: Cena | dict, serie: str = "",
                 produto: Produto | None = None, fundo_solido: bool = False,
-                revelar: int | None = None, modo: str = "completo") -> str:
+                revelar: int | None = None, modo: str = "completo", palavras_titulo: int | None = None) -> str:
     """modo: 'completo' (prévia), 'moldura' (véu + topo, fixo no vídeo) ou 'cartao' (só o conteúdo)."""
     env = _ambiente()
     return env.get_template("cena.html").render(
@@ -71,6 +71,7 @@ def montar_html(marca: Marca, cena: Cena | dict, serie: str = "",
         fundo_solido=fundo_solido,
         revelar=revelar,
         modo=modo,
+        palavras_titulo=palavras_titulo,
         idioma=marca.dados.get("idioma", "pt"),
     )
 

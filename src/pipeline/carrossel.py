@@ -139,24 +139,48 @@ def musica_de_fundo(semente: str) -> Path | None:
 def reel_dos_slides(slides: list[Path], capa_vertical: Path | None, destino: Path,
                     segundos: float = SEGUNDOS_POR_SLIDE) -> Path:
     """Reel 1080x1920 sem som: a capa vertical no primeiro segundo (vira a capa do Reel na grade) e
-    depois cada slide sobre o próprio fundo desfocado, com um zoom lento. A música entra no app."""
-    entradas, filtros, rotulos = [], [], []
+    depois cada slide sobre o próprio fundo desfocado, com zoom lento e suave (calculado em 4x, sem
+    tremer) e transição entre os slides. A música entra no app."""
+    from PIL import Image
+    from .montagem import FPS, SUPER, TRANSICAO, TRANSICOES, _expr_suave
+    entradas, filtros, duracoes = [], [], []
     k = 0
-    if capa_vertical is not None:
-        entradas += ["-loop", "1", "-t", "1.2", "-i", str(capa_vertical)]
-        filtros.append(f"[{k}]scale=1080:1920,fps=30,format=yuv420p,trim=duration=1.2,setpts=PTS-STARTPTS[v{k}]")
-        rotulos.append(f"[v{k}]")
+    pedacos = ([("capa", capa_vertical, 1.2)] if capa_vertical is not None else []) + \
+              [("slide", sl, segundos) for sl in slides]
+    for n, (tipo, arq, dur) in enumerate(pedacos):
+        extra = TRANSICAO if n < len(pedacos) - 1 else 0.0
+        d = dur + extra
+        if tipo == "capa":
+            entradas += ["-loop", "1", "-framerate", str(FPS), "-t", f"{d:.3f}", "-i", str(arq)]
+            filtros.append(f"[{k}]scale=1080:1920,fps={FPS},format=yuv420p,trim=duration={d:.3f},"
+                           f"setpts=PTS-STARTPTS[v{k}]")
+        else:
+            grande = destino.parent / f"_zoom_{Path(arq).stem}.png"
+            with Image.open(arq) as im:
+                im.convert("RGB").resize((1080 * SUPER, 1350 * SUPER), Image.LANCZOS).save(grande)
+            quadros = max(1, round(d * FPS))
+            entradas += ["-loop", "1", "-framerate", str(FPS), "-t", f"{d:.3f}", "-i", str(arq),
+                         "-loop", "1", "-framerate", str(FPS), "-t", f"{d:.3f}", "-i", str(grande)]
+            filtros.append(
+                f"[{k}]scale=1536:1920,crop=1080:1920,gblur=sigma=40,eq=brightness=-0.15[bg{k}];"
+                f"[{k + 1}]zoompan=z='1+0.06*{_expr_suave(0, quadros)}':x='iw/2-(iw/zoom/2)'"
+                f":y='ih/2-(ih/zoom/2)':d=1:s=1080x1350:fps={FPS}[fg{k}];"
+                f"[bg{k}][fg{k}]overlay=0:285,fps={FPS},format=yuv420p,trim=duration={d:.3f},"
+                f"setpts=PTS-STARTPTS[v{k}]")
+            duracoes.append((k, dur))
+            k += 2
+            continue
+        duracoes.append((k, dur))
         k += 1
-    quadros = round(segundos * 30)
-    for s in slides:
-        entradas += ["-loop", "1", "-t", f"{segundos}", "-i", str(s)]
-        filtros.append(
-            f"[{k}]split[b{k}][f{k}];[b{k}]scale=1536:1920,crop=1080:1920,gblur=sigma=40,eq=brightness=-0.15[bg{k}];"
-            f"[f{k}]scale=2160:2700,zoompan=z='1+0.0005*on':d={quadros}:s=1080x1350:fps=30[fg{k}];"
-            f"[bg{k}][fg{k}]overlay=0:285,fps=30,format=yuv420p,trim=duration={segundos},setpts=PTS-STARTPTS[v{k}]")
-        rotulos.append(f"[v{k}]")
-        k += 1
-    grafo = ";".join(filtros) + f";{''.join(rotulos)}concat=n={k}:v=1:a=0[v]"
+    # transições: cada pedaço entra no segundo em que o anterior termina (sem a sobra)
+    atual, inicio, partes = f"v{duracoes[0][0]}", 0.0, []
+    for i in range(1, len(duracoes)):
+        inicio += duracoes[i - 1][1]
+        partes.append(f"[{atual}][v{duracoes[i][0]}]xfade=transition={TRANSICOES[(i - 1) % len(TRANSICOES)]}"
+                      f":duration={TRANSICAO}:offset={inicio:.3f}[x{i}]")
+        atual = f"x{i}"
+    filtros.append(";".join(partes) + f";[{atual}]null[v]" if partes else f"[{atual}]null[v]")
+    grafo = ";".join(filtros)
     duracao = (1.2 if capa_vertical is not None else 0) + segundos * len(slides)
     trilha = musica_de_fundo(destino.parent.name)
     if trilha is not None:     # Reel publicado pela API não ganha música do app: vai uma trilha livre
@@ -171,6 +195,8 @@ def reel_dos_slides(slides: list[Path], capa_vertical: Path | None, destino: Pat
                     "-filter_complex", grafo, "-map", "[v]", "-map", mapa, "-c:v", "libx264",
                     "-preset", "veryfast", "-crf", "20", "-c:a", "aac", "-shortest", "-movflags", "+faststart",
                     str(destino)], check=True)
+    for tmp in destino.parent.glob("_zoom_*.png"):
+        tmp.unlink(missing_ok=True)
     return destino
 
 

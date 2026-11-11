@@ -18,26 +18,7 @@ Link: https://news.google.com/rss/articles/CBMiWEFVX3lxTE1wQkdMR0dtTWFydzdQZkl0Z
 Manchete: Grand Theft Auto VI pre-download begins November 10
 Link: https://blog.playstation.com/2026/11/03/grand-theft-auto-vi-pre-download-begins-november-10/
 
-Grand Theft Auto VI pre-download begins November 10
-Tips to prepare for November 19 launch day, including pre-downloads and storage tips.
-Grand Theft Auto VI launches November 19 on PlayStation 5, with pre-download available starting November 10. Whether you’re returning to the series or jumping in for the first time, here are a few key steps you can take now to prepare for launch day.
-Make sure your PlayStation account is ready to go before launch.
-If you’re new to PlayStation, create an account and sign in on your console. Existing players should confirm their sign-in information and account details are up to date.
-Pre-order Grand Theft Auto VI through PlayStation Store or participating retailers to ensure you’re ready to play as soon as the game becomes available on November 19. Pre-order the Grand Theft Auto VI: Ultimate Edition to receive an exclusive collection of premium vehicles, weapons, apparel, and action threaded across all aspects of Jason and Lucia’s story.
-Visit the PlayStation Store product page for available editions, pricing, and additional details.
-Pre-download timing will be available to those who pre-order starting at November 10 local midnight. Get ready by clearing a minimum of 212GB of storage space on your PS5. You can also explore options to extend your PS5 storage ahead of GTAVI.
-Downloading the game before release means you’ll be ready to jump in as soon as it becomes available. Stay tuned for additional details later this year.
-Players looking to personalize their experience can explore accessories including the DualSense Edge wireless controller, PlayStation Pulse wireless headset, Pulse Elevate Wireless speakers and other PlayStation 5 products.
-Learn more about the available PlayStation accessories and find the setup that works best for you.
-We’ll have more information on Grand Theft Auto VI as we get closer to November 19.
-Please be kind, considerate, and constructive. Report inappropriate comments to PlayStationBlogModeration@sony.com
-Zack Garvey Promotions Proposal Manager, Sony Interactive
-Mitchell Ayre Community Manager, Arrowhead Games Studios
-Tim Turi (he/him) Content Communications Manager, Sony Interactive Entertainment
-Isabelle Tomatis Vice President, Global Marketing, Sony Interactive Entertainment
-Mikey Dowling Director of Communications, Obsidian Entertainment
-Sergey Smirnov Product Marketing Manager, tinyBuild Games
-Kristen Zitani (she/her) Manager, Content Communications, Sony Interactive Entertainment
+(só a manchete: a matéria não abriu)
 
 
 ## Assunto 3

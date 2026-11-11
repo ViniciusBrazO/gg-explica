@@ -259,7 +259,8 @@ def registrar_uso(escolha: Escolha) -> None:
 
 
 def buscar_clipe(consulta: str, pasta: Path = PASTA_CLIPES, aceitar_spoiler: bool = False,
-                 evitar: Optional[set] = None, semente: str = "") -> Optional[Escolha]:
+                 evitar: Optional[set] = None, semente: str = "",
+                 preferir_video: bool = False) -> Optional[Escolha]:
     """Acha no catálogo o trecho que mais combina com a consulta ("praia pôr do sol carro").
 
     Pontua cada momento (e o clipe inteiro) pelas palavras em comum; em empate, prefere o
@@ -291,6 +292,8 @@ def buscar_clipe(consulta: str, pasta: Path = PASTA_CLIPES, aceitar_spoiler: boo
             if not pontos:
                 continue
             bonus = 0.5 if fim is not None and inicio > 0 else 0.0   # momento específico vale mais
+            if preferir_video and e.get("tipo") == "video":
+                bonus += 1.0      # no Reel, trecho de trailer em movimento vale mais que imagem parada
             vezes = uso.get(f"{e['arquivo']}@{inicio:.1f}", 0)
             sorteio = hashlib.sha1(f"{semente}|{e['arquivo']}|{inicio}".encode()).hexdigest()
             melhores.append((pontos + bonus, -vezes, sorteio, Escolha(RAIZ / e["arquivo"], inicio,
@@ -305,10 +308,11 @@ def buscar_clipe(consulta: str, pasta: Path = PASTA_CLIPES, aceitar_spoiler: boo
 
 
 def resolver_midia(midia: str, inicio: float = 0.0, fim: Optional[float] = None,
-                   evitar: Optional[set] = None, semente: str = "") -> Optional[Escolha]:
+                   evitar: Optional[set] = None, semente: str = "",
+                   preferir_video: bool = False) -> Optional[Escolha]:
     """"busca:<palavras>" procura no catálogo; qualquer outro texto é um caminho de arquivo."""
     if midia.startswith("busca:"):
-        return buscar_clipe(midia.split(":", 1)[1], evitar=evitar, semente=semente)
+        return buscar_clipe(midia.split(":", 1)[1], evitar=evitar, semente=semente, preferir_video=preferir_video)
     p = Path(midia)
     return Escolha(p if p.is_absolute() else RAIZ / p, inicio, fim)
 
