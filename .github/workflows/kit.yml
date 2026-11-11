@@ -16,6 +16,8 @@ on:
     - cron: "10 20 * * *"        # radar 17h10
     - cron: "40 10 * * 1"        # pauta segunda 07h40
     - cron: "30 2 * * *"         # métricas 23h30
+    - cron: "5 15 * * *"         # comentários 12h05
+    - cron: "5 22 * * *"         # comentários 19h05
   workflow_dispatch:
     inputs:
       vozes:
@@ -23,7 +25,7 @@ on:
         default: ""
         required: false
       tarefa:
-        description: "ciclo | radar | pauta | catalogo | metricas | resumo | teste-voz | biblioteca | telegram-teste | simular"
+        description: "ciclo | radar | comentarios | pauta | catalogo | metricas | resumo | teste-voz | biblioteca | telegram-teste | simular"
         default: ciclo
         required: true
 
@@ -59,6 +61,7 @@ jobs:
             "10 10 * * *"|"10 20 * * *") t=radar ;;
             "40 10 * * 1") t=pauta ;;
             "30 2 * * *") t=metricas ;;
+            "5 15 * * *"|"5 22 * * *") t=comentarios ;;
             "") t="${{ github.event.inputs.tarefa || 'ciclo' }}" ;;
             *) t=ciclo ;;
           esac
@@ -93,7 +96,7 @@ jobs:
         id: plano
         run: |
           t="${{ steps.t.outputs.tarefa }}"
-          if [ "$t" = "ciclo" ]; then paginas nuvem plano; else echo "pesado=$([ "$t" = telegram-teste ] || [ "$t" = gemini ] && echo false || echo true)" >> "$GITHUB_OUTPUT"; fi
+          if [ "$t" = "ciclo" ]; then paginas nuvem plano; else echo "pesado=$([ "$t" = telegram-teste ] || [ "$t" = gemini ] || [ "$t" = comentarios ] && echo false || echo true)" >> "$GITHUB_OUTPUT"; fi
 
       # ---------------------------------------------------------------- só nas rodadas pesadas
       - name: Biblioteca oficial (cache)
@@ -146,6 +149,7 @@ jobs:
             metricas) paginas metricas; paginas resumo ;;
             resumo) paginas resumo ;;
             gemini) paginas gemini ;;
+            comentarios) paginas comentarios ;;
             biblioteca) paginas biblioteca ;;
             telegram-teste) paginas telegram teste ;;
             simular) paginas meta conferir --marca gg_explica && paginas publicar --simular ;;

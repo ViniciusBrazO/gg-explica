@@ -59,6 +59,12 @@ biblioteca:
     - nome: vintage_vice_city_pack
       url: https://media-rockstargames-com.akamaized.net/VI/downloads/screenshots/GTAVI_Vintage_Vice_City_Pack.zip
 
+# ---------------------------------------------------------------- sugestões de comentário
+# 12h e 19h: o kit lê (API oficial) os posts recentes destas páginas e manda no Telegram um comentário
+# pronto para cada post bombando. Quem comenta é o Vinicius, à mão (regra nº 1).
+comentarios:
+  paginas: [ignbrasil, meups, flowgamesbr, portalgtabr, fluidgame, seekkey, theenemybr, voxelbr]
+
 # ---------------------------------------------------------------- quem escreve os posts
 # gemini: grátis (GEMINI_API_KEY, plano gratuito do Google AI Studio); o kit pesquisa e confere, o Gemini
 # só escreve. claude: o Claude Code (gasta o plano do Claude). Sem a chave do Gemini, volta para o Claude.
