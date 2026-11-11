@@ -450,13 +450,13 @@
     "quando": "2026-11-11T13:37:00-03:00",
     "plataforma": "facebook",
     "tipo": "reel",
-    "status": "pendente",
+    "status": "publicado",
     "produtos_para_marcar": [],
-    "media_id": "",
-    "permalink": "",
+    "media_id": "1459758109055684",
+    "permalink": "https://www.facebook.com/reel/1459758109055684",
     "erro": "HTTP 400: {'message': 'API access blocked.', 'type': 'OAuthException', 'code': 200}",
     "tentativas": 1,
-    "publicado_em": ""
+    "publicado_em": "2026-11-11T18:08:17-03:00"
   },
   {
     "id": "radar_2026-11-11_espaco_212gb",
@@ -518,13 +518,13 @@
     "quando": "2026-11-11T16:30:00-03:00",
     "plataforma": "facebook",
     "tipo": "reel",
-    "status": "pendente",
+    "status": "publicado",
     "produtos_para_marcar": [],
-    "media_id": "",
-    "permalink": "",
+    "media_id": "982355341599204",
+    "permalink": "https://www.facebook.com/reel/982355341599204",
     "erro": "",
     "tentativas": 0,
-    "publicado_em": ""
+    "publicado_em": "2026-11-11T18:08:27-03:00"
   },
   {
     "id": "radar_2026-11-11_preco_reais",
