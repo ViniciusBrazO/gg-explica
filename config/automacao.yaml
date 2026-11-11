@@ -22,6 +22,9 @@ radar:
     - https://rss.tecmundo.com.br/feed
     - https://canaltech.com.br/rss/
     - https://www.theenemy.com.br/rss
+    - https://www.gamesradar.com/feeds/all/
+    - https://www.pushsquare.com/feeds/latest
+    - https://www.pcgamer.com/rss/
   filtro_diretos: 'gta\s*(6|vi)\b|grand theft auto vi|rockstar games'
   # Domínio da fonte -> selo sugerido. O Claude confere antes de usar.
   fontes:
