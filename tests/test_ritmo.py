@@ -50,3 +50,28 @@ def test_carrossel_com_mais_de_10_slides_bloqueia():
     v = Video.model_validate({"id": "t", "serie": "radar", "horario": "12:00", "formato": "carrossel",
                               "data": "2026-11-11", "legenda_post": "x", "cenas": cenas})
     assert any("até 10" in b for b in checar_pauta(carregar_marca("gg_explica"), v)[0])
+
+
+def test_promessa_sem_entrega_e_carrossel_curto_bloqueiam():
+    from pipeline.marca import carregar_marca
+    from pipeline.modelos import Video
+    from pipeline.qualidade import checar_pauta
+    cenas = [{"tipo": "gancho", "titulo": "Capa"},
+             {"tipo": "texto", "titulo": "Horas", "texto": "O Canaltech calculou quantas horas o brasileiro trabalha."},
+             {"tipo": "cta", "titulo": "Fim", "texto": "Segue"}]
+    v = Video.model_validate({"id": "t", "serie": "radar", "horario": "12:00", "formato": "carrossel",
+                              "data": "2026-11-11", "legenda_post": "x", "cenas": cenas})
+    texto = " ".join(checar_pauta(carregar_marca("gg_explica"), v)[0])
+    assert "mínimo é 5" in texto and "calculou" in texto
+
+
+def test_dossie_monta_com_texto_das_materias(tmp_path, monkeypatch):
+    from datetime import date
+    from pipeline import dossie, redator
+    monkeypatch.setattr(dossie, "ARQUIVO", tmp_path / "dossie.md")
+    monkeypatch.setattr(redator, "noticias_pendentes", lambda hoje, maximo: [{"ids": ["a"], "manchetes": []}])
+    monkeypatch.setattr(redator, "com_textos", lambda assuntos, por: [{"ids": ["a"], "outras_manchetes": [],
+        "fontes": [{"veiculo": "Canaltech", "data": "2026-11-11", "selo_sugerido": "relato",
+                    "manchete": "Horas de trabalho", "link": "https://x", "texto": "São 37 horas de trabalho."}]}])
+    assert dossie.montar(date(2026, 11, 11)) == (1, 1)
+    assert "37 horas" in (tmp_path / "dossie.md").read_text(encoding="utf-8")

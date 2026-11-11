@@ -56,7 +56,7 @@ também gera `reel.mp4` e `capa_reel.jpg`: o Reel sai no horário do post e o ca
 
 | Formato | Como montar na pauta | Exemplo de capa |
 | --- | --- | --- |
-| Notícia | `gancho` + 2 a 4 `texto` (um fato por slide, com `selo`) + `cta` | "Pré-download de GTA 6 *liberado*" |
+| Notícia | `gancho` + 4 a 6 `texto`/`lista` (um dado concreto por slide, com `selo` e fonte; resultado, nunca só "fulano calculou") + `cta` | "Pré-download de GTA 6 *liberado*" |
 | Guia "o que fazer" | `gancho` + 1 `texto` + 1 `lista` com 4 a 6 itens "Título: descrição" + `cta` | "9 dias pra GTA 6: o que fazer *antes do dia 19*" |
 | Dado | `gancho` + `lista` com `"estilo": "tabela"` ("rótulo: valor") + `cta` | "Quanto tempo pra baixar *212 GB*" |
 | Comparação | `gancho` + 2 `texto` (um lado por slide, imagem de cada um) + `lista` com o resumo + `cta` | "Edição Ultimate x Padrão: *qual vale*?" |

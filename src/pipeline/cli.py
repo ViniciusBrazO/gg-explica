@@ -427,6 +427,16 @@ def cmd_radar(args) -> int:
     return 0
 
 
+def cmd_dossie(args) -> int:
+    from .dossie import ARQUIVO, montar
+    assuntos, lidas = montar()
+    print(f"{assuntos} assunto(s), {lidas} matéria(s) com texto em {ARQUIVO}")
+    for linha in ARQUIVO.read_text(encoding="utf-8").splitlines():
+        if linha.startswith(("## ", "### ", "Link:")) or "só a manchete" in linha:
+            print(linha[:160])
+    return 0
+
+
 def cmd_clipes(args) -> int:
     from .radar import config
     from .vigia import processar
@@ -599,6 +609,9 @@ def main(argv: list[str] | None = None) -> int:
 
     p = sub.add_parser("radar", help="busca notícias novas agora")
     p.set_defaults(func=cmd_radar)
+
+    p = sub.add_parser("dossie", help="abre as matérias do radar para o redator (saida/radar/dossie.md)")
+    p.set_defaults(func=cmd_dossie)
 
     p = sub.add_parser("clipes", help="organiza clipes/entrada e atualiza o catálogo")
     p.set_defaults(func=cmd_clipes)

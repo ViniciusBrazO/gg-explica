@@ -26,6 +26,27 @@ Hoje é {data de hoje}. Prepare o Radar do dia e ajuste a pauta da semana.
 >    depois** do Reel, com outra capa, outra manchete e outras imagens (o kit também evita repetir).
 > Quando `saida/estado_voz.txt` diz `desligada`, siga a regra de formato abaixo (só carrossel).
 
+> **Profundidade (pedido do Vinicius, 11/11: "conteúdo raso").** Antes de escrever, leia
+> `saida/radar/dossie.md` (o texto das matérias, aberto pelo kit). Matéria que lá aparece como "só a
+> manchete" você procura em outra fonte com WebSearch/WebFetch; sem texto de nenhuma fonte, o assunto
+> não vira post (ou entra só como uma linha num resumo).
+> - **Todo slide e toda cena entre a capa e o final trazem pelo menos um dado concreto**: número, valor,
+>   data, horário, nome, tamanho, comparação. Nada de slide que só anuncia que alguém fez algo: se a
+>   fonte calculou, revelou ou listou, o post **diz o resultado** ("pelo cálculo do Canaltech, X horas de
+>   trabalho com o salário mínimo"). O validador bloqueia "calculou quantas", "revelou o que" e afins.
+> - **Acrescente o que a manchete não dá:** faça a conta você mesmo quando ajudar (preço em horas de
+>   salário mínimo, parcelas, GB livres, diferença entre edições, quanto falta para o lançamento), compare
+>   (com GTA V, com outros lançamentos, antes e agora) e diga o que muda para quem joga no Brasil. Cada
+>   dado tem fonte; conta sua leva a base ("salário mínimo de R$ X, fonte gov.br").
+> - **Carrossel de notícia: 6 a 8 slides** (mínimo 5, o validador barra menos): capa → fato principal com
+>   os números → segundo detalhe → contexto/comparação → o que muda no Brasil → o que ainda não se sabe →
+>   pergunta. `texto` com 15 a 35 palavras; `lista`/tabela com 3 a 5 linhas, todas com dado.
+> - **Reel:** uma informação nova por cena; nada de cena que só repete o título.
+> - **Legenda:** 3 a 5 frases com os dados mais fortes (não copie os slides) e uma pergunta específica
+>   sobre o assunto, não genérica.
+> - Antes de gravar, releia slide por slide: quem só ler este post aprende algo concreto em cada um? Se
+>   não, corte o slide ou complete com dado.
+
 > **Dia cheio de notícia (com 3 posts por dia, mais conteúdo por post, não mais posts).** Quando a busca
 > trouxer **3 ou mais novidades relevantes e em alta** que ainda não saíram na página, não guarde
 > nenhuma para depois nem crie posts extras: junte as menores num post de resumo e engorde os posts.
@@ -39,11 +60,11 @@ Hoje é {data de hoje}. Prepare o Radar do dia e ajuste a pauta da semana.
 >   em cada cena com fato, e a mais forte por último para segurar até o fim.
 > - **A notícia mais forte do dia** continua com post próprio (Reel 35 a 50 s, carrossel de 6 a 8 slides,
 >   com contexto, detalhes e o que ainda não se sabe). As outras entram no resumo.
-> - Em dia fraco, mantenha o padrão (Reel 30 a 45 s, carrossel de 4 a 7 slides). Não encha linguiça:
+> - Em dia fraco, mantenha o padrão (Reel 30 a 45 s, carrossel de 6 a 8 slides). Não encha linguiça:
 >   todo slide e toda cena trazem um fato ou um dado novo.
 
 > **Formato:** se `conteudo.so_carrossel` estiver `true` (ou `auto` com a voz desligada) em `config/automacao.yaml`, todo post (inclusive
-> o RADAR e o alerta) é `"formato": "carrossel"` no modelo revista, sem `narracao`, de 4 a 7 slides
+> o RADAR e o alerta) é `"formato": "carrossel"` no modelo revista, sem `narracao`, de 6 a 8 slides
 > (gancho/capa, fatos com selo, `lista` ou `lista` com `"estilo": "tabela"`, `cta`). O kit gera o Reel do
 > mesmo post sozinho: o Reel sai no horário e o carrossel 2 horas depois. Nada de `midia`/`tela_cheia` nesse modo: imagem só por
 > `fundo_clipe` com `"busca:..."`.
@@ -98,7 +119,7 @@ Atualize a coluna `virou` (sim, não, aberto).
   e aí o post é uma atualização ("AGORA É OFICIAL", "MUDOU"). Notícias do mesmo assunto viram um post só.
   **Notícia muito relevante** (trailer, data, adiamento, preço, edição, gameplay, versão de PC, anúncio
   oficial): ignore os horários base e marque `horario` = a hora atual, para sair **agora**; faça esse
-  post primeiro, curto (4 ou 5 slides), e só depois os outros.
+  post primeiro, enxuto (5 ou 6 slides, todos com dado), e só depois os outros.
   Estrutura: fato no gancho → selo e fonte → o que muda para quem está no Brasil (preço em reais,
   horário de Brasília) → o que ainda não se sabe → pergunta.
 - Se não houve: mantenha a pauta da semana; só corrija o que a notícia de hoje tornou errado.

@@ -18,7 +18,7 @@ on:
         default: ""
         required: false
       tarefa:
-        description: "auto | ciclo | radar | comentarios | pauta | catalogo | metricas | resumo | teste-voz | biblioteca | telegram-teste | simular"
+        description: "auto | ciclo | radar | comentarios | pauta | catalogo | metricas | resumo | teste-voz | biblioteca | telegram-teste | simular | dossie"
         default: ciclo
         required: true
 
@@ -101,7 +101,7 @@ jobs:
         id: plano
         run: |
           t="${{ steps.t.outputs.tarefa }}"
-          if [ "$t" = "ciclo" ] || [ "$t" = "comentarios-ciclo" ]; then paginas nuvem plano; else echo "pesado=$([ "$t" = telegram-teste ] || [ "$t" = gemini ] || [ "$t" = comentarios ] || [ "$t" = simular ] && echo false || echo true)" >> "$GITHUB_OUTPUT"; fi
+          if [ "$t" = "ciclo" ] || [ "$t" = "comentarios-ciclo" ]; then paginas nuvem plano; else echo "pesado=$([ "$t" = telegram-teste ] || [ "$t" = gemini ] || [ "$t" = comentarios ] || [ "$t" = simular ] || [ "$t" = dossie ] && echo false || echo true)" >> "$GITHUB_OUTPUT"; fi
 
       # ---------------------------------------------------------------- só nas rodadas pesadas
       - name: Biblioteca oficial (cache)
@@ -152,7 +152,7 @@ jobs:
         run: |
           case "${{ steps.t.outputs.tarefa }}" in
             ciclo) paginas ciclo ;;
-            radar) paginas claude radar || true; paginas ciclo ;;
+            radar) paginas radar || true; paginas claude radar || true; paginas ciclo ;;
             pauta) paginas claude pauta || true; paginas ciclo ;;
             catalogo) paginas catalogar && paginas claude catalogo ;;
             teste-voz) paginas teste-voz --vozes "${{ github.event.inputs.vozes }}" ;;
@@ -162,6 +162,7 @@ jobs:
             comentarios) paginas comentarios ;;
             comentarios-ciclo) paginas comentarios || true; paginas ciclo ;;
             biblioteca) paginas biblioteca ;;
+            dossie) paginas radar || true; paginas dossie ;;
             telegram-teste) paginas telegram teste ;;
             simular) paginas meta conferir --marca gg_explica && paginas publicar --simular ;;
           esac

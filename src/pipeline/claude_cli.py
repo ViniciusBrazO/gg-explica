@@ -74,6 +74,15 @@ def rodar(tarefa: str, contexto: str = "", executar=subprocess.run) -> Execucao:
         from .redator import rodar as rodar_gemini
         return rodar_gemini(tarefa, contexto)
     cfg = config()["claude"]
+    if tarefa in ("radar", "alerta"):
+        try:
+            from .dossie import montar
+            assuntos, lidas = montar()
+            contexto = (contexto + "\n\n" if contexto else "") + (
+                f"Dossiê: `saida/radar/dossie.md` tem o texto de {lidas} matéria(s) de {assuntos} assunto(s) "
+                "ainda não postados. Leia antes de escrever.")
+        except Exception as e:      # sem dossiê, o Claude pesquisa sozinho como antes
+            print(f"(dossiê não montado: {e})")
     cmd = montar_comando(montar_prompt(tarefa, contexto))
     # O Claude chama `paginas validar`: o comando do kit precisa estar no PATH dele.
     env = dict(os.environ, PATH=str(Path(sys.executable).parent) + os.pathsep + os.environ.get("PATH", ""))

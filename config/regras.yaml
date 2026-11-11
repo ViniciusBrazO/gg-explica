@@ -26,6 +26,9 @@ frases_proibidas:
   - "\\bli s[óo] (os|o) t[íi]tulos?\\b"
   - "\\bconfira (os detalhes )?nos links\\b"
   - "\\bveja nos links\\b"
+  # Promessa sem entrega: se a fonte calculou, revelou ou listou, o post diz o resultado.
+  - "\\b(calculou|revelou|listou|explicou|detalhou|mostrou|descobriu) (quant[oa]s?|qual|quais|como|o que|onde)\\b"
+  - "\\bconfira (os detalhes|na fonte|na matéria)\\b"
 
 # Termos que pedem atenção humana (não bloqueiam, só avisam).
 atencao:
