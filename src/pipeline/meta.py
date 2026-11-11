@@ -164,6 +164,20 @@ def conferir(marca_id: str, sessao: requests.Session | None = None) -> list[str]
         linhas.append(f"posts pela API nas últimas 24 h: {uso.get('quota_usage', 0)} de {limite}")
     else:
         linhas.append("Instagram: nenhuma conta ligada à Página")
-    token_da_pagina(page, token, s)
-    linhas.append("token da Página: ok (Reels no Facebook e carrossel pela API liberados)")
+    tp = token_da_pagina(page, token, s)
+    linhas.append("token da Página: ok")
+    # testa a hospedagem dos slides (foto não publicada na Página, apagada logo depois)
+    import tempfile
+    from PIL import Image
+    with tempfile.TemporaryDirectory() as d:
+        img = Path(d) / "teste.jpg"
+        Image.new("RGB", (64, 64), (20, 20, 20)).save(img)
+        h = Hospedeiro(page, tp, s)
+        try:
+            url = h.hospedar(img)
+            linhas.append(f"hospedagem dos slides: ok ({url[:40]}...)")
+        except ErroMeta as e:
+            linhas.append(f"hospedagem dos slides: FALHOU ({e})")
+        finally:
+            h.limpar()
     return linhas
