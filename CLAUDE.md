@@ -47,7 +47,8 @@ Estas regras protegem as contas e o dono do projeto. Nenhuma tarefa justifica qu
 
 ## Modo nuvem (como roda hoje)
 
-Repositório privado `ViniciusBrazO/gg-explica`, `.github/workflows/kit.yml` (GitHub Actions, sem PC):
+Repositório privado `ViniciusBrazO/gg-explica`, `.github/workflows/kit.yml` (GitHub Actions, sem PC), disparado pelo
+cron-job.org (conta do Vinicius, tarefa=auto a cada 30 min; a hora de Brasília escolhe a tarefa):
 ciclo a cada 30 min (08h-00h30), radar do Claude às 07h10 e 17h10 (alerta na hora só com fonte oficial), pauta na segunda, métricas
 às 23h30. `telegram.aprovacao: automatica`: o kit agenda sozinho todo rascunho sem bloqueio, avisa no
 Telegram (✍️ Ajustar / 🗑 Cancelar até sair) e manda o link quando publica; respostas viram

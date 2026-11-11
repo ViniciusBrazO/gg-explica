@@ -9,15 +9,8 @@
 name: kit
 
 on:
-  schedule:
-    - cron: "7,37 11-23 * * *"   # ciclo (UTC; Brasília = UTC-3); fora de :00/:30, quando o GitHub atrasa menos
-    - cron: "7,37 0-3 * * *"     # ciclo, da noite
-    - cron: "10 10 * * *"        # radar 07h10
-    - cron: "10 20 * * *"        # radar 17h10
-    - cron: "40 10 * * 1"        # pauta segunda 07h40
-    - cron: "30 2 * * *"         # métricas 23h30
-    - cron: "5 15 * * *"         # comentários 12h05
-    - cron: "5 22 * * *"         # comentários 19h05
+  # Sem "schedule": o agendador do GitHub atrasava ou pulava rodadas. Quem dispara é o cron-job.org
+  # (tarefa=auto, a cada 30 min em :07 e :37, 07h-00h37 de Brasília; veja "Qual tarefa").
   workflow_dispatch:
     inputs:
       vozes:
