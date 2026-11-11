@@ -380,8 +380,8 @@
     "produtos_para_marcar": [],
     "media_id": "",
     "permalink": "",
-    "erro": "",
-    "tentativas": 0
+    "erro": "HTTP 400: {'message': 'API access blocked.', 'type': 'OAuthException', 'code': 200}",
+    "tentativas": 1
   },
   {
     "id": "radar_2026-11-10_pc_disco_reel",
@@ -396,8 +396,8 @@
     "produtos_para_marcar": [],
     "media_id": "",
     "permalink": "",
-    "erro": "",
-    "tentativas": 0
+    "erro": "HTTP 400: {'message': 'API access blocked.', 'type': 'OAuthException', 'code': 200}",
+    "tentativas": 1
   },
   {
     "id": "radar_2026-11-11_espaco_212gb_reel",
