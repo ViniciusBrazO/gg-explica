@@ -45,7 +45,7 @@ env:
 jobs:
   kit:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 40
     steps:
       - name: Qual tarefa
         id: t
@@ -119,9 +119,12 @@ jobs:
 
       - name: ffmpeg, fontes e navegador
         if: steps.plano.outputs.pesado == 'true'
+        timeout-minutes: 12       # o apt do runner às vezes trava: falha rápido em vez de prender a fila
+        env:
+          DEBIAN_FRONTEND: noninteractive
         run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq --no-install-recommends ffmpeg fonts-noto-color-emoji >/dev/null
+          sudo apt-get -o DPkg::Lock::Timeout=120 -o Acquire::Retries=3 update -qq
+          sudo apt-get -o DPkg::Lock::Timeout=120 install -y -qq --no-install-recommends ffmpeg fonts-noto-color-emoji >/dev/null
           python -m playwright install --with-deps chromium >/dev/null
           if [ -n "$AZURE_SPEECH_KEY" ]; then
             sudo apt-get install -y -qq libasound2t64 >/dev/null 2>&1 || sudo apt-get install -y -qq libasound2 >/dev/null 2>&1 || true
