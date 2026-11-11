@@ -24,3 +24,18 @@ def test_freio_intervalo_e_limite_diario():
     for i in seis:
         i.plataforma = "facebook"
     assert motivo_para_segurar(novo, seis + [novo], agora) == ""
+
+
+def test_bastidor_do_redator_e_kicker_igual_ao_selo_bloqueiam():
+    from pipeline.marca import carregar_marca
+    from pipeline.modelos import Video
+    from pipeline.qualidade import checar_pauta
+    marca = carregar_marca("gg_explica")
+    v = Video.model_validate({"id": "t", "serie": "radar", "horario": "12:00", "formato": "carrossel", "data": "2026-11-11",
+        "legenda_post": "Detalhes eu não li: confira nos links.",
+        "cenas": [{"tipo": "gancho", "kicker": "RELATO", "selo": "relato", "titulo": "Festival",
+                   "fonte": "Eurogamer, 09/11/2026", "fonte_url": "https://www.eurogamer.net/x"},
+                  {"tipo": "texto", "titulo": "Mais", "texto": "x"}]})
+    bloqueios, _ = checar_pauta(marca, v)
+    texto = " ".join(bloqueios)
+    assert "kicker repete o selo" in texto and "frase proibida" in texto

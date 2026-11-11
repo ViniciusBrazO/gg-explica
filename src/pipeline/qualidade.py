@@ -63,6 +63,9 @@ def checar_pauta(marca: Marca, video: Video) -> tuple[list[str], list[str]]:
         bloqueios.append(f"série '{video.serie}' não existe em {marca.id}.yaml")
     elif not serie.get("leva_link", True) and video.publi:
         bloqueios.append(f"a série {serie['nome']} não leva link de produto")
+    for n, c in enumerate(video.cenas, 1):
+        if c.selo and c.kicker and c.kicker.strip().lower() == c.selo.lower():
+            bloqueios.append(f"cena {n}: o kicker repete o selo ({c.kicker}); use um kicker com informação")
     if "MODELO" in tudo:
         bloqueios.append("ainda há texto 'MODELO' no vídeo")
     if video.formato != "carrossel" and so_carrossel():

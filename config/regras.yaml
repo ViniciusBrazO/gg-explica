@@ -21,6 +21,11 @@ frases_proibidas:
   - "\\bresultado garantido\\b"
   # Marcas de terceiros como se fossem parceiras.
   - "\\bparceria oficial\\b"
+  # Bastidor do redator não vai ao ar, e post do Instagram não tem link clicável.
+  - "\\b(eu )?n[ãa]o li\\b"
+  - "\\bli s[óo] (os|o) t[íi]tulos?\\b"
+  - "\\bconfira (os detalhes )?nos links\\b"
+  - "\\bveja nos links\\b"
 
 # Termos que pedem atenção humana (não bloqueiam, só avisam).
 atencao:
