@@ -39,3 +39,14 @@ def test_bastidor_do_redator_e_kicker_igual_ao_selo_bloqueiam():
     bloqueios, _ = checar_pauta(marca, v)
     texto = " ".join(bloqueios)
     assert "kicker repete o selo" in texto and "frase proibida" in texto
+
+
+def test_carrossel_com_mais_de_10_slides_bloqueia():
+    from pipeline.marca import carregar_marca
+    from pipeline.modelos import Video
+    from pipeline.qualidade import checar_pauta
+    cenas = [{"tipo": "gancho", "titulo": "Capa"}] + [{"tipo": "texto", "titulo": f"Slide {n}", "texto": f"fato {n}"}
+                                                    for n in range(10)]
+    v = Video.model_validate({"id": "t", "serie": "radar", "horario": "12:00", "formato": "carrossel",
+                              "data": "2026-11-11", "legenda_post": "x", "cenas": cenas})
+    assert any("até 10" in b for b in checar_pauta(carregar_marca("gg_explica"), v)[0])

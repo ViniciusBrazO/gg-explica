@@ -18,6 +18,7 @@ REGRAS = yaml.safe_load((RAIZ / "config" / "regras.yaml").read_text(encoding="ut
 _AFIRMA_CONFIRMACAO = re.compile(r"(?<!não )(?<!nao )(?<!nunca )(?<!sem )\bconfirm(ad[oa]s?|ou|aram|a)\b",
                                  flags=re.IGNORECASE)
 LIMITE_PROGRAMA_CRIADORES_S = 60
+MAX_SLIDES_API = 10          # Content Publishing API: até 10 itens por carrossel
 
 
 def caminho_midia(midia: str) -> Path:
@@ -80,8 +81,10 @@ def checar_pauta(marca: Marca, video: Video) -> tuple[list[str], list[str]]:
     estimativa = palavras / 2.6
     if estimativa > marca.video["duracao_max_s"]:
         avisos.append(f"narração longa: cerca de {estimativa:.0f}s (máximo {marca.video['duracao_max_s']}s)")
+    if video.formato == "carrossel" and len(video.cenas) > MAX_SLIDES_API:
+        bloqueios.append(f"carrossel com {len(video.cenas)} slides: a API do Instagram aceita até {MAX_SLIDES_API}")
     if video.usa_midia_de_terceiros and estimativa > LIMITE_PROGRAMA_CRIADORES_S:
-        avisos.append(f"vídeo com trecho de jogo passa de {LIMITE_PROGRAMA_CRIADORES_S}s (cerca de "
+        bloqueios.append(f"vídeo com trecho de jogo passa de {LIMITE_PROGRAMA_CRIADORES_S}s (cerca de "
                       f"{estimativa:.0f}s): entra no programa de criadores do TikTok, e a Rockstar trata "
                       "ganho com gravação como uso comercial. Encurte ou troque o trecho por visual próprio")
     return bloqueios, avisos

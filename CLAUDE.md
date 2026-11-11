@@ -52,7 +52,7 @@ cron-job.org (conta do Vinicius, tarefa=auto a cada 30 min; a hora de Brasília 
 ciclo a cada 30 min (08h-00h30), radar do Claude às 07h10 e 17h10 (alerta na hora só com fonte oficial), pauta na segunda, métricas
 às 23h30. `telegram.aprovacao: automatica`: o kit agenda sozinho todo rascunho sem bloqueio, avisa no
 Telegram (✍️ Ajustar / 🗑 Cancelar até sair) e manda o link quando publica; respostas viram
-`saida/telegram/orientacoes.md`. Reel no horário, carrossel 2 h depois. Notícia quente numa rodada leve
+`saida/telegram/orientacoes.md`. Reel no horário, carrossel 2 h depois. Freio: 3 posts por dia (6 publicações no Instagram em 24 h, 90 min entre elas, `publicacao` em `config/automacao.yaml`); dia cheio de notícia vira post de resumo (carrossel de 8 a 10 slides, Reel de 45 a 58 s), não post extra. Notícia quente numa rodada leve
 chama uma rodada pesada na hora. Segredos no GitHub: META_TOKEN_GG_EXPLICA, TELEGRAM_BOT_TOKEN,
 CLAUDE_CODE_OAUTH_TOKEN, AZURE_SPEECH_KEY (voz Antonio) e GEMINI_API_KEY (chat do Telegram em
 `saida/telegram/chat_id.txt`). **Redator:** hoje `redator: claude`. Opção `redator: gemini` (grátis, testada em 10/11 e desligada: texto raso e assunto repetido; `src/pipeline/redator.py` +

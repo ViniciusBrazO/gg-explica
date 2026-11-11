@@ -26,6 +26,22 @@ Hoje é {data de hoje}. Prepare o Radar do dia e ajuste a pauta da semana.
 >    depois** do Reel, com outra capa, outra manchete e outras imagens (o kit também evita repetir).
 > Quando `saida/estado_voz.txt` diz `desligada`, siga a regra de formato abaixo (só carrossel).
 
+> **Dia cheio de notícia (com 3 posts por dia, mais conteúdo por post, não mais posts).** Quando a busca
+> trouxer **3 ou mais novidades relevantes e em alta** que ainda não saíram na página, não guarde
+> nenhuma para depois nem crie posts extras: junte as menores num post de resumo e engorde os posts.
+> - **Post de resumo** ("5 NOVIDADES DE GTA 6 HOJE", "O QUE MUDOU ESTA SEMANA"): carrossel de **8 a 10
+>   slides** (nunca mais de 10: limite da API), capa com o número de novidades, **um slide por notícia**
+>   (fato + selo + fonte própria daquela notícia + o que muda no Brasil), slide final com "qual foi a
+>   maior?" ou tabela-resumo. Cada slide com imagem oficial diferente.
+> - **Reel do resumo:** **45 a 58 segundos** (nunca 60 ou mais com trecho de jogo), **8 a 10 cenas**,
+>   formato contagem/lista: gancho com o número ("Cinco novidades de GTA 6 em menos de um minuto"),
+>   uma cena curta por notícia (uma frase de fato + uma de impacto), cortes de 3 a 5 s, `selo` e `fonte`
+>   em cada cena com fato, e a mais forte por último para segurar até o fim.
+> - **A notícia mais forte do dia** continua com post próprio (Reel 35 a 50 s, carrossel de 6 a 8 slides,
+>   com contexto, detalhes e o que ainda não se sabe). As outras entram no resumo.
+> - Em dia fraco, mantenha o padrão (Reel 30 a 45 s, carrossel de 4 a 7 slides). Não encha linguiça:
+>   todo slide e toda cena trazem um fato ou um dado novo.
+
 > **Formato:** se `conteudo.so_carrossel` estiver `true` (ou `auto` com a voz desligada) em `config/automacao.yaml`, todo post (inclusive
 > o RADAR e o alerta) é `"formato": "carrossel"` no modelo revista, sem `narracao`, de 4 a 7 slides
 > (gancho/capa, fatos com selo, `lista` ou `lista` com `"estilo": "tabela"`, `cta`). O kit gera o Reel do

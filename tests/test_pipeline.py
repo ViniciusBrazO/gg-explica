@@ -281,15 +281,15 @@ def test_legenda_post_credita_imagens_de_terceiros(tmp_path):
     assert "voz de IA" in leg
 
 
-def test_trecho_de_jogo_longo_avisa():
+def test_trecho_de_jogo_longo_bloqueia():
     marca = carregar_marca("gg_explica")
     fala = " ".join(["palavra"] * 170)   # cerca de 65 s
     v = _video_gg([{"tipo": "midia", "midia": "assets/exemplos/mapa_leonida_esquema.png",
                     "credito": "Imagens: exemplo", "narracao": fala}])
-    _, avisos = checar_pauta(marca, v)
-    assert any("programa de criadores" in a for a in avisos)
+    bloqueios, _ = checar_pauta(marca, v)
+    assert any("programa de criadores" in b for b in bloqueios)
     v.cenas[1].midia_terceiros = False
-    assert not any("programa de criadores" in a for a in checar_pauta(marca, v)[1])
+    assert not any("programa de criadores" in b for b in checar_pauta(marca, v)[0])
 
 
 @pytest.mark.lento
