@@ -25,7 +25,7 @@ on:
         default: ""
         required: false
       tarefa:
-        description: "ciclo | radar | comentarios | pauta | catalogo | metricas | resumo | teste-voz | biblioteca | telegram-teste | simular"
+        description: "auto | ciclo | radar | comentarios | pauta | catalogo | metricas | resumo | teste-voz | biblioteca | telegram-teste | simular"
         default: ciclo
         required: true
 
@@ -65,6 +65,18 @@ jobs:
             "") t="${{ github.event.inputs.tarefa || 'ciclo' }}" ;;
             *) t=ciclo ;;
           esac
+          if [ "$t" = "auto" ]; then
+            # disparo externo (cron-job.org, a cada 30 min em :07 e :37): a hora de Brasília decide a tarefa
+            hm=$(TZ=America/Sao_Paulo date +%H%M); dia=$(TZ=America/Sao_Paulo date +%u)
+            case "$hm" in
+              070*|071*) t=radar ;;
+              073*|074*) [ "$dia" = 1 ] && t=pauta || t=ciclo ;;
+              120*|121*|190*|191*) t=comentarios-ciclo ;;
+              170*|171*) t=radar ;;
+              233*|234*) t=metricas ;;
+              *) t=ciclo ;;
+            esac
+          fi
           echo "tarefa=$t" >> "$GITHUB_OUTPUT"
           echo "tarefa: $t"
 
@@ -96,7 +108,7 @@ jobs:
         id: plano
         run: |
           t="${{ steps.t.outputs.tarefa }}"
-          if [ "$t" = "ciclo" ]; then paginas nuvem plano; else echo "pesado=$([ "$t" = telegram-teste ] || [ "$t" = gemini ] || [ "$t" = comentarios ] && echo false || echo true)" >> "$GITHUB_OUTPUT"; fi
+          if [ "$t" = "ciclo" ] || [ "$t" = "comentarios-ciclo" ]; then paginas nuvem plano; else echo "pesado=$([ "$t" = telegram-teste ] || [ "$t" = gemini ] || [ "$t" = comentarios ] && echo false || echo true)" >> "$GITHUB_OUTPUT"; fi
 
       # ---------------------------------------------------------------- só nas rodadas pesadas
       - name: Biblioteca oficial (cache)
@@ -150,6 +162,7 @@ jobs:
             resumo) paginas resumo ;;
             gemini) paginas gemini ;;
             comentarios) paginas comentarios ;;
+            comentarios-ciclo) paginas comentarios || true; paginas ciclo ;;
             biblioteca) paginas biblioteca ;;
             telegram-teste) paginas telegram teste ;;
             simular) paginas meta conferir --marca gg_explica && paginas publicar --simular ;;
