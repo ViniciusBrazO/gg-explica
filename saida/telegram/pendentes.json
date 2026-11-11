@@ -76,7 +76,7 @@
     "video": "radar_2026-11-10_pechincha",
     "impressao": "0ad17f3fac97",
     "situacao": "bloqueado",
-    "conferido": "2026-11-10T20:36"
+    "conferido": "2026-11-10T21:38"
   },
   "b9d4465f1f": {
     "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-11_gg_explica.json",
@@ -125,5 +125,37 @@
     "situacao": "agendado",
     "message_id": 170,
     "enviado": "2026-11-10T20:40:05.441251"
+  },
+  "db20e74556": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-10_gg_explica.json",
+    "video": "radar_2026-11-10_festival_miami_reel",
+    "impressao": "6e0d6d60b587",
+    "situacao": "agendado",
+    "message_id": 172,
+    "enviado": "2026-11-10T21:39:40.813949"
+  },
+  "319a97d61c": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-10_gg_explica.json",
+    "video": "radar_2026-11-10_festival_miami",
+    "impressao": "d32516e218b0",
+    "situacao": "agendado",
+    "message_id": 177,
+    "enviado": "2026-11-10T21:39:43.730572"
+  },
+  "81123ff2d4": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-10_gg_explica.json",
+    "video": "radar_2026-11-10_pc_disco_reel",
+    "impressao": "44da92ac9107",
+    "situacao": "agendado",
+    "message_id": 178,
+    "enviado": "2026-11-10T21:41:05.859546"
+  },
+  "155e5d5237": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-10_gg_explica.json",
+    "video": "radar_2026-11-10_pc_disco",
+    "impressao": "ce646936714f",
+    "situacao": "agendado",
+    "message_id": 182,
+    "enviado": "2026-11-10T21:41:08.080120"
   }
 }

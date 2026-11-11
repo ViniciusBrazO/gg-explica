@@ -216,5 +216,52 @@
     ],
     "estilo_capa": "topo",
     "registrado": "2026-11-10T20:40"
+  },
+  "2026-11-11|radar_2026-11-10_festival_miami_reel": {
+    "data": "2026-11-11",
+    "horario": "09:00",
+    "imagens": [
+      "clipes/oficial/artes_e_wallpapers/Boobie_Ike_square.jpg",
+      "clipes/oficial/screenshots/Raul_Bautista_01.jpg",
+      "clipes/oficial/trailers_e_clipes/GTAVI_Official_Cover_Art_Landscape.mp4@21.8",
+      "clipes/oficial/screenshots/Port_Gellhorn_02.jpg"
+    ],
+    "estilo_capa": "base",
+    "registrado": "2026-11-10T21:39"
+  },
+  "2026-11-11|radar_2026-11-10_festival_miami": {
+    "data": "2026-11-11",
+    "horario": "11:00",
+    "imagens": [
+      "clipes/oficial/artes_e_wallpapers/Grassrivers_Postcard_square.jpg",
+      "clipes/oficial/artes_e_wallpapers/Cal_Hampton_square.jpg",
+      "clipes/oficial/screenshots/Jason_Duval_17.jpg",
+      "clipes/oficial/artes_e_wallpapers/Jason_and_Lucia_Beach_tablet.jpg"
+    ],
+    "estilo_capa": "faixa",
+    "registrado": "2026-11-10T21:39"
+  },
+  "2026-11-11|radar_2026-11-10_pc_disco_reel": {
+    "data": "2026-11-11",
+    "horario": "12:30",
+    "imagens": [
+      "clipes/oficial/artes_e_wallpapers/Jason_Lucia_Lock_And_Load_tablet.jpg",
+      "clipes/oficial/screenshots/Leonida_Keys_03.jpg",
+      "clipes/oficial/artes_e_wallpapers/Ambrosia_Postcard_landscape.jpg",
+      "clipes/oficial/screenshots/Vice_City_13.jpg"
+    ],
+    "estilo_capa": "faixa",
+    "registrado": "2026-11-10T21:41"
+  },
+  "2026-11-11|radar_2026-11-10_pc_disco": {
+    "data": "2026-11-11",
+    "horario": "15:00",
+    "imagens": [
+      "clipes/oficial/artes_e_wallpapers/Jason_and_Lucia_Motel_phone.jpg",
+      "clipes/oficial/artes_e_wallpapers/Jason_and_Lucia_Beach_ultrawide.jpg",
+      "clipes/oficial/screenshots/Leonida_Keys_06.jpg"
+    ],
+    "estilo_capa": "impacto",
+    "registrado": "2026-11-10T21:41"
   }
 }
