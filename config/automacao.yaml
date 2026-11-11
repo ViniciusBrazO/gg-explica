@@ -37,7 +37,10 @@ radar:
     # Assunto muito relevante: uma fonte séria basta, e o post sai na hora (ignora os horários base).
     palavras_quentes: [trailer, adiad, delay, data de lançamento, release date, preço, price, edição, edition,
                        gameplay, pc, oficial, official, revela, reveals, anuncia, announces, vaz, leak]
-  acionar_claude_no_alerta: true   # escreve o RADAR do assunto e manda a prévia para aprovação
+  acionar_claude_no_alerta: true
+  # Economia do plano do Claude (escolha do Vinicius em 10/11): o post na hora só sai quando a notícia
+  # vem de fonte oficial; as outras notícias quentes chegam no Telegram e entram no radar seguinte.
+  claude_so_com_fonte_oficial: true   # escreve o RADAR do assunto e manda a prévia para aprovação
 
 # ---------------------------------------------------------------- biblioteca oficial (sem jogar)
 # Pacotes da página de mídia oficial de GTA VI (rockstargames.com/VI/media): a Rockstar oferece

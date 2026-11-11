@@ -110,6 +110,9 @@ def rodar(publicar: bool = True) -> int:
             resumo = radar.resumo_alerta(grupo)
             if tg:
                 tg.texto("🔥 Notícia quente\n" + resumo)
+            so_oficial = cfg["radar"].get("claude_so_com_fonte_oficial", False)
+            if so_oficial and not any(n.selo_sugerido == "confirmado" for n in grupo):
+                continue      # economia: o Claude só escreve na hora quando a fonte é oficial
             if cfg["radar"].get("acionar_claude_no_alerta"):
                 if claude_cli.disponivel():
                     ex = claude_cli.rodar("alerta", contexto=resumo)

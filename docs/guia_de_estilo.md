@@ -13,7 +13,7 @@ o conteúdo, a imagem ou o texto de outra página.
   outros posts dos últimos 14 dias e o validador bloqueia imagem repetida.
 - **Notícia muito relevante sai na hora** (trailer, data, adiamento, preço, edição, gameplay, PC, anúncio
   oficial): ignora os horários base, post curto, `horario` = agora.
-- Muitos posts por dia: 5 a 6 de notícia (radar 3 vezes por dia) mais a pauta da semana.
+- Muitos posts por dia: 5 a 6 de notícia (radar 2 vezes por dia) mais a pauta da semana.
 - **Reel primeiro:** o Reel do post sai no horário; o carrossel, 2 horas depois.
 - O kit publica sozinho e avisa no Telegram; as respostas do Vinicius ficam em
   `saida/telegram/orientacoes.md` e valem para todos os próximos posts.

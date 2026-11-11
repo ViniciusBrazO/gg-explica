@@ -68,7 +68,7 @@ Atualize a coluna `virou` (sim, não, aberto).
 
 ## 4. Escreva a pauta do dia
 
-- Esta tarefa roda **3 vezes por dia** (07h10, 12h10 e 17h10). Em cada rodada, escreva de **2 a 3 posts**
+- Esta tarefa roda **2 vezes por dia** (07h10 e 17h10). Em cada rodada, escreva de **2 a 3 posts**
   para os horários livres de hoje: 09h00, 11h00, 12h30, 15h00, 17h00, 19h00 e 21h00. Use só horários que
   estejam a pelo menos 90 minutos de agora e que nenhum outro post de hoje (em qualquer arquivo de
   `pautas/`, menos os descartados) já ocupe. Meta do dia: 5 a 6 posts. Na rodada das 17h10, se não
