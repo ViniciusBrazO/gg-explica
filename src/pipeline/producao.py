@@ -40,14 +40,27 @@ def automatico_em(plataforma: str, marca_id: str) -> bool:
     return False
 
 
-HORAS_ENTRE_REEL_E_CARROSSEL = 2   # o Reel sai no horário do post (é o que leva a quem não segue)
+HORAS_ENTRE_REEL_E_CARROSSEL = 2
+MINUTOS_ENTRE_POSTS = 50
+
+
+def horario_livre(quando, video_id: str):
+    """Empurra o horário até ficar a 50 min de qualquer outro post da fila (dois posts juntos se canibalizam)."""
+    from .fila import carregar
+    from datetime import datetime as _dt
+    ocupados = [_dt.fromisoformat(i.quando) for i in carregar()
+                if i.plataforma == "instagram" and i.status != "erro"
+                and i.id not in (video_id, f"{video_id}_reel")]
+    while any(abs((quando - o).total_seconds()) < MINUTOS_ENTRE_POSTS * 60 for o in ocupados):
+        quando = quando + timedelta(minutes=30)
+    return quando   # o Reel sai no horário do post (é o que leva a quem não segue)
 
 
 def enfileirar_carrossel(marca: Marca, video: Video, pasta: Path, legenda: str, produtos: list[str]) -> None:
     """Com a Página ligada (META_TOKEN + FB_PAGE_ID), o Reel do post sai no horário (Instagram e Página
     do Facebook) e o carrossel 2 horas depois; sem ela, tudo vai para o lote manual. TikTok sempre no lote."""
     from .meta import pode_hospedar
-    quando = horario_publicacao(video)
+    quando = horario_livre(horario_publicacao(video), video.id)
     if "instagram" in video.plataformas:
         if pode_hospedar(marca.id):
             reel = pasta / "reel.mp4"
@@ -60,7 +73,7 @@ def enfileirar_carrossel(marca: Marca, video: Video, pasta: Path, legenda: str, 
                                                   capa=str(capa) if capa.exists() else "", legenda=legenda,
                                                   quando=quando.isoformat(), plataforma=plataforma,
                                                   produtos_para_marcar=produtos))
-                depois = quando + timedelta(hours=HORAS_ENTRE_REEL_E_CARROSSEL)
+                depois = horario_livre(quando + timedelta(hours=HORAS_ENTRE_REEL_E_CARROSSEL), video.id)
             enfileirar_instagram(Item(id=video.id, marca=marca.id, video=str(pasta), capa=str(pasta / "01.jpg"),
                                       legenda=legenda, quando=depois.isoformat(), tipo="carrossel",
                                       produtos_para_marcar=produtos))
@@ -106,7 +119,7 @@ def produzir(marca: Marca, video: Video, previa: bool = False, voz: Optional[str
     except Exception as e:
         problemas = list(problemas) + [f"capa do Reel não saiu ({e}); vai um quadro do vídeo"]
     if not previa:
-        quando = horario_publicacao(video).isoformat()
+        quando = horario_livre(horario_publicacao(video), video.id).isoformat()
         for plataforma in video.plataformas:
             if automatico_em(plataforma, marca.id):
                 enfileirar_instagram(Item(id=video.id, marca=marca.id, video=str(arquivo), capa=str(capa.resolve()),
