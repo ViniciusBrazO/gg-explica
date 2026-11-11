@@ -376,12 +376,12 @@
     "quando": "2026-11-11T12:37:00-03:00",
     "plataforma": "instagram",
     "tipo": "reel",
-    "status": "pendente",
+    "status": "erro",
     "produtos_para_marcar": [],
     "media_id": "",
     "permalink": "",
     "erro": "HTTP 400: {'message': 'API access blocked.', 'type': 'OAuthException', 'code': 200}",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "id": "radar_2026-11-10_pc_disco_reel",
@@ -392,12 +392,12 @@
     "quando": "2026-11-11T12:37:00-03:00",
     "plataforma": "facebook",
     "tipo": "reel",
-    "status": "pendente",
+    "status": "erro",
     "produtos_para_marcar": [],
     "media_id": "",
     "permalink": "",
     "erro": "HTTP 400: {'message': 'API access blocked.', 'type': 'OAuthException', 'code': 200}",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "id": "radar_2026-11-11_espaco_212gb_reel",
@@ -412,8 +412,8 @@
     "produtos_para_marcar": [],
     "media_id": "",
     "permalink": "",
-    "erro": "",
-    "tentativas": 0
+    "erro": "HTTP 400: {'message': 'API access blocked.', 'type': 'OAuthException', 'code': 200}",
+    "tentativas": 1
   },
   {
     "id": "radar_2026-11-11_espaco_212gb_reel",
@@ -428,8 +428,8 @@
     "produtos_para_marcar": [],
     "media_id": "",
     "permalink": "",
-    "erro": "",
-    "tentativas": 0
+    "erro": "HTTP 400: {'message': 'API access blocked.', 'type': 'OAuthException', 'code': 200}",
+    "tentativas": 1
   },
   {
     "id": "radar_2026-11-11_espaco_212gb",
