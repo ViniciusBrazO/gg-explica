@@ -76,6 +76,14 @@ gemini:
 # Sem voz de IA configurada (ELEVENLABS_API_KEY + voice_id, ou AZURE_SPEECH_KEY), todo post sai como
 # carrossel no modelo revista, que já gera o Reel do mesmo post (sem narração). Mude para false quando
 # a voz estiver pronta e os Reels narrados voltam.
+# ---------------------------------------------------------------- freio de publicação
+# A API deixa 100 posts/24 h, mas conta e app novos em rajada parecem robô (bloqueio de 11/11/2026).
+# Reel e carrossel contam separados. O excedente espera na fila; nada se perde. Suba aos poucos
+# (ex.: 8 depois de um mês sem problema), nunca de uma vez.
+publicacao:
+  instagram: {max_24h: 6, minutos_entre_posts: 90}
+  facebook: {max_24h: 4, minutos_entre_posts: 90}
+
 conteudo:
   so_carrossel: auto      # auto: só carrossel enquanto não houver AZURE_SPEECH_KEY (ou ELEVENLABS_API_KEY)
 

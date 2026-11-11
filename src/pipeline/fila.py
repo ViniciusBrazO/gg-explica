@@ -56,6 +56,7 @@ class Item:
     permalink: str = ""
     erro: str = ""
     tentativas: int = 0
+    publicado_em: str = ""       # ISO; a hora real em que saiu (o freio conta por ela)
 
 
 def montar_legenda(marca: Marca, video: Video, legenda_post: str) -> str:

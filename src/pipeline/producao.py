@@ -41,11 +41,11 @@ def automatico_em(plataforma: str, marca_id: str) -> bool:
 
 
 HORAS_ENTRE_REEL_E_CARROSSEL = 2
-MINUTOS_ENTRE_POSTS = 50
+MINUTOS_ENTRE_POSTS = 90      # igual a publicacao.instagram.minutos_entre_posts (config/automacao.yaml)
 
 
 def horario_livre(quando, video_id: str):
-    """Empurra o horário até ficar a 50 min de qualquer outro post da fila (dois posts juntos se canibalizam)."""
+    """Empurra o horário até ficar a 90 min de qualquer outro post da fila (dois posts juntos se canibalizam)."""
     from .fila import carregar
     from datetime import datetime as _dt
     ocupados = [_dt.fromisoformat(i.quando) for i in carregar()
