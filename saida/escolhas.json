@@ -263,5 +263,57 @@
     ],
     "estilo_capa": "impacto",
     "registrado": "2026-11-10T21:41"
+  },
+  "2026-11-11|radar_2026-11-11_espaco_212gb_reel": {
+    "data": "2026-11-11",
+    "horario": "12:30",
+    "imagens": [
+      "clipes/oficial/screenshots/Jason_and_Lucia_02.jpg",
+      "clipes/oficial/trailers_e_clipes/GTAVI_Official_Cover_Art_Landscape.mp4@10.9",
+      "clipes/oficial/artes_e_wallpapers/Jason_Lucia_Lock_And_Load_phone.jpg",
+      "clipes/oficial/screenshots/Jason_and_Lucia_13.jpg",
+      "clipes/oficial/screenshots/Ambrosia_06.jpg",
+      "clipes/oficial/artes_e_wallpapers/Raul_Bautista_phone.jpg"
+    ],
+    "estilo_capa": "impacto",
+    "registrado": "2026-11-11T10:25"
+  },
+  "2026-11-11|radar_2026-11-11_espaco_212gb": {
+    "data": "2026-11-11",
+    "horario": "14:30",
+    "imagens": [
+      "clipes/oficial/screenshots/Cal_Hampton_04.jpg",
+      "clipes/oficial/screenshots/Boobie_Ike_04.jpg",
+      "clipes/oficial/artes_e_wallpapers/Brian_Heder_square.jpg",
+      "clipes/oficial/artes_e_wallpapers/Port_Gellhorn_Postcard_ultrawide.jpg",
+      "clipes/oficial/artes_e_wallpapers/DreQuan_Priest_portrait.jpg"
+    ],
+    "estilo_capa": "faixa",
+    "registrado": "2026-11-11T10:25"
+  },
+  "2026-11-11|radar_2026-11-11_preco_reais_reel": {
+    "data": "2026-11-11",
+    "horario": "15:00",
+    "imagens": [
+      "clipes/oficial/artes_e_wallpapers/Leonida_Keys_Postcard_tablet.jpg",
+      "clipes/oficial/artes_e_wallpapers/Leonida_Keys_Postcard_square.jpg",
+      "clipes/oficial/ultimate_edition/ULTIMATE_EDITION_ELECTRIC_FANG_02.jpg",
+      "clipes/oficial/artes_e_wallpapers/Jason_and_Lucia_Beach_tablet.jpg",
+      "clipes/oficial/screenshots/Jason_and_Lucia_01.jpg"
+    ],
+    "estilo_capa": "base",
+    "registrado": "2026-11-11T10:28"
+  },
+  "2026-11-11|radar_2026-11-11_preco_reais": {
+    "data": "2026-11-11",
+    "horario": "17:00",
+    "imagens": [
+      "clipes/oficial/screenshots/Jason_and_Lucia_09.jpg",
+      "clipes/oficial/vintage_vice_city_pack/VINTAGE_VICE_CITY_PACK_02.jpg",
+      "clipes/oficial/artes_e_wallpapers/Jason_Lucia_Rooftop_ultrawide.jpg",
+      "saida/carrosseis/gg_explica/2026-11-11_radar_2026-11-11_preco_reais/_trabalho/quadro_03.jpg"
+    ],
+    "estilo_capa": "faixa",
+    "registrado": "2026-11-11T10:28"
   }
 }
