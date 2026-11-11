@@ -10,8 +10,8 @@ name: kit
 
 on:
   schedule:
-    - cron: "*/30 11-23 * * *"   # ciclo (UTC; Brasília = UTC-3)
-    - cron: "*/30 0-3 * * *"     # ciclo, da noite
+    - cron: "7,37 11-23 * * *"   # ciclo (UTC; Brasília = UTC-3); fora de :00/:30, quando o GitHub atrasa menos
+    - cron: "7,37 0-3 * * *"     # ciclo, da noite
     - cron: "10 10 * * *"        # radar 07h10
     - cron: "10 20 * * *"        # radar 17h10
     - cron: "40 10 * * 1"        # pauta segunda 07h40
