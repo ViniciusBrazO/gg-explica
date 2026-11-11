@@ -198,10 +198,14 @@ def cmd_publicar(args) -> int:
     itens = carregar()
     publicados = 0
     no_ar: dict[str, list[dict]] = {}     # posts recentes de cada conta, contra publicação repetida
+    ja_saiu_nesta_rodada = False
     for item in itens:
         if item.status != "pendente" or datetime.fromisoformat(item.quando) > agora:
             continue
         if item.tentativas >= 3:
+            continue
+        if item.plataforma == "instagram" and ja_saiu_nesta_rodada and not args.simular:
+            print(f"  {item.id}: fica para a próxima rodada (um post por vez, sem rajada atrasada)")
             continue
         print(f"publicando {item.plataforma}: {item.marca}/{item.id} (agendado para {item.quando})")
         if args.simular:
@@ -246,6 +250,8 @@ def cmd_publicar(args) -> int:
                 res = publicar_reel_com_capa(pub, item)
             item.status, item.media_id, item.permalink = "publicado", res["media_id"], res["permalink"]
             publicados += 1
+            if item.plataforma == "instagram":
+                ja_saiu_nesta_rodada = True
             print(f"  no ar: {item.permalink}")
             avisar_publicado(item)
             if item.produtos_para_marcar:
