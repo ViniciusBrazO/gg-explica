@@ -120,10 +120,8 @@ def _checar_selos_e_midia(marca: Marca, video: Video) -> tuple[list[str], list[s
 
 def checar_arquivo(marca: Marca, arquivo: Path) -> list[str]:
     """Confere resolução, duração e áudio do vídeo final."""
-    r = subprocess.run(["ffprobe", "-v", "error", "-show_entries",
-                        "stream=codec_type,width,height:format=duration", "-of", "json", str(arquivo)],
-                       capture_output=True, text=True, check=True)
-    info = json.loads(r.stdout)
+    from .sonda import sondar
+    info = sondar(arquivo)
     problemas = []
     video = next((s for s in info["streams"] if s["codec_type"] == "video"), None)
     if not video or (video["width"], video["height"]) != (1080, 1920):

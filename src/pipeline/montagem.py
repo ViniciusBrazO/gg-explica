@@ -128,10 +128,8 @@ class MidiaCena:
 
 
 def _dimensoes(arquivo: Path) -> tuple[int, int]:
-    r = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries",
-                        "stream=width,height", "-of", "json", str(arquivo)],
-                       capture_output=True, text=True, check=True)
-    s = json.loads(r.stdout)["streams"][0]
+    from .sonda import video
+    s = video(arquivo)
     return int(s["width"]), int(s["height"])
 
 

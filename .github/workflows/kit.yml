@@ -44,7 +44,7 @@ env:
 
 jobs:
   kit:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04      # versão fixa: a 'latest' nova teve espelhos do apt fora do ar
     timeout-minutes: 40
     steps:
       - name: Qual tarefa
@@ -101,7 +101,7 @@ jobs:
         id: plano
         run: |
           t="${{ steps.t.outputs.tarefa }}"
-          if [ "$t" = "ciclo" ] || [ "$t" = "comentarios-ciclo" ]; then paginas nuvem plano; else echo "pesado=$([ "$t" = telegram-teste ] || [ "$t" = gemini ] || [ "$t" = comentarios ] && echo false || echo true)" >> "$GITHUB_OUTPUT"; fi
+          if [ "$t" = "ciclo" ] || [ "$t" = "comentarios-ciclo" ]; then paginas nuvem plano; else echo "pesado=$([ "$t" = telegram-teste ] || [ "$t" = gemini ] || [ "$t" = comentarios ] || [ "$t" = simular ] && echo false || echo true)" >> "$GITHUB_OUTPUT"; fi
 
       # ---------------------------------------------------------------- só nas rodadas pesadas
       - name: Biblioteca oficial (cache)
@@ -119,17 +119,19 @@ jobs:
 
       - name: ffmpeg, fontes e navegador
         if: steps.plano.outputs.pesado == 'true'
-        timeout-minutes: 12       # o apt do runner às vezes trava: falha rápido em vez de prender a fila
+        timeout-minutes: 12
         env:
           DEBIAN_FRONTEND: noninteractive
         run: |
-          sudo apt-get -o DPkg::Lock::Timeout=120 -o Acquire::Retries=3 update -qq
-          sudo apt-get -o DPkg::Lock::Timeout=120 install -y -qq --no-install-recommends ffmpeg fonts-noto-color-emoji >/dev/null
-          python -m playwright install --with-deps chromium >/dev/null
-          if [ -n "$AZURE_SPEECH_KEY" ]; then
-            sudo apt-get install -y -qq libasound2t64 >/dev/null 2>&1 || sudo apt-get install -y -qq libasound2 >/dev/null 2>&1 || true
-            pip install -e ".[azure]" --quiet
+          # apt com tempo limite; se os espelhos do Ubuntu falharem, usa o ffmpeg estático do pip
+          if ! timeout 300 sudo apt-get -o DPkg::Lock::Timeout=60 -o Acquire::Retries=2 install -y -qq --no-install-recommends ffmpeg fonts-noto-color-emoji >/dev/null 2>&1; then
+            echo "apt indisponível: usando ffmpeg estático"
+            pip install --quiet imageio-ffmpeg
+            mkdir -p "$HOME/bin"
+            ln -sf "$(python -c 'import imageio_ffmpeg; print(imageio_ffmpeg.get_ffmpeg_exe())')" "$HOME/bin/ffmpeg"
+            echo "$HOME/bin" >> "$GITHUB_PATH"
           fi
+          timeout 400 python -m playwright install --with-deps chromium >/dev/null 2>&1 || python -m playwright install chromium >/dev/null
 
       - name: Claude Code
         if: steps.plano.outputs.pesado == 'true' && env.CLAUDE_CODE_OAUTH_TOKEN != ''

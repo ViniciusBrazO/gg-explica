@@ -32,11 +32,9 @@ LARGURA_QUADRO = 384
 
 
 def _sondar(arquivo: Path) -> dict:
-    r = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries",
-                        "stream=width,height:format=duration", "-of", "json", str(arquivo)],
-                       capture_output=True, text=True, check=True)
-    info = json.loads(r.stdout)
-    s = info["streams"][0]
+    from .sonda import sondar
+    info = sondar(arquivo)
+    s = next(f for f in info["streams"] if f.get("codec_type", "video") == "video")
     return {"duracao_s": round(float(info["format"]["duration"]), 2), "largura": int(s["width"]),
             "altura": int(s["height"])}
 

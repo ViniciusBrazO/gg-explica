@@ -89,11 +89,8 @@ def texto_para_fala(texto: str) -> str:
 # ---------------------------------------------------------------- utilidades de áudio
 
 def _duracao_audio(caminho: Path) -> float:
-    saida = subprocess.run(
-        ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(caminho)],
-        capture_output=True, text=True, check=True,
-    ).stdout.strip()
-    return float(saida)
+    from .sonda import duracao
+    return duracao(caminho)
 
 
 def _palavras_de_caracteres(chars: list[str], inicios: list[float], fins: list[float]) -> list[Palavra]:
