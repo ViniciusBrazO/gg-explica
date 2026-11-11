@@ -382,13 +382,13 @@
     "quando": "2026-11-11T17:37:00-03:00",
     "plataforma": "instagram",
     "tipo": "carrossel",
-    "status": "pendente",
+    "status": "publicado",
     "produtos_para_marcar": [],
-    "media_id": "",
-    "permalink": "",
+    "media_id": "18138197233649365",
+    "permalink": "https://www.instagram.com/p/DfniLQHkd0g/",
     "erro": "HTTP 400: {'message': 'API access blocked.', 'type': 'OAuthException', 'code': 200}",
     "tentativas": 1,
-    "publicado_em": ""
+    "publicado_em": "2026-11-11T19:17:18-03:00"
   },
   {
     "id": "radar_2026-11-10_pc_disco_reel",
@@ -437,8 +437,8 @@
     "produtos_para_marcar": [],
     "media_id": "",
     "permalink": "",
-    "erro": "HTTP 400: {'message': 'API access blocked.', 'type': 'OAuthException', 'code': 200}",
-    "tentativas": 1,
+    "erro": "HTTP 400: {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}}",
+    "tentativas": 2,
     "publicado_em": ""
   },
   {
@@ -467,13 +467,13 @@
     "quando": "2026-11-11T15:37:00-03:00",
     "plataforma": "instagram",
     "tipo": "carrossel",
-    "status": "pendente",
+    "status": "publicado",
     "produtos_para_marcar": [],
-    "media_id": "",
-    "permalink": "",
+    "media_id": "18131881388306904",
+    "permalink": "https://www.instagram.com/p/Dfnh-P0k-cx/",
     "erro": "",
     "tentativas": 0,
-    "publicado_em": ""
+    "publicado_em": "2026-11-11T19:15:51-03:00"
   },
   {
     "id": "radar_2026-11-10_pc_disco",
@@ -484,13 +484,13 @@
     "quando": "2026-11-11T14:37:00-03:00",
     "plataforma": "instagram",
     "tipo": "carrossel",
-    "status": "pendente",
+    "status": "publicado",
     "produtos_para_marcar": [],
-    "media_id": "",
-    "permalink": "",
+    "media_id": "17910444582332895",
+    "permalink": "https://www.instagram.com/p/Dfnh1tQk0aY/",
     "erro": "",
     "tentativas": 0,
-    "publicado_em": ""
+    "publicado_em": "2026-11-11T19:14:30-03:00"
   },
   {
     "id": "radar_2026-11-11_preco_reais_reel",
@@ -501,13 +501,13 @@
     "quando": "2026-11-11T16:30:00-03:00",
     "plataforma": "instagram",
     "tipo": "reel",
-    "status": "pendente",
+    "status": "publicado",
     "produtos_para_marcar": [],
-    "media_id": "",
-    "permalink": "",
+    "media_id": "18122481682943769",
+    "permalink": "https://www.instagram.com/reel/DfniEKaD3Pe/",
     "erro": "",
     "tentativas": 0,
-    "publicado_em": ""
+    "publicado_em": "2026-11-11T19:16:35-03:00"
   },
   {
     "id": "radar_2026-11-11_preco_reais_reel",
@@ -535,12 +535,12 @@
     "quando": "2026-11-11T18:30:00-03:00",
     "plataforma": "instagram",
     "tipo": "carrossel",
-    "status": "pendente",
+    "status": "publicado",
     "produtos_para_marcar": [],
-    "media_id": "",
-    "permalink": "",
+    "media_id": "18199580026391750",
+    "permalink": "https://www.instagram.com/p/DfniQnCJd92/",
     "erro": "",
     "tentativas": 0,
-    "publicado_em": ""
+    "publicado_em": "2026-11-11T19:18:01-03:00"
   }
 ]
