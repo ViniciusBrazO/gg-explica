@@ -112,3 +112,10 @@ def test_clipe_curto_nao_entra_no_reel(tmp_path, monkeypatch):
     ]), encoding="utf-8")
     monkeypatch.setattr(catalogo, "_carregar_uso", lambda: {})
     assert catalogo.buscar_clipe("jason", pasta=tmp_path, preferir_video=True).entrada["tipo"] == "imagem"
+
+
+def test_saida_no_formato_dos_reels_da_meta():
+    from pipeline.montagem import parametros_instagram
+    p = " ".join(parametros_instagram())
+    for exigido in ("-use_editlist 0", "+faststart", "-b:a 128k", "-ar 48000", "yuv420p", "open-gop=0", "-maxrate"):
+        assert exigido in p

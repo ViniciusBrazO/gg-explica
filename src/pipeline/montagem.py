@@ -371,6 +371,24 @@ def _trecho_ffmpeg(t: Trecho, saida: Path) -> None:
     _ffmpeg_trecho(entrada_fundo, partes, t, saida, idx_moldura=1)
 
 
+def parametros_instagram() -> list[str]:
+    """Saída dentro da especificação de Reels da Meta: H.264 4:2:0, GOP fechado, até 25 Mbps
+    (usamos teto de 16), AAC 128k 48 kHz estéreo, moov no início e SEM edit list (o ffmpeg grava uma
+    por padrão para o atraso do AAC, e o Instagram recusa com ProcessingFailedError)."""
+    return ["-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-maxrate", "16M", "-bufsize", "32M",
+            "-profile:v", "high", "-level", "4.2", "-pix_fmt", "yuv420p", "-g", str(FPS * 2),
+            "-x264-params", "open-gop=0", "-c:a", "aac", "-b:a", "128k", "-ar", "48000", "-ac", "2",
+            "-movflags", "+faststart", "-use_editlist", "0"]
+
+
+def conformar_para_instagram(arquivo: Path) -> Path:
+    """Recodifica um vídeo já pronto com os parâmetros acima (no lugar do original)."""
+    tmp = arquivo.with_name(arquivo.stem + "_ig.mp4")
+    _ff(["-i", str(arquivo), "-map", "0:v:0", "-map", "0:a:0?", *parametros_instagram(), str(tmp)])
+    tmp.replace(arquivo)
+    return arquivo
+
+
 def passos_do_titulo(n_palavras: int) -> list[int]:
     """Quantas palavras aparecem em cada passo (o último passo é o cartão completo, que vem depois)."""
     passos = list(range(1, n_palavras))
@@ -559,9 +577,7 @@ def renderizar_video(marca: Marca, video: Video, pasta_saida: Path, voz_forcada:
         audio = "[1:a]loudnorm=I=-14:TP=-1.5:LRA=11[a]"
     filtro = (f"[0:v]ass='{ass.name}':fontsdir='{fontes}'[vl];"
               f"{filtro_barra(deslocamento, marca.cores['destaque'])};{audio}")
-    _ff([*entradas, "-filter_complex", filtro, "-map", "[v]", "-map", "[a]",
-         "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p",
-         "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart",
+    _ff([*entradas, "-filter_complex", filtro, "-map", "[v]", "-map", "[a]", *parametros_instagram(),
          "-t", f"{deslocamento:.3f}", str(final)], cwd=trabalho)
 
     variedade.registrar(video, usadas, estilo_capa)

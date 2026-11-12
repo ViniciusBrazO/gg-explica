@@ -22,6 +22,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import shutil
 import os
 import re
 import sys
@@ -165,7 +166,12 @@ def publicar_reel_com_capa(pub, item) -> dict:
         try:
             return pub.publicar_reel(Path(item.video), item.legenda, capa_url=url)
         except Exception as e:
-            if not url:
+            if "ProcessingFailedError" in str(e) and shutil.which("ffmpeg"):
+                from .montagem import conformar_para_instagram
+                print("  o Instagram não processou o vídeo; recodificando no formato da Meta e tentando de novo")
+                conformar_para_instagram(Path(item.video))
+                return pub.publicar_reel(Path(item.video), item.legenda, capa_url=url)
+            if not url or "ProcessingFailedError" in str(e):
                 raise
             print(f"  o Instagram recusou com a capa ({str(e)[:120]}); tentando sem ela")
             return pub.publicar_reel(Path(item.video), item.legenda)

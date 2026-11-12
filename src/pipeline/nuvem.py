@@ -55,6 +55,10 @@ def motivos_para_pesado(hoje: date | None = None, telegram=None, agora: datetime
     cfg = config()
     motivos: list[str] = []
 
+    from .fila import carregar as fila_carregar
+    for item in fila_carregar():      # o Instagram não processou o vídeo: só a rodada pesada tem ffmpeg
+        if item.status == "pendente" and "ProcessingFailedError" in (item.erro or ""):
+            motivos.append(f"recodificar {item.id}")
     pendentes = tgmod._carregar(tgmod.ARQ_PENDENTES, {})
     limite = hoje + timedelta(days=cfg["telegram"].get("enviar_dias_a_frente", 1))
     for arq in tgmod.pautas_de_trabalho():

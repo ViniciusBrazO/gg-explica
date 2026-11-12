@@ -142,7 +142,7 @@ def reel_dos_slides(slides: list[Path], capa_vertical: Path | None, destino: Pat
     depois cada slide sobre o próprio fundo desfocado, com zoom lento e suave (calculado em 4x, sem
     tremer) e transição entre os slides. A música entra no app."""
     from PIL import Image
-    from .montagem import FPS, SUPER, TRANSICAO, TRANSICOES, _expr_suave
+    from .montagem import FPS, SUPER, TRANSICAO, TRANSICOES, _expr_suave, parametros_instagram
     entradas, filtros, duracoes = [], [], []
     k = 0
     pedacos = ([("capa", capa_vertical, 1.2)] if capa_vertical is not None else []) + \
@@ -192,8 +192,7 @@ def reel_dos_slides(slides: list[Path], capa_vertical: Path | None, destino: Pat
         audio = ["-f", "lavfi", "-t", f"{duracao:.2f}", "-i", "anullsrc=r=44100:cl=stereo"]
         mapa = f"{k}:a"
     subprocess.run(["ffmpeg", "-nostdin", "-hide_banner", "-loglevel", "error", "-y", *entradas, *audio,
-                    "-filter_complex", grafo, "-map", "[v]", "-map", mapa, "-c:v", "libx264",
-                    "-preset", "veryfast", "-crf", "20", "-c:a", "aac", "-shortest", "-movflags", "+faststart",
+                    "-filter_complex", grafo, "-map", "[v]", "-map", mapa, *parametros_instagram(), "-shortest",
                     str(destino)], check=True)
     for tmp in destino.parent.glob("_zoom_*.png"):
         tmp.unlink(missing_ok=True)
