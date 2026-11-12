@@ -189,5 +189,37 @@
     "situacao": "agendado",
     "message_id": 200,
     "enviado": "2026-11-11T10:28:22.263866"
+  },
+  "9f77436afc": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-12_gg_explica.json",
+    "video": "radar_2026-11-12_clipe_miami_reel",
+    "impressao": "49f06e47af23",
+    "situacao": "agendado",
+    "message_id": 220,
+    "enviado": "2026-11-12T08:26:02.579450"
+  },
+  "eae8e61e8c": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-12_gg_explica.json",
+    "video": "radar_2026-11-12_clipe_miami",
+    "impressao": "3de1c0aa590b",
+    "situacao": "agendado",
+    "message_id": 227,
+    "enviado": "2026-11-12T08:26:06.318925"
+  },
+  "bfa0a8bcbf": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-12_gg_explica.json",
+    "video": "radar_2026-11-12_gay_tony_reel",
+    "impressao": "53f7b062eb0f",
+    "situacao": "agendado",
+    "message_id": 228,
+    "enviado": "2026-11-12T08:37:13.863941"
+  },
+  "9bee59c6db": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-12_gg_explica.json",
+    "video": "radar_2026-11-12_gay_tony",
+    "impressao": "f7a32821bfe9",
+    "situacao": "agendado",
+    "message_id": 235,
+    "enviado": "2026-11-12T08:37:32.299590"
   }
 }
