@@ -117,14 +117,22 @@ class Hospedeiro:
         return imagens[0]["source"]
 
     def hospedar_video(self, video: Path, espera_s: int = 300) -> str:
-        """Link público de um vídeo: sobe como vídeo NÃO publicado da Página (ninguém vê) e espera o
-        Facebook gerar o arquivo. Caminho de reserva quando o envio direto ao Instagram falha."""
-        with open(video, "rb") as f:
-            v = _checar(self.s.post(f"https://graph-video.facebook.com/{versao()}/{self.page_id}/videos",
-                                    data={"published": "false", "access_token": self.token_pagina},
-                                    files={"source": (video.name, f, "video/mp4")}, timeout=600))
-        vid = v["id"]
+        """Link público de um vídeo: sobe como Reel em RASCUNHO da Página (ninguém vê; é o mesmo envio
+        dos Reels do Facebook, que está funcionando) e espera o Facebook gerar o arquivo. Caminho de
+        reserva quando o envio direto ao Instagram falha. O rascunho é apagado em limpar()."""
+        url = f"{GRAPH}/{versao()}/{self.page_id}/video_reels"
+        vid = _checar(self.s.post(url, data={"upload_phase": "start", "access_token": self.token_pagina},
+                                  timeout=60))["video_id"]
         self.enviadas.append(vid)
+        corpo = video.read_bytes()
+        envio = _checar(self.s.post(f"https://rupload.facebook.com/video-upload/{versao()}/{vid}", data=corpo,
+                                    timeout=600, headers={"Authorization": f"OAuth {self.token_pagina}", "offset": "0",
+                                                          "file_size": str(len(corpo)),
+                                                          "Content-Type": "application/octet-stream"}))
+        if not envio.get("success"):
+            raise ErroMeta(f"envio do vídeo para a Página falhou: {envio}")
+        _checar(self.s.post(url, data={"upload_phase": "finish", "video_id": vid, "video_state": "DRAFT",
+                                       "access_token": self.token_pagina}, timeout=60))
         limite = time.time() + espera_s
         while time.time() < limite:
             dados = _checar(self.s.get(f"{GRAPH}/{versao()}/{vid}", params={
