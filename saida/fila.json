@@ -539,8 +539,8 @@
     "produtos_para_marcar": [],
     "media_id": "",
     "permalink": "",
-    "erro": "HTTP 400: {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}}",
-    "tentativas": 2,
+    "erro": "",
+    "tentativas": 0,
     "publicado_em": ""
   },
   {
