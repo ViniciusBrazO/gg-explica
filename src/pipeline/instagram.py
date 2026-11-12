@@ -134,7 +134,7 @@ class Publicador:
         finally:
             hospedeiro.limpar()
 
-    def _contener_e_enviar(self, video: Path, dados: dict, tentativas: int = 3) -> str:
+    def _contener_e_enviar(self, video: Path, dados: dict, tentativas: int = 2) -> str:
         """Cria o contêiner do Reel e envia o arquivo. O envio (rupload) às vezes falha com
         ProcessingFailedError sem motivo no arquivo: cada nova tentativa usa um contêiner novo, como a
         Meta recomenda, o endereço que ela devolve (`uri`) e o corpo inteiro em bytes."""

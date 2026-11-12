@@ -138,3 +138,10 @@ def test_reel_vai_por_link_quando_o_envio_direto_falha(tmp_path, monkeypatch):
     corpo = pub.s.post.call_args.kwargs["data"]
     assert corpo["video_url"] == "https://video.fbcdn.net/r.mp4" and "upload_type" not in corpo
     hosp.limpar.assert_called_once()
+
+
+def test_falha_da_meta_no_video_reconhecida():
+    from pipeline.cli import falha_da_meta_no_video
+    assert falha_da_meta_no_video("Media upload has failed with error code 2207076")
+    assert falha_da_meta_no_video("{'type': 'ProcessingFailedError'}")
+    assert not falha_da_meta_no_video("OAuthException code 190")

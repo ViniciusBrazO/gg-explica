@@ -90,6 +90,8 @@ def rodar(maximo: int = 6) -> int:
     tg = Telegram.do_ambiente()
     enviados = _enviados()
     posts = [p for p in posts_das_paginas() if p["link"] not in enviados][:maximo]
+    if not posts:      # manhã fraca: amplia para as últimas 24 h
+        posts = [p for p in posts_das_paginas(horas=24) if p["link"] not in enviados][:maximo]
     if not posts:
         print("nenhum post novo bombando")
         return 0

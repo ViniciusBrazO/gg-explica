@@ -26,7 +26,7 @@ import shutil
 import os
 import re
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -149,6 +149,23 @@ def avisar_publicado(item) -> None:
         print(f"  aviso no Telegram falhou: {e}")
 
 
+CODIGOS_FALHA_VIDEO = ("ProcessingFailedError", "2207076", "2207027", "2207053", "2207052")
+
+
+def falha_da_meta_no_video(erro: str) -> bool:
+    """Erros do processamento de vídeo do lado da Meta (não são do arquivo): vale tentar mais tarde."""
+    return any(c in (erro or "") for c in CODIGOS_FALHA_VIDEO)
+
+
+def avisar_video_recusado(item, quando) -> None:
+    from .telegram import Telegram
+    tg = Telegram.do_ambiente()
+    if tg:
+        tg.texto(f"⚠️ O Instagram não está processando vídeos agora (erro da Meta). O Reel "
+                 f"\"{item.id.split('_', 2)[-1]}\" vai ser tentado de novo às {quando:%H:%M}, sozinho. Se quiser "
+                 f"que saia já, salve o vídeo da prévia aqui no Telegram e poste pelo app com a legenda da prévia.")
+
+
 def publicar_reel_com_capa(pub, item) -> dict:
     """Usa a capa feita para o Reel (capa_reel.jpg) quando dá para hospedá-la; senão, um quadro do vídeo."""
     from .meta import ErroMeta, hospedeiro_da_marca, pode_hospedar
@@ -261,6 +278,14 @@ def cmd_publicar(args) -> int:
         except (ErroInstagram, OSError, RuntimeError) as e:
             item.tentativas += 1
             item.erro = str(e)[:500]
+            if item.plataforma == "instagram" and falha_da_meta_no_video(item.erro) and item.tentativas < 8:
+                # o processamento de vídeo da Meta está instável: tenta de novo mais tarde, sem travar a fila
+                novo = datetime.now(FUSO) + timedelta(minutes=60 * min(item.tentativas, 3))
+                item.quando = novo.isoformat(timespec="seconds")
+                print(f"  a Meta não processou o vídeo; nova tentativa às {novo:%H:%M} ({item.tentativas}/8)")
+                if item.tentativas == 1:
+                    avisar_video_recusado(item, novo)
+                continue
             if item.tentativas >= 3:
                 item.status = "erro"
             print(f"  erro: {item.erro}")

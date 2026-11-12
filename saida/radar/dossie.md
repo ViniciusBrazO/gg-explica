@@ -26,19 +26,19 @@ Link: https://news.google.com/rss/articles/CBMiwwFBVV95cUxQT0NHZnJNeUZzaDViRG9TS
 
 (só a manchete: a matéria não abriu)
 
-### Invision Game Community (2026-11-12), selo sugerido rumor
-Manchete: Golden Joystick Awards 2026 Winners Revealed! - Invision Game Community
-Link: https://news.google.com/rss/articles/CBMigwFBVV95cUxQVG9qV0IzdVlTekZKZ1VWal8wTkl4YUFXMVlmZG5JSnZ3b2x0b1NkbXRNMGJjWHpsa2lFUV9GUnNiMEprUGgyaVFvbnBYbXdfTHliTWY0RUhNdXR2TzlzMUxFTjVrZXpTamI1VUt1VVR0bndCSFRzaHc3NGxvUlpLa0F6Yw?oc=5
+### ShiftDelete.Net (2026-11-12), selo sugerido rumor
+Manchete: Golden Joystick Awards 2026 Winners: Full List and Results - ShiftDelete.Net
+Link: https://news.google.com/rss/articles/CBMiZEFVX3lxTE1LWGVrWktKZWx4S1pzbVFDX0JHVHp2UzF5MTFlWFhQRUM2LVpiTmM1X0VoTjVMNWEzYUEtaE5uZG9vQUhlUEJ0WnhHaUVfNXZiWDVZVmcybm5MYUZXYTYxbm9kdHQ?oc=5
 
 (só a manchete: a matéria não abriu)
 
-### Wccftech (2026-11-12), selo sugerido rumor
-Manchete: CAPCOM Takes Seven Golden Joystick Awards 2026, With Resident Evil Requiem Winning Ultimate Game of the Year and Console Game of the Year - Wccftech
-Link: https://news.google.com/rss/articles/CBMihAFBVV95cUxNbXZ4UkhFdkNUWFVwdkwtMWRqNW02NzdnajhSTFg0RmhQZDZ0RDd6cXlzLUJxYUh3dDl3QjZxVTE5WXhwbE1JZUJDMFpiRkVodnJ5eS1yYl9SSU42RU80MU5vbXVjVDg0SkdTWnBOVUk1NG56c1NkVG5nV2c1c2JBREFsMnLSAYoBQVVfeXFMT3VyWkx0YTh2UTY0TDc3ZFBFa1kyQk5PSDEyZTlNMDJ3ZEl5YUdXTXFnQXN6SWpxV25DeWdVTlZ5ZThoV2cwczFaMnVueTFvR2thQ3VhX2plZHNLbk5fY3hzNjRrc2NrdHU2Mi02WkZLV2xQUHNlSjk5U0ZMUGV5QzE1NkRJMDkwOUpn?oc=5
+### PC Gamer (2026-11-11), selo sugerido rumor
+Manchete: Crimson Desert wins 'PC Game of the Year' at the 2026 Golden Joystick Awards - PC Gamer
+Link: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOUE0dVo3bFlRYl9Yal9aTU5EZHpRQ2NhOGxjV25kT0w2Y3FYUnpKbE5XVW81RVdZSFM4ZTlyRTh2bGhEZm1ZanZuVFgwaFpfRVZNUVhPSm9INF9ueTZIUUpHRXNKbmdzNERmamJ1eURndDBhT0V3OUVoSXZ3ODN3VEhuM2NqWGwxbVhzdUhtUFBlcXhVWDdpcDRCTmlseWpZWlJKaGhwX1I?oc=5
 
 (só a manchete: a matéria não abriu)
 
-Outras manchetes: Golden Joystick Awards 2026 Winners Revealed - 80 Level | Golden Joystick Awards 2026: Resident Evil Requiem Wins Ultimate Game of the Year! - se7en.ws
+Outras manchetes: All the Golden Joystick Awards 2026 winners revealed - GamesRadar+ | The Golden Joysticks 2026: Full list of confirmed winnners - Radio Times
 
 
 ## Assunto 3
