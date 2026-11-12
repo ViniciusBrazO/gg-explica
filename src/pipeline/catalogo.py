@@ -258,6 +258,9 @@ def registrar_uso(escolha: Escolha) -> None:
     ARQUIVO_USO.write_text(json.dumps(uso, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+MIN_SEGUNDOS_VIDEO = 3.0     # abaixo disso o clipe vira um loop que pisca
+
+
 def buscar_clipe(consulta: str, pasta: Path = PASTA_CLIPES, aceitar_spoiler: bool = False,
                  evitar: Optional[set] = None, semente: str = "",
                  preferir_video: bool = False) -> Optional[Escolha]:
@@ -292,8 +295,12 @@ def buscar_clipe(consulta: str, pasta: Path = PASTA_CLIPES, aceitar_spoiler: boo
             if not pontos:
                 continue
             bonus = 0.5 if fim is not None and inicio > 0 else 0.0   # momento específico vale mais
-            if preferir_video and e.get("tipo") == "video":
-                bonus += 1.0      # no Reel, trecho de trailer em movimento vale mais que imagem parada
+            dur_trecho = (float(fim) - inicio) if fim is not None else float(e.get("duracao_s") or 0)
+            if e.get("tipo") == "video" and dur_trecho < MIN_SEGUNDOS_VIDEO:
+                if preferir_video:
+                    continue      # clipe de 1 s em repetição parece travado: no Reel, imagem com movimento suave é melhor
+            elif preferir_video and e.get("tipo") == "video":
+                bonus += 1.0      # trecho de trailer de verdade (3 s ou mais) vale mais que imagem parada
             vezes = uso.get(f"{e['arquivo']}@{inicio:.1f}", 0)
             sorteio = hashlib.sha1(f"{semente}|{e['arquivo']}|{inicio}".encode()).hexdigest()
             melhores.append((pontos + bonus, -vezes, sorteio, Escolha(RAIZ / e["arquivo"], inicio,

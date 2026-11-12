@@ -101,3 +101,14 @@ def test_busca_prefere_video_no_reel(tmp_path, monkeypatch):
     ]), encoding="utf-8")
     monkeypatch.setattr(catalogo, "_carregar_uso", lambda: {})
     assert catalogo.buscar_clipe("praia", pasta=tmp_path, preferir_video=True).entrada["tipo"] == "video"
+
+
+def test_clipe_curto_nao_entra_no_reel(tmp_path, monkeypatch):
+    import json
+    from pipeline import catalogo
+    (tmp_path / "catalogo.json").write_text(json.dumps([
+        {"arquivo": "clipes/a.jpg", "tipo": "imagem", "tags": ["jason"], "descricao": "jason"},
+        {"arquivo": "clipes/b.mp4", "tipo": "video", "tags": ["jason"], "descricao": "jason", "duracao_s": 1.0},
+    ]), encoding="utf-8")
+    monkeypatch.setattr(catalogo, "_carregar_uso", lambda: {})
+    assert catalogo.buscar_clipe("jason", pasta=tmp_path, preferir_video=True).entrada["tipo"] == "imagem"

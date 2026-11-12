@@ -11,8 +11,43 @@ Link: https://news.google.com/rss/articles/CBMiWEFVX3lxTE1wQkdMR0dtTWFydzdQZkl0Z
 
 (só a manchete: a matéria não abriu)
 
+### Rockstar Games (2026-11-10), selo sugerido confirmado
+Manchete: Grand Theft Auto VI: Pre-Load Now - Rockstar Games
+Link: https://news.google.com/rss/articles/CBMiWEFVX3lxTE9DTFNaYTVUeVZJLXlveVBvTl9kS1lpSnNHYU0xMWxJQzI2VjF5ZnpKMlRkT1RtVm1ud0ZwMmdNYlBqV0F6MTNXZkVnT2xpblZXSUp6VkpHbmw?oc=5
+
+(só a manchete: a matéria não abriu)
+
 
 ## Assunto 2
+
+### PC Guide (2026-11-12), selo sugerido rumor
+Manchete: Golden Joystick Awards 2026 winners list for every category, including Ultimate Game of the Year - PC Guide
+Link: https://news.google.com/rss/articles/CBMiwwFBVV95cUxQT0NHZnJNeUZzaDViRG9TSzhiMXFxQjZzaEQ4WU5QeVplc0trLWJLRmxzZ2lUQkowdFdwTm9qWXlGbE1xREYzakpmRzVHYnBTNGhGTldDcHVaUVpCLTZTQUVUakRfWWx1R2t6SVUwQjJTTEVhMnhpN19qb0Z0YUE1dTMzdThWeVBBbEkzS2tDU3dmQlFub2I4VFZnWE9ycU42UUpwLS1fUHNwUDZkR0J3STlsZGtNc3NxS1dMZUJ0SC1ESk0?oc=5
+
+(só a manchete: a matéria não abriu)
+
+### Invision Game Community (2026-11-12), selo sugerido rumor
+Manchete: Golden Joystick Awards 2026 Winners Revealed! - Invision Game Community
+Link: https://news.google.com/rss/articles/CBMigwFBVV95cUxQVG9qV0IzdVlTekZKZ1VWal8wTkl4YUFXMVlmZG5JSnZ3b2x0b1NkbXRNMGJjWHpsa2lFUV9GUnNiMEprUGgyaVFvbnBYbXdfTHliTWY0RUhNdXR2TzlzMUxFTjVrZXpTamI1VUt1VVR0bndCSFRzaHc3NGxvUlpLa0F6Yw?oc=5
+
+(só a manchete: a matéria não abriu)
+
+### Wccftech (2026-11-12), selo sugerido rumor
+Manchete: CAPCOM Takes Seven Golden Joystick Awards 2026, With Resident Evil Requiem Winning Ultimate Game of the Year and Console Game of the Year - Wccftech
+Link: https://news.google.com/rss/articles/CBMihAFBVV95cUxNbXZ4UkhFdkNUWFVwdkwtMWRqNW02NzdnajhSTFg0RmhQZDZ0RDd6cXlzLUJxYUh3dDl3QjZxVTE5WXhwbE1JZUJDMFpiRkVodnJ5eS1yYl9SSU42RU80MU5vbXVjVDg0SkdTWnBOVUk1NG56c1NkVG5nV2c1c2JBREFsMnLSAYoBQVVfeXFMT3VyWkx0YTh2UTY0TDc3ZFBFa1kyQk5PSDEyZTlNMDJ3ZEl5YUdXTXFnQXN6SWpxV25DeWdVTlZ5ZThoV2cwczFaMnVueTFvR2thQ3VhX2plZHNLbk5fY3hzNjRrc2NrdHU2Mi02WkZLV2xQUHNlSjk5U0ZMUGV5QzE1NkRJMDkwOUpn?oc=5
+
+(só a manchete: a matéria não abriu)
+
+Outras manchetes: Golden Joystick Awards 2026 Winners Revealed - 80 Level | Golden Joystick Awards 2026: Resident Evil Requiem Wins Ultimate Game of the Year! - se7en.ws
+
+
+## Assunto 3
+
+### Technology Org (2026-11-12), selo sugerido rumor
+Manchete: GTA 6 Targets 30 FPS on Consoles, With Ray-Traced Shadows Only on PS5 Pro - Technology Org
+Link: https://news.google.com/rss/articles/CBMimAFBVV95cUxQc0x3NkM1LU45XzdpQjJzRDB4eFVtZDVKTDZITnRJcFJQc1hXSkJ0X1dWckQ1YTUtTkR6RXBGLTVtVC1haWJOYlk4YlM4WFd5d3hEX3M1ZGFMcnRpdkhrNDR0UExxa3A2TkU2UjZaV0RyNjFpOFNRNkowUTdRSVJCQlVRMi1Bb3huN1RyT19xSlFFTmw0aUFrSA?oc=5
+
+(só a manchete: a matéria não abriu)
 
 ### OC3D (2026-11-11), selo sugerido rumor
 Manchete: Grand Theft Auto VI targets 30 FPS on all consoles, even PS5 Pro - OC3D
@@ -26,16 +61,25 @@ Link: https://news.google.com/rss/articles/CBMif0FVX3lxTE52bENzQzVqcXk5NVhOUTVQZ
 
 (só a manchete: a matéria não abriu)
 
-### eTeknix (2026-11-11), selo sugerido rumor
-Manchete: GTA 6 Will Target 30 FPS on All Consoles, Including PS5 Pro - eTeknix
-Link: https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOUJSTXpvckNWNmZIalVMbjZDTFVGVndqLTJPc1FiYnRScjNxNFBrNlhVVDc3Vlhqekg0TlEtQWRIekd4VnZDekhnZWxFcndvMFBaMk9KNWFRYVhfdXcxYl8tWEUwbXozYkNfN3pLZEdKbnRhbDUyYjFqb3NDbDltdzRTekZUanZWY0RF?oc=5
+Outras manchetes: GTA 6 Will Target 30 FPS on All Consoles, Including PS5 Pro - eTeknix | GTA 6's 30 FPS Console Limit Officially Confirmed Alongside PS5 Pro Features - SVG
+
+
+## Assunto 4
+
+### canaltech.com.br (2026-11-11), selo sugerido relato
+Manchete: Antes da hora: notas de GTA 6 vazam na PlayStation Store antes do embargo
+Link: https://canaltech.com.br/games/antes-da-hora-notas-de-gta-6-vazam-na-playstation-store-antes-do-embargo/
 
 (só a manchete: a matéria não abriu)
 
-Outras manchetes: GTA 6's 30 FPS Console Limit Officially Confirmed Alongside PS5 Pro Features - SVG | GTA 6: Rockstar Confirma 30 FPS nos Consoles e Gráficos Aprimorados com Ray Tracing no PS5 Pro - MMOEXP
+### Terra (2026-11-12), selo sugerido rumor
+Manchete: GTA 6 tem primeiras notas vazadas na PlayStation Store antes do lançamento - Terra
+Link: https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMmg3SkkzZjQyTERCM1l2czZvbDJGWWpqQ3Bqci15NmFnZ0RxYjRCNXFMbU93VVA1SG9hY1JaTlctRU5JUVU5UVZRblE3Z1JwVHlqYkw3SVozcE5XUEtwZ1Z1SjI2ejFfWmF3NEYtZU44TklqQTNnOWoydGtieElQdVdUYmtTdzdFS2lZQlloSHlEdmhSbUNBU1ViUk56QjhEa2FfdmdvSDVqVTF0bFZ1S1ZOa1d3TTNSbFpWcHo1T0FOeTlDSGRxR2tnVFlFRW9oaXVFVEs1Z1hZczhscGppLWg1ZDA?oc=5
+
+(só a manchete: a matéria não abriu)
 
 
-## Assunto 3
+## Assunto 5
 
 ### polygon.com (2026-11-11), selo sugerido relato
 Manchete: New 'GTA 6' Gameplay Leaves Fans Stunned
@@ -50,7 +94,7 @@ Link: https://news.google.com/rss/articles/CBMijwFBVV95cUxQV0UyZmRWLUZDTElVcGtGM
 (só a manchete: a matéria não abriu)
 
 
-## Assunto 4
+## Assunto 6
 
 ### ign.com (2026-11-11), selo sugerido relato
 Manchete: New GTA 6 Surprise Gameplay Seemingly Released in Yet Another Viral Marketing Stunt
@@ -65,7 +109,7 @@ Link: https://news.google.com/rss/articles/CBMisgFBVV95cUxPZFdnX290VWJtZnJRckN0Z
 (só a manchete: a matéria não abriu)
 
 
-## Assunto 5
+## Assunto 7
 
 ### ign.com (2026-11-11), selo sugerido relato
 Manchete: GTA 6 Fans Think a Beloved Legacy Character from a Previous Game Is Hiding in the Latest Trailer
@@ -80,28 +124,10 @@ Link: https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMFdMdk5meWVLS1oxRHY4d
 (só a manchete: a matéria não abriu)
 
 
-## Assunto 6
+## Assunto 8
 
 ### Kotaku (2026-11-11), selo sugerido relato
 Manchete: This Isn’t A Video From Miami, It’s A GTA 6 Gameplay Clip - Kotaku
 Link: https://news.google.com/rss/articles/CBMijAFBVV95cUxOS0l3LWtsbDVYak1PYm5JNUJwQ0xua0xXR0xWamV3ckJSMG9kY1JfaDRxWkNyQzI5QTdZVWN0WnhtR3lrd2FmWWFjQjhIcmI3d01rcmVlVThsQ3laS1dHUHgtbWdMOHYzSUhycDVHVlUzX3JWa0pRUHNpaER1bjNiRHc4elo2aWIwMnB1Ug?oc=5
-
-(só a manchete: a matéria não abriu)
-
-
-## Assunto 7
-
-### canaltech.com.br (2026-11-11), selo sugerido relato
-Manchete: Antes da hora: notas de GTA 6 vazam na PlayStation Store antes do embargo
-Link: https://canaltech.com.br/games/antes-da-hora-notas-de-gta-6-vazam-na-playstation-store-antes-do-embargo/
-
-(só a manchete: a matéria não abriu)
-
-
-## Assunto 8
-
-### IGN India (2026-11-11), selo sugerido relato
-Manchete: GTA 6: Rockstar Games Announces Special Live Event to Celebrate the Game's Launch - IGN India
-Link: https://news.google.com/rss/articles/CBMivgFBVV95cUxNMndVUGVpUXhFNnc3aXNKcDdxRG1JMTNFSDRLZDFwdVRzQVNaVDRvTi00RGk2NTFzeWpRN05YaGZjM20wRXdLa2p5QXozNnVZd2NSUTNZLUt2Q3pieVJJYmhCMjRoTGdVak5YUnBBYXNJOXpGMFQyaE0ydzQtNHBHTnZUMEhSeEpEeEljWDNTbXJORXA4SjU3OTBibG9zeEFFNFZHbGRuMUx5bmpCTWpSeFJWNHNUUEhVUGVQTElR?oc=5
 
 (só a manchete: a matéria não abriu)
