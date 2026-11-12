@@ -1,32 +1,42 @@
-"""Diagnóstico: abre a página de vídeos oficiais da Rockstar e lista os vídeos de GTA VI e os
-endereços de mídia que o player oficial carrega (só leitura; não baixa nada)."""
+"""Diagnóstico: abre as páginas de vídeo oficiais da Rockstar e lista título + endereço de mídia que o
+player oficial carrega (só leitura; não baixa nada)."""
 import re
 import sys
 
 from playwright.sync_api import sync_playwright
 
-PAGINAS = sys.argv[1:] or ["https://www.rockstargames.com/videos?game=VI", "https://www.rockstargames.com/VI"]
+LISTA = "https://www.rockstargames.com/videos?game=VI"
 
 with sync_playwright() as p:
     nav = p.chromium.launch()
     pag = nav.new_page()
-    midias = set()
-    pag.on("request", lambda r: midias.add(r.url) if re.search(r"\.(mp4|m3u8|mpd)(\?|$)", r.url) else None)
-    for url in PAGINAS:
+    pag.goto(LISTA, wait_until="networkidle", timeout=60000)
+    for _ in range(6):                      # carrega mais itens da lista
+        pag.mouse.wheel(0, 6000)
+        pag.wait_for_timeout(1200)
+    cartoes = pag.eval_on_selector_all(
+        "a[href*='/videos/']", "els => els.map(e => [e.href, (e.innerText||e.getAttribute('aria-label')||'').trim()])")
+    vistos = {}
+    for href, texto in cartoes:
+        vistos.setdefault(href, texto.replace("\n", " ")[:90])
+    print(f"{len(vistos)} vídeos na lista")
+    for href, texto in list(vistos.items())[:int(sys.argv[1]) if len(sys.argv) > 1 else 25]:
+        midias = []
+        handler = lambda r: midias.append(r.url) if re.search(r"(\.m3u8|\.mp4|\.mpd)(\?|$)", r.url) else None
+        pag.on("request", handler)
         try:
-            pag.goto(url, wait_until="networkidle", timeout=60000)
+            pag.goto(href, wait_until="networkidle", timeout=45000)
+            pag.wait_for_timeout(4000)
+            try:
+                pag.click("button[aria-label*='lay'], .vjs-big-play-button, video", timeout=3000)
+                pag.wait_for_timeout(4000)
+            except Exception:
+                pass
+            titulo = pag.title()
         except Exception as e:
-            print("falhou", url, e)
-            continue
-        print("==", url, "|", pag.title())
-        links = {a for a in pag.eval_on_selector_all("a[href]", "els => els.map(e => e.href)") if "/videos/" in a}
-        for a in sorted(links)[:40]:
-            print("  video:", a)
-    alvo = next((a for a in sorted(links) if "/videos/" in a), None)
-    if alvo:
-        pag.goto(alvo, wait_until="networkidle", timeout=60000)
-        pag.wait_for_timeout(8000)
-        print("== player:", alvo)
-    for m in sorted(midias)[:30]:
-        print("  midia:", m[:200])
+            titulo = f"falhou: {e}"
+        pag.remove_listener("request", handler)
+        print(f"== {href} | {titulo} | {texto}")
+        for m in sorted(set(midias))[:4]:
+            print("   midia:", m[:220])
     nav.close()
