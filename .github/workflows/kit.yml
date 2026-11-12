@@ -10,7 +10,8 @@ name: kit
 
 on:
   # Sem "schedule": o agendador do GitHub atrasava ou pulava rodadas. Quem dispara é o cron-job.org
-  # (tarefa=auto, a cada 30 min em :07 e :37, 07h-00h37 de Brasília; veja "Qual tarefa").
+  # (tarefa=auto, de hora em hora em :07, 07h07-23h07 de Brasília; veja "Qual tarefa"). De hora em hora
+  # desde 12/11: o repositório é privado e o plano grátis do GitHub dá 2.000 minutos por mês.
   workflow_dispatch:
     inputs:
       vozes:
@@ -59,14 +60,15 @@ jobs:
             *) t=ciclo ;;
           esac
           if [ "$t" = "auto" ]; then
-            # disparo externo (cron-job.org, a cada 30 min em :07 e :37): a hora de Brasília decide a tarefa
-            hm=$(TZ=America/Sao_Paulo date +%H%M); dia=$(TZ=America/Sao_Paulo date +%u)
-            case "$hm" in
-              070*|071*) t=radar ;;
-              073*|074*) [ "$dia" = 1 ] && t=pauta || t=ciclo ;;
-              120*|121*|190*|191*) t=comentarios-ciclo ;;
-              170*|171*) t=radar ;;
-              233*|234*) t=metricas ;;
+            # disparo externo (cron-job.org, de hora em hora em :07): a hora de Brasília decide a tarefa
+            # (o horário do disparo pode atrasar alguns minutos; por isso olha só a hora)
+            h=$(TZ=America/Sao_Paulo date +%H); dia=$(TZ=America/Sao_Paulo date +%u)
+            case "$h" in
+              07) t=radar ;;
+              08) [ "$dia" = 1 ] && t=pauta || t=ciclo ;;
+              12|19) t=comentarios-ciclo ;;
+              17) t=radar ;;
+              23) t=metricas ;;
               *) t=ciclo ;;
             esac
           fi

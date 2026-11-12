@@ -65,7 +65,7 @@ os horários livres (09h00, 11h00, 15h00, 17h00, 19h00): não use esses horário
 
 | Horário | Formato | Série |
 | --- | --- | --- |
-| 12h30 | reel | `gta_no_brasil` (todo dia) |
+| 13h00 | reel | `gta_no_brasil` (todo dia) |
 | 21h30 | carrossel | `gg_explica` (4 na semana) e `rumor_ou_confirmado` (3) |
 
 - **Cada post único:** formato, capa e imagens diferentes do post anterior; nunca caminho direto de arquivo, só `busca:` com palavras diferentes por slide e por post (o validador bloqueia imagem repetida).
@@ -96,7 +96,7 @@ os horários livres (09h00, 11h00, 15h00, 17h00, 19h00): não use esses horário
 
 ## Seul no Bolso: o que entregar
 
-`pautas/<AAAA>-W<semana>_seul_no_bolso.json` com 14 vídeos (12h30 e 20h00). Nas duas primeiras
+`pautas/<AAAA>-W<semana>_seul_no_bolso.json` com 14 vídeos (13h00 e 20h00). Nas duas primeiras
 semanas, 3 sem link para cada 2 com link; depois, siga as métricas.
 
 ## Para as duas

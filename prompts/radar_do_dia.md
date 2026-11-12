@@ -117,7 +117,7 @@ Atualize a coluna `virou` (sim, não, aberto).
 - Esta tarefa roda **2 vezes por dia** (07h10 e 17h10). Meta do dia: **3 posts** (cada um vira Reel +
   carrossel, ou seja, 6 publicações; o kit não passa de 6 por 24 h nem solta duas com menos de 90 min).
   Rodada das 07h10: 2 posts; rodada das 17h10: 1 post (ou nenhum, se o dia já tem 3). Horários base:
-  09h00, 12h30 e 19h00 (alternativas 11h00, 15h00, 21h00). Use só horários a pelo menos 90 minutos de
+  09h00, 13h00 e 19h00 (alternativas 11h00, 15h00, 21h00; o kit roda de hora em hora, em :07). Use só horários a pelo menos 90 minutos de
   agora e que nenhum outro post de hoje (em qualquer arquivo de `pautas/`, menos os descartados) já
   ocupe. Notícia quente conta dentro dos 3: se ela entrar, tire um post comum do dia (status
   `descartado`) em vez de somar. Na rodada das 17h10, se não sobrar horário hoje, use 09h00 de amanhã.
