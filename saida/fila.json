@@ -539,8 +539,8 @@
     "produtos_para_marcar": [],
     "media_id": "",
     "permalink": "",
-    "erro": "",
-    "tentativas": 0,
+    "erro": "HTTP 400: {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}}",
+    "tentativas": 1,
     "publicado_em": ""
   },
   {
@@ -552,13 +552,13 @@
     "quando": "2026-11-12T09:00:00-03:00",
     "plataforma": "facebook",
     "tipo": "reel",
-    "status": "pendente",
+    "status": "publicado",
     "produtos_para_marcar": [],
-    "media_id": "",
-    "permalink": "",
+    "media_id": "1487497349904582",
+    "permalink": "https://www.facebook.com/reel/1487497349904582",
     "erro": "",
     "tentativas": 0,
-    "publicado_em": ""
+    "publicado_em": "2026-11-12T09:09:06-03:00"
   },
   {
     "id": "radar_2026-11-12_clipe_miami",
