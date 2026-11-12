@@ -381,10 +381,19 @@ def parametros_instagram() -> list[str]:
             "-movflags", "+faststart", "-use_editlist", "0"]
 
 
-def conformar_para_instagram(arquivo: Path) -> Path:
-    """Recodifica um vídeo já pronto com os parâmetros acima (no lugar do original)."""
+def conformar_para_instagram(arquivo: Path, alvo_mb: float | None = None) -> Path:
+    """Recodifica um vídeo já pronto com os parâmetros acima (no lugar do original). Com `alvo_mb`,
+    limita a taxa para o arquivo ficar perto desse tamanho (o Instagram recusou Reels acima de ~10 MB)."""
     tmp = arquivo.with_name(arquivo.stem + "_ig.mp4")
-    _ff(["-i", str(arquivo), "-map", "0:v:0", "-map", "0:a:0?", *parametros_instagram(), str(tmp)])
+    params = parametros_instagram()
+    if alvo_mb:
+        from .sonda import duracao
+        kbps = max(600, int(alvo_mb * 8192 / max(duracao(arquivo), 1)) - 140)
+        i = params.index("-crf")
+        params[i:i + 2] = ["-b:v", f"{kbps}k"]
+        j = params.index("-maxrate")
+        params[j + 1], params[j + 3] = f"{int(kbps * 1.3)}k", f"{kbps * 2}k"
+    _ff(["-i", str(arquivo), "-map", "0:v:0", "-map", "0:a:0?", *params, str(tmp)])
     tmp.replace(arquivo)
     return arquivo
 
