@@ -1,4 +1,4 @@
-# Dossiê do radar (11/11/2026)
+# Dossiê do radar (12/11/2026)
 
 Texto das matérias aberto pelo kit. Use os números, nomes e datas daqui. Matéria marcada "só a manchete" não abriu: procure outra fonte com WebSearch/WebFetch antes de escrever.
 
@@ -13,15 +13,6 @@ Link: https://news.google.com/rss/articles/CBMiWEFVX3lxTE1wQkdMR0dtTWFydzdQZkl0Z
 
 
 ## Assunto 2
-
-### blog.playstation.com (2026-11-03), selo sugerido confirmado
-Manchete: Grand Theft Auto VI pre-download begins November 10
-Link: https://blog.playstation.com/2026/11/03/grand-theft-auto-vi-pre-download-begins-november-10/
-
-(só a manchete: a matéria não abriu)
-
-
-## Assunto 3
 
 ### OC3D (2026-11-11), selo sugerido rumor
 Manchete: Grand Theft Auto VI targets 30 FPS on all consoles, even PS5 Pro - OC3D
@@ -44,100 +35,104 @@ Link: https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOUJSTXpvckNWNmZIalVMb
 Outras manchetes: GTA 6's 30 FPS Console Limit Officially Confirmed Alongside PS5 Pro Features - SVG | GTA 6: Rockstar Confirma 30 FPS nos Consoles e Gráficos Aprimorados com Ray Tracing no PS5 Pro - MMOEXP
 
 
-## Assunto 4
+## Assunto 3
 
-### Polygon.com (2026-11-10), selo sugerido relato
-Manchete: GTA 6 is Playable on Xbox One, Rockstar Officially Confirms - Polygon.com
-Link: https://news.google.com/rss/articles/CBMiYkFVX3lxTFBaakhiVmplQXFXT2RDSzZRbXdwTGdmeHdHN09zNS00QklucjRBd3NhZDgyRDFPYnNqSDZyRjk3T3ZBWFZySkFkbGVTcGUyR2kwLVRORWJ3Mk1PUDhMZEpDazB3?oc=5
+### polygon.com (2026-11-11), selo sugerido relato
+Manchete: New 'GTA 6' Gameplay Leaves Fans Stunned
+Link: https://www.polygon.com/gta-6-new-gameplay-onlyindade-ai-real-fake-rockstar-instagram/
+
+Grand Theft Auto fans are so shook they're question if Rockstar’s new footage is AI-generated
+New GTA 6 gameplay video is leaving fans stunned
+With only a week left before the release of Grand Theft Auto 6, there's little in Rockstar Games' marketing that players haven't seen before. That familiarity is true of new GTA 6 features, at least. In terms of visuals, the game developer just proved it still has plenty of Leonida to show off.
+The new clip that has fans talking was shared via Rockstar's Instagram stories on Wednesday, and it's based on a video originally uploaded on the OnlyInDade account. The regional social media account chronicles some of the wackier things that happen in the Florida county. A quick swipe through many of OnlyInDade's posts will explain exactly why Rockstar made the gator state the setting of its new open-world game. Some Miami-Dade incidents sound like a parody of a Florida Man headline.
+The video is only 15 seconds long, but it has repeatedly left viewers with their mouths agape. Many watched it initially and fully believed they were looking at real-world footage. They weren't.
+If it seems convincing, it's because the GTA 6 clip is a near replica of a video that originally captured a scene in Dade. When you compare the two, GTA 6's simulacrum becomes more obvious. The "real" video has way more humans walking about, and the colors aren't saturated to make a screenshot pop. The video game clip also features some shaky cam, which creates the illusion there's an actual person holding the phone. Mind you, based on the NPC density of areas like the beach, GTA 6 seems capable of rendering the number of people present in the original footage. Paradoxically, the sidewalk's sparseness in the video game makes it look more convincing.
+"this ain’t no gameplay footage this is in real life," one viewer wrote on X.
+On Reddit, the top replies are dozens of people arguing over whether the clip was made by AI. While Rockstar has not outright said the clip is real, it seems unlikely that the developer would share fake footage that could confuse fans. The OnlyInDade account also claims the clip is 100% gameplay. Many are theorizing this is what GTA 6 might look like when the player records the world with their in-game phone.
+Previously, GTA 6 fans couldn't believe how realistic the digital mud looked — and had plenty to say about the game's trailers. Rockstar has also made it sound like the game will be full of unexpected graphical flourishes, like Red Dead Redemption 2's infamous horse balls. Perhaps the 30 frames-per-second limitation that keeps making people melt down online won't be that big of a deal after all.
+
+### Polygon.com (2026-11-11), selo sugerido relato
+Manchete: New GTA 6 gameplay video is leaving fans stunned - Polygon.com
+Link: https://news.google.com/rss/articles/CBMijwFBVV95cUxQV0UyZmRWLUZDTElVcGtGMzlpeXk2VmRjbGZXUHhka1ZRa3V5eVdYaG5pbExwX1lFbzRaZkVoTjNHOU5RcnV5Y09sODBWSHJCeVlNYXNKRzlJNmE1c0FEQWVYcFFxTmFNTlBEZnlLMjVteDBtc2RhQ2RXbDFlT1ViZkZOVElkeHR3d0t5ZGxfaw?oc=5
 
 (só a manchete: a matéria não abriu)
 
-### IGN Brasil (2026-11-10), selo sugerido relato
-Manchete: Rockstar Games confirma que GTA 6 será jogável no Xbox One de um jeito diferenciado - IGN Brasil
-Link: https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYmVtaHgxamgteDYwYV9rc3I5ZURrckNwNWJCdUJ6SW5KTFQtVkU3TjBfNlZsY0ZWakVOX1NMMW1HRW5GREJyM3BaVlI0REE4Y2Y0aDFpVGItMW1VTVd2eVNzckJhYVJxWklKNXpYOHFvTUpaazltalkzemUxTnd4cnlqYWpJbFVpaHdQVzJPM24wRmFLT3kxYVB3VXExcTJuR1hRbS1CWmdWckxkV2hQazhka1pIU2xOQ0RlX2VwZ1NCN1FpTURMVA?oc=5
+
+## Assunto 4
+
+### ign.com (2026-11-11), selo sugerido relato
+Manchete: New GTA 6 Surprise Gameplay Seemingly Released in Yet Another Viral Marketing Stunt
+Link: https://www.ign.com/articles/new-gta-6-surprise-gameplay-seemingly-released-in-yet-another-viral-marketing-stunt
+
+New GTA 6 Surprise Gameplay Seemingly Released in Yet Another Viral Marketing Stunt
+Rockstar Games appears to have released new footage from GTA 6, which also recreates the studio's real-life viral marketing in-game.
+A new Instagram post from the account "Only in Dade" began to raise eyebrows earlier today, as it appeared to contain legitimate footage of GTA 6. The footage shows someone driving down Ocean Drive, recording a bunch of flashy cars lined up while people wander past. A second person on the sidewalk recorded the exact same video from a different perspective. Some fans think that the two people recording are Jason and Lucia, respectively, though the footage isn't clear enough to be able to confidently make that determination.
+Many were wondering if this was AI footage or a render until Rockstar Games reposted it on its Instagram story and liked the video, indicating this is likely real in-game footage. The studio is very careful and calculated with what it chooses to post and interact with, so it isn't going around liking random AI-generated clips of its upcoming game.
+However, what's even more interesting is that this footage directly recreates a real-life video from last month. Rockstar teamed up with West Coast Customs to bring cars from GTA 6 to real life and spent October parading them around the city of Miami. As a result, there were tons of videos and social media posts about these vehicles, and one has now seemingly been recreated in GTA 6. You can see the same people, including a person on a motorized scooter and a man taking pictures in front of one of the cars, all replicated in the GTA 6 footage above.
+It's clear that Rockstar's marketing strategy has gotten extremely creative, and it's a bit of a flex to produce something that has many wondering if the visuals are too good to be true. Rockstar also pulled off a similar stunt a couple of weeks ago when it debuted a tiny bit of new gameplay during an episode of South Park. The footage wasn't advertised ahead of time, so people also thought that it might be AI-generated gameplay until Rockstar's name was discovered in the credits.
+The hype for GTA 6 is currently at its peak, releasing in just one week. The launch represents the end of a 13-year journey for many fans, as Rockstar hasn't made a new GTA game since 2013. There was, of course, Red Dead Redemption 2 in 2018, which certainly helped tide some fans over... but that was still nearly a decade ago at this point.
+Pre-loading has officially begun so fans can prepare for their trip to Vice City next week. Rockstar has also released new trailers, screenshots, and other marketing beats, which have created a flury of speculation over what may or may not be in the game. Thankfully, we won't have to wait much longer to find out.
+Cade Onder is a freelancer for IGN's news team. He covers all things entertainment, including gaming, film, and more. You can find him on Twitter @Cade_Onder.
+
+### IGN (2026-11-11), selo sugerido relato
+Manchete: New Surprise Look at GTA 6 Revealed in Another Viral Marketing Stunt on Social Media - IGN
+Link: https://news.google.com/rss/articles/CBMisgFBVV95cUxPZFdnX290VWJtZnJRckN0Z0NBZ3dQRTM0V1UydDBQUG1rS0RLSFB0M0ZHT29wUzQ1N09zWU9TTWs5NHBfM09hbE40N04zZlVQV2ZiS2paVHdOd3FNYzBoSTd5dDVjY0VYZmdoLTFlNHR5Zkx4Q3U0X0E0NHdLNVhxaHkwY3VZaFVjV2d3bktfZFp6WDc4UjRnelpXU2ZjNXVRUDIwSXBxWk1RbXJCMDVpTVN3?oc=5
 
 (só a manchete: a matéria não abriu)
 
 
 ## Assunto 5
 
-### IGN Nordic (2026-11-10), selo sugerido relato
-Manchete: GTA 6 Now the Most Preordered Game in PlayStation Store and Microsoft Store History, Official Preload Warning Issued - IGN Nordic
-Link: https://news.google.com/rss/articles/CBMi5AFBVV95cUxOWGFxMXZPbWhCYk5PQkJJSmM3YTNuakh1OEp0WnVzYzR1M01DWUJ2NS1zdmplbTZUWHloVkM2djBJZUgtbW5SaXBKc3h5UUtQTkZmeEhHNWl6czVya2h3c05SQUJ2SUN3dklpY0ppN3NmNXVjeHo5dWtCT0NzNXh3b0JZcWJNVEdmSFVsRGFpMkFyNk5xZHNsOVMxcUJIeWtzY0wxZEE1aWstbTl6a1VKc1k5UFQzRE5TbnJXSHJqYWNNcS03UFhRM00zY3BFQnNaalRvOUU5dXJDbzRrbFI2U1JwS1I?oc=5
+### ign.com (2026-11-11), selo sugerido relato
+Manchete: GTA 6 Fans Think a Beloved Legacy Character from a Previous Game Is Hiding in the Latest Trailer
+Link: https://www.ign.com/articles/gta-6-fans-think-a-beloved-legacy-character-from-a-previous-game-is-hiding-in-the-latest-trailer
 
-(só a manchete: a matéria não abriu)
+GTA 6 Fans Think a Beloved Legacy Character from a Previous Game Is Hiding in the Latest Trailer
+The most recent GTA 6 trailer has many people wondering if an iconic character from a previous game in the franchise is making a return.
+In the latest GTA 6 trailer, released yesterday to announce pre-loads, a character in a blue tank top and bulky black glasses is seen saying, "Oh, it is so on now." This is seemingly the first time we've seen this mystery character in GTA 6, and there may be a reason for that. Some fans believe this is an older and slightly chubbier Tony Prince (AKA Gay Tony). The character made his debut in GTA 4 and appeared in both DLCs, but was the focus of The Ballad of Gay Tony expansion. In that story, players filled the shoes of Luis, Tony's right-hand man. Tony Prince was a prominent nightclub owner in Liberty City, but he has since bounced around.
+Why does this guy actually kinda look and sound like Tony? I’m losing my mind, similar glasses, beard and very similar voice. There’s no way he let himself go and moved to the keys right? https://t.co/NH1Ltr7I93
+Tony moved to Los Santos years later and returned in a GTA Online update, giving missions to the player as part of the game's nightclub operations. Now, some fans believe he may have moved to Vice City/Leonida, though he may have fallen on hard times. He looks more out of shape, he's missing his high-end sense of style, minus the glasses, and he doesn't appear to be living it up in a highrise apartment or anything like that.
+The character has the same style of beard, glasses, and has a similar voice to Tony, but it's hard to say if it really is him. It could be someone who somewhat resembles him, but the speculation is driving some fans mad. GTA 6 will lean pretty heavily on Vice City's nightlife, with clubbing being prominently featured in the trailers released by Rockstar (including the pre-load ad). One of the in-game clubs, known as Jack of Hearts, is also expected to be a haven for celebrities and real-life musicans. Travis Scott namedropped it in his song, RHYNO, which will be featured in the game, and a screenshot revealed Kodak Black will hang out there as an NPC.
+Naturally, it would make tons of sense for GTA's nightclub king to be part of the festivities in Vice City. We'll ultimately just have to wait and see, but thankfully, we are only days away from finding out. We have just a week left until GTA 6 launches, and it looks like it's going to make a big splash. The game is currently the most pre-ordered game in the history of the Xbox and PlayStation digital stores, suggesting all kinds of sales records will be broken next weekend.
+Cade Onder is a freelancer for IGN's news team. He covers all things entertainment, including gaming, film, and more. You can find him on Twitter @Cade_Onder.
 
-### IGN (2026-11-10), selo sugerido relato
-Manchete: Sony Confirms GTA 6 Is Now the Most Preordered Game in PlayStation Store History, Issues Official Preload Warning - IGN
-Link: https://news.google.com/rss/articles/CBMi2AFBVV95cUxNbUxLSlJLTXQ0UnlKcC1BcFp3Znl3bUlFMjFPVEdJMmp5dlNhN3Q0ZFRSdGRsWHJHNUJsaU14Z3RiakR4V3ZKcXBMaDYta0tWQlBsRjRKOHdvS0ZpdGVGVmx4V0pBaFlSb2RBcU5HNlA0ai1xZ3hmOGJNMGFRbmpJRldXWU5hYmdaNVg3UkZMU3htXzhZTzR1dDN5TDZLQzBLMWR1bENYUjlSZ2ZXc3F4dFlCWS03bzVqLU9hekJlRGRJb2tPSGdCVkJDUkstX0h0aGl5RndpaWQ?oc=5
+### IGN (2026-11-11), selo sugerido relato
+Manchete: Is GTA 6's Newest Trailer Hiding a Beloved Character from a Previous Game in Plain Sight? - IGN
+Link: https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMFdMdk5meWVLS1oxRHY4dzFsN2dpOEgwTkVNeS1XcjM3aVdJZUlLNE9oZ19rbXFXY2U2cVFmZXBEWjRfWS1UZmR3ZEc3dW9RZS14UEJlUlBDM0FsVmZOYUFEU08wOUd5YmU3RU9Wbjg0YlRvajY4RGwtbEZITnZoeWc0NTNVOU9lWkx4cmhuMEVERGZtUWlIZXY4TzlQNjdTbUltX1VodjFybzJybHBnc1pLdGRpUC13NS1NWHJObHpBTmM?oc=5
 
 (só a manchete: a matéria não abriu)
 
 
 ## Assunto 6
 
-### Kursiv Media (2026-11-11), selo sugerido rumor
-Manchete: Live GTA 6 music festival coming to Miami with Travis Scott, Cardi B - Kursiv Media
-Link: https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVXM5LVR1M19UcjVtUFVVUExKOUNtVnMzVHhmZkxXRnBObk1tN09zVUFNeHZ2dmNsTlpCbzdvWWVHNUhBUS1Kbk5lWTdfdFNGZk9QVUd6Qng3NjZDOWRnaUV6ZVhLbGR4dl90RXJTd2ZNX1hwQW9sYzMyLTYtMGN4a3JhM0tzUWpNaWJucm9HSU9JWjR4LU9WdjlIV1duMzFqWkRhaVFSMXV5R043RHk2QjhXZ2g3LW1o?oc=5
+### Kotaku (2026-11-11), selo sugerido relato
+Manchete: This Isn’t A Video From Miami, It’s A GTA 6 Gameplay Clip - Kotaku
+Link: https://news.google.com/rss/articles/CBMijAFBVV95cUxOS0l3LWtsbDVYak1PYm5JNUJwQ0xua0xXR0xWamV3ckJSMG9kY1JfaDRxWkNyQzI5QTdZVWN0WnhtR3lrd2FmWWFjQjhIcmI3d01rcmVlVThsQ3laS1dHUHgtbWdMOHYzSUhycDVHVlUzX3JWa0pRUHNpaER1bjNiRHc4elo2aWIwMnB1Ug?oc=5
 
 (só a manchete: a matéria não abriu)
-
-### DancehallMag (2026-11-11), selo sugerido rumor
-Manchete: Travis Scott, Cardi B and Kodak Black to Headline 'Grand Theft Auto VI: The Festival' in Miami - DancehallMag
-Link: https://news.google.com/rss/articles/CBMi1wFBVV95cUxOeUZ2cm1Ba283WHk0d3dsSzBURUo2YTA2dUNLYjRxVnpuOUY4bl9wWkh3X0ozTkp1WUlJOWdNcWNlUEtONUlLUzdwdWRoMVZWZW5lZENfZFByX1p4eERpZGM4VWplWGJ6emIxYXpUckF1ek5DdVF2enQ0MXc2TFBEbWs1WUJsNERIMEptSzE0c3hEZmh1UDFsczA0UVdfSFNMbXU2MTZleml1NV85Sm1EczBxdENZYlc4ZU5iUVRuMUl0RmNrYWZ4dG9Na3FkZU00WWNKd3BMcw?oc=5
-
-(só a manchete: a matéria não abriu)
-
-### The Lagos Review (2026-11-11), selo sugerido rumor
-Manchete: Travis Scott & Cardi B to headline Grand Theft Auto VI festival in Miami - The Lagos Review
-Link: https://news.google.com/rss/articles/CBMingFBVV95cUxPLUMyQjh0NzRITVdSWVNXRkRCVXpWSFpBd0c5Z2ZmRXBLQVM5cmJ3SmcydlFQR3pPSDJhanA5dlh0VEtIZE15YmJnVVpjRldLbm1PUmxuUFBKbTg3djVsZGxWZHhSV1RIYm1hV3NfYXZIVV9POXlpRDZzSnhIZEpCUF9mWm9oQnpPZVV1YWx1MFRWNVk4VS1NVWdDYnM5UQ?oc=5
-
-(só a manchete: a matéria não abriu)
-
-Outras manchetes: Travis Scott and Cardi B Join GTA VI Festival Lineup in Miami - 24Hip-Hop | Travis Scott, Cardi B e Justice são os artistas principais do festival musical de 'Grand Theft Auto 6' - Rolling Stone Brasil
 
 
 ## Assunto 7
 
-### TweakTown (2026-11-11), selo sugerido rumor
-Manchete: GTA 6 easily becomes the most pre-ordered game on PlayStation and Xbox in history - TweakTown
-Link: https://news.google.com/rss/articles/CBMiygFBVV95cUxPV2VGU3VwalhLbk83UTNIdFNoLTAwVmJ3aFEyWlFVb0xwNjlrMHlHMElyMEZ3UExfWDdhdUM4WkRmbW9IandTalpONWhwaVhFN2RmUVJDckdBMTdLcnNUMGZVZTJoQXoyYzNLN3Q3Z3d2d2VrMFFoQWEyUkE0MHZnODZ4Y2dIUThiUlBiMXpWQ3BKNWtSdncxR3dUcWVtN0VtSzBHQzlNVU5SeW9rczhTNmd6QlRhbHlmNlEzLWc2QkxtbnBzc1FqWlZn?oc=5
+### canaltech.com.br (2026-11-11), selo sugerido relato
+Manchete: Antes da hora: notas de GTA 6 vazam na PlayStation Store antes do embargo
+Link: https://canaltech.com.br/games/antes-da-hora-notas-de-gta-6-vazam-na-playstation-store-antes-do-embargo/
 
-(só a manchete: a matéria não abriu)
-
-### GameDev.net (2026-11-11), selo sugerido rumor
-Manchete: GTA 6 becomes most pre-ordered game on PlayStation and Xbox storefronts - GameDev.net
-Link: https://news.google.com/rss/articles/CBMipgFBVV95cUxPaG5RbkpFelRFY1dkWHd6d0RVSXJ1WXpxYTJ6RnNVXy1PT1pBMV9XMG1xVi00MEhmbWNMbHpVaHVVcjJjMHhkQUlDNmVlVDNKYjVOWVM5b1p3ZjJ6eGlQWmt3SEdtcGVWS21taFdOUmh5Yml3eWZ5LW9iMEtUQUdVYk82T05QQTQtZ2lOQWFoOWkwLTRoRC16ZHkwWDkwNndIb0s4VU1B?oc=5
-
-(só a manchete: a matéria não abriu)
-
-### Complex (2026-11-11), selo sugerido rumor
-Manchete: 'GTA 6' Is the Most Preordered Game in Both Sony and Xbox Histories - Complex
-Link: https://news.google.com/rss/articles/CBMikgFBVV95cUxQY1MyQWlhY2d1TXFneEVpQUU0dDh3ekU3WS02SXgxQXdZMTJnSC1QMXowY2NjVURYMDA3SU5kYjdndHJoMEJNanVYUUtJeDJIQ3ZtSjhIdHA1Tjd6RUFMMHMzU3NCSERLQW1Ia2RFRkpzZjJ2S002cHZoN2trcHdPeFV4YzVNdGhKU2Y1c0xqZkNFQQ?oc=5
-
-(só a manchete: a matéria não abriu)
-
-Outras manchetes: Grand Theft Auto 6 is 'the most pre-ordered' game of all time on both Xbox and PlayStation - PC Gamer | Surprising Literally Nobody, Grand Theft Auto VI Is The Most Pre-Ordered Game In PlayStation And Xbox Store History - Game Informer
+Antes da hora: notas de GTA 6 vazam na PlayStation Store antes do embargo
+Por Gabriel Cavalheiro | 11/11/2026 às 15:16
+Avaliações de GTA 6 surgiram na página do jogo na PlayStation Store cerca de uma semana antes do lançamento. As reviews foram encontradas por um dataminer conhecido como Cokymoky, que compartilhou os dados sobre o vazamento em uma publicação no X nesta terça-feira (10).
+De acordo com o dataminer, foram registradas 12 análises, e a nota média do jogo estava em 4,67 de 5 estrelas. Do total, 11 avaliações (92%) receberam cinco estrelas, enquanto uma delas recebeu apenas uma estrela (8%). Posteriormente, o usuário que avaliou GTA 6 com uma estrela alterou a pontuação para cinco. Cokymoky afirmou que nenhuma review escrita foi encontrada nos dados.
+É possível que as avaliações tenham sido compartilhadas por jornalistas e influenciadores que receberam acesso antecipado ao jogo. Outra hipótese é que alguns jogadores tenham tido acesso ao campo de análises da PlayStation Store por terem feito a pré-venda de GTA 6.
+Esta não é a primeira vez que vemos GTA 6 receber avaliações antes da hora. A versão do jogo para XBOX já conta com 3,7 mil avaliações na Microsoft Store, com uma média de 4,9 de 5 estrelas. A plataforma permite que os jogadores façam análises mesmo para títulos que ainda estão em pré-venda.
+No início do ano, reviews de GTA 6 circularam no site How Long to Beat, portal utilizado por jogadores para registrar horas de jogo. Obviamente, as análises eram falsas.
+Além do lançamento de GTA 6 em 19 de novembro, os jogadores estão bem animados com as análises do jogo pela crítica. The Legend of Zelda: Ocarina of Time Remake, grande rival do título da Rockstar em 2026, registrou uma média de 96 no Metacritic, tornando-se o jogo mais bem avaliado do ano no agregador de notas.
+As expectativas para o game são altas, tanto criticamente como financeiramente. Um exemplo é que GTA 6 quebrou o recorde de maior número de pré-vendas de todos os tempos no PlayStation e XBOX.
 
 
 ## Assunto 8
 
-### Game Developer (2026-11-10), selo sugerido rumor
-Manchete: Take-Two CEO: Grand Theft Auto VI pre-orders are exceeding expectations - Game Developer
-Link: https://news.google.com/rss/articles/CBMi6AFBVV95cUxPZ1B1WmV0dTNyX0lEYm1Jc25KNzM2bW0tWmU2OWlYQ2lReUpjZnFoRkJvaGFJZkJTd1plZHowdmVzSklQTm9ybjB1YkhlTl94QXNBR0xLUTg4ZHBFcm5UTzJsQ05TT1VMaGJfMHpYb3RabC1CMld4cEQ0c0FoYXlWWExQMGNSU2Z5MU95Ry00WmxUbXlXZU5uWldyLW5yOFR3eWhCUWZKSFNWdWN0ekR1cG5fN0JWLUJ5dmNmSVBzOHphR01FN2JoNjJjWWxyNUJXRV9BdlJWNWh2a1dvZnAySHhaMTVGdTY2?oc=5
+### IGN India (2026-11-11), selo sugerido relato
+Manchete: GTA 6: Rockstar Games Announces Special Live Event to Celebrate the Game's Launch - IGN India
+Link: https://news.google.com/rss/articles/CBMivgFBVV95cUxNMndVUGVpUXhFNnc3aXNKcDdxRG1JMTNFSDRLZDFwdVRzQVNaVDRvTi00RGk2NTFzeWpRN05YaGZjM20wRXdLa2p5QXozNnVZd2NSUTNZLUt2Q3pieVJJYmhCMjRoTGdVak5YUnBBYXNJOXpGMFQyaE0ydzQtNHBHTnZUMEhSeEpEeEljWDNTbXJORXA4SjU3OTBibG9zeEFFNFZHbGRuMUx5bmpCTWpSeFJWNHNUUEhVUGVQTElR?oc=5
 
 (só a manchete: a matéria não abriu)
-
-### Yahoo Finance (2026-11-10), selo sugerido rumor
-Manchete: Take-Two Jumps 8% as GTA VI Preorders Run ‘Far in Excess’ of Expectations; Sony and Roblox Slide 2% - Yahoo Finance
-Link: https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRzcyajFXN3VQT1ZTRV94OFRuZURaY05SVXFwUVRqa0d6R0d5Y09GQ0VxX014aUdZa1BGV0RQNjRZamFXRC1DcEExaTJuMGxhaHdJOVpwdmpQS2xoeE9zVk1jbTJGYlpRS0xWVlVmYjY0SWFUcy1BRUtOdjJkdVFCSXFaV3dmenFzbGFF?oc=5
-
-(só a manchete: a matéria não abriu)
-
-### 24/7 Wall St. (2026-11-10), selo sugerido rumor
-Manchete: Take-Two Jumps 8% as GTA VI Preorders Run 'Far in Excess' of Expectations; Sony and Roblox Slide 2% - 24/7 Wall St.
-Link: https://news.google.com/rss/articles/CBMi1AFBVV95cUxOaGVLVVQ1QkEydlV2a2hETTA5dmJWWDhDa3c2dlh4UjJHSDlZd0pORk03NXRGd3JORGsyUnU5bGpLNlJRYXFlZlF1R0o3Z3BRWXF0bnA3OGNyXzQtbGpiZFVsaUxVQWJjV21jWjM0RzJmUk0zcnI3ZTB1SzQyMUt4WUhMV3hBMDgzVGRuYlM3TnItLS0xRGF3R05SVmtMNnd1aFVfdGVmVmZhSFZ6bktobVgtRGlKUUlESUNQdnBUcTM3VkFGaDg1UWlMR2tZUXR1aVppRA?oc=5
-
-(só a manchete: a matéria não abriu)
-
-Outras manchetes: Take‑Two CEO diz que experiência em PC e console de GTA 6 é praticamente igual - Espaço do Povo | Take-Two CEO Strauss Zelnick: GTA VI demand vastly exceeding expectations - CNBC
