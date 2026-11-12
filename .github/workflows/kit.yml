@@ -164,18 +164,7 @@ jobs:
             biblioteca) paginas biblioteca ;;
             dossie) paginas radar || true; paginas dossie ;;
             ver-trailers) python scripts/ver_trailers.py ;;
-            testar-cdn) for id in 55kss26g 76orsa95 rk721912 cpys7u21 rkoCtr1r; do for q in 2160p 1080p 720p; do echo "$id $q $(curl -s -o /dev/null -w '%{http_code} %{size_download}' -r 0-1023 https://videos-rockstargames-com.akamaized.net/v4/$id/flv/en-us-$q.mp4)"; done; done; python - <<'PY'
-            from playwright.sync_api import sync_playwright
-            with sync_playwright() as p:
-                b = p.chromium.launch(); g = b.new_page()
-                g.goto("https://www.rockstargames.com/videos/76orsa95", wait_until="networkidle", timeout=60000)
-                g.wait_for_timeout(5000)
-                for f in g.frames: print("frame:", f.url[:150])
-                print("iframes:", g.eval_on_selector_all("iframe", "e => e.map(x => x.src)"))
-                print("videos:", g.eval_on_selector_all("video", "e => e.map(x => x.currentSrc || x.src)"))
-                b.close()
-            PY
-            ;;
+            testar-cdn) python scripts/testar_cdn.py ;;
             nova-capa*) t="${{ steps.t.outputs.tarefa }}"; paginas nova-capa "${t#nova-capa:}" --busca "${{ github.event.inputs.vozes }}" ;;
             diag-reel) for v in saida/videos/gg_explica/2026-11-12_radar_2026-11-12_clipe_miami_reel.mp4 saida/videos/gg_explica/2026-11-11_radar_2026-11-11_preco_reais_reel.mp4; do echo "== $v"; paginas diagnostico-reel "$v"; done ;;
             telegram-teste) paginas telegram teste ;;
