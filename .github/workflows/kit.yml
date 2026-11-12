@@ -101,7 +101,7 @@ jobs:
         id: plano
         run: |
           t="${{ steps.t.outputs.tarefa }}"
-          if [ "$t" = "ciclo" ] || [ "$t" = "comentarios-ciclo" ]; then paginas nuvem plano; else echo "pesado=$([ "$t" = telegram-teste ] || [ "$t" = gemini ] || [ "$t" = comentarios ] || [ "$t" = simular ] || [ "$t" = dossie ] && echo false || echo true)" >> "$GITHUB_OUTPUT"; fi
+          if [ "$t" = "ciclo" ] || [ "$t" = "comentarios-ciclo" ]; then paginas nuvem plano; else echo "pesado=$([ "$t" = telegram-teste ] || [ "$t" = gemini ] || [ "$t" = comentarios ] || [ "$t" = simular ] || [ "$t" = dossie ] || [ "$t" = amostra ] && echo false || echo true)" >> "$GITHUB_OUTPUT"; fi
 
       # ---------------------------------------------------------------- só nas rodadas pesadas
       - name: Biblioteca oficial (cache)
@@ -165,7 +165,16 @@ jobs:
             dossie) paginas radar || true; paginas dossie ;;
             telegram-teste) paginas telegram teste ;;
             simular) paginas meta conferir --marca gg_explica && paginas publicar --simular ;;
+            amostra) mkdir -p amostra && for v in saida/videos/gg_explica/*reel*.mp4; do [ "$(find "$v" -mmin -2880)" ] && cp "$v" amostra/; done; ls -la amostra ;;
           esac
+
+      - name: Amostra dos vídeos (diagnóstico)
+        if: steps.t.outputs.tarefa == 'amostra'
+        uses: actions/upload-artifact@v4
+        with:
+          name: amostra
+          path: amostra/
+          retention-days: 2
 
       - name: Rodada leve deixou trabalho (notícia quente, post novo)? Chama a rodada pesada agora
         if: always() && steps.plano.outputs.pesado != 'true'
