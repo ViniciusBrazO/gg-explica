@@ -141,7 +141,7 @@ def test_publicar_reel_segue_o_fluxo_oficial(tmp_path):
     video = tmp_path / "v.mp4"
     video.write_bytes(b"0" * 1024)
     s = MagicMock()
-    s.post.side_effect = [_resp({"id": "C1", "uri": "x"}), _resp({"success": True}), _resp({"id": "M1"})]
+    s.post.side_effect = [_resp({"id": "C1", "uri": "https://rupload.facebook.com/ig-api-upload/v26.0/C1"}), _resp({"success": True}), _resp({"id": "M1"})]
     s.get.side_effect = [_resp({"status_code": "IN_PROGRESS"}), _resp({"status_code": "FINISHED"}),
                          _resp({"permalink": "https://instagram.com/reel/abc"})]
     pub = Publicador(Credenciais("IG1", "TOKEN", "v26.0"), sessao=s, espera_s=0)

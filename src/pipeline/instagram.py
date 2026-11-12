@@ -132,40 +132,45 @@ class Publicador:
         finally:
             hospedeiro.limpar()
 
+    def _contener_e_enviar(self, video: Path, dados: dict, tentativas: int = 3) -> str:
+        """Cria o contêiner do Reel e envia o arquivo. O envio (rupload) às vezes falha com
+        ProcessingFailedError sem motivo no arquivo: cada nova tentativa usa um contêiner novo, como a
+        Meta recomenda, o endereço que ela devolve (`uri`) e o corpo inteiro em bytes."""
+        corpo = video.read_bytes()
+        ultimo = ""
+        for n in range(tentativas):
+            cont = _checar(self.s.post(self._url(f"{self.c.ig_user_id}/media"), data=dados, timeout=60))
+            destino = cont.get("uri") or f"{RUPLOAD}/{self.c.versao}/{cont['id']}"
+            r = self.s.post(destino, headers={
+                "Authorization": f"OAuth {self.c.token}", "offset": "0", "file_size": str(len(corpo)),
+                "Content-Type": "application/octet-stream"}, data=corpo, timeout=600)
+            if r.status_code == 200 and r.json().get("success", False):
+                return cont["id"]
+            ultimo = f"HTTP {r.status_code}: {r.text[:200]}"
+            print(f"  envio do vídeo falhou (tentativa {n + 1}/{tentativas}): {ultimo[:120]}")
+            time.sleep(20 * (n + 1))
+        raise ErroInstagram(ultimo)
+
     def testar_envio(self, video: Path, limite_espera_s: int = 300) -> str:
         """Diagnóstico: cria o contêiner, envia o arquivo e espera o processamento, SEM publicar
         (o contêiner expira sozinho em 24 h). Devolve 'ok' ou o erro."""
         try:
-            cont = _checar(self.s.post(self._url(f"{self.c.ig_user_id}/media"), data={
+            cid = self._contener_e_enviar(video, {
                 "media_type": "REELS", "upload_type": "resumable", "caption": "teste",
-                "share_to_feed": "false", "access_token": self.c.token}, timeout=60))
-            with open(video, "rb") as f:
-                _checar(self.s.post(f"{RUPLOAD}/{self.c.versao}/{cont['id']}", headers={
-                    "Authorization": f"OAuth {self.c.token}", "offset": "0",
-                    "file_size": str(video.stat().st_size)}, data=f, timeout=600))
-            self._esperar(cont["id"], limite_espera_s)
+                "share_to_feed": "false", "access_token": self.c.token}, tentativas=1)
+            self._esperar(cid, limite_espera_s)
             return "ok"
         except Exception as e:
             return str(e)[:200]
 
     def publicar_reel(self, video: Path, legenda: str, capa_ms: int = 600,
                       no_feed: bool = True, limite_espera_s: int = 900, capa_url: str = "") -> dict:
-        tamanho = video.stat().st_size
         dados = {"media_type": "REELS", "upload_type": "resumable", "caption": legenda,
                  "share_to_feed": "true" if no_feed else "false", "access_token": self.c.token}
         if capa_url:
             dados["cover_url"] = capa_url
         else:
             dados["thumb_offset"] = str(capa_ms)
-        cont = _checar(self.s.post(self._url(f"{self.c.ig_user_id}/media"), data=dados, timeout=60))
-        cid = cont["id"]
-
-        with open(video, "rb") as f:
-            up = _checar(self.s.post(f"{RUPLOAD}/{self.c.versao}/{cid}", headers={
-                "Authorization": f"OAuth {self.c.token}", "offset": "0", "file_size": str(tamanho),
-            }, data=f, timeout=600))
-        if not up.get("success", False):
-            raise ErroInstagram(f"envio do arquivo falhou: {up}")
-
+        cid = self._contener_e_enviar(video, dados)
         self._esperar(cid, limite_espera_s)
         return self._publicar(cid)
