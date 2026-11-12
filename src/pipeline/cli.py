@@ -166,12 +166,6 @@ def publicar_reel_com_capa(pub, item) -> dict:
         try:
             return pub.publicar_reel(Path(item.video), item.legenda, capa_url=url)
         except Exception as e:
-            if "ProcessingFailedError" in str(e) and shutil.which("ffmpeg"):
-                from .montagem import conformar_para_instagram
-                mb = Path(item.video).stat().st_size / 1e6
-                print(f"  o Instagram não processou o vídeo ({mb:.1f} MB); recodificando mais leve e tentando de novo")
-                conformar_para_instagram(Path(item.video), alvo_mb=7.5)
-                return pub.publicar_reel(Path(item.video), item.legenda, capa_url=url)
             if not url or "ProcessingFailedError" in str(e):
                 raise
             print(f"  o Instagram recusou com a capa ({str(e)[:120]}); tentando sem ela")
@@ -249,7 +243,8 @@ def cmd_publicar(args) -> int:
                     continue
                 res = pub.publicar_carrossel(slides, item.legenda, hosp)
             else:
-                pub = Publicador(Credenciais.da_marca(item.marca))
+                from .meta import hospedeiro_da_marca
+                pub = Publicador(Credenciais.da_marca(item.marca), hospedeiro=hospedeiro_da_marca(item.marca))
                 repetido = ja_no_ar(item, no_ar.setdefault(item.marca, pub.recentes()))
                 if repetido:
                     item.status, item.permalink = "publicado", repetido

@@ -15,6 +15,7 @@ As variáveis antigas (IG_USER_ID_*, IG_TOKEN_*, FB_PAGE_TOKEN_*) continuam vale
 from __future__ import annotations
 
 import os
+import time
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -115,8 +116,26 @@ class Hospedeiro:
             raise ErroMeta(f"a foto {fid} subiu sem link público")
         return imagens[0]["source"]
 
+    def hospedar_video(self, video: Path, espera_s: int = 300) -> str:
+        """Link público de um vídeo: sobe como vídeo NÃO publicado da Página (ninguém vê) e espera o
+        Facebook gerar o arquivo. Caminho de reserva quando o envio direto ao Instagram falha."""
+        with open(video, "rb") as f:
+            v = _checar(self.s.post(f"https://graph-video.facebook.com/{versao()}/{self.page_id}/videos",
+                                    data={"published": "false", "access_token": self.token_pagina},
+                                    files={"source": (video.name, f, "video/mp4")}, timeout=600))
+        vid = v["id"]
+        self.enviadas.append(vid)
+        limite = time.time() + espera_s
+        while time.time() < limite:
+            dados = _checar(self.s.get(f"{GRAPH}/{versao()}/{vid}", params={
+                "fields": "source,status", "access_token": self.token_pagina}, timeout=30))
+            if dados.get("source"):
+                return dados["source"]
+            time.sleep(10)
+        raise ErroMeta(f"o vídeo {vid} não ficou pronto no Facebook em {espera_s} s")
+
     def limpar(self) -> None:
-        """Apaga as fotos não publicadas depois que o Instagram já buscou as imagens."""
+        """Apaga as fotos e vídeos não publicados depois que o Instagram já buscou os arquivos."""
         for fid in self.enviadas:
             try:
                 self.s.delete(f"{GRAPH}/{versao()}/{fid}", params={"access_token": self.token_pagina}, timeout=30)

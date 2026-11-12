@@ -67,10 +67,12 @@ def _checar(r: requests.Response) -> dict:
 
 
 class Publicador:
-    def __init__(self, cred: Credenciais, sessao: requests.Session | None = None, espera_s: float = 10):
+    def __init__(self, cred: Credenciais, sessao: requests.Session | None = None, espera_s: float = 10,
+                 hospedeiro=None):
         self.c = cred
         self.s = sessao or requests.Session()
         self.espera_s = espera_s
+        self.hospedeiro = hospedeiro      # meta.Hospedeiro: reserva para o vídeo ir por link
 
     def _url(self, caminho: str) -> str:
         return f"{GRAPH}/{self.c.versao}/{caminho}"
@@ -171,6 +173,20 @@ class Publicador:
             dados["cover_url"] = capa_url
         else:
             dados["thumb_offset"] = str(capa_ms)
-        cid = self._contener_e_enviar(video, dados)
+        try:
+            cid = self._contener_e_enviar(video, dados)
+        except ErroInstagram as e:
+            if "ProcessingFailedError" not in str(e) or not self.hospedeiro:
+                raise
+            # envio direto falhou: o Instagram busca o vídeo de um link público (vídeo oculto da Página)
+            print("  envio direto falhou; o Instagram vai buscar o vídeo por link (vídeo oculto da Página)")
+            try:
+                url = self.hospedeiro.hospedar_video(video)
+                pelo_link = {k: v for k, v in dados.items() if k != "upload_type"} | {"video_url": url}
+                cid = _checar(self.s.post(self._url(f"{self.c.ig_user_id}/media"), data=pelo_link, timeout=60))["id"]
+                self._esperar(cid, limite_espera_s)
+                return self._publicar(cid)
+            finally:
+                self.hospedeiro.limpar()
         self._esperar(cid, limite_espera_s)
         return self._publicar(cid)

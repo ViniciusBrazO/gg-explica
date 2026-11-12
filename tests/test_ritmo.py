@@ -119,3 +119,22 @@ def test_saida_no_formato_dos_reels_da_meta():
     p = " ".join(parametros_instagram())
     for exigido in ("-use_editlist 0", "+faststart", "-b:a 128k", "-ar 48000", "yuv420p", "open-gop=0", "-maxrate"):
         assert exigido in p
+
+
+def test_reel_vai_por_link_quando_o_envio_direto_falha(tmp_path, monkeypatch):
+    from unittest.mock import MagicMock
+    from pipeline import instagram
+    from pipeline.instagram import Credenciais, ErroInstagram, Publicador
+    video = tmp_path / "r.mp4"
+    video.write_bytes(b"x" * 10)
+    hosp = MagicMock()
+    hosp.hospedar_video.return_value = "https://video.fbcdn.net/r.mp4"
+    pub = Publicador(Credenciais("IG1", "tok"), sessao=MagicMock(), espera_s=0, hospedeiro=hosp)
+    monkeypatch.setattr(pub, "_contener_e_enviar", MagicMock(side_effect=ErroInstagram("ProcessingFailedError")))
+    monkeypatch.setattr(pub, "_esperar", lambda cid, lim: None)
+    monkeypatch.setattr(pub, "_publicar", lambda cid: {"media_id": "M1", "container_id": cid})
+    monkeypatch.setattr(instagram, "_checar", lambda r: {"id": "C9"})
+    assert pub.publicar_reel(video, "legenda")["container_id"] == "C9"
+    corpo = pub.s.post.call_args.kwargs["data"]
+    assert corpo["video_url"] == "https://video.fbcdn.net/r.mp4" and "upload_type" not in corpo
+    hosp.limpar.assert_called_once()
