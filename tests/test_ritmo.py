@@ -145,3 +145,11 @@ def test_falha_da_meta_no_video_reconhecida():
     assert falha_da_meta_no_video("Media upload has failed with error code 2207076")
     assert falha_da_meta_no_video("{'type': 'ProcessingFailedError'}")
     assert not falha_da_meta_no_video("OAuthException code 190")
+
+
+def test_post_liberado_fura_o_freio():
+    agora = datetime(2026, 11, 12, 14, 30, tzinfo=FUSO)
+    seis = [_item(i, agora, "publicado", (agora - timedelta(hours=2 * i + 2)).isoformat()) for i in range(6)]
+    novo = _item(99, agora)
+    novo.furar_freio = True
+    assert motivo_para_segurar(novo, seis + [novo], agora) == ""

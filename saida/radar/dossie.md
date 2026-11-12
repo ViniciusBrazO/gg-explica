@@ -20,51 +20,64 @@ Link: https://news.google.com/rss/articles/CBMiWEFVX3lxTE9DTFNaYTVUeVZJLXlveVBvT
 
 ## Assunto 2
 
-### PC Guide (2026-11-12), selo sugerido rumor
-Manchete: Golden Joystick Awards 2026 winners list for every category, including Ultimate Game of the Year - PC Guide
-Link: https://news.google.com/rss/articles/CBMiwwFBVV95cUxQT0NHZnJNeUZzaDViRG9TSzhiMXFxQjZzaEQ4WU5QeVplc0trLWJLRmxzZ2lUQkowdFdwTm9qWXlGbE1xREYzakpmRzVHYnBTNGhGTldDcHVaUVpCLTZTQUVUakRfWWx1R2t6SVUwQjJTTEVhMnhpN19qb0Z0YUE1dTMzdThWeVBBbEkzS2tDU3dmQlFub2I4VFZnWE9ycU42UUpwLS1fUHNwUDZkR0J3STlsZGtNc3NxS1dMZUJ0SC1ESk0?oc=5
+### eTeknix (2026-11-12), selo sugerido rumor
+Manchete: Logitech Gives 7,000 Employees a Paid Day Off to Play GTA 6 - eTeknix
+Link: https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZ2Y0NnlHUmwwZmFKQ1F4ZDR2Y3JyOFFoZVRBM0U5QTJwRHJ0elVDd1N2NnVpRU1naWhVNXBFOXlBTGxqYmxFOTctYUQzVmlPd3U0My1LZHFLRDhxOS1ySlQyOWdFYWt3WUZyZVBrQzlxVy1qelRRd3p2Uml4REZLdU5DUm1kS1RMdVpr?oc=5
 
 (só a manchete: a matéria não abriu)
 
-### ShiftDelete.Net (2026-11-12), selo sugerido rumor
-Manchete: Golden Joystick Awards 2026 Winners: Full List and Results - ShiftDelete.Net
-Link: https://news.google.com/rss/articles/CBMiZEFVX3lxTE1LWGVrWktKZWx4S1pzbVFDX0JHVHp2UzF5MTFlWFhQRUM2LVpiTmM1X0VoTjVMNWEzYUEtaE5uZG9vQUhlUEJ0WnhHaUVfNXZiWDVZVmcybm5MYUZXYTYxbm9kdHQ?oc=5
+### UkrMedia News (2026-11-12), selo sugerido rumor
+Manchete: Logitech is giving 7,000 employees a paid day off for GTA 6 - UkrMedia News
+Link: https://news.google.com/rss/articles/CBMihAFBVV95cUxQZW5zQWZyV3ZhMzRvZ2VPRW9mWWpxVlhoaUJycXdZNlhhdjFNUnpJR3J0dUE0S2ktYWJmVnU0VTRaTUNHZzJsUjBTdDg4MW51THJjQUtSMUZ2LXVuM2RoUzNVdHdCakdnU3ZaSHlSalBtOUE5YkVpNkJKSGxrbzVQRk5oU2Q?oc=5
 
 (só a manchete: a matéria não abriu)
 
-### PC Gamer (2026-11-11), selo sugerido rumor
-Manchete: Crimson Desert wins 'PC Game of the Year' at the 2026 Golden Joystick Awards - PC Gamer
-Link: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOUE0dVo3bFlRYl9Yal9aTU5EZHpRQ2NhOGxjV25kT0w2Y3FYUnpKbE5XVW81RVdZSFM4ZTlyRTh2bGhEZm1ZanZuVFgwaFpfRVZNUVhPSm9INF9ueTZIUUpHRXNKbmdzNERmamJ1eURndDBhT0V3OUVoSXZ3ODN3VEhuM2NqWGwxbVhzdUhtUFBlcXhVWDdpcDRCTmlseWpZWlJKaGhwX1I?oc=5
+### TweakTown (2026-11-12), selo sugerido rumor
+Manchete: Logitech is giving all of its employees the day off to play Grand Theft Auto 6 - TweakTown
+Link: https://news.google.com/rss/articles/CBMixgFBVV95cUxPZDZValgtcE52QmVGQ3JNRGFrd3NFUHU2X1hOVXh1Q2VXOWh0V29OcFJGaU9OSTd0YTU0VGtkOWdUTF9kQlc1R3FTRkNuOW5SZG9hVk1VRm1GdVN3WFlLaWtZbWt3Unhnamhod2MyQkxwU1BQYUJoR3Y2YWVNWm9CVVZJZkF6UFg5S0Z4UzlBY2Z5VDFMSEtHcXRTN2JucnppMW9PM0k0SUUxcHNUa1hvUmJ2U09QdHRSVGx1SUN6VjZudVJ0TlE?oc=5
 
 (só a manchete: a matéria não abriu)
 
-Outras manchetes: All the Golden Joystick Awards 2026 winners revealed - GamesRadar+ | The Golden Joysticks 2026: Full list of confirmed winnners - Radio Times
+Outras manchetes: Logitech Gives Its Employees a Day Off for Grand Theft Auto 6 Launch - CNET | One Company Is Giving All Of Its 7,000 Employees The Day Off To Play GTA 6 - Kotaku
 
 
 ## Assunto 3
 
-### Technology Org (2026-11-12), selo sugerido rumor
-Manchete: GTA 6 Targets 30 FPS on Consoles, With Ray-Traced Shadows Only on PS5 Pro - Technology Org
-Link: https://news.google.com/rss/articles/CBMimAFBVV95cUxQc0x3NkM1LU45XzdpQjJzRDB4eFVtZDVKTDZITnRJcFJQc1hXSkJ0X1dWckQ1YTUtTkR6RXBGLTVtVC1haWJOYlk4YlM4WFd5d3hEX3M1ZGFMcnRpdkhrNDR0UExxa3A2TkU2UjZaV0RyNjFpOFNRNkowUTdRSVJCQlVRMi1Bb3huN1RyT19xSlFFTmw0aUFrSA?oc=5
+### ign.com (2026-11-12), selo sugerido relato
+Manchete: Popeyes Is Riding the GTA 6 Hype With a New 'Spice City' Chicken Sandwich
+Link: https://www.ign.com/articles/popeyes-is-riding-the-gta-6-hype-with-a-new-spice-city-chicken-sandwich
 
 (só a manchete: a matéria não abriu)
 
-### OC3D (2026-11-11), selo sugerido rumor
-Manchete: Grand Theft Auto VI targets 30 FPS on all consoles, even PS5 Pro - OC3D
-Link: https://news.google.com/rss/articles/CBMipAFBVV95cUxOdjJEbGVybGw4Tk5mNHB5ZlVTLTVIdXBJZktWTEhjZEFWbUFFVFdrMFV0aWQ3cU1CWFRUUzFlV3hncnRrUXZXVnFZUVhmdUhNLVhWUEpxVTNMVGhJRzN3bzZSdGU3aVZEbnhMaXZ3bWNMcUZ5R1BkbWVLakxhSkJ2dGpadTRoWi1fNU5haHpBeWtHYnlNSDJSTG1QUmotQ3B0N1Y5RQ?oc=5
+### GameTyrant (2026-11-12), selo sugerido rumor
+Manchete: Popeyes is Celebrating GTA 6 With, Uh, A Chicken Sandwich - GameTyrant
+Link: https://news.google.com/rss/articles/CBMiiwFBVV95cUxPanpSeFhjSTdOZnlMWXhBaHBWYnV4ekYwNVZPTzZVS2VmMmRVZTA4bi14bmV4dExlbzYybmZFcVBpSTRnR19uUVZuVm5GT1ZzWElIVkhTRDNuQTJmekZyaHpWYXcyWjVxMUM1bThYREg1ZllDalh0MDNQM0JkY1NuYlNleERxSUNrZ2lr?oc=5
 
 (só a manchete: a matéria não abriu)
 
-### Yahoo Tech (2026-11-11), selo sugerido rumor
-Manchete: GTA 6 Targets 30 FPS, Adds Ray Tracing on PS5 Pro - Yahoo Tech
-Link: https://news.google.com/rss/articles/CBMif0FVX3lxTE52bENzQzVqcXk5NVhOUTVQZ2MxZldXdW9nMUZjSDNJLW1PWG5TNDBzVDRxSWgxRjBmSmhiSDM3TWVkd2o0NUd2TVAzNi1MemhfU1NFX0R3U1hEM3ZMb3R1VzVLUEdWWE9qcTV4cWxJM3Z2Rm9HWmhHNklONWs5RTg?oc=5
+### IGN (2026-11-12), selo sugerido relato
+Manchete: Popeyes Announces New Chicken Sandwich Timed to Release Alongside GTA 6 - IGN
+Link: https://news.google.com/rss/articles/CBMiogFBVV95cUxPV2RoaDBVaU13WFpBY2ZDWjlIbTdqb29BVXhXbjZINmFMdDRZMUxFalN3a29hLWJ5RUhMYllDTjd4cVFRRHhXbHp3OExwRUhSeTRYVVA4eFF6UVNWWVJtNFliUTE3TmtQdXNCaUp0UDZzNzFXQ3NyVW0yZzVSQmg5M3FaVF9VYnFwV1VKZXpieDFQcVpySTY4R2ROdDM0SWgyUnc?oc=5
 
 (só a manchete: a matéria não abriu)
-
-Outras manchetes: GTA 6 Will Target 30 FPS on All Consoles, Including PS5 Pro - eTeknix | GTA 6's 30 FPS Console Limit Officially Confirmed Alongside PS5 Pro Features - SVG
 
 
 ## Assunto 4
+
+### Radio Times (2026-11-12), selo sugerido rumor
+Manchete: GTA 6 release date, UK launch time, pre-orders, trailer and latest news - Radio Times
+Link: https://news.google.com/rss/articles/CBMickFVX3lxTE9KZS02aXFPc0h5bVdFdENvb2YtRzN6ZmZXR19md1hKd1NfdW5OWk92YUtYVGdGeTBuOE9jYzV2OWFRVVJueTVvbndKbzduYkx3RHVZeWJlaldLeklIWXY2VTRocl9wdlNCeVhWTHFvNVZzUQ?oc=5
+
+(só a manchete: a matéria não abriu)
+
+### Eurogamer.net (2026-11-11), selo sugerido relato
+Manchete: GTA 6 Release Date and Time - Eurogamer.net
+Link: https://news.google.com/rss/articles/CBMiXkFVX3lxTE11M0c1Y0hLbHNfbFRkcG40VVpDMXQ2SUg4M3pkQVdaOXNkMHZteU9LUnpIWTl4SjV0UnYzWkExNEd0SWV6VXI3R1pHbklSTEx3VmVuTy1GM3VOWEZGZmc?oc=5
+
+(só a manchete: a matéria não abriu)
+
+
+## Assunto 5
 
 ### canaltech.com.br (2026-11-11), selo sugerido relato
 Manchete: Antes da hora: notas de GTA 6 vazam na PlayStation Store antes do embargo
@@ -79,7 +92,7 @@ Link: https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMmg3SkkzZjQyTERCM1l2c
 (só a manchete: a matéria não abriu)
 
 
-## Assunto 5
+## Assunto 6
 
 ### polygon.com (2026-11-11), selo sugerido relato
 Manchete: New 'GTA 6' Gameplay Leaves Fans Stunned
@@ -94,7 +107,7 @@ Link: https://news.google.com/rss/articles/CBMijwFBVV95cUxQV0UyZmRWLUZDTElVcGtGM
 (só a manchete: a matéria não abriu)
 
 
-## Assunto 6
+## Assunto 7
 
 ### ign.com (2026-11-11), selo sugerido relato
 Manchete: New GTA 6 Surprise Gameplay Seemingly Released in Yet Another Viral Marketing Stunt
@@ -109,7 +122,7 @@ Link: https://news.google.com/rss/articles/CBMisgFBVV95cUxPZFdnX290VWJtZnJRckN0Z
 (só a manchete: a matéria não abriu)
 
 
-## Assunto 7
+## Assunto 8
 
 ### ign.com (2026-11-11), selo sugerido relato
 Manchete: GTA 6 Fans Think a Beloved Legacy Character from a Previous Game Is Hiding in the Latest Trailer
@@ -120,14 +133,5 @@ Link: https://www.ign.com/articles/gta-6-fans-think-a-beloved-legacy-character-f
 ### IGN (2026-11-11), selo sugerido relato
 Manchete: Is GTA 6's Newest Trailer Hiding a Beloved Character from a Previous Game in Plain Sight? - IGN
 Link: https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMFdMdk5meWVLS1oxRHY4dzFsN2dpOEgwTkVNeS1XcjM3aVdJZUlLNE9oZ19rbXFXY2U2cVFmZXBEWjRfWS1UZmR3ZEc3dW9RZS14UEJlUlBDM0FsVmZOYUFEU08wOUd5YmU3RU9Wbjg0YlRvajY4RGwtbEZITnZoeWc0NTNVOU9lWkx4cmhuMEVERGZtUWlIZXY4TzlQNjdTbUltX1VodjFybzJybHBnc1pLdGRpUC13NS1NWHJObHpBTmM?oc=5
-
-(só a manchete: a matéria não abriu)
-
-
-## Assunto 8
-
-### Kotaku (2026-11-11), selo sugerido relato
-Manchete: This Isn’t A Video From Miami, It’s A GTA 6 Gameplay Clip - Kotaku
-Link: https://news.google.com/rss/articles/CBMijAFBVV95cUxOS0l3LWtsbDVYak1PYm5JNUJwQ0xua0xXR0xWamV3ckJSMG9kY1JfaDRxWkNyQzI5QTdZVWN0WnhtR3lrd2FmWWFjQjhIcmI3d01rcmVlVThsQ3laS1dHUHgtbWdMOHYzSUhycDVHVlUzX3JWa0pRUHNpaER1bjNiRHc4elo2aWIwMnB1Ug?oc=5
 
 (só a manchete: a matéria não abriu)

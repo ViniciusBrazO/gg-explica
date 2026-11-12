@@ -29,6 +29,8 @@ def _saiu_em(item) -> datetime | None:
 
 def motivo_para_segurar(item, itens, agora: datetime) -> str:
     """'' se pode sair agora; senão, o motivo de esperar."""
+    if getattr(item, "furar_freio", False):
+        return ""
     lim = limites(item.plataforma)
     saidas = sorted(t for i in itens if i.plataforma == item.plataforma and i.marca == item.marca
                     and (t := _saiu_em(i)))
