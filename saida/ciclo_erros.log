@@ -120,3 +120,23 @@ Traceback (most recent call last):
     import azure.cognitiveservices.speech as sdk  # import tardio: só quem usa Azure precisa instalar
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ModuleNotFoundError: No module named 'azure'
+
+[2026-11-12 17:08] prévias
+Traceback (most recent call last):
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/ciclo.py", line 60, in etapa
+    funcao()
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/ciclo.py", line 146, in previas
+    n = telegram.enviar_para_aprovacao(tg, cfg["telegram"].get("enviar_dias_a_frente", 1))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/telegram.py", line 186, in enviar_para_aprovacao
+    r = produzir(marca, v, previa=False)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/producao.py", line 110, in produzir
+    info = renderizar_video(marca, video, pasta, voz_forcada=voz, registrar_clipes=not previa)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/montagem.py", line 496, in renderizar_video
+    fundo_midia = MidiaCena.da_cena(cena, fundo=True, evitar=evitar_aqui | set(usadas), semente=video.id) \
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/montagem.py", line 89, in da_cena
+    raise FileNotFoundError(f"nenhum clipe do catálogo para '{cena.fundo_clipe if fundo else cena.midia}'")
+FileNotFoundError: nenhum clipe do catálogo para 'busca:boate noite'

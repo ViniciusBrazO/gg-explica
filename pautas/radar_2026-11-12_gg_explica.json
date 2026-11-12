@@ -908,6 +908,174 @@
         }
       ],
       "notas_revisao": "Mesmo assunto do reel das 12h30, ângulo ficha/guia. TEORIA de fãs relatada pela IGN; nada oficial."
+    },
+    {
+      "id": "radar_2026-11-12_logitech_folga_reel",
+      "serie": "radar",
+      "status": "rascunho",
+      "data": "2026-11-12",
+      "horario": "19:00:00",
+      "formato": "reel",
+      "gerar_reel": true,
+      "plataformas": ["instagram", "facebook"],
+      "legenda_post": "FOLGA PAGA PRA JOGAR GTA 6!\nA Logitech deu a todos os 7.000 funcionários um dia de folga para jogar o que quiserem, e o prazo vai até 2027. Pelo levantamento da BambooHR, os pedidos de férias na data do lançamento estão cerca de 13% maiores que o normal.\nFonte: Fortune, 10/11/2026\nVídeo narrado por voz de IA.\nSe sua empresa liberasse, você jogava no dia 19? #gta6 #gtavi #logitech",
+      "hashtags": ["#gta6", "#gtavi", "#logitech"],
+      "publi": false,
+      "voz_ia": true,
+      "produtos": [],
+      "cenas": [
+        {
+          "tipo": "gancho",
+          "narracao": "Uma empresa deu folga paga pra sete mil funcionários jogarem GTA seis.",
+          "estilo": "manchete",
+          "kicker": "FOLGA PAGA",
+          "titulo": "Folga *paga* pra jogar GTA 6",
+          "texto": "7.000 funcionários, um dia livre",
+          "selo": "relato",
+          "fonte": "Fortune, 10/11/2026",
+          "fonte_url": "https://fortune.com/2026/11/10/logitech-gaming-day-off-ahead-of-grand-theft-auto-six-release-ceo-hanneke-faber-boost-productivity/",
+          "fundo_clipe": "busca:boate noite",
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "texto",
+          "narracao": "É a Logitech, a marca de mouse e teclado. No Logi Game Day, todo funcionário ganha um dia livre pra jogar o que quiser.",
+          "titulo": "Logi *Game Day*",
+          "texto": "Todos os 7.000 funcionários, de efetivos a estagiários, ganham um dia pago para jogar o jogo que escolherem.",
+          "selo": "relato",
+          "fonte": "Fortune, 10/11/2026",
+          "fonte_url": "https://fortune.com/2026/11/10/logitech-gaming-day-off-ahead-of-grand-theft-auto-six-release-ceo-hanneke-faber-boost-productivity/",
+          "fundo_clipe": "busca:lancha",
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "texto",
+          "narracao": "O dia vale até o ano que vem. Se todo mundo usar, são cinquenta e seis mil horas jogando, na conta de oito por pessoa.",
+          "titulo": "*56 mil* horas de jogo",
+          "texto": "O prazo vai até 2027. Conta da página: 7.000 pessoas x 8 horas = 56.000 horas, se todas usarem.",
+          "selo": "relato",
+          "fonte": "Fortune, 10/11/2026",
+          "fonte_url": "https://fortune.com/2026/11/10/logitech-gaming-day-off-ahead-of-grand-theft-auto-six-release-ceo-hanneke-faber-boost-productivity/",
+          "fundo_clipe": "busca:cidade noite neon",
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "texto",
+          "narracao": "A CEO, Hanneke Faber, diz que jogar não é perda de tempo e que vai jogar no dia dezenove.",
+          "titulo": "A CEO *vai jogar*",
+          "texto": "Hanneke Faber diz que é hora de aposentar a ideia de que jogar é perda de tempo e planeja jogar em 19 de novembro.",
+          "selo": "relato",
+          "fonte": "Fortune, 10/11/2026",
+          "fonte_url": "https://fortune.com/2026/11/10/logitech-gaming-day-off-ahead-of-grand-theft-auto-six-release-ceo-hanneke-faber-boost-productivity/",
+          "fundo_clipe": "busca:carro paisagem",
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "texto",
+          "narracao": "Pedidos de férias pro dia do lançamento estão treze por cento acima do normal, segundo a BambooHR. Metade de quem vai faltar diz que vai fingir estar doente.",
+          "titulo": "Todo mundo *quer faltar*",
+          "texto": "BambooHR: pedidos de férias no lançamento estão ~13% acima do normal. 18% dos assalariados planejam tirar o dia.",
+          "selo": "relato",
+          "fonte": "Fortune, 10/11/2026",
+          "fonte_url": "https://fortune.com/2026/11/10/logitech-gaming-day-off-ahead-of-grand-theft-auto-six-release-ceo-hanneke-faber-boost-productivity/",
+          "fundo_clipe": "busca:grassrivers",
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "cta",
+          "narracao": "O lançamento cai numa quinta-feira, dia dezenove. Você ia pedir folga ou fingir que tá doente? Comenta e segue a página.",
+          "titulo": "Você *pediria* folga?",
+          "texto": "Dia 19 é quinta. Comenta e segue a GG Explica.",
+          "fundo_clipe": "busca:jason lucia vice city",
+          "credito": "Imagens: Rockstar Games"
+        }
+      ],
+      "notas_revisao": "RELATO: dados da Fortune (10/11/2026), lida nesta execução; Logitech é a fonte primária, mas não abri o comunicado dela. Outros veículos citam 5.500 funcionários (BritBrief); usamos 7.000 (Fortune). A conta de 56.000 horas é da página (7.000 x 8 h)."
+    },
+    {
+      "id": "radar_2026-11-12_logitech_folga",
+      "serie": "radar",
+      "status": "rascunho",
+      "data": "2026-11-12",
+      "horario": "21:00:00",
+      "formato": "carrossel",
+      "gerar_reel": false,
+      "plataformas": ["instagram", "facebook"],
+      "legenda_post": "QUEM VAI FALTAR NO DIA 19?\nA Logitech liberou um dia pago para 7.000 funcionários jogarem, e a BambooHR vê pedidos de férias cerca de 13% maiores no lançamento. 18% dos assalariados planejam tirar o dia.\nFonte: Fortune, 10/11/2026\nVai pedir folga, fingir doença ou jogar de noite? #gta6 #gtavi #gamer",
+      "hashtags": ["#gta6", "#gtavi", "#gamer"],
+      "publi": false,
+      "voz_ia": false,
+      "produtos": [],
+      "cenas": [
+        {
+          "tipo": "gancho",
+          "estilo": "manchete",
+          "kicker": "DIA 19",
+          "titulo": "Quem vai *faltar* pra jogar?",
+          "texto": "Os números do dia do lançamento",
+          "selo": "relato",
+          "fonte": "Fortune, 10/11/2026",
+          "fonte_url": "https://fortune.com/2026/11/10/logitech-gaming-day-off-ahead-of-grand-theft-auto-six-release-ceo-hanneke-faber-boost-productivity/",
+          "fundo_clipe": "busca:leonida keys",
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "lista",
+          "estilo": "tabela",
+          "titulo": "O dia 19 em *números*",
+          "itens": [
+            "7.000: funcionários da Logitech com folga para jogar",
+            "13%: alta nos pedidos de férias na data (BambooHR)",
+            "18%: assalariados que planejam tirar o dia",
+            "1,5 milhão: trabalhadores que podem faltar nos EUA"
+          ],
+          "rodape": "Dados da Fortune, 10/11/2026.",
+          "selo": "relato",
+          "fonte": "Fortune, 10/11/2026",
+          "fonte_url": "https://fortune.com/2026/11/10/logitech-gaming-day-off-ahead-of-grand-theft-auto-six-release-ceo-hanneke-faber-boost-productivity/",
+          "fundo_clipe": "busca:port gellhorn",
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "O *Logi Game Day*",
+          "texto": "Todo funcionário, de efetivo a estagiário, ganha um dia pago para jogar o que quiser, valendo até o mesmo período de 2027. A CEO Hanneke Faber pretende jogar em 19 de novembro.",
+          "selo": "relato",
+          "fonte": "Fortune, 10/11/2026",
+          "fonte_url": "https://fortune.com/2026/11/10/logitech-gaming-day-off-ahead-of-grand-theft-auto-six-release-ceo-hanneke-faber-boost-productivity/",
+          "fundo_clipe": "busca:vice city paisagem",
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "A *desculpa* do atestado",
+          "texto": "Segundo a pesquisa citada pela Fortune, metade dos gamers que pretendem faltar para jogar lançamentos diz que vai ligar dizendo estar doente, em vez de pedir folga com antecedência.",
+          "selo": "relato",
+          "fonte": "Fortune, 10/11/2026",
+          "fonte_url": "https://fortune.com/2026/11/10/logitech-gaming-day-off-ahead-of-grand-theft-auto-six-release-ceo-hanneke-faber-boost-productivity/",
+          "fundo_clipe": "busca:assalto carro",
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "texto",
+          "kicker": "NO BRASIL",
+          "titulo": "Dia 19 cai numa *quinta*",
+          "texto": "O lançamento é em 19 de novembro, quinta-feira, dia útil. A Logitech é uma empresa suíça: o programa vale para os funcionários dela, não muda nada para quem trabalha no Brasil.",
+          "selo": "relato",
+          "fonte": "Fortune, 10/11/2026",
+          "fonte_url": "https://fortune.com/2026/11/10/logitech-gaming-day-off-ahead-of-grand-theft-auto-six-release-ceo-hanneke-faber-boost-productivity/",
+          "fundo_clipe": "busca:ambrosia cartão-postal",
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "cta",
+          "titulo": "Qual sua *desculpa*?",
+          "texto": "Conta nos comentários. Segue a GG Explica até o dia 19.",
+          "fundo_clipe": "busca:pôr do sol",
+          "credito": "Imagens: Rockstar Games"
+        }
+      ],
+      "notas_revisao": "Mesmo assunto do reel das 19h, ângulo dado/tabela. RELATO: Fortune (10/11/2026) lida nesta execução. A empresa ser suíça é conhecimento geral, não da Fortune: confira ou troque por 'a Logitech'."
     }
   ]
 }
