@@ -70,3 +70,19 @@ def test_assunto_da_imagem_junta_versoes_do_mesmo_personagem():
     assert assunto_da_imagem("clipes/oficial/screenshots/Boobie_Ike_04.jpg") == "boobie_ike"
     assert assunto_da_imagem("clipes/oficial/artes_e_wallpapers/Boobie_Ike_portrait.jpg") == "boobie_ike"
     assert assunto_da_imagem("x/Leonida_Keys_Postcard_tablet.jpg") == "leonida_keys"
+
+
+def test_baixar_videos_oficiais_registra_no_estado(tmp_path, monkeypatch):
+    from unittest.mock import MagicMock
+    from pipeline import biblioteca
+    monkeypatch.setattr(biblioteca, "PASTA_OFICIAL", tmp_path)
+    monkeypatch.setattr(biblioteca, "ESTADO", tmp_path / "biblioteca.json")
+    resp = MagicMock(status_code=200)
+    resp.__enter__.return_value = resp
+    resp.iter_content.return_value = [b"x" * 2_000_000]
+    sessao = MagicMock()
+    sessao.get.return_value = resp
+    novos = biblioteca.baixar_videos([{"nome": "extended", "url": "https://videos.x/v.mp4"}], sessao, mostrar=lambda *_: None)
+    assert novos and (tmp_path / "trailers" / "extended.mp4").exists()
+    assert "https://videos.x/v.mp4" in (tmp_path / "biblioteca.json").read_text()
+    assert biblioteca.baixar_videos([{"nome": "extended", "url": "https://videos.x/v.mp4"}], sessao) == []

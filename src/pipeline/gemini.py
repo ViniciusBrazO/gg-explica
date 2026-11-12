@@ -5,6 +5,7 @@ chave pode usar (`gemini.modelo: auto` em config/automacao.yaml), ou o nome fixo
 """
 from __future__ import annotations
 
+import base64
 import json
 import os
 import re
@@ -62,7 +63,7 @@ def escolher_modelo(preferido: str = "auto", sessao=None) -> str:
 
 
 def gerar_json(instrucoes: str, conteudo: str, modelo: str = "auto", temperatura: float = 0.8,
-               tentativas: int = 2, sessao=None) -> dict:
+               tentativas: int = 2, sessao=None, imagens: list[bytes] | None = None) -> dict:
     """Pede uma resposta em JSON. Repete em erro temporário (429/500/503) com espera crescente."""
     s = sessao or requests.Session()
     ultimo = ""
@@ -72,7 +73,9 @@ def gerar_json(instrucoes: str, conteudo: str, modelo: str = "auto", temperatura
     for nome in cheios + cheios + [m for m in todos if "lite" in m][:3]:
         corpo = {
             "systemInstruction": {"parts": [{"text": instrucoes}]},
-            "contents": [{"role": "user", "parts": [{"text": conteudo}]}],
+            "contents": [{"role": "user", "parts": [{"text": conteudo}] + [
+                {"inline_data": {"mime_type": "image/jpeg", "data": base64.b64encode(b).decode()}}
+                for b in (imagens or [])]}],
             "generationConfig": {"temperature": temperatura, "responseMimeType": "application/json"},
         }
         for k in range(tentativas):

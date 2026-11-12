@@ -61,6 +61,11 @@ biblioteca:
       url: https://media-rockstargames-com.akamaized.net/VI/downloads/screenshots/GTAVI_Ultimate_Edition_Benefits.zip
     - nome: vintage_vice_city_pack
       url: https://media-rockstargames-com.akamaized.net/VI/downloads/screenshots/GTAVI_Vintage_Vice_City_Pack.zip
+  # Vídeos de GTA VI servidos pelo player oficial da Rockstar (rockstargames.com/videos), não pelo YouTube.
+  # Em 12/11/2026 só o "An Extended Look" estava lá; os trailers 1, 2 e de lançamento são do YouTube.
+  videos:
+    - nome: gta6_an_extended_look
+      url: https://videos-rockstargames-com.akamaized.net/v4/rk721912/flv/en-us-1080p.mp4
 
 # ---------------------------------------------------------------- sugestões de comentário
 # 12h e 19h: o kit lê (API oficial) os posts recentes destas páginas e manda no Telegram um comentário

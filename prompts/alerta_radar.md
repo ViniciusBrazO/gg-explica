@@ -48,8 +48,9 @@ com bom senso e o post sai sozinho (o Vinicius recebe o aviso no Telegram e pode
 > Quando `saida/estado_voz.txt` diz `desligada`, siga a regra de formato abaixo (só carrossel).
 
 > **Visual do Reel (pedido do Vinicius, 11/11 e 12/11): imagem oficial rodando lisa, sem gravação.**
-> A biblioteca oficial tem 138 screenshots, 27 artes e só clipes de 1 s (os trailers não estão no
-> pacote de download da Rockstar; o Vinicius não tem o jogo para gravar). Então: **uma imagem oficial
+> A biblioteca oficial tem 138 screenshots, 27 artes clipes de 1 s e, desde 12/11, o vídeo oficial "An Extended
+> Look" cortado plano a plano (do player da própria Rockstar; os trailers 1, 2 e de lançamento só existem
+> no YouTube e ficam de fora). Use `tela_cheia` com `"busca:..."` de ação para cair num trecho dele. Então: **uma imagem oficial
 > diferente por cena**, de preferência `tela_cheia` ou `fundo_clipe` com `"busca:..."` de cena com
 > ação ou paisagem (carro, praia, cidade à noite, lancha, personagem), cortes de 2 a 4 segundos. O kit
 > faz o movimento (zoom e panorâmica suaves em 60 fps), o título palavra por palavra, a transição e a

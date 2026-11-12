@@ -153,6 +153,47 @@ def _credito_padrao(arquivo: Path) -> str:
     return "Imagens: Rockstar Games" if "oficial" in arquivo.parts else ""
 
 
+def etiquetar_momentos(pasta: Path = PASTA_CLIPES, por_lote: int = 24, mostrar=print) -> int:
+    """Descreve cada plano dos vídeos oficiais (o que aparece, em palavras de busca) olhando um quadro
+    do meio do plano. Marca para descarte logo, texto/cartela, tela preta e créditos. Usa o Gemini."""
+    from .gemini import disponivel, gerar_json
+    if not disponivel():
+        raise RuntimeError("falta GEMINI_API_KEY")
+    arq = pasta / "catalogo.json"
+    catalogo = json.loads(arq.read_text(encoding="utf-8"))
+    feitos = 0
+    instrucoes = (
+        "Você cataloga quadros de trailers oficiais de GTA VI para um editor de vídeo. Para cada imagem, na "
+        "ordem, devolva o_que_mostra: 6 a 12 palavras-chave em português do Brasil, minúsculas, separadas por "
+        "vírgula (lugar, objeto, ação, clima, horário; personagem só se tiver certeza: jason, lucia), e "
+        "descartar: true se for logotipo, cartela de texto, legenda, tela preta, créditos ou quadro borrado. "
+        "Responda {\"quadros\": [{\"n\": 1, \"o_que_mostra\": \"...\", \"descartar\": false}, ...]}.")
+    for e in catalogo:
+        if e.get("tipo") != "video":
+            continue
+        pendentes = [m for m in e.get("momentos", []) if not m.get("o_que_mostra") and not m.get("descartar")]
+        for k in range(0, len(pendentes), por_lote):
+            lote = pendentes[k:k + por_lote]
+            quadros = []
+            for m in lote:
+                meio = (float(m["inicio"]) + float(m["fim"])) / 2
+                r = subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-ss", f"{meio:.2f}", "-i",
+                                    str(RAIZ / e["arquivo"]), "-frames:v", "1", "-vf", "scale=512:-2", "-q:v", "5",
+                                    "-f", "image2", "-c:v", "mjpeg", "pipe:1"], capture_output=True)
+                quadros.append(r.stdout)
+            resposta = gerar_json(instrucoes, f"{len(quadros)} quadros, na ordem.", temperatura=0.2,
+                                  imagens=quadros)
+            for item in resposta.get("quadros", []):
+                n = int(item.get("n", 0)) - 1
+                if 0 <= n < len(lote):
+                    lote[n]["o_que_mostra"] = (item.get("o_que_mostra") or "").strip()
+                    lote[n]["descartar"] = bool(item.get("descartar"))
+                    feitos += 1
+            arq.write_text(json.dumps(catalogo, ensure_ascii=False, indent=1), encoding="utf-8")
+    mostrar(f"  {feitos} trecho(s) de vídeo descrito(s)")
+    return feitos
+
+
 def catalogar(pasta: Path = PASTA_CLIPES, intervalo: float = 2.0) -> list[dict]:
     """Cataloga vídeos (com cortes por plano) e imagens novos. Devolve as entradas novas."""
     from PIL import Image
@@ -258,7 +299,7 @@ def registrar_uso(escolha: Escolha) -> None:
     ARQUIVO_USO.write_text(json.dumps(uso, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-MIN_SEGUNDOS_VIDEO = 3.0     # abaixo disso o clipe vira um loop que pisca
+MIN_SEGUNDOS_VIDEO = 1.6     # os clipes de 1 s do pacote viram um loop que pisca; plano de trailer passa
 
 
 def buscar_clipe(consulta: str, pasta: Path = PASTA_CLIPES, aceitar_spoiler: bool = False,

@@ -87,5 +87,40 @@ def atualizar(sessao=None, so: Optional[str] = None, mostrar=print) -> list[Path
         ESTADO.parent.mkdir(parents=True, exist_ok=True)
         ESTADO.write_text(json.dumps(estado, ensure_ascii=False, indent=2), encoding="utf-8")
         mostrar(f"  {pacote['nome']}: {len(extraidos)} arquivo(s) novo(s)")
+    novos += baixar_videos(cfg.get("videos", []), sessao, mostrar)
     catalogar(PASTA_CLIPES)        # também refaz as folhas quando a biblioteca foi baixada de novo
+    try:
+        from .catalogo import etiquetar_momentos
+        etiquetar_momentos(mostrar=mostrar)
+    except Exception as e:          # sem Gemini, os trechos ficam sem descrição até a próxima vez
+        mostrar(f"  etiquetas dos trechos: {e}")
+    return novos
+
+
+def baixar_videos(videos: list[dict], sessao, mostrar=print) -> list[Path]:
+    """Vídeos oficiais servidos pelo CDN de vídeos da própria Rockstar (rockstargames.com/videos):
+    baixa uma vez para clipes/oficial/trailers e cataloga plano a plano."""
+    pasta = PASTA_OFICIAL / "trailers"
+    novos = []
+    for v in videos:
+        destino = pasta / f"{v['nome']}.mp4"
+        if destino.exists() and destino.stat().st_size > 1_000_000:
+            continue
+        pasta.mkdir(parents=True, exist_ok=True)
+        mostrar(f"  {v['nome']}: baixando do site oficial da Rockstar...")
+        with sessao.get(v["url"], stream=True, timeout=120) as r:
+            if r.status_code >= 400:
+                mostrar(f"  {v['nome']}: o servidor respondeu {r.status_code}")
+                continue
+            with open(destino, "wb") as f:
+                for pedaco in r.iter_content(1024 * 1024):
+                    f.write(pedaco)
+        mostrar(f"  {v['nome']}: {destino.stat().st_size / 1e6:.0f} MB")
+        novos.append(destino)
+        # entra no estado da biblioteca: a chave do cache muda e o vídeo fica guardado para as próximas rodadas
+        estado = _estado()
+        estado[v["url"]] = {"assinatura": str(destino.stat().st_size), "atualizado": datetime.now().isoformat(),
+                            "arquivos": 1}
+        ESTADO.parent.mkdir(parents=True, exist_ok=True)
+        ESTADO.write_text(json.dumps(estado, ensure_ascii=False, indent=2), encoding="utf-8")
     return novos
