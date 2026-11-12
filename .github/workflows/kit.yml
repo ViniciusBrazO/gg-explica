@@ -84,7 +84,7 @@ jobs:
           cache-dependency-path: pyproject.toml
 
       - name: Kit
-        run: pip install -e . --quiet
+        run: pip install -e ".[azure]" --quiet   # a voz Antonio (Azure) precisa do SDK em toda rodada
 
       - name: Slides e vídeos já prontos (cache)
         uses: actions/cache/restore@v4

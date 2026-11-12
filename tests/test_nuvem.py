@@ -95,3 +95,13 @@ def test_so_carrossel_bloqueia_reel(monkeypatch):
                                   {"tipo": "cta", "titulo": "b", "texto": "c", "narracao": "b"}]})
     bloqueios, _ = qualidade.checar_pauta(carregar_marca("gg_explica"), v)
     assert any("carrossel" in b for b in bloqueios)
+
+
+def test_workflow_instala_a_voz_azure():
+    """A marca usa a voz do Azure: sem o SDK no servidor, as prévias quebram e nada é renderizado."""
+    from pathlib import Path
+    import yaml
+    raiz = Path(__file__).resolve().parents[1]
+    voz = yaml.safe_load((raiz / "config/marcas/gg_explica.yaml").read_text(encoding="utf-8"))["voz"]["provedor"]
+    if voz == "azure":
+        assert '.[azure]' in (raiz / ".github/workflows/kit.yml").read_text(encoding="utf-8")
