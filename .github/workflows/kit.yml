@@ -210,7 +210,8 @@ jobs:
           key: midia-${{ github.run_id }}
 
       - name: Guardar a biblioteca (cache)
-        if: always() && steps.plano.outputs.pesado == 'true' && steps.clipes.outputs.cache-hit != 'true'
+        if: always() && steps.plano.outputs.pesado == 'true'
+        continue-on-error: true      # a chave já existe = nada mudou na biblioteca
         uses: actions/cache/save@v4
         with:
           path: |

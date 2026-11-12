@@ -153,7 +153,7 @@ def _credito_padrao(arquivo: Path) -> str:
     return "Imagens: Rockstar Games" if "oficial" in arquivo.parts else ""
 
 
-def etiquetar_momentos(pasta: Path = PASTA_CLIPES, por_lote: int = 24, mostrar=print) -> int:
+def etiquetar_momentos(pasta: Path = PASTA_CLIPES, por_lote: int = 24, mostrar=print, max_lotes: int = 3) -> int:
     """Descreve cada plano dos vídeos oficiais (o que aparece, em palavras de busca) olhando um quadro
     do meio do plano. Marca para descarte logo, texto/cartela, tela preta e créditos. Usa o Gemini."""
     from .gemini import disponivel, gerar_json
@@ -173,6 +173,9 @@ def etiquetar_momentos(pasta: Path = PASTA_CLIPES, por_lote: int = 24, mostrar=p
             continue
         pendentes = [m for m in e.get("momentos", []) if not m.get("o_que_mostra") and not m.get("descartar")]
         for k in range(0, len(pendentes), por_lote):
+            if max_lotes <= 0:
+                break
+            max_lotes -= 1
             lote = pendentes[k:k + por_lote]
             quadros = []
             for m in lote:

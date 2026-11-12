@@ -87,13 +87,9 @@ def atualizar(sessao=None, so: Optional[str] = None, mostrar=print) -> list[Path
         ESTADO.parent.mkdir(parents=True, exist_ok=True)
         ESTADO.write_text(json.dumps(estado, ensure_ascii=False, indent=2), encoding="utf-8")
         mostrar(f"  {pacote['nome']}: {len(extraidos)} arquivo(s) novo(s)")
-    novos += baixar_videos(cfg.get("videos", []), sessao, mostrar)
+    # vídeo do player oficial não é "material novo da Rockstar": não dispara alerta nem post
+    baixar_videos(cfg.get("videos", []), sessao, mostrar)
     catalogar(PASTA_CLIPES)        # também refaz as folhas quando a biblioteca foi baixada de novo
-    try:
-        from .catalogo import etiquetar_momentos
-        etiquetar_momentos(mostrar=mostrar)
-    except Exception as e:          # sem Gemini, os trechos ficam sem descrição até a próxima vez
-        mostrar(f"  etiquetas dos trechos: {e}")
     return novos
 
 

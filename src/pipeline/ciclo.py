@@ -147,6 +147,15 @@ def rodar(publicar: bool = True) -> int:
             if n:
                 _log(f"{n} prévia(s) enviada(s) para aprovação")
 
+    def trechos_de_video():
+        """Descreve (Gemini) uns 70 planos dos vídeos oficiais por rodada pesada, até acabar."""
+        if os.environ.get("RODADA") == "leve":
+            return
+        from .catalogo import etiquetar_momentos
+        from .gemini import disponivel
+        if disponivel():
+            etiquetar_momentos(mostrar=_log)
+
     def instagram():
         from .cli import cmd_publicar
         cmd_publicar(Namespace(simular=False))
@@ -154,6 +163,7 @@ def rodar(publicar: bool = True) -> int:
     try:
         etapa("material salvo", clipes)
         etapa("biblioteca oficial", material_oficial)
+        etapa("trechos de vídeo", trechos_de_video)
         etapa("radar", noticias)
         etapa("notícias guardadas", alertas_guardados)
         etapa("respostas do Telegram", respostas)
