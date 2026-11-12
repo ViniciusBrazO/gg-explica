@@ -169,6 +169,12 @@ def conferir(marca_id: str, sessao: requests.Session | None = None) -> list[str]
         return [f"falta META_TOKEN_{chave} no .env"]
     eu = _checar(s.get(f"{GRAPH}/{versao()}/me", params={"fields": "id,name", "access_token": token}, timeout=30))
     linhas.append(f"token ok: {eu.get('name', '?')} ({eu.get('id')})")
+    try:
+        perms = _checar(s.get(f"{GRAPH}/{versao()}/me/permissions", params={"access_token": token}, timeout=30))
+        dadas = sorted(x["permission"] for x in perms.get("data", []) if x.get("status") == "granted")
+        linhas.append("permissões: " + ", ".join(dadas))
+    except ErroMeta as e:
+        linhas.append(f"permissões: não deu para ler ({e})")
     if not page:
         return linhas + [f"falta FB_PAGE_ID_{chave} no .env"]
     pagina = _campo_da_pagina(page, token, "name,instagram_business_account{id,username}", s)
