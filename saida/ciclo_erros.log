@@ -140,3 +140,43 @@ Traceback (most recent call last):
   File "/home/runner/work/gg-explica/gg-explica/src/pipeline/montagem.py", line 89, in da_cena
     raise FileNotFoundError(f"nenhum clipe do catálogo para '{cena.fundo_clipe if fundo else cena.midia}'")
 FileNotFoundError: nenhum clipe do catálogo para 'busca:boate noite'
+
+[2026-11-12 17:11] trechos de vídeo
+Traceback (most recent call last):
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/ciclo.py", line 60, in etapa
+    funcao()
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/ciclo.py", line 157, in trechos_de_video
+    etiquetar_momentos(mostrar=_log)
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/catalogo.py", line 187, in etiquetar_momentos
+    resposta = gerar_json(instrucoes, f"{len(quadros)} quadros, na ordem.", temperatura=0.2,
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/gemini.py", line 95, in gerar_json
+    raise ErroGemini(f"{nome}: HTTP {r.status_code}: {r.text[:500]}")
+pipeline.gemini.ErroGemini: gemini-3-flash-preview: HTTP 400: {
+  "error": {
+    "code": 400,
+    "message": "Unable to process input image. Please retry or report in https://developers.generativeai.google/guide/troubleshooting",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+
+[2026-11-12 17:11] prévias
+Traceback (most recent call last):
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/ciclo.py", line 60, in etapa
+    funcao()
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/ciclo.py", line 146, in previas
+    n = telegram.enviar_para_aprovacao(tg, cfg["telegram"].get("enviar_dias_a_frente", 1))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/telegram.py", line 186, in enviar_para_aprovacao
+    r = produzir(marca, v, previa=False)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/producao.py", line 110, in produzir
+    info = renderizar_video(marca, video, pasta, voz_forcada=voz, registrar_clipes=not previa)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/montagem.py", line 496, in renderizar_video
+    fundo_midia = MidiaCena.da_cena(cena, fundo=True, evitar=evitar_aqui | set(usadas), semente=video.id) \
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/montagem.py", line 89, in da_cena
+    raise FileNotFoundError(f"nenhum clipe do catálogo para '{cena.fundo_clipe if fundo else cena.midia}'")
+FileNotFoundError: nenhum clipe do catálogo para 'busca:boate noite'
