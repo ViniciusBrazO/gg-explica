@@ -72,3 +72,27 @@ Traceback (most recent call last):
     import azure.cognitiveservices.speech as sdk  # import tardio: só quem usa Azure precisa instalar
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ModuleNotFoundError: No module named 'azure'
+
+[2026-11-12 07:38] prévias
+Traceback (most recent call last):
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/ciclo.py", line 60, in etapa
+    funcao()
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/ciclo.py", line 146, in previas
+    n = telegram.enviar_para_aprovacao(tg, cfg["telegram"].get("enviar_dias_a_frente", 1))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/telegram.py", line 181, in enviar_para_aprovacao
+    r = produzir(marca, v, previa=False)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/producao.py", line 110, in produzir
+    info = renderizar_video(marca, video, pasta, voz_forcada=voz, registrar_clipes=not previa)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/montagem.py", line 433, in renderizar_video
+    voz = criar_voz(marca, voz_forcada)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/voz.py", line 255, in criar_voz
+    voz = Azure(marca.voz["azure"])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/voz.py", line 154, in __init__
+    import azure.cognitiveservices.speech as sdk  # import tardio: só quem usa Azure precisa instalar
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'azure'
