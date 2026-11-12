@@ -378,5 +378,33 @@
     "imagens": [],
     "estilo_capa": "base",
     "registrado": "2026-11-12T09:15"
+  },
+  "2026-11-12|radar_2026-11-12_logitech_folga_reel": {
+    "data": "2026-11-12",
+    "horario": "19:00",
+    "imagens": [
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@209.0",
+      "clipes/oficial/ultimate_edition/ULTIMATE_EDITION_SQUALO_01.jpg",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@353.3",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@364.9",
+      "clipes/oficial/screenshots/Grassrivers_01.jpg",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@6.0"
+    ],
+    "estilo_capa": "impacto",
+    "registrado": "2026-11-12T18:22"
+  },
+  "2026-11-12|radar_2026-11-12_logitech_folga": {
+    "data": "2026-11-12",
+    "horario": "21:00",
+    "imagens": [
+      "clipes/oficial/screenshots/Leonida_Keys_01.jpg",
+      "clipes/oficial/screenshots/Port_Gellhorn_03.jpg",
+      "clipes/oficial/screenshots/Vice_City_12.jpg",
+      "saida/carrosseis/gg_explica/2026-11-12_radar_2026-11-12_logitech_folga/_trabalho/quadro_03.jpg",
+      "clipes/oficial/artes_e_wallpapers/Ambrosia_Postcard_tablet.jpg",
+      "saida/carrosseis/gg_explica/2026-11-12_radar_2026-11-12_logitech_folga/_trabalho/quadro_05.jpg"
+    ],
+    "estilo_capa": "topo",
+    "registrado": "2026-11-12T18:23"
   }
 }

@@ -221,5 +221,21 @@
     "situacao": "agendado",
     "message_id": 235,
     "enviado": "2026-11-12T08:37:32.299590"
+  },
+  "2e9fa38d0c": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-12_gg_explica.json",
+    "video": "radar_2026-11-12_logitech_folga_reel",
+    "impressao": "a6888626622c",
+    "situacao": "agendado",
+    "message_id": 251,
+    "enviado": "2026-11-12T18:23:42.434054"
+  },
+  "4156f7632f": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-12_gg_explica.json",
+    "video": "radar_2026-11-12_logitech_folga",
+    "impressao": "b380dabc532a",
+    "situacao": "agendado",
+    "message_id": 258,
+    "enviado": "2026-11-12T18:24:21.700559"
   }
 }
