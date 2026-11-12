@@ -308,7 +308,9 @@ def buscar_clipe(consulta: str, pasta: Path = PASTA_CLIPES, aceitar_spoiler: boo
     if not melhores:
         return None
     if evitar:
-        livres = [m for m in melhores if chave_uso(m[3]) not in evitar and m[3].entrada["arquivo"] not in evitar]
+        from .variedade import assunto_da_imagem
+        livres = [m for m in melhores if chave_uso(m[3]) not in evitar and m[3].entrada["arquivo"] not in evitar
+                  and "assunto:" + assunto_da_imagem(m[3].entrada["arquivo"]) not in evitar]
         melhores = livres or melhores
     melhores.sort(key=lambda x: (x[0], x[1], x[2]), reverse=True)
     return melhores[0][3]

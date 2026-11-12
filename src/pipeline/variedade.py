@@ -7,6 +7,8 @@
 """
 from __future__ import annotations
 
+import re
+
 import hashlib
 import json
 from datetime import date, datetime, timedelta
@@ -72,6 +74,24 @@ def imagens_de_outros(video: Video) -> set[str]:
     for v in _outros_posts(video):
         usadas.update(_caminhos_diretos(v))
     return usadas
+
+
+def assunto_da_imagem(arquivo: str) -> str:
+    """Quem ou o que está na imagem, pelo nome do arquivo oficial: Boobie_Ike_04.jpg e
+    Boobie_Ike_portrait.jpg são o mesmo assunto ("boobie_ike")."""
+    nome = Path(arquivo).stem.lower()
+    nome = re.sub(r"(_(portrait|tablet|square|landscape|desktop|mobile|postcard|\d+))+$", "", nome)
+    return nome
+
+
+def assuntos_de_capas(video: Video) -> set[str]:
+    """Assuntos das capas (primeira imagem) dos posts próximos, no formato que a busca entende
+    ("assunto:<nome>"): a capa deste post não repete o rosto ou o lugar da capa de outro."""
+    capas: set[str] = set()
+    for k, info in _carregar().items():
+        if k != chave(video) and _perto(info.get("data", "1970-01-01"), video.data) and info.get("imagens"):
+            capas.add("assunto:" + assunto_da_imagem(info["imagens"][0]))
+    return capas
 
 
 def registrar(video: Video, imagens: list[str], estilo: str) -> None:

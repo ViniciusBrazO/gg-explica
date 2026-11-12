@@ -63,3 +63,10 @@ def test_busca_evita_e_varia_pela_semente():
         pytest.skip("catálogo vazio")
     outra = buscar_clipe("vice city", semente="post1", evitar={primeira.entrada["arquivo"]})
     assert outra is not None and outra.entrada["arquivo"] != primeira.entrada["arquivo"]
+
+
+def test_assunto_da_imagem_junta_versoes_do_mesmo_personagem():
+    from pipeline.variedade import assunto_da_imagem
+    assert assunto_da_imagem("clipes/oficial/screenshots/Boobie_Ike_04.jpg") == "boobie_ike"
+    assert assunto_da_imagem("clipes/oficial/artes_e_wallpapers/Boobie_Ike_portrait.jpg") == "boobie_ike"
+    assert assunto_da_imagem("x/Leonida_Keys_Postcard_tablet.jpg") == "leonida_keys"

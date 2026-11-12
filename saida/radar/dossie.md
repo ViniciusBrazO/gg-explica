@@ -20,6 +20,21 @@ Link: https://news.google.com/rss/articles/CBMiWEFVX3lxTE9DTFNaYTVUeVZJLXlveVBvT
 
 ## Assunto 2
 
+### polygon.com (2026-11-12), selo sugerido relato
+Manchete: GTA 6 Map Seemingly Leaks at Merch Drop Event
+Link: https://www.polygon.com/gta-6-map-leonidas-leak-merch-drop/
+
+(só a manchete: a matéria não abriu)
+
+### videogameschronicle.com (2026-11-12), selo sugerido relato
+Manchete: GTA 6 map seemingly leaks at Selfridges merch drop
+Link: https://www.videogameschronicle.com/news/gta-6-map-seemingly-leaks-at-selfridges-merch-drop/
+
+(só a manchete: a matéria não abriu)
+
+
+## Assunto 3
+
 ### eTeknix (2026-11-12), selo sugerido rumor
 Manchete: Logitech Gives 7,000 Employees a Paid Day Off to Play GTA 6 - eTeknix
 Link: https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZ2Y0NnlHUmwwZmFKQ1F4ZDR2Y3JyOFFoZVRBM0U5QTJwRHJ0elVDd1N2NnVpRU1naWhVNXBFOXlBTGxqYmxFOTctYUQzVmlPd3U0My1LZHFLRDhxOS1ySlQyOWdFYWt3WUZyZVBrQzlxVy1qelRRd3p2Uml4REZLdU5DUm1kS1RMdVpr?oc=5
@@ -41,7 +56,30 @@ Link: https://news.google.com/rss/articles/CBMixgFBVV95cUxPZDZValgtcE52QmVGQ3JNR
 Outras manchetes: Logitech Gives Its Employees a Day Off for Grand Theft Auto 6 Launch - CNET | One Company Is Giving All Of Its 7,000 Employees The Day Off To Play GTA 6 - Kotaku
 
 
-## Assunto 3
+## Assunto 4
+
+### Happy Gamer (2026-11-12), selo sugerido rumor
+Manchete: Crimson Desert Wins PC Game of the Year at the 2026 Golden Joysticks - Happy Gamer
+Link: https://news.google.com/rss/articles/CBMimAFBVV95cUxOVU5XeFlYMWxDck00bjNDbTgydzc5R2drVGlRTDJNUVlFMFlOZFBHUmR5RGdEZGpWNHk5ZDJoNzFSTHpidnNWZ2FtZHZMYzJGUkIxTXhNeDJDcFB0VWNsT3Y1UHJtME9yRGVNdGlJcXA1LWhNQ0xhamxUZC1sZnYtaThrSTJYRWJyd1plQ1lINDM3Z1ZwWGFJZg?oc=5
+
+(só a manchete: a matéria não abriu)
+
+### CD PROJEKT RED | Relacje Inwestorskie (2026-11-12), selo sugerido rumor
+Manchete: The Witcher Wins Two Awards at 2026 Golden Joysticks - CD PROJEKT RED | Relacje Inwestorskie
+Link: https://news.google.com/rss/articles/CBMimAFBVV95cUxQaENqak52elI0RWNfWFpBeHJOOWdVOTJuLWxtRkx3Wmd5OTZ1SzhRQV9lWG9GY013Ri0yOVM3SWxGU0VaTkxWSlVLOUlIMHZPa3VmSEl3QkxQOUdpQXc1QUpDZG1iVVNiZDZWWUJsbWwybUJuY2NpaTY1V2ZiTktMelpZZkFMTUhoblpKa3BHcU1nNEgxNXNySw?oc=5
+
+(só a manchete: a matéria não abriu)
+
+### Chosunbiz (2026-11-12), selo sugerido rumor
+Manchete: Crimson Desert Enhanced wins Golden Joystick 2026 PC game of the year - Chosunbiz
+Link: https://news.google.com/rss/articles/CBMijgFBVV95cUxPQTN6UUVlUS1JRjJnd3NWVVEzcWFkU25haGZNekJ0Nm93eTFFcDFzSXRnVk5WNVlQeVpDeHEzMi1FQjRiNWtadHJBOE9ZbWpRMHN4R0V4aWVQdkw3bU5ySURKbXhud1pzUkFKYlNvZ1dvVl9Xamx0WndocTBUUy1GbUxESEVLYzVxcnZZd0xB0gGOAUFVX3lxTE9BM3pRRWVRLUlGMmd3c1ZVUTNxYWRTbmFoZk16QnQ2b3d5MUVwMXNJdGdWTlY1WVB5WkN4cTMyLUVCNGI1a1p0ckE4T1ltalEwc3hHRXhpZVB2TDdtTnJJREpteG53WnNSQUpiU29nV29WX1dqbHRad2hxMFRTLUZtTERIRUtjNXFydll3TEE?oc=5
+
+(só a manchete: a matéria não abriu)
+
+Outras manchetes: Crimson Desert Enhanced Wins PC Game of the Year at Golden Joystick Awards 2026 - Enduins | Pergo's "Crimson Desert" Wins "PC Game of the Year" at the Golden Joystick Awards - 머니투데이
+
+
+## Assunto 5
 
 ### ign.com (2026-11-12), selo sugerido relato
 Manchete: Popeyes Is Riding the GTA 6 Hype With a New 'Spice City' Chicken Sandwich
@@ -62,7 +100,7 @@ Link: https://news.google.com/rss/articles/CBMiogFBVV95cUxPV2RoaDBVaU13WFpBY2ZDW
 (só a manchete: a matéria não abriu)
 
 
-## Assunto 4
+## Assunto 6
 
 ### Radio Times (2026-11-12), selo sugerido rumor
 Manchete: GTA 6 release date, UK launch time, pre-orders, trailer and latest news - Radio Times
@@ -77,7 +115,7 @@ Link: https://news.google.com/rss/articles/CBMiXkFVX3lxTE11M0c1Y0hLbHNfbFRkcG40V
 (só a manchete: a matéria não abriu)
 
 
-## Assunto 5
+## Assunto 7
 
 ### canaltech.com.br (2026-11-11), selo sugerido relato
 Manchete: Antes da hora: notas de GTA 6 vazam na PlayStation Store antes do embargo
@@ -92,7 +130,7 @@ Link: https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMmg3SkkzZjQyTERCM1l2c
 (só a manchete: a matéria não abriu)
 
 
-## Assunto 6
+## Assunto 8
 
 ### polygon.com (2026-11-11), selo sugerido relato
 Manchete: New 'GTA 6' Gameplay Leaves Fans Stunned
@@ -103,35 +141,5 @@ Link: https://www.polygon.com/gta-6-new-gameplay-onlyindade-ai-real-fake-rocksta
 ### Polygon.com (2026-11-11), selo sugerido relato
 Manchete: New GTA 6 gameplay video is leaving fans stunned - Polygon.com
 Link: https://news.google.com/rss/articles/CBMijwFBVV95cUxQV0UyZmRWLUZDTElVcGtGMzlpeXk2VmRjbGZXUHhka1ZRa3V5eVdYaG5pbExwX1lFbzRaZkVoTjNHOU5RcnV5Y09sODBWSHJCeVlNYXNKRzlJNmE1c0FEQWVYcFFxTmFNTlBEZnlLMjVteDBtc2RhQ2RXbDFlT1ViZkZOVElkeHR3d0t5ZGxfaw?oc=5
-
-(só a manchete: a matéria não abriu)
-
-
-## Assunto 7
-
-### ign.com (2026-11-11), selo sugerido relato
-Manchete: New GTA 6 Surprise Gameplay Seemingly Released in Yet Another Viral Marketing Stunt
-Link: https://www.ign.com/articles/new-gta-6-surprise-gameplay-seemingly-released-in-yet-another-viral-marketing-stunt
-
-(só a manchete: a matéria não abriu)
-
-### IGN (2026-11-11), selo sugerido relato
-Manchete: New Surprise Look at GTA 6 Revealed in Another Viral Marketing Stunt on Social Media - IGN
-Link: https://news.google.com/rss/articles/CBMisgFBVV95cUxPZFdnX290VWJtZnJRckN0Z0NBZ3dQRTM0V1UydDBQUG1rS0RLSFB0M0ZHT29wUzQ1N09zWU9TTWs5NHBfM09hbE40N04zZlVQV2ZiS2paVHdOd3FNYzBoSTd5dDVjY0VYZmdoLTFlNHR5Zkx4Q3U0X0E0NHdLNVhxaHkwY3VZaFVjV2d3bktfZFp6WDc4UjRnelpXU2ZjNXVRUDIwSXBxWk1RbXJCMDVpTVN3?oc=5
-
-(só a manchete: a matéria não abriu)
-
-
-## Assunto 8
-
-### ign.com (2026-11-11), selo sugerido relato
-Manchete: GTA 6 Fans Think a Beloved Legacy Character from a Previous Game Is Hiding in the Latest Trailer
-Link: https://www.ign.com/articles/gta-6-fans-think-a-beloved-legacy-character-from-a-previous-game-is-hiding-in-the-latest-trailer
-
-(só a manchete: a matéria não abriu)
-
-### IGN (2026-11-11), selo sugerido relato
-Manchete: Is GTA 6's Newest Trailer Hiding a Beloved Character from a Previous Game in Plain Sight? - IGN
-Link: https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMFdMdk5meWVLS1oxRHY4dzFsN2dpOEgwTkVNeS1XcjM3aVdJZUlLNE9oZ19rbXFXY2U2cVFmZXBEWjRfWS1UZmR3ZEc3dW9RZS14UEJlUlBDM0FsVmZOYUFEU08wOUd5YmU3RU9Wbjg0YlRvajY4RGwtbEZITnZoeWc0NTNVOU9lWkx4cmhuMEVERGZtUWlIZXY4TzlQNjdTbUltX1VodjFybzJybHBnc1pLdGRpUC13NS1NWHJObHpBTmM?oc=5
 
 (só a manchete: a matéria não abriu)

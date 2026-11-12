@@ -465,6 +465,7 @@ def renderizar_video(marca: Marca, video: Video, pasta_saida: Path, voz_forcada:
     from . import variedade
     from .catalogo import chave_uso
     evitar = variedade.imagens_de_outros(video)     # o Reel não repete imagem nem plano de outro post
+    capas_vizinhas = variedade.assuntos_de_capas(video)
     estilo_capa = variedade.estilo_capa(video)
     usadas: list[str] = []
     midia_capa: Optional[tuple[str, float]] = None
@@ -486,11 +487,13 @@ def renderizar_video(marca: Marca, video: Video, pasta_saida: Path, voz_forcada:
             fala = voz.falar(texto_falado, trabalho / f"fala_{i:02d}")
             duracao = max(DURACAO_MINIMA_CENA, fala.duracao + PAUSA_ENTRE_CENAS)
 
-            midia = MidiaCena.da_cena(cena, evitar=evitar | set(usadas), semente=video.id) \
+            # a primeira cena vira a capa: também não repete o rosto/lugar da capa de outro post
+            evitar_aqui = evitar | set(usadas) | (capas_vizinhas if i == 0 else set())
+            midia = MidiaCena.da_cena(cena, evitar=evitar_aqui, semente=video.id) \
                 if cena.tipo in TIPOS_COM_MIDIA else None
             if midia is not None and midia.escolha is not None:
                 usadas.append(chave_uso(midia.escolha))
-            fundo_midia = MidiaCena.da_cena(cena, fundo=True, evitar=evitar | set(usadas), semente=video.id) \
+            fundo_midia = MidiaCena.da_cena(cena, fundo=True, evitar=evitar_aqui | set(usadas), semente=video.id) \
                 if cena.fundo_clipe else None
             if fundo_midia is not None and fundo_midia.escolha is not None:
                 usadas.append(chave_uso(fundo_midia.escolha))

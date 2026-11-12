@@ -87,6 +87,11 @@ class Telegram:
                                       "reply_markup": json.dumps({"inline_keyboard": botoes})},
                                 files={"video": (arquivo.name, f, "video/mp4")})
 
+    def foto(self, arquivo: Path, legenda: str = "") -> dict:
+        with open(arquivo, "rb") as f:
+            return self._chamar("sendPhoto", timeout=120, data={"chat_id": self.chat_id, "caption": legenda[:1024]},
+                                files={"photo": (arquivo.name, f, "image/jpeg")})
+
     def album(self, fotos: list[Path]) -> None:
         """Manda os slides de um carrossel (o Telegram agrupa de 2 a 10 fotos por mensagem)."""
         for i in range(0, len(fotos), 10):

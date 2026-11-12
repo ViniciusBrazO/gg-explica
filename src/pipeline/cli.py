@@ -484,6 +484,53 @@ def cmd_diagnostico_reel(args) -> int:
     return 0
 
 
+def cmd_nova_capa(args) -> int:
+    """Troca a capa de um Reel por outra imagem oficial que não repete rosto/lugar de capa recente."""
+    from .carrossel import capa_do_reel
+    from .catalogo import buscar_clipe
+    from .fila import carregar, salvar
+    from .marca import carregar_marca
+    from .modelos import Pauta
+    from .telegram import Telegram
+    from . import variedade
+    video = next((v for arq in sorted((RAIZ / "pautas").glob("*.json"))
+                  for v in _videos_da_pauta(arq) if v.id == args.video_id), None)
+    if video is None:
+        print(f"não achei {args.video_id} nas pautas")
+        return 1
+    marca = carregar_marca(video.marca if hasattr(video, "marca") else args.marca)
+    evitar = variedade.imagens_de_outros(video) | variedade.assuntos_de_capas(video) | set(
+        variedade._carregar().get(variedade.chave(video), {}).get("imagens", [])[:1])
+    escolha = buscar_clipe(args.busca, evitar=evitar, semente=video.id + "|capa2")
+    if escolha is None:
+        print("nenhuma imagem livre para essa busca")
+        return 1
+    estilo = variedade.estilo_capa(video)
+    itens = carregar()
+    alvo = next((i for i in itens if i.id == args.video_id and i.capa), None)
+    destino = Path(alvo.capa).with_name(Path(alvo.capa).stem + "_2.jpg") if alvo else \
+        RAIZ / "saida" / f"{args.video_id}_capa_2.jpg"
+    capa = capa_do_reel(marca, video, (str(escolha.caminho), escolha.inicio), destino, estilo)
+    for i in itens:
+        if i.id == args.video_id and i.status == "pendente":
+            i.capa = str(capa.resolve())
+    salvar(itens)
+    print(f"capa nova: {escolha.entrada['arquivo']} -> {capa}")
+    tg = Telegram.do_ambiente()
+    if tg:
+        tg.foto(capa, f"Capa nova do Reel {args.video_id.split('_', 2)[-1]} "
+                      f"({Path(escolha.entrada['arquivo']).stem}). Ao postar pelo app: Editar capa > Adicionar do rolo da câmera.")
+    return 0
+
+
+def _videos_da_pauta(arq: Path):
+    from .modelos import Pauta
+    try:
+        return Pauta.carregar(arq).videos
+    except Exception:
+        return []
+
+
 def cmd_dossie(args) -> int:
     from .dossie import ARQUIVO, montar
     assuntos, lidas = montar()
@@ -671,6 +718,12 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("arquivo")
     p.add_argument("--marca", default="gg_explica")
     p.set_defaults(func=cmd_diagnostico_reel)
+
+    p = sub.add_parser("nova-capa", help="troca a capa de um Reel por outra imagem oficial")
+    p.add_argument("video_id")
+    p.add_argument("--busca", default="vice city noite")
+    p.add_argument("--marca", default="gg_explica")
+    p.set_defaults(func=cmd_nova_capa)
 
     p = sub.add_parser("dossie", help="abre as matérias do radar para o redator (saida/radar/dossie.md)")
     p.set_defaults(func=cmd_dossie)
