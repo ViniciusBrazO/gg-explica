@@ -132,6 +132,22 @@ class Publicador:
         finally:
             hospedeiro.limpar()
 
+    def testar_envio(self, video: Path, limite_espera_s: int = 300) -> str:
+        """Diagnóstico: cria o contêiner, envia o arquivo e espera o processamento, SEM publicar
+        (o contêiner expira sozinho em 24 h). Devolve 'ok' ou o erro."""
+        try:
+            cont = _checar(self.s.post(self._url(f"{self.c.ig_user_id}/media"), data={
+                "media_type": "REELS", "upload_type": "resumable", "caption": "teste",
+                "share_to_feed": "false", "access_token": self.c.token}, timeout=60))
+            with open(video, "rb") as f:
+                _checar(self.s.post(f"{RUPLOAD}/{self.c.versao}/{cont['id']}", headers={
+                    "Authorization": f"OAuth {self.c.token}", "offset": "0",
+                    "file_size": str(video.stat().st_size)}, data=f, timeout=600))
+            self._esperar(cont["id"], limite_espera_s)
+            return "ok"
+        except Exception as e:
+            return str(e)[:200]
+
     def publicar_reel(self, video: Path, legenda: str, capa_ms: int = 600,
                       no_feed: bool = True, limite_espera_s: int = 900, capa_url: str = "") -> dict:
         tamanho = video.stat().st_size

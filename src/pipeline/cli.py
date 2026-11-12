@@ -434,6 +434,36 @@ def cmd_radar(args) -> int:
     return 0
 
 
+def cmd_diagnostico_reel(args) -> int:
+    """Envia variações de um Reel ao Instagram sem publicar, para achar o que ele recusa."""
+    import subprocess
+    from .instagram import Credenciais, Publicador
+    from .montagem import parametros_instagram
+    from .sonda import duracao
+    orig = Path(args.arquivo)
+    pasta = orig.parent / "_diag"
+    pasta.mkdir(exist_ok=True)
+    d = duracao(orig)
+    variacoes = {
+        "original": None,
+        "primeiros_40s": ["-t", "40"],
+        "30fps": ["-r", "30"],
+        "sem_audio": ["-an"],
+        "ultimos_40s": ["-ss", f"{max(d - 40, 0):.2f}"],
+    }
+    pub = Publicador(Credenciais.da_marca(args.marca))
+    for nome, extra in variacoes.items():
+        arq = orig if extra is None else pasta / f"{nome}.mp4"
+        if extra is not None:
+            params = parametros_instagram()
+            if "-an" in extra:
+                params = [p for k, p in enumerate(params) if p not in ("-c:a", "aac", "-b:a", "128k", "-ar", "48000", "-ac", "2")]
+            subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", *(extra if extra[0] == "-ss" else []),
+                            "-i", str(orig), *(extra if extra[0] != "-ss" else []), *params, str(arq)], check=True)
+        print(f"{nome:14s} {arq.stat().st_size / 1e6:5.1f} MB -> {pub.testar_envio(arq)}", flush=True)
+    return 0
+
+
 def cmd_dossie(args) -> int:
     from .dossie import ARQUIVO, montar
     assuntos, lidas = montar()
@@ -616,6 +646,11 @@ def main(argv: list[str] | None = None) -> int:
 
     p = sub.add_parser("radar", help="busca notícias novas agora")
     p.set_defaults(func=cmd_radar)
+
+    p = sub.add_parser("diagnostico-reel", help="testa variações de um Reel no Instagram sem publicar")
+    p.add_argument("arquivo")
+    p.add_argument("--marca", default="gg_explica")
+    p.set_defaults(func=cmd_diagnostico_reel)
 
     p = sub.add_parser("dossie", help="abre as matérias do radar para o redator (saida/radar/dossie.md)")
     p.set_defaults(func=cmd_dossie)
