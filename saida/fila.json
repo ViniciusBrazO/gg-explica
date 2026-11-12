@@ -540,7 +540,7 @@
     "media_id": "",
     "permalink": "",
     "erro": "HTTP 403: {'message': '(#200) User does not have sufficient administrative permission for this action on this page. If the page business requires Two Factor Authentication, the user also needs to enable Two Factor Authentication.', 'type': 'OAuthException', 'code': 200}",
-    "tentativas": 2,
+    "tentativas": 0,
     "publicado_em": ""
   },
   {
