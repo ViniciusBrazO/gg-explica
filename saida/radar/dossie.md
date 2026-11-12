@@ -81,6 +81,27 @@ Outras manchetes: Crimson Desert Enhanced Wins PC Game of the Year at Golden Joy
 
 ## Assunto 5
 
+### RockstarINTEL (2026-11-12), selo sugerido rumor
+Manchete: YouTube Announces 24-Hour GTA VI Launch Livestream - RockstarINTEL
+Link: https://news.google.com/rss/articles/CBMigwFBVV95cUxNVER0dGcydENvaXZaNm5aTGlmWnZoZjVrSkR1dWJ1MjNPay0wZm1nWllBaDVucWtzc3JHdlU4dVd4NlJsTmd5NnR0c1lNZUdHXzBOeWZORHlPWklzaFltMWM0U2d6c3ZvTXYwclQxR0dwQnhpXzNVN1RVT0VIc0FQMFhBWQ?oc=5
+
+(só a manchete: a matéria não abriu)
+
+### Insider Gaming (2026-11-12), selo sugerido rumor
+Manchete: GTA 6 & YouTube Collaborate For Big 24-Hour Livestream - Insider Gaming
+Link: https://news.google.com/rss/articles/CBMihwFBVV95cUxNUnV2Tlk3THZyTXB4WFpjRXVFdkJwQ19YRElaSG1LM19aSDRMWFhQNW9ISFJKcC1lZE9UOWh5b0NDLU9kQ1l3eU5OTU9Kb3pTVnFLLWQ1SzdaYzYyRVdyUGpuWFV1SGg5WVZPWVM4RzFTQTRGUDhtWWZoN29YSGZINWItZU1YMWM?oc=5
+
+(só a manchete: a matéria não abriu)
+
+### IGN India (2026-11-11), selo sugerido relato
+Manchete: GTA 6: Rockstar Games Announces Special Live Event to Celebrate the Game's Launch - IGN India
+Link: https://news.google.com/rss/articles/CBMivgFBVV95cUxNMndVUGVpUXhFNnc3aXNKcDdxRG1JMTNFSDRLZDFwdVRzQVNaVDRvTi00RGk2NTFzeWpRN05YaGZjM20wRXdLa2p5QXozNnVZd2NSUTNZLUt2Q3pieVJJYmhCMjRoTGdVak5YUnBBYXNJOXpGMFQyaE0ydzQtNHBHTnZUMEhSeEpEeEljWDNTbXJORXA4SjU3OTBibG9zeEFFNFZHbGRuMUx5bmpCTWpSeFJWNHNUUEhVUGVQTElR?oc=5
+
+(só a manchete: a matéria não abriu)
+
+
+## Assunto 6
+
 ### ign.com (2026-11-12), selo sugerido relato
 Manchete: Popeyes Is Riding the GTA 6 Hype With a New 'Spice City' Chicken Sandwich
 Link: https://www.ign.com/articles/popeyes-is-riding-the-gta-6-hype-with-a-new-spice-city-chicken-sandwich
@@ -100,7 +121,22 @@ Link: https://news.google.com/rss/articles/CBMiogFBVV95cUxPV2RoaDBVaU13WFpBY2ZDW
 (só a manchete: a matéria não abriu)
 
 
-## Assunto 6
+## Assunto 7
+
+### Polygon.com (2026-11-12), selo sugerido relato
+Manchete: Disney Plus Is Officially the New Streaming Home of the Game Awards - Polygon.com
+Link: https://news.google.com/rss/articles/CBMimAFBVV95cUxQTnhVLU9BMTNqODVtdmRUSjVoZVVtMkZQWGdzWXg2Z1BXSGYwQW5tZUxjQVJMOHVPZkQzdWQ0RUFYVU5KSVlRUlR5SzBpNVQxd3hjVTB3OUpEaEgxZ0h5ZklCVXR3c0JISDZqNHBlVmVKVHRETkxXMF9XeUtVOVZWSkswU1piaExSTFhmMVJ0WnIyYUpYdVphZQ?oc=5
+
+(só a manchete: a matéria não abriu)
+
+### Insider Gaming (2026-11-12), selo sugerido rumor
+Manchete: The Game Awards to air on Disney Plus - Insider Gaming
+Link: https://news.google.com/rss/articles/CBMibEFVX3lxTE1tQ1k3eHlVMUpwQTVWM01hSVl5REhmbkNNNDhYOE9aY1Uzdjd2TmhqNjJIOEFNb2ZsZGxxYWNtMFd4NHhiWVZ6RnBRVkVOamRSenFtTHFNX2FEM0tlZUNvZ3M2Q01WRUc5WGwzYQ?oc=5
+
+(só a manchete: a matéria não abriu)
+
+
+## Assunto 8
 
 ### Radio Times (2026-11-12), selo sugerido rumor
 Manchete: GTA 6 release date, UK launch time, pre-orders, trailer and latest news - Radio Times
@@ -111,35 +147,5 @@ Link: https://news.google.com/rss/articles/CBMickFVX3lxTE9KZS02aXFPc0h5bVdFdENvb
 ### Eurogamer.net (2026-11-11), selo sugerido relato
 Manchete: GTA 6 Release Date and Time - Eurogamer.net
 Link: https://news.google.com/rss/articles/CBMiXkFVX3lxTE11M0c1Y0hLbHNfbFRkcG40VVpDMXQ2SUg4M3pkQVdaOXNkMHZteU9LUnpIWTl4SjV0UnYzWkExNEd0SWV6VXI3R1pHbklSTEx3VmVuTy1GM3VOWEZGZmc?oc=5
-
-(só a manchete: a matéria não abriu)
-
-
-## Assunto 7
-
-### canaltech.com.br (2026-11-11), selo sugerido relato
-Manchete: Antes da hora: notas de GTA 6 vazam na PlayStation Store antes do embargo
-Link: https://canaltech.com.br/games/antes-da-hora-notas-de-gta-6-vazam-na-playstation-store-antes-do-embargo/
-
-(só a manchete: a matéria não abriu)
-
-### Terra (2026-11-12), selo sugerido rumor
-Manchete: GTA 6 tem primeiras notas vazadas na PlayStation Store antes do lançamento - Terra
-Link: https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMmg3SkkzZjQyTERCM1l2czZvbDJGWWpqQ3Bqci15NmFnZ0RxYjRCNXFMbU93VVA1SG9hY1JaTlctRU5JUVU5UVZRblE3Z1JwVHlqYkw3SVozcE5XUEtwZ1Z1SjI2ejFfWmF3NEYtZU44TklqQTNnOWoydGtieElQdVdUYmtTdzdFS2lZQlloSHlEdmhSbUNBU1ViUk56QjhEa2FfdmdvSDVqVTF0bFZ1S1ZOa1d3TTNSbFpWcHo1T0FOeTlDSGRxR2tnVFlFRW9oaXVFVEs1Z1hZczhscGppLWg1ZDA?oc=5
-
-(só a manchete: a matéria não abriu)
-
-
-## Assunto 8
-
-### polygon.com (2026-11-11), selo sugerido relato
-Manchete: New 'GTA 6' Gameplay Leaves Fans Stunned
-Link: https://www.polygon.com/gta-6-new-gameplay-onlyindade-ai-real-fake-rockstar-instagram/
-
-(só a manchete: a matéria não abriu)
-
-### Polygon.com (2026-11-11), selo sugerido relato
-Manchete: New GTA 6 gameplay video is leaving fans stunned - Polygon.com
-Link: https://news.google.com/rss/articles/CBMijwFBVV95cUxQV0UyZmRWLUZDTElVcGtGMzlpeXk2VmRjbGZXUHhka1ZRa3V5eVdYaG5pbExwX1lFbzRaZkVoTjNHOU5RcnV5Y09sODBWSHJCeVlNYXNKRzlJNmE1c0FEQWVYcFFxTmFNTlBEZnlLMjVteDBtc2RhQ2RXbDFlT1ViZkZOVElkeHR3d0t5ZGxfaw?oc=5
 
 (só a manchete: a matéria não abriu)

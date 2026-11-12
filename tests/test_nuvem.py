@@ -105,3 +105,18 @@ def test_workflow_instala_a_voz_azure():
     voz = yaml.safe_load((raiz / "config/marcas/gg_explica.yaml").read_text(encoding="utf-8"))["voz"]["provedor"]
     if voz == "azure":
         assert '.[azure]' in (raiz / ".github/workflows/kit.yml").read_text(encoding="utf-8")
+
+
+def test_scripts_do_workflow_tem_sintaxe_valida():
+    """Um erro de bash no passo 'Rodar' derruba TODAS as rodadas: confere antes de subir."""
+    import subprocess
+    from pathlib import Path
+    import yaml
+    raiz = Path(__file__).resolve().parents[1]
+    w = yaml.safe_load((raiz / ".github/workflows/kit.yml").read_text(encoding="utf-8"))
+    for job in w["jobs"].values():
+        for passo in job["steps"]:
+            if "run" in passo:
+                script = passo["run"].replace("${{", "X").replace("}}", "X")
+                r = subprocess.run(["bash", "-n"], input=script, text=True, capture_output=True)
+                assert r.returncode == 0, f"{passo.get('name')}: {r.stderr}"
