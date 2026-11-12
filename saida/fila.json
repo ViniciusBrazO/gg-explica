@@ -540,7 +540,7 @@
     "media_id": "",
     "permalink": "",
     "erro": "HTTP 400: {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}}",
-    "tentativas": 1,
+    "tentativas": 2,
     "publicado_em": ""
   },
   {
