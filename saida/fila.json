@@ -714,8 +714,8 @@
     "produtos_para_marcar": [],
     "media_id": "",
     "permalink": "",
-    "erro": "",
-    "tentativas": 0,
+    "erro": "HTTP 400: {'message': \"Unsupported get request. Object with ID '1706782044208177' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api\", 'type': 'GraphMethodException', 'code': 100, 'error_subcode': 33}",
+    "tentativas": 1,
     "publicado_em": "",
     "furar_freio": false
   },
@@ -728,13 +728,13 @@
     "quando": "2026-11-13T09:00:00-03:00",
     "plataforma": "facebook",
     "tipo": "reel",
-    "status": "pendente",
+    "status": "publicado",
     "produtos_para_marcar": [],
-    "media_id": "",
-    "permalink": "",
+    "media_id": "1707528957462094",
+    "permalink": "https://www.facebook.com/reel/1707528957462094",
     "erro": "",
     "tentativas": 0,
-    "publicado_em": "",
+    "publicado_em": "2026-11-13T09:13:42-03:00",
     "furar_freio": false
   },
   {
