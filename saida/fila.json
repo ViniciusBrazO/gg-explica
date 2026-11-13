@@ -656,10 +656,10 @@
     "quando": "2026-11-12T19:30:00-03:00",
     "plataforma": "instagram",
     "tipo": "reel",
-    "status": "pendente",
+    "status": "publicado",
     "produtos_para_marcar": [],
     "media_id": "",
-    "permalink": "",
+    "permalink": "https://www.instagram.com/reel/DfqGie4qUbM/",
     "erro": "",
     "tentativas": 0,
     "publicado_em": "",
@@ -696,8 +696,8 @@
     "produtos_para_marcar": [],
     "media_id": "",
     "permalink": "",
-    "erro": "",
-    "tentativas": 0,
+    "erro": "HTTP 403: {'error': {'message': 'Application request limit reached', 'code': 4, 'type': 'OAuthException', 'error_subcode': 2207051, 'is_transient': False, 'error_user_msg': 'Restringimos determinadas atividades para proteger nossa comunidade. Diga-nos se você acha que cometemos um equívoco.', 'error_user_title': 'a ação foi bloqueada', 'fbtrace_id': 'AWanRD4IJw8La7-bGXFDdwt'}}",
+    "tentativas": 1,
     "publicado_em": "",
     "furar_freio": false
   }
