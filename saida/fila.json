@@ -746,13 +746,13 @@
     "quando": "2026-11-13T19:00:00-03:00",
     "plataforma": "instagram",
     "tipo": "reel",
-    "status": "pendente",
+    "status": "manual",
     "produtos_para_marcar": [],
     "media_id": "",
     "permalink": "",
     "erro": "",
     "tentativas": 0,
-    "publicado_em": "",
+    "publicado_em": "2026-11-13T19:10:35-03:00",
     "furar_freio": false
   },
   {
@@ -764,13 +764,13 @@
     "quando": "2026-11-13T19:00:00-03:00",
     "plataforma": "facebook",
     "tipo": "reel",
-    "status": "pendente",
+    "status": "publicado",
     "produtos_para_marcar": [],
-    "media_id": "",
-    "permalink": "",
+    "media_id": "1408246651064473",
+    "permalink": "https://www.facebook.com/reel/1408246651064473",
     "erro": "",
     "tentativas": 0,
-    "publicado_em": "",
+    "publicado_em": "2026-11-13T19:10:48-03:00",
     "furar_freio": false
   }
 ]
