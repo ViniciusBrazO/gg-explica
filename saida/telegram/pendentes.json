@@ -237,5 +237,21 @@
     "situacao": "agendado",
     "message_id": 258,
     "enviado": "2026-11-12T18:24:21.700559"
+  },
+  "3fb1d554db": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-13_gg_explica.json",
+    "video": "radar_2026-11-13_popeyes_spice_city_reel",
+    "impressao": "a21a18718a4a",
+    "situacao": "agendado",
+    "message_id": 263,
+    "enviado": "2026-11-13T07:29:14.377334"
+  },
+  "13ac97ce45": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-13_gg_explica.json",
+    "video": "radar_2026-11-13_popeyes_spice_city",
+    "impressao": "84cf9018fe95",
+    "situacao": "agendado",
+    "message_id": 270,
+    "enviado": "2026-11-13T07:29:25.014056"
   }
 }

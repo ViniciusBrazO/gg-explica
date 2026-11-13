@@ -406,5 +406,33 @@
     ],
     "estilo_capa": "topo",
     "registrado": "2026-11-12T18:23"
+  },
+  "2026-11-13|radar_2026-11-13_popeyes_spice_city_reel": {
+    "data": "2026-11-13",
+    "horario": "09:00",
+    "imagens": [
+      "clipes/oficial/artes_e_wallpapers/Cal_Hampton_ultrawide.jpg",
+      "clipes/oficial/artes_e_wallpapers/Raul_Bautista_tablet.jpg",
+      "clipes/oficial/artes_e_wallpapers/Jason_Lucia_Rooftop_tablet.jpg",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@608.5",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@629.4",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@574.8"
+    ],
+    "estilo_capa": "faixa",
+    "registrado": "2026-11-13T07:29"
+  },
+  "2026-11-13|radar_2026-11-13_popeyes_spice_city": {
+    "data": "2026-11-13",
+    "horario": "11:00",
+    "imagens": [
+      "clipes/oficial/screenshots/Ambrosia_03.jpg",
+      "clipes/oficial/screenshots/Brian_Heder_04.jpg",
+      "clipes/oficial/artes_e_wallpapers/Grassrivers_Postcard_ultrawide.jpg",
+      "saida/carrosseis/gg_explica/2026-11-13_radar_2026-11-13_popeyes_spice_city/_trabalho/quadro_03.jpg",
+      "saida/carrosseis/gg_explica/2026-11-13_radar_2026-11-13_popeyes_spice_city/_trabalho/quadro_04.jpg",
+      "saida/carrosseis/gg_explica/2026-11-13_radar_2026-11-13_popeyes_spice_city/_trabalho/quadro_05.jpg"
+    ],
+    "estilo_capa": "impacto",
+    "registrado": "2026-11-13T07:29"
   }
 }
