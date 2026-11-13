@@ -19,7 +19,7 @@ def limites(plataforma: str) -> dict:
 
 
 def _saiu_em(item) -> datetime | None:
-    if item.status != "publicado":
+    if item.status not in ("publicado", "manual"):
         return None
     try:
         return datetime.fromisoformat(item.publicado_em or item.quando)

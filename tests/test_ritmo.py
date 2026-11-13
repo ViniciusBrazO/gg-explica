@@ -153,3 +153,18 @@ def test_post_liberado_fura_o_freio():
     novo = _item(99, agora)
     novo.furar_freio = True
     assert motivo_para_segurar(novo, seis + [novo], agora) == ""
+
+
+def test_reel_manual_vai_para_o_telegram(tmp_path, monkeypatch):
+    from argparse import Namespace
+    from pipeline import cli
+    from pipeline.fila import carregar, salvar
+    agora = datetime.now(FUSO)
+    item = _item(1, agora - timedelta(minutes=5))
+    item.tipo = "reel"
+    salvar([item])
+    entregues = []
+    monkeypatch.setattr(cli, "reels_manuais", lambda: True)
+    monkeypatch.setattr(cli, "entregar_reel_manual", lambda i: entregues.append(i.id))
+    cli.cmd_publicar(Namespace(simular=False))
+    assert entregues == ["p1"] and carregar()[0].status == "manual"

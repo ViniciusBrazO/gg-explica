@@ -96,7 +96,7 @@ def salvar(itens: list[Item]) -> None:
 def enfileirar_instagram(item: Item) -> None:
     """Põe na fila de publicação automática (Instagram ou Facebook, conforme item.plataforma)."""
     itens = [i for i in carregar() if not (i.id == item.id and i.marca == item.marca
-                                           and i.plataforma == item.plataforma and i.status != "publicado")]
+                                           and i.plataforma == item.plataforma and i.status not in ("publicado", "manual"))]
     itens.append(item)
     itens.sort(key=lambda i: i.quando)
     salvar(itens)

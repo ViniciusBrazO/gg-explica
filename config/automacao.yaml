@@ -89,6 +89,9 @@ gemini:
 # Reel e carrossel contam separados. O excedente espera na fila; nada se perde. Suba aos poucos
 # (ex.: 8 depois de um mês sem problema), nunca de uma vez.
 publicacao:
+  # Reels no Instagram: "api" (o kit publica) ou "manual" (o kit manda vídeo, capa e legenda no Telegram
+  # na hora marcada e o Vinicius posta pelo app). Manual desde 13/11: a API recusa vídeo (erro 2207076).
+  instagram_reels: manual
   instagram: {max_24h: 6, minutos_entre_posts: 90}
   facebook: {max_24h: 4, minutos_entre_posts: 90}
 

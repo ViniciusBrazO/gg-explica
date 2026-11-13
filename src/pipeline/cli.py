@@ -157,6 +157,29 @@ def falha_da_meta_no_video(erro: str) -> bool:
     return any(c in (erro or "") for c in CODIGOS_FALHA_VIDEO)
 
 
+def reels_manuais() -> bool:
+    from .radar import config
+    return config().get("publicacao", {}).get("instagram_reels", "api") == "manual"
+
+
+def entregar_reel_manual(item) -> None:
+    """Manda no Telegram o vídeo, a capa e a legenda prontos para postar o Reel pelo app."""
+    import html
+    from .telegram import Telegram
+    tg = Telegram.do_ambiente()
+    if not tg:
+        print("  sem Telegram: o Reel ficou só na fila")
+        return
+    tg.texto(f"🎬 <b>Hora de postar o Reel</b> \"{html.escape(item.id.split('_', 2)[-1])}\" no Instagram pelo app.\n"
+             "1) salve o vídeo e a capa abaixo  2) cole a legenda  3) ligue o rótulo de IA "
+             "(Configurações avançadas) e compartilhe.", parse_mode="HTML")
+    tg.video(Path(item.video), "Vídeo do Reel", [])
+    if item.capa and Path(item.capa).exists():
+        tg.foto(Path(item.capa), "Capa (Editar capa > Adicionar do rolo da câmera)")
+    tg.texto(f"<code>{html.escape(item.legenda)}</code>", parse_mode="HTML")
+    print("  Reel entregue no Telegram para postar pelo app")
+
+
 def avisar_video_recusado(item, quando) -> None:
     from .telegram import Telegram
     tg = Telegram.do_ambiente()
@@ -220,7 +243,7 @@ def cmd_publicar(args) -> int:
     for item in sorted(itens, key=lambda i: i.quando):
         if item.status != "pendente" or datetime.fromisoformat(item.quando) > agora:
             continue
-        if item.tentativas >= 3:
+        if item.tentativas >= (8 if falha_da_meta_no_video(item.erro) else 3):
             continue
         espera = motivo_para_segurar(item, itens, datetime.now(FUSO))
         if espera:
@@ -229,6 +252,12 @@ def cmd_publicar(args) -> int:
         print(f"publicando {item.plataforma}: {item.marca}/{item.id} (agendado para {item.quando})")
         if args.simular:
             print("  simulação: nada foi enviado")
+            continue
+        if item.plataforma == "instagram" and item.tipo == "reel" and reels_manuais():
+            # a API do Instagram está recusando vídeo: o Reel vai pronto para o Telegram e o Vinicius posta pelo app
+            entregar_reel_manual(item)
+            item.status = "manual"
+            item.publicado_em = datetime.now(FUSO).isoformat(timespec="seconds")
             continue
         try:
             if item.plataforma == "facebook":
