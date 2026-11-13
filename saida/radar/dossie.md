@@ -5,6 +5,15 @@ Texto das matérias aberto pelo kit. Use os números, nomes e datas daqui. Maté
 
 ## Assunto 1
 
+### XBOX Wire (2026-11-13), selo sugerido confirmado
+Manchete: Próxima semana em XBOX: novos jogos para 16 a 20 de novembro - XBOX Wire
+Link: https://news.google.com/rss/articles/CBMioAFBVV95cUxQYkNFWU9sa0N2bUlBSGVIdE1XRkNDeXhQVU1ad1kwVTQ2eXRsZnlleVJyOGllQ3BNUHVNaHdISVlvU3hiNVhRckR1RTUzRVZPZ0hla0c1MEc2Ni1ta3NRQjkxQkF5SUtEVFlvb19Ed013aTZLbUtSM0NuN0NvN3IxdEVLTXBGS2MtQ0hfLTN6OXRHbUFoYnM0TzMzcDFpTUV1?oc=5
+
+(só a manchete: a matéria não abriu)
+
+
+## Assunto 2
+
 ### Rockstar Games (2026-11-10), selo sugerido confirmado
 Manchete: Grand Theft Auto VI: Pre-Load Now - Rockstar Games
 Link: https://news.google.com/rss/articles/CBMiWEFVX3lxTE9DTFNaYTVUeVZJLXlveVBvTl9kS1lpSnNHYU0xMWxJQzI2VjF5ZnpKMlRkT1RtVm1ud0ZwMmdNYlBqV0F6MTNXZkVnT2xpblZXSUp6VkpHbmw?oc=5
@@ -12,7 +21,7 @@ Link: https://news.google.com/rss/articles/CBMiWEFVX3lxTE9DTFNaYTVUeVZJLXlveVBvT
 (só a manchete: a matéria não abriu)
 
 
-## Assunto 2
+## Assunto 3
 
 ### canaltech.com.br (2026-11-12), selo sugerido relato
 Manchete: Real ou videogame? Novo vídeo de GTA 6 confunde fãs com realismo absurdo de Miami
@@ -41,7 +50,7 @@ Link: https://news.google.com/rss/articles/CBMijAFBVV95cUxPY3NaNjMtY0VsOFNvN0Foe
 (só a manchete: a matéria não abriu)
 
 
-## Assunto 3
+## Assunto 4
 
 ### polygon.com (2026-11-12), selo sugerido relato
 Manchete: GTA 6 Map Seemingly Leaks at Merch Drop Event
@@ -72,7 +81,7 @@ This all adds to what has been a marketing campaign full of leaks from start to 
 The worst of these leaks saw a group or individual going by the name Cyberleek seemingly gain access to a playable build of the game months before release. They then started sharing full gameplay leaks before Rockstar’s official gameplay reveal via Netflix.
 
 
-## Assunto 4
+## Assunto 5
 
 ### Enduins (2026-11-13), selo sugerido rumor
 Manchete: DISNEY+ PHILIPPINES TO STREAM THE GAME AWARDS 2026 LIVE ON DECEMBER 11 - Enduins
@@ -95,60 +104,7 @@ Link: https://news.google.com/rss/articles/CBMinAFBVV95cUxQbEEtVEl5LXBQc3ozMkNDb
 Outras manchetes: 2026’s The Game Awards will stream live on Disney+ - GadgetMatch | The Game Awards 2026 to Stream on Disney+ - Inven Global
 
 
-## Assunto 5
-
-### GamerBraves (2026-11-13), selo sugerido rumor
-Manchete: Disney Teases Major Game Announcements as The Game Awards 2026 Comes to Disney+ - GamerBraves
-Link: https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOG9mLXFTYWVra3VTV1ZDaGx1ZzVTbDBMTU4zRU4zR21mREUwTUNfTk50N1Q1M01tdW1hWGJOa2NFRWd3Vk5XV0dqU09sQkduRWl5MXJHUnJSY0JIZHVzemlneDdFNzdFWDVBRmdPUy01cGsxei1LMDNJaXJpUGtrejlCVTFDV25mZGs1MVVudWNNZWg2RGliMnNYeTloNEx5RDlIUVdTaDNmU3c?oc=5
-
-(só a manchete: a matéria não abriu)
-
-### Geek Culture (2026-11-13), selo sugerido rumor
-Manchete: The Game Awards 2026 Makes Disney+ Debut With Major Disney Announcements Expected - Geek Culture
-Link: https://news.google.com/rss/articles/CBMid0FVX3lxTE5VaUdMQzRSb1AwQ1ZrQjRWMDNDTjlTbU9BTTVfc0JJNU56QnMtYTN0cXZCSVZkOHp0RlBDMmtvNFV0eEFEOTlsVXFUbWxNdDNsLVBUNEpkWHF4Z1RqSHdHWkw3bGI3Wm5HbERJMzlOUmJyYzRSbzZr?oc=5
-
-(só a manchete: a matéria não abriu)
-
-### Noisy Pixel (2026-11-12), selo sugerido rumor
-Manchete: The Game Awards 2026 Streams on Disney+ as Disney Teases “Major Announcements and Surprises” for Upcoming Games - Noisy Pixel
-Link: https://news.google.com/rss/articles/CBMijwFBVV95cUxQaTN2ejZRVmpqQTB5MjRlX1hEUkVPNmlhaDNOTDVfYS01eHlKb3I4d0swazZSMW5WUW5kVVRVMFhKcFBQSktodzdfamlaTkQwWkxZWTYzX1V5V1YwVzNBM2dlSjBzZzFIZ1lucW9pMmEwcXFqb254N0k3ODRfcmJrdC1vMzdiTlVJZTA3eXJUZw?oc=5
-
-(só a manchete: a matéria não abriu)
-
-Outras manchetes: Disney Teases ‘Major Announcements and Surprises’ for The Game Awards 2026 - Final Weapon | Disney Teases "Major Announcements" For The Game Awards - GameSpot
-
-
 ## Assunto 6
-
-### ign.com (2026-11-12), selo sugerido relato
-Manchete: Popeyes Is Riding the GTA 6 Hype With a New 'Spice City' Chicken Sandwich
-Link: https://www.ign.com/articles/popeyes-is-riding-the-gta-6-hype-with-a-new-spice-city-chicken-sandwich
-
-Popeyes Is Riding the GTA 6 Hype With a New 'Spice City' Chicken Sandwich
-Popeyes has unveiled its new "Spice City" chicken sandwich, which is the restaurant's attempt to ride the hype wave for GTA 6.
-Popeyes has confirmed that the Spice City chicken sandwich will be available in participating stores on November 19, the same day as Rockstar's highly anticipated release. The fast food chain said this new menu item is meant to "pay homage" to a sandwich in-game (it's unclear what in-game sandwich they are referring to, but there are drive-thrus and restaurants in GTA 6).
-The sandwich includes two crispy chicken breast fillets stacked between a buttery, toasted brioche bun, topped with pickles and your choice of spicy or regular mayo. It'll set you back $6 (prices vary by location) and will be available from November 19 through November 22.
-A big part of this news is that the sandwich will be available for delivery through the Popeyes app and other food delivery services, so you don't have to leave your house or worry about cooking when GTA 6 releases.
-"It’s been reported that a lot of fans will be calling in sick and are clearing their calendars to disappear into the sunniest, most chaotic open world in gaming," reads a Popeyes press release. "Popeyes has the perfect getaway meal and we wanted to let you know now so you can plan ahead."
-It's just one of many ways the entire world seems to be getting on board with GTA 6. In addition to a wide-ranging marketing campaign from Rockstar itself, other companies have been attaching themselves to the hype train in unofficial ways. Logitech announced that it will be giving employees the day off for video game releases going forward and will be hosting a special live-streamed event on November 19 to celebrate this perk.
-Spectrum and Xfinity are also offering free internet upgrades to allow customers the chance to download GTA 6 faster. It's clear that this has become a major, global event, and companies seem to be helping advertise GTA 6 at no cost to Rockstar. Xbox and PlayStation confirmed that GTA 6 is the most pre-ordered game in both of their respective histories, highlighting the extreme hype for the title. Those who have pre-ordered GTA 6 can pre-load the game now, and they will likely want to because the game is massive.
-Rockstar also confirmed that GTA 6 will run at 30fps, but will have a few enhancements for PS5 Pro users. The news came as a bit of a disappointment for some fans who were hoping for a higher frame rate, but there is hope that maybe a potential PC or PS6 port could unlock better performance later down the line.
-Cade Onder is a freelancer for IGN's news team. He covers all things entertainment, including gaming, film, and more. You can find him on Twitter @Cade_Onder.
-
-### GameTyrant (2026-11-12), selo sugerido rumor
-Manchete: Popeyes is Celebrating GTA 6 With, Uh, A Chicken Sandwich - GameTyrant
-Link: https://news.google.com/rss/articles/CBMiiwFBVV95cUxPanpSeFhjSTdOZnlMWXhBaHBWYnV4ekYwNVZPTzZVS2VmMmRVZTA4bi14bmV4dExlbzYybmZFcVBpSTRnR19uUVZuVm5GT1ZzWElIVkhTRDNuQTJmekZyaHpWYXcyWjVxMUM1bThYREg1ZllDalh0MDNQM0JkY1NuYlNleERxSUNrZ2lr?oc=5
-
-(só a manchete: a matéria não abriu)
-
-### IGN (2026-11-12), selo sugerido relato
-Manchete: Popeyes Announces New Chicken Sandwich Timed to Release Alongside GTA 6 - IGN
-Link: https://news.google.com/rss/articles/CBMiogFBVV95cUxPV2RoaDBVaU13WFpBY2ZDWjlIbTdqb29BVXhXbjZINmFMdDRZMUxFalN3a29hLWJ5RUhMYllDTjd4cVFRRHhXbHp3OExwRUhSeTRYVVA4eFF6UVNWWVJtNFliUTE3TmtQdXNCaUp0UDZzNzFXQ3NyVW0yZzVSQmg5M3FaVF9VYnFwV1VKZXpieDFQcVpySTY4R2ROdDM0SWgyUnc?oc=5
-
-(só a manchete: a matéria não abriu)
-
-
-## Assunto 7
 
 ### ABC7 Los Angeles (2026-11-12), selo sugerido rumor
 Manchete: The Game Awards 2026 will stream on Disney+: Gaming's biggest night has a new home - ABC7 Los Angeles
@@ -163,7 +119,7 @@ Link: https://news.google.com/rss/articles/CBMimAFBVV95cUxQTnhVLU9BMTNqODVtdmRUS
 (só a manchete: a matéria não abriu)
 
 
-## Assunto 8
+## Assunto 7
 
 ### pushsquare.com (2026-11-12), selo sugerido rumor
 Manchete: This GTA 6 Clip Looks So Real, Fans Can't Believe It's In-Game Footage
@@ -220,5 +176,14 @@ To be fair, do think graphical realism with inanimate objects is being done rout
 ### IGN (2026-11-12), selo sugerido relato
 Manchete: New GTA 6 Gameplay Clip Showcases Hyper Realistic Graphics and Fans Can't Quite Believe It's Real - IGN
 Link: https://news.google.com/rss/articles/CBMirgFBVV95cUxQcUllS2xNa3J6QzNrS1VmTllTVHNac1JmVnU0dElqYWQwbFZsWS1zOV80OHVHdjJONjE0d3VuLV91TFJIbXM2MzUzN2VLZks4RmNCS3o2ZVRScU44TTNOZ1ozZDVLMTJoSmstRzhlcUZZWnpUOGVfVzA4NWVCc0ROSUVoYnRIR0EzZFNUem9selQ1RVJFN3IyOWc1U2VjLV94Ym1mTDRRUkZNTkdwR2c?oc=5
+
+(só a manchete: a matéria não abriu)
+
+
+## Assunto 8
+
+### IGN (2026-11-13), selo sugerido relato
+Manchete: Thousands of UK Gamers Face Delays to Play GTA 6 Because of Poor Internet Speeds - IGN
+Link: https://news.google.com/rss/articles/CBMiigFBVV95cUxOTFVqUHZ0MXRfWEw1Q1dBMUs0T1dlM2gtRzBJbHNJdzBLVkZJQnpGaUg5MS0ydTl1LUVYUTU4QW9SVjJVcngxajNYWmtLbU04WGZyNlk0U1RwVWhlQmF4QUJZOEVWVENCZmhySFlNRVNlYWV1Y2RaVVF1aEhHeGkxYWYzRDluc2ZhZ2c?oc=5
 
 (só a manchete: a matéria não abriu)
