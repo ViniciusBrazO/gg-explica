@@ -14,7 +14,7 @@ com bom senso e o post sai sozinho (o Vinicius recebe o aviso no Telegram e pode
    publicados. Se o assunto já tem post, não crie outro: se ainda for rascunho, só acrescente o fato novo; se
    já saiu, só crie post se o fato novo mudar a notícia ("AGORA É OFICIAL", "MUDOU").
 4. **Notícia muito relevante sai na hora: ignore os horários base.** Com a voz ligada, escreva o
-   Reel narrado para agora e o carrossel para 2 horas depois (veja a regra do Reel narrado no fim).
+   Reel narrado para agora (carrossel só se o assunto for guia/lista; veja a regra do Reel narrado).
    Com a voz desligada, escreva **um** carrossel RADAR
    em `pautas/radar_{hoje}_gg_explica.json` (crie o arquivo com `"marca": "gg_explica"` e `"semana"` se
    não existir; se existir, acrescente à lista `videos`, sem apagar nada). `status: "rascunho"`,
@@ -33,7 +33,12 @@ com bom senso e o post sai sozinho (o Vinicius recebe o aviso no Telegram e pode
 > **Orientações do Vinicius:** leia `saida/telegram/orientacoes.md` (se existir) e siga tudo o que está lá: são as respostas dele no Telegram e valem para todos os posts.
 
 
-> **Reel narrado (quando `saida/estado_voz.txt` diz `ligada`):** cada post vira **dois itens** na lista
+> **Foco em Reels (pedido do Vinicius, 13/11: Reel faz 45 a 139 views, carrossel 0 a 7).** Cada assunto
+> vira **só o Reel narrado** (`<id>_reel`, item 1 abaixo). Carrossel (item 2) só **1 por dia**, e só
+> quando o assunto pede para salvar: guia, lista, checklist ou tabela de preço/tamanho/horário. O kit
+> põe no feed do Instagram no máximo 1 carrossel por dia; o resto do espaço é dos Reels.
+>
+> **Reel narrado (quando `saida/estado_voz.txt` diz `ligada`):** os dois formatos possíveis na lista
 > `videos`, com conteúdo e visual diferentes:
 > 1. `<id>_reel`: `"formato": "reel"`, no horário do post, 30 a 45 segundos, 5 a 7 cenas, `voz_ia: true`,
 >    narração em toda cena (cerca de 2,6 palavras por segundo, escrita como se fala, com **mais detalhes**
@@ -43,8 +48,8 @@ com bom senso e o post sai sozinho (o Vinicius recebe o aviso no Telegram e pode
 >    `midia_destaque` para detalhes, cartões `texto`/`lista` com `fundo_clipe`. Use os **vídeos oficiais**
 >    (trailers e clipes do catálogo, `"tipo": "video"`) e outras imagens, sempre por `"busca:..."`, cortes
 >    de até 6 s, `credito` em toda cena com material oficial, menos de 60 s no total.
-> 2. `<id>`: o carrossel do mesmo assunto, `"formato": "carrossel"`, `"gerar_reel": false`, **2 horas
->    depois** do Reel, com outra capa, outra manchete e outras imagens (o kit também evita repetir).
+> 2. `<id>` (só no post de guia/lista do dia): o carrossel do mesmo assunto, `"formato": "carrossel"`,
+>    `"gerar_reel": false`, **2 horas depois** do Reel, com outra capa, outra manchete e outras imagens (o kit também evita repetir).
 > Quando `saida/estado_voz.txt` diz `desligada`, siga a regra de formato abaixo (só carrossel).
 
 > **Visual do Reel (pedido do Vinicius, 11/11 e 12/11): imagem oficial rodando lisa, sem gravação.**
@@ -77,7 +82,7 @@ com bom senso e o post sai sozinho (o Vinicius recebe o aviso no Telegram e pode
 > - Antes de gravar, releia slide por slide: quem só ler este post aprende algo concreto em cada um? Se
 >   não, corte o slide ou complete com dado.
 
-> **Dia cheio de notícia (com 3 posts por dia, mais conteúdo por post, não mais posts).** Quando a busca
+> **Dia cheio de notícia (com 4 Reels por dia, mais conteúdo por Reel, não mais posts).** Quando a busca
 > trouxer **3 ou mais novidades relevantes e em alta** que ainda não saíram na página, não guarde
 > nenhuma para depois nem crie posts extras: junte as menores num post de resumo e engorde os posts.
 > - **Post de resumo** ("5 NOVIDADES DE GTA 6 HOJE", "O QUE MUDOU ESTA SEMANA"): carrossel de **8 a 10

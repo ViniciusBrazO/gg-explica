@@ -6,7 +6,7 @@ a mesma coisa.
 from __future__ import annotations
 
 from dataclasses import dataclass
-from datetime import timedelta
+from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Optional
 
@@ -56,6 +56,18 @@ def horario_livre(quando, video_id: str):
     return quando   # o Reel sai no horário do post (é o que leva a quem não segue)
 
 
+def carrosseis_por_dia() -> int:
+    from .radar import config
+    return int(config().get("publicacao", {}).get("instagram_carrosseis_por_dia", 99))
+
+
+def carrosseis_no_dia(marca_id: str, quando: datetime) -> int:
+    """Carrosséis do Instagram já na fila (ou publicados) no mesmo dia."""
+    from .fila import carregar
+    return sum(1 for i in carregar() if i.marca == marca_id and i.tipo == "carrossel" and i.plataforma == "instagram"
+               and i.status != "erro" and i.quando[:10] == quando.isoformat()[:10])
+
+
 def enfileirar_carrossel(marca: Marca, video: Video, pasta: Path, legenda: str, produtos: list[str]) -> None:
     """Com a Página ligada (META_TOKEN + FB_PAGE_ID), o Reel do post sai no horário (Instagram e Página
     do Facebook) e o carrossel 2 horas depois; sem ela, tudo vai para o lote manual. TikTok sempre no lote."""
@@ -74,9 +86,12 @@ def enfileirar_carrossel(marca: Marca, video: Video, pasta: Path, legenda: str, 
                                                   quando=quando.isoformat(), plataforma=plataforma,
                                                   produtos_para_marcar=produtos))
                 depois = horario_livre(quando + timedelta(hours=HORAS_ENTRE_REEL_E_CARROSSEL), video.id)
-            enfileirar_instagram(Item(id=video.id, marca=marca.id, video=str(pasta), capa=str(pasta / "01.jpg"),
-                                      legenda=legenda, quando=depois.isoformat(), tipo="carrossel",
-                                      produtos_para_marcar=produtos))
+            if carrosseis_no_dia(marca.id, depois) >= carrosseis_por_dia():
+                print(f"  {video.id}: carrossel fora do feed (já tem {carrosseis_por_dia()} no dia; foco em Reels)")
+            else:
+                enfileirar_instagram(Item(id=video.id, marca=marca.id, video=str(pasta), capa=str(pasta / "01.jpg"),
+                                          legenda=legenda, quando=depois.isoformat(), tipo="carrossel",
+                                          produtos_para_marcar=produtos))
         else:
             exportar_lote("instagram", marca, video, pasta, legenda, produtos)
     if "tiktok" in video.plataformas:

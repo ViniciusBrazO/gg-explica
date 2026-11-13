@@ -168,3 +168,15 @@ def test_reel_manual_vai_para_o_telegram(tmp_path, monkeypatch):
     monkeypatch.setattr(cli, "entregar_reel_manual", lambda i: entregues.append(i.id))
     cli.cmd_publicar(Namespace(simular=False))
     assert entregues == ["p1"] and carregar()[0].status == "manual"
+
+
+def test_so_um_carrossel_por_dia_no_feed(monkeypatch):
+    from pipeline import producao
+    from pipeline.fila import salvar
+    agora = datetime(2026, 11, 14, 11, 0, tzinfo=FUSO)
+    c = _item(1, agora)
+    c.tipo = "carrossel"
+    salvar([c])
+    monkeypatch.setattr(producao, "carrosseis_por_dia", lambda: 1)
+    assert producao.carrosseis_no_dia("gg_explica", agora) == 1
+    assert producao.carrosseis_no_dia("gg_explica", agora + timedelta(days=1)) == 0

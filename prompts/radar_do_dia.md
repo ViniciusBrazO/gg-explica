@@ -12,7 +12,12 @@ Hoje é {data de hoje}. Prepare o Radar do dia e ajuste a pauta da semana.
 > **Orientações do Vinicius:** leia `saida/telegram/orientacoes.md` (se existir) e siga tudo o que está lá: são as respostas dele no Telegram e valem para todos os posts.
 
 
-> **Reel narrado (quando `saida/estado_voz.txt` diz `ligada`):** cada post vira **dois itens** na lista
+> **Foco em Reels (pedido do Vinicius, 13/11: Reel faz 45 a 139 views, carrossel 0 a 7).** Cada assunto
+> vira **só o Reel narrado** (`<id>_reel`, item 1 abaixo). Carrossel (item 2) só **1 por dia**, e só
+> quando o assunto pede para salvar: guia, lista, checklist ou tabela de preço/tamanho/horário. O kit
+> põe no feed do Instagram no máximo 1 carrossel por dia; o resto do espaço é dos Reels.
+>
+> **Reel narrado (quando `saida/estado_voz.txt` diz `ligada`):** os dois formatos possíveis na lista
 > `videos`, com conteúdo e visual diferentes:
 > 1. `<id>_reel`: `"formato": "reel"`, no horário do post, 30 a 45 segundos, 5 a 7 cenas, `voz_ia: true`,
 >    narração em toda cena (cerca de 2,6 palavras por segundo, escrita como se fala, com **mais detalhes**
@@ -22,8 +27,8 @@ Hoje é {data de hoje}. Prepare o Radar do dia e ajuste a pauta da semana.
 >    `midia_destaque` para detalhes, cartões `texto`/`lista` com `fundo_clipe`. Use os **vídeos oficiais**
 >    (trailers e clipes do catálogo, `"tipo": "video"`) e outras imagens, sempre por `"busca:..."`, cortes
 >    de até 6 s, `credito` em toda cena com material oficial, menos de 60 s no total.
-> 2. `<id>`: o carrossel do mesmo assunto, `"formato": "carrossel"`, `"gerar_reel": false`, **2 horas
->    depois** do Reel, com outra capa, outra manchete e outras imagens (o kit também evita repetir).
+> 2. `<id>` (só no post de guia/lista do dia): o carrossel do mesmo assunto, `"formato": "carrossel"`,
+>    `"gerar_reel": false`, **2 horas depois** do Reel, com outra capa, outra manchete e outras imagens (o kit também evita repetir).
 > Quando `saida/estado_voz.txt` diz `desligada`, siga a regra de formato abaixo (só carrossel).
 
 > **Visual do Reel (pedido do Vinicius, 11/11 e 12/11): imagem oficial rodando lisa, sem gravação.**
@@ -56,7 +61,7 @@ Hoje é {data de hoje}. Prepare o Radar do dia e ajuste a pauta da semana.
 > - Antes de gravar, releia slide por slide: quem só ler este post aprende algo concreto em cada um? Se
 >   não, corte o slide ou complete com dado.
 
-> **Dia cheio de notícia (com 3 posts por dia, mais conteúdo por post, não mais posts).** Quando a busca
+> **Dia cheio de notícia (com 4 Reels por dia, mais conteúdo por Reel, não mais posts).** Quando a busca
 > trouxer **3 ou mais novidades relevantes e em alta** que ainda não saíram na página, não guarde
 > nenhuma para depois nem crie posts extras: junte as menores num post de resumo e engorde os posts.
 > - **Post de resumo** ("5 NOVIDADES DE GTA 6 HOJE", "O QUE MUDOU ESTA SEMANA"): carrossel de **8 a 10
@@ -114,13 +119,14 @@ Atualize a coluna `virou` (sim, não, aberto).
 
 ## 4. Escreva a pauta do dia
 
-- Esta tarefa roda **2 vezes por dia** (07h10 e 17h10). Meta do dia: **3 posts** (cada um vira Reel +
-  carrossel, ou seja, 6 publicações; o kit não passa de 6 por 24 h nem solta duas com menos de 90 min).
-  Rodada das 07h10: 2 posts; rodada das 17h10: 1 post (ou nenhum, se o dia já tem 3). Horários base:
-  09h00, 13h00 e 19h00 (alternativas 11h00, 15h00, 21h00; o kit roda de hora em hora, em :07). Use só horários a pelo menos 90 minutos de
-  agora e que nenhum outro post de hoje (em qualquer arquivo de `pautas/`, menos os descartados) já
-  ocupe. Notícia quente conta dentro dos 3: se ela entrar, tire um post comum do dia (status
-  `descartado`) em vez de somar. Na rodada das 17h10, se não sobrar horário hoje, use 09h00 de amanhã.
+- Esta tarefa roda **2 vezes por dia** (07h07 e 17h07). Meta do dia: **4 Reels** + no máximo **1 carrossel**
+  (só se houver assunto de guia/lista). Rodada das 07h07: 3 Reels; rodada das 17h07: 1 Reel (ou nenhum, se
+  o dia já tem 4). Horários base: 09h00, 12h00, 15h00 e 19h00 (alternativas 11h00, 13h00, 21h00; o kit roda
+  de hora em hora, em :07). Os Reels do Instagram são postados pelo Vinicius pelo app quando o kit manda no
+  Telegram; o freio do kit segura no máximo 6 publicações em 24 h com 90 min entre elas. Use só horários a
+  pelo menos 90 minutos de agora e que nenhum outro post de hoje (em qualquer arquivo de `pautas/`, menos
+  os descartados) já ocupe. Notícia quente conta dentro dos 4: se ela entrar, tire um Reel comum do dia
+  (status `descartado`) em vez de somar. Na rodada das 17h07, se não sobrar horário hoje, use 09h00 de amanhã.
 - Arquivo: `pautas/radar_{hoje}_gg_explica.json`. Se ele já existe, **acrescente** os posts novos à lista
   `videos` (ids únicos, nunca apague os que estão lá). `status: "rascunho"`, `serie: "radar"`.
 - **Nada repetido.** Antes de escrever, leia os títulos e as legendas dos posts dos últimos 3 dias em
