@@ -261,5 +261,21 @@
     "situacao": "agendado",
     "message_id": 280,
     "enviado": "2026-11-13T17:28:50.556047"
+  },
+  "f6aefd06b0": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-14_gg_explica.json",
+    "video": "radar_2026-11-14_duracao_80h_reel",
+    "impressao": "3e1b1c8cb01d",
+    "situacao": "agendado",
+    "message_id": 289,
+    "enviado": "2026-11-14T07:33:43.800499"
+  },
+  "eb92471b82": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-14_gg_explica.json",
+    "video": "radar_2026-11-14_rockstar_tamanho_reel",
+    "impressao": "fdd020fe6795",
+    "situacao": "agendado",
+    "message_id": 290,
+    "enviado": "2026-11-14T07:44:14.918994"
   }
 }
