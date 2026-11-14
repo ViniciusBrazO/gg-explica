@@ -277,5 +277,13 @@
     "situacao": "agendado",
     "message_id": 290,
     "enviado": "2026-11-14T07:44:14.918994"
+  },
+  "80a2e1c468": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-14_gg_explica.json",
+    "video": "radar_2026-11-14_macca_friends_reel",
+    "impressao": "1e1d4134efde",
+    "situacao": "agendado",
+    "message_id": 302,
+    "enviado": "2026-11-14T17:17:41.742004"
   }
 }
