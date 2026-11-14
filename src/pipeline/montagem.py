@@ -183,6 +183,7 @@ class Trecho:
     fundo_midia: Optional[MidiaCena] = None   # clipe do jogo atrás de um cartão comum
     anel: Optional[Path] = None
     anel_inicio: float = 0.5
+    tomadas: list = dataclasses.field(default_factory=list)   # estilo notícia: várias tomadas na mesma cena
 
 
 def momentos_de_revelacao(n_itens: int, palavras: list[Palavra]) -> list[float]:
@@ -340,7 +341,24 @@ def _trecho_tela_cheia_ffmpeg(t: Trecho, saida: Path) -> None:
     _ffmpeg_trecho(entrada, partes, t, saida, idx_moldura=1)
 
 
+def _trecho_tomadas_ffmpeg(t: Trecho, saida: Path) -> None:
+    """Estilo notícia: a cena troca de tomada a cada ~2,6 s (corte seco, como as páginas grandes)."""
+    n = len(t.tomadas)
+    base = t.duracao / n
+    partes = []
+    for k, tomada in enumerate(t.tomadas):
+        d = base if k < n - 1 else t.duracao - base * (n - 1)
+        arq = saida.with_name(f"{saida.stem}_t{k:02d}.mp4")
+        _trecho_tela_cheia_ffmpeg(dataclasses.replace(t, midia=tomada, duracao=d, tomadas=[], anel=None), arq)
+        partes.append(arq)
+    lista = saida.with_name(saida.stem + "_tomadas.txt")
+    lista.write_text("".join(f"file '{a.as_posix()}'\n" for a in partes), encoding="utf-8")
+    _ff(["-f", "concat", "-safe", "0", "-i", str(lista), "-c", "copy", str(saida)])
+
+
 def _trecho_ffmpeg(t: Trecho, saida: Path) -> None:
+    if len(t.tomadas) > 1:
+        return _trecho_tomadas_ffmpeg(t, saida)
     if t.midia is not None:
         if t.tipo == "tela_cheia":
             return _trecho_tela_cheia_ffmpeg(t, saida)
@@ -447,6 +465,30 @@ def _juntar_narracao(trechos: list[Trecho], saida: Path) -> None:
     _ff([*entradas, "-filter_complex", filtro, "-map", "[narr]", "-c:a", "pcm_s16le", str(saida)])
 
 
+def _tomadas_da_cena(cena: Cena, duracao: float, evitar: set, usadas: list[str], semente: str) -> list[MidiaCena]:
+    """Estilo notícia: 1 tomada a cada ~2,6 s, cada uma de uma imagem ou trecho diferente.
+    Usa a busca/arquivo da cena (midia ou fundo_clipe); a primeira respeita o arquivo escolhido."""
+    from . import estilo_noticia
+    from .catalogo import chave_uso
+    consulta = cena.midia or cena.fundo_clipe or "busca:vice city cidade"
+    tomadas: list[MidiaCena] = []
+    for k in range(estilo_noticia.tomadas_por_cena(duracao)):
+        titulo = re.sub(r"[*_]", "", cena.titulo or "")
+        alvo = consulta if (k == 0 or consulta.startswith("busca:")) else (
+            cena.fundo_clipe or f"busca:{titulo} vice city")
+        falsa = cena.model_copy(update={"midia": alvo, "tipo": "tela_cheia", "midia_recorte": None,
+                                        "midia_animacao": "nenhuma", "midia_destaque": None,
+                                        "panoramica": bool(k % 2)})
+        try:
+            t = MidiaCena.da_cena(falsa, evitar=evitar | set(usadas), semente=f"{semente}|{k}")
+        except (FileNotFoundError, OSError, subprocess.CalledProcessError):
+            continue          # arquivo do catálogo ausente: segue com as tomadas que deram certo
+        if t.escolha is not None:
+            usadas.append(chave_uso(t.escolha))
+        tomadas.append(t)
+    return tomadas
+
+
 def renderizar_video(marca: Marca, video: Video, pasta_saida: Path, voz_forcada: Optional[str] = None,
                      hoje: Optional[date] = None, musica: Optional[Path] = None,
                      registrar_clipes: bool = True) -> dict:
@@ -469,6 +511,8 @@ def renderizar_video(marca: Marca, video: Video, pasta_saida: Path, voz_forcada:
     estilo_capa = variedade.estilo_capa(video)
     usadas: list[str] = []
     midia_capa: Optional[tuple[str, float]] = None
+    from . import estilo_noticia
+    noticia = estilo_noticia.ligado(marca)
 
     with desenhista() as d:
         fundo_marca = marca.pasta_assets / "fundo.png"
@@ -489,6 +533,18 @@ def renderizar_video(marca: Marca, video: Video, pasta_saida: Path, voz_forcada:
 
             # a primeira cena vira a capa: também não repete o rosto/lugar da capa de outro post
             evitar_aqui = evitar | set(usadas) | (capas_vizinhas if i == 0 else set())
+            if noticia:
+                tomadas = _tomadas_da_cena(cena, duracao, evitar_aqui, usadas, f"{video.id}|{i}")
+                if midia_capa is None and tomadas:
+                    midia_capa = (str(tomadas[0].caminho), tomadas[0].inicio or 0.0)
+                trechos.append(Trecho([], estilo_noticia.moldura_vazia(trabalho / "moldura_vazia.png"),
+                                      fundo_marca, False, fala, duracao, sum(x.duracao for x in trechos),
+                                      tomadas[0] if tomadas else None, marca.cores["destaque"],
+                                      "tela_cheia" if tomadas else "texto", tomadas=tomadas))
+                for tomada in tomadas:
+                    if registrar_clipes and tomada.escolha is not None:
+                        registrar_uso(tomada.escolha)
+                continue
             midia = MidiaCena.da_cena(cena, evitar=evitar_aqui, semente=video.id) \
                 if cena.tipo in TIPOS_COM_MIDIA else None
             if midia is not None and midia.escolha is not None:
@@ -572,7 +628,16 @@ def renderizar_video(marca: Marca, video: Video, pasta_saida: Path, voz_forcada:
     for t in trechos:
         palavras += [Palavra(p.texto, p.inicio + deslocamento, p.fim + deslocamento) for p in t.fala.palavras]
         deslocamento += t.duracao
-    ass = gerar_ass(marca, palavras, trabalho / "legenda.ass")
+    ass = gerar_ass(marca, palavras, trabalho / "legenda.ass",
+                    topo=estilo_noticia.LEGENDA_MARGEM_TOPO if noticia else None)
+    manchete = None
+    if noticia:
+        primeira = video.cenas[0]
+        selo = next((c.selo for c in video.cenas if c.selo), None)
+        fonte_txt = next((c.fonte for c in video.cenas if c.fonte), "")
+        credito = next((c.credito for c in video.cenas if c.credito), "") or "Imagens: Rockstar Games"
+        manchete = estilo_noticia.desenhar_manchete(marca, preencher_variaveis(primeira.titulo, hoje), selo,
+                                                    fonte_txt, credito, trabalho / "manchete.png")
 
     # final: legenda queimada, áudio normalizado, pronto para celular
     final = pasta_saida / f"{video.data.isoformat()}_{video.id}.mp4"
@@ -587,7 +652,13 @@ def renderizar_video(marca: Marca, video: Video, pasta_saida: Path, voz_forcada:
                  f"loudnorm=I=-14:TP=-1.5:LRA=11[a]")
     else:
         audio = "[1:a]loudnorm=I=-14:TP=-1.5:LRA=11[a]"
-    filtro = (f"[0:v]ass='{ass.name}':fontsdir='{fontes}'[vl];"
+    base_video = "[0:v]"
+    if manchete is not None:
+        idx = 3 if (musica and musica.exists()) else 2
+        entradas += ["-loop", "1", "-framerate", str(FPS), "-i", str(manchete)]
+        audio = f"[0:v][{idx}:v]overlay=0:0:shortest=1[vm];" + audio
+        base_video = "[vm]"
+    filtro = (f"{base_video}ass='{ass.name}':fontsdir='{fontes}'[vl];"
               f"{filtro_barra(deslocamento, marca.cores['destaque'])};{audio}")
     _ff([*entradas, "-filter_complex", filtro, "-map", "[v]", "-map", "[a]", *parametros_instagram(),
          "-t", f"{deslocamento:.3f}", str(final)], cwd=trabalho)

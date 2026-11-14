@@ -377,7 +377,7 @@
     "horario": "19:00",
     "imagens": [],
     "estilo_capa": "base",
-    "registrado": "2026-11-12T09:15"
+    "registrado": "2026-11-14T16:56"
   },
   "2026-11-12|radar_2026-11-12_logitech_folga_reel": {
     "data": "2026-11-12",
@@ -476,5 +476,25 @@
     ],
     "estilo_capa": "faixa",
     "registrado": "2026-11-14T07:43"
+  },
+  "2026-11-05|t": {
+    "data": "2026-11-05",
+    "horario": "19:00",
+    "imagens": [],
+    "estilo_capa": "faixa",
+    "registrado": "2026-11-14T16:58"
+  },
+  "2026-11-05|g": {
+    "data": "2026-11-05",
+    "horario": "19:00",
+    "imagens": [
+      "/tmp/pytest-of-root/pytest-144/test_tela_cheia_zoom_e_fundo_e0/jogo.mp4",
+      "/tmp/pytest-of-root/pytest-144/test_tela_cheia_zoom_e_fundo_e0/foto.png",
+      "/tmp/pytest-of-root/pytest-144/test_tela_cheia_zoom_e_fundo_e0/jogo.mp4",
+      "/tmp/pytest-of-root/pytest-144/test_tela_cheia_zoom_e_fundo_e0/jogo.mp4",
+      "/tmp/pytest-of-root/pytest-144/test_tela_cheia_zoom_e_fundo_e0/jogo.mp4"
+    ],
+    "estilo_capa": "base",
+    "registrado": "2026-11-14T17:00"
   }
 }

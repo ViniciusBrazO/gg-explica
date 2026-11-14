@@ -11,3 +11,6 @@ def _padroes_dos_testes(monkeypatch, request, tmp_path):
         monkeypatch.setattr("pipeline.telegram.modo_aprovacao", lambda: "manual")
     # a fila de verdade (saida/fila.json) nunca entra nos testes
     monkeypatch.setattr("pipeline.fila.ARQUIVO_FILA", tmp_path / "fila_teste.json")
+    # os testes antigos de montagem conferem o estilo de cartões; o estilo notícia tem os próprios testes
+    if "noticia" not in request.node.name:
+        monkeypatch.setattr("pipeline.estilo_noticia.ligado", lambda marca: False)

@@ -86,3 +86,14 @@ def test_baixar_videos_oficiais_registra_no_estado(tmp_path, monkeypatch):
     assert novos and (tmp_path / "trailers" / "extended.mp4").exists()
     assert "https://videos.x/v.mp4" in (tmp_path / "biblioteca.json").read_text()
     assert biblioteca.baixar_videos([{"nome": "extended", "url": "https://videos.x/v.mp4"}], sessao) == []
+
+
+def test_estilo_noticia_manchete_e_tomadas(tmp_path):
+    from pipeline.estilo_noticia import _palavras_marcadas, desenhar_manchete, tomadas_por_cena
+    from pipeline.marca import carregar_marca
+    assert tomadas_por_cena(2.0) == 1 and tomadas_por_cena(7.0) == 3
+    assert ("FERIADO", True) in _palavras_marcadas("GTA 6 lança na quinta e *sexta é feriado*")
+    png = desenhar_manchete(carregar_marca("gg_explica"), "Teste *ok*", "rumor", "IGN, 11/11/2026",
+                            "Imagens: Rockstar Games", tmp_path / "m.png")
+    from PIL import Image
+    assert Image.open(png).size == (1080, 1920)

@@ -67,6 +67,10 @@ voz:
     tom: "+3%"
 
 video:
+  # noticia: imagem do jogo na tela toda, troca de tomada a cada ~2,6 s, manchete parada no meio-baixo e
+  # legenda falada acima dela (padrão das páginas que crescem, como a Gamerize; pedido do Vinicius, 14/11).
+  # cartoes: o estilo anterior, com cartões e moldura.
+  estilo_reel: noticia
   duracao_min_s: 15
   duracao_max_s: 90           # GG EXPLICA pode passar de 1 min (só com visual próprio)
   musica_volume_db: -24       # só use música de biblioteca com licença comercial

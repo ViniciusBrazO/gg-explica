@@ -30,6 +30,16 @@ Hoje é {data de hoje}. Pelo Telegram, o Vinicius pediu ajustes em alguns vídeo
 >    depois** do Reel, com outra capa, outra manchete e outras imagens (o kit também evita repetir).
 > Quando `saida/estado_voz.txt` diz `desligada`, siga a regra de formato abaixo (só carrossel).
 
+> **Estilo do Reel desde 14/11 (`video.estilo_reel: noticia`, padrão da Gamerize):** o kit põe imagem do jogo
+> na tela toda trocando a cada ~2,6 s, a **manchete parada** no meio-baixo do primeiro ao último segundo e a
+> legenda falada acima dela. Então: o `titulo` da **primeira cena** é a manchete do Reel inteiro (5 a 9
+> palavras, frase de impacto em linguagem de gente, com 1 a 3 palavras entre `*asteriscos*` para o destaque:
+> "GTA 6 lança na quinta e *sexta é feriado*"); o `selo` e a `fonte` da primeira cena com fato aparecem
+> junto da manchete. Os títulos, textos e listas das outras cenas não aparecem na tela: tudo que importa vai
+> na **narração**. Em toda cena, dê a busca da imagem em `midia` (tipo `tela_cheia`) ou `fundo_clipe` com 3 a 6
+> palavras de cena visual concreta ("busca:carro esportivo praia pôr do sol", "busca:lucia close noite"):
+> o kit tira várias tomadas diferentes dessa busca. Gancho falado em 1 frase curta nos 2 primeiros segundos.
+
 > **Visual do Reel (pedido do Vinicius, 11/11 e 12/11): imagem oficial rodando lisa, sem gravação.**
 > A biblioteca oficial tem 138 screenshots, 27 artes clipes de 1 s e, desde 12/11, o vídeo oficial "An Extended
 > Look" cortado plano a plano (do player da própria Rockstar; os trailers 1, 2 e de lançamento só existem

@@ -62,7 +62,7 @@ def agrupar(palavras: list[Palavra], max_palavras: int = 3, max_caracteres: int 
     return blocos
 
 
-def gerar_ass(marca: Marca, palavras: list[Palavra], saida: Path) -> Path:
+def gerar_ass(marca: Marca, palavras: list[Palavra], saida: Path, topo: int | None = None) -> Path:
     cfg = marca.legenda
     cores = marca.cores
     caixa_alta = marca.fontes.get("legenda_caixa_alta", False)
@@ -81,6 +81,8 @@ def gerar_ass(marca: Marca, palavras: list[Palavra], saida: Path) -> Path:
                   f"{_cor_ass(cores['fundo'])},{_cor_ass('#000000', 120)},0,0,0,0,100,100,0,0,1,"
                   f"{cfg.get('contorno', 6)},{cfg.get('sombra', 0)},2,80,140,470,1")
 
+    if topo is not None:     # estilo notícia: legenda no alto do meio, acima da manchete parada
+        estilo = estilo.replace(",2,80,140,470,1", f",8,80,80,{topo},1")
     cabecalho = "\n".join([
         "[Script Info]",
         "ScriptType: v4.00+",
