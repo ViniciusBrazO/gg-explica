@@ -70,17 +70,22 @@ def sugerir(posts: list[dict]) -> list[dict]:
     if not disponivel():
         raise RuntimeError("falta GEMINI_API_KEY")
     instrucoes = (
-        "Você escreve comentários de Instagram para o perfil @gg.explica (notícias de GTA 6, português do Brasil), "
-        "que vão ser postados à mão em posts de páginas grandes de games. Objetivo: o comentário ser curtido e "
-        "levar gente a abrir o perfil. Regras: 1 ou 2 frases curtas, tom de fã que entende do assunto, no máximo "
-        "1 emoji; acrescente um dado, um detalhe ou uma pergunta boa que puxe conversa; responda ao que o post "
-        "diz. Nunca: autopromoção, 'segue lá', link, @ de outra conta, hashtags, ofensa, spoiler, boato tratado "
-        "como fato. Fato só se estiver em FATOS; se não houver fato que caiba, faça uma pergunta ou opinião. "
-        "Cada comentário diferente dos outros. Se o post não tiver nada a ver com games, devolva comentario vazio. "
-        "Responda {\"sugestoes\": [{\"link\": ..., \"comentario\": ...}]}.")
+        "Você escreve comentários de Instagram para o perfil @gg.explica (games, GTA 6, português do Brasil), "
+        "que vão ser postados à mão em posts de páginas grandes de games. Objetivo: o comentário ser o mais "
+        "curtido do post e fazer gente abrir o perfil. O que mais funciona é HUMOR: a sacada rápida de "
+        "brasileiro no zap, como 'Reclama não, que quando quis pegar o nosso ouro não pediu permissão' num "
+        "post sobre Portugal reclamando da legenda em português do Brasil. Regras: 1 frase curta (no máximo "
+        "2), gíria e ritmo de fala do Brasil, no máximo 1 emoji (pode ser nenhum); piada que só funciona "
+        "naquele post (trocadilho, comparação com a vida real do brasileiro, preço em reais, boleto, "
+        "salário, chefe, mãe, fila, ônibus, Copa, meme conhecido); zoeira leve, que todo mundo ri junto. "
+        "Nunca: ofensa a pessoa, grupo, nacionalidade, religião, gênero ou aparência; política; palavrão; "
+        "autopromoção, 'segue lá', link, @ de outra conta, hashtag, spoiler, boato tratado como fato. Fato só "
+        "se estiver em FATOS. Cada comentário com uma piada diferente. Se não houver piada boa e segura, "
+        "faça um comentário de fã esperto que puxe resposta. Se o post não tiver nada a ver com games, "
+        "devolva comentario vazio. Responda {\"sugestoes\": [{\"link\": ..., \"comentario\": ...}]}.")
     dados = {"FATOS": fatos_da_pagina(),
              "POSTS": [{"link": p["link"], "pagina": p["pagina"], "legenda": p["legenda"]} for p in posts]}
-    resposta = gerar_json(instrucoes, json.dumps(dados, ensure_ascii=False), temperatura=0.9)
+    resposta = gerar_json(instrucoes, json.dumps(dados, ensure_ascii=False), temperatura=1.0)
     por_link = {s.get("link"): (s.get("comentario") or "").strip() for s in resposta.get("sugestoes", [])}
     return [p | {"comentario": por_link.get(p["link"], "")} for p in posts if por_link.get(p["link"])]
 
