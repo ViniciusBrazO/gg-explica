@@ -895,7 +895,7 @@
     "media_id": "",
     "permalink": "",
     "erro": "Telegram não recebeu o vídeo",
-    "tentativas": 3,
+    "tentativas": 0,
     "publicado_em": "",
     "furar_freio": false
   },
