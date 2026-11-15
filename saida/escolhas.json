@@ -619,5 +619,38 @@
     ],
     "estilo_capa": "topo",
     "registrado": "2026-11-15T10:41"
+  },
+  "2026-11-15|radar_2026-11-15_tempo_para_zerar_reel": {
+    "data": "2026-11-15",
+    "horario": "19:00",
+    "imagens": [
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@119.4",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@143.3",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1472.4",
+      "clipes/oficial/trailers_e_clipes/GTAVI_Official_Cover_Art_Landscape.mp4",
+      "clipes/oficial/artes_e_wallpapers/Jason_and_Lucia_Motel_landscape.jpg",
+      "clipes/oficial/artes_e_wallpapers/The_Album_Cover_Art_landscape.jpg",
+      "clipes/oficial/artes_e_wallpapers/Mount_Kalaga_National_Park_Postcard_landscape.jpg",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@750.2",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@500.1",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@965.9",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@845.5",
+      "clipes/oficial/artes_e_wallpapers/Ambrosia_Postcard_portrait.jpg",
+      "clipes/oficial/screenshots/Ambrosia_04.jpg",
+      "clipes/oficial/screenshots/Ambrosia_02.jpg",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1108.5",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1108.5",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@745.2",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1416.8",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1542.8",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@740.1",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@825.1",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@891.1",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@560.8",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@686.0",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@999.4"
+    ],
+    "estilo_capa": "base",
+    "registrado": "2026-11-15T17:19"
   }
 }

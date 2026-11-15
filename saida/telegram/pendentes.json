@@ -300,5 +300,13 @@
     "situacao": "agendado",
     "message_id": 327,
     "enviado": "2026-11-15T10:44:20.170841"
+  },
+  "d3b93476f4": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-15_gg_explica.json",
+    "video": "radar_2026-11-15_tempo_para_zerar_reel",
+    "impressao": "36b2db34acbe",
+    "situacao": "agendado",
+    "message_id": 356,
+    "enviado": "2026-11-15T17:21:18.877938"
   }
 }
