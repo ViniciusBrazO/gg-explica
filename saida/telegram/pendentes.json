@@ -292,5 +292,13 @@
     "impressao": "39030836e41b",
     "situacao": "bloqueado",
     "conferido": "2026-11-15T07:10"
+  },
+  "0d4cd273a4": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-15_gg_explica.json",
+    "video": "radar_2026-11-15_preco_horas_trabalho_reel",
+    "impressao": "0eea2d0d9c05",
+    "situacao": "agendado",
+    "message_id": 327,
+    "enviado": "2026-11-15T10:44:20.170841"
   }
 }
