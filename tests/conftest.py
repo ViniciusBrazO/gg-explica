@@ -14,3 +14,5 @@ def _padroes_dos_testes(monkeypatch, request, tmp_path):
     # os testes antigos de montagem conferem o estilo de cartões; o estilo notícia tem os próprios testes
     if "noticia" not in request.node.name:
         monkeypatch.setattr("pipeline.estilo_noticia.ligado", lambda marca: False)
+    # o limite diário de carrossel no feed (config real: 0, só Reels) tem teste próprio
+    monkeypatch.setattr("pipeline.producao.carrosseis_por_dia", lambda: 99)
