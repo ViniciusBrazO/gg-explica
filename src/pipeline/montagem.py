@@ -489,6 +489,16 @@ def _tomadas_da_cena(cena: Cena, duracao: float, evitar: set, usadas: list[str],
     return tomadas
 
 
+def copia_para_telegram(final: Path) -> Path:
+    """Cópia leve (~8 a 12 MB) para o Telegram: o vídeo final em 60 fps passa de 30 MB e o Telegram
+    devolve Gateway Timeout. 1080x1920 a 30 fps com taxa limitada: no app do Instagram fica igual."""
+    copia = final.with_name(final.stem + "_tg.mp4")
+    _ff(["-i", str(final), "-vf", "fps=30", "-c:v", "libx264", "-preset", "veryfast", "-crf", "24",
+         "-maxrate", "2500k", "-bufsize", "5000k", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "128k",
+         "-movflags", "+faststart", str(copia)])
+    return copia
+
+
 def ajustar_ritmo(marca: Marca, video: Video) -> Marca:
     """Reel com trecho de jogo precisa ficar abaixo de 60 s: se a narração estimada passa de 57 s, acelera
     a voz do Azure só neste vídeo (no máximo +12% sobre a velocidade normal da marca)."""
@@ -688,6 +698,7 @@ def renderizar_video(marca: Marca, video: Video, pasta_saida: Path, voz_forcada:
     # capa: quadro do primeiro cartão, já com o fundo
     capa = final.with_suffix(".jpg")
     _ff(["-ss", "0.6", "-i", str(final), "-frames:v", "1", "-q:v", "2", str(capa)])
+    copia_para_telegram(final)
 
     info = {
         "video": final.name, "capa": capa.name, "duracao_s": round(deslocamento, 2),

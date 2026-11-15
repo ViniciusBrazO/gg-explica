@@ -81,6 +81,8 @@ class Telegram:
         return self._chamar("sendMessage", data={"chat_id": self.chat_id, "text": mensagem[:4000], **extra})
 
     def video(self, arquivo: Path, legenda: str, botoes: list[list[dict]]) -> dict:
+        leve = arquivo.with_name(arquivo.stem + "_tg.mp4")   # cópia leve feita na renderização
+        arquivo = leve if leve.exists() else arquivo
         with open(arquivo, "rb") as f:
             return self._chamar("sendVideo", timeout=300,
                                 data={"chat_id": self.chat_id, "caption": legenda[:1024], "supports_streaming": "true",
@@ -219,7 +221,12 @@ def enviar_para_aprovacao(tg: Telegram, dias_a_frente: int = 1, hoje: Optional[d
                 tg.album(sorted(r.arquivo.glob("*.jpg")))
                 msg = tg.texto(corpo, reply_markup=json.dumps({"inline_keyboard": botoes}))
             else:
-                msg = tg.video(r.arquivo, corpo, botoes)
+                try:
+                    msg = tg.video(r.arquivo, corpo, botoes)
+                except Exception as e:     # o vídeo já está na fila; sem a prévia, manda só o texto
+                    print(f"  prévia em vídeo não foi ({str(e)[:80]}); mandando só o texto")
+                    msg = tg.texto("🎬 (vídeo da prévia não carregou)\n" + corpo,
+                                   reply_markup=json.dumps({"inline_keyboard": botoes}))
             pendentes[tok] = {"pauta": str(arq), "video": v.id, "impressao": _impressao(v),
                               "situacao": "agendado" if automatico else "aguardando",
                               "message_id": msg.get("message_id"), "enviado": datetime.now().isoformat()}

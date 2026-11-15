@@ -32,47 +32,13 @@ Outras manchetes: 'Grand Theft Auto 6' Album Tracklist Leaks; Lana Del Rey, Mich
 Manchete: GTA 6 Leak Seemingly Reveals Full Track List Days Before Launch
 Link: https://www.ign.com/articles/gta-6-leak-seemingly-reveals-full-track-list-days-before-launch
 
-GTA 6 Leak Seemingly Reveals Official Album's Full Track List Days Before Launch
-The full track list for Grand Theft Auto VI: The Album seems to have leaked online just days before GTA 6's launch.
-Rockstar Games just can't catch a break. After weeks of unprecedented leaks were published online, even more information about GTA 6 has found its way onto the internet, this time revealing the entire list of every song and artist featured on the official soundtrack's album release.
-As 13 years turns into just a few days, more leaks felt inevitable. The latest breach arrived in the form of a video shared on social media from what appears to be a Barnes & Noble-like retailer. The main clip being passed around is still up hours later and shows the front, back, and spines of the Grand Theft Auto VI: The Album's double LP vinyl. As you might have guessed, the $50 soundtrack isn't planned to hit store shelves until November 19, 2026.
-Although there are likely even more tunes tucked into the game itself, an early glimpse at the GTA 6 soundtrack means we now know every song and artist featured on its official album. Rolling Stone has confirmed the track list with its sources. We won't beat around the bush; you can see the full Grand Theft Auto VI: The Album track list below.
-Grand Theft Auto VI: The Album Leaked Track List
-Starting from Zero – Justice (feat. Michael McDonald)
-That's It – Yung Lean (feat. Future & Metro Boomin)
-Sexy Magic – CA7RIEL & Paco Amoroso, PinkPantheress, Fred Again.. & Étienne de Crécy
-Flower in a Hurricane – Justice (feat. Tame Impala, SZA & King Gizzard & The Lizard Wizard)
-Dance With Me – Boogie Wit Da Hoodie (feat. Elkan)
-Stone Cold Krazy Luuv – Jesse Johnson & DāM-FunK
-Overtown Lights – Stanley Clarke, Yussef Dayes & Robert Glasper
-We've gotten tastes of the music Rockstar hand-selected to be featured through the years, with stars like Travis Scott, Future, and Morgan Wallen teasing their inclusion as recently as September. We also got to hear some of GTA 6's tunes with the premiere of the Extended Look back in August. As many guessed, the developers have given players a solid playlist of songs from a variety of genres to jam to as they speed through Vice City.
-Fans will note this is different from the Grand Theft Auto VI: Original Score by Grammy Award-winning French electronic duo Justice. It's also set to get its own release for physical music collectors, with its release date set for December 11, 2026.
-GTA 6, of course, will launch for PlayStation 5 and Xbox Series X | S November 19, 2026. Today, we also learned that Rockstar has promised next week's new game will include mechanisms to encourage empathy for the first time in the franchise's history. Yesterday, Rockstar revealed a closer look at an animated TV series called Macca & Friends that can be watched in-game.
-For more, you can check out IGN's collection of GTA 6's songs and radio stations. You can also check out how some recent gameplay clips are blowing players (and IGN) away.
-Michael Cripe is a freelance writer with IGN. He's best known for his work at sites like The Pitch, The Escapist, and OnlySP. Be sure to give him a follow on Bluesky (@mikecripe.bsky.social) and Twitter (@MikeCripe).
+(só a manchete: a matéria não abriu)
 
 ### ign.com (2026-11-14), selo sugerido relato
 Manchete: GTA 6 Leak Seemingly Reveals Official Album's Full Track List Days Before Launch
 Link: https://www.ign.com/articles/gta-6-leak-seemingly-reveals-full-track-list-days-before-launch
 
-GTA 6 Leak Seemingly Reveals Official Album's Full Track List Days Before Launch
-The full track list for Grand Theft Auto VI: The Album seems to have leaked online just days before GTA 6's launch.
-Rockstar Games just can't catch a break. After weeks of unprecedented leaks were published online, even more information about GTA 6 has found its way onto the internet, this time revealing the entire list of every song and artist featured on the official soundtrack's album release.
-As 13 years turns into just a few days, more leaks felt inevitable. The latest breach arrived in the form of a video shared on social media from what appears to be a Barnes & Noble-like retailer. The main clip being passed around is still up hours later and shows the front, back, and spines of the Grand Theft Auto VI: The Album's double LP vinyl. As you might have guessed, the $50 soundtrack isn't planned to hit store shelves until November 19, 2026.
-Although there are likely even more tunes tucked into the game itself, an early glimpse at the GTA 6 soundtrack means we now know every song and artist featured on its official album. Rolling Stone has confirmed the track list with its sources. We won't beat around the bush; you can see the full Grand Theft Auto VI: The Album track list below.
-Grand Theft Auto VI: The Album Leaked Track List
-Starting from Zero – Justice (feat. Michael McDonald)
-That's It – Yung Lean (feat. Future & Metro Boomin)
-Sexy Magic – CA7RIEL & Paco Amoroso, PinkPantheress, Fred Again.. & Étienne de Crécy
-Flower in a Hurricane – Justice (feat. Tame Impala, SZA & King Gizzard & The Lizard Wizard)
-Dance With Me – Boogie Wit Da Hoodie (feat. Elkan)
-Stone Cold Krazy Luuv – Jesse Johnson & DāM-FunK
-Overtown Lights – Stanley Clarke, Yussef Dayes & Robert Glasper
-We've gotten tastes of the music Rockstar hand-selected to be featured through the years, with stars like Travis Scott, Future, and Morgan Wallen teasing their inclusion as recently as September. We also got to hear some of GTA 6's tunes with the premiere of the Extended Look back in August. As many guessed, the developers have given players a solid playlist of songs from a variety of genres to jam to as they speed through Vice City.
-Fans will note this is different from the Grand Theft Auto VI: Original Score by Grammy Award-winning French electronic duo Justice. It's also set to get its own release for physical music collectors, with its release date set for December 11, 2026.
-GTA 6, of course, will launch for PlayStation 5 and Xbox Series X | S November 19, 2026. Today, we also learned that Rockstar has promised next week's new game will include mechanisms to encourage empathy for the first time in the franchise's history. Yesterday, Rockstar revealed a closer look at an animated TV series called Macca & Friends that can be watched in-game.
-For more, you can check out IGN's collection of GTA 6's songs and radio stations. You can also check out how some recent gameplay clips are blowing players (and IGN) away.
-Michael Cripe is a freelance writer with IGN. He's best known for his work at sites like The Pitch, The Escapist, and OnlySP. Be sure to give him a follow on Bluesky (@mikecripe.bsky.social) and Twitter (@MikeCripe).
+(só a manchete: a matéria não abriu)
 
 ### RockstarINTEL (2026-11-14), selo sugerido rumor
 Manchete: Full GTA VI The Album Track List Leaked - RockstarINTEL
