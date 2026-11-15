@@ -1,0 +1,108 @@
+{
+  "marca": "gg_explica",
+  "semana": "2026-W46",
+  "videos": [
+    {
+      "id": "radar_2026-11-15_guardian_detalhes_reel",
+      "serie": "radar",
+      "status": "rascunho",
+      "data": "2026-11-15",
+      "horario": "09:00:00",
+      "formato": "reel",
+      "gerar_reel": true,
+      "plataformas": ["instagram", "facebook"],
+      "legenda_post": "A ROCKSTAR MOSTROU GTA 6 E O DETALHE ASSUSTA!\nSegundo um trecho da entrevista do Guardian, o Jason come rosquinha e bebe cerveja andando num posto, prende um pack de seis cervejas no braço (o líquido balança nas garrafas) e a demo passou por um assalto a joalheria em Vice City. O jogo sai em 19 de novembro.\nFonte: The Guardian (trecho), 11/11/2026\nVídeo narrado por voz de IA.\nQual detalhe te impressionou mais? #gta6 #gtavi",
+      "hashtags": ["#gta6", "#gtavi"],
+      "publi": false,
+      "voz_ia": true,
+      "produtos": [],
+      "cenas": [
+        {
+          "tipo": "gancho",
+          "narracao": "A Rockstar mostrou GTA seis pra um jornalista, e os detalhes são absurdos. Olha o que o Jason faz num posto de gasolina.",
+          "estilo": "manchete",
+          "kicker": "ENTREVISTA",
+          "titulo": "GTA 6: *detalhes* absurdos",
+          "texto": "Demo mostrada ao Guardian",
+          "selo": "relato",
+          "fonte": "The Guardian (trecho), 11/11/2026",
+          "fonte_url": "https://dnyuz.com/2026/11/11/gta-6-guardian-interview-reveals-new-gameplay-details/",
+          "fundo_clipe": "busca:posto gasolina noite",
+          "midia_terceiros": true,
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "texto",
+          "narracao": "Primeiro: o Jason anda com uma rosquinha numa mão e uma cerveja na outra, dando uma mordida e um gole enquanto caminha.",
+          "titulo": "Rosquinha e *cerveja*",
+          "texto": "Jason segura rosquinha e cerveja ao mesmo tempo, andando num posto.",
+          "selo": "relato",
+          "fonte": "The Guardian (trecho), 11/11/2026",
+          "fonte_url": "https://dnyuz.com/2026/11/11/gta-6-guardian-interview-reveals-new-gameplay-details/",
+          "fundo_clipe": "busca:jason rua",
+          "midia_terceiros": true,
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "texto",
+          "narracao": "Segundo: o Rob Nelson, da Rockstar North, mostrou o Jason comendo um cachorro-quente. Comer virou animação própria, não só barra de vida.",
+          "titulo": "O *cachorro-quente*",
+          "texto": "Rob Nelson, da Rockstar North, mostrou Jason comendo cachorro-quente.",
+          "selo": "relato",
+          "fonte": "The Guardian (trecho), 11/11/2026",
+          "fonte_url": "https://dnyuz.com/2026/11/11/gta-6-guardian-interview-reveals-new-gameplay-details/",
+          "fundo_clipe": "busca:vice city rua",
+          "midia_terceiros": true,
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "texto",
+          "narracao": "Terceiro: quando o Jason começa a correr, ele prende um pack de seis cervejas na dobra do braço, e o líquido balança dentro das garrafas.",
+          "titulo": "Seis cervejas, *líquido balança*",
+          "texto": "Ao correr, Jason prende um pack de seis cervejas no braço e o líquido nas garrafas balança.",
+          "selo": "relato",
+          "fonte": "The Guardian (trecho), 11/11/2026",
+          "fonte_url": "https://dnyuz.com/2026/11/11/gta-6-guardian-interview-reveals-new-gameplay-details/",
+          "fundo_clipe": "busca:jason correndo",
+          "midia_terceiros": true,
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "texto",
+          "narracao": "Quarto: a demo passou por um assalto a uma joalheria em Vice City. E o Nelson ficou incomodado com a posição dos pés de um segurança, de tão detalhista que o estúdio é.",
+          "titulo": "Assalto na *joalheria*",
+          "texto": "A demo incluiu um assalto a joalheria em Vice City; Nelson reparou na posição dos pés de um segurança.",
+          "selo": "relato",
+          "fonte": "The Guardian (trecho), 11/11/2026",
+          "fonte_url": "https://dnyuz.com/2026/11/11/gta-6-guardian-interview-reveals-new-gameplay-details/",
+          "fundo_clipe": "busca:assalto vice city",
+          "midia_terceiros": true,
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "texto",
+          "narracao": "O que ainda não se sabe: isso vem de um trecho da entrevista. O texto completo do Guardian estava previsto pra sábado, catorze. E o jogo sai dia dezenove.",
+          "kicker": "O QUE NÃO SE SABE",
+          "titulo": "O que *falta saber*",
+          "texto": "Fonte: trecho da entrevista; texto completo previsto para 14/11. Lançamento: 19/11.",
+          "selo": "relato",
+          "fonte": "The Guardian (trecho), 11/11/2026",
+          "fonte_url": "https://dnyuz.com/2026/11/11/gta-6-guardian-interview-reveals-new-gameplay-details/",
+          "fundo_clipe": "busca:cartão-postal vice city",
+          "midia_terceiros": true,
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "cta",
+          "narracao": "Qual desses detalhes te impressionou mais? Comenta e segue a página.",
+          "titulo": "Qual *detalhe*?",
+          "texto": "Comenta aqui. Segue a GG Explica.",
+          "fundo_clipe": "busca:lucia close",
+          "midia_terceiros": true,
+          "credito": "Imagens: Rockstar Games"
+        }
+      ],
+      "notas_revisao": "RELATO: só li o trecho da entrevista do Guardian reproduzido pelo dnyuz/VICE (não abri o Guardian nem a VICE): confira o texto completo e a data de publicação. Pauta escrita sem rodar `paginas validar` (Bash negado nesta execução): valide antes de aprovar e troque buscas sem resultado. Tracklist do álbum não virou post: veio de vazamento (vídeo do vinil), regra 2."
+    }
+  ]
+}

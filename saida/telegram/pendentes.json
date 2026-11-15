@@ -285,5 +285,12 @@
     "situacao": "agendado",
     "message_id": 302,
     "enviado": "2026-11-14T17:17:41.742004"
+  },
+  "122313d036": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-15_gg_explica.json",
+    "video": "radar_2026-11-15_guardian_detalhes_reel",
+    "impressao": "39030836e41b",
+    "situacao": "bloqueado",
+    "conferido": "2026-11-15T07:10"
   }
 }
