@@ -174,6 +174,10 @@ def entregar_reel_manual(item) -> bool:
         print("  sem Telegram: o Reel ficou só na fila")
         return False
     nome = item.id.split("_", 2)[-1]
+    leve = Path(item.video).with_name(Path(item.video).stem + "_tg.mp4")
+    if not leve.exists() and shutil.which("ffmpeg"):     # vídeo renderizado antes da cópia leve existir
+        from .montagem import copia_para_telegram
+        copia_para_telegram(Path(item.video))
     chamada = (f"🎬 Hora de postar o Reel \"{nome}\" no Instagram pelo app: salve o vídeo e a capa, cole a "
                "legenda e ligue o rótulo de IA (Configurações avançadas).")
     enviado = False
