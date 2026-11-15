@@ -30,6 +30,30 @@ Hoje é {data de hoje}. Prepare o Radar do dia e ajuste a pauta da semana.
 >    `"gerar_reel": false`, **2 horas depois** do Reel, com outra capa, outra manchete e outras imagens (o kit também evita repetir).
 > Quando `saida/estado_voz.txt` diz `desligada`, siga a regra de formato abaixo (só carrossel).
 
+> **Engajamento (pedido do Vinicius, 15/11). Vale para todo Reel, antes de qualquer outra regra de forma.**
+> Os números mostram o problema: retenção média de 3 a 8 segundos em Reels de 45 a 55 s e quase nenhum
+> envio ou salvamento. Então:
+> 1. **Aprenda com os números primeiro.** Leia `saida/metricas_resumo.md` (views, retenção, envios e
+>    salvamentos de cada Reel). Faça uma variação do assunto ou do gancho que mais funcionou e não repita o
+>    padrão dos que ficaram abaixo da média.
+> 2. **Ideia pela dor do público.** O público é o brasileiro que vai jogar GTA 6. Antes de escolher os
+>    assuntos, pense nas dúvidas, problemas e metas dele: preço e parcelamento, roda no meu console, espaço
+>    para baixar, que horas libera no Brasil, dublagem, PC, quanto tempo para zerar, onde sai mais barato,
+>    feriado e folga para jogar, jogar com os amigos. Priorize o que a pessoa **salva** (guia, número útil)
+>    ou **manda para alguém** (identificação, humor, "seu amigo precisa ver isso").
+> 3. **Gancho que comunica em 2 segundos.** Escreva 10 opções de gancho para cada Reel (no rascunho, não na
+>    pauta), escolha a mais forte e use-a como manchete (título da 1ª cena) e como primeira frase falada.
+>    Até 10 palavras, específico (número, data, preço, nome), curioso, sem clickbait: o vídeo entrega o
+>    que o gancho promete. Nada de abrir com "Fala, galera" ou contexto.
+> 4. **Roteiro curto: 20 a 35 segundos** (até 45 s só no resumo de dia cheio). Ordem: gancho → a situação
+>    em que a pessoa se reconhece ("se você vai jogar no PS5...") → 2 ou 3 fatos com número, um por cena →
+>    a virada ou o detalhe que quase ninguém sabe → CTA natural, sem pedir "segue". Frases simples, zero
+>    enrolação. Termine numa frase que conecte com o começo, para o vídeo rodar de novo.
+> 5. **Legenda que a pessoa salva.** Primeira linha = o gancho. Depois entregue valor que o vídeo não disse
+>    (uma dica prática, um número a mais, o passo a passo), em 3 a 5 linhas curtas. Termine pedindo **uma
+>    palavra no comentário** ligada ao assunto ("Comenta PS5 ou XBOX", "Comenta FERIADO se já tirou folga").
+>    Depois a fonte. O kit acrescenta sozinho o aviso de IA, o crédito e 3 hashtags: não escreva isso.
+
 > **Estilo do Reel desde 14/11 (`video.estilo_reel: noticia`, padrão da Gamerize):** o kit põe imagem do jogo
 > na tela toda trocando a cada ~2,6 s, a **manchete parada** no meio-baixo do primeiro ao último segundo e a
 > legenda falada acima dela. Então: o `titulo` da **primeira cena** é a manchete do Reel inteiro (5 a 9
@@ -91,9 +115,9 @@ Hoje é {data de hoje}. Prepare o Radar do dia e ajuste a pauta da semana.
 >   formato contagem/lista: gancho com o número ("Cinco novidades de GTA 6 em menos de um minuto"),
 >   uma cena curta por notícia (uma frase de fato + uma de impacto), cortes de 3 a 5 s, `selo` e `fonte`
 >   em cada cena com fato, e a mais forte por último para segurar até o fim.
-> - **A notícia mais forte do dia** continua com post próprio (Reel 35 a 50 s, carrossel de 6 a 8 slides,
+> - **A notícia mais forte do dia** continua com post próprio (Reel de 30 a 40 s,
 >   com contexto, detalhes e o que ainda não se sabe). As outras entram no resumo.
-> - Em dia fraco, mantenha o padrão (Reel 30 a 45 s, carrossel de 6 a 8 slides). Não encha linguiça:
+> - Em dia fraco, mantenha o padrão (Reel de 20 a 35 s). Não encha linguiça:
 >   todo slide e toda cena trazem um fato ou um dado novo.
 
 > **Formato:** se `conteudo.so_carrossel` estiver `true` (ou `auto` com a voz desligada) em `config/automacao.yaml`, todo post (inclusive

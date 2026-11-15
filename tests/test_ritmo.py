@@ -180,3 +180,18 @@ def test_so_um_carrossel_por_dia_no_feed(monkeypatch):
     monkeypatch.setattr(producao, "carrosseis_por_dia", lambda: 1)
     assert producao.carrosseis_no_dia("gg_explica", agora) == 1
     assert producao.carrosseis_no_dia("gg_explica", agora + timedelta(days=1)) == 0
+
+
+def test_legenda_sem_aviso_e_hashtag_repetidos():
+    from pipeline.fila import montar_legenda
+    from pipeline.marca import carregar_marca
+    from pipeline.modelos import Video
+    marca = carregar_marca("gg_explica")
+    v = Video.model_validate({"id": "t", "serie": "radar", "horario": "09:00", "formato": "reel", "data": "2026-11-15",
+        "legenda_post": "x", "hashtags": ["#gta6"], "cenas": [{"tipo": "gancho", "titulo": "G", "narracao": "oi"},
+        {"tipo": "tela_cheia", "titulo": "T", "narracao": "oi",
+        "midia": "busca:praia", "credito": "Imagens: Rockstar Games"}]})
+    texto = f"Gancho\n\nComenta PS5\n\n{marca.post['aviso_ia']}\n#gta6 #gtavi"
+    leg = montar_legenda(marca, v, texto)
+    assert leg.count(marca.post["aviso_ia"].rstrip(".")) == 1
+    assert leg.lower().count("#gta6") == 1 and leg.count("Imagens: Rockstar Games") == 1

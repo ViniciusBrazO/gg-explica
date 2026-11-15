@@ -7,6 +7,7 @@ TikTok:    vai para uma pasta de lote com legenda pronta, para agendar no TikTok
 from __future__ import annotations
 
 import json
+import re
 import shutil
 from dataclasses import asdict, dataclass, field
 from datetime import datetime
@@ -61,21 +62,27 @@ class Item:
 
 
 def montar_legenda(marca: Marca, video: Video, legenda_post: str) -> str:
-    """#publi no começo (visível sem tocar em 'mais'), aviso de IA, créditos e no máximo 3 hashtags."""
+    """#publi no começo (visível sem tocar em 'mais'), aviso de IA, créditos e no máximo 3 hashtags.
+    O que o redator já escreveu na legenda (aviso de IA, crédito, hashtags) não entra de novo."""
+    texto = legenda_post.strip()
+    # hashtags soltas no fim do texto do redator viram as hashtags do post (sem repetir)
+    das_linhas = re.findall(r"#\w+", texto.split("\n")[-1]) if texto else []
+    if das_linhas and re.fullmatch(r"(\s*#\w+\s*)+", texto.split("\n")[-1]):
+        texto = "\n".join(texto.split("\n")[:-1]).rstrip()
     partes = []
-    if video.publi:
+    if video.publi and marca.post["aviso_publi"] not in texto:
         partes.append(marca.post["aviso_publi"])
-    partes.append(legenda_post.strip())
+    partes.append(texto)
     avisos = []
-    if video.voz_ia:
+    if video.voz_ia and marca.post["aviso_ia"].rstrip(".") not in texto:
         avisos.append(marca.post["aviso_ia"])
     # Crédito das imagens de terceiros (lei 9.610/98, art. 46, III: citar autor e fonte).
-    avisos += [c if c.endswith(".") else c + "." for c in video.creditos()]
+    avisos += [c if c.endswith(".") else c + "." for c in video.creditos() if c.rstrip(".") not in texto]
     if avisos:
         partes.append(" ".join(avisos))
     tags = []
-    for t in list(video.hashtags) + list(marca.post.get("hashtags_base", [])):
-        if t not in tags:
+    for t in das_linhas + list(video.hashtags) + list(marca.post.get("hashtags_base", [])):
+        if t.lower() not in [x.lower() for x in tags] and t.lower() not in texto.lower():
             tags.append(t)
     if tags:
         partes.append(" ".join(tags[:3]))

@@ -390,6 +390,11 @@ def cmd_metricas(args) -> int:
 
     n = coletar()
     print(f"{n} linha(s) adicionadas em {ARQUIVO}")
+    try:
+        from .metricas import coletar_conta, escrever_resumo
+        print(escrever_resumo(coletar_conta()))
+    except Exception as e:
+        print(f"resumo da conta: {e}")
     return 0
 
 
