@@ -19,6 +19,22 @@ _AFIRMA_CONFIRMACAO = re.compile(r"(?<!não )(?<!nao )(?<!nunca )(?<!sem )\bconf
                                  flags=re.IGNORECASE)
 LIMITE_PROGRAMA_CRIADORES_S = 60
 MIN_SLIDES = 5
+ACELERACAO_MAXIMA = 1.12     # a voz pode ficar até 12% mais rápida que o normal da marca para caber no limite
+ALVO_REEL_S = 57.0
+
+
+def palavras_por_segundo(marca: Marca) -> float:
+    """Ritmo da narração: 2,6 palavras/s na velocidade normal, ajustado pela velocidade da voz da marca."""
+    voz = marca.dados.get("voz", {})
+    if voz.get("provedor") == "azure":
+        try:
+            pct = float(str(voz.get("azure", {}).get("velocidade", "+0%")).strip("%+")) / 100
+        except ValueError:
+            pct = 0.0
+        return 2.6 * (1 + pct)
+    if voz.get("provedor") == "elevenlabs":
+        return 2.6 * float(voz.get("elevenlabs", {}).get("velocidade", 1.0))
+    return 2.6
 MAX_SLIDES_API = 10          # Content Publishing API: até 10 itens por carrossel
 
 
@@ -79,7 +95,7 @@ def checar_pauta(marca: Marca, video: Video) -> tuple[list[str], list[str]]:
     bloqueios += b
     avisos += a
     palavras = sum(len(c.narracao.split()) for c in video.cenas)
-    estimativa = palavras / 2.6
+    estimativa = palavras / palavras_por_segundo(marca)
     if estimativa > marca.video["duracao_max_s"]:
         avisos.append(f"narração longa: cerca de {estimativa:.0f}s (máximo {marca.video['duracao_max_s']}s)")
     if video.formato == "carrossel" and len(video.cenas) < MIN_SLIDES:
@@ -87,7 +103,8 @@ def checar_pauta(marca: Marca, video: Video) -> tuple[list[str], list[str]]:
                          "números, contexto, o que muda no Brasil, pergunta)")
     if video.formato == "carrossel" and len(video.cenas) > MAX_SLIDES_API:
         bloqueios.append(f"carrossel com {len(video.cenas)} slides: a API do Instagram aceita até {MAX_SLIDES_API}")
-    if video.usa_midia_de_terceiros and estimativa > LIMITE_PROGRAMA_CRIADORES_S:
+    # até ~66 s o kit acelera a voz sozinho para caber em 57 s (montagem.ajustar_ritmo); acima disso, encurtar
+    if video.usa_midia_de_terceiros and estimativa > LIMITE_PROGRAMA_CRIADORES_S * ACELERACAO_MAXIMA:
         bloqueios.append(f"vídeo com trecho de jogo passa de {LIMITE_PROGRAMA_CRIADORES_S}s (cerca de "
                       f"{estimativa:.0f}s): entra no programa de criadores do TikTok, e a Rockstar trata "
                       "ganho com gravação como uso comercial. Encurte ou troque o trecho por visual próprio")

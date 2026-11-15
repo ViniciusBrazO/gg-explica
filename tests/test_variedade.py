@@ -97,3 +97,21 @@ def test_estilo_noticia_manchete_e_tomadas(tmp_path):
                             "Imagens: Rockstar Games", tmp_path / "m.png")
     from PIL import Image
     assert Image.open(png).size == (1080, 1920)
+
+
+def test_ritmo_acelera_reel_longo_e_bloqueia_so_o_muito_longo():
+    from pipeline.marca import carregar_marca
+    from pipeline.modelos import Video
+    from pipeline.montagem import ajustar_ritmo
+    from pipeline.qualidade import checar_pauta
+    marca = carregar_marca("gg_explica")
+    def video(palavras):
+        return Video.model_validate({"id": "t", "serie": "radar", "horario": "09:00", "formato": "reel",
+            "data": "2026-11-15", "legenda_post": "x", "cenas": [
+                {"tipo": "gancho", "titulo": "Manchete", "narracao": "Olha isso."},
+                {"tipo": "tela_cheia", "titulo": "T", "midia": "busca:praia", "credito": "Imagens: Rockstar Games",
+                 "narracao": " ".join(["palavra"] * palavras)}]})
+    v = video(165)                                    # ~57 s na voz da marca: passa
+    assert not any("passa de 60s" in b for b in checar_pauta(marca, v)[0])
+    assert ajustar_ritmo(marca, video(185)).dados["voz"]["azure"]["velocidade"] != "+12%"
+    assert any("passa de 60s" in b for b in checar_pauta(marca, video(230))[0])

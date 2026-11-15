@@ -489,10 +489,31 @@ def _tomadas_da_cena(cena: Cena, duracao: float, evitar: set, usadas: list[str],
     return tomadas
 
 
+def ajustar_ritmo(marca: Marca, video: Video) -> Marca:
+    """Reel com trecho de jogo precisa ficar abaixo de 60 s: se a narração estimada passa de 57 s, acelera
+    a voz do Azure só neste vídeo (no máximo +12% sobre a velocidade normal da marca)."""
+    from .qualidade import ACELERACAO_MAXIMA, ALVO_REEL_S, palavras_por_segundo
+    voz = marca.dados.get("voz", {})
+    if voz.get("provedor") != "azure" or not video.usa_midia_de_terceiros:
+        return marca
+    palavras = sum(len(c.narracao.split()) for c in video.cenas)
+    estimativa = palavras / palavras_por_segundo(marca)
+    if estimativa <= ALVO_REEL_S:
+        return marca
+    fator = min(estimativa / ALVO_REEL_S, ACELERACAO_MAXIMA)
+    base = float(str(voz["azure"].get("velocidade", "+0%")).strip("%+")) / 100
+    nova = f"+{round(((1 + base) * fator - 1) * 100)}%"
+    print(f"  narração de ~{estimativa:.0f}s: voz em {nova} neste vídeo para caber em {ALVO_REEL_S:.0f}s")
+    dados = json.loads(json.dumps(marca.dados))
+    dados["voz"]["azure"]["velocidade"] = nova
+    return dataclasses.replace(marca, dados=dados)
+
+
 def renderizar_video(marca: Marca, video: Video, pasta_saida: Path, voz_forcada: Optional[str] = None,
                      hoje: Optional[date] = None, musica: Optional[Path] = None,
                      registrar_clipes: bool = True) -> dict:
     hoje = hoje or video.data   # contagens são calculadas para o dia da publicação
+    marca = ajustar_ritmo(marca, video)
     pasta_saida = pasta_saida.resolve()
     trabalho = pasta_saida / "_trabalho" / video.id
     if trabalho.exists():

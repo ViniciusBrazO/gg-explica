@@ -283,7 +283,7 @@ def test_legenda_post_credita_imagens_de_terceiros(tmp_path):
 
 def test_trecho_de_jogo_longo_bloqueia():
     marca = carregar_marca("gg_explica")
-    fala = " ".join(["palavra"] * 170)   # cerca de 65 s
+    fala = " ".join(["palavra"] * 230)   # cerca de 79 s na voz da marca: nem acelerando cabe
     v = _video_gg([{"tipo": "midia", "midia": "assets/exemplos/mapa_leonida_esquema.png",
                     "credito": "Imagens: exemplo", "narracao": fala}])
     bloqueios, _ = checar_pauta(marca, v)

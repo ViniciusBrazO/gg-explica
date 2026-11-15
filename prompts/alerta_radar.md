@@ -72,8 +72,18 @@ com bom senso e o post sai sozinho (o Vinicius recebe o aviso no Telegram e pode
 
 > **Profundidade (pedido do Vinicius, 11/11: "conteúdo raso").** Antes de escrever, leia
 > `saida/radar/dossie.md` (o texto das matérias, aberto pelo kit). Matéria que lá aparece como "só a
-> manchete" você procura em outra fonte com WebSearch/WebFetch; sem texto de nenhuma fonte, o assunto
-> não vira post (ou entra só como uma linha num resumo).
+> manchete" você procura em outra fonte com WebSearch/WebFetch. Se nenhuma matéria abrir, mas **2 ou mais
+> veículos** trazem o mesmo fato nos títulos/resumos da busca, o Reel pode sair com selo RELATO e as duas
+> fontes (sem inventar detalhe que não está nesses resumos). Com uma fonte só e sem texto, fica de fora.
+>
+> **Os 4 Reels do dia sempre saem (pedido do Vinicius, 15/11).** Se não houver notícia com fonte para os
+> 4, complete com **Reels de assunto fixo**, que não dependem de notícia nova, no estilo que mais
+> compartilha (o cotidiano do brasileiro): preço do jogo em horas de salário mínimo ou em parcelas (com
+> fonte do preço e do salário), quantos dias faltam e a que horas libera no horário de Brasília, o feriado
+> e a folga para jogar, quanto espaço liberar no console, curiosidades do trailer e do mapa com selo
+> TEORIA, comparação com GTA V (números oficiais com fonte), "5 coisas que você não reparou". Fato
+> estável também leva `fonte` e `fonte_url` (Rockstar, PlayStation Blog, Wikipedia, veículo). Nunca
+> repita assunto de Reel dos últimos 7 dias.
 > - **Todo slide e toda cena entre a capa e o final trazem pelo menos um dado concreto**: número, valor,
 >   data, horário, nome, tamanho, comparação. Nada de slide que só anuncia que alguém fez algo: se a
 >   fonte calculou, revelou ou listou, o post **diz o resultado** ("pelo cálculo do Canaltech, X horas de
