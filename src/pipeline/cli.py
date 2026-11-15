@@ -162,6 +162,24 @@ def reels_manuais() -> bool:
     return config().get("publicacao", {}).get("instagram_reels", "api") == "manual"
 
 
+def link_do_reel_no_facebook(item) -> str:
+    """Link público do mesmo Reel já publicado na Página do Facebook (o arquivo fica no CDN da Meta)."""
+    from .fila import carregar
+    from .meta import hospedeiro_da_marca, versao, GRAPH
+    fb = next((i for i in carregar() if i.id == item.id and i.plataforma == "facebook"
+               and i.status == "publicado" and i.media_id), None)
+    if fb is None:
+        return ""
+    try:
+        h = hospedeiro_da_marca(item.marca)
+        r = h.s.get(f"{GRAPH}/{versao()}/{fb.media_id}", params={"fields": "source",
+                                                                 "access_token": h.token_pagina}, timeout=30)
+        return r.json().get("source", "")
+    except Exception as e:
+        print(f"  link do Reel do Facebook: {str(e)[:80]}")
+        return ""
+
+
 def entregar_reel_manual(item) -> bool:
     """Manda no Telegram o vídeo, a capa e a legenda prontos para postar o Reel pelo app.
     O vídeo vai primeiro (é o que costuma falhar: o Telegram às vezes dá Gateway Timeout); só depois do
@@ -192,6 +210,15 @@ def entregar_reel_manual(item) -> bool:
         except Exception as e:              # Gateway Timeout etc.: espera um pouco e tenta de outro jeito
             print(f"  Telegram não recebeu o vídeo ({metodo}): {str(e)[:80]}")
             time.sleep(15 * (tentativa + 1))
+    if not enviado:
+        url = link_do_reel_no_facebook(item)
+        if url:
+            try:
+                tg.video_por_link(url, chamada)
+                enviado = True
+                print("  vídeo entregue pelo link do Reel do Facebook")
+            except Exception as e:
+                print(f"  Telegram não baixou pelo link: {str(e)[:80]}")
     if not enviado:
         return False
     for envio in (lambda: tg.foto(Path(item.capa), "Capa (Editar capa > Adicionar do rolo da câmera)")
@@ -265,7 +292,8 @@ def cmd_publicar(args) -> int:
     publicados = 0
     no_ar: dict[str, list[dict]] = {}     # posts recentes de cada conta, contra publicação repetida
     from .ritmo import motivo_para_segurar
-    for item in sorted(itens, key=lambda i: i.quando):
+    # no mesmo horário, o Facebook antes: o Reel publicado lá dá o link para a entrega manual do Instagram
+    for item in sorted(itens, key=lambda i: (i.quando, i.plataforma == "instagram")):
         if item.status != "pendente" or datetime.fromisoformat(item.quando) > agora:
             continue
         if item.tentativas >= (8 if falha_da_meta_no_video(item.erro) else 3):

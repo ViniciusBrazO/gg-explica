@@ -89,6 +89,11 @@ class Telegram:
                                       "reply_markup": json.dumps({"inline_keyboard": botoes})},
                                 files={"video": (arquivo.name, f, "video/mp4")})
 
+    def video_por_link(self, url: str, legenda: str) -> dict:
+        """O Telegram baixa o vídeo de um link público (até 20 MB): não depende do envio sair do servidor."""
+        return self._chamar("sendVideo", timeout=120, data={"chat_id": self.chat_id, "video": url,
+                                                             "caption": legenda[:1024], "supports_streaming": "true"})
+
     def documento(self, arquivo: Path, legenda: str = "") -> dict:
         with open(arquivo, "rb") as f:
             return self._chamar("sendDocument", timeout=300, data={"chat_id": self.chat_id, "caption": legenda[:1024]},
