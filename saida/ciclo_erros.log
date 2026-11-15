@@ -265,3 +265,20 @@ Traceback (most recent call last):
   File "/home/runner/work/gg-explica/gg-explica/src/pipeline/telegram.py", line 77, in _chamar
     raise RuntimeError(f"Telegram {metodo}: {dados.get('description', dados)}")
 RuntimeError: Telegram sendVideo: Gateway Timeout
+
+[2026-11-15 10:25] prévias
+Traceback (most recent call last):
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/ciclo.py", line 60, in etapa
+    funcao()
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/ciclo.py", line 146, in previas
+    n = telegram.enviar_para_aprovacao(tg, cfg["telegram"].get("enviar_dias_a_frente", 1))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/telegram.py", line 222, in enviar_para_aprovacao
+    msg = tg.video(r.arquivo, corpo, botoes)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/telegram.py", line 85, in video
+    return self._chamar("sendVideo", timeout=300,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/telegram.py", line 77, in _chamar
+    raise RuntimeError(f"Telegram {metodo}: {dados.get('description', dados)}")
+RuntimeError: Telegram sendVideo: Gateway Timeout

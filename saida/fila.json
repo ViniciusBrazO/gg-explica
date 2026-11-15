@@ -895,7 +895,7 @@
     "media_id": "",
     "permalink": "",
     "erro": "Telegram não recebeu o vídeo",
-    "tentativas": 1,
+    "tentativas": 2,
     "publicado_em": "",
     "furar_freio": false
   },
@@ -915,6 +915,42 @@
     "erro": "",
     "tentativas": 0,
     "publicado_em": "2026-11-15T10:14:03-03:00",
+    "furar_freio": false
+  },
+  {
+    "id": "radar_2026-11-15_relacao_jason_lucia_reel",
+    "marca": "gg_explica",
+    "video": "/home/runner/work/gg-explica/gg-explica/saida/videos/gg_explica/2026-11-15_radar_2026-11-15_relacao_jason_lucia_reel.mp4",
+    "capa": "/home/runner/work/gg-explica/gg-explica/saida/videos/gg_explica/2026-11-15_radar_2026-11-15_relacao_jason_lucia_reel_capa.jpg",
+    "legenda": "JASON E LUCIA NÃO SÃO PERSONAGENS VAZIOS!\nSegundo o Beebom, que cita uma entrevista de Rob Nelson, chefe da Rockstar North, à revista Dazed, a relação dos dois é constante, evolui e tem consequências ligadas ao sistema de honra do jogo. Finais diferentes são só especulação do site. GTA 6 sai em 19 de novembro.\nFonte: Beebom (entrevista à Dazed), atualizado em 26/08/2026\nVídeo narrado por voz de IA.\nQuem você acha que vai pesar mais na história, o Jason ou a Lucia? #gta6 #gtavi\n\nNarração com voz de IA. Imagens: Rockstar Games.\n\n#gta6 #gtavi #games",
+    "quando": "2026-11-15T12:00:00-03:00",
+    "plataforma": "instagram",
+    "tipo": "reel",
+    "status": "pendente",
+    "produtos_para_marcar": [],
+    "media_id": "",
+    "permalink": "",
+    "erro": "",
+    "tentativas": 0,
+    "publicado_em": "",
+    "furar_freio": false
+  },
+  {
+    "id": "radar_2026-11-15_relacao_jason_lucia_reel",
+    "marca": "gg_explica",
+    "video": "/home/runner/work/gg-explica/gg-explica/saida/videos/gg_explica/2026-11-15_radar_2026-11-15_relacao_jason_lucia_reel.mp4",
+    "capa": "/home/runner/work/gg-explica/gg-explica/saida/videos/gg_explica/2026-11-15_radar_2026-11-15_relacao_jason_lucia_reel_capa.jpg",
+    "legenda": "JASON E LUCIA NÃO SÃO PERSONAGENS VAZIOS!\nSegundo o Beebom, que cita uma entrevista de Rob Nelson, chefe da Rockstar North, à revista Dazed, a relação dos dois é constante, evolui e tem consequências ligadas ao sistema de honra do jogo. Finais diferentes são só especulação do site. GTA 6 sai em 19 de novembro.\nFonte: Beebom (entrevista à Dazed), atualizado em 26/08/2026\nVídeo narrado por voz de IA.\nQuem você acha que vai pesar mais na história, o Jason ou a Lucia? #gta6 #gtavi\n\nNarração com voz de IA. Imagens: Rockstar Games.\n\n#gta6 #gtavi #games",
+    "quando": "2026-11-15T12:00:00-03:00",
+    "plataforma": "facebook",
+    "tipo": "reel",
+    "status": "pendente",
+    "produtos_para_marcar": [],
+    "media_id": "",
+    "permalink": "",
+    "erro": "",
+    "tentativas": 0,
+    "publicado_em": "",
     "furar_freio": false
   }
 ]
