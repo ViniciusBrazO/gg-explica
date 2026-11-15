@@ -199,7 +199,15 @@ def entregar_reel_manual(item) -> bool:
     chamada = (f"🎬 Hora de postar o Reel \"{nome}\" no Instagram pelo app: salve o vídeo e a capa, cole a "
                "legenda e ligue o rótulo de IA (Configurações avançadas).")
     enviado = False
-    for tentativa, metodo in enumerate(("video", "video", "documento")):
+    url = link_do_reel_no_facebook(item)      # primeiro o link (o envio de arquivo ao Telegram anda falhando)
+    if url:
+        try:
+            tg.video_por_link(url, chamada)
+            enviado = True
+            print("  vídeo entregue pelo link do Reel do Facebook")
+        except Exception as e:
+            print(f"  Telegram não baixou pelo link: {str(e)[:80]}")
+    for tentativa, metodo in enumerate(() if enviado else ("video", "documento")):
         try:
             if metodo == "video":
                 tg.video(Path(item.video), chamada, [])
@@ -210,15 +218,6 @@ def entregar_reel_manual(item) -> bool:
         except Exception as e:              # Gateway Timeout etc.: espera um pouco e tenta de outro jeito
             print(f"  Telegram não recebeu o vídeo ({metodo}): {str(e)[:80]}")
             time.sleep(15 * (tentativa + 1))
-    if not enviado:
-        url = link_do_reel_no_facebook(item)
-        if url:
-            try:
-                tg.video_por_link(url, chamada)
-                enviado = True
-                print("  vídeo entregue pelo link do Reel do Facebook")
-            except Exception as e:
-                print(f"  Telegram não baixou pelo link: {str(e)[:80]}")
     if not enviado:
         return False
     for envio in (lambda: tg.foto(Path(item.capa), "Capa (Editar capa > Adicionar do rolo da câmera)")
