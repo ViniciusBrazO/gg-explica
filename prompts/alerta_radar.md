@@ -33,10 +33,9 @@ com bom senso e o post sai sozinho (o Vinicius recebe o aviso no Telegram e pode
 > **Orientações do Vinicius:** leia `saida/telegram/orientacoes.md` (se existir) e siga tudo o que está lá: são as respostas dele no Telegram e valem para todos os posts.
 
 
-> **Foco em Reels (pedido do Vinicius, 13/11: Reel faz 45 a 139 views, carrossel 0 a 7).** Cada assunto
-> vira **só o Reel narrado** (`<id>_reel`, item 1 abaixo). Carrossel (item 2) só **1 por dia**, e só
-> quando o assunto pede para salvar: guia, lista, checklist ou tabela de preço/tamanho/horário. O kit
-> põe no feed do Instagram no máximo 1 carrossel por dia; o resto do espaço é dos Reels.
+> **Só Reels (pedido do Vinicius, 14/11): 4 Reels por dia e NENHUM carrossel** até a página ter mais
+> seguidores. Cada assunto vira só o Reel narrado (`<id>_reel`, item 1 abaixo); não escreva o item 2
+> (carrossel). O kit também não põe carrossel no feed do Instagram.
 >
 > **Reel narrado (quando `saida/estado_voz.txt` diz `ligada`):** os dois formatos possíveis na lista
 > `videos`, com conteúdo e visual diferentes:

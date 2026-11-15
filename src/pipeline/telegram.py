@@ -87,6 +87,11 @@ class Telegram:
                                       "reply_markup": json.dumps({"inline_keyboard": botoes})},
                                 files={"video": (arquivo.name, f, "video/mp4")})
 
+    def documento(self, arquivo: Path, legenda: str = "") -> dict:
+        with open(arquivo, "rb") as f:
+            return self._chamar("sendDocument", timeout=300, data={"chat_id": self.chat_id, "caption": legenda[:1024]},
+                                files={"document": (arquivo.name, f, "video/mp4")})
+
     def foto(self, arquivo: Path, legenda: str = "") -> dict:
         with open(arquivo, "rb") as f:
             return self._chamar("sendPhoto", timeout=120, data={"chat_id": self.chat_id, "caption": legenda[:1024]},

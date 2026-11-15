@@ -92,8 +92,8 @@ publicacao:
   # Reels no Instagram: "api" (o kit publica) ou "manual" (o kit manda vídeo, capa e legenda no Telegram
   # na hora marcada e o Vinicius posta pelo app). Manual desde 13/11: a API recusa vídeo (erro 2207076).
   instagram_reels: manual
-  # Foco em Reels (13/11): carrossel no feed do Instagram no máximo 1 por dia
-  instagram_carrosseis_por_dia: 1
+  # Só Reels (14/11): nenhum carrossel no feed do Instagram até a página ter mais seguidores
+  instagram_carrosseis_por_dia: 0
   instagram: {max_24h: 6, minutos_entre_posts: 90}
   facebook: {max_24h: 4, minutos_entre_posts: 90}
 

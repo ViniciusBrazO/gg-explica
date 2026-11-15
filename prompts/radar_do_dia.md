@@ -12,10 +12,9 @@ Hoje é {data de hoje}. Prepare o Radar do dia e ajuste a pauta da semana.
 > **Orientações do Vinicius:** leia `saida/telegram/orientacoes.md` (se existir) e siga tudo o que está lá: são as respostas dele no Telegram e valem para todos os posts.
 
 
-> **Foco em Reels (pedido do Vinicius, 13/11: Reel faz 45 a 139 views, carrossel 0 a 7).** Cada assunto
-> vira **só o Reel narrado** (`<id>_reel`, item 1 abaixo). Carrossel (item 2) só **1 por dia**, e só
-> quando o assunto pede para salvar: guia, lista, checklist ou tabela de preço/tamanho/horário. O kit
-> põe no feed do Instagram no máximo 1 carrossel por dia; o resto do espaço é dos Reels.
+> **Só Reels (pedido do Vinicius, 14/11): 4 Reels por dia e NENHUM carrossel** até a página ter mais
+> seguidores. Cada assunto vira só o Reel narrado (`<id>_reel`, item 1 abaixo); não escreva o item 2
+> (carrossel). O kit também não põe carrossel no feed do Instagram.
 >
 > **Reel narrado (quando `saida/estado_voz.txt` diz `ligada`):** os dois formatos possíveis na lista
 > `videos`, com conteúdo e visual diferentes:
@@ -129,8 +128,7 @@ Atualize a coluna `virou` (sim, não, aberto).
 
 ## 4. Escreva a pauta do dia
 
-- Esta tarefa roda **2 vezes por dia** (07h07 e 17h07). Meta do dia: **4 Reels** + no máximo **1 carrossel**
-  (só se houver assunto de guia/lista). Rodada das 07h07: 3 Reels; rodada das 17h07: 1 Reel (ou nenhum, se
+- Esta tarefa roda **2 vezes por dia** (07h07 e 17h07). Meta do dia: **4 Reels** e nenhum carrossel. Rodada das 07h07: 3 Reels; rodada das 17h07: 1 Reel (ou nenhum, se
   o dia já tem 4). Horários base: 09h00, 12h00, 15h00 e 19h00 (alternativas 11h00, 13h00, 21h00; o kit roda
   de hora em hora, em :07). Os Reels do Instagram são postados pelo Vinicius pelo app quando o kit manda no
   Telegram; o freio do kit segura no máximo 6 publicações em 24 h com 90 min entre elas. Use só horários a

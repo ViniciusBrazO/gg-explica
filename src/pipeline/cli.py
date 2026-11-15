@@ -162,22 +162,43 @@ def reels_manuais() -> bool:
     return config().get("publicacao", {}).get("instagram_reels", "api") == "manual"
 
 
-def entregar_reel_manual(item) -> None:
-    """Manda no Telegram o vídeo, a capa e a legenda prontos para postar o Reel pelo app."""
+def entregar_reel_manual(item) -> bool:
+    """Manda no Telegram o vídeo, a capa e a legenda prontos para postar o Reel pelo app.
+    O vídeo vai primeiro (é o que costuma falhar: o Telegram às vezes dá Gateway Timeout); só depois do
+    vídeo entregue vão a capa e a legenda, para não repetir mensagem a cada tentativa."""
     import html
+    import time
     from .telegram import Telegram
     tg = Telegram.do_ambiente()
     if not tg:
         print("  sem Telegram: o Reel ficou só na fila")
-        return
-    tg.texto(f"🎬 <b>Hora de postar o Reel</b> \"{html.escape(item.id.split('_', 2)[-1])}\" no Instagram pelo app.\n"
-             "1) salve o vídeo e a capa abaixo  2) cole a legenda  3) ligue o rótulo de IA "
-             "(Configurações avançadas) e compartilhe.", parse_mode="HTML")
-    tg.video(Path(item.video), "Vídeo do Reel", [])
-    if item.capa and Path(item.capa).exists():
-        tg.foto(Path(item.capa), "Capa (Editar capa > Adicionar do rolo da câmera)")
-    tg.texto(f"<code>{html.escape(item.legenda)}</code>", parse_mode="HTML")
+        return False
+    nome = item.id.split("_", 2)[-1]
+    chamada = (f"🎬 Hora de postar o Reel \"{nome}\" no Instagram pelo app: salve o vídeo e a capa, cole a "
+               "legenda e ligue o rótulo de IA (Configurações avançadas).")
+    enviado = False
+    for tentativa, metodo in enumerate(("video", "video", "documento")):
+        try:
+            if metodo == "video":
+                tg.video(Path(item.video), chamada, [])
+            else:
+                tg.documento(Path(item.video), chamada)
+            enviado = True
+            break
+        except Exception as e:              # Gateway Timeout etc.: espera um pouco e tenta de outro jeito
+            print(f"  Telegram não recebeu o vídeo ({metodo}): {str(e)[:80]}")
+            time.sleep(15 * (tentativa + 1))
+    if not enviado:
+        return False
+    for envio in (lambda: tg.foto(Path(item.capa), "Capa (Editar capa > Adicionar do rolo da câmera)")
+                  if item.capa and Path(item.capa).exists() else None,
+                  lambda: tg.texto(f"<code>{html.escape(item.legenda)}</code>", parse_mode="HTML")):
+        try:
+            envio()
+        except Exception as e:
+            print(f"  Telegram: {str(e)[:80]}")
     print("  Reel entregue no Telegram para postar pelo app")
+    return True
 
 
 def avisar_video_recusado(item, quando) -> None:
@@ -255,9 +276,12 @@ def cmd_publicar(args) -> int:
             continue
         if item.plataforma == "instagram" and item.tipo == "reel" and reels_manuais():
             # a API do Instagram está recusando vídeo: o Reel vai pronto para o Telegram e o Vinicius posta pelo app
-            entregar_reel_manual(item)
-            item.status = "manual"
-            item.publicado_em = datetime.now(FUSO).isoformat(timespec="seconds")
+            if entregar_reel_manual(item):
+                item.status = "manual"
+                item.publicado_em = datetime.now(FUSO).isoformat(timespec="seconds")
+            else:
+                item.tentativas += 1
+                item.erro = "Telegram não recebeu o vídeo"
             continue
         try:
             if item.plataforma == "facebook":

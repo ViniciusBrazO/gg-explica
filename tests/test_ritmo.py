@@ -165,7 +165,7 @@ def test_reel_manual_vai_para_o_telegram(tmp_path, monkeypatch):
     salvar([item])
     entregues = []
     monkeypatch.setattr(cli, "reels_manuais", lambda: True)
-    monkeypatch.setattr(cli, "entregar_reel_manual", lambda i: entregues.append(i.id))
+    monkeypatch.setattr(cli, "entregar_reel_manual", lambda i: entregues.append(i.id) or True)
     cli.cmd_publicar(Namespace(simular=False))
     assert entregues == ["p1"] and carregar()[0].status == "manual"
 
