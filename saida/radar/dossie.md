@@ -5,14 +5,166 @@ Texto das matérias aberto pelo kit. Use os números, nomes e datas daqui. Maté
 
 ## Assunto 1
 
-### eurogamer.net (2026-11-15), selo sugerido relato
-Manchete: The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
-Link: https://www.eurogamer.net/gta-6-tracklist-leak
+### polygon.com (2026-11-16), selo sugerido relato
+Manchete: 'GTA 6' Hacker Pleads Guilty To Extorting Rockstar, Trolling In Prison
+Link: https://www.polygon.com/gta-6-leak-guilty-plead-arion-kurtaj-rockstar-uber-hack-nov-2026/
 
-The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
-We are now just four days away from the release of GTA 6 on Xbox Series X/S and PS5, but the proximity to the much-anticipated launch date isn't stemming the tide of leaks that has been plaguing the game for much of the past year. Yesterday, a new video - seemingly from a record store that received vinyl records of the soundtrack early - showed off the full 34-song tracklist for the game.
-Thanks to the listing printed on the back of Grand Theft Auto 6: The Album vinyl, we have a better idea of the licensed music that'll appear in-game. Travis Scott, Rina Sawayama, Cardi B, Pinkpantheress, SZA, Keith Richards, Dua Lipa, Jennie, Lana Del Rey, Zara Larsson are just some of the names that make up the impressive list. We know about a few of these tracks from September's announcement of the record, but only six tracks were revealed then, not the whole list.
-Take a look at the full track listing below:
+Arion Kurtaj’s hacking antics spoiled GTA 6 and reportedly cost companies millions
+GTA 6 hacker pleads guilty to extorting Rockstar, trolling in prison
+Arion Kurtaj, the hacker behind Grand Theft Auto 6's first major leak in 2022, just concluded a plea hearing in front of a London judge. The 21-year-old was accused of multiple counts of unauthorized operation of a computer, fraud, securing access to computer material with intent, and possession of a mobile phone while in prison. Kurtaj, who was a teenager when the crimes were committed, pleaded guilty on all counts.
+Kurtaj's court plea may come to a surprise to some, as the hacker was initially deemed unfit to stand trial in 2023. After spending two years in a secure hospital, Kurtaj was reassessed in 2025 and soon moved to prison. The hacker called attention to himself while behind bars by uploading a number of photos on social media in which he mocked the authorities. The Crown Prosecution Service confirmed Kurtaj's possession of an illicit mobile phone in a press release on Monday, in which the prosecutor further detailed his case status.
+The hacker published 50 minutes of GTA 6 gameplay split across 90 videos in 2022, all of which depicted a game that was not yet ready for public consumption. In addition to showing standard franchise gameplay mechanics, the leak was responsible for spoiling the series' first playable female character. At the time, Kurtaj threatened to release the game's source code if GTA 6 developer Rockstar did not contact him promptly. Kurtaj's access to this supposed source code is unknown, but more recent GTA 6 leaks have raised questions about hackers still potentially having access to an apparently playable build of the game.
+Beyond targeting a major release, Kurtaj gained notoriety due to his hacking methods and overt circumstances. The breach was carried out using an Amazon Fire Stick connected to a hotel room television while the teenager was on bail for another offense. The hacker had reportedly used a SIM-swapping scheme to gain access to bank accounts and other sensitive information before targeting Rockstar Games. Kurtaj is associated with a larger hacking group, Lapsus$, and is accused of causing £10 million ($13.19 million) in damages.
+Michael is the only one of the five who is already successful when you meet him, which makes him the only one whose real problem is boredom.
+You picked the house first, and the rest of your life arranged itself around that one decision.
+A bad family dinner is one you are paying for, while wondering how it ended up like this.
+Ten years on you are trying to retire for the fourth time, and you will not manage it.
+Franklin is the one who arrives wanting out, and everything he does is measured against whether it moves him closer to that.
+You say nothing when somebody takes credit for your work, and you remember exactly who was in the room.
+Money gets invested carefully in the thing that gets you out, which nobody else here would even consider.
+People think this is as far as you are going. That is the single most useful thing they could believe.
+Trevor is the least predictable character in the game and the most quoted, because he says out loud what everybody else is being careful about.
+You introduce yourself to everyone, loudly, within an hour of arriving anywhere.
+Money is gone by Thursday and you genuinely could not tell anybody where it went.
+People think you do not know exactly what you are doing. You do, and that is the unsettling part.
+Lester is the one who sees the whole board, and he is written as the opposite of everybody around him: no volume, no impulse, all preparation.
+You researched the place for six months before you moved, and you know it better than people who grew up there.
+You screen every call and ring back when you are ready, which other people find rude and you find obvious.
+People think you are not paying attention. You have a record of exactly who did what, and it will come up.
+Lamar is the character with the most confidence and the least evidence, and the game clearly likes him more for it.
+You told everyone back home how well it was going well before it was going at all.
+Money goes on something visible, immediately, because what is the point otherwise.
+People think you do not mean a word of it. You mean all of it, every time, which is why the next one is definitely the one.
+His recent court appearance detailed more antics, like an extortion attempt against Uber in which he "posted a picture of a penis as part of his attempts to force the company to pay a ransom." The BBC's report also states that Kurtaj's custody has been rocky: He is accused of physically assaulting and biting staff caring for him.
+"His offending was calculated and, even after being charged with serious offences, he continued to target organisations, demonstrating a persistent disregard for the harm he was causing and the law," wrote Robert Hutchinson, Specialist Prosecutor for the Crown Prosecution Service, in a press release.
+Kurtaj will be sentenced on Nov. 23, four days after the official launch of Grand Theft Auto 6.
+
+### Aftermath (2026-11-16), selo sugerido rumor
+Manchete: GTA VI Hacker Pleads Guilty To 2022 Rockstar Games Breach - Aftermath
+Link: https://news.google.com/rss/articles/CBMiZkFVX3lxTE8zcEkzb0QyS3Z4Mkhuc0paSDIyblp3X0xId1NqZ2pFNGM0SnVVOVVmaURJVDIyWmdlbmxBS21ncW1tTEFDYXVTRGpXY1E5aHl5R2xWY0lqS0N4TFBnRUJJWExrbnhLZw?oc=5
+
+(só a manchete: a matéria não abriu)
+
+### Kotaku (2026-11-16), selo sugerido relato
+Manchete: GTA 6 Hacker Pleads Guilty To Cybercrimes After Infamous 2022 Leak - Kotaku
+Link: https://news.google.com/rss/articles/CBMihgFBVV95cUxNNjd0cFVONGI3aVlGLXcxbWcxTTJydTRrRDBBT0xVTzhhX3cxN2w0VjAzNDVhajRYTE5qNEdRQWFxV3dqYm40RGlxNzJsT1F5djU4dDNja1djUnpOcmlLaWRRaE5lWUJCNFBxMFlqaGZhcDBEdmpWeElydGdRSHFwMV8yZkhBdw?oc=5
+
+(só a manchete: a matéria não abriu)
+
+Outras manchetes: GTA 6 Hacker Who Used a Fire Stick to Breach Rockstar Games Pleads Guilty - Men's Journal | 'GTA 6' Hacker Pleads Guilty To Extorting Rockstar, Trolling In Prison
+
+
+## Assunto 2
+
+### polygon.com (2026-11-16), selo sugerido relato
+Manchete: GTA 6 Comes to NBA 2K27 With Complete Vice City Makeover
+Link: https://www.polygon.com/gta-6-nba-2k27-vice-city-crossover-announced/
+
+Take-Two is going all out for GTA 6 release week
+GTA 6 comes to NBA 2K27 with massive Vice City makeover
+The 13-year wait for Grand Theft Auto 6 will finally be over this week. To celebrate, a number of real-world and virtual events are being held and the latest is a crossover with another one of publisher Take-Two's biggest moneymakers. Starting later this month, Vice City is invading NBA 2K27.
+The GTA 6 x NBA 2K27 crossover won't be a short-lived affair meant to only coincide with the blockbuster's release; instead, it will last an entire in-game season. The event, which is branded as NBA 2K27 Vice City Edition, will begin on Nov. 27 and run until Jan. 15. The game's usual setting will get a makeover to make it look like GTA 6's setting of Vice City, complete with Art Deco buildings, sandy beachfront courts, and a completely redesigned arena.
+There will be a number of special items to earn through a season pass, MyTeam Rewards, and MyCareer Awards. These range from cosmetics like a sick jacket and bucket hat to a collectible of Macca the Gator, the star of GTA 6's animated series. Players with GTA+ on PlayStation 5 and Xbox Series X will be able to play NBA 2K27 during the Vice City-themed season at no additional cost.
+GTA 6 invades real-world basketball with Miami Heat crossover
+Sticking to the basketball theme, this week will see Rockstar collaborate with the Miami Heat for a special one-night only event. "A Night in Vice City" will be hosted on Nov. 18 and transform the Florida team into the Vice City Heat with a new court and uniforms themed to GTA 6. The game starts at 7 p.m. EST and is against the Milwaukee Bucks.
+If you want to watch the game, which will happen just hours before GTA 6 becomes playable for everyone, it will be broadcast live on ESPN. There is also a lot of special collaboration merchandise for the event that you can buy. Heat player Bam Adebayo, who will play on Nov. 18 in the special Vice City uniform, also graces the cover of the NBA 2K27 crossover.
+Grand Theft Auto 6 will be released on PS5 and Xbox Series X on Nov. 19.
+
+### Nintendo Life (2026-11-16), selo sugerido rumor
+Manchete: NBA 2K27 Brings A Slice Of GTA 6's Vice City To Switch 2 This Month - Nintendo Life
+Link: https://news.google.com/rss/articles/CBMirAFBVV95cUxPM1hnSXNJMkxLUDJCbHhzY2p3Z1BQRUY4aENjTTRCQ210N1EyRVMtdlp2b0RFWDRienVGMTNiNEx1TUdwZ0lDc0xRaHZwdXdjaEJqM0plRHF0dFhmV2xKZHRpX0hYVXRlakotLUhobUFUSGQ1cW90ajE0NmV0Sm8wZ2E1YmJkMVV1NDNweXJPdm55Rjl2NmY4cVZBRkwxZ0tLVDc3RWFrRW92OUdr?oc=5
+
+(só a manchete: a matéria não abriu)
+
+### Polygon.com (2026-11-16), selo sugerido relato
+Manchete: GTA 6 comes to NBA 2K27 with massive Vice City makeover - Polygon.com
+Link: https://news.google.com/rss/articles/CBMieEFVX3lxTE1jSC1DNVB5cUZuc0xYa3JtckdHZHpZSXh1VzktVjRoMTNCemdJRHZNTG8yazh1blZqNlV0QkZpOFgwMUZ3Y1NYcC1RVFo1TERvUHFWb2dwWl94QmdRbmlaY2FPeG03REtjenIwenZBU0k5ZlFMWTJfcg?oc=5
+
+(só a manchete: a matéria não abriu)
+
+Outras manchetes: NBA 2K27 x GTA 6: Colaboração traz Vice City para as quadras - Última Ficha | NBA 2K27 x GTA 6 (Grand Theft Auto 6) - Official Vice City Crossover Trailer - IGN
+
+
+## Assunto 3
+
+### eurogamer.net (2026-11-16), selo sugerido relato
+Manchete: Original GTA 6 leaker pleads guilty to hacking Rockstar Games, years after first revealing Lucia
+Link: https://www.eurogamer.net/gta-6-leaker-pleads-guilty
+
+Original GTA 6 leaker pleads guilty to hacking Rockstar Games, years after first revealing Lucia
+The 21-year-old responsible for hacking Rockstar Games and leaking in-development GTA 6 footage in 2022 has pleaded guilty to a number of offenses.
+The GTA 6 leaker was initially sentenced to an indefinite stay at a hospital due to his severe autism, but was more recently deemed fit for trial and moved to a regular prison earlier this January. On Monday, at the Woolwich Crown Court in South East London, he pleaded guilty to hacking Rockstar Games and a number of other companies, including Uber and EE/BT, in cyber attacks estimated to have caused £10m in damages.
+At the time of his Rockstar hack - when he was between the ages of 16 and 17 - the leaker was already under police protection at a Travelodge hotel to keep him from rival hackers he had allegedly stolen Bitcoin from. Somewhat surprisingly, he then managed to hack the multi-billion dollar game maker with nothing but an Amazon Fire Stick, the hotel room's TV and a bluetooth-connected keyboard and mouse.
+As the BBC reports, he also managed to break into the developer's Slack channels, before threatening to release the GTA 6 source code if Rockstar failed to contact him within the day. The leaker has yet to be sentenced.
+Those 2022 leaks were quite substantial, too, revealing about an hour of unfinished gameplay and clueing the world in on Lucia's existence - the series' first female protagonist in years. Of course, those 2022 leaks shouldn't be confused with 2026's, which saw Cyberleek spill nuggets of nearly finished clips onto the internet, despite Rockstar's best efforts to keep GTA 6 a closely guarded secret.
+"We recently suffered a network intrusion in which an unauthorised third-party illegally accessed and downloaded confidential information from our systems, including early development footage for the next Grand Theft Auto," Rockstar said at the time, before it had officially unveiled GTA 6. "At this time we do not anticipate any disruption to our live game services, nor any long-term effect on the development of our ongoing projects. We are extremely disappointed to have any details of our next game shared with you all in this way."
+Four years later, GTA 6 is finally around the corner - you're probably already aware considering the marketing frenzy Rockstar's been drumming up.
+
+### IGN (2026-11-16), selo sugerido relato
+Manchete: The GTA Leaker Who Revealed Lucia Pleads Guilty to Hacking Rockstar, Biting People - IGN
+Link: https://news.google.com/rss/articles/CBMivAFBVV95cUxPMkpNWXBiOGRtWEdWMXdsMjZ5Y2h6UnBTQlE2bFV0UjItUFZGMmZ3R1d3M0MwMWk5NEhqUXZuS3ltMzFNdVl0U293N1JOUWxHYm4xOEFSVEs3MlNNZkUtRTVXRk14OU10a2NTMTBaV01vXzQwbmhnekdnNzBOb3VMYzY3bEZCSVMyVmlqbVRyYTR5RHRKQUVMNS1vQ3hfMXFCVXJ4Q0F0eXdMdGpXU1U1NnBmLTNucy1rQUlFcg?oc=5
+
+(só a manchete: a matéria não abriu)
+
+### IGN (2026-11-16), selo sugerido relato
+Manchete: The GTA Leaker Who Revealed Lucia — After Hacking Rockstar Through His Hotel TV — Pleads Guilty - IGN
+Link: https://news.google.com/rss/articles/CBMivAFBVV95cUxPMkpNWXBiOGRtWEdWMXdsMjZ5Y2h6UnBTQlE2bFV0UjItUFZGMmZ3R1d3M0MwMWk5NEhqUXZuS3ltMzFNdVl0U293N1JOUWxHYm4xOEFSVEs3MlNNZkUtRTVXRk14OU10a2NTMTBaV01vXzQwbmhnekdnNzBOb3VMYzY3bEZCSVMyVmlqbVRyYTR5RHRKQUVMNS1vQ3hfMXFCVXJ4Q0F0eXdMdGpXU1U1NnBmLTNucy1rQUlFcg?oc=5
+
+(só a manchete: a matéria não abriu)
+
+
+## Assunto 4
+
+### IGN Brasil (2026-11-16), selo sugerido relato
+Manchete: Leaker de GTA 6 que revelou Lucia após hackear a Rockstar pela TV do hotel se declara culpado - IGN Brasil
+Link: https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbnpOanQ1M2k5VDd4UGdHYzFmNmtKcnkwNFRNRTR1S1Q4ZXJJbFNzYjRLU1loZlFOaUl6M1pXVE8yTnpEcHJUN3pBbGFVMlBOaGpya1Z2czV4Unc3aUFmc0hEMk9kYzExM2l5UW5QQk1uOElBT0txbkVBRzJZN2czdHhkejNiUG11VG1iQS1PMVpfaUt4bWp2djd2WEJpVGNLN3VrRDd2OW0zRFRWalBQMFFabTBTV0tHTnl6WERTLXVFTnNGX3R1Rkx5cmFtVi1QeWJHczFn?oc=5
+
+(só a manchete: a matéria não abriu)
+
+### Eurogamer.pt (2026-11-16), selo sugerido rumor
+Manchete: Hacker responsável pelo leak de GTA 6 em 2022 declara-se culpado - Eurogamer.pt
+Link: https://news.google.com/rss/articles/CBMikwFBVV95cUxPUjE1Q0lCWWUxZ2RmMjZONmwtOTdvY2hidnVFYmlzekZmN3B0QVhOUDM1MWV5YVB5Vk5mTW1FUWs1OG01VklIWURBcWo5ckJVNTJHeEROQjRlWkhFb3dqeVMzZEZGUGtLUTNQekdqVlVVN3p2cFFTU2lrdkJUUkhTTXNTS1lRdEpYcEUtR2k1TWFZak0?oc=5
+
+(só a manchete: a matéria não abriu)
+
+
+## Assunto 5
+
+### ign.com (2026-11-16), selo sugerido relato
+Manchete: Grand Theft Auto VI Limited-Edition PS5 DualSense Controllers Are Out This Week
+Link: https://www.ign.com/articles/grand-theft-auto-6-limited-edition-ps5-dualsense-controllers-where-to-buy
+
+Grand Theft Auto VI Limited-Edition PS5 DualSense Controllers Are Out This Week
+GTA 6 the game is almost here, and so are the PS5 controllers. Sony and Rockstar are partnering up to release two different limited-edition GTA 6-themed PS5 DualSense controllers. One is black and one is white. The designs are relatively subtle, but they both look tasteful and appealing. They cost $84.99 each and are set to release on November 19, the same day as the game. Preorders are live now (see at Walmart). Read on for more info.
+GTA VI White Limited-Edition PS5 Controller
+The white version of the controller is available in limited quantities at a variety of retailers. Sony says the white one “embodies Vice City at daybreak, from its white sands and pastel skies to all its laid-back glamour.”
+GTA VI Black Limited-Edition PS5 Controller
+If black is more your speed, you can get the black color varaiant. The black version is exclusive to PlayStation Direct. Sony says this one “captures the energy of Vice City’s iconic nightlife.”
+On both controllers, the inside of the grips have a “shimmering, color-shifting finish” that changes color as you turn the controllers in the light. Both feature a big but subtle “VI” on the touchpad, as well as textured, inset palm tree etchings in the grips.
+Aside from that, these are your standard DualSense controllers with all of the expected functionality: haptic feedback, adaptive triggers, a big old touch pad – the usual good stuff we all appreciate.
+In other news, you can preorder Grand Theft Auto VI for PS5 ahead of the November 19 launch. If you do preorder, whether in physical or digital format, you’ll be able to preload it a week ahead of launch so you’re not taking up precious time downloading when you could be playing.
+“Physical” copies don’t include a disk — just a download code — but they're already shipping, so you'll still have time to preload. In the meantime, you can rewatch the GTA 6 extended look as many times as you want.
+If you're in the market for other PS5 controllers, the Marvel's Wolverine DualSense looks pretty great as well.
+Chris Reed is a senior commerce editor and deals expert for IGN. He also runs IGN's LEGO coverage and maintains the upcoming release dates articles for video games, LEGO sets, and 4K Blu-rays. You can follow him on Bluesky.
+
+### IGN (2026-11-16), selo sugerido relato
+Manchete: GTA 6 PS5 Controller Preorders Are Out This Week, and Preorders Are Still Available - IGN
+Link: https://news.google.com/rss/articles/CBMipAFBVV95cUxOTmI5S3ZwU1lsS2JCNUhIb01reUxySGNmZTQ4WC02ZXZnQUVxZ2ZzRzctakxiTkNIcjZHU2tHM1FwRXlyeG44VzVXenlkcUsxanltR1l5a1BnYURDbURQdlpYLXhKQVFyamxtaVdsRVNpTDZWZ1BwbUFsX1R2cWZDQ3l1MGw1RDFGZUFianVRMmZqbTAxbjlPUjNQWlR3M0Z1TTFIUw?oc=5
+
+(só a manchete: a matéria não abriu)
+
+
+## Assunto 6
+
+### canaltech.com.br (2026-11-16), selo sugerido relato
+Manchete: Vinil vazado revela trilha sonora de GTA 6 com Dua Lipa, Lana Del Rey e Travis Scott
+Link: https://canaltech.com.br/games/vinil-vazado-revela-trilha-sonora-de-gta-6-com-dua-lipa-lana-del-rey-e-travis-scott/
+
+Vinil vazado revela trilha sonora de GTA 6 com Dua Lipa, Lana Del Rey e Travis Scott
+Por Gabriel Cavalheiro | 16/11/2026 às 16:30
+No último domingo (15), uma loja de discos vazou um vídeo que pode revelar toda a tracklist do vinil de Grand Theft Auto 6: The Album. Ao todo, serão 34 faixas presentes no disco. Entre elas, estão músicas de Lana Del Rey, Dua Lipa e Travis Scott.
+A gravação mostra uma pessoa com três unidades de Grand Theft Auto 6: The Album. Ela, então, pega uma delas e exibe a parte de trás do vinil, revelando toda a tracklist do disco.
+Além das já confirmadas Flower in a Hurricane (Justice feat. Tame Impala, SZA & King Gizzard & The Lizard Wizard), Blood in Your Eyes (Tove Lo) e Rhyno (Travis Scott), quem comprar o produto contará com as seguintes faixas:
 Starting from Zero – Justice (feat. Michael McDonald)
 That's It – Yung Lean (feat. Future & Metro Boomin)
 Sexy Magic – CA7RIEL & Paco Amoroso, PinkPantheress, Fred Again.. & Étienne de Crécy
@@ -20,131 +172,35 @@ Flower in a Hurricane – Justice (feat. Tame Impala, SZA & King Gizzard & The L
 Dance With Me – Boogie Wit Da Hoodie (feat. Elkan)
 Stone Cold Krazy Luuv – Jesse Johnson & DāM-FunK
 Overtown Lights – Stanley Clarke, Yussef Dayes & Robert Glasper
-You can expect to hear these tracks on the radio - alongside many more, no doubt - and deployed at curated times during cutscenes or in missions, to really tie together the vibe of the city. This is something Vice City did remarkably well its roster of 80s tracks, and I can't wait to see how Rockstar has used more contemporary music in the same way here.
-Of course, there have been a lot of Grand Theft Auto 6 leaks in the run-up to the game's launch. Another recent example is the full game's map which seemingly leaked online thanks to the £350 collector's edition on show in a UK department store. Then there were all the leaks from a group calling itself CyberLeek, which shared unofficial gameplay and map details over the course of a few weeks, before Rockstar had even revealed much gameplay itself.
-Amongst all this, Rockstar has been embroiled in legal action after it was accused of union busting following the firing of over 30 employees. The case's conclusion will be determined this week, as the game goes on sale.
-
-### Notebookcheck (2026-11-15), selo sugerido rumor
-Manchete: Full GTA 6 album tracklist leaks with Dua Lipa, Playboi Carti and Lana Del Rey among 34 songs - Notebookcheck
-Link: https://news.google.com/rss/articles/CBMi0wFBVV95cUxOODdSakp5S2lFcldWWWV6WDNmV0JQa05Ta3FFRkhKRmYwWUNLVEVRMTBqd3lWSEc3QVc0OERabkhKOUVYZkhSYXA0WGlIcGtMNk9MNU96d0JiUm9zenZxa1VkZGVLUzloLVg4M1loN0oxM2lIRUhudTBtZTZ4UXBXeE5IQlFSUFBmdk1jaFpYeXlxaC1OalJWZlZZSXh3RUtRWjdMeHpKaVcwTnZuaEgxV3h5SVJSYUtnUFNnQ2VGNHN2RTc2X0pJTHdWVGc3ZGZieTFV?oc=5
-
-(só a manchete: a matéria não abriu)
-
-### Stereogum (2026-11-15), selo sugerido rumor
-Manchete: Lana Del Rey, Dua Lipa, Justice x Michael McDonald, & More Appear On Leaked 'GTA VI' Soundtrack Tracklist - Stereogum
-Link: https://news.google.com/rss/articles/CBMi3AFBVV95cUxNektzT0V4b0tNUTZiR1BxTzFpbnVnczQ5SGVFTG4yQlJ4cWZBMzZDMlhhX09FSTRXQjh5SFppN0hmYnlyQk9qX0hWSUF3cWo0RW5lc19YZmJDdW9NakNzR1V4eERxRFpVbko2S19NemFYYkNkY2xLTGVUNTNFZ2RBX1VtSEJVaTlrWENZTUF0dUh1cy1ZOVRRTEgxejE4aXl2a1lpS1ExUmZhd2Q4YmJTRlk4SGNYQy1RWFAxN2loMU00d1lhSUtjaHFjLUdPcC1mOUliUkgzSjJhcy1o?oc=5
-
-(só a manchete: a matéria não abriu)
-
-
-## Assunto 2
-
-### polygon.com (2026-11-15), selo sugerido relato
-Manchete: GTA 6 Trophy Count and Full Completion Time Leaks in New Reports
-Link: https://www.polygon.com/gta-6-platinum-trophy-mythic-achievement-time-to-get/
-
-Completionists are going to spend months in Leonida
-GTA 6's ultimate trophy could take up to 200 hours
-Millions of players will start their adventure in Leonida with the launch of Grand Theft Auto 6 later this week. They're currently preparing themselves and completing the games they've left unfinished so they can dedicate all of their time to GTA 6 soon — especially gamers who have asked for time off from work to play it. But the question on many players' minds is how much time they will need to finish the story and 100% complete it.
-As it turns out, a week off from work might not be enough. After gathering information from various people who've played the game, Insider Gaming has reported that it should take around 50 hours to get through Grand Theft Auto 6's campaign. The story is reportedly spread across five chapters and consists of nearly 100 missions.
-Animal scanning and RNG may rank up GTA 6 100% completion time to 200 hours
-Besides the main story, players can go for GTA 6's Platinum Trophy or the Mythic achievement. However, according to Insider Gaming, that should push their total playtime to at least 200 hours. Besides earning a gold medal on story missions, it's expected that players will have to study all 170 animal species, just like in Red Dead Redemption 2. Additionally, Henderson believes that there will be certain trophies that will depend on RNG — likely related to the casino and gambling. So, are you ready to spend hours at the slot machines?
-According to one unconfirmed report, GTA 6 will have 55 achievements for players to complete.
-As shown in several interviews, teasers, and the extended trailer, there's plenty of side content and optional exploration you can do — even if it's just grabbing a bite to eat, looking at the intricate cloud system, or taking the bus until the end of the line. Therefore, we can conclude that besides the main story and the completionist trophies, players will likely spend far more than 200 hours in Vice City and greater Leonida.
-Grand Theft Auto 6 will be released on Nov. 19 for PlayStation 5 and Xbox Series X.
-
-
-## Assunto 3
-
-### MovieWeb (2026-11-15), selo sugerido rumor
-Manchete: ‘GTA 6’ Officially Justifies Its 13-Year Wait With Stunning New Features Days Before Launch - MovieWeb
-Link: https://news.google.com/rss/articles/CBMidkFVX3lxTE14ckhzaHJjX05RZ0YwajN1alB4WmhqUmlYZEhGV1RNYjJRemRudm9DLVJPRS11NHh0eFRSU1NBSWtnQjktenMxNTBzdW9ockdHZlo4VzdDdVl1RWFXb1N3SmFyNEI0NXhvODZTOXpOd2R5VHhVSnc?oc=5
-
-(só a manchete: a matéria não abriu)
-
-### MovieWeb (2026-11-15), selo sugerido rumor
-Manchete: 'GTA 6' Officially Justifies Its 13-Year Wait With Stunning New Features Days Before Launch - MovieWeb
-Link: https://news.google.com/rss/articles/CBMidkFVX3lxTE14ckhzaHJjX05RZ0YwajN1alB4WmhqUmlYZEhGV1RNYjJRemRudm9DLVJPRS11NHh0eFRSU1NBSWtnQjktenMxNTBzdW9ockdHZlo4VzdDdVl1RWFXb1N3SmFyNEI0NXhvODZTOXpOd2R5VHhVSnc?oc=5
-
-(só a manchete: a matéria não abriu)
-
-### MovieWeb (2026-11-15), selo sugerido rumor
-Manchete: 'GTA 6' Officially Justifies 13-Year Wait With Jaw-Dropping New Features Days Before Launch - MovieWeb
-Link: https://news.google.com/rss/articles/CBMidkFVX3lxTE14ckhzaHJjX05RZ0YwajN1alB4WmhqUmlYZEhGV1RNYjJRemRudm9DLVJPRS11NHh0eFRSU1NBSWtnQjktenMxNTBzdW9ockdHZlo4VzdDdVl1RWFXb1N3SmFyNEI0NXhvODZTOXpOd2R5VHhVSnc?oc=5
-
-(só a manchete: a matéria não abriu)
-
-
-## Assunto 4
-
-### Rolling Stone Brasil (2026-11-15), selo sugerido rumor
-Manchete: 'GTA VI: The Album': Lana Del Rey, Dua Lipa e Zara Larsson contribuem com novas músicas - Rolling Stone Brasil
-Link: https://news.google.com/rss/articles/CBMiugFBVV95cUxOT29zYl90RTF1RTJDRTZrOTIyaUlZazBCa1BvcmlteFBscVBaTjIzZzVJRzJmMGI4TXJ2cElVbHprbWpKb0ZOajBrTjdtdjJLLUo4SkZ3b1U2N2VvdHJwUXdpTEc1MzJQX2ZRMEU5VGNWdFQwVGh6bENONVVGZnZ5S1ZyWWMwODNoaW9ETXZBS1FuSGFNV2g0MjFnbll2dHVSdlpPd3ZFYUxySkF1dzlJa3NZT2VMLVZDOHc?oc=5
-
-(só a manchete: a matéria não abriu)
-
-### NME (2026-11-15), selo sugerido rumor
-Manchete: Lana Del Rey, Dua Lipa and Zara Larsson contribute new music to ‘GTA VI: The Album’ – see the full tracklist - NME
-Link: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdzR2UzYtaW1PbFB4RlZxMGlUeWJBSWJmMjlUSndkVEdGdXl5a2g3VWd3bE5sRzJfeTl4VDNTTjF5MEFHbW5BZ2x4NDhpdGt0YTBMY3RiZU82MWdQOHRfMGxsUnpoS3d3SXVDRVVKdVhIQmdkLWFCWlVUSklxRGZmRnp4UjYyMkxwc2pSYU11ZzdON2hPa05CWWIxVmdHRjlBa1RtSUtjSkE?oc=5
-
-(só a manchete: a matéria não abriu)
-
-### Notebookcheck.info (2026-11-15), selo sugerido rumor
-Manchete: Lista completa de faixas do álbum de GTA 6 vaza com Dua Lipa, Playboi Carti e Lana Del Rey entre as 34 músicas - Notebookcheck.info
-Link: https://news.google.com/rss/articles/CBMi6wFBVV95cUxONG1CRmJzU3JKam5jOS1hZ2ctUkdsOTJWSjA0YnNnT1JPa195RkVsb2Z0NjhoM056SUJ2U2hGRnljdGlyby1RQ2FkVThFWjlVc0FYYUJVenZxNTJoemtYUG5jdGtpQ3VFd3FGOGhUdWFNc2lMemNZa2xlX25qUTdibHVodWxHOGw4WUp6V2J0ZVIwZEc0d0dLcElVZU9ZNWRIem1CYzJrLVdfLXlFX0JrbVBvY25LWDFYNkJYRmpDWjZ2blBkWXAzbkhxQVFZM1E5cTYzQUZaejFGXzRQTXZlZlBMMGI3ZFYwYW5R?oc=5
-
-(só a manchete: a matéria não abriu)
-
-
-## Assunto 5
-
-### Notebookcheck.info (2026-11-16), selo sugerido rumor
-Manchete: Vazamento diz que a história de GTA 6 leva 50 horas para ser concluída e o troféu de platina no PS5 exige 200 horas - Notebookcheck.info
-Link: https://news.google.com/rss/articles/CBMi8wFBVV95cUxPd1hVZlBNVVJ6Vy1pZ3JNa0o3UklXLV9ERjNrOXNRMFBmLXpkRmV2MkttQWhqMFFaZ0doVHN3dmgwY1dHMHlOSkRkc2xncWV6QlBnamhqWk1mcWNoVzBfZGdIMHpMY3J3UXhnUEJUZHZLTzNKblYzUkNaQ1J3R3pDNUsxSXlDZG5OQnp4M0kzRVFXWVhwZGI2c3BPOUZzWjZFLXF4ODFHZi1uOGtmS25ycWJCUzYzVFNWSnFoT0F6aXRFWG5NXzVNNzc5dDNZMmtXSHlmNUc1RE5zMXNib2FxVzF5bVV1MWwzMFp5Mk5nbjJuams?oc=5
-
-(só a manchete: a matéria não abriu)
-
-### Pasquale Pillitteri (2026-11-15), selo sugerido rumor
-Manchete: GTA 6 tem 50 horas de história e 200 para a Platina, revela vazamento - Pasquale Pillitteri
-Link: https://news.google.com/rss/articles/CBMihwFBVV95cUxPWmpPTG9lX1Z4RDE2YTNWUENJc1hJcnJleFBlVG5VNk96R1M3S0ZINWhCXzVLcVBDM2otVHl1SVczV3lvV21nWnM2WXRVMFI4LWZQeXFnYXlBTUg0c0tIQy1pUFhVSjIxZ2Y4S3VMb0dCcU5GSkdMN1lVYWFoQWY1RmNHcGx1Qms?oc=5
-
-(só a manchete: a matéria não abriu)
-
-
-## Assunto 6
-
-### theMusic (2026-11-16), selo sugerido rumor
-Manchete: Grand Theft Auto 6 Album Track Listing Leaks Ahead Of Game's Launch - theMusic
-Link: https://news.google.com/rss/articles/CBMirwFBVV95cUxNOGt4bUtRMS1TVFdGWnRmSEZNT0pURXFzbDQ1NWhpRml4ZnM5VWU2b2h5UlNpY2wyQ2swcC1jR3hKVGdaZDR5TndJMHJILWlIaTVWdHhxOTZSQ0VaSW1SSWdZS0JnZDQ0WXdEb0ZYcG0tNnY3b3pBSWlTY1ZoZ0c5aE51VVpRZkhINU9mS293bWtNLXZUMmdrMUVtX29wYVZ5M2ZpcGFCd3VUcG1jTHp3?oc=5
-
-(só a manchete: a matéria não abriu)
-
-### Men's Journal (2026-11-15), selo sugerido rumor
-Manchete: Complete Track List for the GTA 6 Soundtrack Leaks Right Launch Day - Men's Journal
-Link: https://news.google.com/rss/articles/CBMirgFBVV95cUxNSlp0RFMwTDNiS2ZIU0JoQmZrQmluN1NSTTNPMmwzN05KV1BHZUEzcjAxY3hiaW5lYzdON3ZtMC1TMlRIQllPZnN6WFRSQklld3ZQWE9WaUlHSFN4MC03SnYzdk45RFEtdmVSQjQ0bGYxb3ZmSU9wMGgwdGRqTU9McU1KeWZ0SmdweDEwQ2VpemYzaVA0bWtXRU5DZEtJYzJqMGdCMWl6SWl5WmFGN2c?oc=5
-
-(só a manchete: a matéria não abriu)
+Vale lembrar que Grand Theft Auto 6: The Album foi anunciado em setembro deste ano e deve estar disponível nas lojas no mesmo dia em que GTA 6 for lançado, em 19 de setembro. Além da versão física, o álbum também estará presente em serviços de streaming de música, como o Spotify.
+Aparentemente, as versões de vinil e CD serão as únicas mídias físicas do álbum que o público receberá de fato. Afinal, o jogo GTA 6 vai ser lançado em disco em algum momento?
 
 
 ## Assunto 7
 
-### Complex (2026-11-15), selo sugerido rumor
-Manchete: 'Grand Theft Auto VI' Leaked Soundtrack Confirmed Real, Feat. Travis Scott, Playboi Carti, and Mire - Complex
-Link: https://news.google.com/rss/articles/CBMicEFVX3lxTFBOY2lOUDNiU1M4d3NYdkdoVHdNaVQ1ZDJKRTBlU2tiellrSE9fa19XU3FNdEdHb1l0Q3Y1MHhySmxBNW93SnhoeGhRNFpzc0htaXFQLVdPakx4Y0NDUGFKREdjQ2dhYkZTU2lkZnlFS0w?oc=5
-
-(só a manchete: a matéria não abriu)
-
-### Complex (2026-11-15), selo sugerido rumor
-Manchete: 'Grand Theft Auto VI' Leaked Soundtrack Confirmed Real, Feat. Travis Scott, Playboi Carti, and More - Complex
-Link: https://news.google.com/rss/articles/CBMicEFVX3lxTFBOY2lOUDNiU1M4d3NYdkdoVHdNaVQ1ZDJKRTBlU2tiellrSE9fa19XU3FNdEdHb1l0Q3Y1MHhySmxBNW93SnhoeGhRNFpzc0htaXFQLVdPakx4Y0NDUGFKREdjQ2dhYkZTU2lkZnlFS0w?oc=5
+### gamespot.com (2026-11-16), selo sugerido relato
+Manchete: GTA 6 Should Help Boost PS5 And Xbox Sales, But Their Astronomical Prices Could Hurt
+Link: https://www.gamespot.com/articles/gta-6-should-help-boost-ps5-and-xbox-sales-but-their-astronomical-prices-could-hurt/
 
 (só a manchete: a matéria não abriu)
 
 
 ## Assunto 8
 
-### Explosion Network (2026-11-16), selo sugerido rumor
-Manchete: GTA 6: Story, Characters, Map, Release Date and More - Explosion Network
-Link: https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOWdJNC0xWHVMZU9nd2xjQ0ZnQ1M4RUt3WHgxMUpMUXNIUVVKOFNIdUNzXzQ0cmVjNVhSMnVxOHNrQ3FFX05IUGFuZ0p0QXROempWWDNteEpoZ21LSTZWUmk0cmhnZ3V1dlppV2xqRFJrYlAtRGpzM2NTcTUyVExlU2lrcWNHUDJTVUdVMTk3RUNaTlhLX3pkdHVsVjRFLUJ0QkhIV1RMZGdwX1Vfa3MtTnhhVS0wUnZk?oc=5
+### videogameschronicle.com (2026-11-16), selo sugerido relato
+Manchete: NBA 2K27 is getting a Vice City Edition, as well as numerous GTA 6 themed items in Season 3
+Link: https://www.videogameschronicle.com/news/nba-2k27-is-getting-a-vice-city-edition-as-well-as-numerous-gta-6-themed-items-in-season-3/
 
-(só a manchete: a matéria não abriu)
+NBA 2K27 is getting a Vice City Edition, as well as numerous GTA 6 themed items in Season 3
+The game will reflect the real-life Vice City takeover coming to Miami Heat this week
+NBA 2K27 is set to get a host of new content to tie in with Grand Theft Auto 6.
+Last month it was announced that NBA team Miami Heat will be rebranding as Vice City for a special event called A Night in Vice City, which takes place this Wednesday, November 18 on the eve of the release of GTA 6.
+Now Take-Two has confirmed that NBA 2K27 will be following suit later in the month, with a special Vice City Edition of the game and a wealth of GTA-themed content in its upcoming third season.
+Season 3 of NBA 2K27 starts on November 27 and runs for seven weeks until January 15 â longer than usual â with a Vice City takeover theme covering every major aspect of the game.
+The City mode will get a new Vice City inspired Park with beachfront courts, neon-lit pastel hotels and a statue of the game’s cartoon mascot Macca the Gator. The NBA Arena is also replaced by the Sahara Arena, the home of the Vice City team, for the duration of Season 3.
+Player swill also be able to earn Vice City themed apparel and cosmetics as they level up throughout Season 3, including “a Level 4 Nike x Cactus Jack Miami HEAT authentic uniform, Level 18 Los Santos jersey and shorts, Level 33 Vice City Varsity Jacket, Level 38 Burger Shot Employee Outfit, a Level 40 +1 Cap Breaker, and more”.
+Season 3 will also include a number of limited-time Vice City events, including Conquer Leonida, Vice Run and a 5v5 court clash called Neon vs Noir in which Vice City takes on Los Santos.
+The special edition Nike x Cactus Jack Miami Heat uniforms set to be worn during the real-life Vice City takeover game on November 18 will also be available in the game’s Play Now and The City modes.
+Players who buy the Season 3 Pro Pass will also get 40 additional levels of premium content including a Vice City T-Shirt and Rockstar Shorts, Burger Shot Mask and Jersey, Nike x Cactus Jack Vice City Swingman Jersey, âBurnieâ Miami Heat Mascot in the special edition Nike x Cactus Jack uniform, Cluckinâ Bell Employee Outfit, Macca the Gator and more.
+For players who don’t already have NBA 2K27, the new Vice City Edition will be available from November 27 to January 15 on PS5, Xbox Series X/S, Switch 2 and PC. This version, which costs $39.99, includes a Season 3 Pro Pass, Vice City T-Shirt, 30 Skill Boosts (5 Games), and 15 Gatorade Boosts (5 Games).
+GTA+ members will also to play the Standard Edition of NBA 2K27 as part of their membership from November 27 until January 15.

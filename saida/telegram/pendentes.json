@@ -362,6 +362,14 @@
     "video": "2026-W47_ter_acre_fuso",
     "impressao": "97a39f6f8a79",
     "situacao": "bloqueado",
-    "conferido": "2026-11-16T16:09"
+    "conferido": "2026-11-16T17:11"
+  },
+  "eda976b6e9": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-16_gg_explica.json",
+    "video": "radar_2026-11-16_nba2k_vice_city_reel",
+    "impressao": "3bc9a5e6d87e",
+    "situacao": "agendado",
+    "message_id": 398,
+    "enviado": "2026-11-16T17:17:30.949969"
   }
 }

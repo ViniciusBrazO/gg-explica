@@ -816,5 +816,30 @@
     ],
     "estilo_capa": "faixa",
     "registrado": "2026-11-16T08:33"
+  },
+  "2026-11-16|radar_2026-11-16_nba2k_vice_city_reel": {
+    "data": "2026-11-16",
+    "horario": "19:00",
+    "imagens": [
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1051.0",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1490.2",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@198.5",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@23.9",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1273.5",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@125.4",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@597.3",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1048.9",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1151.2",
+      "clipes/oficial/screenshots/Vice_City_26.jpg",
+      "clipes/oficial/screenshots/Vice_City_15.jpg",
+      "clipes/oficial/screenshots/Vice_City_10.jpg",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1013.2",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1160.9",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@591.7",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@505.7",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@533.3"
+    ],
+    "estilo_capa": "topo",
+    "registrado": "2026-11-16T17:16"
   }
 }
