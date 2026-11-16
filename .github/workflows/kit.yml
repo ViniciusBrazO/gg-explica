@@ -183,6 +183,13 @@ jobs:
           path: saida/amostras_voz/*.mp3
           retention-days: 7
 
+      - name: Amostras de voz (ramo amostras-voz, para ouvir pelo Claude)
+        if: always() && steps.t.outputs.tarefa == 'vozes-naturais'
+        run: |
+          mkdir -p /tmp/am && cp saida/amostras_voz/*.mp3 /tmp/am/ 2>/dev/null || exit 0
+          cd /tmp/am && git init -q -b amostras-voz && git add . && git -c user.name=gg-explica-bot -c user.email=actions@users.noreply.github.com commit -qm "amostras de voz"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" amostras-voz
+
       - name: Rodada leve deixou trabalho (notícia quente, post novo)? Chama a rodada pesada agora
         if: always() && steps.plano.outputs.pesado != 'true'
         env:

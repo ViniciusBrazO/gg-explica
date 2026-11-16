@@ -125,34 +125,43 @@ def gemini_wav(modelo: str, voz: str, texto: str, destino: Path) -> Path:
     return destino
 
 
+PALAVRAS_BOAS = ("host", "presenter", "creator", "influenc", "narrat", "energ", "young", "youth", "casual",
+                 "gam", "stream", "entertain", "upbeat", "lively", "friend", "peer", "sibling", "news", "sport")
+
+
 def vozes_gemini() -> list[str]:
-    chave = os.environ["GEMINI_API_KEY"]
-    achadas = []
-    for params in ({"language_code": "pt-BR"}, {"languageCode": "pt-BR"}, {}):
-        try:
-            r = requests.get("https://generativelanguage.googleapis.com/v1beta/voices",
-                             headers={"x-goog-api-key": chave}, params={**params, "pageSize": 200}, timeout=30)
-        except requests.RequestException as e:
-            print(f"Gemini voices: {e}")
-            break
-        if r.status_code != 200:
-            print(f"Gemini voices {params}: HTTP {r.status_code} {r.text[:200]}")
+    """Biblioteca de vozes do Gemini em pt-BR (sotaque brasileiro): imprime todas e escolhe as que
+    combinam com apresentador jovem e animado, preferindo voz masculina."""
+    r = requests.get("https://generativelanguage.googleapis.com/v1beta/voices",
+                     headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]},
+                     params={"language_code": "pt-BR", "pageSize": 200}, timeout=30)
+    r.raise_for_status()
+    vozes = r.json().get("voices", [])
+    print(f"Gemini: {len(vozes)} vozes pt-BR")
+    pontuadas = []
+    for v in vozes:
+        resumo = {k: v.get(k) for k in v if k not in ("language_code", "region_code", "accent", "type")}
+        print("  ", json.dumps(resumo, ensure_ascii=False)[:300])
+        texto = json.dumps(v, ensure_ascii=False).lower()
+        pontos = sum(p in texto for p in PALAVRAS_BOAS)
+        if '"male"' in texto or "masculin" in texto:
+            pontos += 2
+        if "lawyer" in texto or "financial" in texto or "calm" in texto:
+            pontos -= 2
+        pontuadas.append((pontos, v.get("id") or v.get("name")))
+    pontuadas.sort(key=lambda x: -x[0])
+    # uma de cada "família" (advisor, assistant, ...) para variar
+    escolhidas, familias = [], set()
+    for _, nome in pontuadas:
+        familia = "-".join(str(nome).split("-")[:3])
+        if familia in familias:
             continue
-        for v in r.json().get("voices", []):
-            texto = json.dumps(v, ensure_ascii=False)
-            if "pt-BR" in texto or "Portug" in texto or "Brazil" in texto:
-                achadas.append(v)
-        print(f"Gemini voices {params}: {len(r.json().get('voices', []))} vozes, {len(achadas)} em português")
-        for v in achadas[:15]:
-            print("  ", json.dumps(v, ensure_ascii=False)[:250])
-        if achadas:
+        familias.add(familia)
+        escolhidas.append(str(nome))
+        if len(escolhidas) == 6:
             break
-    nomes = []
-    for v in achadas:
-        nome = v.get("voice") or v.get("name") or v.get("displayName")
-        if nome:
-            nomes.append(str(nome).split("/")[-1])
-    return nomes
+    print("escolhidas:", escolhidas)
+    return escolhidas
 
 
 def gemini(modelo: str, voz: str, nome: str) -> None:
@@ -190,19 +199,14 @@ def main() -> int:
         n += 1
 
     try:
-        br_gemini = vozes_gemini()
+        candidatas = vozes_gemini()
     except Exception as e:  # noqa: BLE001
         print(f"lista do Gemini falhou: {e}")
-        br_gemini = []
-    candidatas = br_gemini[:2] + ["Fenrir", "Puck", "Charon"]
-    for modelo in ("gemini-3.8-flash-tts", "gemini-2.5-flash-preview-tts"):
-        antes = len(list(SAIDA.glob("*gemini*.mp3")))
-        for voz in candidatas[:4]:
-            gemini(modelo, voz, f"{n:02d}_gemini_{voz}_{modelo.split('-')[1]}")
-            n += 1
-            time.sleep(8)          # plano gratuito: poucos pedidos por minuto
-        if len(list(SAIDA.glob("*gemini*.mp3"))) > antes:
-            break
+        candidatas = []
+    for voz in candidatas + ["Fenrir"]:
+        gemini("gemini-3.8-flash-tts", voz, f"{n:02d}_gemini_{voz}")
+        n += 1
+        time.sleep(6)          # plano gratuito: poucos pedidos por minuto
     print("arquivos:", sorted(p.name for p in SAIDA.glob("*.mp3")))
     return 0
 
