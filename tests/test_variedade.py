@@ -104,7 +104,12 @@ def test_ritmo_acelera_reel_longo_e_bloqueia_so_o_muito_longo():
     from pipeline.modelos import Video
     from pipeline.montagem import ajustar_ritmo
     from pipeline.qualidade import checar_pauta
+    import copy
+    import dataclasses
     marca = carregar_marca("gg_explica")
+    dados = copy.deepcopy(marca.dados)
+    dados["voz"]["provedor"] = "azure"               # a aceleração só existe na voz da Azure
+    marca = dataclasses.replace(marca, dados=dados)
     def video(palavras):
         return Video.model_validate({"id": "t", "serie": "radar", "horario": "09:00", "formato": "reel",
             "data": "2026-11-15", "legenda_post": "x", "cenas": [

@@ -454,6 +454,7 @@ def cmd_teste_voz(args) -> int:
         base = pauta.videos[0]
         for n, nome in enumerate(args.vozes.split(","), start=1):
             dados = copy.deepcopy(marca.dados)
+            dados["voz"]["provedor"] = "azure"
             dados["voz"]["azure"].update({"voz": nome.strip(), "velocidade": args.velocidade, "tom": args.tom})
             m = dataclasses.replace(marca, dados=dados)
             v = base.model_copy(update={"id": f"teste_voz_{n}", "cenas": base.cenas[:3]})
@@ -756,7 +757,7 @@ def main(argv: list[str] | None = None) -> int:
     p = sub.add_parser("renderizar", help="gera os vídeos aprovados e coloca na fila")
     p.add_argument("pauta")
     p.add_argument("--video", help="só este id")
-    p.add_argument("--voz", choices=["elevenlabs", "azure", "silencio"], help="troca o provedor de voz")
+    p.add_argument("--voz", choices=["gemini", "elevenlabs", "azure", "silencio"], help="troca o provedor de voz")
     p.add_argument("--previa", action="store_true", help="gera mesmo rascunho, sem colocar na fila")
     p.add_argument("--desde-hoje", action="store_true", help="ignora posts de dias que já passaram")
     p.set_defaults(func=cmd_renderizar)

@@ -179,6 +179,132 @@ class Azure:
         return Fala(wav, _duracao_audio(wav), palavras)
 
 
+class Gemini:
+    """Gemini TTS (Google AI Studio, GEMINI_API_KEY): vozes pt-BR da biblioteca, fala bem humana.
+    A API não devolve o tempo de cada palavra; o kit descobre ouvindo o áudio (faster-whisper) e
+    alinha com o roteiro. Escolhida pelo Vinicius em 16/11: pt-br-storyteller-2."""
+
+    API = "https://generativelanguage.googleapis.com/v1beta/interactions"
+
+    def __init__(self, cfg: dict):
+        self.chave = os.environ["GEMINI_API_KEY"]
+        self.cfg = cfg
+
+    def _audio(self, texto: str, destino: Path) -> Path:
+        import time
+        corpo = {
+            "model": self.cfg.get("modelo", "gemini-3.8-flash-tts"),
+            "input": [{"type": "user_input", "content": [{
+                "type": "text", "text": texto,
+                "annotations": [{"type": "speech_metadata", "style": self.cfg.get("estilo", "")}]}]}],
+            "response_format": {"type": "audio"},
+            "generation_config": {"speech_config": [{"voice": self.cfg["voz"]}]},
+        }
+        erro = ""
+        for tentativa in range(4):
+            try:
+                r = requests.post(self.API, headers={"x-goog-api-key": self.chave}, json=corpo, timeout=240)
+            except requests.RequestException as e:
+                erro = str(e)
+            else:
+                if r.status_code == 200:
+                    audios = [c for st in r.json().get("steps", []) if st.get("type") == "model_output"
+                              for c in st.get("content", []) if c.get("type") == "audio"]
+                    if audios:
+                        destino.write_bytes(base64.b64decode(audios[-1]["data"]))
+                        return destino
+                    erro = "resposta sem áudio"
+                else:
+                    erro = f"HTTP {r.status_code} {r.text[:200]}"
+                    if r.status_code not in (429, 500, 502, 503, 504):
+                        break
+            time.sleep(15 * (tentativa + 1))
+        raise RuntimeError(f"Gemini TTS não gerou o áudio: {erro}")
+
+    def falar(self, texto: str, saida: Path) -> Fala:
+        wav = self._audio(texto, saida.with_suffix(".wav"))
+        duracao = _duracao_audio(wav)
+        return Fala(wav, duracao, tempos_das_palavras(texto, wav, duracao))
+
+
+def _ouvir(wav: Path, texto: str) -> list[Palavra]:
+    """Palavras que o faster-whisper ouviu, com tempo. Vazio se ele não estiver instalado."""
+    try:
+        from faster_whisper import WhisperModel
+    except ImportError:
+        print("  voz: faster-whisper não instalado; tempo das palavras estimado")
+        return []
+    global _MODELO_WHISPER
+    if _MODELO_WHISPER is None:
+        _MODELO_WHISPER = WhisperModel(os.environ.get("WHISPER_MODELO", "base"), device="cpu",
+                                       compute_type="int8")
+    segmentos, _ = _MODELO_WHISPER.transcribe(str(wav), language="pt", word_timestamps=True,
+                                              initial_prompt=texto[:800], beam_size=1,
+                                              condition_on_previous_text=False)
+    return [Palavra(w.word.strip(), float(w.start), float(w.end)) for seg in segmentos for w in seg.words]
+
+
+_MODELO_WHISPER = None
+
+
+def tempos_das_palavras(texto: str, wav: Path, duracao: float,
+                        ouvidas: list[Palavra] | None = None) -> list[Palavra]:
+    """Dá a cada palavra do roteiro o tempo em que ela é falada: casa com o que o whisper ouviu e
+    distribui as que ficaram sem par entre as vizinhas, pelo tamanho."""
+    import difflib
+    roteiro = [w for w in texto.split() if _norm(w)]
+    if not roteiro:
+        return []
+    if ouvidas is None:
+        try:
+            ouvidas = _ouvir(wav, texto)
+        except Exception as e:  # noqa: BLE001
+            print(f"  voz: whisper falhou ({str(e)[:120]}); tempo das palavras estimado")
+            ouvidas = []
+    tempos: list[tuple[float, float] | None] = [None] * len(roteiro)
+    a, b = [_norm(w) for w in roteiro], [_norm(p.texto) for p in ouvidas]
+    for bloco in difflib.SequenceMatcher(None, a, b, autojunk=False).get_matching_blocks():
+        for k in range(bloco.size):
+            p = ouvidas[bloco.b + k]
+            tempos[bloco.a + k] = (p.inicio, p.fim)
+    # lacunas: entre o fim da última palavra conhecida e o início da próxima, pelo número de letras
+    i, n = 0, len(roteiro)
+    while i < n:
+        if tempos[i] is not None:
+            i += 1
+            continue
+        j = i
+        while j < n and tempos[j] is None:
+            j += 1
+        ini = tempos[i - 1][1] if i > 0 else 0.0
+        fim = tempos[j][0] if j < n else max(ini, duracao - 0.15)
+        pesos = [len(_norm(w)) + 1 for w in roteiro[i:j]]
+        passo, t = (fim - ini) / sum(pesos), ini
+        for k, peso in zip(range(i, j), pesos):
+            tempos[k] = (t, t + passo * peso)
+            t += passo * peso
+        i = j
+    return [Palavra(w.replace("*", "").strip(PONTUACAO), ini, max(ini + 0.05, fim))
+            for w, (ini, fim) in zip(roteiro, tempos)]
+
+
+PONTUACAO = ".,;:!?\"“”()…'"
+
+
+class ComReserva:
+    """Usa a voz principal; se ela falhar (cota do plano gratuito, fora do ar), narra com a reserva."""
+
+    def __init__(self, principal, reserva):
+        self.principal, self.reserva = principal, reserva
+
+    def falar(self, texto: str, saida: Path) -> Fala:
+        try:
+            return self.principal.falar(texto, saida)
+        except Exception as e:  # noqa: BLE001
+            print(f"  voz principal falhou ({str(e)[:160]}); usando a reserva")
+            return self.reserva.falar(texto, saida)
+
+
 def ssml_azure(cfg: dict, texto: str) -> str:
     """Vozes HD (":DragonHD") não aceitam <prosody>; vozes multilíngues recebem <lang> para falar
     com sotaque brasileiro."""
@@ -340,15 +466,29 @@ def criar_voz(marca: Marca, forcar: str | None = None, cache: bool = True):
     import json
 
     provedor = forcar or marca.voz.get("provedor", "silencio")
-    if provedor == "elevenlabs":
-        voz = ElevenLabs(marca.voz["elevenlabs"])
-    elif provedor == "azure":
-        voz = Azure(marca.voz["azure"])
-    elif provedor == "silencio":
+    if provedor == "gemini" and not os.environ.get("GEMINI_API_KEY"):
+        provedor = marca.voz.get("reserva", "azure")
+    if provedor == "silencio":
         return Silencio()
-    else:
-        raise ValueError(f"provedor de voz desconhecido: {provedor}")
-    if not cache:
-        return voz
-    assinatura = f"{provedor}|{json.dumps(marca.voz.get(provedor, {}), sort_keys=True)}"
-    return VozComCache(voz, assinatura, PASTA_CACHE_VOZ)
+
+    def montar(nome: str):
+        if nome == "elevenlabs":
+            voz = ElevenLabs(marca.voz["elevenlabs"])
+        elif nome == "azure":
+            voz = Azure(marca.voz["azure"])
+        elif nome == "gemini":
+            voz = Gemini(marca.voz["gemini"])
+        else:
+            raise ValueError(f"provedor de voz desconhecido: {nome}")
+        if not cache:
+            return voz
+        return VozComCache(voz, f"{nome}|{json.dumps(marca.voz.get(nome, {}), sort_keys=True)}", PASTA_CACHE_VOZ)
+
+    voz = montar(provedor)
+    reserva = marca.voz.get("reserva")
+    if provedor == "gemini" and reserva and reserva != "gemini" and not forcar:
+        try:
+            return ComReserva(voz, montar(reserva))
+        except Exception:  # noqa: BLE001  (sem chave da reserva: segue só com a principal)
+            return voz
+    return voz

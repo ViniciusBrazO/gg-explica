@@ -53,7 +53,14 @@ legenda:
   max_caracteres: 18
 
 voz:
-  provedor: azure               # elevenlabs | azure | silencio (teste sem áudio)
+  provedor: gemini              # gemini | elevenlabs | azure | silencio (teste sem áudio)
+  reserva: azure                # se o Gemini falhar (cota, fora do ar), narra com a Azure
+  gemini:
+    # Escolhida pelo Vinicius em 16/11 (amostras: Antonio, Macerio e 5 vozes pt-BR do Google).
+    voz: pt-br-storyteller-2
+    modelo: gemini-3.8-flash-tts
+    estilo: "Apresentador brasileiro de notícias de games no Instagram: animado, ritmo rápido e natural, como um amigo contando uma novidade, sem soar como locutor de rádio."
+    palavras_por_segundo: 3.2   # medido nas amostras (95 palavras em ~29 s)
   elevenlabs:
     voice_id: ""                # a mesma voz da página de games (Manual, passo da voz)
     modelo: eleven_multilingual_v2

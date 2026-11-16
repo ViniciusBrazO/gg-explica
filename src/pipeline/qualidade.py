@@ -32,6 +32,8 @@ def palavras_por_segundo(marca: Marca) -> float:
         except ValueError:
             pct = 0.0
         return 2.6 * (1 + pct)
+    if voz.get("provedor") == "gemini":
+        return float(voz.get("gemini", {}).get("palavras_por_segundo", 3.2))
     if voz.get("provedor") == "elevenlabs":
         return 2.6 * float(voz.get("elevenlabs", {}).get("velocidade", 1.0))
     return 2.6
@@ -53,7 +55,8 @@ def _textos(video: Video) -> list[str]:
 
 def voz_disponivel() -> bool:
     import os
-    return bool(os.environ.get("AZURE_SPEECH_KEY") or os.environ.get("ELEVENLABS_API_KEY"))
+    return bool(os.environ.get("AZURE_SPEECH_KEY") or os.environ.get("ELEVENLABS_API_KEY")
+                or os.environ.get("GEMINI_API_KEY"))
 
 
 def so_carrossel() -> bool:

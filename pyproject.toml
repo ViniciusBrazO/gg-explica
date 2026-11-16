@@ -16,6 +16,7 @@ dependencies = [
 
 [project.optional-dependencies]
 azure = ["azure-cognitiveservices-speech>=1.38"]
+gemini = ["faster-whisper>=1.0"]   # tempo de cada palavra da voz do Gemini (legenda karaokê)
 dev = ["pytest>=8"]
 
 [project.scripts]

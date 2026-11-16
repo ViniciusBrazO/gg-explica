@@ -56,3 +56,47 @@ def test_ssml_hd_sem_prosody_e_multilingue_com_lang():
     assert '<lang xml:lang="pt-BR">' in multi and 'rate="+8%"' in multi
     comum = ssml_azure({"voz": "pt-BR-AntonioNeural", "velocidade": "+12%", "tom": "+3%"}, "A & B")
     assert "<lang" not in comum and "A &amp; B" in comum
+
+
+def test_tempo_das_palavras_casa_com_o_que_o_whisper_ouviu(tmp_path):
+    from pipeline.voz import tempos_das_palavras
+    texto = "Faltam três dias pra GTA seis. Comenta pronto."
+    ouvidas = [Palavra("Faltam", 0.1, 0.4), Palavra("3", 0.45, 0.7), Palavra("dias", 0.75, 1.0),
+               Palavra("pra", 1.05, 1.2), Palavra("gtá", 1.25, 1.6), Palavra("seis.", 1.65, 1.9),
+               Palavra("Comenta", 2.3, 2.7), Palavra("pronto.", 2.75, 3.1)]
+    p = tempos_das_palavras(texto, tmp_path / "x.wav", 3.3, ouvidas)
+    assert [x.texto for x in p] == ["Faltam", "três", "dias", "pra", "GTA", "seis", "Comenta", "pronto"]
+    assert p[0].inicio == 0.1 and p[6].inicio == 2.3
+    # "três" e "GTA" não casaram: ficam entre as vizinhas, em ordem
+    assert 0.4 <= p[1].inicio < p[1].fim <= 0.75
+    assert 1.2 <= p[4].inicio < p[4].fim <= 1.65
+    assert all(a.inicio <= b.inicio for a, b in zip(p, p[1:]))
+
+
+def test_tempo_estimado_sem_whisper(tmp_path):
+    from pipeline.voz import tempos_das_palavras
+    p = tempos_das_palavras("um dois três", tmp_path / "x.wav", 3.0, [])
+    assert len(p) == 3 and p[0].inicio == 0.0 and p[-1].fim <= 3.0
+
+
+def test_gemini_com_reserva_e_sem_chave_vai_para_azure(monkeypatch):
+    import dataclasses
+    from pipeline import voz as v
+    from pipeline.marca import carregar_marca
+    marca = carregar_marca("gg_explica")
+    assert marca.voz["provedor"] == "gemini" and marca.voz["gemini"]["voz"] == "pt-br-storyteller-2"
+    monkeypatch.setenv("GEMINI_API_KEY", "x")
+    monkeypatch.setattr(v, "Azure", lambda cfg: "azure")
+    escolhida = v.criar_voz(marca, cache=False)
+    assert isinstance(escolhida, v.ComReserva) and isinstance(escolhida.principal, v.Gemini)
+    monkeypatch.delenv("GEMINI_API_KEY")
+    assert v.criar_voz(marca, cache=False) == "azure"
+
+    class Quebra:
+        def falar(self, texto, saida):
+            raise RuntimeError("429")
+
+    class Boa:
+        def falar(self, texto, saida):
+            return "ok"
+    assert v.ComReserva(Quebra(), Boa()).falar("oi", None) == "ok"
