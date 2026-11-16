@@ -66,7 +66,8 @@ com bom senso e o post sai sozinho (o Vinicius recebe o aviso no Telegram e pode
 >    pauta), escolha a mais forte e use-a como manchete (título da 1ª cena) e como primeira frase falada.
 >    Até 10 palavras, específico (número, data, preço, nome), curioso, sem clickbait: o vídeo entrega o
 >    que o gancho promete. Nada de abrir com "Fala, galera" ou contexto.
-> 4. **Roteiro curto: 20 a 35 segundos** (até 45 s só no resumo de dia cheio). Ordem: gancho → a situação
+> 4. **Roteiro curto: 20 a 35 segundos = 60 a 100 palavras de narração no total, somando todas as cenas**
+>    (conte antes de gravar; até 130 palavras só no resumo de dia cheio). Ordem: gancho → a situação
 >    em que a pessoa se reconhece ("se você vai jogar no PS5...") → 2 ou 3 fatos com número, um por cena →
 >    a virada ou o detalhe que quase ninguém sabe → CTA natural, sem pedir "segue". Frases simples, zero
 >    enrolação. Termine numa frase que conecte com o começo, para o vídeo rodar de novo.
