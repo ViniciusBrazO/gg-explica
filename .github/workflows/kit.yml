@@ -167,12 +167,21 @@ jobs:
             dossie) paginas radar || true; paginas dossie ;;
             ver-trailers) python scripts/ver_trailers.py ;;
             testar-cdn) python scripts/testar_cdn.py ;;
+            vozes-naturais) python scripts/amostras_voz.py ;;
             nova-capa*) t="${{ steps.t.outputs.tarefa }}"; paginas nova-capa "${t#nova-capa:}" --busca "${{ github.event.inputs.vozes }}" ;;
             diag-reel) for v in saida/videos/gg_explica/2026-11-12_radar_2026-11-12_clipe_miami_reel.mp4 saida/videos/gg_explica/2026-11-11_radar_2026-11-11_preco_reais_reel.mp4; do echo "== $v"; paginas diagnostico-reel "$v"; done ;;
             telegram-teste) paginas telegram teste ;;
             simular) paginas meta conferir --marca gg_explica && paginas publicar --simular ;;
             amostra) for v in $(ls -t saida/videos/gg_explica/*.mp4 | head -12); do echo "== $v $(stat -c %s "$v") bytes $(date -r "$v" +%d/%m_%H:%M)"; ffprobe -v error -show_entries format=duration,bit_rate:stream=codec_name,profile,level,width,height,r_frame_rate,avg_frame_rate,pix_fmt,sample_rate,channels,bit_rate,nb_frames -of compact "$v"; python -c "import sys;d=open(sys.argv[1],'rb').read();print('elst',d.count(b'elst'),'moov<mdat',d.find(b'moov')<d.find(b'mdat'))" "$v"; done ;;
           esac
+
+      - name: Amostras de voz (artefato)
+        if: always() && steps.t.outputs.tarefa == 'vozes-naturais'
+        uses: actions/upload-artifact@v4
+        with:
+          name: amostras-voz
+          path: saida/amostras_voz/*.mp3
+          retention-days: 7
 
       - name: Rodada leve deixou trabalho (notícia quente, post novo)? Chama a rodada pesada agora
         if: always() && steps.plano.outputs.pesado != 'true'

@@ -25,11 +25,13 @@ from .legendas import gerar_ass
 from .marca import RAIZ, Marca
 from .midia import buscar_broll, imagem_produto
 from .modelos import TIPOS_COM_MIDIA, Cena, Video
-from .voz import Fala, Palavra, criar_voz, texto_para_fala
+from .voz import Fala, Palavra, criar_voz, falar_continuo, texto_para_fala
 
 FPS = 60                 # movimento mais liso no celular (o Instagram aceita até 60)
 PAUSA_ENTRE_CENAS = 0.18
 DURACAO_MINIMA_CENA = 1.6
+DURACAO_MINIMA_CENA_CONTINUA = 0.8
+PAUSA_FINAL = 0.4         # respiro depois da última frase, antes do vídeo acabar
 ENTRADA_CARTAO = 0.28
 EXT_IMAGEM = {".jpg", ".jpeg", ".png", ".webp", ".bmp"}
 BORDA_MIDIA = 4          # moldura colorida em volta do clipe, em pixels
@@ -550,17 +552,25 @@ def renderizar_video(marca: Marca, video: Video, pasta_saida: Path, voz_forcada:
         if not fundo_marca.exists():
             desenhar_fundo(d, marca, fundo_marca)
 
+        # números e "R$" por extenso só em português; em espanhol a voz lê do jeito certo sozinha
+        portugues = marca.dados.get("idioma", "pt") == "pt"
+        textos = [texto_para_fala(preencher_variaveis(c.narracao, hoje)) if portugues
+                  else preencher_variaveis(c.narracao, hoje).replace("*", "") for c in video.cenas]
+        # o roteiro inteiro numa narração só: fala corrida, sem pausa nem "recomeço" a cada cena
+        falas, continua = falar_continuo(voz, textos, trabalho)
+
         for i, cena in enumerate(video.cenas):
             dados = cena.model_dump()
             for campo in ("titulo", "texto", "numero", "rotulo", "rodape", "narracao", "kicker", "fonte"):
                 dados[campo] = preencher_variaveis(dados[campo], hoje)
             dados["itens"] = [preencher_variaveis(x, hoje) for x in dados["itens"]]
 
-            # números e "R$" por extenso só em português; em espanhol a voz lê do jeito certo sozinha
-            texto_falado = texto_para_fala(dados["narracao"]) if marca.dados.get("idioma", "pt") == "pt" \
-                else dados["narracao"].replace("*", "")
-            fala = voz.falar(texto_falado, trabalho / f"fala_{i:02d}")
-            duracao = max(DURACAO_MINIMA_CENA, fala.duracao + PAUSA_ENTRE_CENAS)
+            fala = falas[i]
+            if continua:   # o respiro natural entre as frases já está no áudio
+                ultima = i == len(video.cenas) - 1
+                duracao = max(DURACAO_MINIMA_CENA_CONTINUA, fala.duracao + (PAUSA_FINAL if ultima else 0.0))
+            else:
+                duracao = max(DURACAO_MINIMA_CENA, fala.duracao + PAUSA_ENTRE_CENAS)
 
             # a primeira cena vira a capa: também não repete o rosto/lugar da capa de outro post
             evitar_aqui = evitar | set(usadas) | (capas_vizinhas if i == 0 else set())

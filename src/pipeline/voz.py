@@ -172,16 +172,27 @@ class Azure:
                 palavras.append(Palavra(evt.text, ini, ini + evt.duration.total_seconds()))
 
         sintetizador.synthesis_word_boundary.connect(marcar)
-        ssml = (
-            '<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="pt-BR">'
-            f'<voice name="{self.cfg["voz"]}"><prosody rate="{self.cfg.get("velocidade", "+0%")}" '
-            f'pitch="{self.cfg.get("tom", "+0%")}">'
-            f"{_escapar_xml(texto)}</prosody></voice></speak>"
-        )
+        ssml = ssml_azure(self.cfg, texto)
         res = sintetizador.speak_ssml_async(ssml).get()
         if res.reason != sdk.ResultReason.SynthesizingAudioCompleted:
             raise RuntimeError(f"Azure não gerou o áudio: {res.reason} {getattr(res, 'cancellation_details', '')}")
         return Fala(wav, _duracao_audio(wav), palavras)
+
+
+def ssml_azure(cfg: dict, texto: str) -> str:
+    """Vozes HD (":DragonHD") não aceitam <prosody>; vozes multilíngues recebem <lang> para falar
+    com sotaque brasileiro."""
+    nome = cfg["voz"]
+    corpo = _escapar_xml(texto)
+    if "Multilingual" in nome or ":DragonHD" in nome:
+        corpo = f'<lang xml:lang="pt-BR">{corpo}</lang>'
+    if ":DragonHD" not in nome:
+        corpo = (f'<prosody rate="{cfg.get("velocidade", "+0%")}" pitch="{cfg.get("tom", "+0%")}">'
+                 f"{corpo}</prosody>")
+    parametros = f' parameters="{cfg["parametros"]}"' if cfg.get("parametros") else ""
+    return ('<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" '
+            'xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="pt-BR">'
+            f'<voice name="{nome}"{parametros}>{corpo}</voice></speak>')
 
 
 class Silencio:
@@ -241,6 +252,86 @@ class VozComCache:
                                    ensure_ascii=False), encoding="utf-8")
         return fala
 
+
+
+# ---------------------------------------------------------------- narração contínua
+
+def _norm(palavra: str) -> str:
+    import unicodedata
+    t = unicodedata.normalize("NFD", palavra.lower())
+    return "".join(c for c in t if c.isalnum())
+
+
+def _wav(audio: Path) -> Path:
+    if audio.suffix.lower() == ".wav":
+        return audio
+    destino = audio.with_suffix(".wav")
+    subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-i", str(audio), "-ac", "1",
+                    "-ar", "24000", str(destino)], check=True, capture_output=True)
+    return destino
+
+
+def cena_de_cada_palavra(textos: list[str], palavras: list[Palavra]) -> list[int] | None:
+    """A qual cena pertence cada palavra que a voz devolveu (a voz pode juntar ou separar palavras,
+    então alinha pelo texto). None se alguma cena ficar sem palavra."""
+    import difflib
+    esperado, dono = [], []
+    for i, t in enumerate(textos):
+        for w in t.split():
+            if _norm(w):
+                esperado.append(_norm(w))
+                dono.append(i)
+    recebido = [_norm(p.texto) for p in palavras]
+    cenas: list[int | None] = [None] * len(recebido)
+    for bloco in difflib.SequenceMatcher(None, esperado, recebido, autojunk=False).get_matching_blocks():
+        for k in range(bloco.size):
+            cenas[bloco.b + k] = dono[bloco.a + k]
+    atual = 0
+    for j, c in enumerate(cenas):        # palavra sem par fica com a cena da anterior
+        if c is None or c < atual:
+            cenas[j] = atual
+        else:
+            atual = c
+    if set(cenas) != set(range(len(textos))):
+        return None
+    return cenas  # type: ignore[return-value]
+
+
+def falar_continuo(voz, textos: list[str], pasta: Path) -> tuple[list[Fala], bool]:
+    """Narra o roteiro inteiro de uma vez (entonação de fala corrida, sem a pausa e o "recomeço" de
+    cada cena) e corta o áudio no respiro entre as cenas. Devolve (falas por cena, ficou_continua).
+    Se não der para alinhar, volta a narrar cena por cena."""
+    if isinstance(voz, Silencio) or len(textos) < 2:
+        return [voz.falar(t, pasta / f"fala_{i:02d}") for i, t in enumerate(textos)], False
+    inteira = voz.falar(" ".join(textos), pasta / "fala_inteira")
+    cenas = cena_de_cada_palavra(textos, inteira.palavras) if inteira.palavras else None
+    if cenas is None:
+        print("  voz: não alinhou o roteiro inteiro; narrando cena por cena")
+        return [voz.falar(t, pasta / f"fala_{i:02d}") for i, t in enumerate(textos)], False
+    origem = _wav(inteira.audio)
+    with wave.open(str(origem), "rb") as w:
+        params, taxa = w.getparams(), w.getframerate()
+        quadros = w.readframes(w.getnframes())
+    largura = params.sampwidth * params.nchannels
+    total = len(quadros) // largura / taxa
+    cortes = [0.0]
+    for i in range(1, len(textos)):
+        ultima = max(j for j, c in enumerate(cenas) if c == i - 1)
+        primeira = min(j for j, c in enumerate(cenas) if c == i)
+        fim, ini = inteira.palavras[ultima].fim, inteira.palavras[primeira].inicio
+        cortes.append(max(fim, min(ini - 0.03, (fim + ini) / 2)))
+    cortes.append(total)
+    falas = []
+    for i in range(len(textos)):
+        a, b = cortes[i], cortes[i + 1]
+        destino = pasta / f"fala_{i:02d}.wav"
+        with wave.open(str(destino), "wb") as w:
+            w.setparams(params)
+            w.writeframes(quadros[int(a * taxa) * largura:int(b * taxa) * largura])
+        palavras = [Palavra(p.texto, max(0.0, p.inicio - a), max(0.0, p.fim - a))
+                    for p, c in zip(inteira.palavras, cenas) if c == i]
+        falas.append(Fala(destino, b - a, palavras))
+    return falas, True
 
 PASTA_CACHE_VOZ = Path(__file__).resolve().parents[2] / "saida" / "cache_voz"
 
