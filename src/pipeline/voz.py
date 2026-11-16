@@ -35,6 +35,7 @@ class Fala:
     audio: Path
     duracao: float
     palavras: list[Palavra]
+    tempos_estimados: bool = False     # True: o whisper não rodou (não guarda no cache)
 
 
 # ---------------------------------------------------------------- texto falado
@@ -224,7 +225,12 @@ class Gemini:
     def falar(self, texto: str, saida: Path) -> Fala:
         wav = self._audio(texto, saida.with_suffix(".wav"))
         duracao = _duracao_audio(wav)
-        return Fala(wav, duracao, tempos_das_palavras(texto, wav, duracao))
+        try:
+            ouvidas = _ouvir(wav, texto)
+        except Exception as e:  # noqa: BLE001
+            print(f"  voz: whisper falhou ({str(e)[:120]}); tempo das palavras estimado")
+            ouvidas = []
+        return Fala(wav, duracao, tempos_das_palavras(texto, wav, duracao, ouvidas), tempos_estimados=not ouvidas)
 
 
 def _ouvir(wav: Path, texto: str) -> list[Palavra]:
@@ -238,7 +244,14 @@ def _ouvir(wav: Path, texto: str) -> list[Palavra]:
     if _MODELO_WHISPER is None:
         _MODELO_WHISPER = WhisperModel(os.environ.get("WHISPER_MODELO", "base"), device="cpu",
                                        compute_type="int8")
-    segmentos, _ = _MODELO_WHISPER.transcribe(str(wav), language="pt", word_timestamps=True,
+    # o áudio vai já decodificado (16 kHz mono): o decodificador do faster-whisper quebra com o PyAV novo
+    import numpy as np
+    dezesseis = wav.with_name(wav.stem + "_16k.wav")
+    subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-i", str(wav), "-ac", "1", "-ar", "16000",
+                    "-c:a", "pcm_s16le", str(dezesseis)], check=True, capture_output=True)
+    with wave.open(str(dezesseis), "rb") as w:
+        amostras = np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16).astype(np.float32) / 32768.0
+    segmentos, _ = _MODELO_WHISPER.transcribe(amostras, language="pt", word_timestamps=True,
                                               initial_prompt=texto[:800], beam_size=1,
                                               condition_on_previous_text=False)
     return [Palavra(w.word.strip(), float(w.start), float(w.end)) for seg in segmentos for w in seg.words]
@@ -370,6 +383,8 @@ class VozComCache:
                 shutil.copy2(audio, destino)
                 return Fala(destino, dados["duracao"], [Palavra(*p) for p in dados["palavras"]])
         fala = self.voz.falar(texto, saida)
+        if fala.tempos_estimados:
+            return fala
         self.pasta.mkdir(parents=True, exist_ok=True)
         guardado = self.pasta / f"{chave}{fala.audio.suffix}"
         shutil.copy2(fala.audio, guardado)
@@ -482,7 +497,9 @@ def criar_voz(marca: Marca, forcar: str | None = None, cache: bool = True):
             raise ValueError(f"provedor de voz desconhecido: {nome}")
         if not cache:
             return voz
-        return VozComCache(voz, f"{nome}|{json.dumps(marca.voz.get(nome, {}), sort_keys=True)}", PASTA_CACHE_VOZ)
+        extra = "|whisper2" if nome == "gemini" else ""     # muda quando o jeito de achar o tempo muda
+        return VozComCache(voz, f"{nome}|{json.dumps(marca.voz.get(nome, {}), sort_keys=True)}{extra}",
+                           PASTA_CACHE_VOZ)
 
     voz = montar(provedor)
     reserva = marca.voz.get("reserva")
