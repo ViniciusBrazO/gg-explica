@@ -332,5 +332,36 @@
     "situacao": "agendado",
     "message_id": 365,
     "enviado": "2026-11-16T07:36:15.112330"
+  },
+  "07809c395f": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/2026-W47_gg_explica.json",
+    "video": "2026-W47_seg_preco_em_horas",
+    "impressao": "ecda958e66ce",
+    "situacao": "agendado",
+    "message_id": 367,
+    "enviado": "2026-11-16T08:21:30.703531"
+  },
+  "007f6540d3": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/2026-W47_gg_explica.json",
+    "video": "2026-W47_seg_dublagem",
+    "impressao": "1194da7c651e",
+    "situacao": "agendado",
+    "message_id": 368,
+    "enviado": "2026-11-16T08:28:22.152472"
+  },
+  "fcdfc15369": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/2026-W47_gg_explica.json",
+    "video": "2026-W47_ter_feriado_quatro_dias",
+    "impressao": "1a8613f094e7",
+    "situacao": "agendado",
+    "message_id": 369,
+    "enviado": "2026-11-16T08:34:00.357022"
+  },
+  "0a0ff2641d": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/2026-W47_gg_explica.json",
+    "video": "2026-W47_ter_acre_fuso",
+    "impressao": "97a39f6f8a79",
+    "situacao": "bloqueado",
+    "conferido": "2026-11-16T08:34"
   }
 }
