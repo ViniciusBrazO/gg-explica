@@ -55,7 +55,7 @@ ciclo de hora em hora, radar do Claude às 07h07 e 17h07 (alerta na hora só com
 Telegram (✍️ Ajustar / 🗑 Cancelar até sair) e manda o link quando publica; respostas viram
 `saida/telegram/orientacoes.md`. Reel no estilo notícia desde 14/11 (`video.estilo_reel: noticia`, `src/pipeline/estilo_noticia.py`: tela cheia com tomadas de ~2,6 s, manchete parada = título da 1ª cena, legenda acima). Só Reels (14/11): 4 Reels por dia e nenhum carrossel no feed até a página crescer (`publicacao.instagram_carrosseis_por_dia: 0`); Reels do Instagram em modo manual (`publicacao.instagram_reels: manual`: o kit manda vídeo, capa e legenda no Telegram e o Vinicius posta pelo app, porque a API recusa vídeo com erro 2207076). Freio: 6 publicações no Instagram em 24 h, 90 min entre elas (`publicacao` em `config/automacao.yaml`); dia cheio de notícia vira post de resumo (carrossel de 8 a 10 slides, Reel de 45 a 58 s), não post extra. Notícia quente numa rodada leve
 chama uma rodada pesada na hora. Segredos no GitHub: META_TOKEN_GG_EXPLICA, TELEGRAM_BOT_TOKEN,
-CLAUDE_CODE_OAUTH_TOKEN, AZURE_SPEECH_KEY (voz Antonio) e GEMINI_API_KEY (chat do Telegram em
+CLAUDE_CODE_OAUTH_TOKEN, AZURE_SPEECH_KEY (voz Antonio, reserva) e GEMINI_API_KEY (voz desde 16/11: Gemini TTS `pt-br-storyteller-2`, roteiro narrado de uma vez, tempo das palavras pelo faster-whisper; testes: tarefas `vozes-naturais` e `reel-voz`) (chat do Telegram em
 `saida/telegram/chat_id.txt`). **Redator:** hoje `redator: claude`. Opção `redator: gemini` (grátis, testada em 10/11 e desligada: texto raso e assunto repetido; `src/pipeline/redator.py` +
 `prompts/gemini_sistema.md`: o kit lê as matérias, o Gemini escreve, o validador confere); sem a chave
 do Gemini, volta para o Claude Code (`claude -p`).
