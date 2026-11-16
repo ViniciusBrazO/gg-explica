@@ -308,5 +308,29 @@
     "situacao": "agendado",
     "message_id": 356,
     "enviado": "2026-11-15T17:21:18.877938"
+  },
+  "90f7b6b1bd": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-16_gg_explica.json",
+    "video": "radar_2026-11-16_hora_liberacao_reel",
+    "impressao": "ab115e00d46e",
+    "situacao": "agendado",
+    "message_id": 363,
+    "enviado": "2026-11-16T07:19:47.155197"
+  },
+  "afda96a383": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-16_gg_explica.json",
+    "video": "radar_2026-11-16_13_anos_gta5_reel",
+    "impressao": "b3be3f1a7ffa",
+    "situacao": "agendado",
+    "message_id": 364,
+    "enviado": "2026-11-16T07:31:42.377799"
+  },
+  "f0e93144c7": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-16_gg_explica.json",
+    "video": "radar_2026-11-16_plano_ate_quinta_reel",
+    "impressao": "1a147bc7f5d3",
+    "situacao": "agendado",
+    "message_id": 365,
+    "enviado": "2026-11-16T07:36:15.112330"
   }
 }
