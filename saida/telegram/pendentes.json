@@ -362,7 +362,7 @@
     "video": "2026-W47_ter_acre_fuso",
     "impressao": "97a39f6f8a79",
     "situacao": "bloqueado",
-    "conferido": "2026-11-16T20:18"
+    "conferido": "2026-11-17T11:36"
   },
   "eda976b6e9": {
     "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-16_gg_explica.json",
@@ -371,5 +371,37 @@
     "situacao": "agendado",
     "message_id": 398,
     "enviado": "2026-11-16T17:17:30.949969"
+  },
+  "ea8bb9fbec": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/2026-W47_gg_explica.json",
+    "video": "2026-W47_qua_pc_verdade",
+    "impressao": "5163938a0417",
+    "situacao": "agendado",
+    "message_id": 426,
+    "enviado": "2026-11-17T11:45:29.555217"
+  },
+  "da32d22099": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-17_gg_explica.json",
+    "video": "radar_2026-11-17_clima_leonida_reel",
+    "impressao": "4c51d197c698",
+    "situacao": "agendado",
+    "message_id": 427,
+    "enviado": "2026-11-17T11:50:38.445593"
+  },
+  "1af5c43c9c": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-17_gg_explica.json",
+    "video": "radar_2026-11-17_controle_dualsense_reel",
+    "impressao": "68e2fb39f464",
+    "situacao": "agendado",
+    "message_id": 428,
+    "enviado": "2026-11-17T11:59:14.631165"
+  },
+  "6ff2d1cdcb": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-17_gg_explica.json",
+    "video": "radar_2026-11-17_hacker_culpado_reel",
+    "impressao": "05afa0dbbdbb",
+    "situacao": "agendado",
+    "message_id": 429,
+    "enviado": "2026-11-17T12:04:43.314430"
   }
 }
