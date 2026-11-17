@@ -1,0 +1,255 @@
+{
+  "marca": "gg_explica",
+  "semana": "2026-W47",
+  "videos": [
+    {
+      "id": "radar_2026-11-17_clima_leonida_reel",
+      "serie": "radar",
+      "status": "rascunho",
+      "data": "2026-11-17",
+      "horario": "09:00:00",
+      "formato": "reel",
+      "gerar_reel": true,
+      "plataformas": ["instagram", "facebook"],
+      "legenda_post": "GTA 6 TEM TEMPESTADE, NEBLINA E CHUVA FORTE!\nA Rockstar liberou 6 imagens novas do clima de Leonida, junto com o The Weather Channel. O VP de arte e iluminação, Owen Shepherd, diz que o clima foi refeito para ser mais local, persistente e dinâmico. A inspiração é a Flórida, um dos climas mais imprevisíveis dos EUA. Em setembro, a Rockstar já tinha falado de tempestades tropicais e furacões simulados.\nFonte: IGN e Push Square, 16 e 17/11/2026\nVídeo narrado por voz de IA.\nComenta CHUVA se você vai dirigir na tempestade. #gta6 #gtavi",
+      "hashtags": ["#gta6", "#gtavi"],
+      "publi": false,
+      "voz_ia": true,
+      "produtos": [],
+      "cenas": [
+        {
+          "tipo": "gancho",
+          "narracao": "O The Weather Channel mostrou a previsão de Vice City. E tem tempestade.",
+          "estilo": "manchete",
+          "kicker": "CLIMA",
+          "titulo": "GTA 6 tem *tempestade, neblina* e chuva forte",
+          "texto": "6 imagens novas do clima de Leonida",
+          "selo": "relato",
+          "fonte": "IGN, 16/11/2026",
+          "fonte_url": "https://www.ign.com/articles/gta-6-gets-new-screenshots-highlighting-leonidas-dynamic-weather",
+          "fundo_clipe": "busca:paisagem céu nuvens leonida keys",
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "texto",
+          "narracao": "A Rockstar liberou seis imagens novas: chuva forte, neblina no mar, trovoada e névoa.",
+          "titulo": "*6 imagens* de clima",
+          "texto": "Chuva forte, neblina no mar, trovoada e névoa.",
+          "selo": "relato",
+          "fonte": "Push Square, 17/11/2026",
+          "fonte_url": "https://www.pushsquare.com/news/2026/11/gta-6s-unpredictable-microclimate-revealed-by-the-weather-channel-with-new-ps5-screenshots",
+          "fundo_clipe": "busca:praia pôr do sol",
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "texto",
+          "narracao": "Segundo Owen Shepherd, da Rockstar, o clima foi refeito pra ser mais local, persistente e dinâmico.",
+          "titulo": "Clima *refeito*",
+          "texto": "Mais local, persistente e dinâmico, diz Owen Shepherd (Rockstar).",
+          "selo": "relato",
+          "fonte": "IGN, 16/11/2026",
+          "fonte_url": "https://www.ign.com/articles/gta-6-gets-new-screenshots-highlighting-leonidas-dynamic-weather",
+          "fundo_clipe": "busca:carro estrada noite chuva",
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "texto",
+          "narracao": "Leonida é inspirada na Flórida, um dos climas mais imprevisíveis dos Estados Unidos.",
+          "titulo": "Inspirada na *Flórida*",
+          "texto": "Um dos climas mais imprevisíveis dos EUA.",
+          "selo": "relato",
+          "fonte": "IGN, 16/11/2026",
+          "fonte_url": "https://www.ign.com/articles/gta-6-gets-new-screenshots-highlighting-leonidas-dynamic-weather",
+          "fundo_clipe": "busca:cidade noite neon vice city",
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "texto",
+          "narracao": "Em setembro, a Rockstar já tinha falado de tempestades tropicais e furacões, com vento forte e muita chuva.",
+          "titulo": "*Furacões* já eram esperados",
+          "texto": "Tempestades tropicais e furacões simulados, com vento forte e muita chuva.",
+          "selo": "relato",
+          "fonte": "IGN, 16/11/2026",
+          "fonte_url": "https://www.ign.com/articles/gta-6-gets-new-screenshots-highlighting-leonidas-dynamic-weather",
+          "fundo_clipe": "busca:lancha praia ambrosia",
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "cta",
+          "narracao": "Seis imagens não mostram tudo. Comenta chuva se você vai dirigir na tempestade.",
+          "titulo": "Dirige na *tempestade*?",
+          "texto": "Comenta CHUVA.",
+          "fundo_clipe": "busca:jason carro painel",
+          "credito": "Imagens: Rockstar Games"
+        }
+      ],
+      "notas_revisao": "RELATO: li IGN e Push Square (16 e 17/11/2026), que citam a Rockstar e o The Weather Channel; não abri o post oficial: se achar, confira e troque para CONFIRMADO. A fala de setembro (tempestades tropicais e furacões) vem da IGN, que cita atualização da Rockstar. Bash negado nesta execução: rode `paginas validar` e troque buscas sem clipe (chuva, céu e nuvens podem não achar)."
+    },
+    {
+      "id": "radar_2026-11-17_controle_dualsense_reel",
+      "serie": "radar",
+      "status": "rascunho",
+      "data": "2026-11-17",
+      "horario": "12:00:00",
+      "formato": "reel",
+      "gerar_reel": true,
+      "plataformas": ["instagram", "facebook"],
+      "legenda_post": "OS CONTROLES DE GTA 6 SAEM QUINTA!\nSão dois DualSense de PS5, um branco e um preto, a US$ 84,99 cada (preço em dólar, sem valor em reais confirmado). O branco é o Vice City ao amanhecer; o preto, a noite da cidade. O acabamento por dentro das empunhaduras muda de cor conforme a luz, e o touchpad leva um grande VI. O preto é exclusivo da PlayStation Direct.\nFonte: IGN, 16/11/2026\nVídeo narrado por voz de IA.\nComenta BRANCO ou PRETO. #gta6 #ps5",
+      "hashtags": ["#gta6", "#ps5"],
+      "publi": false,
+      "voz_ia": true,
+      "produtos": [],
+      "cenas": [
+        {
+          "tipo": "gancho",
+          "narracao": "Os controles de PS5 de GTA seis saem quinta, por oitenta e quatro dólares e noventa e nove centavos cada.",
+          "estilo": "manchete",
+          "kicker": "EDIÇÃO LIMITADA",
+          "titulo": "Controle de GTA 6 sai quinta por *US$ 84,99*",
+          "texto": "DualSense de PS5, branco e preto",
+          "selo": "relato",
+          "fonte": "IGN, 16/11/2026",
+          "fonte_url": "https://www.ign.com/articles/grand-theft-auto-6-limited-edition-ps5-dualsense-controllers-where-to-buy",
+          "fundo_clipe": "busca:jason lucia carro estrada",
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "texto",
+          "narracao": "São dois: um branco, que lembra Vice City ao amanhecer, e um preto, da vida noturna da cidade.",
+          "titulo": "Um *branco*, um *preto*",
+          "texto": "Branco: Vice City ao amanhecer. Preto: a noite da cidade.",
+          "selo": "relato",
+          "fonte": "IGN, 16/11/2026",
+          "fonte_url": "https://www.ign.com/articles/grand-theft-auto-6-limited-edition-ps5-dualsense-controllers-where-to-buy",
+          "fundo_clipe": "busca:casal vice city noite",
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "texto",
+          "narracao": "Por dentro das empunhaduras, o acabamento muda de cor conforme a luz.",
+          "titulo": "Cor que *muda* na luz",
+          "texto": "Acabamento brilhante que muda de cor dentro das empunhaduras.",
+          "selo": "relato",
+          "fonte": "IGN, 16/11/2026",
+          "fonte_url": "https://www.ign.com/articles/grand-theft-auto-6-limited-edition-ps5-dualsense-controllers-where-to-buy",
+          "fundo_clipe": "busca:boobie ike festa neon",
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "texto",
+          "narracao": "Tem um grande V I no touchpad e palmeiras em relevo nas laterais.",
+          "titulo": "*VI* no touchpad",
+          "texto": "Palmeiras em relevo nas empunhaduras.",
+          "selo": "relato",
+          "fonte": "IGN, 16/11/2026",
+          "fonte_url": "https://www.ign.com/articles/grand-theft-auto-6-limited-edition-ps5-dualsense-controllers-where-to-buy",
+          "fundo_clipe": "busca:rua vice city dia carros",
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "texto",
+          "narracao": "O branco vai pra várias lojas. O preto é exclusivo da PlayStation Direct, e o preço citado é em dólar.",
+          "titulo": "Preto só na *PlayStation Direct*",
+          "texto": "O branco, em quantidade limitada, em várias lojas.",
+          "selo": "relato",
+          "fonte": "IGN, 16/11/2026",
+          "fonte_url": "https://www.ign.com/articles/grand-theft-auto-6-limited-edition-ps5-dualsense-controllers-where-to-buy",
+          "fundo_clipe": "busca:grassrivers pântano barco",
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "cta",
+          "narracao": "O resto é DualSense normal, com vibração e gatilho adaptativo. Comenta branco ou preto.",
+          "titulo": "*Branco* ou *preto*?",
+          "texto": "Comenta BRANCO ou PRETO.",
+          "fundo_clipe": "busca:lucia praia pôr do sol",
+          "credito": "Imagens: Rockstar Games"
+        }
+      ],
+      "notas_revisao": "RELATO: li a IGN (16/11/2026); não abri o comunicado da Sony/PlayStation Direct: confira e troque para CONFIRMADO. Preço só em dólar, sem conversão (sem fonte de preço em reais). Sem link de compra no vídeo. Bash negado: rode `paginas validar` e troque buscas sem clipe."
+    },
+    {
+      "id": "radar_2026-11-17_hacker_culpado_reel",
+      "serie": "radar",
+      "status": "rascunho",
+      "data": "2026-11-17",
+      "horario": "15:00:00",
+      "formato": "reel",
+      "gerar_reel": true,
+      "plataformas": ["instagram", "facebook"],
+      "legenda_post": "O HACKER QUE VAZOU GTA 6 SE DECLAROU CULPADO!\nNa segunda (16), num tribunal de Londres, o jovem de 21 anos admitiu ter invadido a Rockstar em 2022 e outras empresas, como Uber e EE/BT. Os prejuízos são estimados em 10 milhões de libras. Ele ameaçou divulgar o código-fonte se a Rockstar não respondesse em um dia. A sentença ainda não saiu. Aqui não mostramos nada do que vazou.\nFonte: Eurogamer, 16/11/2026\nVídeo narrado por voz de IA.\nComenta HOTEL se achou essa história absurda. #gta6 #gtavi",
+      "hashtags": ["#gta6", "#gtavi"],
+      "publi": false,
+      "voz_ia": true,
+      "produtos": [],
+      "cenas": [
+        {
+          "tipo": "gancho",
+          "narracao": "O hacker que vazou GTA seis em dois mil e vinte e dois se declarou culpado.",
+          "estilo": "manchete",
+          "kicker": "TRIBUNAL",
+          "titulo": "O hacker de GTA 6 *se declarou culpado*",
+          "texto": "Tribunal de Londres, 16/11",
+          "selo": "relato",
+          "fonte": "Eurogamer, 16/11/2026",
+          "fonte_url": "https://www.eurogamer.net/gta-6-leaker-pleads-guilty",
+          "fundo_clipe": "busca:cidade noite neon vice city",
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "texto",
+          "narracao": "Ele tem vinte e um anos e confessou invadir a Rockstar, a Uber e a EE, num prejuízo estimado em dez milhões de libras.",
+          "titulo": "*£ 10 milhões* de prejuízo",
+          "texto": "Rockstar, Uber e EE/BT foram invadidas.",
+          "selo": "relato",
+          "fonte": "Eurogamer, 16/11/2026",
+          "fonte_url": "https://www.eurogamer.net/gta-6-leaker-pleads-guilty",
+          "fundo_clipe": "busca:telhado noite cidade",
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "texto",
+          "narracao": "Tinha dezesseis ou dezessete anos e usou só um Fire Stick, a TV do hotel e um teclado.",
+          "titulo": "Só um *Fire Stick*",
+          "texto": "Fire Stick, TV do quarto de hotel e teclado Bluetooth.",
+          "selo": "relato",
+          "fonte": "Eurogamer, 16/11/2026",
+          "fonte_url": "https://www.eurogamer.net/gta-6-leaker-pleads-guilty",
+          "fundo_clipe": "busca:ocean drive hotel neon noite",
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "texto",
+          "narracao": "Ele chegou a ameaçar divulgar o código-fonte se a Rockstar não respondesse em um dia.",
+          "titulo": "Ameaça de *24 horas*",
+          "texto": "Entrou até nos canais de Slack da empresa.",
+          "selo": "relato",
+          "fonte": "Eurogamer, 16/11/2026 (cita a BBC)",
+          "fonte_url": "https://www.eurogamer.net/gta-6-leaker-pleads-guilty",
+          "fundo_clipe": "busca:cal hampton cidade luzes",
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "texto",
+          "narracao": "A sentença ainda não saiu. E agora GTA seis sai na quinta, de forma oficial.",
+          "titulo": "Sentença *ainda não saiu*",
+          "texto": "GTA 6 chega em 19/11, de forma oficial.",
+          "selo": "relato",
+          "fonte": "Eurogamer, 16/11/2026",
+          "fonte_url": "https://www.eurogamer.net/gta-6-leaker-pleads-guilty",
+          "fundo_clipe": "busca:cartão-postal vice city pôr do sol",
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "cta",
+          "narracao": "Comenta hotel se você achou essa história absurda.",
+          "titulo": "Achou *absurdo*?",
+          "texto": "Comenta HOTEL.",
+          "fundo_clipe": "busca:raul bautista praia dia",
+          "credito": "Imagens: Rockstar Games"
+        }
+      ],
+      "notas_revisao": "RELATO: li a Eurogamer (16/11/2026); G1, IGN e The Verge repetem o fato nas manchetes (não abertas). Não nomeei o réu de propósito e não mostro nada do vazamento (regra 2). Data da sentença (23/11) só aparece na manchete do Notebookcheck, que não abriu: fora do vídeo. 'Entrou nos canais de Slack' e a ameaça vêm da Eurogamer citando a BBC. Bash negado: rode `paginas validar` e troque buscas sem clipe (ocean drive, cal hampton, raul bautista podem não achar)."
+    }
+  ]
+}

@@ -863,5 +863,24 @@
     ],
     "estilo_capa": "faixa",
     "registrado": "2026-11-16T20:14"
+  },
+  "2026-11-18|2026-W47_qua_tempo_pra_baixar": {
+    "data": "2026-11-18",
+    "horario": "13:00",
+    "imagens": [
+      "clipes/oficial/artes_e_wallpapers/Jason_Lucia_Lock_And_Load_ultrawide.jpg",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1008.1",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@642.2",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1036.0",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1181.4",
+      "clipes/oficial/artes_e_wallpapers/Official_Cover_Art_landscape.jpg",
+      "clipes/oficial/artes_e_wallpapers/Real_Dimez_landscape.jpg",
+      "clipes/oficial/artes_e_wallpapers/Real_Dimez_portrait.jpg",
+      "clipes/oficial/artes_e_wallpapers/Real_Dimez_ultrawide.jpg",
+      "clipes/oficial/artes_e_wallpapers/Official_Cover_Art_portrait.jpg",
+      "clipes/oficial/artes_e_wallpapers/Raul_Bautista_portrait.jpg"
+    ],
+    "estilo_capa": "base",
+    "registrado": "2026-11-17T07:16"
   }
 }
