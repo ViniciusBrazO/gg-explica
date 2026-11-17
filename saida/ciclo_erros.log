@@ -378,3 +378,27 @@ RuntimeError: ffmpeg falhou:
 ffmpeg -nostdin -hide_banner -loglevel error -y -i /home/runner/work/gg-explica/gg-explica/saida/videos/gg_explica/_trabalho/2026-W47_qua_pc_verdade/fala_00.wav -i /home/runner/work/gg-explica/gg-explica/saida/videos/gg_explica/_trabalho/2026-W47_qua_pc_verdade/fala_01.wav -i /home/runner/work/gg-explica/gg-explica/saida/videos/gg_explica/_trabalho/2026-W47_qua_pc_verdade/fala_02.wav -i /home/runner/work/gg-explica/gg-explica/saida/videos/gg_explica/_trabalho/2026-W47_qua_pc_verdade/fala_03.wav -i /home/runner/work/gg-explica/gg-explica/saida/videos/gg_explica/_trabalho/2026-W47_qua_pc_verdade/fala_04.wav -i /home/runner/work/gg-explica/gg-explica/saida/videos/gg_explica/_trabalho/2026-W47_qua_pc_verdade/fala_05.wav -filter_complex [0:a]aformat=sample_rates=48000:channel_layouts=stereo,apad=whole_dur=16.690,atrim=duration=16.690[a0];[1:a]aformat=sample_rates=48000:channel_layouts=stereo,apad=whole_dur=12.280,atrim=duration=12.280[a1];[2:a]aformat=sample_rates=48000:channel_layouts=stereo,apad=whole_dur=0.800,atrim=duration=0.800[a2];[3:a]aformat=sample_rates=48000:channel_layouts=stereo,apad=whole_dur=0.800,atrim=duration=0.800[a3];[4:a]aformat=sample_rates=48000:channel_layouts=stereo,apad=whole_dur=0.800,atrim=duration=0.800[a4];[5:a]aformat=sample_rates=48000:channel_layouts=stereo,apad=whole_dur=1.270,atrim=duration=1.270[a5];[a0][a1][a2][a3][a4][a5]concat=n=6:v=0:a=1[narr] -map [narr] -c:a pcm_s16le /home/runner/work/gg-explica/gg-explica/saida/videos/gg_explica/_trabalho/2026-W47_qua_pc_verdade/narracao.wav
 Error while filtering: Invalid data found when processing input
 
+
+[2026-11-17 11:13] prévias
+Traceback (most recent call last):
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/ciclo.py", line 60, in etapa
+    funcao()
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/ciclo.py", line 146, in previas
+    n = telegram.enviar_para_aprovacao(tg, cfg["telegram"].get("enviar_dias_a_frente", 1))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/telegram.py", line 198, in enviar_para_aprovacao
+    r = produzir(marca, v, previa=False)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/producao.py", line 125, in produzir
+    info = renderizar_video(marca, video, pasta, voz_forcada=voz, registrar_clipes=not previa)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/montagem.py", line 666, in renderizar_video
+    _juntar_narracao(trechos, narr)
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/montagem.py", line 467, in _juntar_narracao
+    _ff([*entradas, "-filter_complex", filtro, "-map", "[narr]", "-c:a", "pcm_s16le", str(saida)])
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/montagem.py", line 52, in _ff
+    raise RuntimeError(f"ffmpeg falhou:\n{' '.join(cmd)}\n{r.stderr[-2000:]}")
+RuntimeError: ffmpeg falhou:
+ffmpeg -nostdin -hide_banner -loglevel error -y -i /home/runner/work/gg-explica/gg-explica/saida/videos/gg_explica/_trabalho/2026-W47_qua_pc_verdade/fala_00.wav -i /home/runner/work/gg-explica/gg-explica/saida/videos/gg_explica/_trabalho/2026-W47_qua_pc_verdade/fala_01.wav -i /home/runner/work/gg-explica/gg-explica/saida/videos/gg_explica/_trabalho/2026-W47_qua_pc_verdade/fala_02.wav -i /home/runner/work/gg-explica/gg-explica/saida/videos/gg_explica/_trabalho/2026-W47_qua_pc_verdade/fala_03.wav -i /home/runner/work/gg-explica/gg-explica/saida/videos/gg_explica/_trabalho/2026-W47_qua_pc_verdade/fala_04.wav -i /home/runner/work/gg-explica/gg-explica/saida/videos/gg_explica/_trabalho/2026-W47_qua_pc_verdade/fala_05.wav -filter_complex [0:a]aformat=sample_rates=48000:channel_layouts=stereo,apad=whole_dur=16.690,atrim=duration=16.690[a0];[1:a]aformat=sample_rates=48000:channel_layouts=stereo,apad=whole_dur=12.280,atrim=duration=12.280[a1];[2:a]aformat=sample_rates=48000:channel_layouts=stereo,apad=whole_dur=0.800,atrim=duration=0.800[a2];[3:a]aformat=sample_rates=48000:channel_layouts=stereo,apad=whole_dur=0.800,atrim=duration=0.800[a3];[4:a]aformat=sample_rates=48000:channel_layouts=stereo,apad=whole_dur=0.800,atrim=duration=0.800[a4];[5:a]aformat=sample_rates=48000:channel_layouts=stereo,apad=whole_dur=1.270,atrim=duration=1.270[a5];[a0][a1][a2][a3][a4][a5]concat=n=6:v=0:a=1[narr] -map [narr] -c:a pcm_s16le /home/runner/work/gg-explica/gg-explica/saida/videos/gg_explica/_trabalho/2026-W47_qua_pc_verdade/narracao.wav
+Error while filtering: Invalid data found when processing input
+
