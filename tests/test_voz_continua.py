@@ -100,3 +100,28 @@ def test_gemini_com_reserva_e_sem_chave_vai_para_azure(monkeypatch):
         def falar(self, texto, saida):
             return "ok"
     assert v.ComReserva(Quebra(), Boa()).falar("oi", None) == "ok"
+
+
+def test_fala_incompleta_recusa_audio_cortado():
+    from pipeline.voz import fala_incompleta
+    texto = " ".join(f"palavra{i}" for i in range(100))
+    assert "só" in fala_incompleta(texto, 10.0, [])            # 100 palavras em 10 s: cortou
+    metade = [Palavra(f"palavra{i}", i * 0.3, i * 0.3 + 0.25) for i in range(50)]
+    assert fala_incompleta(texto, 31.0, metade)                  # ouviu só a metade
+    inteira = [Palavra(f"palavra{i}", i * 0.3, i * 0.3 + 0.25) for i in range(100)]
+    assert fala_incompleta(texto, 31.0, inteira) == ""
+
+
+def test_corte_sem_fala_volta_para_cena_por_cena(tmp_path):
+    class VozQuePula(VozFalsa):
+        def falar(self, texto, saida):
+            fala = super().falar(texto, saida)
+            if len(self.chamadas) == 1:     # roteiro inteiro: o fim sai espremido em 0,1 s (fala cortada)
+                fim = fala.duracao - 0.05
+                for k, p in enumerate(fala.palavras[3:]):
+                    p.inicio = p.fim = fim - 0.1 + k * 0.02
+            return fala
+    textos = ["Um um um.", "Dois.", "Três três três."]
+    voz = VozQuePula()
+    falas, continua = falar_continuo(voz, textos, tmp_path)
+    assert not continua and len(voz.chamadas) == 4

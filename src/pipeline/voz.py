@@ -223,14 +223,22 @@ class Gemini:
         raise RuntimeError(f"Gemini TTS não gerou o áudio: {erro}")
 
     def falar(self, texto: str, saida: Path) -> Fala:
-        wav = self._audio(texto, saida.with_suffix(".wav"))
-        duracao = _duracao_audio(wav)
-        try:
-            ouvidas = _ouvir(wav, texto)
-        except Exception as e:  # noqa: BLE001
-            print(f"  voz: whisper falhou ({str(e)[:120]}); tempo das palavras estimado")
-            ouvidas = []
-        return Fala(wav, duracao, tempos_das_palavras(texto, wav, duracao, ouvidas), tempos_estimados=not ouvidas)
+        n_palavras = len([w for w in texto.split() if _norm(w)])
+        motivo = ""
+        for tentativa in range(2):     # o Gemini às vezes corta ou pula um trecho: confere e tenta de novo
+            wav = self._audio(texto, saida.with_suffix(".wav"))
+            duracao = _duracao_audio(wav)
+            try:
+                ouvidas = _ouvir(wav, texto)
+            except Exception as e:  # noqa: BLE001
+                print(f"  voz: whisper falhou ({str(e)[:120]}); tempo das palavras estimado")
+                ouvidas = []
+            motivo = fala_incompleta(texto, duracao, ouvidas)
+            if not motivo:
+                return Fala(wav, duracao, tempos_das_palavras(texto, wav, duracao, ouvidas),
+                            tempos_estimados=not ouvidas)
+            print(f"  voz: Gemini {motivo} (tentativa {tentativa + 1}, {n_palavras} palavras)")
+        raise RuntimeError(f"Gemini {motivo}")
 
 
 def _ouvir(wav: Path, texto: str) -> list[Palavra]:
@@ -302,6 +310,29 @@ def tempos_das_palavras(texto: str, wav: Path, duracao: float,
 
 
 PONTUACAO = ".,;:!?\"“”()…'"
+
+
+def fala_incompleta(texto: str, duracao: float, ouvidas: list[Palavra]) -> str:
+    """Motivo para recusar o áudio ("" se está bom): curto demais para o texto, ou o whisper não
+    ouviu boa parte do roteiro (fala cortada ou trecho pulado)."""
+    import difflib
+    roteiro = [_norm(w) for w in texto.split() if _norm(w)]
+    if not roteiro:
+        return ""
+    if duracao < len(roteiro) / 5.5:
+        return f"gerou só {duracao:.1f} s de áudio"
+    if not ouvidas:
+        return ""
+    casadas = sum(b.size for b in difflib.SequenceMatcher(
+        None, roteiro, [_norm(p.texto) for p in ouvidas], autojunk=False).get_matching_blocks())
+    if casadas / len(roteiro) < 0.7:
+        return f"falou só {casadas}/{len(roteiro)} palavras do roteiro"
+    # o fim do roteiro precisa estar no áudio (as últimas palavras)
+    fim = roteiro[-4:]
+    ouvidas_fim = {_norm(p.texto) for p in ouvidas[-12:]}
+    if not any(w in ouvidas_fim for w in fim):
+        return "cortou o fim do roteiro"
+    return ""
 
 
 class ComReserva:
@@ -462,6 +493,9 @@ def falar_continuo(voz, textos: list[str], pasta: Path) -> tuple[list[Fala], boo
         fim, ini = inteira.palavras[ultima].fim, inteira.palavras[primeira].inicio
         cortes.append(max(fim, min(ini - 0.03, (fim + ini) / 2)))
     cortes.append(total)
+    if any(b - a < 0.3 for a, b in zip(cortes, cortes[1:])):
+        print("  voz: alguma cena ficou sem fala no corte; narrando cena por cena")
+        return [voz.falar(t, pasta / f"fala_{i:02d}") for i, t in enumerate(textos)], False
     falas = []
     for i in range(len(textos)):
         a, b = cortes[i], cortes[i + 1]
@@ -497,7 +531,7 @@ def criar_voz(marca: Marca, forcar: str | None = None, cache: bool = True):
             raise ValueError(f"provedor de voz desconhecido: {nome}")
         if not cache:
             return voz
-        extra = "|whisper2" if nome == "gemini" else ""     # muda quando o jeito de achar o tempo muda
+        extra = "|whisper3" if nome == "gemini" else ""     # muda quando o jeito de achar o tempo muda
         return VozComCache(voz, f"{nome}|{json.dumps(marca.voz.get(nome, {}), sort_keys=True)}{extra}",
                            PASTA_CACHE_VOZ)
 

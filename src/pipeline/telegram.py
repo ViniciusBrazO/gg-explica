@@ -193,15 +193,20 @@ def enviar_para_aprovacao(tg: Telegram, dias_a_frente: int = 1, hoje: Optional[d
                 pendentes[tok] = {"pauta": str(arq), "video": v.id, "impressao": imp, "situacao": "bloqueado",
                                   "conferido": datetime.now().isoformat(timespec="minutes")}
                 continue
-            if automatico:
-                v.status = "aprovado"
-                r = produzir(marca, v, previa=False)
-                if r.arquivo is None:
-                    v.status = "rascunho"
-                    continue
-                pauta.salvar(arq)
-            else:
-                r = produzir(marca, v, previa=True)
+            try:
+                if automatico:
+                    v.status = "aprovado"
+                    r = produzir(marca, v, previa=False)
+                    if r.arquivo is None:
+                        v.status = "rascunho"
+                        continue
+                    pauta.salvar(arq)
+                else:
+                    r = produzir(marca, v, previa=True)
+            except Exception as e:  # noqa: BLE001  (um vídeo com erro não segura os outros)
+                v.status = "rascunho"
+                print(f"  {v.id}: erro ao renderizar ({str(e)[:300]})")
+                continue
             if r.arquivo is None:
                 continue
             corpo = f"{marca.nome_serie(v.serie)} · {v.data:%d/%m} às {v.horario:%H:%M}"
