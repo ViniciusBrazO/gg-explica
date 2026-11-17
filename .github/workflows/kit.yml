@@ -46,7 +46,7 @@ env:
 jobs:
   kit:
     runs-on: ubuntu-24.04      # versão fixa: a 'latest' nova teve espelhos do apt fora do ar
-    timeout-minutes: 40
+    timeout-minutes: 55   # 4 Reels com a voz do Gemini (e uma nova tentativa quando ele corta) passam de 30 min
     steps:
       - name: Qual tarefa
         id: t
