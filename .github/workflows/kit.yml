@@ -170,6 +170,7 @@ jobs:
             testar-cdn) python scripts/testar_cdn.py ;;
             vozes-naturais) python scripts/amostras_voz.py ;;
             reel-voz) python scripts/reel_teste_voz.py ;;
+            diag-voz) python scripts/diag_voz.py ;;
             nova-capa*) t="${{ steps.t.outputs.tarefa }}"; paginas nova-capa "${t#nova-capa:}" --busca "${{ github.event.inputs.vozes }}" ;;
             diag-reel) for v in saida/videos/gg_explica/2026-11-12_radar_2026-11-12_clipe_miami_reel.mp4 saida/videos/gg_explica/2026-11-11_radar_2026-11-11_preco_reais_reel.mp4; do echo "== $v"; paginas diagnostico-reel "$v"; done ;;
             telegram-teste) paginas telegram teste ;;
@@ -186,9 +187,9 @@ jobs:
           retention-days: 7
 
       - name: Amostras de voz (ramo amostras-voz, para ouvir pelo Claude)
-        if: always() && (steps.t.outputs.tarefa == 'vozes-naturais' || steps.t.outputs.tarefa == 'reel-voz')
+        if: always() && (steps.t.outputs.tarefa == 'vozes-naturais' || steps.t.outputs.tarefa == 'reel-voz' || steps.t.outputs.tarefa == 'diag-voz')
         run: |
-          mkdir -p /tmp/am && cp saida/amostras_voz/*.mp* /tmp/am/ 2>/dev/null || exit 0
+          mkdir -p /tmp/am; cp saida/amostras_voz/*.mp* /tmp/am/ 2>/dev/null; cp saida/amostras_voz/diag*.wav /tmp/am/ 2>/dev/null; ls /tmp/am/* >/dev/null 2>&1 || exit 0
           cd /tmp/am && git init -q -b amostras-voz && git add . && git -c user.name=gg-explica-bot -c user.email=actions@users.noreply.github.com commit -qm "amostras de voz"
           git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" amostras-voz
 
