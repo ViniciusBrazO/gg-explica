@@ -362,7 +362,7 @@
     "video": "2026-W47_ter_acre_fuso",
     "impressao": "97a39f6f8a79",
     "situacao": "bloqueado",
-    "conferido": "2026-11-17T15:10"
+    "conferido": "2026-11-17T17:10"
   },
   "eda976b6e9": {
     "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-16_gg_explica.json",
@@ -403,5 +403,13 @@
     "situacao": "agendado",
     "message_id": 429,
     "enviado": "2026-11-17T12:04:43.314430"
+  },
+  "326aa83445": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-17_gg_explica.json",
+    "video": "radar_2026-11-17_tga_indicacoes_reel",
+    "impressao": "a3d12c2c8648",
+    "situacao": "agendado",
+    "message_id": 454,
+    "enviado": "2026-11-17T17:17:21.825452"
   }
 }

@@ -977,5 +977,31 @@
     ],
     "estilo_capa": "base",
     "registrado": "2026-11-17T12:03"
+  },
+  "2026-11-17|radar_2026-11-17_tga_indicacoes_reel": {
+    "data": "2026-11-17",
+    "horario": "19:00",
+    "imagens": [
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1531.5",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1175.7",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@193.2",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@927.8",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1508.0",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1496.1",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@916.7",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@467.6",
+      "clipes/oficial/screenshots/Port_Gellhorn_07.jpg",
+      "clipes/oficial/screenshots/Port_Gellhorn_04.jpg",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@750.2",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@750.2",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1550.7",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1572.8",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1572.8",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1569.9",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1569.9",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1569.9"
+    ],
+    "estilo_capa": "topo",
+    "registrado": "2026-11-17T17:16"
   }
 }
