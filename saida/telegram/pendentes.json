@@ -451,5 +451,13 @@
     "situacao": "agendado",
     "message_id": 472,
     "enviado": "2026-11-18T07:40:42.551553"
+  },
+  "2c74e824c4": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-18_gg_explica.json",
+    "video": "radar_2026-11-18_lanca_amanha_reel",
+    "impressao": "f1cb4ee0b5c0",
+    "situacao": "agendado",
+    "message_id": 494,
+    "enviado": "2026-11-18T13:25:09.655780"
   }
 }
