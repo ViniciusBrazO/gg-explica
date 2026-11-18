@@ -1304,13 +1304,13 @@
     "quando": "2026-11-17T13:00:00-03:00",
     "plataforma": "facebook",
     "tipo": "reel",
-    "status": "pendente",
+    "status": "publicado",
     "produtos_para_marcar": [],
-    "media_id": "",
-    "permalink": "",
+    "media_id": "1501126861861292",
+    "permalink": "https://www.facebook.com/reel/1501126861861292",
     "erro": "",
     "tentativas": 0,
-    "publicado_em": "",
+    "publicado_em": "2026-11-18T12:15:23-03:00",
     "furar_freio": false
   },
   {
@@ -1435,7 +1435,7 @@
     "media_id": "",
     "permalink": "",
     "erro": "Telegram não recebeu o vídeo",
-    "tentativas": 2,
+    "tentativas": 3,
     "publicado_em": "",
     "furar_freio": false
   },
