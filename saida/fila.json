@@ -1452,8 +1452,8 @@
     "produtos_para_marcar": [],
     "media_id": "",
     "permalink": "",
-    "erro": "",
-    "tentativas": 0,
+    "erro": "[Errno 2] No such file or directory: '/home/runner/work/gg-explica/gg-explica/saida/videos/gg_explica/2026-11-18_radar_2026-11-18_lanca_amanha_reel.mp4'",
+    "tentativas": 1,
     "publicado_em": "",
     "furar_freio": false
   },
