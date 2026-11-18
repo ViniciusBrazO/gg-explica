@@ -17,3 +17,6 @@ def _padroes_dos_testes(monkeypatch, request, tmp_path):
         monkeypatch.setattr("pipeline.estilo_noticia.ligado", lambda marca: False)
     # o limite diário de carrossel no feed (config real: 0, só Reels) tem teste próprio
     monkeypatch.setattr("pipeline.producao.carrosseis_por_dia", lambda: 99)
+    # Facebook desligado na config real (18/11): os testes antigos contam com ele; o desligamento tem teste
+    if "desligado" not in request.node.name:
+        monkeypatch.setattr("pipeline.producao.redes_desligadas", lambda: set())

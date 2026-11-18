@@ -226,3 +226,9 @@ def test_modo_dos_reels_testa_a_api_uma_vez_por_dia(tmp_path, monkeypatch):
     monkeypatch.setattr(cli, "reels_manuais", lambda: False)
     cli.guardar_estado_api(api_ok=False)
     assert cli.modo_dos_reels("2026-11-19") == "api"
+
+
+def test_facebook_desligado_nao_entra_na_fila(monkeypatch):
+    from pipeline import producao
+    monkeypatch.setattr("pipeline.radar.config", lambda: {"publicacao": {"desligar": ["facebook"]}})
+    assert producao.redes_desligadas() == {"facebook"}

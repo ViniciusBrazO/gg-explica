@@ -98,6 +98,9 @@ publicacao:
   instagram_carrosseis_por_dia: 0
   # Teto de Reels por dia (18/11): notícia do radar tira post de pauta; o que passar do teto não é agendado
   reels_por_dia: 4
+  # Redes que o kit não publica (18/11, pedido do Vinicius: foco só nos Reels do Instagram). A Página do
+  # Facebook continua servindo de "hospedagem" invisível (rascunho) para entregar o vídeo no Telegram.
+  desligar: [facebook]
   instagram: {max_24h: 6, minutos_entre_posts: 90}
   facebook: {max_24h: 4, minutos_entre_posts: 90}
 

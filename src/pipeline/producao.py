@@ -27,6 +27,12 @@ class Resultado:
     duracao_s: float = 0.0
 
 
+def redes_desligadas() -> set[str]:
+    """Redes que o kit não usa agora (publicacao.desligar em config/automacao.yaml)."""
+    from .radar import config
+    return set(config().get("publicacao", {}).get("desligar", []))
+
+
 def automatico_em(plataforma: str, marca_id: str) -> bool:
     """Instagram sempre pela API; Facebook e YouTube quando as credenciais estão no .env;
     TikTok e Kwai vão para o lote (o clique final é seu)."""
@@ -80,7 +86,7 @@ def enfileirar_carrossel(marca: Marca, video: Video, pasta: Path, legenda: str, 
             if reel.exists() and video.gerar_reel:
                 capa = pasta / "capa_reel.jpg"
                 for plataforma in ("instagram", "facebook"):
-                    if automatico_em(plataforma, marca.id):
+                    if plataforma not in redes_desligadas() and automatico_em(plataforma, marca.id):
                         enfileirar_instagram(Item(id=f"{video.id}_reel", marca=marca.id, video=str(reel),
                                                   capa=str(capa) if capa.exists() else "", legenda=legenda,
                                                   quando=quando.isoformat(), plataforma=plataforma,
@@ -136,6 +142,8 @@ def produzir(marca: Marca, video: Video, previa: bool = False, voz: Optional[str
     if not previa:
         quando = horario_livre(horario_publicacao(video), video.id).isoformat()
         for plataforma in video.plataformas:
+            if plataforma in redes_desligadas():
+                continue
             if automatico_em(plataforma, marca.id):
                 enfileirar_instagram(Item(id=video.id, marca=marca.id, video=str(arquivo), capa=str(capa.resolve()),
                                           legenda=legenda, quando=quando, plataforma=plataforma,

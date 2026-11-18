@@ -359,9 +359,13 @@ def cmd_publicar(args) -> int:
     publicados = 0
     no_ar: dict[str, list[dict]] = {}     # posts recentes de cada conta, contra publicação repetida
     from .ritmo import motivo_para_segurar
+    from .producao import redes_desligadas
+    desligadas = redes_desligadas()
     # no mesmo horário, o Facebook antes: o Reel publicado lá dá o link para a entrega manual do Instagram
     for item in sorted(itens, key=lambda i: (i.quando, i.plataforma == "instagram")):
         if item.status != "pendente" or datetime.fromisoformat(item.quando) > agora:
+            continue
+        if item.plataforma in desligadas:
             continue
         if item.tentativas >= (8 if falha_da_meta_no_video(item.erro) or "Telegram" in (item.erro or "") else 3):
             continue
