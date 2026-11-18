@@ -402,3 +402,76 @@ RuntimeError: ffmpeg falhou:
 ffmpeg -nostdin -hide_banner -loglevel error -y -i /home/runner/work/gg-explica/gg-explica/saida/videos/gg_explica/_trabalho/2026-W47_qua_pc_verdade/fala_00.wav -i /home/runner/work/gg-explica/gg-explica/saida/videos/gg_explica/_trabalho/2026-W47_qua_pc_verdade/fala_01.wav -i /home/runner/work/gg-explica/gg-explica/saida/videos/gg_explica/_trabalho/2026-W47_qua_pc_verdade/fala_02.wav -i /home/runner/work/gg-explica/gg-explica/saida/videos/gg_explica/_trabalho/2026-W47_qua_pc_verdade/fala_03.wav -i /home/runner/work/gg-explica/gg-explica/saida/videos/gg_explica/_trabalho/2026-W47_qua_pc_verdade/fala_04.wav -i /home/runner/work/gg-explica/gg-explica/saida/videos/gg_explica/_trabalho/2026-W47_qua_pc_verdade/fala_05.wav -filter_complex [0:a]aformat=sample_rates=48000:channel_layouts=stereo,apad=whole_dur=16.690,atrim=duration=16.690[a0];[1:a]aformat=sample_rates=48000:channel_layouts=stereo,apad=whole_dur=12.280,atrim=duration=12.280[a1];[2:a]aformat=sample_rates=48000:channel_layouts=stereo,apad=whole_dur=0.800,atrim=duration=0.800[a2];[3:a]aformat=sample_rates=48000:channel_layouts=stereo,apad=whole_dur=0.800,atrim=duration=0.800[a3];[4:a]aformat=sample_rates=48000:channel_layouts=stereo,apad=whole_dur=0.800,atrim=duration=0.800[a4];[5:a]aformat=sample_rates=48000:channel_layouts=stereo,apad=whole_dur=1.270,atrim=duration=1.270[a5];[a0][a1][a2][a3][a4][a5]concat=n=6:v=0:a=1[narr] -map [narr] -c:a pcm_s16le /home/runner/work/gg-explica/gg-explica/saida/videos/gg_explica/_trabalho/2026-W47_qua_pc_verdade/narracao.wav
 Error while filtering: Invalid data found when processing input
 
+
+[2026-11-18 15:46] biblioteca oficial
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/urllib3/response.py", line 929, in _error_catcher
+    yield
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/urllib3/response.py", line 1067, in _raw_read
+    raise IncompleteRead(self._fp_bytes_read, self.length_remaining)
+urllib3.exceptions.IncompleteRead: IncompleteRead(12582912 bytes read, 8051123 more expected)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py", line 937, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/urllib3/response.py", line 1291, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/urllib3/response.py", line 1134, in read
+    data = self._raw_read(amt)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/urllib3/response.py", line 1045, in _raw_read
+    with self._error_catcher():
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/urllib3/response.py", line 949, in _error_catcher
+    raise ProtocolError(arg, e) from e
+urllib3.exceptions.ProtocolError: ('Connection broken: IncompleteRead(12582912 bytes read, 8051123 more expected)', IncompleteRead(12582912 bytes read, 8051123 more expected))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/ciclo.py", line 60, in etapa
+    funcao()
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/ciclo.py", line 88, in material_oficial
+    novos = biblioteca.atualizar(mostrar=_log)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/biblioteca.py", line 79, in atualizar
+    for pedaco in r.iter_content(1024 * 1024):
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py", line 939, in generate
+    raise ChunkedEncodingError(e)
+requests.exceptions.ChunkedEncodingError: ('Connection broken: IncompleteRead(12582912 bytes read, 8051123 more expected)', IncompleteRead(12582912 bytes read, 8051123 more expected))
+
+[2026-11-18 15:46] radar
+Traceback (most recent call last):
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/ciclo.py", line 60, in etapa
+    funcao()
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/ciclo.py", line 112, in noticias
+    tg.texto("🔥 Notícia quente\n" + resumo)
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/telegram.py", line 81, in texto
+    return self._chamar("sendMessage", data={"chat_id": self.chat_id, "text": mensagem[:4000], **extra})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/telegram.py", line 77, in _chamar
+    raise RuntimeError(f"Telegram {metodo}: {dados.get('description', dados)}")
+RuntimeError: Telegram sendMessage: Bad Gateway
+
+[2026-11-18 15:46] respostas do Telegram
+Traceback (most recent call last):
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/ciclo.py", line 60, in etapa
+    funcao()
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/ciclo.py", line 134, in respostas
+    for f in telegram.processar_respostas(tg):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/telegram.py", line 275, in processar_respostas
+    for u in tg.atualizacoes(offset):
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/telegram.py", line 126, in atualizacoes
+    return self._chamar("getUpdates", timeout=espera + 30,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/telegram.py", line 77, in _chamar
+    raise RuntimeError(f"Telegram {metodo}: {dados.get('description', dados)}")
+RuntimeError: Telegram getUpdates: Bad Gateway
