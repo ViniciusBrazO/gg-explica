@@ -71,11 +71,21 @@ class Telegram:
         return cls(token, chat, sessao) if token and chat else None
 
     def _chamar(self, metodo: str, **kw) -> dict:
-        r = self.s.post(f"{self.base}/{metodo}", timeout=kw.pop("timeout", 60), **kw)
-        dados = r.json()
-        if not dados.get("ok"):
-            raise RuntimeError(f"Telegram {metodo}: {dados.get('description', dados)}")
-        return dados["result"]
+        import time
+        timeout = kw.pop("timeout", 60)
+        tentativas = 1 if "files" in kw else 3       # arquivo já lido não dá para reenviar aqui
+        for n in range(tentativas):
+            try:
+                r = self.s.post(f"{self.base}/{metodo}", timeout=timeout, **kw)
+                dados = r.json()
+            except (requests.RequestException, ValueError) as e:
+                dados = {"ok": False, "error_code": 599, "description": str(e)[:200]}
+            if dados.get("ok"):
+                return dados["result"]
+            if dados.get("error_code", 0) < 500 or n == tentativas - 1:
+                break
+            time.sleep(8 * (n + 1))                  # Bad Gateway / Gateway Timeout do Telegram: passa logo
+        raise RuntimeError(f"Telegram {metodo}: {dados.get('description', dados)}")
 
     def texto(self, mensagem: str, **extra) -> dict:
         return self._chamar("sendMessage", data={"chat_id": self.chat_id, "text": mensagem[:4000], **extra})

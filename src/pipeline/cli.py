@@ -237,6 +237,9 @@ def entregar_reel_manual(item) -> bool:
     url = link_do_reel_no_facebook(item)      # primeiro o link (o envio de arquivo ao Telegram anda falhando)
     origem = "do Reel do Facebook"
     if not url:
+        url = hospedar_no_github(leve if leve.exists() else Path(item.video), item.id)
+        origem = "do GitHub"
+    if not url:
         # o Reel ainda não saiu no Facebook (freio de lá): sobe como rascunho da Página só para ter o link
         try:
             from .meta import hospedeiro_da_marca
@@ -254,6 +257,13 @@ def entregar_reel_manual(item) -> bool:
             print(f"  Telegram não baixou pelo link: {str(e)[:80]}")
     if hosp is not None:
         hosp.limpar()                         # o Telegram já baixou: o rascunho some da Página
+    if not enviado and url and "githubusercontent" in url:
+        try:                                  # o Telegram não baixou: manda o link para baixar no navegador
+            tg.texto(f"{chamada}\n\n⬇️ Baixe o vídeo aqui: {url}", disable_web_page_preview="true")
+            enviado = True
+            print("  link do vídeo entregue por mensagem")
+        except Exception as e:
+            print(f"  Telegram: {str(e)[:80]}")
     for tentativa, metodo in enumerate(() if enviado else ("video", "documento")):
         try:
             if metodo == "video":
@@ -276,6 +286,33 @@ def entregar_reel_manual(item) -> bool:
             print(f"  Telegram: {str(e)[:80]}")
     print("  Reel entregue no Telegram para postar pelo app")
     return True
+
+
+def hospedar_no_github(video: Path, nome: str) -> str:
+    """Link público do vídeo no próprio repositório (público desde 18/11): o arquivo vai sozinho para o
+    ramo `entrega`, refeito a cada envio (o histórico não cresce). Só funciona dentro do GitHub Actions."""
+    import subprocess
+    import tempfile
+    repo = os.environ.get("GITHUB_REPOSITORY")
+    if not repo or not video.exists():
+        return ""
+    cabecalho = subprocess.run(["git", "config", "--get", "http.https://github.com/.extraheader"],
+                               capture_output=True, text=True).stdout.strip()
+    pasta = Path(tempfile.mkdtemp())
+    arquivo = re.sub(r"[^A-Za-z0-9_-]", "_", nome) + ".mp4"
+    shutil.copy2(video, pasta / arquivo)
+    git = ["git", "-C", str(pasta), "-c", "user.name=gg-explica-bot",
+           "-c", "user.email=actions@users.noreply.github.com"]
+    if cabecalho:
+        git += ["-c", f"http.https://github.com/.extraheader={cabecalho}"]
+    try:
+        for passo in (["init", "-q", "-b", "entrega"], ["add", "."], ["commit", "-qm", f"entrega {nome}"],
+                      ["push", "-qf", f"https://github.com/{repo}.git", "entrega"]):
+            subprocess.run(git + passo, check=True, capture_output=True, timeout=180)
+    except (subprocess.SubprocessError, OSError) as e:
+        print(f"  GitHub não guardou o vídeo: {str(e)[:100]}")
+        return ""
+    return f"https://raw.githubusercontent.com/{repo}/entrega/{arquivo}"
 
 
 def entregar_manual(item) -> None:
@@ -380,7 +417,6 @@ def cmd_publicar(args) -> int:
         modo = modo_dos_reels(agora.date().isoformat()) if item.plataforma == "instagram" and item.tipo == "reel" \
             else "api"
         if modo == "teste":
-            guardar_estado_api(ultimo_teste=agora.date().isoformat())
             print("  teste do dia: a API do Instagram já aceita vídeo?")
         if modo == "manual":
             # a API do Instagram está recusando vídeo: o Reel vai pronto para o Telegram e o Vinicius posta pelo app
@@ -429,7 +465,7 @@ def cmd_publicar(args) -> int:
             publicados += 1
             print(f"  no ar: {item.permalink}")
             if modo == "teste":
-                guardar_estado_api(api_ok=True, voltou_em=item.publicado_em)
+                guardar_estado_api(api_ok=True, voltou_em=item.publicado_em, ultimo_teste=agora.date().isoformat())
                 avisar_texto("✅ A Meta voltou a aceitar vídeo: este Reel saiu sozinho no Instagram, e os próximos "
                              "também vão sair sozinhos. Não precisa postar pelo app.")
             avisar_publicado(item)
@@ -441,8 +477,7 @@ def cmd_publicar(args) -> int:
             if item.plataforma == "instagram" and item.tipo == "reel" and reels_manuais() and \
                     (modo == "teste" or falha_da_meta_no_video(item.erro)):
                 # teste do dia não passou (ou a Meta voltou a recusar): entrega para postar pelo app, já
-                if modo == "api":
-                    guardar_estado_api(api_ok=False)
+                guardar_estado_api(api_ok=False, ultimo_teste=agora.date().isoformat())
                 print(f"  a API ainda recusa vídeo ({item.erro[:80]}); vai pelo Telegram")
                 item.tentativas, item.erro = 0, ""
                 entregar_manual(item)
