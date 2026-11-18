@@ -411,5 +411,45 @@
     "situacao": "agendado",
     "message_id": 454,
     "enviado": "2026-11-17T17:17:21.825452"
+  },
+  "545a2d820a": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/2026-W47_gg_explica.json",
+    "video": "2026-W47_qui_ultimate_vale",
+    "impressao": "0afe9b01f569",
+    "situacao": "agendado",
+    "message_id": 468,
+    "enviado": "2026-11-18T07:18:18.330074"
+  },
+  "720840639c": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/2026-W47_gg_explica.json",
+    "video": "2026-W47_qui_primeiras_horas",
+    "impressao": "d1818a894a5f",
+    "situacao": "agendado",
+    "message_id": 469,
+    "enviado": "2026-11-18T07:24:33.739790"
+  },
+  "5b7b2229b5": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-18_gg_explica.json",
+    "video": "radar_2026-11-18_black_friday_xbox_reel",
+    "impressao": "29f0fe72d91a",
+    "situacao": "agendado",
+    "message_id": 470,
+    "enviado": "2026-11-18T07:29:21.003629"
+  },
+  "a756e5bd83": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-18_gg_explica.json",
+    "video": "radar_2026-11-18_como_votar_goty_reel",
+    "impressao": "7c202782657c",
+    "situacao": "agendado",
+    "message_id": 471,
+    "enviado": "2026-11-18T07:34:44.852159"
+  },
+  "046d49c1f6": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-18_gg_explica.json",
+    "video": "radar_2026-11-18_nintendo_categorias_reel",
+    "impressao": "1173ea7aa4d2",
+    "situacao": "agendado",
+    "message_id": 472,
+    "enviado": "2026-11-18T07:40:42.551553"
   }
 }

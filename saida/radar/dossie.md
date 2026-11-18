@@ -1,4 +1,4 @@
-# Dossiê do radar (17/11/2026)
+# Dossiê do radar (18/11/2026)
 
 Texto das matérias aberto pelo kit. Use os números, nomes e datas daqui. Matéria marcada "só a manchete" não abriu: procure outra fonte com WebSearch/WebFetch antes de escrever.
 
@@ -10,11 +10,11 @@ Manchete: The Game Awards 2026 Nominees – Play Gears of War: E-Day, Grand Thef
 Link: https://news.xbox.com/en-us/2026/11/17/the-game-awards-2026-nominees-on-xbox/
 
 Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
-An Alligator Swallowed an XBOX Series X – You Can Win It
-A Message From Dr. XBOX: It’s Time to Take the Day Off and Play XBOX
-XBOX 25th Anniversary Magazine: Explore 25 Years of Games, Stories, and Memories
-XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
+Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
 25 Original XBOX Games Available Today on PC via XBOX Backward Compatibility
+Stories Untold Is Now Available For Xbox One
+XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
+An Alligator Swallowed an XBOX Series X – You Can Win It
 The Game Awards 2026 Nominees – Play Gears of War: E-Day, Grand Theft Auto VI, Resident Evil Requiem, and More on XBOX
 Jump in and start playing 50 nominated games today across XBOX Series X|S and XBOX on PC.
 For 25 years, XBOX has remained focused on building games players love, and our anniversary year has been a particularly strong example. From Gears of War: E-Day, Forza Horizon 6, and Call of Duty: Modern Warfare 4, to hugely anticipated games like Fable, players have more great games to play on XBOX than ever.
@@ -30,28 +30,42 @@ Best User Creation “Star Wars Droid Tycoon”
 Grand Theft Auto Online (Xbox Series X|S)
 Monster Hunter Stories 3: Twisted Reflection
 
+### Polygon.com (2026-11-17), selo sugerido relato
+Manchete: Resident Evil Requiem’s Game Awards Nominee Is Ready for Resident Evil 10 - Polygon.com
+Link: https://news.google.com/rss/articles/CBMipwFBVV95cUxNTThaSHBmWHE1M3ZHSUJRUXFVX3l4VldLTG81MW93UFhUZ2gzZDVtVXo1U1lDTV9MNUFmRzRERE0xR2NGUHpPbm5nOC1vV2JMNEpkc2ZTSVZrYWRsR0xlUDFKTnk2QXFwdlAyMURra2JlUFJkTnpmQ2ZUbEh5eGNZaWNrUzlRZEdGYms0MGE0MGVzVVJXNlVzU1NKLWthc2dwRnJBLWR6QQ?oc=5
+
+(só a manchete: a matéria não abriu)
+
+### Polygon.com (2026-11-17), selo sugerido relato
+Manchete: Resident Evil Requiem Game Awards nominee believes Grace will make a comeback - Polygon.com
+Link: https://news.google.com/rss/articles/CBMipwFBVV95cUxNTThaSHBmWHE1M3ZHSUJRUXFVX3l4VldLTG81MW93UFhUZ2gzZDVtVXo1U1lDTV9MNUFmRzRERE0xR2NGUHpPbm5nOC1vV2JMNEpkc2ZTSVZrYWRsR0xlUDFKTnk2QXFwdlAyMURra2JlUFJkTnpmQ2ZUbEh5eGNZaWNrUzlRZEdGYms0MGE0MGVzVVJXNlVzU1NKLWthc2dwRnJBLWR6QQ?oc=5
+
+(só a manchete: a matéria não abriu)
+
+Outras manchetes: Resident Evil Requiem, Ocarina of Time Nominated for Game of the Year at The Game Awards - Crunchyroll | The Game Awards 2026 Nominees – Play Gears of War: E-Day, Grand Theft Auto VI, Resident Evil Requiem, and More on XBOX
+
 
 ## Assunto 2
 
-### OpenCritic (2026-11-17), selo sugerido rumor
-Manchete: GTA 6 Leaker Pleads Guilty After Shocking Rockstar Games Hack - OpenCritic
-Link: https://news.google.com/rss/articles/CBMimwFBVV95cUxPQjhaQ2N3LW5ROWcyUDRmc2szeDhoNjBEenBtRThoRzE5bV9fOVBsSFpuVm9HRUM5TWNXQ2xlbUpvU29JNEVLaW5qWG5IZk5GV0xUMTZ4ZllDcUNRRXhPNXZKZThORE1BNmdWdDUzbEpKZ2FKX2JodnRfYzFhOEJ2eXY0d0VoTU5XSDJVTDN2cGEtMy1QMkxmaU05QQ?oc=5
+### GameDev.net (2026-11-18), selo sugerido rumor
+Manchete: GTA 6 leads The Game Awards 2026 with eight nominations - GameDev.net
+Link: https://news.google.com/rss/articles/CBMikAFBVV95cUxOTE1kZUN0WU5NaHJQcHFGaXhESmhseG5XVG42ZHc5bklSVDlEMjhDY1Z4dkhQdUhqRm14ZGlxanV4T3p5amFEVEQ2MFBLZ0NrYjFKNzJGVXpDWXlNaGxJd0llNWlCQnpBZUxFUHRsZ2U5ZTVQa3J3eGNienozc1VyY08zSEthMFZjejAxX1JjNjc?oc=5
 
 (só a manchete: a matéria não abriu)
 
-### The New York Times (2026-11-17), selo sugerido rumor
-Manchete: Hacker Who Leaked Grand Theft Auto VI Clips Pleads Guilty to Cybercrimes - The New York Times
-Link: https://news.google.com/rss/articles/CBMickFVX3lxTE1Jdmh6STEySTVEWkU3ald5UF81QXladUxOcktCUmNMbDhkQXlPbkp2OU5DZ0d2VHhfZDNkdk40bVB5VHlkZTNOR1c3dzJCNXB5TjU2cWYwOXJzUGZDNHlsTTVMMnQxdFhUdmo5VjZ0MTExZw?oc=5
+### ThePCEnthusiast (2026-11-18), selo sugerido rumor
+Manchete: Game Awards 2026 Nominees: GTA 6 Leads With 8 Nods - ThePCEnthusiast
+Link: https://news.google.com/rss/articles/CBMic0FVX3lxTE9XQm5VSEo3dFZ4RV9icy1RSmdZY3RzTTNkLXpyY3BUSmhkSWcyRW9nTkVaeXlQblh4b3E2SEtfY24tN3pHekZIc1pPMlpNZkdBUTZ0OFlxU1pPc3ZGY3BQQmJiUjFHNmozMF80aEpaWFM2UWs?oc=5
 
 (só a manchete: a matéria não abriu)
 
-### The Record from Recorded Future News (2026-11-17), selo sugerido rumor
-Manchete: Autistic teen hacker pleads guilty to leak of Grand Theft Auto VI footage - The Record from Recorded Future News
-Link: https://news.google.com/rss/articles/CBMif0FVX3lxTE5FaktuakRZRkZvUHMtb2RybGVVQWNSb3BIaWZfS2hlVllod1ZqUlE5MWxpdkozTk0xa250b1FhQ1NDb1FFdEV2OG9hak1EX3ZKR0psanlxMGlGWldzbC1URUd2bm15VDNaazNIV0RqeW9hbTBDejhPUjRpMEFxaWs?oc=5
+### GamingOnLinux (2026-11-18), selo sugerido rumor
+Manchete: Here's all of The Game Awards 2026 nominees - GamingOnLinux
+Link: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNFhReVJYNWV2WnFjeGVqVmJuZFR4TlRBVUFXb1ZsNnVVWDlzN0U5cGIwbjhsZUxtbFFjaGRjZE9GVnBlVWxqanVOYzNqeFFoVm1CbWRXWE51aUxiNUVTTGhWNS05MjZPYm1JM0owalRVQ1lOZ3pEZWF1NVhEWHlTMks5STdXR3JQ?oc=5
 
 (só a manchete: a matéria não abriu)
 
-Outras manchetes: Hacker Pleads Guilty To Grand Theft Auto VI Breach - Silicon UK | GTA 6 Hacker Pleads Guilty - Newser
+Outras manchetes: Game Awards 2026 nominees: GTA 6 earns eight nominations - finchannel | Here Are All the Nominees for The Game Awards 2026 - Hypebeast
 
 
 ## Assunto 3
@@ -74,122 +88,45 @@ The Game Awards 2026: GTA 6 e Zelda disputam o GOTY
 O The Game Awards 2026 será transmitido em 10 de dezembro, a partir das 21h30 (horário de Brasília). O Canaltech integra o júri da premiação pelo 2º ano seguido, na edição com o maior número de portais especializados brasileiros na história.
 O prêmio de Jogo do Ano será disputado por GTA 6 e The Legend of Zelda: Ocarina of Time Remake no The Game Awards 2026.
 
+### G1 (2026-11-17), selo sugerido relato
+Manchete: Game Awards 2026 anuncia indicados com 'GTA VI' na disputa de Jogo do Ano; veja lista completa - G1
+Link: https://news.google.com/rss/articles/CBMi5gFBVV95cUxQUVZBTmdVZkpVclItektBTEt4c2ZDVEpoSFNTRmNQUi1ZaGJBYTJEOW9mN1dRTjhDQmw1MGJ0TFdWSkFFX0tQWXZ0LXNpQV8zeGd5cDd2alVheHJoM09pWWt1dE43OFFvQ1JYRFM3eVZza2ZpUVlNNmEzS044OHdnRjVIZGV4T1lwcDFlNmpheG9GbmdLeWRveFotTGZ4TlBGVFlwZ0RrUUU1dnV2TzFjQm9iZHhzdjQyc0tTTjZub1U0NlJ2dGxPbUd2NW9mcjNkd09FajZ0aFY5TmVkYXd3X05kbzB5dw?oc=5
+
+(só a manchete: a matéria não abriu)
+
 ### Diario de Pernambuco (2026-11-17), selo sugerido rumor
 Manchete: The Game Awards: GTA 6 lidera indicações mesmo antes do lançamento: veja lista completa - Diario de Pernambuco
 Link: https://news.google.com/rss/articles/CBMi7AFBVV95cUxQM0g0REk3eTdINXIwLUFYa1FLdndob0hXMmRxSkhWTlhkYW13dWxESFYyZ05sLUxtQmJqUElQTElBOHpTN1d0TmhPd1d1OTJZV2d6VTg5S0Y4YzRNc3N6N0JkT0NzaVBGUlJSN1U3cEFobC1WSFFHcjlXdVBoa0Fma3V6Y2ZWSHZRVHl5akRZNkRPN0FiRzctdkFKZU1mQjZSLUJfcVk0YTJpQ21ObFM3dTZ1UUhKNElxbWVVN0lGVUxkYjhkMDZfVm53ZE5qMlVNOHo3TkJUTG5VaW1IX1Y4YWZSWFB4T2lHSFQwag?oc=5
 
 (só a manchete: a matéria não abriu)
 
-### O Imparcial (2026-11-17), selo sugerido rumor
-Manchete: GTA VI lidera indicados ao Jogo do Ano no The Game Awards 2026; confira a lista completa - O Imparcial
-Link: https://news.google.com/rss/articles/CBMi4AFBVV95cUxNLU9oME5JMldDMG4yWDhvMExrYzFpYWNHc0Zxbk9LUnJPNnJ2T1A0RUdvNGpQMm1mSmh3ajRpb2pnRXFJVmpFRjN2YXlORVlaT3ppMWFkajNVbmR0QWJTUEUzbHRBMzQzZWlVTl9NLUp0NTlpUUhGYTRLcGlJdzdUV1ZLY3ZlRXVDUjZVRkRxNko5T2NQaWpQOGJNNEd1V0RqWUxnVTdJWUFaRDhUdmplYnFOMnAxd3BtV1BQV3l4RUZ4MmhTaGVvMEY0RW1oVFZHWDdjS1dMZ0h5UkNIbTItVg?oc=5
-
-(só a manchete: a matéria não abriu)
-
-Outras manchetes: Quais são os indicados para o The Game Awards 2026? - Quero Bolsa | 'GTA 6' lidera indicações no Game Awards, que também tem 'Zelda'; veja lista - Folha de S.Paulo
+Outras manchetes: The Game Awards: GTA 6 lidera indicações mesmo antes do lançamento; veja lista completa - Diario de Pernambuco | The Game Awards 2026: GTA 6 e Zelda disputam Jogo do Ano; veja lista - Tribuna do Norte
 
 
 ## Assunto 4
 
-### eurogamer.net (2026-11-17), selo sugerido relato
-Manchete: The Game Awards 2026 nominees announced, and GTA 6 leads with eight nods before it's even out
-Link: https://www.eurogamer.net/game-awards-2026-nominees-full-list-gta-6
-
-The Game Awards 2026 nominees announced, and GTA 6 leads with eight nods before it's even out
-The Game Awards 2026 nominees have been revealed, and Grand Theft Auto 6 leads the pack with eight nominations, two days before it even launches.
-Rockstar's crime epic is up for Game of the Year, Best Game Direction, Best Narrative, Best Art Direction, Best Score and Music, Best Audio Design, and Best Action/Adventure Game. Its eighth nomination is Manni L. Perez's Best Performance nod for her role as Lucia, which is how we found out who plays her in the first place.
-THE GAME AWARDS: 2026 Nominee Reveal! (Game of the Year) THE GAME AWARDS: 2026 Nominee Reveal!Watch on YouTube
-For Game of the Year, GTA 6 is up against 007 First Light, Control Resonant, Phantom Blade Zero, Resident Evil Requiem, and The Legend of Zelda: Ocarina of Time. Nintendo is the most-nominated publisher, with 12 nominations across its games, followed by Capcom with 11, and Annapurna Interactive and PlayStation with nine each.
-The nominees were picked by a jury of more than 160 media and creator outlets, who may get advance or pre-release access to games - which explains how GTA 6 made the cut before launch. The winners will be revealed on Thursday, 10th December, at the Peacock Theater in Los Angeles. Fans can vote on The Game Awards' website until 6pm PT on 9th December.
-Angela Sant’Albano, Resident Evil Requiem
-Teenage Mutant Ninja Turtles: Empire City
-Monster Hunter Stories 3: Twisted Reflection
-A Dream of Silence: Revamped (Baldur’s Gate 3)
-This year's show will stream for free on more than 40 platforms, including YouTube, Twitch, Prime Video, and Steam. Last year's show drew an estimated 171 million livestreams, up 11 percent on 2024's 154 million.
-Nintendo Switch 2, PC, PS5, Xbox Series X/S
-Nintendo Switch 2, PC, PS5, Xbox Series X/S
-Mac, Nintendo Switch 2, PC, PS4, PS5, Xbox Series X/S
-Nintendo Switch 2, PC, PS5, Xbox Series X/S
-Android, Mac, Nintendo Switch, Nintendo Switch 2, PC, PS4, PS5, Xbox One, Xbox Series X/S, iOS
-Nintendo Switch, Nintendo Switch 2, PC, PS5, Xbox Series X/S
-Mac, Nintendo Switch, Nintendo Switch 2, PC, PS4, PS5, Xbox One, Xbox Series X/S
-Nintendo Switch, Nintendo Switch 2, PC, PS4, PS5, Xbox One, Xbox Series X/S
-Mac, Meta Quest, Nintendo Switch, Nintendo Switch 2, PC, PS4, PS5, PlayStation VR2, Xbox One, Xbox Series X/S
-Nintendo Switch 2, PC, PS5, Xbox Series X/S
-Nintendo Switch 2, PC, PS5, Xbox Series X/S
-Nintendo Switch, Nintendo Switch 2, PC, PS5, Xbox Series X/S
-The Legend of Zelda: Ocarina of Time (Switch 2)
-Nintendo Switch, Nintendo Switch 2, PC, PS4, PS5, Xbox One, Xbox Series X/S
-Android, Nintendo Switch, Nintendo Switch 2, PC, PS4, PS5, Xbox One, Xbox Series X/S, iOS
-
-### Complex (2026-11-17), selo sugerido rumor
-Manchete: 'Grand Theft Auto VI' Leads Game Awards 2026 With 8 Nods: See the Full List of Nominees - Complex
-Link: https://news.google.com/rss/articles/CBMioAFBVV95cUxNWVRWTU9INGJ3eE5xUk03ZHFQRWZ3U2FRY3E1bFBVTGIwOHJlU2I1UTY5TWlBNkxsMTh2VW5OVWNLRkhWbmVoMTEyaEpUN25ybmN0a2NOT1lOckVwWmwwdXczcHE5c1ZYX0FaRnBxdW14QU1nanVQT2p1UGF6SHRnQUlsOWVCcjRYcHZ5dktHRkVBZU9KS1JwOWQ4SUlyYWhK?oc=5
+### PC Guide (2026-11-18), selo sugerido rumor
+Manchete: The Game Awards 2026 nominees for every category, including Game of the Year - PC Guide
+Link: https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUE5XNDNQWGtsRXJoQ3VvSWNxc1Q5WUhXWWt2b3ZuZWllMThXSkx0WEhjSTAtN3VLeDdCR2VBVTZwX1pnbTRZQ1kxVjI2cXZVSHZhbXJaNUxJTXZObjdWRExJUXNJVzlDYVVBR3ktX3E4bHhFQWJZRWc4Y1QybWdrM1dtRlN5QkVlZTVEWUV4U241dzB5WkotN0s2VW9Wa2poTW5oMXVSZ08?oc=5
 
 (só a manchete: a matéria não abriu)
 
-### UnGeek (2026-11-17), selo sugerido rumor
-Manchete: The Game Awards 2026 nominees announced – GTA VI leads with 8 nominations - UnGeek
-Link: https://news.google.com/rss/articles/CBMipAFBVV95cUxOWVB4ZHRMZzBFZXVVZTZrUDNLY0V4UXZqZWJ6TWpYaHJZa1JfOHZMNVJ3TlBqTmhPM2FRb0ROaEpGeUdpbXBCNEFNYVdPVEctTE81NGwya0VHd1ZpZk9yWUtZUEIzajlVWVdCN2FSV3N2QjlQUG1XNVJ0UHdWX1gtWU9mZ2FacndnM2I3SUFWdGVFelRlejg3M2xSaU1CNlBNOTc4bw?oc=5
+### Mobile Goddess (2026-11-18), selo sugerido rumor
+Manchete: Grand Theft Auto VI leads The Game Awards 2026 nominees - Mobile Goddess
+Link: https://news.google.com/rss/articles/CBMijwFBVV95cUxNT2ZyMTRXYW96bzR6MEJhTktsbnEyMlZXalJzb21pSHl4WG9nRjJQV0dDbVh0YUVkbGdfel9hLWY4ZWFyZVVHNnUybTQtT2JSM2ZKVzdtMkg0d2p0WkhqanlkTVNONzF3cWNNZEdFc0Fya21KeG12c3JfSFBDZjFEbG9kWUsxWmlhb2N4VWI1QQ?oc=5
 
 (só a manchete: a matéria não abriu)
 
-Outras manchetes: Grand Theft Auto VI Leads the Pack at The Game Awards with Eight Nominations - OpenCritic | GTA 6 leads The Game Awards 2026 nominations with eight nods, days before launch - Tbreak UAE
+### Nintendojo (2026-11-18), selo sugerido rumor
+Manchete: The Game Awards 2026 Game of the Year Nominees Revealed - Nintendojo
+Link: https://news.google.com/rss/articles/CBMikAFBVV95cUxPcnZtNmlibFY2Qjg4NUY3MS1UYXNuRHRUeWRjSTRmMGJtcHVGbTRYaC1HOWJOVG5KcWpiazlwQ21sX29LMUp2UEFHX1BENGVzMTBWcXBKNXVJX3l0ckJDUVB3Ry1ia0ZucGllbkJwcndpcDNKLXR4anAycXhUY0tET0FWQ2hSaDQ2QlR6aWJKaFc?oc=5
+
+(só a manchete: a matéria não abriu)
+
+Outras manchetes: 'Grand Theft Auto 6' Secures 8 Nominations for the Game Awards 2026 - Hypebeast | Congrats to The Game Awards 2026 nominees - Nintendo
 
 
 ## Assunto 5
-
-### 玩具人 TOY PEOPLE (2026-11-17), selo sugerido rumor
-Manchete: The Game Awards 2026 Nominees Revealed: “GTA VI” Dominates With 8 Nods as Game of the Year Race Heats Up - 玩具人 TOY PEOPLE
-Link: https://news.google.com/rss/articles/CBMiUEFVX3lxTFBxdXRSWW9zRmpFSmxaR1h4LVhHUGhyQnNRVGd6MkEteWJWWHZRZDhGQUpvcmJmeE9sMmlPendPMFhEb01ERmZkZXNtUGVjbjNY?oc=5
-
-(só a manchete: a matéria não abriu)
-
-### Empire (2026-11-17), selo sugerido rumor
-Manchete: The Game Awards 2026 nominations revealed as GTA VI and 007 continue to dominate the headlines - Empire
-Link: https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNnpKc0dVdmdzZ0E4QnJWWHozWFZETkxYLXNJT2hieEs2YnZESExrdWRqOWF2WmZGekJ6elc5QWJzRjNjMTRkUTZuU0FVSDE0a00yamNFREpWZGJYUXo1M3JrQm1leFJVX0ZrRVdiRlVtOTd1VVVaRHBUNlBmR0lINzFTbThhdkVxS0RKS3ppM2VCSlVMWXJRc2tnVVpCTW5tSld5TmhmOF9iam9jUnEzZnloVGlkN1Y1RkRFN1laSlZFWTFsS3o0eTRzTjQ3NkZYYUdsVy1PYw?oc=5
-
-(só a manchete: a matéria não abriu)
-
-### IGN Southeast Asia (2026-11-17), selo sugerido relato
-Manchete: The Game Awards 2026 Nominations Revealed, GTA 6 Dominates - IGN Southeast Asia
-Link: https://news.google.com/rss/articles/CBMinAFBVV95cUxORkk2QXIwdjBWTnZGMWwxWEpsNzV5Z2FId1NrSHc1UXJLbFhKbE1rNV80bHc1S3hTRUN1ejlvTE5jR1ozb241bFpfYkF3SkdHY2NGblJiMWsxaTd3QkRGZERtQzdFdlFMbTA4VDQtWnE4SmpJTDZmUV9uWld2cWdYN29WN2NLdnFlY0VJeFNEa3pnU3hxUF9sX1B3aEE?oc=5
-
-(só a manchete: a matéria não abriu)
-
-Outras manchetes: The Game Awards 2026 Nominees Revealed - VGChartz | The Game Awards 2026 Reveals Award Nominees - Final Weapon
-
-
-## Assunto 6
-
-### Terra (2026-11-17), selo sugerido rumor
-Manchete: Vice City está a caminho de NBA 2K27 em parceria com GTA 6 - Terra
-Link: https://news.google.com/rss/articles/CBMi8AFBVV95cUxPVHVKUWRZdGVGSVlkbVdCSzNsZmpJWk1Eal83ci1sU3drMkIzbXJWdkZ5NllzbzUzZ0ZKTVJOdE9oWndTUEV3STlXWVBsWUVjX3Z3cm5PZmVramg1M1JJanRScEZTUU5NSmFwVzU4cS1ka01pV01yU1pYcGpOSHJzZURleVVMczVMRkFjVl9ONGRaVDlzN2hLcGdDNE81U1hERDVaUktMY0pLSnBQcFNPMTVQMlpwVWRYZzhJNHdxMnNScTFPR0tWUDZlTFh0akNmOVJMWjh0Um1BelhzenlVWWRXMkd4Wm9RbFo2REd3RXI?oc=5
-
-(só a manchete: a matéria não abriu)
-
-### Sole Retriever (2026-11-16), selo sugerido rumor
-Manchete: NBA 2K27: Vice City Edition Brings GTA 6 into 2K - Sole Retriever
-Link: https://news.google.com/rss/articles/CBMilgFBVV95cUxQYjJ6b3BvdFpTNHNOLUN1VTQxVDZNc2hna0NVQURlMThpTTdkcFNDSmVDU1lPcmNIR2VZOU1RRzNMYkotY3JIMzJQSTJSVzNOdGI1c0hmYUlQWEJ5MGtUUEtLQTgxbXdOZGpGdnhwbm5HdzZzSXg1X3VHSXhGaEVvc0xXNDlfdzVDNGdyOEx2WllJZlZBNnc?oc=5
-
-(só a manchete: a matéria não abriu)
-
-### pclabs.com.br (2026-11-16), selo sugerido rumor
-Manchete: GTA 6 invade NBA 2K27 com Vice City e acesso pelo GTA+ - pclabs.com.br
-Link: https://news.google.com/rss/articles/CBMieEFVX3lxTFB6S05FS1FhN1Q0Z09nYUJiUUs2YXpBRVlqQ1M4TTRKSGxPQmJpbEJkRjRJem1mUk9NdW9jdUpKZEtCYjNMN1lfcWVscUVQc1ozMjRFSWlBVFU4WEo3YlQzS2llcUFreWxubXEwR1V2eG5FaklRS05RXw?oc=5
-
-(só a manchete: a matéria não abriu)
-
-Outras manchetes: NBA 2K27 Brings A Slice Of GTA 6's Vice City To Switch 2 This Month - Nintendo Life | NBA 2K27 terá colaboração com GTA 6 e mapa inspirado em Vice City - Insider Gaming
-
-
-## Assunto 7
-
-### UOL (2026-11-17), selo sugerido relato
-Manchete: Quem é Manni L. Perez, atriz que interpreta Lucia em GTA 6 revelada hoje - UOL
-Link: https://news.google.com/rss/articles/CBMiswFBVV95cUxOMXh3TmJ2VXBtcHV6LUN2QkFpd091TXhTVWoyWXdDVmJoMEpTTk5uWmNJR1p4NHVxQTh5QS0tYW45ZmxXbmZrVjBVaWNQV0E0NUpKUW1RajN4eFBSV3Etal96OGJQWVlsMTF4alVaczhrQjlUSXFteFprWnl5WVpKSC1Ya2VnQW9VNTdqU0JhWVpQZmZSZkxZNXBLNERIV3d2bFlQRXNVMGVobE40T2pLYXFORQ?oc=5
-
-(só a manchete: a matéria não abriu)
 
 ### IGN Brasil (2026-11-17), selo sugerido relato
 Manchete: Atriz que interpreta Lucia em GTA 6 é finalmente revelada - IGN Brasil
@@ -197,25 +134,119 @@ Link: https://news.google.com/rss/articles/CBMipgFBVV95cUxPbG5FdzRVNzZfSW04a3Jod
 
 (só a manchete: a matéria não abriu)
 
+### Omelete (2026-11-17), selo sugerido relato
+Manchete: GTA 6 | Atriz que interpreta Lucia é confirmada com indicação no The Game Awards - Omelete
+Link: https://news.google.com/rss/articles/CBMijgFBVV95cUxNeVR2R1Q2SzNKLUJMU2t5a21wd2hjaVNnazhlQzZjSDBOM3VacjRaTUJtZk1JOW9xX2ROVDF1aS1fb3hFdVJmZmJvb0xZeVRZZlZEcy15OFpDWi1jSTJSeVBNbm53Uk1HS0lwdGdpM0pKOUZjR0pMQUFfQzFxUXlaRVZqM2N4YXhDN0swTDBB?oc=5
+
+(só a manchete: a matéria não abriu)
+
+
+## Assunto 6
+
+### Nintendo Wire (2026-11-17), selo sugerido rumor
+Manchete: The Game Awards reveals its 2026 nominees with Zelda: Ocarina of Time taking a GOTY spot - Nintendo Wire
+Link: https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNV9ySE00N1pEd1pTSV9lcmg3WG0ybm9FTndsS0FVMUczLW0zeXFha0g4YnNMQWpFejR0d3lrbXN4X1lKVElCcERYWjhkMjk3WnlNTlA1MF9YYzM2VkxvY1pmQURuRm9yVkNrSjZkbTN5aUoxcFU3eDRtVzd6UzJxVEFpS1FlSmxYZURGblFEaG1wR0FoZGJ1MTM1S2FhaUU4QmwyOVlBdFRabEUxTWZUTXp3U0tLTGI3enl5SFkxalJkTkRSb2Z2Qg?oc=5
+
+(só a manchete: a matéria não abriu)
+
+### My Nintendo News (2026-11-17), selo sugerido rumor
+Manchete: Zelda: Ocarina of Time up for Game of the Year at the Game Awards 2026 - My Nintendo News
+Link: https://news.google.com/rss/articles/CBMirAFBVV95cUxPcDM3ZkhILXlwYkZ2ZnZnOEdhUzQyRXlHMGN3YjFNOWZ5S1NJZGpzRThjMjFTbWF2Qld4cGlfTFdTYlpudlZ4R1VpZ1g5T21FTUQ3XzJEVzlHM24wT1AwQWJSd01ad3NscGRXV0wxWXQzWERIM2RQV3JVZjd6RHByX1VQakJ0YVB4R21IQXozNEt1ZlY3NnRIY0w1VVhFV2g0X09acm9PRE1qa2Jf?oc=5
+
+(só a manchete: a matéria não abriu)
+
+### IGN Brasil (2026-11-17), selo sugerido relato
+Manchete: GTA 6, The Legend of Zelda: Ocarina of Time e mais: todos os indicados ao The Game Awards 2026 - IGN Brasil
+Link: https://news.google.com/rss/articles/CBMizgFBVV95cUxQbzZtVnhnbHA1bkVIV3FVSlo1RUpMWjRHN0hFd2ZFcngzZktWQ0x0dXVHLXN3SDBVTnJoNEZpTDlhLXVlVy1PXzBnOWJja0U2bnNESTFUOGg4X3FhYldoc3BTWUxKWFRyeXkxNmZSSTZBNGI2dmI1ckVid0w4anJpX250RWlRbVJIZDRjTUhXX015bzVaeGltcUxnRzhoMXJQaUx1VFR2c09RNnJMZU55MDRsbTlRVlNNYktDbWVINnJJckhoaE9SSEZ3cGZydw?oc=5
+
+(só a manchete: a matéria não abriu)
+
+Outras manchetes: The Game Awards 2026 nominees announced, full list - Zelda: Ocarina of Time nominated for Game of the Year and more - Nintendo Everything
+
+
+## Assunto 7
+
+### gamesradar.com (2026-11-17), selo sugerido rumor
+Manchete: GTA 6 release time in your region explained
+Link: https://www.gamesradar.com/games/grand-theft-auto/gta-6-release-time/
+
+Join the GamesRadar community for quick access. Enter your email below and we'll send confirmation, and sign you up to our newsletter.
+By submitting your information you agree to the Terms & Conditions and Privacy Policy and are aged 16 or over.
+Keep exploring and earning more as a member.
+Get the biggest gaming news, reviews, and releases straight to your inbox.
+Weekly digests, tales from the communities you love, and more
+Get full access to premium articles, exclusive features and a growing list of member rewards.
+What is the GTA 6 release time in your region?
+Officially the release time for GTA 6 is midnight locally, though there are potentially some regional variations
+The GTA 6 release time is almost here, signifying the end of more than a decade of waiting and finally giving us the opportunity to set foot in Leonida so we can explore Vice City and beyond. November 19, 2026 will be etched into players' memories for the launch of GTA 6, and while the official release time is set for midnight locally on that date there are some potential variations to be aware of. With that in mind, this is the release time for GTA 6 in your region.
+Get yourself prepared for the GTA 6 side activities we know about so far, and find out which GTA 6 animals you're likely to encounter on your travels.
+The GTA 6 release time on PS5 is Thursday, November 19 at midnight local time in your region, as there are individual PlayStation Stores for each region with their own time settings and your access will be based on which Store you purchased the game from. However, our own testing shows the US PSN Store has the release time set to midnight EST, which equates to 9pm PST on Wednesday, November 18 – it's unclear if there is further time zone correction across the US, so check the Store page to confirm what local time is displayed for you.
+While the GTA 6 release time on Xbox is also Thursday, November 19 at midnight local time in your region, Xbox operates a single global store which means you can potentially get earlier access by changing the time zone on your console. We've got a separate guide on how to play GTA 6 early using the New Zealand time zone method, which would let you start playing at the following times:
+However you access it, you'll need to make sure you've completed the GTA 6 preload in advance so you have everything ready to go, and that may involved deleting other content off your hard drive to make room for the GTA 6 GB size of up to 212GB depending on your platform.
+If you want to skip downloading you could always stream GTA 6 on Xbox One, or if you're in no rush there's the option to wait for GTA 6 on PC.
+© GamesRadar+. Not to be reproduced without permission.
+Weekly digests, tales from the communities you love, and more
+Iain originally joined Future in 2012 to write guides for CVG, PSM3, and Xbox World, before moving on to join GamesRadar in 2013 as Guides Editor. His words have also appeared in OPM, OXM, PC Gamer, GamesMaster, and SFX. He is better known to many as ‘Mr Trophy’, due to his slightly unhealthy obsession with amassing intangible PlayStation silverware, and he now has over 1,000 Platinum pots weighing down the shelves of his virtual award cabinet. He does not care for Xbox Achievements.
+You must confirm your public display name before commenting
+Please logout and then login again, you will then be prompted to enter your display name.
+1 We got GTA 6 nominated for Game of the Year at The Game Awards before GTA 6
+2 GTA 6 Lucia actor revealed thanks to The Game Awards Best Performance nomination, and it's exactly who everyone expected
+3 FF7 Revelation's story isn't being "shaped by fan reactions," boss says, but feedback is helping gameplay
+4 Epic Games held a gen AI game jam – but its most popular game used "no AI" at all
+5 Super Smash Bros Melee deserves a remake after Zelda: Ocarina of Time, say ex-Nintendo marketing leads
+
+### polygon.com (2026-11-17), selo sugerido relato
+Manchete: GTA 6 release time in your time zone
+Link: https://www.polygon.com/gta-6-grand-theft-auto-release-time-pdt-edt/
+
+What time does GTA 6 release in your time zone?
+After a long, long wait, the Grand Theft Auto 6 release time is almost here. This is a game that, for the longest time, felt like just a distant dream. It's on track to be the biggest video game of all time, and if you want to jump in as soon as possible, you need to know exactly what time it will be released.
+Here's a complete explainer of what time GTA 6 will be released in your time zone along with details on how to preload the game, so you can be ready to go as soon as the time is up.
+GTA 6 will be released at midnight local time on Thursday, Nov. 19 on both PlayStation 5 and Xbox Series X, according to Rockstar Games support. This means that if you want to jump in as soon as possible, you'll be in for a late night.
+However, if you just cannot wait until midnight local time to play, you can do what is known as the "New Zealand trick" to play a few hours early. Fair warning: if you're on PS5, it requires buying the game through a different account to your main.
+You can preload GTA 6 on both PS5 and Xbox Series X now. All you need to do is pre-order the game by going to the store and purchasing your chosen edition, then navigating to the game on your dashboard. The option to preload should be available.
+GTA 6 is a whopping 210 GB, which means you'll likely need to clear a fair amount of space for it. However, since preloading is available, it means you won't need to wait for the download to finish, so you can play as soon as midnight rolls around.
+
+### GameWatcher (2026-11-17), selo sugerido rumor
+Manchete: GTA 6 Release Times and Editions - GameWatcher
+Link: https://news.google.com/rss/articles/CBMibEFVX3lxTE9tOEFuR2k2MmtrME9NeDFZOTVKUWdndU1rcENSVDdWVGlMV241MHRlOFFkbG90NllYS3VnTGI4Z1FORUM4eW5xNE56WnBZZFE4WUFZRHpHMzJPSG12dnItMEhGNEE2c3hEcVlwSg?oc=5
+
+(só a manchete: a matéria não abriu)
+
 
 ## Assunto 8
 
-### Notebookcheck (2026-11-17), selo sugerido rumor
-Manchete: The Game Awards 2026 nominees revealed, with unreleased GTA 6 leading the pack - Notebookcheck
-Link: https://news.google.com/rss/articles/CBMivwFBVV95cUxNUnY4VDNtMFNKeGFmbERrU1JZWGtMc1BlMnZxMHI4bTNnWnhmclRWLVVfTGJlQlVuRHdGb25DMjRyZkpSZGhOZEdBUFRiT0VJeWRxdjJWT196M3IzSVJPUGhsREhaUnl5eGJTYVh4N1JNYUhPTDhqYWcwNnVlYjlEQkl4NnVrZDBWbTkyTlBvZzJMeE1mRlY0bzNiT2tHUFJzRXZLeE5HemhrZExCWGtDNVdZdnpPaG9KdUpGNFREdw?oc=5
+### videogameschronicle.com (2026-11-17), selo sugerido relato
+Manchete: GTA 6 Ultimate Edition vs Standard Edition: All Ultimate Edition & pre-order benefits
+Link: https://www.videogameschronicle.com/guide/gta-6-ultimate-edition-vs-standard-edition-all-ultimate-edition-pre-order-benefits/
+
+GTA 6 Ultimate Edition vs Standard Edition: All Ultimate Edition & pre-order benefits
+Everything included in the GTA 6 Ultimate Edition
+Are you considering GTA 6 Ultimate Edition and wondering what the differences are between GTA 6 Ultimate Edition and the standard edition?
+After 13Â years of waiting, GTA 6 will finally be released this week. Likely the most anticipated video game launch in history happens this Thursday, November 19, and players around the world are deciding which version to buy.
+For GTA 6, Rockstar is launching the game in two versions: the GTA 6 Standard Edition and the GTA 6 Ultimate Edition.
+In this GTA 6 Ultimate Edition vs Standard Edition guide, we’ll explain what the differences are, how much the GTA 6 Ultimate Edition costs, and more. We’ll also explain the pre-order bonus that players who pre-order GTA 6 before November 19 can expect.
+GTA 6 Ultimate Edition vs Standard Edition
+The standard edition of GTA 6 costs $79.99/Â£69.99. The GTA 6 Ultimate Edition costs $99.99/Â£89.99.
+The GTA 6 Ultimate Edition contains the following in-game bonuses that ARE NOT in the standard edition of GTA 6. The Ultimate Edition of GTA 6 is only available digitally.
+Rockstar has said some items in the GTA 6 Ultimate Edition will unlock at later stages in the game, though specific unlock times aren’t currently known.
+’95 Grotti CheetahÂ – An in-game supercar that is “available to punctuate later-stage action,” according to Rockstar.
+The GTA 6 Ultimate Edition bonuses can be purchases seperately.
+The standard edition of GTA 6 doesn’t come with any bonuses. Players can buy the game digitally, or they can buy GTA 6 Standard Edition as a code in box physical edition. The code in box version of the game comes with a double sided poster, but crucially, doesn’t come with a disc.
+There are two GTA 6 Pre-order Bonus packs. Both the GTA 6 Ultimate Edition and GTA 6 Standard Edition can get the pre-order packs. It’s unclear if the GTA 6 pre-order bonus packs will be sold seperately once the game is released.
+Rockstar’s description of this pre-order bonus reads, “Flash back to when the neon burned brightest with the Vintage Vice City Pack, featuring the timeless two-tone â55 Vapid Stanier sedan and garage alongside the world-famous Ocean Beach, decadent outfits and hairstyles for both Jason and Lucia, and an iconic weapon pattern that echoes the excess of the past.”
+The pack is clearly in reference to the PS2 classic, Grand Theft Auto Vice City, which shares a setting with GTA 6.
+Also included for those who pre-order the game is a free month of GTA +.
+Rockstar’s description of this bonus reads, “Get one free month of GTA+ â featuring a recurring monthly GTA$500,000 deposit into your GTA Online characterâs bank account, special Shark Cards with 15% bonus GTA$, access to free and discounted GTA Online vehicles, a rotating selection of classic Rockstar Games titles and other featured games in the GTA+ Games Library, and much more.”
+
+### RockstarINTEL (2026-11-17), selo sugerido rumor
+Manchete: 87% Of GTA VI Pre-Orders Are The $100 Ultimate Edition - RockstarINTEL
+Link: https://news.google.com/rss/articles/CBMihgFBVV95cUxPS3RfS0taYTZUM2FvcDdfVEhnbllfRlpTc0NZSVc1TmN6ZzJXWHpJa3A1LXdmbXktQ0hQWDFEZ1FNV1RvTzhNSVZwMXhpazVleEh5d0cwVlFPOEZVMy1ycGlnQnVEZU1lZTJCVVpMX0xPbS1oT0dYQzluVldJbnBMSjR4TlduQQ?oc=5
 
 (só a manchete: a matéria não abriu)
 
-### FullCleared (2026-11-17), selo sugerido rumor
-Manchete: Here Are The Game Awards 2026 Nominees - FullCleared
-Link: https://news.google.com/rss/articles/CBMid0FVX3lxTE5CSEgyR0NnNGZ4eTRZc1J4TDVaX1NWWVJMWWx4WXVseWxYMnZDX3NQUUNaRXdZVUxkSy1XZkdzNFI5SlIxNWdWeTFaaFlGSTEyZkNvdHRYdG9YbUJ4LWZub2RaRkJCZ0FRd2F0QTluUmpFc0ZDN1NN?oc=5
+### GamesIndustry.biz (2026-11-17), selo sugerido rumor
+Manchete: Sensor Tower: GTA 6 pre-orders exceed $1.4bn, with 87% for the Ultimate Edition - GamesIndustry.biz
+Link: https://news.google.com/rss/articles/CBMipwFBVV95cUxNRmVDMlZ5S2hacDBWaExmSHVwNGdtclhhbWFibllNb2ZCa212ZTNEdUxhVjdnSjhfakh2TnNBdm95cHdHeWRLTnMtNDgzbHBfVjNlMGJhLU5kSkxnSUF1UlMxWXBxR2ZZWVBGTFR3c0NzTjBiTG5zVm1yQnR2dFZxcW1UbHVjVlNCZFFaZnM1ZXJVM0E1MGNuRTRTZ1FkNTlKMnhqa0Y3UQ?oc=5
 
 (só a manchete: a matéria não abriu)
-
-### Comics Gaming Magazine (2026-11-17), selo sugerido rumor
-Manchete: The Game Awards 2026: All Of The Nominees! - Comics Gaming Magazine
-Link: https://news.google.com/rss/articles/CBMif0FVX3lxTFBKdENrU2UxMlFXSmhaQzVrYXNCWDVKWmIzUkVOWjRjbUFUTnQzeElfSXBibmV3c3NScnpnbzgxYU5RSHQzT0NMaGFMT0dZY1Q3R09XWGd3NzRFY19QUGdjOThCbHh1X05paTQxV2lhNXEtVmJWQUJWMG92TEN5dzg?oc=5
-
-(só a manchete: a matéria não abriu)
-
-Outras manchetes: The Game Awards 2026: All Nominations - Gamesurf | All GTA 6 nominations in The Game Awards 2026 - Sportskeeda
