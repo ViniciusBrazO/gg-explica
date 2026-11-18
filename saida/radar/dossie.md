@@ -11,9 +11,9 @@ Link: https://news.xbox.com/en-us/2026/11/17/the-game-awards-2026-nominees-on-xb
 
 Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
 Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
-Stories Untold Is Now Available For Xbox One
 25 Original XBOX Games Available Today on PC via XBOX Backward Compatibility
-XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
+Stories Untold Is Now Available For Xbox One
+A Message From Dr. XBOX: It’s Time to Take the Day Off and Play XBOX
 The Game Awards 2026 Nominees – Play Gears of War: E-Day, Grand Theft Auto VI, Resident Evil Requiem, and More on XBOX
 Jump in and start playing 50 nominated games today across XBOX Series X|S and XBOX on PC.
 For 25 years, XBOX has remained focused on building games players love, and our anniversary year has been a particularly strong example. From Gears of War: E-Day, Forza Horizon 6, and Call of Duty: Modern Warfare 4, to hugely anticipated games like Fable, players have more great games to play on XBOX than ever.
@@ -80,25 +80,25 @@ Vincent Tao Lead Game Designer, Once Human
 
 ## Assunto 3
 
-### GameSpot (2026-11-18), selo sugerido relato
-Manchete: Here Are The Most Nominated Games And Publishers At The Game Awards This Year - GameSpot
-Link: https://news.google.com/rss/articles/CBMisgFBVV95cUxQd1NySl9QbFZWY2xxSng4Mkt5RmQyTVF1VGhwci1uVHpqRmhvRlBYWEFpMFc1LU9JV2EtOFpJLTZEYXg0ZHp5NHNVTzNwS0xNZE1EbjBqT0x3anhkYUlvZTlaOFZRSk5tbDVjc193blYweVNfdUlLdERwWnlVbFpMWVFwck9adVhfY1M4UUdVdzNmX0k5Z3I0S09NS2FjM2tJeDh6M1E4eWlkR3NDMndQOEt3?oc=5
+### Daily Voice Of Asia (2026-11-18), selo sugerido rumor
+Manchete: GTA 6 Leads The Game Awards 2026 Nominations With Eight Nods - Daily Voice Of Asia
+Link: https://news.google.com/rss/articles/CBMioAFBVV95cUxNYnNOeFVKMnFhdzlwaGJoWDRubU9aMXN5VlIwT0lTUVlPbzZDaXhua0VIcUZpUjhpWHZ4WE5na1k1X2dMMzVoOW1Jdm9VRHZfNl9vbHlpdUd5amxTS3BNWVBhc3dXMmxBUkRzV1RzMmVWZUJlb1U2NXpWRzVESk02eUZ0ZFNxSUt6SE80RGZVUmpSY1UyYWdhWVJxMEpSNjFk?oc=5
 
 (só a manchete: a matéria não abriu)
 
-### Steam Deck HQ (2026-11-18), selo sugerido rumor
-Manchete: Here Are All of The Game Awards 2026 Nominees - Steam Deck HQ
-Link: https://news.google.com/rss/articles/CBMigAFBVV95cUxOdjdETHZ6R2tReEFVSXZrWGxDRDBJc1I1MmRURkZkZllwNVZrSFN6UWpQLTc4VUhNc1ZUWnJUZ2Yxb19YUzFXaWlzZk9keTNla0M1cEZNaU9iUWZOeG9xd1lsRHBKZFBBTlhaVGVDZXR3X2hFMmd0dUVnclgwWkxNTQ?oc=5
+### hi-Tech.ua (2026-11-18), selo sugerido rumor
+Manchete: The Game Awards 2026: GTA 6 Nabs Eight Nominations Including Game of the Year - hi-Tech.ua
+Link: https://news.google.com/rss/articles/CBMiogFBVV95cUxQWDNPWExROVNaYkppVTZJQkRfZmhJWG5EVFY0OVlRNHYwMElGMXlTOVBQdGlPWm83N01zQUVvNDhobEZTUFZMOE9JX0ZDQlNCT0dhU09jbVRzLWRoSjR3dE01T3ZSTENkdUxkbGxQb1hqZnRfYjIxMXBSTUQ3Q2MteC0yNkp2TEtfREtQdGpXMDY4Zmk0YVUwdkNwQUlaZzRLUXc?oc=5
 
 (só a manchete: a matéria não abriu)
 
-### GamingOnLinux (2026-11-18), selo sugerido rumor
-Manchete: Here's all of The Game Awards 2026 nominees - GamingOnLinux
-Link: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNFhReVJYNWV2WnFjeGVqVmJuZFR4TlRBVUFXb1ZsNnVVWDlzN0U5cGIwbjhsZUxtbFFjaGRjZE9GVnBlVWxqanVOYzNqeFFoVm1CbWRXWE51aUxiNUVTTGhWNS05MjZPYm1JM0owalRVQ1lOZ3pEZWF1NVhEWHlTMks5STdXR3JQ?oc=5
+### qz.com (2026-11-18), selo sugerido rumor
+Manchete: The Game Awards 2026: GTA 6 leads with 8 nominations across 15 categories - qz.com
+Link: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9CQVJGU3BQUnd0TGw2b3gzNGJlX2hqX3lpYXRWcnBFczR5c1pFVHlNM1pxemxndEJKc2JWb2dtN2lrU0JYMnM4WHBGdXI2QU91U0RIXzlIV1BPSHREbEh1YTJXdnpJdnM?oc=5
 
 (só a manchete: a matéria não abriu)
 
-Outras manchetes: Here Are All the Nominees for The Game Awards 2026 - Hypebeast | The Game Awards 2026 Game of the Year Nominees Revealed - Nintendojo
+Outras manchetes: GTA 6 leads The Game Awards 2026 nominations with 8 across 15 categories - qz.com | ‘Grand Theft Auto VI’ leads Game Awards nominations - Washington Times
 
 
 ## Assunto 4
@@ -152,6 +152,113 @@ Outras manchetes: The Game Awards: GTA 6 lidera indicações mesmo antes do lan�
 
 
 ## Assunto 5
+
+### videogameschronicle.com (2026-11-17), selo sugerido relato
+Manchete: GTA 6 New Zealand trick: How to play GTA 6 early
+Link: https://www.videogameschronicle.com/guide/gta-6-new-zealand-trick-how-to-play-gta-6-early/
+
+GTA 6 New Zealand trick: How to play GTA 6 early
+Play GTA 6 13 hours early with this trick
+Wondering how to do the New Zealand trick and play GTA 6 early? This guide explains how to play GTA 6 hours before the official release date in your region using the GTA 6 New Zealand trick.
+Players have waited 13 years for GTA 6, and for some of them, the thought of waiting even a few hours more is unbearable. Thankfully, with this GTA 6 New Zealand trick guide, you can play the game on Wednesday and get started on your journey through Vice City.
+In this guide we’ll explain the GTA 6 New Zealand trick, how to do it, and what platforms it’s possible to do on.
+Are you wondering what the difference is between the GTA 6 Ultimate Edition vs GTA 6 Standard Edition? Check out our guide for all the details.Â
+The GTA 6 New Zealand trick is done by changing what region your console thinks it is assigned to. By doing this, your console operates as though it is in the New Zealand time zone (the earliest in the world) meaning it will think that it’s Novemer 19th even though it’s still November 18. This is what allows you to play GTA 6 early with the GTA 6 New Zealand trick.
+In order to do the GTA 6 New Zealand trick, do the following:
+Change the location of your console to New Zealand
+Since midnight has already passed in New Zealand, this basically means you can already start playing the Early Access edition now.
+Just remember to switch it back to your own country once the gameâs officially out where you live.
+Can you do GTA 6 New Zealand trick on PlayStation?
+The GTA 6 New Zealand trick is far more complicated on PlayStation.
+In order to play GTA 6 earlier with the GTA 6 New Zealand trick on PlayStation, you’ll have to create a New Zealand PlayStation Network account, and buy the game from the New Zealand store. Due to PlayStation splitting its digital storefronts across regions, it’s not as simple as swapping it over at a system level like it is on Xbox.
+
+### gamesradar.com (2026-11-17), selo sugerido rumor
+Manchete: How to play GTA 6 early with the New Zealand trick
+Link: https://www.gamesradar.com/games/grand-theft-auto/gta-6-play-early-new-zealand-trick/
+
+Join the GamesRadar community for quick access. Enter your email below and we'll send confirmation, and sign you up to our newsletter.
+By submitting your information you agree to the Terms & Conditions and Privacy Policy and are aged 16 or over.
+Keep exploring and earning more as a member.
+Get the biggest gaming news, reviews, and releases straight to your inbox.
+Weekly digests, tales from the communities you love, and more
+Get full access to premium articles, exclusive features and a growing list of member rewards.
+How to play GTA 6 early with the New Zealand trick
+If you're wondering how people are already playing GTA 6, it's Xbox owners using the New Zealand time zone trick – here's how to do it
+November 18, 2026: If you want to know how are some people playing GTA 6 already, it's because they've used an Xbox workaround with the New Zealand trick – we've confirmed it works, and have all the info below!
+It's only natural that people are looking for a way to play GTA 6 early, as anticipation has hit an all-time high following over a decade of waiting for the next instalment in the series. While the general rule is that GTA 6 will launch at midnight local time on November 19, 2026, there is a classic workaround that means Xbox players can get a head start by changing the location setting on their consoles. To find out more, this is how to play GTA 6 early using the New Zealand trick.
+Prepare for your upcoming crime spree by finding out how to steal cars in GTA 6 and what effect your Heat has on the GTA 6 Wanted Levels.
+How to use the New Zealand trick to play GTA 6 early
+The GTA 6 release time has been officially set to midnight local time in your region on Thursday, November 19, and while this is locked to the location setting of your PSN account on PS5 due to PlayStation's regional stores, things are a little more 'flexible' on Xbox due to the single global store set up. This means that wherever you are based, you can use a well-known loophole to change your Xbox location and get access early.
+To use the New Zealand trick to play GTA 6 early on Xbox, all you need to do is follow these steps:
+Use the Restart Now button to reboot your console with the region setting changed
+Make sure you've completed your preorder before adjusting this setting, or you'll be presented with the price in NZ dollars and will be unlikely to complete payment in that currency.
+If you use this trick to set your Xbox to the New Zealand region, you'll be able to start playing GTA 6 early at the following times:
+Bear in mind that using the method technically violates the terms and conditions of your Xbox account, however the New Zealand trick is widely known and is often used by players to gain early access without any negative consequences. Just make sure that you've completed the GTA 6 preload before the equivalent to midnight New Zealand time rolls around in your region, as with up to 212GB of data required you won't be downloading that GTA 6 GB size at the last minute!
+Weekly digests, tales from the communities you love, and more
+There is a way to avoid the whole download process by streaming it via Xbox Cloud Gaming, which you can even use to play GTA 6 on Xbox One!
+© GamesRadar+. Not to be reproduced without permission.
+Iain originally joined Future in 2012 to write guides for CVG, PSM3, and Xbox World, before moving on to join GamesRadar in 2013 as Guides Editor. His words have also appeared in OPM, OXM, PC Gamer, GamesMaster, and SFX. He is better known to many as ‘Mr Trophy’, due to his slightly unhealthy obsession with amassing intangible PlayStation silverware, and he now has over 1,000 Platinum pots weighing down the shelves of his virtual award cabinet. He does not care for Xbox Achievements.
+You must confirm your public display name before commenting
+Please logout and then login again, you will then be prompted to enter your display name.
+1 GTA 6 release day live coverage – all the latest news and updates
+2 Secretlab's ergonomics doctor told me this simple change would fix my neck pain, and they were right
+3 Production on The Hunger Games: Sunrise on the Reaping started with the first arena bloodbath
+5 WoW: Forever "has more people playing weekly" than Blizzard's seen in 15 years, lead says
+
+### polygon.com (2026-11-17), selo sugerido relato
+Manchete: How to play GTA 6 early using the 'New Zealand trick'
+Link: https://www.polygon.com/gta-6-grand-theft-auto-new-zealand-trick-how-to-play-early/
+
+How to play GTA 6 early using the 'New Zealand trick'
+The Grand Theft Auto 6 "New Zealand trick" is a popular method players are using to play the world's most anticipated game a little early, but you need to know exactly what to do. It involves changing the time and date on your console to New Zealand's time zone, as it means as soon as the GTA 6 release time comes around over there, aka at midnight, you'll be able to play. However, there are a couple of caveats that come with it.
+Here's a full explainer on how to do the GTA 6 "New Zealand trick" to play the game early on both PS5 and Xbox Series X, and everything you need to know before you do it.
+How to play GTA 6 early with 'New Zealand trick' on PS5
+In order to play GTA 6 early on PS5 (aka as soon as it launches at midnight local time in New Zealand), follow these steps:
+Create a new account on your PS5 with a New Zealand address.
+Enable "console sharing and offline play" in your console sharing settings, found under "users and accounts."
+Go to the store and pre-order GTA 6 on that account. (However, if your card is blocked from checking out due to it using a different currency, you'll need to buy a New Zealand-specific PSN gift card from a reputable online retailer first).
+Voilà! When midnight New Zealand time rolls around, GTA 6 will be playable on your main PS5 account. The only caveat is that, of course, you'll own the game on your New Zealand profile, not your main one.
+How to play GTA 6 early with 'New Zealand trick' on Xbox Series X
+If you're on Xbox Series X, the process is a little simpler. Just follow these steps:
+Sign into your main profile on your Xbox Series X.
+Go to the settings menu, then click on "system," then "language & localization."
+That's all you need to do to make GTA 6 playable as soon as midnight on Thursday, Nov. 19 rolls around in New Zealand.
+What time does GTA 6 release for New Zealand in your time zone?
+When is midnight in New Zealand, you ask? Here's when that converts to for your time zone:
+3 a.m. PST on Wednesday, Nov. 18 for the west coast of North America
+6 a.m. EST on Wednesday, Nov. 18 for the east coast of North America
+8 a.m. BRT on Wednesday, Nov. 18 for Brazil
+11 a.m. GMT on Wednesday, Nov. 18 for the United Kingdom
+12 p.m. CET on Wednesday, Nov. 18 for western Europe
+8 p.m. JST on Wednesday, Nov. 18 for Japan
+10 p.m. AEDT on Wednesday, Nov. 18 for the east coast of Australia
+12 a.m. NZDT on Thursday, Nov. 19 for New Zealand
+
+Outras manchetes: How to play GTA 6 early with the New Zealand trick | How to play GTA 6 early using the 'New Zealand trick'
+
+
+## Assunto 6
+
+### G1 (2026-11-18), selo sugerido relato
+Manchete: GTA 6 já lançou? Entenda quando o game chega ao Brasil - G1
+Link: https://news.google.com/rss/articles/CBMitAFBVV95cUxOLWFoNngyRW1hX0gzMEZCcVAzU2RJamdLcHo4b3F5VnRnd2h0RjkxbnRYSlRfMHNPRVNsLWVsWWV3bEhEVzdRT19EbmJuSTcyYmFMYzNxTzEwOVBYWWN2Wnptb1BIc1lZdktzMDZIb0todGJoYmZtVlhXZk9vSVk4YkFSZTJHTkZYTDFqcjBCbFNyWG4zUFdPelZNaEs5Y1B5WVNNY2ZZNVZKaFE4eU1PNDBOV2zSAcMBQVVfeXFMTV9ySThIODNSTTJINDNUUXdwdGVkUTVTZ3g5d0duWGlPWHkzOGJ3V3Job25yZUVQZjBuODZMYUtwTlRHZnJDbEtNT0Rxa3c0eEFldmJycDFQSGp4dUxJTThiVnpaVVlrVEY5VEdyV2dOZl9taUxIUERyNzhMQXVHTE94RDlPdEhmNTVNWC1qcG5paUJhSzBTOGZqYl82a2F3Z3UzVVNQRVU4WVhvejEtbFZkcDBqWjcxTGRRanQtdGp2UHlr?oc=5
+
+(só a manchete: a matéria não abriu)
+
+### UOL (2026-11-18), selo sugerido relato
+Manchete: Quando GTA 6 chega ao PC? Veja o que se sabe sobre o lançamento - UOL
+Link: https://news.google.com/rss/articles/CBMiwAFBVV95cUxOV3dyWk83dnRTQU9BSXJqOHdvOFRyNTBBSHBvRm1lYU5lTVp5Uy1jLVFFS1dud0kxMDVzTE1XRnRaVDRnQU11T3kwMkpTRWF1MVRraUVEaUZVS3hnaE94OWV1ZndBQ0lmYnVxWFhfQ0ZmcmVfUE95NHVEcXF0V1o1elVhM21KLVdMbjRfQ0RLLU1iR0l1a2ZHc1pjYmVHSHNsMW1IMmw4eTVDRVQ1VlBsQzV1YjNXcWxKMkpFSVlmR1U?oc=5
+
+(só a manchete: a matéria não abriu)
+
+### UOL (2026-11-17), selo sugerido relato
+Manchete: GTA 6 já lançou? Veja quando o jogo estará disponível no Brasil - UOL
+Link: https://news.google.com/rss/articles/CBMiwAFBVV95cUxPN2xOWUFHV2p0SFdSQmxXYVA1ZEpNSEZRZm15dFNBdnZDWlBrOFJiZy1tQU51ajlGMEVHU0h6Yk1BaExZZHVCdHlIMHJHVDNKUk9TUVZqcDk3ZzFvcTJKWlJFdE40OVZsRTVIWWdPV1gyLWRseGVkQm1zVDNGaVQ0SjJEbE9zYlhoT1Rabng4WDY0RzdkaXNLZDF0aU40UHRiUUNZQy1Rcm5LNldfS29oT0txQjBNVFBsV0xFam9YcXg?oc=5
+
+(só a manchete: a matéria não abriu)
+
+
+## Assunto 7
 
 ### videogameschronicle.com (2026-11-18), selo sugerido relato
 Manchete: GTA 6 Ultimate Edition: How to claim your Ultimate Edition benefits in GTA 6
@@ -215,7 +322,7 @@ We’ve got plenty more GTA 6 for you here at IGN. You can check out our review,
 Simon Cardy is a Senior Editor at IGN who can mainly be found skulking around open world games, indulging in Korean cinema, or despairing at the state of Tottenham Hotspur and the New York Jets. Follow him on Bluesky at @cardy.bsky.social.
 
 
-## Assunto 6
+## Assunto 8
 
 ### IGN Southeast Asia (2026-11-18), selo sugerido relato
 Manchete: 15 Minutes of GTA 6 PS5 Pro Gameplay (First Mission) - IGN Southeast Asia
@@ -228,41 +335,3 @@ Manchete: GTA 6: 15 Minutes of First Mission Gameplay - IGN
 Link: https://news.google.com/rss/articles/CBMie0FVX3lxTFAtQnB0al9XcmcyMV9CeFY0OUFvdnFtaHVLYkFLU2VfTDBUOS1FdHgtOGdhd0tTYWNKNy1pMFc2eDd0MjhJeTg0bVN6am1uUmVyQS1sWWhwNkd1c0oyalRXU1g1ZHBydVJXMDRSYkRnajhEMXIxZWhFSU5QOA?oc=5
 
 (só a manchete: a matéria não abriu)
-
-
-## Assunto 7
-
-### IGN Brasil (2026-11-17), selo sugerido relato
-Manchete: Atriz que interpreta Lucia em GTA 6 é finalmente revelada - IGN Brasil
-Link: https://news.google.com/rss/articles/CBMipgFBVV95cUxPbG5FdzRVNzZfSW04a3JodkNwLVlHMEdlamJ3YlNiM20xRC1MODgyRUpwNWF6Y3h6YzRNWXdMZWUxOHdHX0t6aVptcndUN183ZFEySXRrRmR4Rms4Yy1xQWx6cG8zTXdjelZ4bGxfX2Z1RkNkU25VY3JaYVVaWEZlTlhIRFBsTUhIWU1scDZjYlhleGswTkJrWVUyZFRCS0RIaU5Ib3hR?oc=5
-
-(só a manchete: a matéria não abriu)
-
-### Omelete (2026-11-17), selo sugerido relato
-Manchete: GTA 6 | Atriz que interpreta Lucia é confirmada com indicação no The Game Awards - Omelete
-Link: https://news.google.com/rss/articles/CBMijgFBVV95cUxNeVR2R1Q2SzNKLUJMU2t5a21wd2hjaVNnazhlQzZjSDBOM3VacjRaTUJtZk1JOW9xX2ROVDF1aS1fb3hFdVJmZmJvb0xZeVRZZlZEcy15OFpDWi1jSTJSeVBNbm53Uk1HS0lwdGdpM0pKOUZjR0pMQUFfQzFxUXlaRVZqM2N4YXhDN0swTDBB?oc=5
-
-(só a manchete: a matéria não abriu)
-
-
-## Assunto 8
-
-### eGamers.io (2026-11-18), selo sugerido rumor
-Manchete: The Game Awards 2026 nominations: five things that stand out - eGamers.io
-Link: https://news.google.com/rss/articles/CBMihgFBVV95cUxOcGloYTdJQlpuN0FzQzN4QlNEcml4UGxOdXQ4Rl81QUp0SlRLSFI5WnJ6QVZoVDZOaDVGRW9vR196eTBoSWR5Zm5MRlMzT3pPbWRaOGlGR0F1bUt1LThZVXV2bnhLR243dVVLeEJlOGNkUmlYR0ZjMUVUd1pMZVZ0bHZwLURhZw?oc=5
-
-(só a manchete: a matéria não abriu)
-
-### ThePCEnthusiast (2026-11-18), selo sugerido rumor
-Manchete: The Game Awards 2026 Nominees Are Out, and GTA 6 Is Already Stealing the Show - ThePCEnthusiast
-Link: https://news.google.com/rss/articles/CBMic0FVX3lxTE9XQm5VSEo3dFZ4RV9icy1RSmdZY3RzTTNkLXpyY3BUSmhkSWcyRW9nTkVaeXlQblh4b3E2SEtfY24tN3pHekZIc1pPMlpNZkdBUTZ0OFlxU1pPc3ZGY3BQQmJiUjFHNmozMF80aEpaWFM2UWs?oc=5
-
-(só a manchete: a matéria não abriu)
-
-### Mobile Goddess (2026-11-18), selo sugerido rumor
-Manchete: Grand Theft Auto VI leads The Game Awards 2026 nominees - Mobile Goddess
-Link: https://news.google.com/rss/articles/CBMijwFBVV95cUxNT2ZyMTRXYW96bzR6MEJhTktsbnEyMlZXalJzb21pSHl4WG9nRjJQV0dDbVh0YUVkbGdfel9hLWY4ZWFyZVVHNnUybTQtT2JSM2ZKVzdtMkg0d2p0WkhqanlkTVNONzF3cWNNZEdFc0Fya21KeG12c3JfSFBDZjFEbG9kWUsxWmlhb2N4VWI1QQ?oc=5
-
-(só a manchete: a matéria não abriu)
-
-Outras manchetes: 'Grand Theft Auto 6' Secures 8 Nominations for the Game Awards 2026 - Hypebeast | Congrats to The Game Awards 2026 nominees - Nintendo
