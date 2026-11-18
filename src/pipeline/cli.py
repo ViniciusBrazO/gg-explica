@@ -162,6 +162,33 @@ def reels_manuais() -> bool:
     return config().get("publicacao", {}).get("instagram_reels", "api") == "manual"
 
 
+ARQ_API_INSTAGRAM = Path("saida") / "instagram_api.json"
+
+
+def estado_api() -> dict:
+    try:
+        return json.loads(ARQ_API_INSTAGRAM.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
+
+
+def guardar_estado_api(**dados) -> None:
+    estado = {**estado_api(), **dados}
+    ARQ_API_INSTAGRAM.parent.mkdir(parents=True, exist_ok=True)
+    ARQ_API_INSTAGRAM.write_text(json.dumps(estado, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
+def modo_dos_reels(hoje: str) -> str:
+    """"api", "teste" (1º Reel do dia no modo manual: tenta a API uma vez) ou "manual".
+    Se o teste der certo, o kit volta a postar sozinho até a Meta recusar de novo."""
+    if not reels_manuais():
+        return "api"
+    estado = estado_api()
+    if estado.get("api_ok"):
+        return "api"
+    return "teste" if estado.get("ultimo_teste") != hoje else "manual"
+
+
 def link_do_reel_no_facebook(item) -> str:
     """Link público do mesmo Reel já publicado na Página do Facebook (o arquivo fica no CDN da Meta)."""
     from .fila import carregar
@@ -196,17 +223,37 @@ def entregar_reel_manual(item) -> bool:
     if not leve.exists() and shutil.which("ffmpeg"):     # vídeo renderizado antes da cópia leve existir
         from .montagem import copia_para_telegram
         copia_para_telegram(Path(item.video))
-    chamada = (f"🎬 Hora de postar o Reel \"{nome}\" no Instagram pelo app: salve o vídeo e a capa, cole a "
-               "legenda e ligue o rótulo de IA (Configurações avançadas).")
+    from .fila import carregar
+    do_dia = sorted({i.id: i.quando for i in carregar() if i.plataforma == "instagram" and i.tipo == "reel"
+                     and i.quando[:10] == item.quando[:10] and i.status in ("pendente", "manual", "publicado")}
+                    .items(), key=lambda x: x[1])
+    ordem = next((n for n, (vid, _) in enumerate(do_dia, 1) if vid == item.id), 0)
+    numero = f" {ordem} de {len(do_dia)}" if ordem else ""
+    chamada = (f"🎬 POSTE AGORA · Reel{numero} do dia {item.quando[8:10]}/{item.quando[5:7]}: \"{nome}\"\n"
+               "Salve o vídeo e a capa, cole a legenda (próximas mensagens) e ligue o rótulo de IA "
+               "(Configurações avançadas).")
     enviado = False
+    hosp = None
     url = link_do_reel_no_facebook(item)      # primeiro o link (o envio de arquivo ao Telegram anda falhando)
+    origem = "do Reel do Facebook"
+    if not url:
+        # o Reel ainda não saiu no Facebook (freio de lá): sobe como rascunho da Página só para ter o link
+        try:
+            from .meta import hospedeiro_da_marca
+            hosp = hospedeiro_da_marca(item.marca)
+            if hosp is not None:
+                url, origem = hosp.hospedar_video(Path(item.video), espera_s=240), "do rascunho na Página"
+        except Exception as e:  # noqa: BLE001
+            print(f"  rascunho na Página não deu link: {str(e)[:100]}")
     if url:
         try:
             tg.video_por_link(url, chamada)
             enviado = True
-            print("  vídeo entregue pelo link do Reel do Facebook")
+            print(f"  vídeo entregue pelo link {origem}")
         except Exception as e:
             print(f"  Telegram não baixou pelo link: {str(e)[:80]}")
+    if hosp is not None:
+        hosp.limpar()                         # o Telegram já baixou: o rascunho some da Página
     for tentativa, metodo in enumerate(() if enviado else ("video", "documento")):
         try:
             if metodo == "video":
@@ -229,6 +276,27 @@ def entregar_reel_manual(item) -> bool:
             print(f"  Telegram: {str(e)[:80]}")
     print("  Reel entregue no Telegram para postar pelo app")
     return True
+
+
+def entregar_manual(item) -> None:
+    from .fila import FUSO
+    if entregar_reel_manual(item):
+        item.status = "manual"
+        item.publicado_em = datetime.now(FUSO).isoformat(timespec="seconds")
+        item.erro = ""
+    else:
+        item.tentativas += 1
+        item.erro = "Telegram não recebeu o vídeo"
+
+
+def avisar_texto(texto: str) -> None:
+    from .telegram import Telegram
+    tg = Telegram.do_ambiente()
+    if tg:
+        try:
+            tg.texto(texto)
+        except Exception as e:  # noqa: BLE001
+            print(f"  Telegram: {str(e)[:80]}")
 
 
 def avisar_video_recusado(item, quando) -> None:
@@ -295,7 +363,7 @@ def cmd_publicar(args) -> int:
     for item in sorted(itens, key=lambda i: (i.quando, i.plataforma == "instagram")):
         if item.status != "pendente" or datetime.fromisoformat(item.quando) > agora:
             continue
-        if item.tentativas >= (8 if falha_da_meta_no_video(item.erro) else 3):
+        if item.tentativas >= (8 if falha_da_meta_no_video(item.erro) or "Telegram" in (item.erro or "") else 3):
             continue
         espera = motivo_para_segurar(item, itens, datetime.now(FUSO))
         if espera:
@@ -305,14 +373,14 @@ def cmd_publicar(args) -> int:
         if args.simular:
             print("  simulação: nada foi enviado")
             continue
-        if item.plataforma == "instagram" and item.tipo == "reel" and reels_manuais():
+        modo = modo_dos_reels(agora.date().isoformat()) if item.plataforma == "instagram" and item.tipo == "reel" \
+            else "api"
+        if modo == "teste":
+            guardar_estado_api(ultimo_teste=agora.date().isoformat())
+            print("  teste do dia: a API do Instagram já aceita vídeo?")
+        if modo == "manual":
             # a API do Instagram está recusando vídeo: o Reel vai pronto para o Telegram e o Vinicius posta pelo app
-            if entregar_reel_manual(item):
-                item.status = "manual"
-                item.publicado_em = datetime.now(FUSO).isoformat(timespec="seconds")
-            else:
-                item.tentativas += 1
-                item.erro = "Telegram não recebeu o vídeo"
+            entregar_manual(item)
             continue
         try:
             if item.plataforma == "facebook":
@@ -356,12 +424,25 @@ def cmd_publicar(args) -> int:
             item.publicado_em = datetime.now(FUSO).isoformat(timespec="seconds")
             publicados += 1
             print(f"  no ar: {item.permalink}")
+            if modo == "teste":
+                guardar_estado_api(api_ok=True, voltou_em=item.publicado_em)
+                avisar_texto("✅ A Meta voltou a aceitar vídeo: este Reel saiu sozinho no Instagram, e os próximos "
+                             "também vão sair sozinhos. Não precisa postar pelo app.")
             avisar_publicado(item)
             if item.produtos_para_marcar:
                 print(f"  marque no app: {', '.join(item.produtos_para_marcar)}")
         except (ErroInstagram, OSError, RuntimeError) as e:
             item.tentativas += 1
             item.erro = str(e)[:500]
+            if item.plataforma == "instagram" and item.tipo == "reel" and reels_manuais() and \
+                    (modo == "teste" or falha_da_meta_no_video(item.erro)):
+                # teste do dia não passou (ou a Meta voltou a recusar): entrega para postar pelo app, já
+                if modo == "api":
+                    guardar_estado_api(api_ok=False)
+                print(f"  a API ainda recusa vídeo ({item.erro[:80]}); vai pelo Telegram")
+                item.tentativas, item.erro = 0, ""
+                entregar_manual(item)
+                continue
             if item.plataforma == "instagram" and falha_da_meta_no_video(item.erro) and item.tentativas < 8:
                 # o processamento de vídeo da Meta está instável: tenta de novo mais tarde, sem travar a fila
                 novo = datetime.now(FUSO) + timedelta(minutes=60 * min(item.tentativas, 3))

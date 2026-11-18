@@ -12,6 +12,7 @@ saida/*
 !saida/biblioteca_ultimo.txt
 !saida/uso_clipes.json
 !saida/escolhas.json
+!saida/instagram_api.json
 !saida/ciclo_erros.log
 !saida/radar/
 !saida/telegram/

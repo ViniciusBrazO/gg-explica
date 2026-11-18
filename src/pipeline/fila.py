@@ -118,6 +118,30 @@ def cancelar(marca: str, video_id: str) -> int:
     return len(itens) - len(ficam)
 
 
+def reels_por_dia() -> int:
+    from .radar import config
+    return int(config().get("publicacao", {}).get("reels_por_dia", 4))
+
+
+def abrir_vaga(marca: str, video_id: str, dia: str, limite: int | None = None) -> tuple[bool, str]:
+    """Teto de Reels por dia (pedido do Vinicius: 4). Notícia do radar tem preferência: se o dia está
+    cheio, sai o post de pauta (evergreen) agendado mais tarde que ainda não foi. Devolve (cabe, motivo)."""
+    limite = limite or reels_por_dia()
+    itens = carregar()
+    do_dia = [i for i in itens if i.marca == marca and i.plataforma == "instagram" and i.quando[:10] == dia
+              and i.id != video_id and i.status in ("pendente", "publicado", "manual")]
+    if len({i.id for i in do_dia}) < limite:
+        return True, ""
+    if video_id.startswith("radar_"):
+        trocaveis = sorted((i for i in do_dia if not i.id.startswith("radar_") and i.status == "pendente"),
+                           key=lambda i: i.quando)
+        if trocaveis:
+            sai = trocaveis[-1].id
+            cancelar(marca, sai)
+            return True, f"saiu {sai} (pauta) para caber a notícia"
+    return False, f"o dia {dia[8:10]}/{dia[5:7]} já tem {limite} Reels"
+
+
 def _titulo(legenda: str) -> str:
     linhas = [l for l in legenda.splitlines() if l.strip() and not l.startswith("#publi")]
     return (linhas[0] if linhas else "")[:120]

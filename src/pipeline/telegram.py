@@ -193,6 +193,17 @@ def enviar_para_aprovacao(tg: Telegram, dias_a_frente: int = 1, hoje: Optional[d
                 pendentes[tok] = {"pauta": str(arq), "video": v.id, "impressao": imp, "situacao": "bloqueado",
                                   "conferido": datetime.now().isoformat(timespec="minutes")}
                 continue
+            if automatico:
+                from .fila import abrir_vaga
+                cabe, motivo = abrir_vaga(pauta.marca, v.id, v.data.isoformat())
+                if not cabe:
+                    v.status = "descartado"
+                    v.notas_revisao = f"{v.notas_revisao or ''}\n[kit] fora: {motivo} (teto de Reels por dia)".strip()
+                    pauta.salvar(arq)
+                    print(f"  {v.id}: não agendado, {motivo}")
+                    continue
+                if motivo:
+                    print(f"  {v.id}: {motivo}")
             try:
                 if automatico:
                     v.status = "aprovado"

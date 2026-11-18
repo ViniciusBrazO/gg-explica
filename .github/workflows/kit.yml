@@ -65,7 +65,7 @@ jobs:
             h=$(TZ=America/Sao_Paulo date +%H); dia=$(TZ=America/Sao_Paulo date +%u)
             case "$h" in
               07) t=radar ;;
-              08) [ "$dia" = 1 ] && t=pauta || t=ciclo ;;
+              # pauta semanal desligada em 18/11: o radar já faz os 4 Reels do dia (6 por dia passava do freio)
               12|19) t=comentarios-ciclo ;;
               17) t=radar ;;
               23) t=metricas ;;

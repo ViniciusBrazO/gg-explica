@@ -195,3 +195,34 @@ def test_legenda_sem_aviso_e_hashtag_repetidos():
     leg = montar_legenda(marca, v, texto)
     assert leg.count(marca.post["aviso_ia"].rstrip(".")) == 1
     assert leg.lower().count("#gta6") == 1 and leg.count("Imagens: Rockstar Games") == 1
+
+
+def test_teto_de_reels_por_dia_da_preferencia_ao_radar(tmp_path, monkeypatch):
+    from pipeline import fila
+    monkeypatch.setattr(fila, "ARQUIVO_FILA", tmp_path / "fila.json")
+    def item(vid, hora, status="pendente"):
+        return fila.Item(id=vid, marca="gg", video="v.mp4", capa="", legenda="",
+                         quando=f"2026-11-19T{hora}:00-03:00", plataforma="instagram", status=status)
+    fila.salvar([item("radar_a", "09:00", "manual"), item("2026-W47_pauta1", "13:00"),
+                 item("radar_b", "15:00"), item("2026-W47_pauta2", "21:30")])
+    assert fila.abrir_vaga("gg", "radar_c", "2026-11-19", limite=4) == (True, "saiu 2026-W47_pauta2 (pauta) para caber a notícia")
+    assert [i.id for i in fila.carregar()] == ["radar_a", "2026-W47_pauta1", "radar_b"]
+    fila.salvar(fila.carregar() + [item("radar_c", "19:00")])
+    cabe, motivo = fila.abrir_vaga("gg", "2026-W47_pauta3", "2026-11-19", limite=4)
+    assert not cabe and "4 Reels" in motivo
+    assert fila.abrir_vaga("gg", "radar_b", "2026-11-19", limite=4)[0]      # o próprio item não conta
+
+
+def test_modo_dos_reels_testa_a_api_uma_vez_por_dia(tmp_path, monkeypatch):
+    from pipeline import cli
+    monkeypatch.setattr(cli, "ARQ_API_INSTAGRAM", tmp_path / "api.json")
+    monkeypatch.setattr(cli, "reels_manuais", lambda: True)
+    assert cli.modo_dos_reels("2026-11-19") == "teste"
+    cli.guardar_estado_api(ultimo_teste="2026-11-19")
+    assert cli.modo_dos_reels("2026-11-19") == "manual"
+    assert cli.modo_dos_reels("2026-11-20") == "teste"
+    cli.guardar_estado_api(api_ok=True)
+    assert cli.modo_dos_reels("2026-11-19") == "api"
+    monkeypatch.setattr(cli, "reels_manuais", lambda: False)
+    cli.guardar_estado_api(api_ok=False)
+    assert cli.modo_dos_reels("2026-11-19") == "api"
