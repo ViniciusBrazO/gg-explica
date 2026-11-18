@@ -1412,13 +1412,13 @@
     "quando": "2026-11-18T14:30:00-03:00",
     "plataforma": "instagram",
     "tipo": "reel",
-    "status": "pendente",
+    "status": "manual",
     "produtos_para_marcar": [],
     "media_id": "",
     "permalink": "",
-    "erro": "Telegram não recebeu o vídeo",
+    "erro": "",
     "tentativas": 1,
-    "publicado_em": "",
+    "publicado_em": "2026-11-18T15:53:20-03:00",
     "furar_freio": false
   },
   {
