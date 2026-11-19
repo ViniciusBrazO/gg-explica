@@ -40,10 +40,16 @@ Manchete: Grand Theft Auto VI is Out Now
 Link: https://news.xbox.com/en-us/2026/11/19/grand-theft-auto-vi-is-out-now/
 
 Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
-Stories Untold Is Now Available For Xbox One
 XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
+Stories Untold Is Now Available For Xbox One
 Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
 An Alligator Swallowed an XBOX Series X – You Can Win It
+
+### Rockstar Games (2026-11-19), selo sugerido confirmado
+Manchete: Grand Theft Auto VI: Out Now - Rockstar Games
+Link: https://news.google.com/rss/articles/CBMiUkFVX3lxTFBtaFUxS2pNTHhQbEVpS1BJdWUyR0NSaU1ZSDZURVFxWVVkYmVyQjJBclNXbzVXQlNMZ1VXdHh3aW5xMUF4RU8xenk0YkxWRkVwdnc?oc=5
+
+(só a manchete: a matéria não abriu)
 
 ### Rolling Stone (2026-11-19), selo sugerido rumor
 Manchete: ‘GTA VI’ Is Finally Out - Rolling Stone
@@ -88,6 +94,29 @@ Vincent Tao Lead Game Designer, Once Human
 
 ## Assunto 5
 
+### Road to VR (2026-11-19), selo sugerido rumor
+Manchete: The Game Awards Announces Top 5 Nominations for Best VR Games of 2026 - Road to VR
+Link: https://news.google.com/rss/articles/CBMiYkFVX3lxTFByT3ZoT1otQnIxOE1lcXdSeEhKMUo1eVktTG5VS19vVkxUSlZaUlR5WThKNnZ1WDlBVl9lZU9lYWVPaFowR1lKYmlnS1BEMVBGV3pRbENmY0JFX1RibXZLYWNB?oc=5
+
+(só a manchete: a matéria não abriu)
+
+### The Arts Shelf (2026-11-19), selo sugerido rumor
+Manchete: The Game Awards 2026: Grand Theft Auto VI Leads Nominations With Eight - The Arts Shelf
+Link: https://news.google.com/rss/articles/CBMieEFVX3lxTE90eDZsb1ZMNVdRNTRucUJ4VzRjOU12TDJ6LVB2d3Y0WWJ1Q0lLNGFBaFViTUZpd1FxYXlMbmNMT2ZTZWFSbUVnalhZQ045aDdtVDJtdkhVQmxENHpGYlVBeENxQlVkQTVTcFFvZzBpczJTNko5aFVlZw?oc=5
+
+(só a manchete: a matéria não abriu)
+
+### Techloy (2026-11-18), selo sugerido rumor
+Manchete: Game Awards 2026 Nominees on Xbox and Game Pass - Techloy
+Link: https://news.google.com/rss/articles/CBMic0FVX3lxTE9aYmtfSENtSG5yNmozRzl0YUY4clNsS2ZjTWNUc01FS3pSeXUxYkZQSEtVNUZpc1JFcHlyVGVhM0JsZHA3VG13b1dGd2pNUEVSX25VMXVTeVZSRDVzVm84YWRmd0lsQVNZYXBxQ09mbG5TbEk?oc=5
+
+(só a manchete: a matéria não abriu)
+
+Outras manchetes: Here Are All of The Game Awards 2026 Nominees - Steam Deck HQ | GTA 6 leads The Game Awards 2026 with eight nominations - GameDev.net
+
+
+## Assunto 6
+
 ### G1 (2026-11-18), selo sugerido relato
 Manchete: GTA 6 já lançou? Entenda quando o game chega ao Brasil - G1
 Link: https://news.google.com/rss/articles/CBMitAFBVV95cUxOLWFoNngyRW1hX0gzMEZCcVAzU2RJamdLcHo4b3F5VnRnd2h0RjkxbnRYSlRfMHNPRVNsLWVsWWV3bEhEVzdRT19EbmJuSTcyYmFMYzNxTzEwOVBYWWN2Wnptb1BIc1lZdktzMDZIb0todGJoYmZtVlhXZk9vSVk4YkFSZTJHTkZYTDFqcjBCbFNyWG4zUFdPelZNaEs5Y1B5WVNNY2ZZNVZKaFE4eU1PNDBOV2zSAcMBQVVfeXFMTV9ySThIODNSTTJINDNUUXdwdGVkUTVTZ3g5d0duWGlPWHkzOGJ3V3Job25yZUVQZjBuODZMYUtwTlRHZnJDbEtNT0Rxa3c0eEFldmJycDFQSGp4dUxJTThiVnpaVVlrVEY5VEdyV2dOZl9taUxIUERyNzhMQXVHTE94RDlPdEhmNTVNWC1qcG5paUJhSzBTOGZqYl82a2F3Z3UzVVNQRVU4WVhvejEtbFZkcDBqWjcxTGRRanQtdGp2UHlr?oc=5
@@ -107,7 +136,7 @@ Link: https://news.google.com/rss/articles/CBMiwAFBVV95cUxOV3dyWk83dnRTQU9BSXJqO
 (só a manchete: a matéria não abriu)
 
 
-## Assunto 6
+## Assunto 7
 
 ### gamespot.com (2026-11-18), selo sugerido relato
 Manchete: Want A Custom GTA 6 PS5 Pro? Just Play In The NBA
@@ -122,7 +151,7 @@ Link: https://news.google.com/rss/articles/CBMixAFBVV95cUxPSTlNWm5FbjNYTm5TM09oN
 (só a manchete: a matéria não abriu)
 
 
-## Assunto 7
+## Assunto 8
 
 ### Polygon.com (2026-11-19), selo sugerido relato
 Manchete: The Game Awards’ Biggest GOTY Snub Has Been Officially Redeemed - Polygon.com
@@ -135,39 +164,3 @@ Manchete: The Six Biggest Game Awards Snubs - Kotaku
 Link: https://news.google.com/rss/articles/CBMihwFBVV95cUxPZU1Ecm5iYUdOMjdhWEJVREo2dWtvaGtaUlF1c1ZlTkMybWV1Y0puNzQyTS1HNTM0ZVJENHUtakhmYzA0ckQxRHRhbUZIY0lSVHNTbW9qT0FRMEpQMHhNR0huNHdFVVd4TjExYXhhUTlhdk9ZZTRrWTBxbUduRWdmM1lIMkhrMnM?oc=5
 
 (só a manchete: a matéria não abriu)
-
-
-## Assunto 8
-
-### eurogamer.net (2026-11-19), selo sugerido relato
-Manchete: Rockstar reveals full GTA 6 cast list, finally ending speculation about who plays Jason Duval in the game
-Link: https://www.eurogamer.net/gta-6-full-cast-list-jason-duval-actor
-
-Rockstar reveals full GTA 6 cast list, finally ending speculation about who plays Jason Duval in the game
-UPDATE 5PM GMT: Actors Manni L. Perez and Dylan Rourke have announced their involvement in GTA 6, in portraying Lucia and Jason, respectively, in the game.
-Dylan Rourke wrote on Instagram: "Years witnessing the hardest working and most skilled artisans game making has to offer. We are truly honored to collaborate on this worldwide testament to human creativity, ingenuity, and sheer willpower. So much learned and so much to learn, keep fighting for what you love, stay humble.
-A photo accompanying the post shows the actors posing in front of a billboard advertising the game.
-A post shared by Dylan Rourke (@dylan_rourke)
-ORIGINAL STORY 3PM GMT: Rockstar has finally announced the full cast list for Grand Theft Auto 6, having left fans speculating right up to the game's release about which actors play the game's leads.
-Lucia's actor Manni L. Perez was revealed through her nomination for The Game Awards, and it nearly took a photo taken by Lucia's stunt double Victoria Lee to reveal who played Jason.
-"After keeping my mouth shut for YEEAARRSSS (and what feels like FOREVER!!!), I can finally share that I've been lucky enough to help bring Lucia to life as her main stunt double in Grand Theft Auto 6, along with a whole bunch of other characters stunts along the way!" Lee wrote in a picture of her and Manni, and rumoured Jason actor Dylan Rourke, on Instagram.
-"A special shoutout to Manni and Dylan! You two are truly amazing humans, inside and out! So much talent, heart, and genuine goodness. I'm forever grateful to have shared this wild ride with you both!" she added.
-And Rockstar's official cast list for GTA 6 confirms that yes, it is Dylan Rourke who plays the role.
-A post shared by Victoria Lee (@victoria_lee_stunts)
-Rourke's own Instagram account doesn't feature any news of his involvement in GTA 6, but his name was referenced in a recent IGN Holland article, as spotted on Reddit, earlier today.
-Stephen Root, who plays Brian Heder, was the only actor to confirm his involvement in GTA 6 prior to the game's release, though it's a name many people had already guessed following the game's Netflix extended look.
-For a different kind of GTA 6 coverage, be sure to bookmark Eurogamer's GTA 6 walkthrough. It's updated daily, and so far has crucial breakdowns of mechanics such as Criminal Profile, the new Wanted Level system, how romance and relationships work, and more besides.
-
-### polygon.com (2026-11-19), selo sugerido relato
-Manchete: GTA 6 Cast List: Who plays Jason, Lucia and More
-Link: https://www.polygon.com/gta-6-cast-list-actors-cameos-grand-theft-auto/
-
-Grand Theft Auto 6 has the longest story ever seen in a GTA game, which also means that it has an enormous cast of characters. Between rival faction leaders, radio station DJs, and fictional rappers, you're going to meet a whole lot of people in Leonida. And some of their voices might sound very familiar.
-While the full cast list is so large that it takes up a good chunk of GTA 6's hour-plus end credits, these are some of the biggest players in the story, including Jason and Lucia. Some you might recognize from movies or even previous Rockstar games, while others have some modest TV credits to their name.
-Below, we've listed all the actors who play main roles in GTA 6, along with their previous work that they've starred in.
-Much of GTA 6's cast comes from a TV background, and that includes Jason Duval. His voice actor, Dylan Rourke, has appeared on shows like 9-1-1: Lone Star, Station 19, and Grey's Anatomy. GTA 6 is his most high-profile role by a mile, though, unless you count his gig as ”Big Guy” on Modern Family as a star turn.
-Manni L. Perez, the actress behind Lucia Caminos, comes from a similar acting background as Dylan Rourke. Perez has popped up in Law & Order: Special Victims Unit, Chicago P.D., and The Blacklist. She's also a Rockstar alumni; Perez voices a Clubber in Grand Theft Auto 5, and a Blackjack Dealer in GTA Online.
-Jason and Lucia's comedic sidekick is one of the biggest stars in the entire cast. He's voiced by Bobby Moynihan, who was a principal cast member of Saturday Night Live from 2008 to 2017. You may remember him as playing Drunk Uncle, a recurring character on Weekend Update that already felt like a GTA bit. Moynihan has a long credits list outside of that, most recently appearing in NCIS: Origins, The Fall and Rise of Reggie Dinkins, and Minions & Monsters.
-The worst kept secret in all of gaming, Stephen Root plays Brian Heder, Jason's employer. He needs little introduction. Root is the man behind Milton in Office Space, Monroe Fuches in Barry, and Bill in King of the Hill, to name a few of his roles. Funny enough, Root is also credited as Florida Man on the TV series It's Florida, Man. Fitting, no?
-A standout in the cast, Dre'Quan plays a major supporting role in GTA 6 once the story gets to Vice City. He's played by Naiqui Macabroad, an actor who has appeared on Law & Order, Chicago P.D., and Crashing. Macabroad spends a lot of time in the story acting alongside of Hood Brat and Krissy Celess, two Florida-based rappers who appear in the game.
-If you want to see the full credits, including the developers and music, you don't have to beat GTA 6 to get them. Head into the Settings menu from the pause screen and tab over to Account. Scroll down to Credits, and you'll be able to scan a QR code that takes you to the credits on a browser. If you want to skip all of that, here's a direct link to the credits.
