@@ -5,6 +5,27 @@ Texto das matérias aberto pelo kit. Use os números, nomes e datas daqui. Maté
 
 ## Assunto 1
 
+### Rockstar Games (2026-11-19), selo sugerido confirmado
+Manchete: Grand Theft Auto VI Now Available - Rockstar Games
+Link: https://news.google.com/rss/articles/CBMimwFBVV95cUxNOWdwZ19FWUxxVGJyMl9peEJpcWRaY3hMcHFDbXE3UzlNMzRhZUthNGY1dmkyOXJ3cndhQnl6dlk0bnpaMzlSNG94RFdscU94RVJzejcweXhmNlRjTjJoY04yQkVNalQwaW1UOVZRSi12b2t5T2pqc2J3cGpQNC1vUFozM3dzSWJVVDJ3UWFGLXE2RlE3MFVZR2FtOA?oc=5
+
+(só a manchete: a matéria não abriu)
+
+### www.marketscreener.com (2026-11-19), selo sugerido rumor
+Manchete: Rockstar Games Announces Grand Theft Auto VI Now Available - www.marketscreener.com
+Link: https://news.google.com/rss/articles/CBMisAFBVV95cUxOZEtrU1ZSOXZSakE5UlA0dURyTDUwSnhBSU15YWhxMmh6UnhWN203UUNuaFNaZjhWWVkzNmhBV0tVQUk4ZWtQQ3N5cl9wVzlYN05HTHFjMjFvLUIyU2NsbGJwb1BlM09hMGRVNXNsVEJzaVk2d2tmZkRad1pXOUF5a1J3SjRVUDZWSEhsa2E1eTA0ZTI4SHl4UzNNQVhRc3FxQWJFZWhaSHJBajI3VnVvbA?oc=5
+
+(só a manchete: a matéria não abriu)
+
+### RockstarINTEL (2026-11-18), selo sugerido rumor
+Manchete: Grand Theft Auto VI is now available to play - RockstarINTEL
+Link: https://news.google.com/rss/articles/CBMie0FVX3lxTFBjb2pMZTNSVUZTeDZzMVozSWt1bHZJRDBmWlVtaGltYW14X0YtT0VFZXZKaWNvbFlYUW1YMVlGSkNPZnpiMTZmMW9iRVA4bGdJRDNudVRlLTRUSEdCcEwzUWtCeXlOOVdKZXRrRldYeUxiakNWc0RQOGN6QQ?oc=5
+
+(só a manchete: a matéria não abriu)
+
+
+## Assunto 2
+
 ### news.xbox.com (2026-11-19), selo sugerido confirmado
 Manchete: Grand Theft Auto VI is Out Now
 Link: https://news.xbox.com/en-us/2026/11/19/grand-theft-auto-vi-is-out-now/
@@ -22,7 +43,7 @@ Link: https://news.google.com/rss/articles/CBMikwFBVV95cUxOYS1HaTVmWjhxcC1NSVp2T
 (só a manchete: a matéria não abriu)
 
 
-## Assunto 2
+## Assunto 3
 
 ### blog.playstation.com (2026-11-18), selo sugerido confirmado
 Manchete: Grand Theft Auto VI launches tomorrow, November 19
@@ -56,16 +77,10 @@ Dongseok Oh Lead Director, Vindictus: Defying Fate, NEXON Korea
 Vincent Tao Lead Game Designer, Once Human
 
 
-## Assunto 3
+## Assunto 4
 
 ### G1 (2026-11-18), selo sugerido relato
 Manchete: GTA 6 já lançou? Entenda quando o game chega ao Brasil - G1
-Link: https://news.google.com/rss/articles/CBMitAFBVV95cUxOLWFoNngyRW1hX0gzMEZCcVAzU2RJamdLcHo4b3F5VnRnd2h0RjkxbnRYSlRfMHNPRVNsLWVsWWV3bEhEVzdRT19EbmJuSTcyYmFMYzNxTzEwOVBYWWN2Wnptb1BIc1lZdktzMDZIb0todGJoYmZtVlhXZk9vSVk4YkFSZTJHTkZYTDFqcjBCbFNyWG4zUFdPelZNaEs5Y1B5WVNNY2ZZNVZKaFE4eU1PNDBOV2zSAcMBQVVfeXFMTV9ySThIODNSTTJINDNUUXdwdGVkUTVTZ3g5d0duWGlPWHkzOGJ3V3Job25yZUVQZjBuODZMYUtwTlRHZnJDbEtNT0Rxa3c0eEFldmJycDFQSGp4dUxJTThiVnpaVVlrVEY5VEdyV2dOZl9taUxIUERyNzhMQXVHTE94RDlPdEhmNTVNWC1qcG5paUJhSzBTOGZqYl82a2F3Z3UzVVNQRVU4WVhvejEtbFZkcDBqWjcxTGRRanQtdGp2UHlr?oc=5
-
-(só a manchete: a matéria não abriu)
-
-### G1 (2026-11-18), selo sugerido relato
-Manchete: GTA 6 já foi lançado? Entenda quando o game chega ao Brasil - G1
 Link: https://news.google.com/rss/articles/CBMitAFBVV95cUxOLWFoNngyRW1hX0gzMEZCcVAzU2RJamdLcHo4b3F5VnRnd2h0RjkxbnRYSlRfMHNPRVNsLWVsWWV3bEhEVzdRT19EbmJuSTcyYmFMYzNxTzEwOVBYWWN2Wnptb1BIc1lZdktzMDZIb0todGJoYmZtVlhXZk9vSVk4YkFSZTJHTkZYTDFqcjBCbFNyWG4zUFdPelZNaEs5Y1B5WVNNY2ZZNVZKaFE4eU1PNDBOV2zSAcMBQVVfeXFMTV9ySThIODNSTTJINDNUUXdwdGVkUTVTZ3g5d0duWGlPWHkzOGJ3V3Job25yZUVQZjBuODZMYUtwTlRHZnJDbEtNT0Rxa3c0eEFldmJycDFQSGp4dUxJTThiVnpaVVlrVEY5VEdyV2dOZl9taUxIUERyNzhMQXVHTE94RDlPdEhmNTVNWC1qcG5paUJhSzBTOGZqYl82a2F3Z3UzVVNQRVU4WVhvejEtbFZkcDBqWjcxTGRRanQtdGp2UHlr?oc=5
 
 (só a manchete: a matéria não abriu)
@@ -76,10 +91,46 @@ Link: https://news.google.com/rss/articles/CBMizwFBVV95cUxPeEJiM1pJamtMc1dVOGpVW
 
 (só a manchete: a matéria não abriu)
 
-Outras manchetes: Quando GTA 6 chega ao PC? Veja o que se sabe sobre o lançamento - UOL
+### UOL (2026-11-18), selo sugerido relato
+Manchete: Quando GTA 6 chega ao PC? Veja o que se sabe sobre o lançamento - UOL
+Link: https://news.google.com/rss/articles/CBMiwAFBVV95cUxOV3dyWk83dnRTQU9BSXJqOHdvOFRyNTBBSHBvRm1lYU5lTVp5Uy1jLVFFS1dud0kxMDVzTE1XRnRaVDRnQU11T3kwMkpTRWF1MVRraUVEaUZVS3hnaE94OWV1ZndBQ0lmYnVxWFhfQ0ZmcmVfUE95NHVEcXF0V1o1elVhM21KLVdMbjRfQ0RLLU1iR0l1a2ZHc1pjYmVHSHNsMW1IMmw4eTVDRVQ1VlBsQzV1YjNXcWxKMkpFSVlmR1U?oc=5
+
+(só a manchete: a matéria não abriu)
 
 
-## Assunto 4
+## Assunto 5
+
+### eurogamer.net (2026-11-19), selo sugerido relato
+Manchete: Rockstar reveals full GTA 6 cast list, finally ending speculation about who plays Jason Duval in the game
+Link: https://www.eurogamer.net/gta-6-full-cast-list-jason-duval-actor
+
+Rockstar reveals full GTA 6 cast list, finally ending speculation about who plays Jason Duval in the game
+Rockstar has finally announced the full cast list for Grand Theft Auto 6, having left fans speculating right up to the game's release about which actors play the game's leads.
+Lucia's actor Manni L. Perez was revealed through her nomination for The Game Awards, and it nearly took a photo taken by Lucia's stunt double Victoria Lee to reveal who played Jason.
+"After keeping my mouth shut for YEEAARRSSS (and what feels like FOREVER!!!), I can finally share that I've been lucky enough to help bring Lucia to life as her main stunt double in Grand Theft Auto 6, along with a whole bunch of other characters stunts along the way!" Lee wrote in a picture of her and Manni, and rumoured Jason actor Dylan Rourke, on Instagram.
+"A special shoutout to Manni and Dylan! You two are truly amazing humans, inside and out! So much talent, heart, and genuine goodness. I'm forever grateful to have shared this wild ride with you both!" she added.
+And Rockstar's official cast list for GTA 6 confirms that yes, it is Dylan Rourke who plays the role.
+A post shared by Victoria Lee (@victoria_lee_stunts)
+Rourke's own Instagram account doesn't feature any news of his involvement in GTA 6, but his name was referenced in a recent IGN Holland article, as spotted on Reddit, earlier today.
+Stephen Root, who plays Brian Heder, was the only actor to confirm his involvement in GTA 6 prior to the game's release, though it's a name many people had already guessed following the game's Netflix extended look.
+For a different kind of GTA 6 coverage, be sure to bookmark Eurogamer's GTA 6 walkthrough. It's updated daily, and so far has crucial breakdowns of mechanics such as Criminal Profile, the new Wanted Level system, how romance and relationships work, and more besides.
+
+### polygon.com (2026-11-19), selo sugerido relato
+Manchete: GTA 6 Cast List: Who plays Jason, Lucia and More
+Link: https://www.polygon.com/gta-6-cast-list-actors-cameos-grand-theft-auto/
+
+Grand Theft Auto 6 has the longest story ever seen in a GTA game, which also means that it has an enormous cast of characters. Between rival faction leaders, radio station DJs, and fictional rappers, you're going to meet a whole lot of people in Leonida. And some of their voices might sound very familiar.
+While the full cast list is so large that it takes up a good chunk of GTA 6's hour-plus end credits, these are some of the biggest players in the story, including Jason and Lucia. Some you might recognize from movies or even previous Rockstar games, while others have some modest TV credits to their name.
+Below, we've listed all the actors who play main roles in GTA 6, along with their previous work that they've starred in.
+Much of GTA 6's cast comes from a TV background, and that includes Jason Duval. His voice actor, Dylan Rourke, has appeared on shows like 9-1-1: Lone Star, Station 19, and Grey's Anatomy. GTA 6 is his most high-profile role by a mile, though, unless you count his gig as ”Big Guy” on Modern Family as a star turn.
+Manni L. Perez, the actress behind Lucia Caminos, comes from a similar acting background as Dylan Rourke. Perez has popped up in Law & Order: Special Victims Unit, Chicago P.D., and The Blacklist. She's also a Rockstar alumni; Perez voices a Clubber in Grand Theft Auto 5, and a Blackjack Dealer in GTA Online.
+Jason and Lucia's comedic sidekick is one of the biggest stars in the entire cast. He's voiced by Bobby Moynihan, who was a principal cast member of Saturday Night Live from 2008 to 2017. You may remember him as playing Drunk Uncle, a recurring character on Weekend Update that already felt like a GTA bit. Moynihan has a long credits list outside of that, most recently appearing in NCIS: Origins, The Fall and Rise of Reggie Dinkins, and Minions & Monsters.
+The worst kept secret in all of gaming, Stephen Root plays Brian Heder, Jason's employer. He needs little introduction. Root is the man behind Milton in Office Space, Monroe Fuches in Barry, and Bill in King of the Hill, to name a few of his roles. Funny enough, Root is also credited as Florida Man on the TV series It's Florida, Man. Fitting, no?
+A standout in the cast, Dre'Quan plays a major supporting role in GTA 6 once the story gets to Vice City. He's played by Naiqui Macabroad, an actor who has appeared on Law & Order, Chicago P.D., and Crashing. Macabroad spends a lot of time in the story acting alongside of Hood Brat and Krissy Celess, two Florida-based rappers who appear in the game.
+If you want to see the full credits, including the developers and music, you don't have to beat GTA 6 to get them. Head into the Settings menu from the pause screen and tab over to Account. Scroll down to Credits, and you'll be able to scan a QR code that takes you to the credits on a browser. If you want to skip all of that, here's a direct link to the credits.
+
+
+## Assunto 6
 
 ### UOL (2026-11-19), selo sugerido relato
 Manchete: 'GTA 6' chega hoje. Veja preço, plataformas e do que mais você precisa - UOL
@@ -94,7 +145,7 @@ Link: https://news.google.com/rss/articles/CBMixAFBVV95cUxOQ0hpblktWVVlZWVTWm43O
 (só a manchete: a matéria não abriu)
 
 
-## Assunto 5
+## Assunto 7
 
 ### IGN Southeast Asia (2026-11-18), selo sugerido relato
 Manchete: 15 Minutes of GTA 6 PS5 Pro Gameplay (First Mission) - IGN Southeast Asia
@@ -109,30 +160,7 @@ Link: https://news.google.com/rss/articles/CBMie0FVX3lxTFAtQnB0al9XcmcyMV9CeFY0O
 (só a manchete: a matéria não abriu)
 
 
-## Assunto 6
-
-### estadaoalagoas.com.br (2026-11-19), selo sugerido rumor
-Manchete: GTA 6 chega ao Brasil nesta quinta-feira (19); veja o horário de lançamento no PS5 e Xbox - estadaoalagoas.com.br
-Link: https://news.google.com/rss/articles/CBMixwFBVV95cUxOUmpvYm5hN3kzbDV0dUhiRmhuclIxb2JHMTZTaXhJNUF2bXRHTzgzdG0tVGFKcWhxakVzWGpiTkVaRWF0MDd3dnVpaVptVHN4ekszNXZFRm01U3N3aFgxNWNsSExCU3d6ZDM4WXF3VmFKT1Q0bW9YcUdIOGRJa2s3MWFnaDR3M2QtOFI1bEZ1ckl5OXdHSi1RNTQxT0cxT2Jpa2hmLUtyVUdUYzhGeE5XY0xnQXJPOFNxeUFBdkVjM1hHb0ZORUg0?oc=5
-
-(só a manchete: a matéria não abriu)
-
-### UOL (2026-11-18), selo sugerido relato
-Manchete: Horário do GTA 6: veja quando o jogo chega ao PS5 e Xbox no Brasil - UOL
-Link: https://news.google.com/rss/articles/CBMiowFBVV95cUxQUDI2bW01alV4ZkJBaGpkNU5fZ3kzTTE0bjlZdzY3Q1VETkRHb2NKNVlMX2FpaGJPNHJIUUVGNWJrTjFJN0lfLUlGNFNOVUkxUVVrdjZTaF9zb3NiV0R5WnZtOElUZUFaR1JjRFByUGFMd0tnb055eDhLeEJ0UzFXams2dEY3MWdNSk9MOFdCSlVFamdlLWNObjZJUmpOQ1g0M2kw?oc=5
-
-(só a manchete: a matéria não abriu)
-
-### Exame (2026-11-18), selo sugerido rumor
-Manchete: GTA 6 é lançado nesta quinta-feira, 19: veja preço, plataformas e como jogar - Exame
-Link: https://news.google.com/rss/articles/CBMinAFBVV95cUxPaU5aY09GbmhiSXBvNnZEVFVvNldZamVBYXNOdFVsdVloY05ZR3lKbmRabk5GMzNmTW9EYkNDX1ZBanJEVzh1RThPVXc0cjhRSEFOSlYxa24yaFd2MF9YN3ozYUtqVUY2R3pGcmZYMG51NnNBMDc3S3ZOeFlTTFY1ZlF3T05kcFRxNVliWl9ndmNDb01FZllzQ3h0QUg?oc=5
-
-(só a manchete: a matéria não abriu)
-
-Outras manchetes: Que horas lança GTA 6? Veja a previsão no Brasil - Quero Bolsa | GTA 6 chega nesta quinta-feira (19): confira os consoles confirmados e como jogar no Xbox One - O Imparcial
-
-
-## Assunto 7
+## Assunto 8
 
 ### gamesradar.com (2026-11-18), selo sugerido rumor
 Manchete: How to unlock all pre-order and Ultimate Edition bonuses in GTA 6
@@ -264,70 +292,3 @@ We’ve got plenty more GTA 6 for you here at IGN. You can check out our review,
 Simon Cardy is a Senior Editor at IGN who can mainly be found skulking around open world games, indulging in Korean cinema, or despairing at the state of Tottenham Hotspur and the New York Jets. Follow him on Bluesky at @cardy.bsky.social.
 
 Outras manchetes: GTA 6: How The Ultimate Edition Content Works
-
-
-## Assunto 8
-
-### ign.com (2026-11-18), selo sugerido relato
-Manchete: Sony Issues Official PS5 Firmware Update Warning, Confirms GTA 6 Requirement
-Link: https://www.ign.com/articles/sony-issues-official-ps5-firmware-update-warning-confirms-gta-6-requirement
-
-Sony Issues Official PS5 Firmware Update Warning, Confirms GTA 6 Requirement
-Sony has confirmed that the recently released PS5 firmware 14.23 update is required to play GTA 6, in a social media post boosted by Rockstar Games.
-Yesterday November 17, Sony released PS5 system software update 26.07-14.23.00, which weighed in at 1.267 GB. According to Sony’s official patch notes, it makes “some security fixes to the system software.”
-Now, just hours before GTA 6 launches at midnight across the world, the PlayStation Support U.S. X / Twitter account confirmed what many had suspected: “Sony Interactive has issued a PS5 system software update that is required before playing Grand Theft Auto VI. Players should download this update prior to midnight on November 19 so that they’re ready to play on launch day, November 19.” The official Rockstar Games account then reposted it to its 23.7 million followers.
-Why has Sony issued this PS5 update warning?
-It is believed this unprecedented PS5 update cuts PlayStation Network access to older firmware, which means if you haven’t upgraded to 14.23 you will not be able to play GTA 6 on PS5. 14.23 released just a day after a prominent PS5 hacker claimed to be the first person to have “dumped” a game binary at 14.22, although they did not share any jailbreak.
-The PlayStation homebrew scene has made headlines in the last two months for releasing PS5 jailbreaks for prior firmwares. For example, late September, a jailbreak that supported all PS5 consoles running firmware 7.00-13.60 sent shockwaves through the homebrew community because, at the time, it meant that all PS5s, including the PS5 Pro, that hadn't been updated within the previous week were compatible with the jailbreak. This was of huge significance for Sony and the security of the PS5, as people with a jailbroken PS5 can modify their console, potentially opening the door to video game piracy.
-However, it was found that some PS5 games subsequently required the more recent 14.00 firmware in order to download updates, sparking a renewed effort to release a new jailbreak for the updated system software. So, there is a game of Whac-A-Mole at play where the homebrew scene is working to release a new jailbreak for the latest PS5 firmware, then do it all over again when Sony releases a new firmware update designed to beef up security.
-This in turn has sparked concern that if a PS5 jailbreak was made available for the firmware that is required by GTA 6, then it may be possible for Rockstar’s game to be pirated on PS5 and maybe even made available on PC.
-The question for Sony is whether it can do enough to eventually win this game of Whac-A-Mole with the homebrew scene. This is something of an existential crisis for Sony, which publishers and developers rely upon for the security of their PlayStation releases. But with the emergence of powerful AI models, the stakes have risen significantly.
-Just last week, Strauss Zelnick, the CEO of Rockstar parent company Take-Two, told IGN that the company was taking security seriously, and insisted that fans will prefer to play GTA 6 officially, with all its bells and whistles as Rockstar intended, over an unofficial PC version.
-During an investor-focused Q&A, Zelnick was asked multiple times about this AI reverse-engineering problem. He, again, had strong words in response, suggesting Take-Two was ready to lawyer up.
-“This business has been largely immune to piracy concerns forever because of file sizes, complexity of piracy, being connected to servers and the like,” he began. “And undoubtedly, it would be very difficult to replicate the experience of consuming our game as intended because of technical limitations.
-“That said, it's going to become more of a challenge, as you said, and we're aware of that. So we are utterly focused on enhancing our technical defenses and enhancing our legal activities appropriately. And at the same time, without in any way being cavalier, every entertainment business that exists is subject to some element of piracy. So this is likely to invade our business to a greater or lesser extent. I think it will be manageable and we are focused on it.”
-GTA 6 is expected to be the biggest entertainment launch of all time, and some companies have even given staff bonus time off to play it. We've got plenty more on GTA 6 ahead of its November 19 launch, including details on the New Zealand trick people are using to play early, Gangland Tales From the Frontline of Rockstar's Real-Life Grand Theft Auto Research, and — finally — confirmation of the actress who plays Lucia.
-Wesley is IGN's Managing Editor. Find him on Twitter at @wyp100. You can reach Wesley at wesley_yinpoole@ign.com or confidentially at wyp100@proton.me.
-
-### pushsquare.com (2026-11-18), selo sugerido rumor
-Manchete: GTA 6 Requires New PS5 Firmware Update to Play
-Link: https://www.pushsquare.com/news/2026/11/gta-6-requires-new-ps5-firmware-update-to-play
-
-GTA 6 Requires New PS5 Firmware Update to Play
-As we reported early yesterday, PS5 has a new firmware update, numbered v14.23.00. It’s now confirmed you’ll need to have this installed to play GTA 6.
-Notifying players on social media, a PlayStation Support page said: “Sony Interactive has issued a PS5 system software update that is required before playing GTA 6. Players should download this update prior to midnight on 19th November so that they’re ready to play on launch day, 19th November.”
-Sony usually gives users a period of grace to play their games before a new firmware update is made mandatory, so this is unprecedented behaviour.
-But the stakes have never been higher either: Rockstar’s open world is the most anticipated game of all time, and it’s coming at a time when the PS5 has been cracked wide open.
-Sony’s currently in a cat-and-mouse battle with hackers, as it tries to shore up the security of its console.
-That all comes at the cost of inconvenience to the rest of us, as we’re forced to install firmware updates which have been coming more and more frequently of late.
-This latest version is just 1.3GB so it’s not a huge lift, but this is your 24 hour warning that you’ll need to have it installed to play GTA 6.
-As the Editor of Push Square, Sammy has over 15 years of experience analysing the world of PlayStation, from PS3 through PS5 and everything in between. He’s an expert on PS Studios and industry matters, as well as sports games and simulators. He also enjoys RPGs when he has the time to dedicate to them, and is a bit of a gacha whale.
-Cant wait for Twitter to start crying about this.
-Can’t wait for GTA hype to die down so hopefully they won’t keep pushing these tedious, intrusive, time-and-space wasting updates. Also hope whoever decided to put a QR code on the update screen instead of telling you right then and there what the update actually does gets canned.
-Sucks about this cat and mouse game, Sony’s system was figured out, there is no update that can magically fix it. A hope a repeat of 2011 don’t happen.
-First time my Pro has frozen and not shut down properly when installing this update. Perfect timing and I thought I was screwed. 😬
-Hopefully Sony can find a way to effectively brick consoles that have been self hacked / jailbroken etc, and a more effective means of forcing some sort of regular online console 'check in' in order to continue playing games, so these consoles can't avoid detection. I'm no expert in these things (and I'm sure its more complicated than this).
-I suspect digital only games will help with this, but it would be nice to see them come up with a method that doesn't end up needing an always online requirement.
-@TheKurgan That happened to me two updates ago. I asked others if they experienced the same thing and they hadn't. It then rebuilt the database and went back to doing it's thing.
-@GirlVersusGame Yeah, hopefully it won't be a regular occurrence and all seems OK now.
-@Rich33 I am sure the digital only push will help, just look at the PC scene which has been all digital for a long time now and there is virtually no piracy or hacking.
-@arto Its a good point, but the very nature of PC's allows for a much greater prevalence of piracy etc.It may also be the case that the move to digital did help, relatively speaking of course, but I don't have a clue on this.
-@TheKurgan No problems with the update myself - also on Pro.Somewhat meaningless, I know, as some bugs can affect some but not others, but there we are.
-This is such a huge game, I wouldn’t be surprised if hackers released a cracked firmware, therefore spending one of the rare security gaps. IF they have one they can spend.
-@Rich33 But consoles these days are effectively PCs..Lets go back to cartridges I say!But you know what? CDs were dead easy to copy/pirate at some point, but the original ones only cost something like 10-15 euros, so lots of people who were into music opted to buy rather than pirate, to build a collection, to get the sleeves and to support the artist.All digital actually started as a way to pirate, remember Napster and Metallica?So maybe the problem lies elsewhere, not in the means of distribution...
-So many are gonna be mad at Sony for protecting their creation. I can see it now.
-@arto going back to cartridges is not a fool proof way to combat piracy etc. There was a device that would sit on top of a super Nintendo that allowed you to play pirated games stored on floppy discs. My mate had one back in the early 90's and I think it was a Chinese device. I can't recall the name.
-@Rich33 Literally why on Earth would you want to give a company the right to brick a console you’ve spent upwards of £500 on? If I buy a product, I reserve the right to do whatever I want with said product. If I want to connect to PSN however, I have to sign off on the Code of Conduct and such which specifically prohibits these sorts of modifications. It’s been the case since online services were introduced, you trade the ability to connect online for the ability to install homebrew and mods and the like.
-Anybody that tries to play online with a modded system is an utter moron and deserves their account banned. However, think about how Sony would actually know your system is modded if you aren’t connected to PSN. Do you really want them lifting telemetry data from your console regardless of whether it’s connected to their services? Do you not think it’s a massive overreach for any private company to be able to remotely disable something you’ve bought outright? I’m not actually convinced that would even be legal.
-@Simu001 You're a cranky old guy yelling at clouds.
-@Balaam_ what is intrusive about a firmware update? Or are you just looking for something Sony related to whine about?
-There’s something very worrying about this. It means they can very easily exclude games for you that are yet to be released and which you already own.
-@Northern_munkey Which just goes to show that there will always be a way to be found if someone wants to pirate a game or hack a console.Is it feasible to sell AAA games at 20 euros so people will have little incentive to pirate? Of course not.So all that is left is to assess the value proposition. A 100 euro game is easier to justify as a purchase if one knows they could recover a substantial amount of that money by selling it down the line, or building a collection that would retain some value - in some cases even higher value than the initial purchase if it is a special edition or something.With digital only the value drops substantially as there can be no resale, while the price is the same or even higher than physical, unless you come across a really good sale.People get pissed, some might turn to jailbreaking as a response.Now Sony will be playing cat and mouse for the foreseeable future.
-@Rich33 "Hopefully this corporation can find a way to take away a product someone paid £480 to own but just have the right to license it."
-Corporations really brainwash
-
-### TweakTown (2026-11-18), selo sugerido rumor
-Manchete: Gamers can't play GTA 6 on PS5 without updating system firmware, Sony and Rockstar confirm - TweakTown
-Link: https://news.google.com/rss/articles/CBMi0wFBVV95cUxOVm9FS1BTVkw5NUpmd1Fwai1HLTA0VzN3c1lobk9Jc0VRazA4cFduNEVia0lFc3hUY3ZFVGdBZXhmakpqTWJpdjFyRFNzQUxLMVhvLWlmZlhFTmFpb3R1TjJmMThncnh6bWh4eEVQWFp0Wm4wMk1kR2l5b2N0cGVOWlhYcGE3UU5jaGJWaVdIYlhscmo1Qm1lVFoySEhNRkI1Z2pYRGI5WlV2WF94a2ZWWE16UURqY0RyVERWYXZmbkQ5X0JSdm5ZUFplcTJnYUNWbTZR?oc=5
-
-(só a manchete: a matéria não abriu)
