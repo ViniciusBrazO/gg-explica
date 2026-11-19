@@ -9449,5 +9449,61 @@
         "descartar": true
       }
     ]
+  },
+  {
+    "arquivo": "clipes/oficial/artes_e_wallpapers/Cover_Art_Poster.jpg",
+    "tipo": "imagem",
+    "largura": 2805,
+    "altura": 3840,
+    "credito": "Imagens: Rockstar Games",
+    "descricao": "",
+    "lugar": "",
+    "personagens": [],
+    "tags": [],
+    "spoiler": null,
+    "folha": "clipes/_folhas/imagens_00364_0000.jpg",
+    "posicao_na_folha": 1
+  },
+  {
+    "arquivo": "clipes/oficial/artes_e_wallpapers/Cover_Art_Poster_Printable.jpg",
+    "tipo": "imagem",
+    "largura": 5775,
+    "altura": 7900,
+    "credito": "Imagens: Rockstar Games",
+    "descricao": "",
+    "lugar": "",
+    "personagens": [],
+    "tags": [],
+    "spoiler": null,
+    "folha": "clipes/_folhas/imagens_00364_0000.jpg",
+    "posicao_na_folha": 2
+  },
+  {
+    "arquivo": "clipes/oficial/artes_e_wallpapers/Leonida_Map_Poster.jpg",
+    "tipo": "imagem",
+    "largura": 2805,
+    "altura": 3840,
+    "credito": "Imagens: Rockstar Games",
+    "descricao": "",
+    "lugar": "",
+    "personagens": [],
+    "tags": [],
+    "spoiler": null,
+    "folha": "clipes/_folhas/imagens_00364_0000.jpg",
+    "posicao_na_folha": 3
+  },
+  {
+    "arquivo": "clipes/oficial/artes_e_wallpapers/Leonida_Map_Poster_Printable.jpg",
+    "tipo": "imagem",
+    "largura": 5775,
+    "altura": 7900,
+    "credito": "Imagens: Rockstar Games",
+    "descricao": "",
+    "lugar": "",
+    "personagens": [],
+    "tags": [],
+    "spoiler": null,
+    "folha": "clipes/_folhas/imagens_00364_0000.jpg",
+    "posicao_na_folha": 4
   }
 ]
