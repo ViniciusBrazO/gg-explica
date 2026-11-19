@@ -459,5 +459,45 @@
     "situacao": "agendado",
     "message_id": 494,
     "enviado": "2026-11-18T13:25:09.655780"
+  },
+  "982db45e96": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/2026-W47_gg_explica.json",
+    "video": "2026-W47_sex_ainda_nao_baixou",
+    "impressao": "756af1d10049",
+    "situacao": "agendado",
+    "message_id": 505,
+    "enviado": "2026-11-19T07:17:39.347054"
+  },
+  "6eb465c0c4": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/2026-W47_gg_explica.json",
+    "video": "2026-W47_sex_aviso_mapa",
+    "impressao": "e8076f4d5e81",
+    "situacao": "agendado",
+    "message_id": 506,
+    "enviado": "2026-11-19T07:19:56.738063"
+  },
+  "cfd70621f7": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-19_gg_explica.json",
+    "video": "radar_2026-11-19_chegou_hoje_reel",
+    "impressao": "75ecec5ec8cb",
+    "situacao": "agendado",
+    "message_id": 507,
+    "enviado": "2026-11-19T07:22:45.346809"
+  },
+  "f66f87073a": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-19_gg_explica.json",
+    "video": "radar_2026-11-19_bonus_preorder_reel",
+    "impressao": "c9b995b28ed1",
+    "situacao": "agendado",
+    "message_id": 508,
+    "enviado": "2026-11-19T07:25:45.994149"
+  },
+  "51f220a659": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-19_gg_explica.json",
+    "video": "radar_2026-11-19_criticas_reel",
+    "impressao": "195794b1efd8",
+    "situacao": "agendado",
+    "message_id": 509,
+    "enviado": "2026-11-19T07:28:06.657438"
   }
 }
