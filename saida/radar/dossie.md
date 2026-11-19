@@ -5,6 +5,25 @@ Texto das matérias aberto pelo kit. Use os números, nomes e datas daqui. Maté
 
 ## Assunto 1
 
+### news.xbox.com (2026-11-19), selo sugerido confirmado
+Manchete: Grand Theft Auto VI is Out Now
+Link: https://news.xbox.com/en-us/2026/11/19/grand-theft-auto-vi-is-out-now/
+
+Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
+Stories Untold Is Now Available For Xbox One
+XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
+Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
+An Alligator Swallowed an XBOX Series X – You Can Win It
+
+### Rolling Stone (2026-11-19), selo sugerido rumor
+Manchete: ‘GTA VI’ Is Finally Out - Rolling Stone
+Link: https://news.google.com/rss/articles/CBMikwFBVV95cUxOYS1HaTVmWjhxcC1NSVp2TU5DcWM4MFhKck1qdUw4NVpmYXBkODRlMEFkeHJTZXV6LUpKNFZ2bnJkR25tTXFHM3RnV2EtZ1RSTXdoYlBRNXdGeEd3OGYwSkFZZXVfREtranRGYzBYVncxWkxFNUFSUnliSnpLQVBuQ2ZwWXNRQVJHcW40R0hHeTFmdTg?oc=5
+
+(só a manchete: a matéria não abriu)
+
+
+## Assunto 2
+
 ### blog.playstation.com (2026-11-18), selo sugerido confirmado
 Manchete: Grand Theft Auto VI launches tomorrow, November 19
 Link: https://blog.playstation.com/2026/11/18/grand-theft-auto-vi-launches-tomorrow-november-19/
@@ -37,7 +56,7 @@ Dongseok Oh Lead Director, Vindictus: Defying Fate, NEXON Korea
 Vincent Tao Lead Game Designer, Once Human
 
 
-## Assunto 2
+## Assunto 3
 
 ### G1 (2026-11-18), selo sugerido relato
 Manchete: GTA 6 já lançou? Entenda quando o game chega ao Brasil - G1
@@ -60,17 +79,11 @@ Link: https://news.google.com/rss/articles/CBMizwFBVV95cUxPeEJiM1pJamtMc1dVOGpVW
 Outras manchetes: Quando GTA 6 chega ao PC? Veja o que se sabe sobre o lançamento - UOL
 
 
-## Assunto 3
+## Assunto 4
 
 ### UOL (2026-11-19), selo sugerido relato
 Manchete: 'GTA 6' chega hoje. Veja preço, plataformas e do que mais você precisa - UOL
 Link: https://news.google.com/rss/articles/CBMixAFBVV95cUxNTVM1bmd5SDhhY2phc2huVHltaU9xTzlNdy1QcWdYNUJqcWJMeEF0SVo2ZnV4RW1LVXNpRGVQVFNfbnNORVVnSzRGV1RwcjItdVpfNXpLc1RpQXNjcXE4VW5qNUpEa3dqZTFWejBiUzhtZ1cxYW42eFE3T3hUeE1MQ0U4bUNJc2toSlpic2ZwYVBweVBIUG9PZlo1MkE2eThLR3JZYnZiTjAtbldJd0V6NW16MEZXTjNxTlhLYk1CNXlxMk8x?oc=5
-
-(só a manchete: a matéria não abriu)
-
-### Jornal Brasília Capital (2026-11-18), selo sugerido rumor
-Manchete: GTA 6 chega aos consoles nesta quinta-feira; veja horário, preços e plataformas - Jornal Brasília Capital
-Link: https://news.google.com/rss/articles/CBMipwFBVV95cUxNU2ZkRmVVS3gtamYzUHlEU2FtSVprMDdoZ0NxZFp6UGNDZHJNUGpCbFR2a2REb0xHV3kxa1kzZjhLSWxaUXNPU0pBUG9lNkJYc0N2WmVJc0I3Wnk4OW8tLXhUajV4VjhlRDNjR1FaQzMxRzFYWHpNNkRDYV9GN096MnlzbWdYQi1oSkxGQWRON2F4TjNqMm1tTUhjWlZPYTZ3YnQ3dnNVNA?oc=5
 
 (só a manchete: a matéria não abriu)
 
@@ -81,7 +94,7 @@ Link: https://news.google.com/rss/articles/CBMixAFBVV95cUxOQ0hpblktWVVlZWVTWm43O
 (só a manchete: a matéria não abriu)
 
 
-## Assunto 4
+## Assunto 5
 
 ### IGN Southeast Asia (2026-11-18), selo sugerido relato
 Manchete: 15 Minutes of GTA 6 PS5 Pro Gameplay (First Mission) - IGN Southeast Asia
@@ -96,30 +109,30 @@ Link: https://news.google.com/rss/articles/CBMie0FVX3lxTFAtQnB0al9XcmcyMV9CeFY0O
 (só a manchete: a matéria não abriu)
 
 
-## Assunto 5
-
-### Scripps News (2026-11-18), selo sugerido rumor
-Manchete: Could Grand Theft Auto VI become the best-selling video game of all time? - Scripps News
-Link: https://news.google.com/rss/articles/CBMitAFBVV95cUxNdE1BWFlDbGtWNFRTMmJUR2ZWWkpGeVVGOUhzSUtib0VQMFlSRHdROEFHa0hJbERYZl9qaEFFdFcyNU9qZkczT25OWGJnQnlFQXFRQ2VoS2NVOV9lS0FLcHVuNi01cXBmSUxnQmVvSGpQTkd1NWU4WTFiZVhsVGVXVDQwdUlxOHNZb2xLMi1BTFNrbTM5dDdZYmk4anlrUURSYTc5WnNuY1ZULXFLelNqV3Rlc3g?oc=5
-
-(só a manchete: a matéria não abriu)
-
-### Bloomberg.com (2026-11-18), selo sugerido relato
-Manchete: ‘Grand Theft Auto VI’ Becomes the Best-Reviewed Video Game Ever - Bloomberg.com
-Link: https://news.google.com/rss/articles/CBMiswFBVV95cUxNZTFWY3FxYXQ4OFBjZWdYWHVhN3BwczVMLXNvc2R1N1Y5ek00OFFpcmpvd1pEeWNfVzdOeW1YTG9KZWtHdHlOamtQX19lc2tTbU43RXREbEhlNFQ1QlRsNmNUcWdLWExUcnRsckdpbWdfZ3Z0dWNyQUc2SlR0X2doOFp0V1FxdXdxTzNTR2dkOWswT0JLZXAyMk45bHJFX3NSVW5UQkFqNGhSLWFabTRSUUNXYw?oc=5
-
-(só a manchete: a matéria não abriu)
-
-### DualShockers (2026-11-18), selo sugerido rumor
-Manchete: GTA 6 Ties for the Best Reviewed Game of All Time - DualShockers
-Link: https://news.google.com/rss/articles/CBMihgFBVV95cUxPeHdwcDZkU1FUMlUtQkU5YUxjUzRaMXpNWlZHMjdrWTVPWWFIdFJybU9yZnNhTWRnWFNPXzdNSk50ZS1DSGhnMjl4aFJBTEVjQXpPTUE3VjRtNndLNEdhQzVnZzBvRC1jdmRnejRzTzd6Q2hpckd5UG9LVGlBTXZ4ZzNwRk83dw?oc=5
-
-(só a manchete: a matéria não abriu)
-
-Outras manchetes: Grand Theft Auto VI Reviews Are In, and It Is Officially the Best-Reviewed Game of All Time - CULTR | GTA VI Reviews Are In, Becomes The Best Rated Video Game of All Time - RockstarINTEL
-
-
 ## Assunto 6
+
+### estadaoalagoas.com.br (2026-11-19), selo sugerido rumor
+Manchete: GTA 6 chega ao Brasil nesta quinta-feira (19); veja o horário de lançamento no PS5 e Xbox - estadaoalagoas.com.br
+Link: https://news.google.com/rss/articles/CBMixwFBVV95cUxOUmpvYm5hN3kzbDV0dUhiRmhuclIxb2JHMTZTaXhJNUF2bXRHTzgzdG0tVGFKcWhxakVzWGpiTkVaRWF0MDd3dnVpaVptVHN4ekszNXZFRm01U3N3aFgxNWNsSExCU3d6ZDM4WXF3VmFKT1Q0bW9YcUdIOGRJa2s3MWFnaDR3M2QtOFI1bEZ1ckl5OXdHSi1RNTQxT0cxT2Jpa2hmLUtyVUdUYzhGeE5XY0xnQXJPOFNxeUFBdkVjM1hHb0ZORUg0?oc=5
+
+(só a manchete: a matéria não abriu)
+
+### UOL (2026-11-18), selo sugerido relato
+Manchete: Horário do GTA 6: veja quando o jogo chega ao PS5 e Xbox no Brasil - UOL
+Link: https://news.google.com/rss/articles/CBMiowFBVV95cUxQUDI2bW01alV4ZkJBaGpkNU5fZ3kzTTE0bjlZdzY3Q1VETkRHb2NKNVlMX2FpaGJPNHJIUUVGNWJrTjFJN0lfLUlGNFNOVUkxUVVrdjZTaF9zb3NiV0R5WnZtOElUZUFaR1JjRFByUGFMd0tnb055eDhLeEJ0UzFXams2dEY3MWdNSk9MOFdCSlVFamdlLWNObjZJUmpOQ1g0M2kw?oc=5
+
+(só a manchete: a matéria não abriu)
+
+### Exame (2026-11-18), selo sugerido rumor
+Manchete: GTA 6 é lançado nesta quinta-feira, 19: veja preço, plataformas e como jogar - Exame
+Link: https://news.google.com/rss/articles/CBMinAFBVV95cUxPaU5aY09GbmhiSXBvNnZEVFVvNldZamVBYXNOdFVsdVloY05ZR3lKbmRabk5GMzNmTW9EYkNDX1ZBanJEVzh1RThPVXc0cjhRSEFOSlYxa24yaFd2MF9YN3ozYUtqVUY2R3pGcmZYMG51NnNBMDc3S3ZOeFlTTFY1ZlF3T05kcFRxNVliWl9ndmNDb01FZllzQ3h0QUg?oc=5
+
+(só a manchete: a matéria não abriu)
+
+Outras manchetes: Que horas lança GTA 6? Veja a previsão no Brasil - Quero Bolsa | GTA 6 chega nesta quinta-feira (19): confira os consoles confirmados e como jogar no Xbox One - O Imparcial
+
+
+## Assunto 7
 
 ### gamesradar.com (2026-11-18), selo sugerido rumor
 Manchete: How to unlock all pre-order and Ultimate Edition bonuses in GTA 6
@@ -131,24 +144,18 @@ Keep exploring and earning more as a member.
 Get the biggest gaming news, reviews, and releases straight to your inbox.
 Weekly digests, tales from the communities you love, and more
 Get full access to premium articles, exclusive features and a growing list of member rewards.
-How to get your GTA 6 Ultimate Edition and pre-order bonus unlocks
+How to unlock GTA 6 Ultimate Edition Content and when you can use each item
 The additional content you unlock through pre-ordering GTA 6 or buying the Ultimate Edition is all found in different locations
 Are you wondering how to unlock the GTA 6 pre-order and GTA 6 Ultimate Edition bonuses? Don't worry, I was too through my first few hours in Leonida. It turns out that Rockstar Games doesn't want you having too many cool things too quickly, which is why you'll need to progress through different sections of the game before you'll gain access to unique weapons, vehicles, mod shops, clothing stores, and more that come as part of the DLC package, no matter which of the GTA 6 versions you own.
 Below you'll find a breakdown of where to get the GTA 6 pre-order bonuses for both the Standard Edition and Ultimate Edition of the game. You'll also find a detailed breakdown of where to access all of the GTA 6 Ultimate Edition exclusives, which unlock as you progress through the story.
-All GTA 6 pre-order bonuses and how to unlock them
-Regardless of whether you pre-ordered the Standard Edition or the Ultimate Edition of GTA 6, you'll get access to a couple of nice bonus items. These are available from Chapter 3 onwards, and can be unlocked by doing the following:
-Location: Ocean View Hotel (Stainer) and North of Washington Beach (Bonita Court Garage)
-The option to collect a uniquely-styled '55 Vapid Stainer vehicle from Vice Beach will appear as a task within the Exploration section of the map index. Once you've collected the vehicle from outside the Ocean View Hotel, you'll also unlock the Bonita Court Garage north of Washington Beach to store it in.
-Location: Residence wardrobe (outfits) and any salon (hairstyles)
-Once you've collected your '55 Vapid Stainer vehicle, you'll unlock some other bonuses as well. Head back to your residence and access the wardrobe to find exclusive outfits, and then visit any Salon to access a new hairstyle for Jason and Lucia under the Special section of the in-store menu.
-As soon as you've found the 55 Vapid Stainer, the first thing you'll want to do is drive across to any Ammu-Nation store. Once inside, access the weapons locker and head into the Cosmetics / Wraps section of the modify menu on any gun to freely apply the pre-order exclusive weapon pattern.
-All GTA 6 Ultimate Edition bonuses and how to unlock them
+When does GTA 6 Ultimate Edition content unlock?
+Where to find GTA 6 Ultimate Edition content
 If you purchase the more expensive GTA 6 Ultimate Edition, you'll find that Rockstar has well and truly made it worth your while. The exclusive storefronts, weapons, clothes, and vehicles aren't immediately accessible, instead they become available once you reach certain GTA 6 mission milestones:
-Weekly digests, tales from the communities you love, and more
 Once you're able to leave Jason's House in Chapter 1, you'll find two exclusive vehicles waiting for you. Underneath the house you'll find an Army fatigue-tinged Dinka Enduro motorcycle in the driveway, and off to the back of the building you'll spot a Crest Kayak which can be used to explore the Leonida Keys.
 Only available for use in Chapter 1, you can get an exclusive pro build for Jason's Vapid Ganado pickup truck. Open up the map and head into the Vehicles index, from there click the Mod Shops option and look for Coastal Auto Care in Key Lento. Drive the Vapid Ganado over there and the unlock can be applied inside the Pro Builds / Full Kits section of the mod shop menu.
 Take Jason to any Ammu-Nation store from Chapter 1 and access the weapon locker to unlock a personalized Girardi ES9 pistol. You can do the same with Lucia from Chapter 2 onwards, unlocking a unique Klose K17 pistol. Both of these weapons are free to equip and use.
 Once you're into Chapter 2 of GTA 6, you'll be able to access unique weapon variants of the powerful Morgan revolver (regardless of whether you've already purchased the weapon). Jason and Lucia have their own versions, which can be accessed from any Ammu-Nation weapon locker.
+Weekly digests, tales from the communities you love, and more
 Location: One-Eye Willie's Auto Shop, North Leonard County
 Located in North Leonard County, just north of Lake Leonida, you'll gain access to One-Eyed Willie's Auto Shop from Chapter 1. This GTA 6 Mod Shop specializes in off-road vehicles, and will give you access to a range of custom, hand-painted liveries for purchase.
 Location: Thrillbilly Mud Club / Exploration Task
@@ -159,7 +166,12 @@ Technically accessible from Chapter 1, there's a number of PTT YOUNGIN$ Compound
 Stock 305 can be found in the north quadrant of Vice City, in the Stockyard district. This skate store, selling contemporary streetwear and accessories, can be easily located by opening the map, heading to the style section of the index, and clicking onto the Casual & Street tab to get a destination.
 Undoubtedly one of the better Hair & Beauty locations in GTA 6, Sara's Unisex Salon is located on the main strip of the Hamlet town. Find it in the Style section of map index. Once you're into Chapter 2, you'll gain access to exclusive signature looks for Jason and Lucia.
 Located in the Stockyard area of Vice City, the Electric Fang Tattoo Parlor is open for business from Chapter 1. This tattoo parlor has over 50 signature tattoos for Jason and Lucia, all designed by the artist collective FAILE. Head to the Style section of the map index and look for the Tattoos tab.
-The Wonder Whale is a Souvenir & Swimwear shop available for all players, located in the heart of
+The Wonder Whale is a Souvenir & Swimwear shop available for all players, located in the heart of the Key Leonto area (just off the main strip of highway). Head to the mannequins in the store to find some exclusive merch to purchase and wear. Just head to the Style section of the map index to get a location.
+Location: Residence wardrobe (outfits), any tattoo parlor (tattoos), and any salon (hairstyles)
+Once you're in Chapter 4, you've likely figured out the styles of both Jason and Lucia. Expect that to be challenged once a set of outfits are unlocked, for free – accessed directly from your wardrobe. A new set of tattoos are also available from most tattoo parlors, and new hair/beard styles at Sara's Unisex Salon.
+Chapter 4 will also unlock a Shitzu Squalo for you to use for fishing and to search for dive sites in GTA 6. The boat is docked in a canal, south of the Washington Beach area of the map – just to the left of the Y Hotel. You can locate this vehicle at all times by heading to the Personal section of the map index.
+Location: Pegassi Residences building garage / Exploration Task
+An exclusive variant of one of the best cars in GTA 6 will be made available to you in Chapter 5. The '95 Grotti Cheetah is parked up in the garage beneath the Pegassi Residences building just waiting for you to collect it. You can also find a task in the Exploration section of 
 
 ### pcgamer.com (2026-11-18), selo sugerido rumor
 Manchete: How to collect your GTA 6 Ultimate Edition bonuses
@@ -254,7 +266,7 @@ Simon Cardy is a Senior Editor at IGN who can mainly be found skulking around op
 Outras manchetes: GTA 6: How The Ultimate Edition Content Works
 
 
-## Assunto 7
+## Assunto 8
 
 ### ign.com (2026-11-18), selo sugerido relato
 Manchete: Sony Issues Official PS5 Firmware Update Warning, Confirms GTA 6 Requirement
@@ -317,51 +329,5 @@ Corporations really brainwash
 ### TweakTown (2026-11-18), selo sugerido rumor
 Manchete: Gamers can't play GTA 6 on PS5 without updating system firmware, Sony and Rockstar confirm - TweakTown
 Link: https://news.google.com/rss/articles/CBMi0wFBVV95cUxOVm9FS1BTVkw5NUpmd1Fwai1HLTA0VzN3c1lobk9Jc0VRazA4cFduNEVia0lFc3hUY3ZFVGdBZXhmakpqTWJpdjFyRFNzQUxLMVhvLWlmZlhFTmFpb3R1TjJmMThncnh6bWh4eEVQWFp0Wm4wMk1kR2l5b2N0cGVOWlhYcGE3UU5jaGJWaVdIYlhscmo1Qm1lVFoySEhNRkI1Z2pYRGI5WlV2WF94a2ZWWE16UURqY0RyVERWYXZmbkQ5X0JSdm5ZUFplcTJnYUNWbTZR?oc=5
-
-(só a manchete: a matéria não abriu)
-
-
-## Assunto 8
-
-### polygon.com (2026-11-19), selo sugerido relato
-Manchete: GTA 6 Officially Cuts A Controversial Franchise Feature After 25 Years
-Link: https://www.polygon.com/gta-6-prostitutes-hookers-strippers-where-are-npcs-rockstar/
-
-The mechanic has appeared in many GTA games, across multiple hardware generations
-GTA 6 officially cuts a controversial franchise feature after 25 years
-You can do anything you want in a Grand Theft Auto game, but the franchise has historically been defined by a handful of specific mechanics. Steal a car. Shoot pedestrians. And for better or worse, soliciting a prostitute. Grand Theft Auto 6, however, is an unusually realistic game that tells a humane story about a couple, and those shifts in approach are reflected in the game's actions.
-Prostitutes made their debut as NPCs in 2001 with the release of Grand Theft Auto 3. These characters, which appeared on the game's streets at night, could be solicited by the player for $100. Though the encounters were explicit in nature, the animations at the time only showed the vehicle bouncing suggestively.
-The arguably tame mechanic became infamous for two primary reasons. Many fans approach GTA as a chaos simulator, so players sometimes target sex workers indiscriminately. It became a running joke, for lack of a better word, for GTA fans to sleep with and immediately kill the women they hired. Once dead, the NPCs would drop the money the player used to hire them.
-Another major source of the feature's infamy was Grand Theft Auto: San Andreas' Hot Coffee incident. In short, Rockstar designed a mini-game that allowed CJ, the protagonist, to have sex with a prostitute. Unlike GTA 3, this minigame didn't leave things to the imagination — the characters could be seen bent over and going at it. Rockstar pulled the minigame out of San Andreas for the official release, but the feature was still hidden in the game's files. In 2005, when San Andreas was ported to PC, modders found the minigame and released it to the public under the name Hot Coffee.
-Many years later, after much legal rigmarole and multiple new games, Hot Coffee has defined the public's view of GTA as a franchise. Yet despite all the headaches Hot Coffee caused Rockstar, the developer nonetheless continued to include sex workers through Grand Theft Auto 5. In that game, the player purchase services by sex workers that were, in some cases, animated more scandalously than those in Hot Coffee. Rockstar's addition of a first-person view further heightened the intensity of these encounters. GTA V was also the first game to include a crass caricature of trans sex workers available for hire — a fact that was heavily decried by queer fans who felt Rockstar was punching down.
-Now, 25 years after their original inclusion, hirable sex workers are not making a return in GTA 6. Given the game's enormous number of encounters, a sex worker could still appear somewhere in GTA 6. As a type of highly visible NPC, however, prostitutes are gone.
-Michael is the only one of the five who is already successful when you meet him, which makes him the only one whose real problem is boredom.
-You picked the house first, and the rest of your life arranged itself around that one decision.
-A bad family dinner is one you are paying for, while wondering how it ended up like this.
-Ten years on you are trying to retire for the fourth time, and you will not manage it.
-Franklin is the one who arrives wanting out, and everything he does is measured against whether it moves him closer to that.
-You say nothing when somebody takes credit for your work, and you remember exactly who was in the room.
-Money gets invested carefully in the thing that gets you out, which nobody else here would even consider.
-People think this is as far as you are going. That is the single most useful thing they could believe.
-Trevor is the least predictable character in the game and the most quoted, because he says out loud what everybody else is being careful about.
-You introduce yourself to everyone, loudly, within an hour of arriving anywhere.
-Money is gone by Thursday and you genuinely could not tell anybody where it went.
-People think you do not know exactly what you are doing. You do, and that is the unsettling part.
-Lester is the one who sees the whole board, and he is written as the opposite of everybody around him: no volume, no impulse, all preparation.
-You researched the place for six months before you moved, and you know it better than people who grew up there.
-You screen every call and ring back when you are ready, which other people find rude and you find obvious.
-People think you are not paying attention. You have a record of exactly who did what, and it will come up.
-Lamar is the character with the most confidence and the least evidence, and the game clearly likes him more for it.
-You told everyone back home how well it was going well before it was going at all.
-Money goes on something visible, immediately, because what is the point otherwise.
-People think you do not mean a word of it. You mean all of it, every time, which is why the next one is definitely the one.
-Rockstar did not immediately respond to a request for comment. However, a representative told Shacknews that “GTAVI is a game about a couple in a bind, lovers on the run. While we have taken a lot forward from previous GTA titles, everything we have implemented in VI has been done to support the spirit of the story we wanted to tell, and the gameplay systems we wanted to expand upon — things like wanted system, the radio, robberies and car theft."
-The explanation makes sense given GTA 6's realism and heightened gore. Critics have already noted in their reviews that, for the first time ever, breaking the law or harming NPCs sometimes inspires guilt. Rockstar's justification has still disappointed fans who consider prostitutes a key pillar of the franchise. Most people don't seem to mind and appear content with being able to visit strip clubs.
-"Many aspects of previous titles are not present in GTAVI, but the elements we have we believe are all necessary and complementary to the feeling and motivations we wanted to emphasize as you play through Jason and Lucia's story," Rockstar's statement continued.
-Grand Theft Auto 6 will be released on Nov. 19 on PlayStation 5 and Xbox Series X.
-
-### Comic Book Resources (2026-11-19), selo sugerido rumor
-Manchete: GTA 6 Players Cry Foul as Rockstar Removes Controversial Franchise Feature After 25 Years - Comic Book Resources
-Link: https://news.google.com/rss/articles/CBMiaEFVX3lxTE44a0ozaUg5UG52Z0poMjVqRzBwRHFDOVVkdE9qNVQ0UDIyeHJWWWpYVjFpcTBwLUFoY3pfZ0hVMWZ4OC1heEl4Vk1mMVhuWGEyLXl2ZktXNGNUeU0tRzhERlUta3o2NTUx?oc=5
 
 (só a manchete: a matéria não abriu)

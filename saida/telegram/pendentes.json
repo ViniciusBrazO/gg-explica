@@ -499,5 +499,13 @@
     "situacao": "agendado",
     "message_id": 509,
     "enviado": "2026-11-19T07:28:06.657438"
+  },
+  "0dcb97514c": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-19_gg_explica.json",
+    "video": "radar_2026-11-19_xbox_nuvem_reel",
+    "impressao": "5bd2f0d4a37d",
+    "situacao": "agendado",
+    "message_id": 515,
+    "enviado": "2026-11-19T11:15:14.751039"
   }
 }
