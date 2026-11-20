@@ -30,6 +30,29 @@ Hoje é {data de hoje}. Pelo Telegram, o Vinicius pediu ajustes em alguns vídeo
 >    depois** do Reel, com outra capa, outra manchete e outras imagens (o kit também evita repetir).
 > Quando `saida/estado_voz.txt` diz `desligada`, siga a regra de formato abaixo (só carrossel).
 
+> **O que funciona na GG Explica (números de 19/11, leia antes de escolher os assuntos).** Os Reels que mais
+> renderam foram serviço para o brasileiro que vai jogar ou já está jogando: "Onde está o bônus de pré-venda"
+> (268 views em 6 h, 10 curtidas, 3 envios: o melhor), "GTA 6 tem 80 horas" (308), "A que horas libera"
+> (226), "Tem dublagem? Só legenda" (208), "Lança quinta e sexta é feriado" (202, 7 curtidas). Os piores foram
+> notícia de indústria e de marca: votação do Game Awards (73), Nintendo nas categorias (2 curtidas), hacker,
+> controle à venda (89), parceria com o Heat (42) e o óbvio que todo mundo postou ("GTA 6 sai hoje", 69).
+> Então, agora que o jogo saiu:
+> - **4 de cada 4 Reels são dica, segredo ou dúvida de quem está jogando**, com fato de fonte séria e selo:
+>   dinheiro rápido / não ficar liso, onde achar (carro, arma, lugar), o que fazer nas primeiras horas,
+>   configuração no PS5 e Xbox, bônus e conteúdo da edição, jogar sem ter o console (nuvem), quanto tempo
+>   cada coisa leva, erro comum que todo mundo comete. Sem spoiler da história e nunca o final.
+> - **Prêmio, indústria, venda de acessório e parceria de marca só se for gigante** (adiamento, recorde
+>   histórico) e, mesmo assim, contado pelo lado do jogador ("o que isso muda pra você").
+> - **Manchete no estilo "Segredo pra *não ficar liso* no GTA 6", "Encontraram o *barco do Michael*",
+>   "Onde está o *bônus de pré-venda*"**: a promessa de algo útil ou escondido, específica.
+> - **Capa com rosto:** a imagem da 1ª cena (que vira a capa, com a moldura da marca) é de preferência o
+>   **rosto de um personagem em close** ("busca:lucia rosto close", "busca:jason rosto close noite"), sempre
+>   diferente da capa dos posts próximos.
+> - **Comentário:** os Reels estão com zero comentários; "comenta tal palavra" não funcionou. Termine a
+>   narração e a legenda com **uma pergunta de resposta fácil e com lado**, que a pessoa responde em 1
+>   segundo: "Você vai de Jason ou de Lucia?", "Já achou esse? Sim ou não", "PS5 ou Xbox?",
+>   "Qual foi a primeira coisa que você fez em Vice City?".
+
 > **Engajamento (pedido do Vinicius, 15/11). Vale para todo Reel, antes de qualquer outra regra de forma.**
 > Os números mostram o problema: retenção média de 3 a 8 segundos em Reels de 45 a 55 s e quase nenhum
 > envio ou salvamento. Então:

@@ -71,6 +71,26 @@ mark { background: none; color: var(--destaque); }
 .p-capa.capa-impacto h1 { font-size: calc({{ 116 if altura > 1400 else 96 }}px * var(--escala)); }
 .p-capa.capa-impacto h1 mark { display: block; font-size: 1.7em; line-height: .92; margin: .06em 0; }
 
+/* capa "grade" (19/11, estilo das páginas que crescem): tudo dentro do recorte 3:4 que a grade do perfil
+   mostra (y 240 a 1680 numa capa 1080x1920), moldura e etiqueta da marca fixas, rosto em cima, manchete
+   embaixo e o @ no rodapé da moldura. A variedade fica na imagem e na manchete. */
+.p-capa.capa-grade .assinatura, .p-capa.capa-grade .logo, .p-capa.capa-grade .credito { display: none; }
+.p-capa.capa-grade .arroba-capa small { font-weight: 500; font-size: 20px; letter-spacing: .03em; color: rgba(244,246,248,.6); }
+.p-capa.capa-grade .veu { background: linear-gradient(180deg, rgba(11,13,18,0) 0%, rgba(11,13,18,0) 44%,
+    rgba(11,13,18,.72) 62%, rgba(11,13,18,.96) 80%, #0B0D12 100%); }
+.p-capa.capa-grade .moldura { position: absolute; left: 16px; right: 16px; top: 256px; bottom: 256px;
+  border: 6px solid var(--destaque); border-radius: 22px; box-shadow: 0 0 0 2px rgba(0,0,0,.35) inset; }
+.p-capa.capa-grade .tag-marca { position: absolute; top: 284px; left: 44px; padding: 8px 16px 6px;
+  background: var(--destaque); color: #0B0D12; font-weight: 800; font-size: 28px; letter-spacing: .12em;
+  border-radius: 8px; }
+.p-capa.capa-grade .bloco { bottom: 330px; left: 50px; right: 50px; max-height: 760px; }
+.p-capa.capa-grade .etiqueta { margin-bottom: 20px; font-size: 26px; border-radius: 6px; }
+.p-capa.capa-grade h1 { font-size: calc(122px * var(--escala)); line-height: .97;
+  -webkit-text-stroke: 3px #000; paint-order: stroke fill; }
+.p-capa.capa-grade .sub { font-size: calc(34px * var(--escala)); margin-top: 14px; }
+.p-capa.capa-grade .arroba-capa { position: absolute; left: 0; right: 0; bottom: 272px; text-align: center;
+  font-weight: 700; font-size: 26px; letter-spacing: .06em; color: rgba(244,246,248,.86); }
+
 /* ---------- fato: imagem inteira, título colorido e texto embaixo (estilo IGN) ---------- */
 .p-fato .bloco { position: absolute; left: 60px; right: 60px; bottom: 76px; max-height: 640px;
   display: flex; flex-direction: column; justify-content: flex-end; }
@@ -124,6 +144,8 @@ mark { background: none; color: var(--destaque); }
 <div class="veu"></div>
 <p class="assinatura">{{ arroba|replace('@', '') }}</p>
 {% if papel != 'final' %}<div class="logo"></div>{% endif %}
+{% if papel == 'capa' and estilo_capa == 'grade' %}<div class="moldura"></div>
+<p class="tag-marca">{{ marca_nome|upper }}</p><p class="arroba-capa">{{ arroba }}{% if cena.credito %} <small>· {{ cena.credito }}</small>{% endif %}</p>{% endif %}
 
 {% macro etiqueta() -%}
   {%- if cena.selo and selos.get(cena.selo) %}{% set s = selos[cena.selo] -%}

@@ -243,7 +243,10 @@ def renderizar_carrossel(marca: Marca, video: Video, pasta_saida: Path, com_reel
 
 def capa_do_reel(marca: Marca, video: Video, midia: tuple[str, float] | None, destino: Path,
                  estilo_capa: str = "base") -> Path:
-    """Capa 1080x1920 do Reel narrado, no modelo revista (manchete, etiqueta, imagem oficial)."""
+    """Capa 1080x1920 do Reel narrado, no modelo revista (manchete, etiqueta, imagem oficial).
+    Com `capa_reel.modelo: grade` na marca, todas as capas usam a moldura fixa da marca (19/11)."""
+    if (marca.dados.get("capa_reel") or {}).get("modelo") == "grade":
+        estilo_capa = "grade"
     foto = None
     if midia:
         caminho, inicio = Path(midia[0]), float(midia[1] or 0)

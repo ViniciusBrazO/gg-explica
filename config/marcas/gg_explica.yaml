@@ -7,6 +7,9 @@ id: gg_explica
 idioma: pt
 nome: GG Explica
 arroba: "@gg.explica"
+# Capa dos Reels (19/11): moldura e etiqueta da marca fixas, tudo dentro do recorte 3:4 da grade do perfil
+capa_reel:
+  modelo: grade
 nicho: games (GTA 6 primeiro)
 
 personagem: >
