@@ -1,4 +1,4 @@
-# Dossiê do radar (19/11/2026)
+# Dossiê do radar (20/11/2026)
 
 Texto das matérias aberto pelo kit. Use os números, nomes e datas daqui. Matéria marcada "só a manchete" não abriu: procure outra fonte com WebSearch/WebFetch antes de escrever.
 
@@ -17,12 +17,6 @@ Link: https://news.google.com/rss/articles/CBMisAFBVV95cUxOZEtrU1ZSOXZSakE5UlA0d
 
 (só a manchete: a matéria não abriu)
 
-### RockstarINTEL (2026-11-18), selo sugerido rumor
-Manchete: Grand Theft Auto VI is now available to play - RockstarINTEL
-Link: https://news.google.com/rss/articles/CBMie0FVX3lxTFBjb2pMZTNSVUZTeDZzMVozSWt1bHZJRDBmWlVtaGltYW14X0YtT0VFZXZKaWNvbFlYUW1YMVlGSkNPZnpiMTZmMW9iRVA4bGdJRDNudVRlLTRUSEdCcEwzUWtCeXlOOVdKZXRrRldYeUxiakNWc0RQOGN6QQ?oc=5
-
-(só a manchete: a matéria não abriu)
-
 
 ## Assunto 2
 
@@ -35,15 +29,11 @@ Link: https://news.google.com/rss/articles/CBMimAFBVV95cUxQX3FHQlY3MmtfRllfdmdxW
 
 ## Assunto 3
 
-### news.xbox.com (2026-11-19), selo sugerido confirmado
-Manchete: Grand Theft Auto VI is Out Now
-Link: https://news.xbox.com/en-us/2026/11/19/grand-theft-auto-vi-is-out-now/
+### Rockstar Games (2026-11-19), selo sugerido confirmado
+Manchete: Grand Theft Auto VI: Out Now - Rockstar Games
+Link: https://news.google.com/rss/articles/CBMiUkFVX3lxTFBtaFUxS2pNTHhQbEVpS1BJdWUyR0NSaU1ZSDZURVFxWVVkYmVyQjJBclNXbzVXQlNMZ1VXdHh3aW5xMUF4RU8xenk0YkxWRkVwdnc?oc=5
 
-Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
-XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
-Stories Untold Is Now Available For Xbox One
-Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
-An Alligator Swallowed an XBOX Series X – You Can Win It
+(só a manchete: a matéria não abriu)
 
 ### Rockstar Games (2026-11-19), selo sugerido confirmado
 Manchete: Grand Theft Auto VI: Out Now - Rockstar Games
@@ -51,116 +41,230 @@ Link: https://news.google.com/rss/articles/CBMiUkFVX3lxTFBtaFUxS2pNTHhQbEVpS1BJd
 
 (só a manchete: a matéria não abriu)
 
-### Rolling Stone (2026-11-19), selo sugerido rumor
-Manchete: ‘GTA VI’ Is Finally Out - Rolling Stone
-Link: https://news.google.com/rss/articles/CBMikwFBVV95cUxOYS1HaTVmWjhxcC1NSVp2TU5DcWM4MFhKck1qdUw4NVpmYXBkODRlMEFkeHJTZXV6LUpKNFZ2bnJkR25tTXFHM3RnV2EtZ1RSTXdoYlBRNXdGeEd3OGYwSkFZZXVfREtranRGYzBYVncxWkxFNUFSUnliSnpLQVBuQ2ZwWXNRQVJHcW40R0hHeTFmdTg?oc=5
+### Rockstar Games (2026-11-19), selo sugerido confirmado
+Manchete: Grand Theft Auto VI: Out Now - Rockstar Games
+Link: https://news.google.com/rss/articles/CBMiUkFVX3lxTFBtaFUxS2pNTHhQbEVpS1BJdWUyR0NSaU1ZSDZURVFxWVVkYmVyQjJBclNXbzVXQlNMZ1VXdHh3aW5xMUF4RU8xenk0YkxWRkVwdnc?oc=5
 
 (só a manchete: a matéria não abriu)
+
+Outras manchetes: Grand Theft Auto VI: Out Now - Rockstar Games | Grand Theft Auto VI: Out Now - Rockstar Games
 
 
 ## Assunto 4
 
-### blog.playstation.com (2026-11-18), selo sugerido confirmado
-Manchete: Grand Theft Auto VI launches tomorrow, November 19
-Link: https://blog.playstation.com/2026/11/18/grand-theft-auto-vi-launches-tomorrow-november-19/
+### Yahoo Sports (2026-11-19), selo sugerido rumor
+Manchete: 2026 SnakePit Awards: Game of the Year nominations - Yahoo Sports
+Link: https://news.google.com/rss/articles/CBMijwFBVV95cUxPU1BmNnI4OEVIcU82a1ctRnpScW41U0JDUWZaQlpVeWdkbmYtcFMwYnJTS0pJalpHRnlocXlWcll5RndRb2J3V0U4em9CMThGYnBsc2k0cmZMNTRfWFgzZlUyUURNZWJUcGdtaU40aGsxdWJldW9zaklITC1WcnR3OXpVVXp2ejNCQjg3Q0Zraw?oc=5
 
-Grand Theft Auto VI launches tomorrow, November 19
-The latest installment in the Grand Theft Auto series heads to the state of Leonida, home to the neon-soaked streets of Vice City and beyond.
-Jason and Lucia have always known the deck is stacked against them. But when an easy score goes wrong, they find themselves on the darkest side of the sunniest place in America, in the middle of a criminal conspiracy stretching across the state of Leonida — forced to rely on each other more than ever if they want to make it out alive.
-Grand Theft Auto VI arrives on PlayStation 5 Thursday, November 19, available at PlayStation Store.
-When the sun fades and the neon glows, everyone has something to gain — and more to lose
-The game is set in the state of Leonida, home to the neon-soaked streets of Vice City and beyond in the biggest, most immersive evolution of the series yet.
-Jason grew up around grifters and crooks. After a stint in the Army trying to shake off his troubled teens, he found himself in the Keys doing what he knows best, working for local drug runners. Meeting Lucia could be the best or worst thing to ever happen to him. Jason knows how he’d like it to turn out but right now, it’s hard to tell.
-Lucia’s father taught her to fight as soon as she could walk, and life has been coming at her swinging ever since. Fighting for her family landed her in the Leonida Penitentiary. Sheer luck got her out but now more than anything, Lucia wants the good life her mom has dreamed of since their days in Liberty City. Instead of half-baked fantasies, Lucia is prepared to take matters into her own hands.
-Leonida is made up of six regions: Vice City, the Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia, and Mount Kalaga. Here’s a closer look at what makes each region unique.
-The glamour, hustle, and greed of America captured in a single city. Each neighborhood has something to offer, from the pastel art deco hotels and bright white sands of Ocean Beach, to the bustling panaderías of Little Cuba and the bootleg brands of the Tisha-Wocka flea market, out to the VC Port, the cruise ship capital of the world. We’re a long way from the ’80s, but Vice City is still the sun and fun capital of America
-Life in this tropical archipelago isn’t flashy but it’s easy. Get your buzz on and pull up a deck chair but look out — you are right on the doorstep of some of the most beautiful and dangerous waters in all of America.
-You never know what lies beneath the surface of this primordial expanse. The gators may be the most famous attraction, but there are far deadlier predators and weirder discoveries among the mangroves.
-Cheap motels, shut-down attractions, and empty strip malls won’t bring the tourists back, but there’s a new economy in this once-popular vacation spot. It’s fueled by malt liquor, painkillers, and truck stop energy drinks.
-In the heart of Leonida, American industry and old school values still reign supreme — whatever the cost. The Allied Crystal sugar refinery provides the jobs, while the local biker gang provides almost everything else.
-A national landmark up against the state’s northern border, Mount Kalaga offers prime hunting, fishing, and off-road trails. In the lush surrounding backwoods, hillbilly mystics and paranoid radicals live far from the prying eyes of the government.
-Spanning stations including Classic Rock, Modern Hip-Hop, Pop, Metal, Dance, Latin, ‘80s, Electronic, Blues, Ballads, Talk Radio, and much more, Grand Theft Auto VI features the biggest and widest-ranging selection of in-game radio yet.
-Plus, for the first time ever, Grand Theft Auto VI introduces a series of on-demand podcasts for Jason and Lucia to experience beyond Leonida’s terrestrial radio, with both radio and podcasts available to listen to in vehicles and on foot through newly introduced headphones and earbuds connected to their smartphones.
-Please be kind, considerate, and constructive. Report inappropriate comments to PlayStationBlogModeration@sony.com
-Mitchell Ayre Community Manager, Arrowhead Games Studios
-Isabelle Tomatis Vice President, Global Marketing, Sony Interactive Entertainment
-Tim Turi (he/him) Content Communications Manager, Sony Interactive Entertainment
-Kristen Zitani (she/her) Manager, Content Communications, Sony Interactive Entertainment
-Daniel Craig Principal Engineer, Graphics R&D, Sony Interactive Entertainment
-Yasser Saleem Lead Developer, Ocelot Technologies
-Dongseok Oh Lead Director, Vindictus: Defying Fate, NEXON Korea
-Vincent Tao Lead Game Designer, Once Human
+(só a manchete: a matéria não abriu)
+
+### Collider (2026-11-19), selo sugerido rumor
+Manchete: Every 2026 Game of the Year Nominee, Ranked - Collider
+Link: https://news.google.com/rss/articles/CBMia0FVX3lxTE80a00wMmRFRkM5dzhqSWo1ckV6Z1pDVXhQWTlBclFBWl94WkJFRVpoQTY1bXpnNUh3bC1sNnZ5STBJT1IyN2lpcGw5LWV6cC05dmZjLWlNUE96YTZyOHllRlFoMUxrSURCVElr?oc=5
+
+(só a manchete: a matéria não abriu)
+
+### TechSpot (2026-11-19), selo sugerido rumor
+Manchete: The Game Awards 2026: No PlayStation title nominated for Game of the Year for the first time since 2014 - TechSpot
+Link: https://news.google.com/rss/articles/CBMimgFBVV95cUxQUnc0TzNoU3BOaGdqMngxMEptNTdaWTN2RDlmYWctamctNEQ4RUxYWlIzQnVCTmpETnM0dDlIb1BBZWlHUkFNaEYzSWpuWTEwMXVxdFdlZmJTdE9fM3FPTHVxZi1IYnh1U3dUM1M0TmFoN3pzRVhYVjFaY0hwZEZ5b01BQ1RJSC0yVElIVzBOTXFJWkFMUmtNUzVR?oc=5
+
+(só a manchete: a matéria não abriu)
+
+Outras manchetes: The Game Awards 2026: No PlayStation title nominated for Game of the Year for the first time since 2014 - TechSpot | The Game Awards 2026: No PlayStation title nominated for Game of the Year for the first time since 2014 - TechSpot
 
 
 ## Assunto 5
 
-### Road to VR (2026-11-19), selo sugerido rumor
-Manchete: The Game Awards Announces Top 5 Nominations for Best VR Games of 2026 - Road to VR
-Link: https://news.google.com/rss/articles/CBMiYkFVX3lxTFByT3ZoT1otQnIxOE1lcXdSeEhKMUo1eVktTG5VS19vVkxUSlZaUlR5WThKNnZ1WDlBVl9lZU9lYWVPaFowR1lKYmlnS1BEMVBGV3pRbENmY0JFX1RibXZLYWNB?oc=5
+### ign.com (2026-11-19), selo sugerido relato
+Manchete: Now That I've Played GTA 6 on PS5 Pro, Here's What I Want Out of the PC Version
+Link: https://www.ign.com/articles/now-that-ive-played-gta-6-on-ps5-pro-heres-what-i-want-out-of-the-pc-version
 
-(só a manchete: a matéria não abriu)
+Now That I've Played GTA 6 on PS5 Pro, Here's What I Want Out of the PC Version
+This is an opinion piece by Jackie Thomas, IGN's Senior Tech Editor who's been covering PC games and the components that make them run for more than a decade.
+GTA 6 is exclusive to consoles at launch, but everyone knows a PC version will come out eventually. And when it does, it'll probably be the best way to play the game, provided you have the hardware to run it at a high frame rate.
+While I know that's a tough bar to clear with prices being what they are these days, after playing GTA 6 all day yesterday on everything from the Xbox Series S up to the PS5 Pro, I'm forming a clearer picture on what a PC version of the game should look like.
+Obviously, the first thing that the PC version of GTA 6 is going to be able to do that the console version can't is actually hit 60fps. Rockstar itself came out and said that a 60fps patch won't be coming to the PS5 Pro because it's simply not powerful enough. That wasn't super surprising. The PC version will be able to hit 60fps, but I think it might be a bit of a struggle for a lot of the PCs out there.
+Every single current-generation console is housing an AMD Zen 2 CPU with 8 cores and 16 threads. If we were going off core counts alone, that would match or exceed the vast majority of gaming PCs out there, according to the most recent Steam Hardware Survey. However, in the six years since Zen 2's debut in the Ryzen 7 2700X, IPC (Instructions per Clock) performance has risen so much that I doubt most recent 8-core CPUs are going to have the same troubles with players blowing shit up in GTA than the consoles have right now.
+The problem is, unlike graphics cards, CPUs are often one of the last things people upgrade in their PCs, so I imagine there are still a lot of older 8-core CPUs out there that aren't dramatically faster than what you'd find in the PS5 and Xbox Series X. But if you do have a more recent mid-to-high end CPU like the AMD Ryzen 7000 or 9000 series or anything Intel post 12th-gen, you should be able to push GTA 6 to a higher frame rate than the consoles.
+As I write this, I'm sitting next to a rig with an AMD Ryzen 7 9850X3D and an Nvidia GeForce RTX 5090, and if the furthest I can push this game is 60fps, I don't even know if it's going to be worth double dipping. The real difference to GTA 6's frame rate on PC probably isn't going to come from the brute force of the hardware, but the software suites. Rockstar did some excellent work with the upscaling solutions available to them, and even used FSR 4.1 to great effect to get the game running as well as it did on the Xbox Series S. But, as good as FSR and PSSR are, they just aren't as good as DLSS.
+My hope would be that Rockstar makes full use of Nvidia's software suite to both make for cleaner upscaling and frame generation. I know that frame gen is a controversial technology, but a game like GTA 6 is perfect for it. After all, it's a slower paced single-player open world game that doesn't need you to have lightning-fast reflexes to succeed, so the added latency won't really be a big deal.
+I'll probably finish the game at 30fps on the PS5 Pro, and I'm already pretty used to that frame rate. On PC, I'll be fully expecting to use frame gen to push that number up to 240fps on my monitor, which will make the game much smoother and easier on the eyes.
+GTA 6's move to PC is going to be about more than just upping the frame rate though. As good as the game looks on console – and it looks f**king incredible – it's going to look even better on a PC that can push it to its limits. While the PS5 Pro uses ray traced global illumination, reflections and shadows, then pairs it with PSSR for a clean, beautiful image with excellent lighting, there are still some dials Rockstar can turn to bring the game to another level.
+Chief among these is going to be path tracing. Back when Cyberpunk 2077 implemented its 'RT Overdrive' preset, it completely changed the way the game looked. Using the PS5 Pro version of GTA 6 as a baseline, path tracing could elevate the game to a point where it's eerily close to photorealism.
+Of course, implementing path tracing would have a huge hit to performance, and GTA 6 isn't exactly going to be a walk in the park for most gaming PCs. For the most part, lighting settings would hammer your graphics card, and the biggest limiting factor for GTA 6 performance on console right now is the CPU, rather than the GPU. Again, it's hard to get metrics to see exactly how hard each processor in the PS5 Pro is being hit by GTA 6, but if the majority of the processing is being done on the CPU, adding more work for the GPU to do while it waits for the CPU probably isn't going to affect performance as much as you'd think.
+Word on the street is that the PC version of GTA 6 is going to come sooner than in past generations. I personally hope Rockstar uses the PC port as an opportunity to create the ultimate version of the game. Luckily, that's exactly what it did with Red Dead Redemption 2 and GTA 5, even if they both had buggy launches.
+Jackie Thomas is the Senior Tech Editor at IGN and the PC components queen. She's been covering gaming hardware for more than a decade for IGN, TechRadar, Gizmodo, PC Gamer and more. You can follow her @Jackiecobra
 
-### The Arts Shelf (2026-11-19), selo sugerido rumor
-Manchete: The Game Awards 2026: Grand Theft Auto VI Leads Nominations With Eight - The Arts Shelf
-Link: https://news.google.com/rss/articles/CBMieEFVX3lxTE90eDZsb1ZMNVdRNTRucUJ4VzRjOU12TDJ6LVB2d3Y0WWJ1Q0lLNGFBaFViTUZpd1FxYXlMbmNMT2ZTZWFSbUVnalhZQ045aDdtVDJtdkhVQmxENHpGYlVBeENxQlVkQTVTcFFvZzBpczJTNko5aFVlZw?oc=5
+### ign.com (2026-11-19), selo sugerido relato
+Manchete: Now That I've Played GTA 6 on PS5 Pro, Here's What I Want Out of the PC Version
+Link: https://www.ign.com/articles/now-that-ive-played-gta-6-on-ps5-pro-heres-what-i-want-out-of-the-pc-version
 
-(só a manchete: a matéria não abriu)
+Now That I've Played GTA 6 on PS5 Pro, Here's What I Want Out of the PC Version
+This is an opinion piece by Jackie Thomas, IGN's Senior Tech Editor who's been covering PC games and the components that make them run for more than a decade.
+GTA 6 is exclusive to consoles at launch, but everyone knows a PC version will come out eventually. And when it does, it'll probably be the best way to play the game, provided you have the hardware to run it at a high frame rate.
+While I know that's a tough bar to clear with prices being what they are these days, after playing GTA 6 all day yesterday on everything from the Xbox Series S up to the PS5 Pro, I'm forming a clearer picture on what a PC version of the game should look like.
+Obviously, the first thing that the PC version of GTA 6 is going to be able to do that the console version can't is actually hit 60fps. Rockstar itself came out and said that a 60fps patch won't be coming to the PS5 Pro because it's simply not powerful enough. That wasn't super surprising. The PC version will be able to hit 60fps, but I think it might be a bit of a struggle for a lot of the PCs out there.
+Every single current-generation console is housing an AMD Zen 2 CPU with 8 cores and 16 threads. If we were going off core counts alone, that would match or exceed the vast majority of gaming PCs out there, according to the most recent Steam Hardware Survey. However, in the six years since Zen 2's debut in the Ryzen 7 2700X, IPC (Instructions per Clock) performance has risen so much that I doubt most recent 8-core CPUs are going to have the same troubles with players blowing shit up in GTA than the consoles have right now.
+The problem is, unlike graphics cards, CPUs are often one of the last things people upgrade in their PCs, so I imagine there are still a lot of older 8-core CPUs out there that aren't dramatically faster than what you'd find in the PS5 and Xbox Series X. But if you do have a more recent mid-to-high end CPU like the AMD Ryzen 7000 or 9000 series or anything Intel post 12th-gen, you should be able to push GTA 6 to a higher frame rate than the consoles.
+As I write this, I'm sitting next to a rig with an AMD Ryzen 7 9850X3D and an Nvidia GeForce RTX 5090, and if the furthest I can push this game is 60fps, I don't even know if it's going to be worth double dipping. The real difference to GTA 6's frame rate on PC probably isn't going to come from the brute force of the hardware, but the software suites. Rockstar did some excellent work with the upscaling solutions available to them, and even used FSR 4.1 to great effect to get the game running as well as it did on the Xbox Series S. But, as good as FSR and PSSR are, they just aren't as good as DLSS.
+My hope would be that Rockstar makes full use of Nvidia's software suite to both make for cleaner upscaling and frame generation. I know that frame gen is a controversial technology, but a game like GTA 6 is perfect for it. After all, it's a slower paced single-player open world game that doesn't need you to have lightning-fast reflexes to succeed, so the added latency won't really be a big deal.
+I'll probably finish the game at 30fps on the PS5 Pro, and I'm already pretty used to that frame rate. On PC, I'll be fully expecting to use frame gen to push that number up to 240fps on my monitor, which will make the game much smoother and easier on the eyes.
+GTA 6's move to PC is going to be about more than just upping the frame rate though. As good as the game looks on console – and it looks f**king incredible – it's going to look even better on a PC that can push it to its limits. While the PS5 Pro uses ray traced global illumination, reflections and shadows, then pairs it with PSSR for a clean, beautiful image with excellent lighting, there are still some dials Rockstar can turn to bring the game to another level.
+Chief among these is going to be path tracing. Back when Cyberpunk 2077 implemented its 'RT Overdrive' preset, it completely changed the way the game looked. Using the PS5 Pro version of GTA 6 as a baseline, path tracing could elevate the game to a point where it's eerily close to photorealism.
+Of course, implementing path tracing would have a huge hit to performance, and GTA 6 isn't exactly going to be a walk in the park for most gaming PCs. For the most part, lighting settings would hammer your graphics card, and the biggest limiting factor for GTA 6 performance on console right now is the CPU, rather than the GPU. Again, it's hard to get metrics to see exactly how hard each processor in the PS5 Pro is being hit by GTA 6, but if the majority of the processing is being done on the CPU, adding more work for the GPU to do while it waits for the CPU probably isn't going to affect performance as much as you'd think.
+Word on the street is that the PC version of GTA 6 is going to come sooner than in past generations. I personally hope Rockstar uses the PC port as an opportunity to create the ultimate version of the game. Luckily, that's exactly what it did with Red Dead Redemption 2 and GTA 5, even if they both had buggy launches.
+Jackie Thomas is the Senior Tech Editor at IGN and the PC components queen. She's been covering gaming hardware for more than a decade for IGN, TechRadar, Gizmodo, PC Gamer and more. You can follow her @Jackiecobra
 
-### Techloy (2026-11-18), selo sugerido rumor
-Manchete: Game Awards 2026 Nominees on Xbox and Game Pass - Techloy
-Link: https://news.google.com/rss/articles/CBMic0FVX3lxTE9aYmtfSENtSG5yNmozRzl0YUY4clNsS2ZjTWNUc01FS3pSeXUxYkZQSEtVNUZpc1JFcHlyVGVhM0JsZHA3VG13b1dGd2pNUEVSX25VMXVTeVZSRDVzVm84YWRmd0lsQVNZYXBxQ09mbG5TbEk?oc=5
+### ign.com (2026-11-19), selo sugerido relato
+Manchete: Now That I've Played GTA 6 on PS5 Pro, Here's What I Want Out of the PC Version
+Link: https://www.ign.com/articles/now-that-ive-played-gta-6-on-ps5-pro-heres-what-i-want-out-of-the-pc-version
 
-(só a manchete: a matéria não abriu)
+Now That I've Played GTA 6 on PS5 Pro, Here's What I Want Out of the PC Version
+This is an opinion piece by Jackie Thomas, IGN's Senior Tech Editor who's been covering PC games and the components that make them run for more than a decade.
+GTA 6 is exclusive to consoles at launch, but everyone knows a PC version will come out eventually. And when it does, it'll probably be the best way to play the game, provided you have the hardware to run it at a high frame rate.
+While I know that's a tough bar to clear with prices being what they are these days, after playing GTA 6 all day yesterday on everything from the Xbox Series S up to the PS5 Pro, I'm forming a clearer picture on what a PC version of the game should look like.
+Obviously, the first thing that the PC version of GTA 6 is going to be able to do that the console version can't is actually hit 60fps. Rockstar itself came out and said that a 60fps patch won't be coming to the PS5 Pro because it's simply not powerful enough. That wasn't super surprising. The PC version will be able to hit 60fps, but I think it might be a bit of a struggle for a lot of the PCs out there.
+Every single current-generation console is housing an AMD Zen 2 CPU with 8 cores and 16 threads. If we were going off core counts alone, that would match or exceed the vast majority of gaming PCs out there, according to the most recent Steam Hardware Survey. However, in the six years since Zen 2's debut in the Ryzen 7 2700X, IPC (Instructions per Clock) performance has risen so much that I doubt most recent 8-core CPUs are going to have the same troubles with players blowing shit up in GTA than the consoles have right now.
+The problem is, unlike graphics cards, CPUs are often one of the last things people upgrade in their PCs, so I imagine there are still a lot of older 8-core CPUs out there that aren't dramatically faster than what you'd find in the PS5 and Xbox Series X. But if you do have a more recent mid-to-high end CPU like the AMD Ryzen 7000 or 9000 series or anything Intel post 12th-gen, you should be able to push GTA 6 to a higher frame rate than the consoles.
+As I write this, I'm sitting next to a rig with an AMD Ryzen 7 9850X3D and an Nvidia GeForce RTX 5090, and if the furthest I can push this game is 60fps, I don't even know if it's going to be worth double dipping. The real difference to GTA 6's frame rate on PC probably isn't going to come from the brute force of the hardware, but the software suites. Rockstar did some excellent work with the upscaling solutions available to them, and even used FSR 4.1 to great effect to get the game running as well as it did on the Xbox Series S. But, as good as FSR and PSSR are, they just aren't as good as DLSS.
+My hope would be that Rockstar makes full use of Nvidia's software suite to both make for cleaner upscaling and frame generation. I know that frame gen is a controversial technology, but a game like GTA 6 is perfect for it. After all, it's a slower paced single-player open world game that doesn't need you to have lightning-fast reflexes to succeed, so the added latency won't really be a big deal.
+I'll probably finish the game at 30fps on the PS5 Pro, and I'm already pretty used to that frame rate. On PC, I'll be fully expecting to use frame gen to push that number up to 240fps on my monitor, which will make the game much smoother and easier on the eyes.
+GTA 6's move to PC is going to be about more than just upping the frame rate though. As good as the game looks on console – and it looks f**king incredible – it's going to look even better on a PC that can push it to its limits. While the PS5 Pro uses ray traced global illumination, reflections and shadows, then pairs it with PSSR for a clean, beautiful image with excellent lighting, there are still some dials Rockstar can turn to bring the game to another level.
+Chief among these is going to be path tracing. Back when Cyberpunk 2077 implemented its 'RT Overdrive' preset, it completely changed the way the game looked. Using the PS5 Pro version of GTA 6 as a baseline, path tracing could elevate the game to a point where it's eerily close to photorealism.
+Of course, implementing path tracing would have a huge hit to performance, and GTA 6 isn't exactly going to be a walk in the park for most gaming PCs. For the most part, lighting settings would hammer your graphics card, and the biggest limiting factor for GTA 6 performance on console right now is the CPU, rather than the GPU. Again, it's hard to get metrics to see exactly how hard each processor in the PS5 Pro is being hit by GTA 6, but if the majority of the processing is being done on the CPU, adding more work for the GPU to do while it waits for the CPU probably isn't going to affect performance as much as you'd think.
+Word on the street is that the PC version of GTA 6 is going to come sooner than in past generations. I personally hope Rockstar uses the PC port as an opportunity to create the ultimate version of the game. Luckily, that's exactly what it did with Red Dead Redemption 2 and GTA 5, even if they both had buggy launches.
+Jackie Thomas is the Senior Tech Editor at IGN and the PC components queen. She's been covering gaming hardware for more than a decade for IGN, TechRadar, Gizmodo, PC Gamer and more. You can follow her @Jackiecobra
 
-Outras manchetes: Here Are All of The Game Awards 2026 Nominees - Steam Deck HQ | GTA 6 leads The Game Awards 2026 with eight nominations - GameDev.net
+Outras manchetes: Now That I've Played GTA 6 on PS5 Pro, Here's What I Want Out of the PC Version | Now That I've Played GTA 6 on PS5 Pro, Here's What I Want Out of the PC Version
 
 
 ## Assunto 6
 
-### G1 (2026-11-18), selo sugerido relato
-Manchete: GTA 6 já lançou? Entenda quando o game chega ao Brasil - G1
-Link: https://news.google.com/rss/articles/CBMitAFBVV95cUxOLWFoNngyRW1hX0gzMEZCcVAzU2RJamdLcHo4b3F5VnRnd2h0RjkxbnRYSlRfMHNPRVNsLWVsWWV3bEhEVzdRT19EbmJuSTcyYmFMYzNxTzEwOVBYWWN2Wnptb1BIc1lZdktzMDZIb0todGJoYmZtVlhXZk9vSVk4YkFSZTJHTkZYTDFqcjBCbFNyWG4zUFdPelZNaEs5Y1B5WVNNY2ZZNVZKaFE4eU1PNDBOV2zSAcMBQVVfeXFMTV9ySThIODNSTTJINDNUUXdwdGVkUTVTZ3g5d0duWGlPWHkzOGJ3V3Job25yZUVQZjBuODZMYUtwTlRHZnJDbEtNT0Rxa3c0eEFldmJycDFQSGp4dUxJTThiVnpaVVlrVEY5VEdyV2dOZl9taUxIUERyNzhMQXVHTE94RDlPdEhmNTVNWC1qcG5paUJhSzBTOGZqYl82a2F3Z3UzVVNQRVU4WVhvejEtbFZkcDBqWjcxTGRRanQtdGp2UHlr?oc=5
+### eurogamer.net (2026-11-19), selo sugerido relato
+Manchete: Infamous GTA 6 leaker CyberLeek is back, and this time the group claims to have leaked a full development build of the game
+Link: https://www.eurogamer.net/cyberleek-gta-6-dev-build
 
-(só a manchete: a matéria não abriu)
+Infamous GTA 6 leaker CyberLeek is back, and this time the group claims to have leaked a full development build of the game
+CyberLeek, the persona of a hacker group that was responsible for leaking GTA 6 gameplay before the game launched, has reappeared today, claiming to have released a development build of the final version of the game on its site. This new leak appears to be making good on a threat posted back in October, where the group stated its intent to release a full, playable build of the game.
+Various social media accounts have visited the site and noted the size of the download offered by CyberLeek is, indeed 209GB. Eurogamer has seen the site and can confirm this is what the group has claimed, however I have been unable to verify the existence of any actual files. On the site, CyberLeek claims this build is from November 2026 - meaning it is very close to (if not the actual) release build. The 'executable file appears to be missing from the build, however, meaning you cannot actually - yet - get it up and running. CyberLeek is threatening to release this file at a later date, however.
+"It is done," a statement from CyberLeek reads. "[Cyberleek] holds the full November 2026 build of Grand Theft Auto 6, and it is going out by torrent. Now. Every file except one. The main executable is held on a countdown." CyberLeek says the executable will be released earlier than planned if its crypto token reaches a predetermined value. Many of the leaks to date have been related to a CyberLeek crypto scheme. Previously, it was estimated that the group cashed out at least £200,000.
+What does all this mean? There's a very realistic chance that the game could be up and running on PC soon - undercutting Rockstar's unannounced PC release by a matter of months, if current rumours are to be believed. "This community will have it emulated inside a week, running far past 30fps," the statement continues. "[CyberLeek] told you not to preorder for a reason. This is one of the reasons.
+"If the Xbox build cannot be made to work and support holds, [CyberLeek] will work to get a PS5 build - a fallback, most likely never required. Either way: the Xbox build is going out. No double dipping for Take-Two/Rockstar." It seems these are not empty threats.
+CyberLeek has been a thorn in Rockstar's side for a while now. The group initially claimed it took this action in the name of "Gamers' Rights", supposedly fighting for consumers in relation to the controversial discontinuation of game-discs and the digital-only future being pursued by game publishers. Rockstar has previously issued statements regarding the leaker, noting that the leaks are "heartbreaking" and that "this is obviously not how we intended for you to see the game after all this time". Take-Two tried to subpoena Discord for information pertaining to the leaker's identity.
 
-### UOL (2026-11-18), selo sugerido relato
-Manchete: GTA 6 já lançou? Veja onde o jogo está disponível e quando chega ao Brasil - UOL
-Link: https://news.google.com/rss/articles/CBMizwFBVV95cUxPeEJiM1pJamtMc1dVOGpVWTVzalhiR3N5ZWgzVXVwaTJqWVJXWURrMXFvQnRhaDI5MlFLaGlVY090RVE2b3JpUlJJMUpDWG5qalU3OHNpN1dIdl92aFgyOVMxb19ibjBZNXkxZVRiQWFpSlV6YjlZcnBMTUZBc0lTM25uLTY1YWV2cExpLUpWMHN5RU1qOTd2WWRMODd5anNYYUhjZGgtQWg3WVQ5NTI5ZEttMnY0NDBHa2pOYmtCck9xX21zcm5EWjhOVmhrcmM?oc=5
+### videogameschronicle.com (2026-11-19), selo sugerido relato
+Manchete: Cyberleek claims to release development build of GTA 6
+Link: https://www.videogameschronicle.com/news/cyberleek-claims-to-release-development-build-of-gta-6/
 
-(só a manchete: a matéria não abriu)
-
-### UOL (2026-11-18), selo sugerido relato
-Manchete: Quando GTA 6 chega ao PC? Veja o que se sabe sobre o lançamento - UOL
-Link: https://news.google.com/rss/articles/CBMiwAFBVV95cUxOV3dyWk83dnRTQU9BSXJqOHdvOFRyNTBBSHBvRm1lYU5lTVp5Uy1jLVFFS1dud0kxMDVzTE1XRnRaVDRnQU11T3kwMkpTRWF1MVRraUVEaUZVS3hnaE94OWV1ZndBQ0lmYnVxWFhfQ0ZmcmVfUE95NHVEcXF0V1o1elVhM21KLVdMbjRfQ0RLLU1iR0l1a2ZHc1pjYmVHSHNsMW1IMmw4eTVDRVQ1VlBsQzV1YjNXcWxKMkpFSVlmR1U?oc=5
-
-(só a manchete: a matéria não abriu)
+Cyberleek claims to release development build of GTA 6
+Cyberleek is back for the first time since GTA 6’s release
+Hacker group Cyberleek has returned for the first time since Grand Theft Auto 6’s launch and is claiming to have released a development build of the game on their site.
+The site’s latest update shows a link titled: “XBOX BUILD 1.0.2.1 (NOV 2026)”.
+Screenshots being shared on social media appear to show that the files are from a development build of GTA 6’s Xbox release. The executable file is missing, preventing people with access from playing the build themselves.
+In a statement, Cyberleek threatened to release the executable at a later date.
+“It is done,” the statement reads. “CL [Cyberleek] holds the full November 2026 build of Grand Theft Auto VI, and it is going out by torrent. Now. Every file except one â the main executable â held on a countdown.
+“It is an Xbox build this time, not a PC build. CL does not care. This community will have it emulated inside a week, running far past 30fps. CL told you not to preorder for a reason. This is one of the reasons.
+“If the Xbox build cannot be made to work and support holds, CL will work to get a PS5 build â a fallback, most likely never required. Either way: the Xbox build is going out. No double dipping for Take-Two/Rockstar.”
+Cyberleek goes on to say that the release of the executable file is on a timer. However, they also say they will release it earlier if their crypto token reaches a certain market value.
+This comes as part of Cyberleek’s ongoing campaign against Rockstar, which they claim is in aid of consumer rights. They say they take particular issue with GTA 6 being a digital-only release.
+The group has been posting authentic gameplay clips from Grand Theft Auto 6 for months, even ahead of Rockstarâs own official Netflix reveal.
+However, Cyberleek has also enriched themselves greatly throughout this process. They have always encouraged crypto donations, and even made them mandatory if fans wanted to participate in polls to decide what was leaked next.
+Take-Two previously indicated that its efforts to track down the leaker were ârapidly evolvingâ. The Rockstar parent company has filed multiple subpoenas to Discord, demanding information on specific servers and users.
 
 
 ## Assunto 7
 
-### gamespot.com (2026-11-18), selo sugerido relato
-Manchete: Want A Custom GTA 6 PS5 Pro? Just Play In The NBA
-Link: https://www.gamespot.com/articles/want-a-custom-gta-6-ps5-pro-just-play-in-the-nba/
+### eurogamer.net (2026-11-19), selo sugerido relato
+Manchete: Rockstar reveals full GTA 6 cast list, finally ending speculation about who plays Jason Duval in the game
+Link: https://www.eurogamer.net/gta-6-full-cast-list-jason-duval-actor
 
-(só a manchete: a matéria não abriu)
+Rockstar reveals full GTA 6 cast list, finally ending speculation about who plays Jason Duval in the game
+UPDATE 5PM GMT: Actors Manni L. Perez and Dylan Rourke have announced their involvement in GTA 6, in portraying Lucia and Jason, respectively, in the game.
+Dylan Rourke wrote on Instagram: "Years witnessing the hardest working and most skilled artisans game making has to offer. We are truly honored to collaborate on this worldwide testament to human creativity, ingenuity, and sheer willpower. So much learned and so much to learn, keep fighting for what you love, stay humble.
+A photo accompanying the post shows the actors posing in front of a billboard advertising the game.
+A post shared by Dylan Rourke (@dylan_rourke)
+ORIGINAL STORY 3PM GMT: Rockstar has finally announced the full cast list for Grand Theft Auto 6, having left fans speculating right up to the game's release about which actors play the game's leads.
+Lucia's actor Manni L. Perez was revealed through her nomination for The Game Awards, and it nearly took a photo taken by Lucia's stunt double Victoria Lee to reveal who played Jason.
+"After keeping my mouth shut for YEEAARRSSS (and what feels like FOREVER!!!), I can finally share that I've been lucky enough to help bring Lucia to life as her main stunt double in Grand Theft Auto 6, along with a whole bunch of other characters stunts along the way!" Lee wrote in a picture of her and Manni, and rumoured Jason actor Dylan Rourke, on Instagram.
+"A special shoutout to Manni and Dylan! You two are truly amazing humans, inside and out! So much talent, heart, and genuine goodness. I'm forever grateful to have shared this wild ride with you both!" she added.
+And Rockstar's official cast list for GTA 6 confirms that yes, it is Dylan Rourke who plays the role.
+A post shared by Victoria Lee (@victoria_lee_stunts)
+Rourke's own Instagram account doesn't feature any news of his involvement in GTA 6, but his name was referenced in a recent IGN Holland article, as spotted on Reddit, earlier today.
+Stephen Root, who plays Brian Heder, was the only actor to confirm his involvement in GTA 6 prior to the game's release, though it's a name many people had already guessed following the game's Netflix extended look.
+For a different kind of GTA 6 coverage, be sure to bookmark Eurogamer's GTA 6 walkthrough. It's updated daily, and so far has crucial breakdowns of mechanics such as Criminal Profile, the new Wanted Level system, how romance and relationships work, and more besides.
 
-### IGN Nordic (2026-11-19), selo sugerido relato
-Manchete: Now That I've Played GTA 6 on PS5 Pro, Here's What I Want Out of the PC Version - IGN Nordic
-Link: https://news.google.com/rss/articles/CBMixAFBVV95cUxPSTlNWm5FbjNYTm5TM09oNUVZcnJMRnllMXlrcVdNRWxweVFjMUhiaVNDOWhqNEdGNXZlWEJkUjVhUXRmQmNmYk9abUM0dTBCNV9OZk1ZbTlTekxHUHEwZlptTXVzNEhpbEFrRGI1RHRMVzJ5M0lrbnFqRkVoNHBLZU8tN2ZWLWxPakt3cENHRnc5cXZPLTMyR3dwMTV0bDNfbllRQUxVNUt3aU1CRU12LUxMRkhmM3NtdnJQUVpuMllCUmJ3?oc=5
+### polygon.com (2026-11-19), selo sugerido relato
+Manchete: GTA 6 Cast List: Who plays Jason, Lucia and More
+Link: https://www.polygon.com/gta-6-cast-list-actors-cameos-grand-theft-auto/
 
-(só a manchete: a matéria não abriu)
+Grand Theft Auto 6 has the longest story ever seen in a GTA game, which also means that it has an enormous cast of characters. Between rival faction leaders, radio station DJs, and fictional rappers, you're going to meet a whole lot of people in Leonida. And some of their voices might sound very familiar.
+While the full cast list is so large that it takes up a good chunk of GTA 6's hour-plus end credits, these are some of the biggest players in the story, including Jason and Lucia. Some you might recognize from movies or even previous Rockstar games, while others have some modest TV credits to their name.
+Below, we've listed all the actors who play main roles in GTA 6, along with their previous work that they've starred in.
+Much of GTA 6's cast comes from a TV background, and that includes Jason Duval. His voice actor, Dylan Rourke, has appeared on shows like 9-1-1: Lone Star, Station 19, and Grey's Anatomy. GTA 6 is his most high-profile role by a mile, though, unless you count his gig as ”Big Guy” on Modern Family as a star turn.
+Manni L. Perez, the actress behind Lucia Caminos, comes from a similar acting background as Dylan Rourke. Perez has popped up in Law & Order: Special Victims Unit, Chicago P.D., and The Blacklist. She's also a Rockstar alumni; Perez voices a Clubber in Grand Theft Auto 5, and a Blackjack Dealer in GTA Online.
+Jason and Lucia's comedic sidekick is one of the biggest stars in the entire cast. He's voiced by Bobby Moynihan, who was a principal cast member of Saturday Night Live from 2008 to 2017. You may remember him as playing Drunk Uncle, a recurring character on Weekend Update that already felt like a GTA bit. Moynihan has a long credits list outside of that, most recently appearing in NCIS: Origins, The Fall and Rise of Reggie Dinkins, and Minions & Monsters.
+The worst kept secret in all of gaming, Stephen Root plays Brian Heder, Jason's employer. He needs little introduction. Root is the man behind Milton in Office Space, Monroe Fuches in Barry, and Bill in King of the Hill, to name a few of his roles. Funny enough, Root is also credited as Florida Man on the TV series It's Florida, Man. Fitting, no?
+A standout in the cast, Dre'Quan plays a major supporting role in GTA 6 once the story gets to Vice City. He's played by Naiqui Macabroad, an actor who has appeared on Law & Order, Chicago P.D., and Crashing. Macabroad spends a lot of time in the story acting alongside of Hood Brat and Krissy Celess, two Florida-based rappers who appear in the game.
+If you want to see the full credits, including the developers and music, you don't have to beat GTA 6 to get them. Head into the Settings menu from the pause screen and tab over to Account. Scroll down to Credits, and you'll be able to scan a QR code that takes you to the credits on a browser. If you want to skip all of that, here's a direct link to the credits.
 
 
 ## Assunto 8
 
-### Polygon.com (2026-11-19), selo sugerido relato
-Manchete: The Game Awards’ Biggest GOTY Snub Has Been Officially Redeemed - Polygon.com
-Link: https://news.google.com/rss/articles/CBMic0FVX3lxTFBLWXo1U0c1TUNUMVVvZlBGaUJXNVN1LUFZbEQwX2pSQWpaSFp0SExaMy15WXpiamJGOENLaW5HQTNXT1VHMTJwLUZncnowN0dhVXNpSy1qaE1CRENQUU9TeWh1eHg1WnlwOThXMDdMd3Z5UWM?oc=5
+### eurogamer.net (2026-11-15), selo sugerido relato
+Manchete: The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
+Link: https://www.eurogamer.net/gta-6-tracklist-leak
 
-(só a manchete: a matéria não abriu)
+The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
+We are now just four days away from the release of GTA 6 on Xbox Series X/S and PS5, but the proximity to the much-anticipated launch date isn't stemming the tide of leaks that has been plaguing the game for much of the past year. Yesterday, a new video - seemingly from a record store that received vinyl records of the soundtrack early - showed off the full 34-song tracklist for the game.
+Thanks to the listing printed on the back of Grand Theft Auto 6: The Album vinyl, we have a better idea of the licensed music that'll appear in-game. Travis Scott, Rina Sawayama, Cardi B, Pinkpantheress, SZA, Keith Richards, Dua Lipa, Jennie, Lana Del Rey, Zara Larsson are just some of the names that make up the impressive list. We know about a few of these tracks from September's announcement of the record, but only six tracks were revealed then, not the whole list.
+Take a look at the full track listing below:
+Starting from Zero – Justice (feat. Michael McDonald)
+That's It – Yung Lean (feat. Future & Metro Boomin)
+Sexy Magic – CA7RIEL & Paco Amoroso, PinkPantheress, Fred Again.. & Étienne de Crécy
+Flower in a Hurricane – Justice (feat. Tame Impala, SZA & King Gizzard & The Lizard Wizard)
+Dance With Me – Boogie Wit Da Hoodie (feat. Elkan)
+Stone Cold Krazy Luuv – Jesse Johnson & DāM-FunK
+Overtown Lights – Stanley Clarke, Yussef Dayes & Robert Glasper
+You can expect to hear these tracks on the radio - alongside many more, no doubt - and deployed at curated times during cutscenes or in missions, to really tie together the vibe of the city. This is something Vice City did remarkably well its roster of 80s tracks, and I can't wait to see how Rockstar has used more contemporary music in the same way here.
+Of course, there have been a lot of Grand Theft Auto 6 leaks in the run-up to the game's launch. Another recent example is the full game's map which seemingly leaked online thanks to the £350 collector's edition on show in a UK department store. Then there were all the leaks from a group calling itself CyberLeek, which shared unofficial gameplay and map details over the course of a few weeks, before Rockstar had even revealed much gameplay itself.
+Amongst all this, Rockstar has been embroiled in legal action after it was accused of union busting following the firing of over 30 employees. The case's conclusion will be determined this week, as the game goes on sale.
 
-### Kotaku (2026-11-18), selo sugerido relato
-Manchete: The Six Biggest Game Awards Snubs - Kotaku
-Link: https://news.google.com/rss/articles/CBMihwFBVV95cUxPZU1Ecm5iYUdOMjdhWEJVREo2dWtvaGtaUlF1c1ZlTkMybWV1Y0puNzQyTS1HNTM0ZVJENHUtakhmYzA0ckQxRHRhbUZIY0lSVHNTbW9qT0FRMEpQMHhNR0huNHdFVVd4TjExYXhhUTlhdk9ZZTRrWTBxbUduRWdmM1lIMkhrMnM?oc=5
+### eurogamer.net (2026-11-15), selo sugerido relato
+Manchete: The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
+Link: https://www.eurogamer.net/gta-6-tracklist-leak
 
-(só a manchete: a matéria não abriu)
+The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
+We are now just four days away from the release of GTA 6 on Xbox Series X/S and PS5, but the proximity to the much-anticipated launch date isn't stemming the tide of leaks that has been plaguing the game for much of the past year. Yesterday, a new video - seemingly from a record store that received vinyl records of the soundtrack early - showed off the full 34-song tracklist for the game.
+Thanks to the listing printed on the back of Grand Theft Auto 6: The Album vinyl, we have a better idea of the licensed music that'll appear in-game. Travis Scott, Rina Sawayama, Cardi B, Pinkpantheress, SZA, Keith Richards, Dua Lipa, Jennie, Lana Del Rey, Zara Larsson are just some of the names that make up the impressive list. We know about a few of these tracks from September's announcement of the record, but only six tracks were revealed then, not the whole list.
+Take a look at the full track listing below:
+Starting from Zero – Justice (feat. Michael McDonald)
+That's It – Yung Lean (feat. Future & Metro Boomin)
+Sexy Magic – CA7RIEL & Paco Amoroso, PinkPantheress, Fred Again.. & Étienne de Crécy
+Flower in a Hurricane – Justice (feat. Tame Impala, SZA & King Gizzard & The Lizard Wizard)
+Dance With Me – Boogie Wit Da Hoodie (feat. Elkan)
+Stone Cold Krazy Luuv – Jesse Johnson & DāM-FunK
+Overtown Lights – Stanley Clarke, Yussef Dayes & Robert Glasper
+You can expect to hear these tracks on the radio - alongside many more, no doubt - and deployed at curated times during cutscenes or in missions, to really tie together the vibe of the city. This is something Vice City did remarkably well its roster of 80s tracks, and I can't wait to see how Rockstar has used more contemporary music in the same way here.
+Of course, there have been a lot of Grand Theft Auto 6 leaks in the run-up to the game's launch. Another recent example is the full game's map which seemingly leaked online thanks to the £350 collector's edition on show in a UK department store. Then there were all the leaks from a group calling itself CyberLeek, which shared unofficial gameplay and map details over the course of a few weeks, before Rockstar had even revealed much gameplay itself.
+Amongst all this, Rockstar has been embroiled in legal action after it was accused of union busting following the firing of over 30 employees. The case's conclusion will be determined this week, as the game goes on sale.
+
+### eurogamer.net (2026-11-15), selo sugerido relato
+Manchete: The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
+Link: https://www.eurogamer.net/gta-6-tracklist-leak
+
+The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
+We are now just four days away from the release of GTA 6 on Xbox Series X/S and PS5, but the proximity to the much-anticipated launch date isn't stemming the tide of leaks that has been plaguing the game for much of the past year. Yesterday, a new video - seemingly from a record store that received vinyl records of the soundtrack early - showed off the full 34-song tracklist for the game.
+Thanks to the listing printed on the back of Grand Theft Auto 6: The Album vinyl, we have a better idea of the licensed music that'll appear in-game. Travis Scott, Rina Sawayama, Cardi B, Pinkpantheress, SZA, Keith Richards, Dua Lipa, Jennie, Lana Del Rey, Zara Larsson are just some of the names that make up the impressive list. We know about a few of these tracks from September's announcement of the record, but only six tracks were revealed then, not the whole list.
+Take a look at the full track listing below:
+Starting from Zero – Justice (feat. Michael McDonald)
+That's It – Yung Lean (feat. Future & Metro Boomin)
+Sexy Magic – CA7RIEL & Paco Amoroso, PinkPantheress, Fred Again.. & Étienne de Crécy
+Flower in a Hurricane – Justice (feat. Tame Impala, SZA & King Gizzard & The Lizard Wizard)
+Dance With Me – Boogie Wit Da Hoodie (feat. Elkan)
+Stone Cold Krazy Luuv – Jesse Johnson & DāM-FunK
+Overtown Lights – Stanley Clarke, Yussef Dayes & Robert Glasper
+You can expect to hear these tracks on the radio - alongside many more, no doubt - and deployed at curated times during cutscenes or in missions, to really tie together the vibe of the city. This is something Vice City did remarkably well its roster of 80s tracks, and I can't wait to see how Rockstar has used more contemporary music in the same way here.
+Of course, there have been a lot of Grand Theft Auto 6 leaks in the run-up to the game's launch. Another recent example is the full game's map which seemingly leaked online thanks to the £350 collector's edition on show in a UK department store. Then there were all the leaks from a group calling itself CyberLeek, which shared unofficial gameplay and map details over the course of a few weeks, before Rockstar had even revealed much gameplay itself.
+Amongst all this, Rockstar has been embroiled in legal action after it was accused of union busting following the firing of over 30 employees. The case's conclusion will be determined this week, as the game goes on sale.
+
+Outras manchetes: The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more | The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more

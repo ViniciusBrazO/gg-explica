@@ -1263,5 +1263,84 @@
     ],
     "estilo_capa": "impacto",
     "registrado": "2026-11-19T11:14"
+  },
+  "2026-11-21|2026-W47_sab_espaco_212gb": {
+    "data": "2026-11-21",
+    "horario": "13:00",
+    "imagens": [
+      "clipes/oficial/screenshots/Lucia_Caminos_09.jpg",
+      "clipes/oficial/screenshots/Lucia_Caminos_11.jpg",
+      "clipes/oficial/artes_e_wallpapers/Cal_Hampton_portrait.jpg",
+      "clipes/oficial/artes_e_wallpapers/Cal_Hampton_portrait.jpg",
+      "clipes/oficial/screenshots/Brian_Heder_02.jpg",
+      "clipes/oficial/artes_e_wallpapers/Brian_Heder_tablet.jpg",
+      "clipes/oficial/artes_e_wallpapers/Real_Dimez_square.jpg",
+      "clipes/oficial/screenshots/Real_Dimez_02.jpg",
+      "clipes/oficial/artes_e_wallpapers/Raul_Bautista_portrait.jpg",
+      "clipes/oficial/artes_e_wallpapers/Raul_Bautista_portrait.jpg"
+    ],
+    "estilo_capa": "faixa",
+    "registrado": "2026-11-20T07:15"
+  },
+  "2026-11-21|2026-W47_sab_vice_city_brasil": {
+    "data": "2026-11-21",
+    "horario": "21:30",
+    "imagens": [
+      "clipes/oficial/artes_e_wallpapers/Vice_City_Postcard_portrait.jpg",
+      "clipes/oficial/artes_e_wallpapers/Vice_City_Postcard_tablet.jpg",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1108.5",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1108.5",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1552.5",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1226.7",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@750.2",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@750.2",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@750.2"
+    ],
+    "estilo_capa": "impacto",
+    "registrado": "2026-11-20T07:17"
+  },
+  "2026-11-20|radar_2026-11-20_sem_60fps_reel": {
+    "data": "2026-11-20",
+    "horario": "09:00",
+    "imagens": [
+      "clipes/oficial/screenshots/Jason_Duval_06.jpg",
+      "clipes/oficial/screenshots/Jason_Duval_02.jpg",
+      "clipes/oficial/screenshots/Jason_Duval_10.jpg",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1360.3",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1427.6",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1422.2",
+      "clipes/oficial/artes_e_wallpapers/Jason_and_Lucia_02_square.jpg",
+      "clipes/oficial/screenshots/Lucia_Caminos_12.jpg",
+      "clipes/oficial/screenshots/Jason_and_Lucia_08.jpg",
+      "clipes/oficial/ultimate_edition/ULTIMATE_EDITION_VAPID_BUGGY_03.jpg",
+      "clipes/oficial/ultimate_edition/ULTIMATE_EDITION_STOCK_305_04.jpg",
+      "clipes/oficial/ultimate_edition/ULTIMATE_EDITION_WYMAN_CAR_COLLECTION_01.jpg",
+      "clipes/oficial/screenshots/Jason_and_Lucia_03.jpg",
+      "clipes/oficial/screenshots/Jason_and_Lucia_15.jpg",
+      "clipes/oficial/screenshots/Jason_and_Lucia_14.jpg"
+    ],
+    "estilo_capa": "topo",
+    "registrado": "2026-11-20T07:21"
+  },
+  "2026-11-20|radar_2026-11-20_elenco_voz_reel": {
+    "data": "2026-11-20",
+    "horario": "12:00",
+    "imagens": [
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@318.7",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@318.7",
+      "clipes/oficial/screenshots/Jason_and_Lucia_10.jpg",
+      "clipes/oficial/screenshots/Lucia_Caminos_13.jpg",
+      "clipes/oficial/screenshots/Lucia_Caminos_01.jpg",
+      "clipes/oficial/screenshots/Lucia_Caminos_08.jpg",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@933.3",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@815.1",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1029.9",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1029.9",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1029.9",
+      "clipes/oficial/screenshots/Jason_and_Lucia_12.jpg",
+      "clipes/oficial/Jason_and_Lucia_01.jpg"
+    ],
+    "estilo_capa": "faixa",
+    "registrado": "2026-11-20T07:24"
   }
 }

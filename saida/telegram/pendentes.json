@@ -507,5 +507,44 @@
     "situacao": "agendado",
     "message_id": 515,
     "enviado": "2026-11-19T11:15:14.751039"
+  },
+  "83b794b7ed": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/2026-W47_gg_explica.json",
+    "video": "2026-W47_sab_espaco_212gb",
+    "impressao": "73bf79731943",
+    "situacao": "agendado",
+    "message_id": 537,
+    "enviado": "2026-11-20T07:16:07.235147"
+  },
+  "b22ca7aba5": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/2026-W47_gg_explica.json",
+    "video": "2026-W47_sab_vice_city_brasil",
+    "impressao": "a5e091720e89",
+    "situacao": "agendado",
+    "message_id": 538,
+    "enviado": "2026-11-20T07:18:09.335995"
+  },
+  "e6198d4edb": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-20_gg_explica.json",
+    "video": "radar_2026-11-20_sem_60fps_reel",
+    "impressao": "329de34906f9",
+    "situacao": "agendado",
+    "message_id": 539,
+    "enviado": "2026-11-20T07:21:37.008307"
+  },
+  "2c9020d9b5": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-20_gg_explica.json",
+    "video": "radar_2026-11-20_elenco_voz_reel",
+    "impressao": "fbe04f26a70e",
+    "situacao": "agendado",
+    "message_id": 540,
+    "enviado": "2026-11-20T07:24:22.130245"
+  },
+  "2751cf498e": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-20_gg_explica.json",
+    "video": "radar_2026-11-20_pc_opiniao_reel",
+    "impressao": "190a52771bf0",
+    "situacao": "bloqueado",
+    "conferido": "2026-11-20T07:24"
   }
 }
