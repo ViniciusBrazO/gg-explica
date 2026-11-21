@@ -546,5 +546,21 @@
     "impressao": "190a52771bf0",
     "situacao": "bloqueado",
     "conferido": "2026-11-20T22:09"
+  },
+  "d82fb4b60d": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/2026-W47_gg_explica.json",
+    "video": "2026-W47_dom_primeira_semana",
+    "impressao": "5221c2327552",
+    "situacao": "agendado",
+    "message_id": 574,
+    "enviado": "2026-11-21T07:12:56.656502"
+  },
+  "608400fe6c": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/2026-W47_gg_explica.json",
+    "video": "2026-W47_dom_balanco_numeros",
+    "impressao": "7d044cd90783",
+    "situacao": "agendado",
+    "message_id": 575,
+    "enviado": "2026-11-21T07:15:25.515231"
   }
 }

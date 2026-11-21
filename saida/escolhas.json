@@ -1342,5 +1342,44 @@
     ],
     "estilo_capa": "faixa",
     "registrado": "2026-11-20T07:24"
+  },
+  "2026-11-22|2026-W47_dom_primeira_semana": {
+    "data": "2026-11-22",
+    "horario": "13:00",
+    "imagens": [
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@800.0",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@83.6",
+      "clipes/oficial/ultimate_edition/ULTIMATE_EDITION_ELECTRIC_FANG_03.jpg",
+      "clipes/oficial/ultimate_edition/ULTIMATE_EDITION_WYMAN_CAR_COLLECTION_06.jpg",
+      "clipes/oficial/screenshots/Lucia_Caminos_07.jpg",
+      "clipes/oficial/screenshots/Lucia_Caminos_02.jpg",
+      "clipes/oficial/artes_e_wallpapers/Boobie_Ike_portrait.jpg",
+      "clipes/oficial/artes_e_wallpapers/Boobie_Ike_portrait.jpg",
+      "clipes/oficial/screenshots/Jason_Duval_13.jpg",
+      "clipes/oficial/screenshots/Jason_Duval_15.jpg",
+      "clipes/oficial/screenshots/Jason_and_Lucia_06.jpg",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@155.2",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@155.2"
+    ],
+    "estilo_capa": "base",
+    "registrado": "2026-11-21T07:12"
+  },
+  "2026-11-22|2026-W47_dom_balanco_numeros": {
+    "data": "2026-11-22",
+    "horario": "21:30",
+    "imagens": [
+      "clipes/oficial/ultimate_edition/ULTIMATE_EDITION_HAWK_AND_LITTLE_MORGAN_REVOLVERS_01.jpg",
+      "clipes/oficial/ultimate_edition/ULTIMATE_EDITION_HAWK_AND_LITTLE_MORGAN_REVOLVERS_02.jpg",
+      "clipes/oficial/artes_e_wallpapers/Vice_City_Postcard_tablet.jpg",
+      "clipes/oficial/artes_e_wallpapers/Vice_City_Postcard_phone.jpg",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1147.3",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@805.0",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1029.9",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1029.9",
+      "clipes/oficial/screenshots/Mount_Kalaga_National_Park_06.jpg",
+      "clipes/oficial/screenshots/Mount_Kalaga_National_Park_06.jpg"
+    ],
+    "estilo_capa": "topo",
+    "registrado": "2026-11-21T07:15"
   }
 }
