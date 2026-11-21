@@ -586,5 +586,13 @@
     "situacao": "agendado",
     "message_id": 587,
     "enviado": "2026-11-21T16:23:21.941252"
+  },
+  "2a92f68373": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-21_gg_explica.json",
+    "video": "radar_2026-11-21_despistar_policia_reel",
+    "impressao": "2c24e17ba577",
+    "situacao": "agendado",
+    "message_id": 588,
+    "enviado": "2026-11-21T17:15:51.160348"
   }
 }
