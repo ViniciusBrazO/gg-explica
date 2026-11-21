@@ -120,3 +120,16 @@ def test_scripts_do_workflow_tem_sintaxe_valida():
                 script = passo["run"].replace("${{", "X").replace("}}", "X")
                 r = subprocess.run(["bash", "-n"], input=script, text=True, capture_output=True)
                 assert r.returncode == 0, f"{passo.get('name')}: {r.stderr}"
+
+
+def test_limite_do_claude_passa_a_rodada_para_o_gemini(monkeypatch):
+    from types import SimpleNamespace
+    from pipeline import claude_cli, redator, gemini
+    monkeypatch.setattr(claude_cli, "usa_gemini", lambda: False)
+    monkeypatch.setattr(gemini, "disponivel", lambda: True)
+    monkeypatch.setattr(redator, "rodar", lambda t, c="": claude_cli.Execucao(True, f"gemini fez {t}", 0.0))
+    monkeypatch.setattr("pipeline.telegram.Telegram.do_ambiente", classmethod(lambda cls: None))
+    falso = lambda *a, **k: SimpleNamespace(returncode=1, stdout="You've hit your weekly limit · resets 4pm", stderr="")
+    r = claude_cli.rodar("radar", executar=falso)
+    assert r.ok and r.resumo == "gemini fez radar"
+    assert not claude_cli.bateu_limite("3 Reels escritos")

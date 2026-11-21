@@ -101,4 +101,34 @@ def rodar(tarefa: str, contexto: str = "", executar=subprocess.run) -> Execucao:
         resumo, custo = str(dados.get("result", "")), dados.get("total_cost_usd")
     except (json.JSONDecodeError, TypeError):
         resumo, custo = (r.stdout or r.stderr or "").strip()[-1500:], None
+    if bateu_limite(resumo):
+        return plano_b(tarefa, contexto, resumo)
     return Execucao(r.returncode == 0, resumo, custo)
+
+
+LIMITE_DO_PLANO = ("hit your weekly limit", "hit your limit", "usage limit", "limit reached", "rate limit",
+                   "out of extra usage")
+
+
+def bateu_limite(texto: str) -> bool:
+    t = (texto or "").lower()
+    return any(x in t for x in LIMITE_DO_PLANO)
+
+
+def plano_b(tarefa: str, contexto: str, motivo: str) -> Execucao:
+    """O plano do Claude bateu o limite (semanal ou de 5 h): o Gemini escreve esta rodada para os Reels do
+    dia não deixarem de sair. Avisa no Telegram uma vez."""
+    print(f"Claude sem limite agora ({motivo.strip()[:120]}); o Gemini escreve esta rodada")
+    try:
+        from .telegram import Telegram
+        tg = Telegram.do_ambiente()
+        if tg:
+            tg.texto("⚠️ O plano do Claude bateu o limite de uso. Os Reels desta rodada vão ser escritos pelo "
+                     f"Gemini (gratuito) até o limite voltar.\n\n{motivo.strip()[:200]}")
+    except Exception as e:  # noqa: BLE001
+        print(f"  Telegram: {str(e)[:80]}")
+    from .redator import rodar as rodar_gemini
+    from .gemini import disponivel as tem_chave
+    if not tem_chave():
+        return Execucao(False, f"Claude sem limite e sem GEMINI_API_KEY: {motivo.strip()[:200]}")
+    return rodar_gemini(tarefa, contexto)
