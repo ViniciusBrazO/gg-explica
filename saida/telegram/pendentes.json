@@ -562,5 +562,29 @@
     "situacao": "agendado",
     "message_id": 575,
     "enviado": "2026-11-21T07:15:25.515231"
+  },
+  "78cee70039": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-21_gg_explica.json",
+    "video": "radar_2026-11-21_recorde_vendas_reel",
+    "impressao": "2a41e640e3bd",
+    "situacao": "agendado",
+    "message_id": 585,
+    "enviado": "2026-11-21T16:18:15.494429"
+  },
+  "1627ebf3d7": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-21_gg_explica.json",
+    "video": "radar_2026-11-21_dinheiro_rapido_reel",
+    "impressao": "22ae2e3198de",
+    "situacao": "agendado",
+    "message_id": 586,
+    "enviado": "2026-11-21T16:21:00.270473"
+  },
+  "49e6ba988e": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-21_gg_explica.json",
+    "video": "radar_2026-11-21_tres_erros_reel",
+    "impressao": "5a403c65558b",
+    "situacao": "agendado",
+    "message_id": 587,
+    "enviado": "2026-11-21T16:23:21.941252"
   }
 }

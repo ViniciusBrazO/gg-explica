@@ -121,7 +121,7 @@ Link: https://news.google.com/rss/articles/CBMiigFBVV95cUxOTEs2S2hPTm0tdEcxSkdnW
 
 (só a manchete: a matéria não abriu)
 
-Outras manchetes: Grand Theft Auto VI: The Album Is Now Available - Game Informer | "Grand Theft Auto VI: The Album" Now Available for Streaming & Purchase, Vinyl - PlayDayOne
+Outras manchetes: Grand Theft Auto VI: The Album Is Now Available - Game Informer | Grand Theft Auto VI: The Album Is Now Available - Game Informer
 
 
 ## Assunto 3
@@ -158,28 +158,34 @@ Link: https://news.google.com/rss/articles/CBMinAFBVV95cUxNMWZqYVN1ZTMtVDlFWjBUc
 
 ## Assunto 5
 
-### IGN (2026-11-20), selo sugerido relato
-Manchete: Ill - Official Trailer | Horror Game Awards Fall 2026 - IGN
-Link: https://news.google.com/rss/articles/CBMiggFBVV95cUxORHU5cThFYmtZX3pHUlRwN2hHTmlnTExyUXEzeEs3RXhCUll6NlAzcTkwMDlRRUgtX01iY1F0SlJ3ckdFZFdOM2Y0d1hJc1FRcTZGV3hwQmd6ellsYkdWaFBMVFRIWmk2NF90TDFOWXZpRFB5dnRSWFpocTBWeFRCUTB3?oc=5
+### DSOGaming (2026-11-21), selo sugerido rumor
+Manchete: First-Person Action Horror, ILL, Gets Official Game Awards Fall 2026 Trailer - DSOGaming
+Link: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQa1p1b01fbXk0SXp4bm42dWFHZDEtNGcxQURLUTdubWllMi03dFdQTG5uR1ktSmI2ZU9NOXJGRzB2N1pKcU5iSGRvbXo5T3NINjNuaWlVQlJwQnlDaG1BWlhtNFpDMklES3BuUTkzX0tnQlhlQl9hbUhUX3BuTVExTU9KQWlrYW9vdnY4ejVBalM3RmVKdV9HQk93N0pHYmJJNkdiY1pNeVR2NHp3dnVGVzV4STg3enFydTU0?oc=5
 
 (só a manchete: a matéria não abriu)
 
-### IGN (2026-11-20), selo sugerido relato
-Manchete: Psycho Dead - Official Release Date Trailer | Horror Game Awards Fall 2026 - IGN
-Link: https://news.google.com/rss/articles/CBMingFBVV95cUxOOGNPc2tTd2xBTmZoR1ppRDFKVGk5SER3ZVNzZjQyVFVrR3RRSmRBSWRsOTI2S3FEellEM3JqRFJxVzM1cS01UDdrZ1M0ZUR0T3UtSzM5b2d4cE9mMi1rTTBVcWxWNmdiMW5CbVNUS1pWTlpvUmQzRW5GdGZBYmdMRUlLM2hrQjl1c1RMOVExUnRsV2wwdXZJd0lsbWxOdw?oc=5
+### DSOGaming (2026-11-21), selo sugerido rumor
+Manchete: First-Person Action Horror, ILL, Gets Official Game Awards Fall 2026 Trailer - DSOGaming
+Link: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQa1p1b01fbXk0SXp4bm42dWFHZDEtNGcxQURLUTdubWllMi03dFdQTG5uR1ktSmI2ZU9NOXJGRzB2N1pKcU5iSGRvbXo5T3NINjNuaWlVQlJwQnlDaG1BWlhtNFpDMklES3BuUTkzX0tnQlhlQl9hbUhUX3BuTVExTU9KQWlrYW9vdnY4ejVBalM3RmVKdV9HQk93N0pHYmJJNkdiY1pNeVR2NHp3dnVGVzV4STg3enFydTU0?oc=5
 
 (só a manchete: a matéria não abriu)
 
-### IGN (2026-11-20), selo sugerido relato
-Manchete: Perceptum - Official Demo Release Date Trailer | Horror Game Awards Fall 2026 - IGN
-Link: https://news.google.com/rss/articles/CBMiogFBVV95cUxNYmJJbE1VbVhFX2xwSTdMLW9SMF9wS1E3WHIzeG9MV1lVaEl5d3A3OHRaenRxMnNGWjROVkZIdnprQVFrU0R2Wkg2SXZTZWhfRDk0cl85Z0d4UEdxZTloTlZYdmNiWVJUR3FyTTFWeDJ4Vm8tUW12SEJ3emJ2dW1wa1pUbGMtQUpOdmc1SE5Pb3lQa0RxeXBPSC1VZHpTMXZkVmc?oc=5
+### DSOGaming (2026-11-21), selo sugerido rumor
+Manchete: First-Person Action Horror, ILL, Gets Official Game Awards Fall 2026 Trailer - DSOGaming
+Link: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQa1p1b01fbXk0SXp4bm42dWFHZDEtNGcxQURLUTdubWllMi03dFdQTG5uR1ktSmI2ZU9NOXJGRzB2N1pKcU5iSGRvbXo5T3NINjNuaWlVQlJwQnlDaG1BWlhtNFpDMklES3BuUTkzX0tnQlhlQl9hbUhUX3BuTVExTU9KQWlrYW9vdnY4ejVBalM3RmVKdV9HQk93N0pHYmJJNkdiY1pNeVR2NHp3dnVGVzV4STg3enFydTU0?oc=5
 
 (só a manchete: a matéria não abriu)
 
-Outras manchetes: EONA - Official Trailer | Horror Game Awards Fall 2026 - IGN | Farsight - Official Release Window Trailer | Horror Game Awards Fall 2026 - IGN
+Outras manchetes: First-Person Action Horror, ILL, Gets Official Game Awards Fall 2026 Trailer - DSOGaming | First-Person Action Horror, ILL, Gets Official Game Awards Fall 2026 Trailer - DSOGaming
 
 
 ## Assunto 6
+
+### gHacks (2026-11-21), selo sugerido rumor
+Manchete: Grand Theft Auto VI Makes $3.79 Billion on Day One, the Biggest Entertainment Launch Ever - gHacks
+Link: https://news.google.com/rss/articles/CBMivwFBVV95cUxQcFZWZi04RXNSWGxmN2tERkY4d3FSa3FYVjgzQTdZaFFkcERlN1RvNzhxbldFYi10cTVoR0RES1owd01sWENxaGUwTmQtOG0tSExqc051TUQ5ejVHTEpYZzN2Tmx2LV9lM25Ic05oX0ItcmYydzBvZGNfaFNVcldIbEhvenp5NnNtek45eDBhaTE3VXZWWmg2OFR1OVUwSVg5YTNPMDllZUdkTnlLV0oydG00VVhSM0dFVzBZd0ZnSQ?oc=5
+
+(só a manchete: a matéria não abriu)
 
 ### Connected to India (2026-11-21), selo sugerido rumor
 Manchete: Rockstar says GTA 6 becomes biggest entertainment launch in history with $3.79 billion sales - Connected to India
@@ -187,122 +193,48 @@ Link: https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWDdhemhQN25RUGM3empue
 
 (só a manchete: a matéria não abriu)
 
-### MIXED News (2026-11-21), selo sugerido rumor
-Manchete: GTA 6 reached $3.79 billion in launch-day sales, Rockstar says - MIXED News
-Link: https://news.google.com/rss/articles/CBMiiwFBVV95cUxQV2dGd19DamROUzNyWGs0NDJIcWJFSk5icWoxbzhEZnNCUURsT0VpbnBjVjJEREhndm96bURLQ2tPVXN2VGJzSjdMbERWVGJ3MnRKbDhGdk1fRmgxV3Y3TFNJcjFFS1RmRkdpNXZQY3hiWUV4S3ZGT0VhZkhFMm1oTlo4c2c1YmJQWFY0?oc=5
+### Dark Horizons (2026-11-20), selo sugerido rumor
+Manchete: GTA 6 Pulls In $3.79 Billion In One Day - Dark Horizons
+Link: https://news.google.com/rss/articles/CBMid0FVX3lxTE9lczVMOEFWVEtlZDl6dDdVM29lS1JnenBOeEwwWWhxbW9DbTRpRXlkVnBIY2M2NnBtcTZPMEpTYVJTd05lSFNZajNkU0dNbEtNd0VZLVVZbEJsSGsxM3JMdWJxVlE4aWtQR09yNkVnOG1IYXMwdmMw?oc=5
 
 (só a manchete: a matéria não abriu)
 
-### Complex (2026-11-20), selo sugerido rumor
-Manchete: ‘Grand Theft Auto VI’ Had the Biggest Launch in Entertainment History - Complex
-Link: https://news.google.com/rss/articles/CBMihAFBVV95cUxNT05MRy1LVzZtUVBFem8zLWo3N1hYd1lrX05uX2pKNUMxQTV2N3llRkVsYzRQdV9ycjVwMVYxU28xazhBM3RSWTRDTm1ITW1jOGlLeVdtWTROMFBJYVo2UVMzNDAxN25TeVpYVDN0cTlRVFVkVVliSklZMFFpRWE2M2F1bm8?oc=5
-
-(só a manchete: a matéria não abriu)
-
-Outras manchetes: GTA 6 sales hit $3.8bn in a single day - the biggest entertainment launch in history - BBC | GTA 6 is Officially the Biggest Entertainment Launch in History - 80 Level
+Outras manchetes: ‘GTA VI’ Generates $3.79 Billion in “Day One” Sales - The Hollywood Reporter | ‘GTA VI’ Generates $3.79 Billion in “Day One” Sales - The Hollywood Reporter
 
 
 ## Assunto 7
 
-### eurogamer.net (2026-11-15), selo sugerido relato
-Manchete: The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
-Link: https://www.eurogamer.net/gta-6-tracklist-leak
+### TechTudo (2026-11-21), selo sugerido rumor
+Manchete: Mandy em GTA 6: atriz que dá vida à personagem é revelada; conheça - TechTudo
+Link: https://news.google.com/rss/articles/CBMiggFBVV95cUxNNGd6UGZHUU1GaEhEMnRXRkhsREl2dXBLTXVIYmU1MWV2aVN2NVJRNERjdHNpTDMza1ZaODFfVWtuc1NRb1g0QzcyUlI0UXZObk1ucW9nX0FNTlVWVlkwVTJYSmtjNGlaV3ZCSGJ2cEdwcGRHX3VJbmZCOTdadUxQdGZ30gGQAUFVX3lxTFBXNkpwalVmUHRpUU85VjVkRk9Pa1NuQlBNZ1d6dTFyWUw2dEt3TGI3VWZmdmdhUThUVC1Oc2dvSVoyS0dodkpISS1BbmV4SEJOQ01tdkh5Sk5lb3ZiLWVJNTFyRlE2SDBhbHg3Sl9faGxWdC1raVgxTld1RWJDSlU4MXV5akViTFBIZjh4enJLdw?oc=5
 
-The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
-We are now just four days away from the release of GTA 6 on Xbox Series X/S and PS5, but the proximity to the much-anticipated launch date isn't stemming the tide of leaks that has been plaguing the game for much of the past year. Yesterday, a new video - seemingly from a record store that received vinyl records of the soundtrack early - showed off the full 34-song tracklist for the game.
-Thanks to the listing printed on the back of Grand Theft Auto 6: The Album vinyl, we have a better idea of the licensed music that'll appear in-game. Travis Scott, Rina Sawayama, Cardi B, Pinkpantheress, SZA, Keith Richards, Dua Lipa, Jennie, Lana Del Rey, Zara Larsson are just some of the names that make up the impressive list. We know about a few of these tracks from September's announcement of the record, but only six tracks were revealed then, not the whole list.
-Take a look at the full track listing below:
-Starting from Zero – Justice (feat. Michael McDonald)
-That's It – Yung Lean (feat. Future & Metro Boomin)
-Sexy Magic – CA7RIEL & Paco Amoroso, PinkPantheress, Fred Again.. & Étienne de Crécy
-Flower in a Hurricane – Justice (feat. Tame Impala, SZA & King Gizzard & The Lizard Wizard)
-Dance With Me – Boogie Wit Da Hoodie (feat. Elkan)
-Stone Cold Krazy Luuv – Jesse Johnson & DāM-FunK
-Overtown Lights – Stanley Clarke, Yussef Dayes & Robert Glasper
-You can expect to hear these tracks on the radio - alongside many more, no doubt - and deployed at curated times during cutscenes or in missions, to really tie together the vibe of the city. This is something Vice City did remarkably well its roster of 80s tracks, and I can't wait to see how Rockstar has used more contemporary music in the same way here.
-Of course, there have been a lot of Grand Theft Auto 6 leaks in the run-up to the game's launch. Another recent example is the full game's map which seemingly leaked online thanks to the £350 collector's edition on show in a UK department store. Then there were all the leaks from a group calling itself CyberLeek, which shared unofficial gameplay and map details over the course of a few weeks, before Rockstar had even revealed much gameplay itself.
-Amongst all this, Rockstar has been embroiled in legal action after it was accused of union busting following the firing of over 30 employees. The case's conclusion will be determined this week, as the game goes on sale.
+(só a manchete: a matéria não abriu)
 
-### eurogamer.net (2026-11-15), selo sugerido relato
-Manchete: The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
-Link: https://www.eurogamer.net/gta-6-tracklist-leak
+### Omelete (2026-11-20), selo sugerido relato
+Manchete: GTA 6 | Conheça atriz que interpreta Mandy - Omelete
+Link: https://news.google.com/rss/articles/CBMifkFVX3lxTE9leUI0WDBOaGJKdXFHV3FPc0xjTTl5aldaYmZsZ3VGeEtfVjNOUUNjLVZDeENOZ0ZSdW5TYjhScmVfWnpQbnFnd2ZmWWU3cV9KVlgzVDZwaXVZZXpTQ0ltandTeGloYk1uX2RKZTg4Q1N4U3ZDYjV4Mjk1TE5oQQ?oc=5
 
-The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
-We are now just four days away from the release of GTA 6 on Xbox Series X/S and PS5, but the proximity to the much-anticipated launch date isn't stemming the tide of leaks that has been plaguing the game for much of the past year. Yesterday, a new video - seemingly from a record store that received vinyl records of the soundtrack early - showed off the full 34-song tracklist for the game.
-Thanks to the listing printed on the back of Grand Theft Auto 6: The Album vinyl, we have a better idea of the licensed music that'll appear in-game. Travis Scott, Rina Sawayama, Cardi B, Pinkpantheress, SZA, Keith Richards, Dua Lipa, Jennie, Lana Del Rey, Zara Larsson are just some of the names that make up the impressive list. We know about a few of these tracks from September's announcement of the record, but only six tracks were revealed then, not the whole list.
-Take a look at the full track listing below:
-Starting from Zero – Justice (feat. Michael McDonald)
-That's It – Yung Lean (feat. Future & Metro Boomin)
-Sexy Magic – CA7RIEL & Paco Amoroso, PinkPantheress, Fred Again.. & Étienne de Crécy
-Flower in a Hurricane – Justice (feat. Tame Impala, SZA & King Gizzard & The Lizard Wizard)
-Dance With Me – Boogie Wit Da Hoodie (feat. Elkan)
-Stone Cold Krazy Luuv – Jesse Johnson & DāM-FunK
-Overtown Lights – Stanley Clarke, Yussef Dayes & Robert Glasper
-You can expect to hear these tracks on the radio - alongside many more, no doubt - and deployed at curated times during cutscenes or in missions, to really tie together the vibe of the city. This is something Vice City did remarkably well its roster of 80s tracks, and I can't wait to see how Rockstar has used more contemporary music in the same way here.
-Of course, there have been a lot of Grand Theft Auto 6 leaks in the run-up to the game's launch. Another recent example is the full game's map which seemingly leaked online thanks to the £350 collector's edition on show in a UK department store. Then there were all the leaks from a group calling itself CyberLeek, which shared unofficial gameplay and map details over the course of a few weeks, before Rockstar had even revealed much gameplay itself.
-Amongst all this, Rockstar has been embroiled in legal action after it was accused of union busting following the firing of over 30 employees. The case's conclusion will be determined this week, as the game goes on sale.
+(só a manchete: a matéria não abriu)
 
-### eurogamer.net (2026-11-15), selo sugerido relato
-Manchete: The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
-Link: https://www.eurogamer.net/gta-6-tracklist-leak
+### Pichau Arena (2026-11-20), selo sugerido rumor
+Manchete: Quem é Mandy em GTA 6? Conheça a personagem que viralizou - Pichau Arena
+Link: https://news.google.com/rss/articles/CBMiekFVX3lxTE03NWoxWDhmNURybUtkS0hXMUhMN2VzMkc2YWtMSE9vWDhIMjJjNGhMMGhLYzRUcmdpZUZvazc0NldEbUdkY1B6V0V6TlA5Y0g5dGxJS09admZoTGtfOF9RSWpBc1E1alZhR2ktcmZBN05JUkpKd3RIdXZn?oc=5
 
-The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
-We are now just four days away from the release of GTA 6 on Xbox Series X/S and PS5, but the proximity to the much-anticipated launch date isn't stemming the tide of leaks that has been plaguing the game for much of the past year. Yesterday, a new video - seemingly from a record store that received vinyl records of the soundtrack early - showed off the full 34-song tracklist for the game.
-Thanks to the listing printed on the back of Grand Theft Auto 6: The Album vinyl, we have a better idea of the licensed music that'll appear in-game. Travis Scott, Rina Sawayama, Cardi B, Pinkpantheress, SZA, Keith Richards, Dua Lipa, Jennie, Lana Del Rey, Zara Larsson are just some of the names that make up the impressive list. We know about a few of these tracks from September's announcement of the record, but only six tracks were revealed then, not the whole list.
-Take a look at the full track listing below:
-Starting from Zero – Justice (feat. Michael McDonald)
-That's It – Yung Lean (feat. Future & Metro Boomin)
-Sexy Magic – CA7RIEL & Paco Amoroso, PinkPantheress, Fred Again.. & Étienne de Crécy
-Flower in a Hurricane – Justice (feat. Tame Impala, SZA & King Gizzard & The Lizard Wizard)
-Dance With Me – Boogie Wit Da Hoodie (feat. Elkan)
-Stone Cold Krazy Luuv – Jesse Johnson & DāM-FunK
-Overtown Lights – Stanley Clarke, Yussef Dayes & Robert Glasper
-You can expect to hear these tracks on the radio - alongside many more, no doubt - and deployed at curated times during cutscenes or in missions, to really tie together the vibe of the city. This is something Vice City did remarkably well its roster of 80s tracks, and I can't wait to see how Rockstar has used more contemporary music in the same way here.
-Of course, there have been a lot of Grand Theft Auto 6 leaks in the run-up to the game's launch. Another recent example is the full game's map which seemingly leaked online thanks to the £350 collector's edition on show in a UK department store. Then there were all the leaks from a group calling itself CyberLeek, which shared unofficial gameplay and map details over the course of a few weeks, before Rockstar had even revealed much gameplay itself.
-Amongst all this, Rockstar has been embroiled in legal action after it was accused of union busting following the firing of over 30 employees. The case's conclusion will be determined this week, as the game goes on sale.
+(só a manchete: a matéria não abriu)
 
-Outras manchetes: The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more | The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
+Outras manchetes: Quem é Mandy de GTA 6? Atriz revela ser a inspiração real da personagem - UOL
 
 
 ## Assunto 8
 
-### eurogamer.net (2026-11-16), selo sugerido relato
-Manchete: Original GTA 6 leaker pleads guilty to hacking Rockstar Games, years after first revealing Lucia
-Link: https://www.eurogamer.net/gta-6-leaker-pleads-guilty
+### IGN India (2026-11-20), selo sugerido relato
+Manchete: We're All In - Official Launch Trailer - IGN India
+Link: https://news.google.com/rss/articles/CBMidkFVX3lxTE9UN09CbFZTZzhIbDIzend6bUhIa3F5MWJuZzNreC1RNlcxTWpaT0NPemRlUl83TV9ZVmRFajNYdE5DcGI5WFFybzRSRHhlaDBFVjZnUUZKOHl2TkRWeHZYSVE3d0ZtQ1JfS2JPb2hieWRhazJpd3c?oc=5
 
-Original GTA 6 leaker pleads guilty to hacking Rockstar Games, years after first revealing Lucia
-The 21-year-old responsible for hacking Rockstar Games and leaking in-development GTA 6 footage in 2022 has pleaded guilty to a number of offenses.
-The GTA 6 leaker was initially sentenced to an indefinite stay at a hospital due to his severe autism, but was more recently deemed fit for trial and moved to a regular prison earlier this January. On Monday, at the Woolwich Crown Court in South East London, he pleaded guilty to hacking Rockstar Games and a number of other companies, including Uber and EE/BT, in cyber attacks estimated to have caused £10m in damages.
-At the time of his Rockstar hack - when he was between the ages of 16 and 17 - the leaker was already under police protection at a Travelodge hotel to keep him from rival hackers he had allegedly stolen Bitcoin from. Somewhat surprisingly, he then managed to hack the multi-billion dollar game maker with nothing but an Amazon Fire Stick, the hotel room's TV and a bluetooth-connected keyboard and mouse.
-As the BBC reports, he also managed to break into the developer's Slack channels, before threatening to release the GTA 6 source code if Rockstar failed to contact him within the day. The leaker has yet to be sentenced.
-Those 2022 leaks were quite substantial, too, revealing about an hour of unfinished gameplay and clueing the world in on Lucia's existence - the series' first female protagonist in years. Of course, those 2022 leaks shouldn't be confused with 2026's, which saw Cyberleek spill nuggets of nearly finished clips onto the internet, despite Rockstar's best efforts to keep GTA 6 a closely guarded secret.
-"We recently suffered a network intrusion in which an unauthorised third-party illegally accessed and downloaded confidential information from our systems, including early development footage for the next Grand Theft Auto," Rockstar said at the time, before it had officially unveiled GTA 6. "At this time we do not anticipate any disruption to our live game services, nor any long-term effect on the development of our ongoing projects. We are extremely disappointed to have any details of our next game shared with you all in this way."
-Four years later, GTA 6 is finally around the corner - you're probably already aware considering the marketing frenzy Rockstar's been drumming up.
+(só a manchete: a matéria não abriu)
 
-### eurogamer.net (2026-11-16), selo sugerido relato
-Manchete: Original GTA 6 leaker pleads guilty to hacking Rockstar Games, years after first revealing Lucia
-Link: https://www.eurogamer.net/gta-6-leaker-pleads-guilty
+### IGN Benelux (2026-11-20), selo sugerido relato
+Manchete: GTA 6 (Grand Theft Auto 6) - Official Global Launch Trailer - IGN Benelux
+Link: https://news.google.com/rss/articles/CBMiowFBVV95cUxNVDBkMWpuWnYxVG9BenBUdloyMjg4THBDcHNOSi1OSWVhWXRpcjRwOHMzRXZUMjhlZ2d6TDZJVzctZS1iOW4xa1FWQlNvYm1tSkFPaDdVb1VKWm1pcGFFZVZwQTB2WWFIdktSaEV3RGdlS082cWdRcDZ2ZlFJcUhlalU2NHJITXRqNXJsN2ZIR1hwQ0xxODVwWXZ3ajc1R2ZiYzZF?oc=5
 
-Original GTA 6 leaker pleads guilty to hacking Rockstar Games, years after first revealing Lucia
-The 21-year-old responsible for hacking Rockstar Games and leaking in-development GTA 6 footage in 2022 has pleaded guilty to a number of offenses.
-The GTA 6 leaker was initially sentenced to an indefinite stay at a hospital due to his severe autism, but was more recently deemed fit for trial and moved to a regular prison earlier this January. On Monday, at the Woolwich Crown Court in South East London, he pleaded guilty to hacking Rockstar Games and a number of other companies, including Uber and EE/BT, in cyber attacks estimated to have caused £10m in damages.
-At the time of his Rockstar hack - when he was between the ages of 16 and 17 - the leaker was already under police protection at a Travelodge hotel to keep him from rival hackers he had allegedly stolen Bitcoin from. Somewhat surprisingly, he then managed to hack the multi-billion dollar game maker with nothing but an Amazon Fire Stick, the hotel room's TV and a bluetooth-connected keyboard and mouse.
-As the BBC reports, he also managed to break into the developer's Slack channels, before threatening to release the GTA 6 source code if Rockstar failed to contact him within the day. The leaker has yet to be sentenced.
-Those 2022 leaks were quite substantial, too, revealing about an hour of unfinished gameplay and clueing the world in on Lucia's existence - the series' first female protagonist in years. Of course, those 2022 leaks shouldn't be confused with 2026's, which saw Cyberleek spill nuggets of nearly finished clips onto the internet, despite Rockstar's best efforts to keep GTA 6 a closely guarded secret.
-"We recently suffered a network intrusion in which an unauthorised third-party illegally accessed and downloaded confidential information from our systems, including early development footage for the next Grand Theft Auto," Rockstar said at the time, before it had officially unveiled GTA 6. "At this time we do not anticipate any disruption to our live game services, nor any long-term effect on the development of our ongoing projects. We are extremely disappointed to have any details of our next game shared with you all in this way."
-Four years later, GTA 6 is finally around the corner - you're probably already aware considering the marketing frenzy Rockstar's been drumming up.
-
-### eurogamer.net (2026-11-16), selo sugerido relato
-Manchete: Original GTA 6 leaker pleads guilty to hacking Rockstar Games, years after first revealing Lucia
-Link: https://www.eurogamer.net/gta-6-leaker-pleads-guilty
-
-Original GTA 6 leaker pleads guilty to hacking Rockstar Games, years after first revealing Lucia
-The 21-year-old responsible for hacking Rockstar Games and leaking in-development GTA 6 footage in 2022 has pleaded guilty to a number of offenses.
-The GTA 6 leaker was initially sentenced to an indefinite stay at a hospital due to his severe autism, but was more recently deemed fit for trial and moved to a regular prison earlier this January. On Monday, at the Woolwich Crown Court in South East London, he pleaded guilty to hacking Rockstar Games and a number of other companies, including Uber and EE/BT, in cyber attacks estimated to have caused £10m in damages.
-At the time of his Rockstar hack - when he was between the ages of 16 and 17 - the leaker was already under police protection at a Travelodge hotel to keep him from rival hackers he had allegedly stolen Bitcoin from. Somewhat surprisingly, he then managed to hack the multi-billion dollar game maker with nothing but an Amazon Fire Stick, the hotel room's TV and a bluetooth-connected keyboard and mouse.
-As the BBC reports, he also managed to break into the developer's Slack channels, before threatening to release the GTA 6 source code if Rockstar failed to contact him within the day. The leaker has yet to be sentenced.
-Those 2022 leaks were quite substantial, too, revealing about an hour of unfinished gameplay and clueing the world in on Lucia's existence - the series' first female protagonist in years. Of course, those 2022 leaks shouldn't be confused with 2026's, which saw Cyberleek spill nuggets of nearly finished clips onto the internet, despite Rockstar's best efforts to keep GTA 6 a closely guarded secret.
-"We recently suffered a network intrusion in which an unauthorised third-party illegally accessed and downloaded confidential information from our systems, including early development footage for the next Grand Theft Auto," Rockstar said at the time, before it had officially unveiled GTA 6. "At this time we do not anticipate any disruption to our live game services, nor any long-term effect on the development of our ongoing projects. We are extremely disappointed to have any details of our next game shared with you all in this way."
-Four years later, GTA 6 is finally around the corner - you're probably already aware considering the marketing frenzy Rockstar's been drumming up.
-
-Outras manchetes: Original GTA 6 leaker pleads guilty to hacking Rockstar Games, years after first revealing Lucia | Original GTA 6 leaker pleads guilty to hacking Rockstar Games, years after first revealing Lucia
+(só a manchete: a matéria não abriu)
