@@ -122,10 +122,11 @@ def test_scripts_do_workflow_tem_sintaxe_valida():
                 assert r.returncode == 0, f"{passo.get('name')}: {r.stderr}"
 
 
-def test_limite_do_claude_passa_a_rodada_para_o_gemini(monkeypatch):
+def test_limite_do_claude_passa_a_rodada_para_o_gemini(monkeypatch, tmp_path):
     from types import SimpleNamespace
     from pipeline import claude_cli, redator, gemini
     monkeypatch.setattr(claude_cli, "usa_gemini", lambda: False)
+    monkeypatch.setattr(claude_cli, "PASTA_LOG", tmp_path)
     monkeypatch.setattr(gemini, "disponivel", lambda: True)
     monkeypatch.setattr(redator, "rodar", lambda t, c="": claude_cli.Execucao(True, f"gemini fez {t}", 0.0))
     monkeypatch.setattr("pipeline.telegram.Telegram.do_ambiente", classmethod(lambda cls: None))
