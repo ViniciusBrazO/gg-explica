@@ -17,6 +17,7 @@ saida/*
 !saida/radar/
 !saida/telegram/
 !saida/claude/
+!saida/gameplay/
 
 # biblioteca oficial e gravações (pesadas): só o catálogo e o LEIA
 clipes/*

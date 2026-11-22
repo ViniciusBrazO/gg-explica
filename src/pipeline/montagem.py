@@ -467,6 +467,32 @@ def _juntar_narracao(trechos: list[Trecho], saida: Path) -> None:
     _ff([*entradas, "-filter_complex", filtro, "-map", "[narr]", "-c:a", "pcm_s16le", str(saida)])
 
 
+PASTA_GAMEPLAY = "saida/cache/gameplay/"   # cortes da gravação do Vinicius (ficam no cache das rodadas)
+
+
+def arquivo_gameplay(cena: Cena) -> str:
+    """O corte da gravação do Vinicius usado na cena (em `midia` ou, no gancho, em `fundo_clipe`)."""
+    for campo in (cena.midia, cena.fundo_clipe):
+        if campo and campo.replace("\\", "/").startswith(PASTA_GAMEPLAY):
+            return campo
+    return ""
+
+
+def e_gameplay(cena: Cena) -> bool:
+    return bool(arquivo_gameplay(cena))
+
+
+def _tomada_gameplay(cena: Cena, duracao: float, andamento: dict[str, float]) -> MidiaCena:
+    """Uma tomada só, do ponto em que a cena anterior do mesmo trecho parou."""
+    arquivo = arquivo_gameplay(cena)
+    inicio = (cena.midia_inicio or 0.0 if cena.midia == arquivo else 0.0) + andamento.get(arquivo, 0.0)
+    falsa = cena.model_copy(update={"tipo": "tela_cheia", "midia": arquivo, "midia_inicio": inicio,
+                                    "midia_fim": inicio + duracao,
+                                    "midia_recorte": None, "midia_animacao": "nenhuma", "midia_destaque": None,
+                                    "panoramica": False})
+    return MidiaCena.da_cena(falsa)
+
+
 def _tomadas_da_cena(cena: Cena, duracao: float, evitar: set, usadas: list[str], semente: str) -> list[MidiaCena]:
     """Estilo notícia: 1 tomada a cada ~2,6 s, cada uma de uma imagem ou trecho diferente.
     Usa a busca/arquivo da cena (midia ou fundo_clipe); a primeira respeita o arquivo escolhido."""
@@ -559,6 +585,7 @@ def renderizar_video(marca: Marca, video: Video, pasta_saida: Path, voz_forcada:
         # o roteiro inteiro numa narração só: fala corrida, sem pausa nem "recomeço" a cada cena
         falas, continua = falar_continuo(voz, textos, trabalho)
 
+        andamento_gameplay: dict[str, float] = {}
         for i, cena in enumerate(video.cenas):
             dados = cena.model_dump()
             for campo in ("titulo", "texto", "numero", "rotulo", "rodape", "narracao", "kicker", "fonte"):
@@ -574,7 +601,12 @@ def renderizar_video(marca: Marca, video: Video, pasta_saida: Path, voz_forcada:
 
             # a primeira cena vira a capa: também não repete o rosto/lugar da capa de outro post
             evitar_aqui = evitar | set(usadas) | (capas_vizinhas if i == 0 else set())
-            if noticia:
+            if noticia and e_gameplay(cena):
+                # gravação própria: o trecho corre contínuo de uma cena para a outra, sem trocar de imagem
+                tomadas = [_tomada_gameplay(cena, duracao, andamento_gameplay)]
+                arq = arquivo_gameplay(cena)
+                andamento_gameplay[arq] = andamento_gameplay.get(arq, 0.0) + duracao
+            elif noticia:
                 tomadas = _tomadas_da_cena(cena, duracao, evitar_aqui, usadas, f"{video.id}|{i}")
                 if midia_capa is None and tomadas:
                     midia_capa = (str(tomadas[0].caminho), tomadas[0].inicio or 0.0)

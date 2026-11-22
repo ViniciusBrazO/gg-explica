@@ -132,8 +132,9 @@ def abrir_vaga(marca: str, video_id: str, dia: str, limite: int | None = None) -
               and i.id != video_id and i.status in ("pendente", "publicado", "manual")]
     if len({i.id for i in do_dia}) < limite:
         return True, ""
-    if video_id.startswith("radar_"):
-        trocaveis = sorted((i for i in do_dia if not i.id.startswith("radar_") and i.status == "pendente"),
+    prioritarios = ("radar_", "gameplay_")      # notícia do dia e gameplay própria valem mais que pauta antiga
+    if video_id.startswith(prioritarios):
+        trocaveis = sorted((i for i in do_dia if not i.id.startswith(prioritarios) and i.status == "pendente"),
                            key=lambda i: i.quando)
         if trocaveis:
             sai = trocaveis[-1].id

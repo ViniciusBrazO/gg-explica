@@ -93,6 +93,10 @@ post:
   cta_padrao: "Segue a GG Explica pra entender antes de todo mundo."
 
 series:
+  gameplay:
+    nome: GAMEPLAY
+    descricao: Os melhores momentos da gameplay da página (gravação própria no PS5), narrados com graça.
+    leva_link: false
   radar:
     nome: RADAR
     descricao: A notícia do dia, com selo e fonte. O que aconteceu, por que importa, o que falta saber.

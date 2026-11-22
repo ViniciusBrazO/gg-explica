@@ -41,6 +41,11 @@ env:
   CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
   AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
   GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+  # Gameplay do Vinicius (pasta "GG Gameplay" do Google Drive) e YouTube: mesmo cliente OAuth do Google
+  YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+  YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+  YT_REFRESH_TOKEN_GG_EXPLICA: ${{ secrets.YT_REFRESH_TOKEN_GG_EXPLICA }}
+  GDRIVE_REFRESH_TOKEN: ${{ secrets.GDRIVE_REFRESH_TOKEN }}
   AZURE_SPEECH_REGION: brazilsouth
 
 jobs:

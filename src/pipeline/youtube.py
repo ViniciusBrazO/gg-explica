@@ -133,13 +133,13 @@ class PublicadorYouTube:
 # ---------------------------------------------------------------- autorização (uma vez por canal)
 
 def autorizar(client_id: str, client_secret: str, porta: int = 8765, abrir=webbrowser.open,
-              sessao=None) -> str:
+              sessao=None, escopo: str = ESCOPO) -> str:
     """Abre o login do Google no navegador, recebe o código em http://127.0.0.1:<porta> e devolve
     o refresh token. Rode uma vez por canal e cole o resultado no .env."""
     estado = secrets.token_urlsafe(16)
     retorno = f"http://127.0.0.1:{porta}"
     url = AUTORIZAR + "?" + urlencode({
-        "client_id": client_id, "redirect_uri": retorno, "response_type": "code", "scope": ESCOPO,
+        "client_id": client_id, "redirect_uri": retorno, "response_type": "code", "scope": escopo,
         "access_type": "offline", "prompt": "consent", "state": estado})
     recebido: dict = {}
 

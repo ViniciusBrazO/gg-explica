@@ -60,6 +60,13 @@ CLAUDE_CODE_OAUTH_TOKEN, AZURE_SPEECH_KEY (voz Antonio, reserva) e GEMINI_API_KE
 `prompts/gemini_sistema.md`: o kit lê as matérias, o Gemini escreve, o validador confere); sem a chave
 do Gemini, volta para o Claude Code (`claude -p`).
 
+**Gameplay do Vinicius (22/11):** ele grava no PS5 e põe o MP4 na pasta "GG Gameplay" do Google Drive.
+Numa rodada pesada, `src/pipeline/gameplay.py` baixa (API do Drive, `GDRIVE_REFRESH_TOKEN` + `YT_CLIENT_ID/SECRET`),
+manda o original para a lixeira do Drive, o Gemini assiste uma cópia leve e marca os momentos (sem spoiler),
+o kit corta em `saida/cache/gameplay/` e registra em `saida/gameplay/momentos.json`; a tarefa `gameplay` do
+Claude (`prompts/gameplay.md`) escreve o roteiro curto (só texto) e o kit monta com o trecho contínuo
+(`montagem.e_gameplay`). Gameplay e radar têm preferência sobre pauta antiga no teto diário.
+
 ## Como o projeto funciona
 
 ```

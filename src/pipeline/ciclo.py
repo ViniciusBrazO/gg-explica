@@ -156,6 +156,26 @@ def rodar(publicar: bool = True) -> int:
         if disponivel():
             etiquetar_momentos(mostrar=_log)
 
+    def gameplay():
+        """Gravação nova na pasta do Drive: o Gemini acha os momentos, o kit corta e o Claude escreve
+        o roteiro de cada corte (só texto, gasta pouco). Rodada pesada só."""
+        if os.environ.get("RODADA") == "leve":
+            return
+        from . import gameplay as gp
+        if not gp.ligado():
+            return
+        gp.marcar_usados()
+        try:
+            gp.processar(mostrar=_log)
+        except Exception as e:  # noqa: BLE001
+            falhas = gp.registrar_falha(str(e))
+            _log(f"gameplay: {str(e)[:200]} (falha {falhas})")
+        if gp.precisa_roteiro():
+            from .claude_cli import rodar
+            gp.marcar_pedido_roteiro()
+            r = rodar("gameplay")
+            _log(f"gameplay: roteiros {'escritos' if r.ok else 'falharam'}: {r.resumo[-300:]}")
+
     def instagram():
         from .cli import cmd_publicar
         cmd_publicar(Namespace(simular=False))
@@ -164,6 +184,7 @@ def rodar(publicar: bool = True) -> int:
         etapa("material salvo", clipes)
         etapa("biblioteca oficial", material_oficial)
         etapa("trechos de vídeo", trechos_de_video)
+        etapa("gameplay", gameplay)
         etapa("radar", noticias)
         etapa("notícias guardadas", alertas_guardados)
         etapa("respostas do Telegram", respostas)

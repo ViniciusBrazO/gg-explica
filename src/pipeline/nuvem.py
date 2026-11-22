@@ -88,6 +88,16 @@ def motivos_para_pesado(hoje: date | None = None, telegram=None, agora: datetime
     if ALERTAS_PENDENTES.exists():
         motivos.append("notícia quente para o Claude")
 
+    try:                                       # gameplay do Vinicius na pasta do Drive
+        from . import gameplay as gp
+        if gp.ligado():
+            if gp.pendentes():
+                motivos.append("gravação nova no Drive")
+            elif gp.precisa_roteiro():
+                motivos.append("cortes de gameplay sem roteiro")
+    except Exception as e:  # noqa: BLE001     (Drive fora do ar não trava a rodada)
+        print(f"aviso: Drive não respondeu ({str(e)[:120]})")
+
     from .ciclo import ULTIMA_BIBLIOTECA
     horas = cfg.get("biblioteca", {}).get("verificar_a_cada_horas", 24)
     ultima = ler_marca_de_tempo(ULTIMA_BIBLIOTECA)

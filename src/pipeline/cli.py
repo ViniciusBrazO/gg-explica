@@ -17,6 +17,8 @@ Automação (o agendador do Windows roda estes sozinho, veja scripts/instalar_au
   paginas oficial <url> [<url>...]       # baixa imagens oficiais escolhidas para clipes/oficial
   paginas biblioteca                     # baixa os pacotes oficiais da Rockstar (trailers e imagens)
   paginas youtube autorizar --marca ID   # liga o canal do YouTube (uma vez)
+  paginas drive autorizar                # liga a pasta GG Gameplay do Google Drive (uma vez)
+  paginas gameplay [--listar]            # corta a próxima gravação do Drive (o ciclo já faz sozinho)
 """
 from __future__ import annotations
 
@@ -762,6 +764,34 @@ def cmd_clipes(args) -> int:
     return 0
 
 
+def cmd_drive(args) -> int:
+    """Liga a pasta "GG Gameplay" do Google Drive (uma vez): imprime o GDRIVE_REFRESH_TOKEN."""
+    from .gameplay import autorizar_drive
+    cid, segredo = os.environ.get("YT_CLIENT_ID"), os.environ.get("YT_CLIENT_SECRET")
+    if not cid or not segredo:
+        print("Falta YT_CLIENT_ID e YT_CLIENT_SECRET no .env (o cliente OAuth do Google Cloud).")
+        return 1
+    token = autorizar_drive(cid, segredo)
+    print("\nPronto. Salve este valor no GitHub em Settings > Secrets and variables > Actions, com o nome "
+          "GDRIVE_REFRESH_TOKEN (não cole em nenhum outro lugar):\n\n" + token)
+    return 0
+
+
+def cmd_gameplay(args) -> int:
+    """Processa a próxima gravação da pasta do Drive (o ciclo já faz isso sozinho nas rodadas pesadas)."""
+    from . import gameplay as gp
+    if not gp.ligado():
+        print("Gameplay desligada: falta GDRIVE_REFRESH_TOKEN, YT_CLIENT_ID/SECRET ou GEMINI_API_KEY.")
+        return 1
+    if args.listar:
+        for v in gp.pendentes():
+            print(f"{v['name']}  {int(v.get('size', 0)) / 1e9:.1f} GB")
+        return 0
+    n = gp.processar()
+    print(f"{n} corte(s); livres para roteiro: {len(gp.cortes_livres())}")
+    return 0
+
+
 def cmd_youtube(args) -> int:
     from .youtube import ErroYouTube, autorizar
 
@@ -917,7 +947,7 @@ def main(argv: list[str] | None = None) -> int:
     p.set_defaults(func=cmd_ciclo)
 
     p = sub.add_parser("claude", help="roda uma tarefa do Claude Code sem janela")
-    p.add_argument("tarefa", choices=["radar", "pauta", "alerta", "catalogo", "ajustes", "traducao"])
+    p.add_argument("tarefa", choices=["radar", "pauta", "alerta", "catalogo", "ajustes", "traducao", "gameplay"])
     p.add_argument("--contexto", help="texto extra para a tarefa (ex.: a notícia do alerta)")
     p.set_defaults(func=cmd_claude)
 
@@ -958,6 +988,14 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("acao", choices=["conferir"])
     p.add_argument("--marca", default="gg_explica")
     p.set_defaults(func=cmd_meta)
+
+    p = sub.add_parser("drive", help="liga a pasta GG Gameplay do Google Drive (uma vez)")
+    p.add_argument("acao", choices=["autorizar"])
+    p.set_defaults(func=cmd_drive)
+
+    p = sub.add_parser("gameplay", help="corta a próxima gravação da pasta GG Gameplay do Drive")
+    p.add_argument("--listar", action="store_true", help="só mostra as gravações que estão esperando")
+    p.set_defaults(func=cmd_gameplay)
 
     p = sub.add_parser("youtube", help="liga um canal do YouTube (uma vez por canal)")
     p.add_argument("acao", choices=["autorizar"])

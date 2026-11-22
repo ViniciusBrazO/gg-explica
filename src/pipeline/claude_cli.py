@@ -25,7 +25,8 @@ TAREFAS = {
     "catalogo": "catalogar_clipes.md",  # quando chegam gravações novas
     "ajustes": "ajustes.md",           # quando você pede ajuste pelo Telegram
     "traducao": "traducao.md",         # versão em espanhol das pautas novas
-    "resumo": "resumo_do_dia.md",      # 23h30: o que saiu hoje e músicas em alta para trocar no app
+    "resumo": "resumo_do_dia.md",
+    "gameplay": "gameplay.md",         # cortes novos da gravação do Vinicius: roteiro de cada Reel      # 23h30: o que saiu hoje e músicas em alta para trocar no app
 }
 PASTA_LOG = RAIZ / "saida" / "claude"
 

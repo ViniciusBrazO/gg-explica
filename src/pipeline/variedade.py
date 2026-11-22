@@ -130,7 +130,8 @@ def estilo_capa(video: Video) -> str:
 def repetidas(video: Video) -> list[str]:
     """Bloqueios: imagem por caminho direto repetida no próprio post ou já usada em outro post próximo."""
     problemas = []
-    diretos = _caminhos_diretos(video)
+    # o corte da gameplay do Vinicius aparece em todas as cenas de propósito: o trecho corre contínuo
+    diretos = [c for c in _caminhos_diretos(video) if not c.replace("\\", "/").startswith("saida/cache/gameplay/")]
     for c in sorted({c for c in diretos if diretos.count(c) > 1}):
         problemas.append(f"a imagem {c} aparece mais de uma vez neste post (uma imagem diferente por slide)")
     usados_fora: dict[str, str] = {}
