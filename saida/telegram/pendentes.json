@@ -594,5 +594,21 @@
     "situacao": "agendado",
     "message_id": 588,
     "enviado": "2026-11-21T17:15:51.160348"
+  },
+  "b4d1b6b520": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-22_gg_explica.json",
+    "video": "radar_2026-11-22_ultimate_capitulos_reel",
+    "impressao": "7bf46619461c",
+    "situacao": "agendado",
+    "message_id": 593,
+    "enviado": "2026-11-22T07:16:33.259260"
+  },
+  "5a03574ae6": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-22_gg_explica.json",
+    "video": "radar_2026-11-22_horas_salario_reel",
+    "impressao": "f455e724067b",
+    "situacao": "agendado",
+    "message_id": 594,
+    "enviado": "2026-11-22T07:19:56.873368"
   }
 }

@@ -1,4 +1,4 @@
-# Dossiê do radar (21/11/2026)
+# Dossiê do radar (22/11/2026)
 
 Texto das matérias aberto pelo kit. Use os números, nomes e datas daqui. Matéria marcada "só a manchete" não abriu: procure outra fonte com WebSearch/WebFetch antes de escrever.
 
@@ -103,9 +103,9 @@ Outras manchetes: Grand Theft Auto VI launches tomorrow, November 19 | Grand The
 
 ## Assunto 2
 
-### Complex (2026-11-20), selo sugerido rumor
-Manchete: 'Grand Theft Auto VI: The Album' Vinyl and Poster Now Available on Complex - Complex
-Link: https://news.google.com/rss/articles/CBMijgFBVV95cUxPNDZuWll4ZWROc3Q3VHd0QkFUYXkwM1VjREJNRXQ2NUExd1ZwX0NuQ2lKc1dvNTU3ZndwcXlJQy1WT3ZwQzhTU1c5aURwZEhCa1RIMjFOR3VpVTZ2ZFM4TFJ4YmdIUThuVng3eTlXZVV3LUJvYXdGbERDeTk4UVpwX3ZNa0NWN2xmeDlONG1R?oc=5
+### Rockstar Games (2026-11-20), selo sugerido confirmado
+Manchete: Grand Theft Auto VI: The Album Now Available - Rockstar Games
+Link: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOUdHR3lsOTUwbEM0QkdnZHZSRjJTdXFuVjhKV1lvd28xUmhBVURQamg5R3kyZ2YtX0tBX3JoQi14cHk3d18zaV9pcjlid3c3YlZFb1p3Ylc1ZTJYWm1BT2gxN3hUcWRpZ0FCd0RsQW50bEtyWTdkdzI2N1k3cFdVck5IQ2Nyb1VpTkY5Y2lOamRaTHlKUk5lSG1NOEltTHRWckgwNTFGUWs?oc=5
 
 (só a manchete: a matéria não abriu)
 
@@ -121,42 +121,10 @@ Link: https://news.google.com/rss/articles/CBMiigFBVV95cUxOTEs2S2hPTm0tdEcxSkdnW
 
 (só a manchete: a matéria não abriu)
 
-Outras manchetes: Grand Theft Auto VI: The Album Is Now Available - Game Informer | Grand Theft Auto VI: The Album Is Now Available - Game Informer
+Outras manchetes: Grand Theft Auto VI: The Album Is Now Available - Game Informer | Grand Theft Auto VI: The Album Now Available - Rockstar Games
 
 
 ## Assunto 3
-
-### Rockstar Games (2026-11-19), selo sugerido confirmado
-Manchete: Grand Theft Auto VI: Out Now - Rockstar Games
-Link: https://news.google.com/rss/articles/CBMiUkFVX3lxTFBtaFUxS2pNTHhQbEVpS1BJdWUyR0NSaU1ZSDZURVFxWVVkYmVyQjJBclNXbzVXQlNMZ1VXdHh3aW5xMUF4RU8xenk0YkxWRkVwdnc?oc=5
-
-(só a manchete: a matéria não abriu)
-
-### Rockstar Games (2026-11-19), selo sugerido confirmado
-Manchete: Grand Theft Auto VI: Out Now - Rockstar Games
-Link: https://news.google.com/rss/articles/CBMiUkFVX3lxTFBtaFUxS2pNTHhQbEVpS1BJdWUyR0NSaU1ZSDZURVFxWVVkYmVyQjJBclNXbzVXQlNMZ1VXdHh3aW5xMUF4RU8xenk0YkxWRkVwdnc?oc=5
-
-(só a manchete: a matéria não abriu)
-
-### Rockstar Games (2026-11-19), selo sugerido confirmado
-Manchete: Grand Theft Auto VI: Out Now - Rockstar Games
-Link: https://news.google.com/rss/articles/CBMiUkFVX3lxTFBtaFUxS2pNTHhQbEVpS1BJdWUyR0NSaU1ZSDZURVFxWVVkYmVyQjJBclNXbzVXQlNMZ1VXdHh3aW5xMUF4RU8xenk0YkxWRkVwdnc?oc=5
-
-(só a manchete: a matéria não abriu)
-
-Outras manchetes: Grand Theft Auto VI: Out Now - Rockstar Games | Grand Theft Auto VI: Out Now - Rockstar Games
-
-
-## Assunto 4
-
-### Take-Two Interactive Software, Inc. (2026-11-20), selo sugerido confirmado
-Manchete: Grand Theft Auto VI Shatters Entertainment Box Office Records with $3.79 Billion in Day One Retail Sales - Take-Two Interactive Software, Inc.
-Link: https://news.google.com/rss/articles/CBMinAFBVV95cUxNMWZqYVN1ZTMtVDlFWjBUclI5SHd2T2tKUVFUOU85RDhsam84NDdwREpScWYtMVpCVEgtakV3bm1TR0R0S28xeGttTFFaQklabmVnMVBBdy1RRkxWWEVsVHY1YjJWM2NwNWJ2Mm1YcTZTRFhRdHpmNW5yUnFpTHNnMURmcWVjMXkwRHc1YXZzb0ZuZTktcmU4Z09TaGs?oc=5
-
-(só a manchete: a matéria não abriu)
-
-
-## Assunto 5
 
 ### DSOGaming (2026-11-21), selo sugerido rumor
 Manchete: First-Person Action Horror, ILL, Gets Official Game Awards Fall 2026 Trailer - DSOGaming
@@ -179,62 +147,233 @@ Link: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQa1p1b01fbXk0SXp4bm42d
 Outras manchetes: First-Person Action Horror, ILL, Gets Official Game Awards Fall 2026 Trailer - DSOGaming | First-Person Action Horror, ILL, Gets Official Game Awards Fall 2026 Trailer - DSOGaming
 
 
+## Assunto 4
+
+### ign.com (2026-11-20), selo sugerido relato
+Manchete: GTA 6 Players React After Exclusive Shops Greet Non-Ultimate Edition Buyers With Locked Doors
+Link: https://www.ign.com/articles/gta-6-players-react-after-exclusive-shops-greet-non-ultimate-edition-buyers-with-locked-doors
+
+GTA 6 Players React After Exclusive Shops Greet Non-Ultimate Edition Buyers With Locked Doors
+GTA 6 players are being locked out of in-game stores because they don't own the Ultimate Edition, and they've got some thoughts about how Rockstar handled it.
+We've known for months that the developer's latest sprawling open-world video game would have a $79.99 Standard Edition and $99.99 Ultimate Edition to pick up at launch. Those willing to pay the $20 upcharge netted a solid assortment of cosmetics, weapons, vehicles, and unique shops, leaving those who didn't shell out the extra cash with fewer options to choose from when taking Jason and Lucia out into Vice City.
+Rockstar has been clear about what this would mean for standard owners, but in practice, players are feeling like the door has been (literally) closed in their faces. GTA 6's exclusive in-game shops – One-Eyed Willie's, Sara's Unisex Salon, Stock 305, and Electric Fang Tattoo Parlor – are the topic of conversation here. Not everyone was sure how exactly these stores would bar players from entry upon release. It seems, at least based on the consensus from disappointed players, they were expecting to at least be able to enter the locations and not buy anything – but Rockstar doesn't even give them that.
+GTA 6's Ultimate Edition grants you access to a few stores across Leonida, so what happens when you try to enter them in the Standard Edition? #gta6 https://t.co/GMaHpdLwnc
+We broke down the Standard vs. Ultimate Edition contents with a side-by-side video that you can check out above. As you can see, the shops have fully decorated interiors that are completely closed off to those who didn't pick up the more expensive version of GTA 6. Those who spent the extra dough can go about their days shopping as they please, while those who didn't have found an unwelcome surprise when heading to any of these spots in Leonida.
+Being physically locked out of the building is maybe a bit more brutal than some were expecting, but it's the reality players are meeting – and they aren't happy. Comments from disgruntled fans online have called Rockstar's move to keep content blocked off "greedy" and "shady," with many upset that a relatively substantial amount of finished content is only accessible by spending more money. Others are disappointed to see that there wasn't a cheaper compromise, such as making exclusive shops a late-game unlock. Either way, it's the door in the face that seems to sting the most.
+"I'm all for companies making money - but when you pull the kinda money rockstar is - this just feels greedy/shady," one player said.
+"Paid $80 just to get bounced from a store like I'm under 21," another replied.
+"So the Ultimate Edition just locks the door in your face?" another player reacted. "That's the most expensive closed sign I've ever seen."
+GTA 6 launched for PlayStation 5 and Xbox Series X/S November 19. Whether you decided to pick up those extra cosmetic options or not, Rockstar seems to be quite pleased with the release. Earlier today, it noted that it had secured the biggest entertainment launch in history with $3.79 billion in just 24 hours. IGN gave the game a 10/10 review.
+Just getting started in GTA 6 or wondering what to do next? Check out the Official Grand Theft Auto 6 guide right here on IGN. If you're still getting your bearings, discover GTA's new systems with the Beginner's Guide - 67 Tips and Tricks, or get all the details on the first chapters with the Chapter 1 Guide and Tips and Chapter 2 Guide and Tips. If you're already driving all around Leonida and want to know everything there is to find and do, see the Leonida interactive map.
+Michael Cripe is a freelance writer with IGN. He's best known for his work at sites like The Pitch, The Escapist, and OnlySP. Be sure to give him a follow on Bluesky (@mikecripe.bsky.social) and Twitter (@MikeCripe).
+
+### ign.com (2026-11-20), selo sugerido relato
+Manchete: GTA 6 Players React After Exclusive Shops Greet Non-Ultimate Edition Buyers With Locked Doors
+Link: https://www.ign.com/articles/gta-6-players-react-after-exclusive-shops-greet-non-ultimate-edition-buyers-with-locked-doors
+
+GTA 6 Players React After Exclusive Shops Greet Non-Ultimate Edition Buyers With Locked Doors
+GTA 6 players are being locked out of in-game stores because they don't own the Ultimate Edition, and they've got some thoughts about how Rockstar handled it.
+We've known for months that the developer's latest sprawling open-world video game would have a $79.99 Standard Edition and $99.99 Ultimate Edition to pick up at launch. Those willing to pay the $20 upcharge netted a solid assortment of cosmetics, weapons, vehicles, and unique shops, leaving those who didn't shell out the extra cash with fewer options to choose from when taking Jason and Lucia out into Vice City.
+Rockstar has been clear about what this would mean for standard owners, but in practice, players are feeling like the door has been (literally) closed in their faces. GTA 6's exclusive in-game shops – One-Eyed Willie's, Sara's Unisex Salon, Stock 305, and Electric Fang Tattoo Parlor – are the topic of conversation here. Not everyone was sure how exactly these stores would bar players from entry upon release. It seems, at least based on the consensus from disappointed players, they were expecting to at least be able to enter the locations and not buy anything – but Rockstar doesn't even give them that.
+GTA 6's Ultimate Edition grants you access to a few stores across Leonida, so what happens when you try to enter them in the Standard Edition? #gta6 https://t.co/GMaHpdLwnc
+We broke down the Standard vs. Ultimate Edition contents with a side-by-side video that you can check out above. As you can see, the shops have fully decorated interiors that are completely closed off to those who didn't pick up the more expensive version of GTA 6. Those who spent the extra dough can go about their days shopping as they please, while those who didn't have found an unwelcome surprise when heading to any of these spots in Leonida.
+Being physically locked out of the building is maybe a bit more brutal than some were expecting, but it's the reality players are meeting – and they aren't happy. Comments from disgruntled fans online have called Rockstar's move to keep content blocked off "greedy" and "shady," with many upset that a relatively substantial amount of finished content is only accessible by spending more money. Others are disappointed to see that there wasn't a cheaper compromise, such as making exclusive shops a late-game unlock. Either way, it's the door in the face that seems to sting the most.
+"I'm all for companies making money - but when you pull the kinda money rockstar is - this just feels greedy/shady," one player said.
+"Paid $80 just to get bounced from a store like I'm under 21," another replied.
+"So the Ultimate Edition just locks the door in your face?" another player reacted. "That's the most expensive closed sign I've ever seen."
+GTA 6 launched for PlayStation 5 and Xbox Series X/S November 19. Whether you decided to pick up those extra cosmetic options or not, Rockstar seems to be quite pleased with the release. Earlier today, it noted that it had secured the biggest entertainment launch in history with $3.79 billion in just 24 hours. IGN gave the game a 10/10 review.
+Just getting started in GTA 6 or wondering what to do next? Check out the Official Grand Theft Auto 6 guide right here on IGN. If you're still getting your bearings, discover GTA's new systems with the Beginner's Guide - 67 Tips and Tricks, or get all the details on the first chapters with the Chapter 1 Guide and Tips and Chapter 2 Guide and Tips. If you're already driving all around Leonida and want to know everything there is to find and do, see the Leonida interactive map.
+Michael Cripe is a freelance writer with IGN. He's best known for his work at sites like The Pitch, The Escapist, and OnlySP. Be sure to give him a follow on Bluesky (@mikecripe.bsky.social) and Twitter (@MikeCripe).
+
+### ign.com (2026-11-20), selo sugerido relato
+Manchete: GTA 6 Players React After Exclusive Shops Greet Non-Ultimate Edition Buyers With Locked Doors
+Link: https://www.ign.com/articles/gta-6-players-react-after-exclusive-shops-greet-non-ultimate-edition-buyers-with-locked-doors
+
+GTA 6 Players React After Exclusive Shops Greet Non-Ultimate Edition Buyers With Locked Doors
+GTA 6 players are being locked out of in-game stores because they don't own the Ultimate Edition, and they've got some thoughts about how Rockstar handled it.
+We've known for months that the developer's latest sprawling open-world video game would have a $79.99 Standard Edition and $99.99 Ultimate Edition to pick up at launch. Those willing to pay the $20 upcharge netted a solid assortment of cosmetics, weapons, vehicles, and unique shops, leaving those who didn't shell out the extra cash with fewer options to choose from when taking Jason and Lucia out into Vice City.
+Rockstar has been clear about what this would mean for standard owners, but in practice, players are feeling like the door has been (literally) closed in their faces. GTA 6's exclusive in-game shops – One-Eyed Willie's, Sara's Unisex Salon, Stock 305, and Electric Fang Tattoo Parlor – are the topic of conversation here. Not everyone was sure how exactly these stores would bar players from entry upon release. It seems, at least based on the consensus from disappointed players, they were expecting to at least be able to enter the locations and not buy anything – but Rockstar doesn't even give them that.
+GTA 6's Ultimate Edition grants you access to a few stores across Leonida, so what happens when you try to enter them in the Standard Edition? #gta6 https://t.co/GMaHpdLwnc
+We broke down the Standard vs. Ultimate Edition contents with a side-by-side video that you can check out above. As you can see, the shops have fully decorated interiors that are completely closed off to those who didn't pick up the more expensive version of GTA 6. Those who spent the extra dough can go about their days shopping as they please, while those who didn't have found an unwelcome surprise when heading to any of these spots in Leonida.
+Being physically locked out of the building is maybe a bit more brutal than some were expecting, but it's the reality players are meeting – and they aren't happy. Comments from disgruntled fans online have called Rockstar's move to keep content blocked off "greedy" and "shady," with many upset that a relatively substantial amount of finished content is only accessible by spending more money. Others are disappointed to see that there wasn't a cheaper compromise, such as making exclusive shops a late-game unlock. Either way, it's the door in the face that seems to sting the most.
+"I'm all for companies making money - but when you pull the kinda money rockstar is - this just feels greedy/shady," one player said.
+"Paid $80 just to get bounced from a store like I'm under 21," another replied.
+"So the Ultimate Edition just locks the door in your face?" another player reacted. "That's the most expensive closed sign I've ever seen."
+GTA 6 launched for PlayStation 5 and Xbox Series X/S November 19. Whether you decided to pick up those extra cosmetic options or not, Rockstar seems to be quite pleased with the release. Earlier today, it noted that it had secured the biggest entertainment launch in history with $3.79 billion in just 24 hours. IGN gave the game a 10/10 review.
+Just getting started in GTA 6 or wondering what to do next? Check out the Official Grand Theft Auto 6 guide right here on IGN. If you're still getting your bearings, discover GTA's new systems with the Beginner's Guide - 67 Tips and Tricks, or get all the details on the first chapters with the Chapter 1 Guide and Tips and Chapter 2 Guide and Tips. If you're already driving all around Leonida and want to know everything there is to find and do, see the Leonida interactive map.
+Michael Cripe is a freelance writer with IGN. He's best known for his work at sites like The Pitch, The Escapist, and OnlySP. Be sure to give him a follow on Bluesky (@mikecripe.bsky.social) and Twitter (@MikeCripe).
+
+Outras manchetes: GTA 6 Players React After Exclusive Shops Greet Non-Ultimate Edition Buyers With Locked Doors | GTA 6 Players React After Exclusive Shops Greet Non-Ultimate Edition Buyers With Locked Doors
+
+
+## Assunto 5
+
+### eurogamer.net (2026-11-18), selo sugerido relato
+Manchete: PSA: Some GTA 6 Ultimate Edition content is only available for the first chapter, and you'll have to put in hard graft to unlock more
+Link: https://www.eurogamer.net/gta-6-ultimate-edition-unlock-details-temporary-content
+
+PSA: Some GTA 6 Ultimate Edition content is only available for the first chapter, and you'll have to put in hard graft to unlock more
+GTA 6's Ultimate Edition has proven enormously popular, despite its hefty $100 price tag. So much so that Strauss Zelnick, boss of Rockstar parent company Take-Two, recently confirmed it's the edition most people are buying - and that's despite a lack of specific information about how its unlockable content works. With GTA 6 just hours away from release, however - and out now in certain parts of the work - details are beginning to emerge, and the answer is perhaps a little surprising.
+As previously confirmed, the $100/£90 Ultimate Edition provides access to exclusive vehicles, weapons, shops, and more, with the full list as follows:
+Rockstar also previously revealed that "Ultimate Edition bonuses become available to Jason and Lucia across their story, with new items uncovered behind each chapter". The specifics of how - and when - all this stuff unlocks, though, remained unclear. So if you've opted for the Ultimate Edition, you might be wondering where your stuff is when you finally fire up the game. As reported by IGN, which has full unlock details, it turns out virtually all of GTA 6's Ultimate Edition content, as per details in the in-game shop, requires progressing through the main story - in some cases dozens and dozens of hours into the story - before it'll become available.
+Ultimate Edition-exclusive shops, for instance, unlock during Chapter 1, and many of the other additions become available by the end of Chapter 2. That doesn't sound too difficult, but as Eurogamer's Chris Tapsell notes, reaching that point could take upward of 25 hours. As for some of the late-game unlocks, such as the Shitzu Squalo and the Vice City Style outfits and tattoos (available in Chapter 4) and Chapter 5's 95 Grotti Cheetah, you could be looking at closing in on 60 hours of playtime before they unlock.
+"It'll vary depending how hard people focus on the main story," Chris explains, "but if you were mostly focused on the main story plus the optional character-based missions in largely chronological order, that's about how long it'd take."
+It's also worth noting - perhaps surprisingly - that some Ultimate Edition content is only a temporary unlock, usable only during specific chapters. Jason's Dinka Enduro motorcycle and Crest Kayak, for instance, can only be accessed and enjoyed during Chapter 1. That's also true for his retro Vapid Ganado, available from the Coastal Auto Care mod shop in Key Lento. So basically, you'll want to make the most of these while you can!
+All this might be a little disappointing for players who were expecting to be showered with Ultimate Edition spoils from the off (and that they'd be permanent unlocks), but the good news is 60 hours in GTA 6 is far from a chore. As Chris explained in his five star GTA 6 review, Rockstar's latest is an "irreducible mix of silliness, intimacy, grand ideas and rock 'n' roll action" that "pushes back the horizon of video games once again".
+
+### eurogamer.net (2026-11-18), selo sugerido relato
+Manchete: PSA: Some GTA 6 Ultimate Edition content is only available for the first chapter, and you'll have to put in hard graft to unlock more
+Link: https://www.eurogamer.net/gta-6-ultimate-edition-unlock-details-temporary-content
+
+PSA: Some GTA 6 Ultimate Edition content is only available for the first chapter, and you'll have to put in hard graft to unlock more
+GTA 6's Ultimate Edition has proven enormously popular, despite its hefty $100 price tag. So much so that Strauss Zelnick, boss of Rockstar parent company Take-Two, recently confirmed it's the edition most people are buying - and that's despite a lack of specific information about how its unlockable content works. With GTA 6 just hours away from release, however - and out now in certain parts of the work - details are beginning to emerge, and the answer is perhaps a little surprising.
+As previously confirmed, the $100/£90 Ultimate Edition provides access to exclusive vehicles, weapons, shops, and more, with the full list as follows:
+Rockstar also previously revealed that "Ultimate Edition bonuses become available to Jason and Lucia across their story, with new items uncovered behind each chapter". The specifics of how - and when - all this stuff unlocks, though, remained unclear. So if you've opted for the Ultimate Edition, you might be wondering where your stuff is when you finally fire up the game. As reported by IGN, which has full unlock details, it turns out virtually all of GTA 6's Ultimate Edition content, as per details in the in-game shop, requires progressing through the main story - in some cases dozens and dozens of hours into the story - before it'll become available.
+Ultimate Edition-exclusive shops, for instance, unlock during Chapter 1, and many of the other additions become available by the end of Chapter 2. That doesn't sound too difficult, but as Eurogamer's Chris Tapsell notes, reaching that point could take upward of 25 hours. As for some of the late-game unlocks, such as the Shitzu Squalo and the Vice City Style outfits and tattoos (available in Chapter 4) and Chapter 5's 95 Grotti Cheetah, you could be looking at closing in on 60 hours of playtime before they unlock.
+"It'll vary depending how hard people focus on the main story," Chris explains, "but if you were mostly focused on the main story plus the optional character-based missions in largely chronological order, that's about how long it'd take."
+It's also worth noting - perhaps surprisingly - that some Ultimate Edition content is only a temporary unlock, usable only during specific chapters. Jason's Dinka Enduro motorcycle and Crest Kayak, for instance, can only be accessed and enjoyed during Chapter 1. That's also true for his retro Vapid Ganado, available from the Coastal Auto Care mod shop in Key Lento. So basically, you'll want to make the most of these while you can!
+All this might be a little disappointing for players who were expecting to be showered with Ultimate Edition spoils from the off (and that they'd be permanent unlocks), but the good news is 60 hours in GTA 6 is far from a chore. As Chris explained in his five star GTA 6 review, Rockstar's latest is an "irreducible mix of silliness, intimacy, grand ideas and rock 'n' roll action" that "pushes back the horizon of video games once again".
+
+### eurogamer.net (2026-11-18), selo sugerido relato
+Manchete: PSA: Some GTA 6 Ultimate Edition content is only available for the first chapter, and you'll have to put in hard graft to unlock more
+Link: https://www.eurogamer.net/gta-6-ultimate-edition-unlock-details-temporary-content
+
+PSA: Some GTA 6 Ultimate Edition content is only available for the first chapter, and you'll have to put in hard graft to unlock more
+GTA 6's Ultimate Edition has proven enormously popular, despite its hefty $100 price tag. So much so that Strauss Zelnick, boss of Rockstar parent company Take-Two, recently confirmed it's the edition most people are buying - and that's despite a lack of specific information about how its unlockable content works. With GTA 6 just hours away from release, however - and out now in certain parts of the work - details are beginning to emerge, and the answer is perhaps a little surprising.
+As previously confirmed, the $100/£90 Ultimate Edition provides access to exclusive vehicles, weapons, shops, and more, with the full list as follows:
+Rockstar also previously revealed that "Ultimate Edition bonuses become available to Jason and Lucia across their story, with new items uncovered behind each chapter". The specifics of how - and when - all this stuff unlocks, though, remained unclear. So if you've opted for the Ultimate Edition, you might be wondering where your stuff is when you finally fire up the game. As reported by IGN, which has full unlock details, it turns out virtually all of GTA 6's Ultimate Edition content, as per details in the in-game shop, requires progressing through the main story - in some cases dozens and dozens of hours into the story - before it'll become available.
+Ultimate Edition-exclusive shops, for instance, unlock during Chapter 1, and many of the other additions become available by the end of Chapter 2. That doesn't sound too difficult, but as Eurogamer's Chris Tapsell notes, reaching that point could take upward of 25 hours. As for some of the late-game unlocks, such as the Shitzu Squalo and the Vice City Style outfits and tattoos (available in Chapter 4) and Chapter 5's 95 Grotti Cheetah, you could be looking at closing in on 60 hours of playtime before they unlock.
+"It'll vary depending how hard people focus on the main story," Chris explains, "but if you were mostly focused on the main story plus the optional character-based missions in largely chronological order, that's about how long it'd take."
+It's also worth noting - perhaps surprisingly - that some Ultimate Edition content is only a temporary unlock, usable only during specific chapters. Jason's Dinka Enduro motorcycle and Crest Kayak, for instance, can only be accessed and enjoyed during Chapter 1. That's also true for his retro Vapid Ganado, available from the Coastal Auto Care mod shop in Key Lento. So basically, you'll want to make the most of these while you can!
+All this might be a little disappointing for players who were expecting to be showered with Ultimate Edition spoils from the off (and that they'd be permanent unlocks), but the good news is 60 hours in GTA 6 is far from a chore. As Chris explained in his five star GTA 6 review, Rockstar's latest is an "irreducible mix of silliness, intimacy, grand ideas and rock 'n' roll action" that "pushes back the horizon of video games once again".
+
+Outras manchetes: PSA: Some GTA 6 Ultimate Edition content is only available for the first chapter, and you'll have to put in hard graft to unlock more | PSA: Some GTA 6 Ultimate Edition content is only available for the first chapter, and you'll have to put in hard graft to unlock more
+
+
 ## Assunto 6
 
-### gHacks (2026-11-21), selo sugerido rumor
-Manchete: Grand Theft Auto VI Makes $3.79 Billion on Day One, the Biggest Entertainment Launch Ever - gHacks
-Link: https://news.google.com/rss/articles/CBMivwFBVV95cUxQcFZWZi04RXNSWGxmN2tERkY4d3FSa3FYVjgzQTdZaFFkcERlN1RvNzhxbldFYi10cTVoR0RES1owd01sWENxaGUwTmQtOG0tSExqc051TUQ5ejVHTEpYZzN2Tmx2LV9lM25Ic05oX0ItcmYydzBvZGNfaFNVcldIbEhvenp5NnNtek45eDBhaTE3VXZWWmg2OFR1OVUwSVg5YTNPMDllZUdkTnlLV0oydG00VVhSM0dFVzBZd0ZnSQ?oc=5
+### eurogamer.net (2026-11-16), selo sugerido relato
+Manchete: Original GTA 6 leaker pleads guilty to hacking Rockstar Games, years after first revealing Lucia
+Link: https://www.eurogamer.net/gta-6-leaker-pleads-guilty
 
-(só a manchete: a matéria não abriu)
+Original GTA 6 leaker pleads guilty to hacking Rockstar Games, years after first revealing Lucia
+The 21-year-old responsible for hacking Rockstar Games and leaking in-development GTA 6 footage in 2022 has pleaded guilty to a number of offenses.
+The GTA 6 leaker was initially sentenced to an indefinite stay at a hospital due to his severe autism, but was more recently deemed fit for trial and moved to a regular prison earlier this January. On Monday, at the Woolwich Crown Court in South East London, he pleaded guilty to hacking Rockstar Games and a number of other companies, including Uber and EE/BT, in cyber attacks estimated to have caused £10m in damages.
+At the time of his Rockstar hack - when he was between the ages of 16 and 17 - the leaker was already under police protection at a Travelodge hotel to keep him from rival hackers he had allegedly stolen Bitcoin from. Somewhat surprisingly, he then managed to hack the multi-billion dollar game maker with nothing but an Amazon Fire Stick, the hotel room's TV and a bluetooth-connected keyboard and mouse.
+As the BBC reports, he also managed to break into the developer's Slack channels, before threatening to release the GTA 6 source code if Rockstar failed to contact him within the day. The leaker has yet to be sentenced.
+Those 2022 leaks were quite substantial, too, revealing about an hour of unfinished gameplay and clueing the world in on Lucia's existence - the series' first female protagonist in years. Of course, those 2022 leaks shouldn't be confused with 2026's, which saw Cyberleek spill nuggets of nearly finished clips onto the internet, despite Rockstar's best efforts to keep GTA 6 a closely guarded secret.
+"We recently suffered a network intrusion in which an unauthorised third-party illegally accessed and downloaded confidential information from our systems, including early development footage for the next Grand Theft Auto," Rockstar said at the time, before it had officially unveiled GTA 6. "At this time we do not anticipate any disruption to our live game services, nor any long-term effect on the development of our ongoing projects. We are extremely disappointed to have any details of our next game shared with you all in this way."
+Four years later, GTA 6 is finally around the corner - you're probably already aware considering the marketing frenzy Rockstar's been drumming up.
 
-### Connected to India (2026-11-21), selo sugerido rumor
-Manchete: Rockstar says GTA 6 becomes biggest entertainment launch in history with $3.79 billion sales - Connected to India
-Link: https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWDdhemhQN25RUGM3empueVV4NS1XUHpCQ0ZYY0ZERlFjZFR5Z0JxbThsWE1tU1VVUEZ4WGZSTEMzeWd6WEZEOFdmZkZPOHJkY05IWHgzM2Q1VzI4d0FoaG43WW01blJ5R01JU196NnQtVjhoeUZIVFlJU0pYdDFvai1UQkdOcFA0Yy1pN0IwU3h0VzhlUTQ2ZmN4bHI1a3dDc3BFNU1VVE04Mzc2V3BkNDVyQ2FONUhhUzR0RnIxZnZkQlU?oc=5
+### eurogamer.net (2026-11-16), selo sugerido relato
+Manchete: Original GTA 6 leaker pleads guilty to hacking Rockstar Games, years after first revealing Lucia
+Link: https://www.eurogamer.net/gta-6-leaker-pleads-guilty
 
-(só a manchete: a matéria não abriu)
+Original GTA 6 leaker pleads guilty to hacking Rockstar Games, years after first revealing Lucia
+The 21-year-old responsible for hacking Rockstar Games and leaking in-development GTA 6 footage in 2022 has pleaded guilty to a number of offenses.
+The GTA 6 leaker was initially sentenced to an indefinite stay at a hospital due to his severe autism, but was more recently deemed fit for trial and moved to a regular prison earlier this January. On Monday, at the Woolwich Crown Court in South East London, he pleaded guilty to hacking Rockstar Games and a number of other companies, including Uber and EE/BT, in cyber attacks estimated to have caused £10m in damages.
+At the time of his Rockstar hack - when he was between the ages of 16 and 17 - the leaker was already under police protection at a Travelodge hotel to keep him from rival hackers he had allegedly stolen Bitcoin from. Somewhat surprisingly, he then managed to hack the multi-billion dollar game maker with nothing but an Amazon Fire Stick, the hotel room's TV and a bluetooth-connected keyboard and mouse.
+As the BBC reports, he also managed to break into the developer's Slack channels, before threatening to release the GTA 6 source code if Rockstar failed to contact him within the day. The leaker has yet to be sentenced.
+Those 2022 leaks were quite substantial, too, revealing about an hour of unfinished gameplay and clueing the world in on Lucia's existence - the series' first female protagonist in years. Of course, those 2022 leaks shouldn't be confused with 2026's, which saw Cyberleek spill nuggets of nearly finished clips onto the internet, despite Rockstar's best efforts to keep GTA 6 a closely guarded secret.
+"We recently suffered a network intrusion in which an unauthorised third-party illegally accessed and downloaded confidential information from our systems, including early development footage for the next Grand Theft Auto," Rockstar said at the time, before it had officially unveiled GTA 6. "At this time we do not anticipate any disruption to our live game services, nor any long-term effect on the development of our ongoing projects. We are extremely disappointed to have any details of our next game shared with you all in this way."
+Four years later, GTA 6 is finally around the corner - you're probably already aware considering the marketing frenzy Rockstar's been drumming up.
 
-### Dark Horizons (2026-11-20), selo sugerido rumor
-Manchete: GTA 6 Pulls In $3.79 Billion In One Day - Dark Horizons
-Link: https://news.google.com/rss/articles/CBMid0FVX3lxTE9lczVMOEFWVEtlZDl6dDdVM29lS1JnenBOeEwwWWhxbW9DbTRpRXlkVnBIY2M2NnBtcTZPMEpTYVJTd05lSFNZajNkU0dNbEtNd0VZLVVZbEJsSGsxM3JMdWJxVlE4aWtQR09yNkVnOG1IYXMwdmMw?oc=5
+### eurogamer.net (2026-11-16), selo sugerido relato
+Manchete: Original GTA 6 leaker pleads guilty to hacking Rockstar Games, years after first revealing Lucia
+Link: https://www.eurogamer.net/gta-6-leaker-pleads-guilty
 
-(só a manchete: a matéria não abriu)
+Original GTA 6 leaker pleads guilty to hacking Rockstar Games, years after first revealing Lucia
+The 21-year-old responsible for hacking Rockstar Games and leaking in-development GTA 6 footage in 2022 has pleaded guilty to a number of offenses.
+The GTA 6 leaker was initially sentenced to an indefinite stay at a hospital due to his severe autism, but was more recently deemed fit for trial and moved to a regular prison earlier this January. On Monday, at the Woolwich Crown Court in South East London, he pleaded guilty to hacking Rockstar Games and a number of other companies, including Uber and EE/BT, in cyber attacks estimated to have caused £10m in damages.
+At the time of his Rockstar hack - when he was between the ages of 16 and 17 - the leaker was already under police protection at a Travelodge hotel to keep him from rival hackers he had allegedly stolen Bitcoin from. Somewhat surprisingly, he then managed to hack the multi-billion dollar game maker with nothing but an Amazon Fire Stick, the hotel room's TV and a bluetooth-connected keyboard and mouse.
+As the BBC reports, he also managed to break into the developer's Slack channels, before threatening to release the GTA 6 source code if Rockstar failed to contact him within the day. The leaker has yet to be sentenced.
+Those 2022 leaks were quite substantial, too, revealing about an hour of unfinished gameplay and clueing the world in on Lucia's existence - the series' first female protagonist in years. Of course, those 2022 leaks shouldn't be confused with 2026's, which saw Cyberleek spill nuggets of nearly finished clips onto the internet, despite Rockstar's best efforts to keep GTA 6 a closely guarded secret.
+"We recently suffered a network intrusion in which an unauthorised third-party illegally accessed and downloaded confidential information from our systems, including early development footage for the next Grand Theft Auto," Rockstar said at the time, before it had officially unveiled GTA 6. "At this time we do not anticipate any disruption to our live game services, nor any long-term effect on the development of our ongoing projects. We are extremely disappointed to have any details of our next game shared with you all in this way."
+Four years later, GTA 6 is finally around the corner - you're probably already aware considering the marketing frenzy Rockstar's been drumming up.
 
-Outras manchetes: ‘GTA VI’ Generates $3.79 Billion in “Day One” Sales - The Hollywood Reporter | ‘GTA VI’ Generates $3.79 Billion in “Day One” Sales - The Hollywood Reporter
+Outras manchetes: Original GTA 6 leaker pleads guilty to hacking Rockstar Games, years after first revealing Lucia | Original GTA 6 leaker pleads guilty to hacking Rockstar Games, years after first revealing Lucia
 
 
 ## Assunto 7
 
-### TechTudo (2026-11-21), selo sugerido rumor
-Manchete: Mandy em GTA 6: atriz que dá vida à personagem é revelada; conheça - TechTudo
-Link: https://news.google.com/rss/articles/CBMiggFBVV95cUxNNGd6UGZHUU1GaEhEMnRXRkhsREl2dXBLTXVIYmU1MWV2aVN2NVJRNERjdHNpTDMza1ZaODFfVWtuc1NRb1g0QzcyUlI0UXZObk1ucW9nX0FNTlVWVlkwVTJYSmtjNGlaV3ZCSGJ2cEdwcGRHX3VJbmZCOTdadUxQdGZ30gGQAUFVX3lxTFBXNkpwalVmUHRpUU85VjVkRk9Pa1NuQlBNZ1d6dTFyWUw2dEt3TGI3VWZmdmdhUThUVC1Oc2dvSVoyS0dodkpISS1BbmV4SEJOQ01tdkh5Sk5lb3ZiLWVJNTFyRlE2SDBhbHg3Sl9faGxWdC1raVgxTld1RWJDSlU4MXV5akViTFBIZjh4enJLdw?oc=5
+### eurogamer.net (2026-11-15), selo sugerido relato
+Manchete: The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
+Link: https://www.eurogamer.net/gta-6-tracklist-leak
 
-(só a manchete: a matéria não abriu)
+The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
+We are now just four days away from the release of GTA 6 on Xbox Series X/S and PS5, but the proximity to the much-anticipated launch date isn't stemming the tide of leaks that has been plaguing the game for much of the past year. Yesterday, a new video - seemingly from a record store that received vinyl records of the soundtrack early - showed off the full 34-song tracklist for the game.
+Thanks to the listing printed on the back of Grand Theft Auto 6: The Album vinyl, we have a better idea of the licensed music that'll appear in-game. Travis Scott, Rina Sawayama, Cardi B, Pinkpantheress, SZA, Keith Richards, Dua Lipa, Jennie, Lana Del Rey, Zara Larsson are just some of the names that make up the impressive list. We know about a few of these tracks from September's announcement of the record, but only six tracks were revealed then, not the whole list.
+Take a look at the full track listing below:
+Starting from Zero – Justice (feat. Michael McDonald)
+That's It – Yung Lean (feat. Future & Metro Boomin)
+Sexy Magic – CA7RIEL & Paco Amoroso, PinkPantheress, Fred Again.. & Étienne de Crécy
+Flower in a Hurricane – Justice (feat. Tame Impala, SZA & King Gizzard & The Lizard Wizard)
+Dance With Me – Boogie Wit Da Hoodie (feat. Elkan)
+Stone Cold Krazy Luuv – Jesse Johnson & DāM-FunK
+Overtown Lights – Stanley Clarke, Yussef Dayes & Robert Glasper
+You can expect to hear these tracks on the radio - alongside many more, no doubt - and deployed at curated times during cutscenes or in missions, to really tie together the vibe of the city. This is something Vice City did remarkably well its roster of 80s tracks, and I can't wait to see how Rockstar has used more contemporary music in the same way here.
+Of course, there have been a lot of Grand Theft Auto 6 leaks in the run-up to the game's launch. Another recent example is the full game's map which seemingly leaked online thanks to the £350 collector's edition on show in a UK department store. Then there were all the leaks from a group calling itself CyberLeek, which shared unofficial gameplay and map details over the course of a few weeks, before Rockstar had even revealed much gameplay itself.
+Amongst all this, Rockstar has been embroiled in legal action after it was accused of union busting following the firing of over 30 employees. The case's conclusion will be determined this week, as the game goes on sale.
 
-### Omelete (2026-11-20), selo sugerido relato
-Manchete: GTA 6 | Conheça atriz que interpreta Mandy - Omelete
-Link: https://news.google.com/rss/articles/CBMifkFVX3lxTE9leUI0WDBOaGJKdXFHV3FPc0xjTTl5aldaYmZsZ3VGeEtfVjNOUUNjLVZDeENOZ0ZSdW5TYjhScmVfWnpQbnFnd2ZmWWU3cV9KVlgzVDZwaXVZZXpTQ0ltandTeGloYk1uX2RKZTg4Q1N4U3ZDYjV4Mjk1TE5oQQ?oc=5
+### eurogamer.net (2026-11-15), selo sugerido relato
+Manchete: The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
+Link: https://www.eurogamer.net/gta-6-tracklist-leak
 
-(só a manchete: a matéria não abriu)
+The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
+We are now just four days away from the release of GTA 6 on Xbox Series X/S and PS5, but the proximity to the much-anticipated launch date isn't stemming the tide of leaks that has been plaguing the game for much of the past year. Yesterday, a new video - seemingly from a record store that received vinyl records of the soundtrack early - showed off the full 34-song tracklist for the game.
+Thanks to the listing printed on the back of Grand Theft Auto 6: The Album vinyl, we have a better idea of the licensed music that'll appear in-game. Travis Scott, Rina Sawayama, Cardi B, Pinkpantheress, SZA, Keith Richards, Dua Lipa, Jennie, Lana Del Rey, Zara Larsson are just some of the names that make up the impressive list. We know about a few of these tracks from September's announcement of the record, but only six tracks were revealed then, not the whole list.
+Take a look at the full track listing below:
+Starting from Zero – Justice (feat. Michael McDonald)
+That's It – Yung Lean (feat. Future & Metro Boomin)
+Sexy Magic – CA7RIEL & Paco Amoroso, PinkPantheress, Fred Again.. & Étienne de Crécy
+Flower in a Hurricane – Justice (feat. Tame Impala, SZA & King Gizzard & The Lizard Wizard)
+Dance With Me – Boogie Wit Da Hoodie (feat. Elkan)
+Stone Cold Krazy Luuv – Jesse Johnson & DāM-FunK
+Overtown Lights – Stanley Clarke, Yussef Dayes & Robert Glasper
+You can expect to hear these tracks on the radio - alongside many more, no doubt - and deployed at curated times during cutscenes or in missions, to really tie together the vibe of the city. This is something Vice City did remarkably well its roster of 80s tracks, and I can't wait to see how Rockstar has used more contemporary music in the same way here.
+Of course, there have been a lot of Grand Theft Auto 6 leaks in the run-up to the game's launch. Another recent example is the full game's map which seemingly leaked online thanks to the £350 collector's edition on show in a UK department store. Then there were all the leaks from a group calling itself CyberLeek, which shared unofficial gameplay and map details over the course of a few weeks, before Rockstar had even revealed much gameplay itself.
+Amongst all this, Rockstar has been embroiled in legal action after it was accused of union busting following the firing of over 30 employees. The case's conclusion will be determined this week, as the game goes on sale.
 
-### Pichau Arena (2026-11-20), selo sugerido rumor
-Manchete: Quem é Mandy em GTA 6? Conheça a personagem que viralizou - Pichau Arena
-Link: https://news.google.com/rss/articles/CBMiekFVX3lxTE03NWoxWDhmNURybUtkS0hXMUhMN2VzMkc2YWtMSE9vWDhIMjJjNGhMMGhLYzRUcmdpZUZvazc0NldEbUdkY1B6V0V6TlA5Y0g5dGxJS09admZoTGtfOF9RSWpBc1E1alZhR2ktcmZBN05JUkpKd3RIdXZn?oc=5
+### eurogamer.net (2026-11-15), selo sugerido relato
+Manchete: The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
+Link: https://www.eurogamer.net/gta-6-tracklist-leak
 
-(só a manchete: a matéria não abriu)
+The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
+We are now just four days away from the release of GTA 6 on Xbox Series X/S and PS5, but the proximity to the much-anticipated launch date isn't stemming the tide of leaks that has been plaguing the game for much of the past year. Yesterday, a new video - seemingly from a record store that received vinyl records of the soundtrack early - showed off the full 34-song tracklist for the game.
+Thanks to the listing printed on the back of Grand Theft Auto 6: The Album vinyl, we have a better idea of the licensed music that'll appear in-game. Travis Scott, Rina Sawayama, Cardi B, Pinkpantheress, SZA, Keith Richards, Dua Lipa, Jennie, Lana Del Rey, Zara Larsson are just some of the names that make up the impressive list. We know about a few of these tracks from September's announcement of the record, but only six tracks were revealed then, not the whole list.
+Take a look at the full track listing below:
+Starting from Zero – Justice (feat. Michael McDonald)
+That's It – Yung Lean (feat. Future & Metro Boomin)
+Sexy Magic – CA7RIEL & Paco Amoroso, PinkPantheress, Fred Again.. & Étienne de Crécy
+Flower in a Hurricane – Justice (feat. Tame Impala, SZA & King Gizzard & The Lizard Wizard)
+Dance With Me – Boogie Wit Da Hoodie (feat. Elkan)
+Stone Cold Krazy Luuv – Jesse Johnson & DāM-FunK
+Overtown Lights – Stanley Clarke, Yussef Dayes & Robert Glasper
+You can expect to hear these tracks on the radio - alongside many more, no doubt - and deployed at curated times during cutscenes or in missions, to really tie together the vibe of the city. This is something Vice City did remarkably well its roster of 80s tracks, and I can't wait to see how Rockstar has used more contemporary music in the same way here.
+Of course, there have been a lot of Grand Theft Auto 6 leaks in the run-up to the game's launch. Another recent example is the full game's map which seemingly leaked online thanks to the £350 collector's edition on show in a UK department store. Then there were all the leaks from a group calling itself CyberLeek, which shared unofficial gameplay and map details over the course of a few weeks, before Rockstar had even revealed much gameplay itself.
+Amongst all this, Rockstar has been embroiled in legal action after it was accused of union busting following the firing of over 30 employees. The case's conclusion will be determined this week, as the game goes on sale.
 
-Outras manchetes: Quem é Mandy de GTA 6? Atriz revela ser a inspiração real da personagem - UOL
+Outras manchetes: The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more | The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
 
 
 ## Assunto 8
 
-### IGN India (2026-11-20), selo sugerido relato
-Manchete: We're All In - Official Launch Trailer - IGN India
-Link: https://news.google.com/rss/articles/CBMidkFVX3lxTE9UN09CbFZTZzhIbDIzend6bUhIa3F5MWJuZzNreC1RNlcxTWpaT0NPemRlUl83TV9ZVmRFajNYdE5DcGI5WFFybzRSRHhlaDBFVjZnUUZKOHl2TkRWeHZYSVE3d0ZtQ1JfS2JPb2hieWRhazJpd3c?oc=5
+### Kotaku (2026-11-21), selo sugerido relato
+Manchete: So Is The $100 GTA 6 Ultimate Edition Actually Worth It? - Kotaku
+Link: https://news.google.com/rss/articles/CBMijAFBVV95cUxPTkhBajd0a0c1akxSMUdaTXcyMVlpZ1d4RFBzNDlwbUVDXzhpZ0FzVVpFZEdMNDhRRjV4MEl2aTlST3ZzWDVVSEhraGpUQktGR080a0Zzc1RaaEhTalBFRk1mRVo4RmgyWlFoU2JCZTZSaVA0dWtiRzV1dlBnVlF6NWZpSVlxYWdrNUVPTA?oc=5
 
 (só a manchete: a matéria não abriu)
 
-### IGN Benelux (2026-11-20), selo sugerido relato
-Manchete: GTA 6 (Grand Theft Auto 6) - Official Global Launch Trailer - IGN Benelux
-Link: https://news.google.com/rss/articles/CBMiowFBVV95cUxNVDBkMWpuWnYxVG9BenBUdloyMjg4THBDcHNOSi1OSWVhWXRpcjRwOHMzRXZUMjhlZ2d6TDZJVzctZS1iOW4xa1FWQlNvYm1tSkFPaDdVb1VKWm1pcGFFZVZwQTB2WWFIdktSaEV3RGdlS082cWdRcDZ2ZlFJcUhlalU2NHJITXRqNXJsN2ZIR1hwQ0xxODVwWXZ3ajc1R2ZiYzZF?oc=5
+### Kotaku (2026-11-21), selo sugerido relato
+Manchete: So Is The $100 GTA 6 Ultimate Edition Actually Worth It? - Kotaku
+Link: https://news.google.com/rss/articles/CBMijAFBVV95cUxPTkhBajd0a0c1akxSMUdaTXcyMVlpZ1d4RFBzNDlwbUVDXzhpZ0FzVVpFZEdMNDhRRjV4MEl2aTlST3ZzWDVVSEhraGpUQktGR080a0Zzc1RaaEhTalBFRk1mRVo4RmgyWlFoU2JCZTZSaVA0dWtiRzV1dlBnVlF6NWZpSVlxYWdrNUVPTA?oc=5
 
 (só a manchete: a matéria não abriu)
+
+### Kotaku (2026-11-21), selo sugerido relato
+Manchete: So Is The $100 GTA 6 Ultimate Edition Actually Worth It? - Kotaku
+Link: https://news.google.com/rss/articles/CBMijAFBVV95cUxPTkhBajd0a0c1akxSMUdaTXcyMVlpZ1d4RFBzNDlwbUVDXzhpZ0FzVVpFZEdMNDhRRjV4MEl2aTlST3ZzWDVVSEhraGpUQktGR080a0Zzc1RaaEhTalBFRk1mRVo4RmgyWlFoU2JCZTZSaVA0dWtiRzV1dlBnVlF6NWZpSVlxYWdrNUVPTA?oc=5
+
+(só a manchete: a matéria não abriu)
+
+Outras manchetes: So Is The $100 GTA 6 Ultimate Edition Actually Worth It? - Kotaku | So Is The $100 GTA 6 Ultimate Edition Actually Worth It? - Kotaku
