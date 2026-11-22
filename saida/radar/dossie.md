@@ -126,6 +126,41 @@ Outras manchetes: Grand Theft Auto VI: The Album Is Now Available - Game Informe
 
 ## Assunto 3
 
+### news.xbox.com (2026-11-19), selo sugerido confirmado
+Manchete: Grand Theft Auto VI is Out Now
+Link: https://news.xbox.com/en-us/2026/11/19/grand-theft-auto-vi-is-out-now/
+
+Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
+Stories Untold Is Now Available For Xbox One
+Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
+XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
+An Alligator Swallowed an XBOX Series X – You Can Win It
+
+### news.xbox.com (2026-11-19), selo sugerido confirmado
+Manchete: Grand Theft Auto VI is Out Now
+Link: https://news.xbox.com/en-us/2026/11/19/grand-theft-auto-vi-is-out-now/
+
+Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
+Stories Untold Is Now Available For Xbox One
+Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
+XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
+An Alligator Swallowed an XBOX Series X – You Can Win It
+
+### news.xbox.com (2026-11-19), selo sugerido confirmado
+Manchete: Grand Theft Auto VI is Out Now
+Link: https://news.xbox.com/en-us/2026/11/19/grand-theft-auto-vi-is-out-now/
+
+Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
+Stories Untold Is Now Available For Xbox One
+Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
+XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
+An Alligator Swallowed an XBOX Series X – You Can Win It
+
+Outras manchetes: Grand Theft Auto VI is Out Now
+
+
+## Assunto 4
+
 ### DSOGaming (2026-11-21), selo sugerido rumor
 Manchete: First-Person Action Horror, ILL, Gets Official Game Awards Fall 2026 Trailer - DSOGaming
 Link: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQa1p1b01fbXk0SXp4bm42dWFHZDEtNGcxQURLUTdubWllMi03dFdQTG5uR1ktSmI2ZU9NOXJGRzB2N1pKcU5iSGRvbXo5T3NINjNuaWlVQlJwQnlDaG1BWlhtNFpDMklES3BuUTkzX0tnQlhlQl9hbUhUX3BuTVExTU9KQWlrYW9vdnY4ejVBalM3RmVKdV9HQk93N0pHYmJJNkdiY1pNeVR2NHp3dnVGVzV4STg3enFydTU0?oc=5
@@ -147,7 +182,30 @@ Link: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQa1p1b01fbXk0SXp4bm42d
 Outras manchetes: First-Person Action Horror, ILL, Gets Official Game Awards Fall 2026 Trailer - DSOGaming | First-Person Action Horror, ILL, Gets Official Game Awards Fall 2026 Trailer - DSOGaming
 
 
-## Assunto 4
+## Assunto 5
+
+### Checkpoint Gaming (2026-11-22), selo sugerido rumor
+Manchete: The Horror Game Awards winners of 2026 - Checkpoint Gaming
+Link: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQLThhamVmZThESy1kR1VrMGllWU11emVxbXQ4VXR5YW5QMW1KYjlZci00cmlLd3NDaTI0c2NUaXRSSFB3a0F5VEY5NlFEb2h6aXp3bkpyVXFCOGVrUzJDWmtybTJvQWFlLVYzc0ZkdkVPem5UTURLQTZzNFAxdFUxOVEtRTkwcXct?oc=5
+
+(só a manchete: a matéria não abriu)
+
+### Checkpoint Gaming (2026-11-22), selo sugerido rumor
+Manchete: The Horror Game Awards winners of 2026 - Checkpoint Gaming
+Link: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQLThhamVmZThESy1kR1VrMGllWU11emVxbXQ4VXR5YW5QMW1KYjlZci00cmlLd3NDaTI0c2NUaXRSSFB3a0F5VEY5NlFEb2h6aXp3bkpyVXFCOGVrUzJDWmtybTJvQWFlLVYzc0ZkdkVPem5UTURLQTZzNFAxdFUxOVEtRTkwcXct?oc=5
+
+(só a manchete: a matéria não abriu)
+
+### Checkpoint Gaming (2026-11-22), selo sugerido rumor
+Manchete: The Horror Game Awards winners of 2026 - Checkpoint Gaming
+Link: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQLThhamVmZThESy1kR1VrMGllWU11emVxbXQ4VXR5YW5QMW1KYjlZci00cmlLd3NDaTI0c2NUaXRSSFB3a0F5VEY5NlFEb2h6aXp3bkpyVXFCOGVrUzJDWmtybTJvQWFlLVYzc0ZkdkVPem5UTURLQTZzNFAxdFUxOVEtRTkwcXct?oc=5
+
+(só a manchete: a matéria não abriu)
+
+Outras manchetes: The Horror Game Awards winners of 2026 - Checkpoint Gaming | The Horror Game Awards winners of 2026 - Checkpoint Gaming
+
+
+## Assunto 6
 
 ### ign.com (2026-11-20), selo sugerido relato
 Manchete: GTA 6 Players React After Exclusive Shops Greet Non-Ultimate Edition Buyers With Locked Doors
@@ -206,7 +264,7 @@ Michael Cripe is a freelance writer with IGN. He's best known for his work at si
 Outras manchetes: GTA 6 Players React After Exclusive Shops Greet Non-Ultimate Edition Buyers With Locked Doors | GTA 6 Players React After Exclusive Shops Greet Non-Ultimate Edition Buyers With Locked Doors
 
 
-## Assunto 5
+## Assunto 7
 
 ### eurogamer.net (2026-11-18), selo sugerido relato
 Manchete: PSA: Some GTA 6 Ultimate Edition content is only available for the first chapter, and you'll have to put in hard graft to unlock more
@@ -250,7 +308,7 @@ All this might be a little disappointing for players who were expecting to be sh
 Outras manchetes: PSA: Some GTA 6 Ultimate Edition content is only available for the first chapter, and you'll have to put in hard graft to unlock more | PSA: Some GTA 6 Ultimate Edition content is only available for the first chapter, and you'll have to put in hard graft to unlock more
 
 
-## Assunto 6
+## Assunto 8
 
 ### eurogamer.net (2026-11-16), selo sugerido relato
 Manchete: Original GTA 6 leaker pleads guilty to hacking Rockstar Games, years after first revealing Lucia
@@ -292,88 +350,3 @@ Those 2022 leaks were quite substantial, too, revealing about an hour of unfinis
 Four years later, GTA 6 is finally around the corner - you're probably already aware considering the marketing frenzy Rockstar's been drumming up.
 
 Outras manchetes: Original GTA 6 leaker pleads guilty to hacking Rockstar Games, years after first revealing Lucia | Original GTA 6 leaker pleads guilty to hacking Rockstar Games, years after first revealing Lucia
-
-
-## Assunto 7
-
-### eurogamer.net (2026-11-15), selo sugerido relato
-Manchete: The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
-Link: https://www.eurogamer.net/gta-6-tracklist-leak
-
-The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
-We are now just four days away from the release of GTA 6 on Xbox Series X/S and PS5, but the proximity to the much-anticipated launch date isn't stemming the tide of leaks that has been plaguing the game for much of the past year. Yesterday, a new video - seemingly from a record store that received vinyl records of the soundtrack early - showed off the full 34-song tracklist for the game.
-Thanks to the listing printed on the back of Grand Theft Auto 6: The Album vinyl, we have a better idea of the licensed music that'll appear in-game. Travis Scott, Rina Sawayama, Cardi B, Pinkpantheress, SZA, Keith Richards, Dua Lipa, Jennie, Lana Del Rey, Zara Larsson are just some of the names that make up the impressive list. We know about a few of these tracks from September's announcement of the record, but only six tracks were revealed then, not the whole list.
-Take a look at the full track listing below:
-Starting from Zero – Justice (feat. Michael McDonald)
-That's It – Yung Lean (feat. Future & Metro Boomin)
-Sexy Magic – CA7RIEL & Paco Amoroso, PinkPantheress, Fred Again.. & Étienne de Crécy
-Flower in a Hurricane – Justice (feat. Tame Impala, SZA & King Gizzard & The Lizard Wizard)
-Dance With Me – Boogie Wit Da Hoodie (feat. Elkan)
-Stone Cold Krazy Luuv – Jesse Johnson & DāM-FunK
-Overtown Lights – Stanley Clarke, Yussef Dayes & Robert Glasper
-You can expect to hear these tracks on the radio - alongside many more, no doubt - and deployed at curated times during cutscenes or in missions, to really tie together the vibe of the city. This is something Vice City did remarkably well its roster of 80s tracks, and I can't wait to see how Rockstar has used more contemporary music in the same way here.
-Of course, there have been a lot of Grand Theft Auto 6 leaks in the run-up to the game's launch. Another recent example is the full game's map which seemingly leaked online thanks to the £350 collector's edition on show in a UK department store. Then there were all the leaks from a group calling itself CyberLeek, which shared unofficial gameplay and map details over the course of a few weeks, before Rockstar had even revealed much gameplay itself.
-Amongst all this, Rockstar has been embroiled in legal action after it was accused of union busting following the firing of over 30 employees. The case's conclusion will be determined this week, as the game goes on sale.
-
-### eurogamer.net (2026-11-15), selo sugerido relato
-Manchete: The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
-Link: https://www.eurogamer.net/gta-6-tracklist-leak
-
-The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
-We are now just four days away from the release of GTA 6 on Xbox Series X/S and PS5, but the proximity to the much-anticipated launch date isn't stemming the tide of leaks that has been plaguing the game for much of the past year. Yesterday, a new video - seemingly from a record store that received vinyl records of the soundtrack early - showed off the full 34-song tracklist for the game.
-Thanks to the listing printed on the back of Grand Theft Auto 6: The Album vinyl, we have a better idea of the licensed music that'll appear in-game. Travis Scott, Rina Sawayama, Cardi B, Pinkpantheress, SZA, Keith Richards, Dua Lipa, Jennie, Lana Del Rey, Zara Larsson are just some of the names that make up the impressive list. We know about a few of these tracks from September's announcement of the record, but only six tracks were revealed then, not the whole list.
-Take a look at the full track listing below:
-Starting from Zero – Justice (feat. Michael McDonald)
-That's It – Yung Lean (feat. Future & Metro Boomin)
-Sexy Magic – CA7RIEL & Paco Amoroso, PinkPantheress, Fred Again.. & Étienne de Crécy
-Flower in a Hurricane – Justice (feat. Tame Impala, SZA & King Gizzard & The Lizard Wizard)
-Dance With Me – Boogie Wit Da Hoodie (feat. Elkan)
-Stone Cold Krazy Luuv – Jesse Johnson & DāM-FunK
-Overtown Lights – Stanley Clarke, Yussef Dayes & Robert Glasper
-You can expect to hear these tracks on the radio - alongside many more, no doubt - and deployed at curated times during cutscenes or in missions, to really tie together the vibe of the city. This is something Vice City did remarkably well its roster of 80s tracks, and I can't wait to see how Rockstar has used more contemporary music in the same way here.
-Of course, there have been a lot of Grand Theft Auto 6 leaks in the run-up to the game's launch. Another recent example is the full game's map which seemingly leaked online thanks to the £350 collector's edition on show in a UK department store. Then there were all the leaks from a group calling itself CyberLeek, which shared unofficial gameplay and map details over the course of a few weeks, before Rockstar had even revealed much gameplay itself.
-Amongst all this, Rockstar has been embroiled in legal action after it was accused of union busting following the firing of over 30 employees. The case's conclusion will be determined this week, as the game goes on sale.
-
-### eurogamer.net (2026-11-15), selo sugerido relato
-Manchete: The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
-Link: https://www.eurogamer.net/gta-6-tracklist-leak
-
-The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
-We are now just four days away from the release of GTA 6 on Xbox Series X/S and PS5, but the proximity to the much-anticipated launch date isn't stemming the tide of leaks that has been plaguing the game for much of the past year. Yesterday, a new video - seemingly from a record store that received vinyl records of the soundtrack early - showed off the full 34-song tracklist for the game.
-Thanks to the listing printed on the back of Grand Theft Auto 6: The Album vinyl, we have a better idea of the licensed music that'll appear in-game. Travis Scott, Rina Sawayama, Cardi B, Pinkpantheress, SZA, Keith Richards, Dua Lipa, Jennie, Lana Del Rey, Zara Larsson are just some of the names that make up the impressive list. We know about a few of these tracks from September's announcement of the record, but only six tracks were revealed then, not the whole list.
-Take a look at the full track listing below:
-Starting from Zero – Justice (feat. Michael McDonald)
-That's It – Yung Lean (feat. Future & Metro Boomin)
-Sexy Magic – CA7RIEL & Paco Amoroso, PinkPantheress, Fred Again.. & Étienne de Crécy
-Flower in a Hurricane – Justice (feat. Tame Impala, SZA & King Gizzard & The Lizard Wizard)
-Dance With Me – Boogie Wit Da Hoodie (feat. Elkan)
-Stone Cold Krazy Luuv – Jesse Johnson & DāM-FunK
-Overtown Lights – Stanley Clarke, Yussef Dayes & Robert Glasper
-You can expect to hear these tracks on the radio - alongside many more, no doubt - and deployed at curated times during cutscenes or in missions, to really tie together the vibe of the city. This is something Vice City did remarkably well its roster of 80s tracks, and I can't wait to see how Rockstar has used more contemporary music in the same way here.
-Of course, there have been a lot of Grand Theft Auto 6 leaks in the run-up to the game's launch. Another recent example is the full game's map which seemingly leaked online thanks to the £350 collector's edition on show in a UK department store. Then there were all the leaks from a group calling itself CyberLeek, which shared unofficial gameplay and map details over the course of a few weeks, before Rockstar had even revealed much gameplay itself.
-Amongst all this, Rockstar has been embroiled in legal action after it was accused of union busting following the firing of over 30 employees. The case's conclusion will be determined this week, as the game goes on sale.
-
-Outras manchetes: The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more | The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
-
-
-## Assunto 8
-
-### Kotaku (2026-11-21), selo sugerido relato
-Manchete: So Is The $100 GTA 6 Ultimate Edition Actually Worth It? - Kotaku
-Link: https://news.google.com/rss/articles/CBMijAFBVV95cUxPTkhBajd0a0c1akxSMUdaTXcyMVlpZ1d4RFBzNDlwbUVDXzhpZ0FzVVpFZEdMNDhRRjV4MEl2aTlST3ZzWDVVSEhraGpUQktGR080a0Zzc1RaaEhTalBFRk1mRVo4RmgyWlFoU2JCZTZSaVA0dWtiRzV1dlBnVlF6NWZpSVlxYWdrNUVPTA?oc=5
-
-(só a manchete: a matéria não abriu)
-
-### Kotaku (2026-11-21), selo sugerido relato
-Manchete: So Is The $100 GTA 6 Ultimate Edition Actually Worth It? - Kotaku
-Link: https://news.google.com/rss/articles/CBMijAFBVV95cUxPTkhBajd0a0c1akxSMUdaTXcyMVlpZ1d4RFBzNDlwbUVDXzhpZ0FzVVpFZEdMNDhRRjV4MEl2aTlST3ZzWDVVSEhraGpUQktGR080a0Zzc1RaaEhTalBFRk1mRVo4RmgyWlFoU2JCZTZSaVA0dWtiRzV1dlBnVlF6NWZpSVlxYWdrNUVPTA?oc=5
-
-(só a manchete: a matéria não abriu)
-
-### Kotaku (2026-11-21), selo sugerido relato
-Manchete: So Is The $100 GTA 6 Ultimate Edition Actually Worth It? - Kotaku
-Link: https://news.google.com/rss/articles/CBMijAFBVV95cUxPTkhBajd0a0c1akxSMUdaTXcyMVlpZ1d4RFBzNDlwbUVDXzhpZ0FzVVpFZEdMNDhRRjV4MEl2aTlST3ZzWDVVSEhraGpUQktGR080a0Zzc1RaaEhTalBFRk1mRVo4RmgyWlFoU2JCZTZSaVA0dWtiRzV1dlBnVlF6NWZpSVlxYWdrNUVPTA?oc=5
-
-(só a manchete: a matéria não abriu)
-
-Outras manchetes: So Is The $100 GTA 6 Ultimate Edition Actually Worth It? - Kotaku | So Is The $100 GTA 6 Ultimate Edition Actually Worth It? - Kotaku
