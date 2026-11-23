@@ -41,6 +41,7 @@ env:
   CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
   AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
   GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+  PYTHONUNBUFFERED: "1"   # o log mostra cada passo na hora (sem isso, uma rodada travada some sem rastro)
   # Gameplay do Vinicius (pasta "GG Gameplay" do Google Drive) e YouTube: mesmo cliente OAuth do Google
   YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
   YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
@@ -51,7 +52,7 @@ env:
 jobs:
   kit:
     runs-on: ubuntu-24.04      # versão fixa: a 'latest' nova teve espelhos do apt fora do ar
-    timeout-minutes: 55   # 4 Reels com a voz do Gemini (e uma nova tentativa quando ele corta) passam de 30 min
+    timeout-minutes: 120  # repositório público: minuto não custa; a rodada do radar (Claude + 4 Reels) passa de 55 min
     steps:
       - name: Qual tarefa
         id: t

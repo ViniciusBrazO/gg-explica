@@ -202,9 +202,9 @@ class Gemini:
             "generation_config": {"speech_config": [{"voice": self.cfg["voz"]}]},
         }
         erro = ""
-        for tentativa in range(4):
+        for tentativa in range(3):
             try:
-                r = requests.post(self.API, headers={"x-goog-api-key": self.chave}, json=corpo, timeout=240)
+                r = requests.post(self.API, headers={"x-goog-api-key": self.chave}, json=corpo, timeout=150)
             except requests.RequestException as e:
                 erro = str(e)
             else:
@@ -219,7 +219,7 @@ class Gemini:
                     erro = f"HTTP {r.status_code} {r.text[:200]}"
                     if r.status_code not in (429, 500, 502, 503, 504):
                         break
-            time.sleep(15 * (tentativa + 1))
+            time.sleep(10 * (tentativa + 1))
         raise RuntimeError(f"Gemini TTS não gerou o áudio: {erro}")
 
     def falar(self, texto: str, saida: Path) -> Fala:
@@ -228,11 +228,7 @@ class Gemini:
         for tentativa in range(2):     # o Gemini às vezes corta ou pula um trecho: confere e tenta de novo
             wav = self._audio(texto, saida.with_suffix(".wav"))
             duracao = _duracao_audio(wav)
-            try:
-                ouvidas = _ouvir(wav, texto)
-            except Exception as e:  # noqa: BLE001
-                print(f"  voz: whisper falhou ({str(e)[:120]}); tempo das palavras estimado")
-                ouvidas = []
+            ouvidas = ouvir_com_prazo(wav, texto)
             motivo = fala_incompleta(texto, duracao, ouvidas)
             if not motivo:
                 return Fala(wav, duracao, tempos_das_palavras(texto, wav, duracao, ouvidas),
@@ -266,6 +262,23 @@ def _ouvir(wav: Path, texto: str) -> list[Palavra]:
 
 
 _MODELO_WHISPER = None
+
+
+def ouvir_com_prazo(wav: Path, texto: str, prazo_s: float = 240.0) -> list[Palavra]:
+    """O whisper travou uma rodada inteira em 23/11: se passar do prazo, segue com o tempo estimado."""
+    import concurrent.futures as cf
+    exe = cf.ThreadPoolExecutor(max_workers=1)
+    futuro = exe.submit(_ouvir, wav, texto)
+    try:
+        return futuro.result(timeout=prazo_s)
+    except cf.TimeoutError:
+        print(f"  voz: whisper passou de {prazo_s:.0f} s; tempo das palavras estimado")
+        return []
+    except Exception as e:  # noqa: BLE001
+        print(f"  voz: whisper falhou ({str(e)[:120]}); tempo das palavras estimado")
+        return []
+    finally:
+        exe.shutdown(wait=False, cancel_futures=True)
 
 
 def tempos_das_palavras(texto: str, wav: Path, duracao: float,
