@@ -233,7 +233,9 @@ class Gemini:
             if not motivo:
                 return Fala(wav, duracao, tempos_das_palavras(texto, wav, duracao, ouvidas),
                             tempos_estimados=not ouvidas)
-            print(f"  voz: Gemini {motivo} (tentativa {tentativa + 1}, {n_palavras} palavras)")
+            ouviu = " ".join(p.texto for p in ouvidas[:15])
+            print(f"  voz: Gemini {motivo} (tentativa {tentativa + 1}, {n_palavras} palavras, {duracao:.1f} s); "
+                  f"o whisper ouviu: {ouviu[:160]!r}")
         raise RuntimeError(f"Gemini {motivo}")
 
 
