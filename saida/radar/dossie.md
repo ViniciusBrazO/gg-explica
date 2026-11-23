@@ -1,4 +1,4 @@
-# Dossiê do radar (22/11/2026)
+# Dossiê do radar (23/11/2026)
 
 Texto das matérias aberto pelo kit. Use os números, nomes e datas daqui. Matéria marcada "só a manchete" não abriu: procure outra fonte com WebSearch/WebFetch antes de escrever.
 
@@ -32,8 +32,8 @@ Daniel Craig Principal Engineer, Graphics R&D, Sony Interactive Entertainment
 Julia Galus Marketing Specialist, Silver Lining Interactive
 Dongseok Oh Lead Director, Vindictus: Defying Fate, NEXON Korea
 Kristen Zitani (she/her) Manager, Content Communications, Sony Interactive Entertainment
-Kristen Zitani (she/her) Manager, Content Communications, Sony Interactive Entertainment
 Yasser Saleem Lead Developer, Ocelot Technologies
+Kristen Zitani (she/her) Manager, Content Communications, Sony Interactive Entertainment
 Vincent Tao Lead Game Designer, Once Human
 
 ### blog.playstation.com (2026-11-18), selo sugerido confirmado
@@ -63,8 +63,8 @@ Daniel Craig Principal Engineer, Graphics R&D, Sony Interactive Entertainment
 Julia Galus Marketing Specialist, Silver Lining Interactive
 Dongseok Oh Lead Director, Vindictus: Defying Fate, NEXON Korea
 Kristen Zitani (she/her) Manager, Content Communications, Sony Interactive Entertainment
-Kristen Zitani (she/her) Manager, Content Communications, Sony Interactive Entertainment
 Yasser Saleem Lead Developer, Ocelot Technologies
+Kristen Zitani (she/her) Manager, Content Communications, Sony Interactive Entertainment
 Vincent Tao Lead Game Designer, Once Human
 
 ### blog.playstation.com (2026-11-18), selo sugerido confirmado
@@ -94,8 +94,8 @@ Daniel Craig Principal Engineer, Graphics R&D, Sony Interactive Entertainment
 Julia Galus Marketing Specialist, Silver Lining Interactive
 Dongseok Oh Lead Director, Vindictus: Defying Fate, NEXON Korea
 Kristen Zitani (she/her) Manager, Content Communications, Sony Interactive Entertainment
-Kristen Zitani (she/her) Manager, Content Communications, Sony Interactive Entertainment
 Yasser Saleem Lead Developer, Ocelot Technologies
+Kristen Zitani (she/her) Manager, Content Communications, Sony Interactive Entertainment
 Vincent Tao Lead Game Designer, Once Human
 
 Outras manchetes: Grand Theft Auto VI launches tomorrow, November 19 | Grand Theft Auto VI launches tomorrow, November 19
@@ -103,60 +103,63 @@ Outras manchetes: Grand Theft Auto VI launches tomorrow, November 19 | Grand The
 
 ## Assunto 2
 
+### news.xbox.com (2026-11-19), selo sugerido confirmado
+Manchete: Grand Theft Auto VI is Out Now
+Link: https://news.xbox.com/en-us/2026/11/19/grand-theft-auto-vi-is-out-now/
+
+Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
+Stories Untold Is Now Available For Xbox One
+An Alligator Swallowed an XBOX Series X – You Can Win It
+XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
+Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
+From GDC: Building the Next Generation of Xbox
+
+### news.xbox.com (2026-11-19), selo sugerido confirmado
+Manchete: Grand Theft Auto VI is Out Now
+Link: https://news.xbox.com/en-us/2026/11/19/grand-theft-auto-vi-is-out-now/
+
+Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
+Stories Untold Is Now Available For Xbox One
+An Alligator Swallowed an XBOX Series X – You Can Win It
+XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
+Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
+From GDC: Building the Next Generation of Xbox
+
+### news.xbox.com (2026-11-19), selo sugerido confirmado
+Manchete: Grand Theft Auto VI is Out Now
+Link: https://news.xbox.com/en-us/2026/11/19/grand-theft-auto-vi-is-out-now/
+
+Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
+Stories Untold Is Now Available For Xbox One
+An Alligator Swallowed an XBOX Series X – You Can Win It
+XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
+Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
+From GDC: Building the Next Generation of Xbox
+
+Outras manchetes: Grand Theft Auto VI is Out Now | Grand Theft Auto VI is Out Now
+
+
+## Assunto 3
+
 ### Rockstar Games (2026-11-20), selo sugerido confirmado
 Manchete: Grand Theft Auto VI: The Album Now Available - Rockstar Games
 Link: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOUdHR3lsOTUwbEM0QkdnZHZSRjJTdXFuVjhKV1lvd28xUmhBVURQamg5R3kyZ2YtX0tBX3JoQi14cHk3d18zaV9pcjlid3c3YlZFb1p3Ylc1ZTJYWm1BT2gxN3hUcWRpZ0FCd0RsQW50bEtyWTdkdzI2N1k3cFdVck5IQ2Nyb1VpTkY5Y2lOamRaTHlKUk5lSG1NOEltTHRWckgwNTFGUWs?oc=5
 
 (só a manchete: a matéria não abriu)
 
-### Game Informer (2026-11-20), selo sugerido rumor
-Manchete: Grand Theft Auto VI: The Album Is Now Available - Game Informer
-Link: https://news.google.com/rss/articles/CBMiigFBVV95cUxOTEs2S2hPTm0tdEcxSkdnWVBCVEVMd0xKYW5DR3BkQk9MWWNYa3dlVkRHTndTajVXdFZWTVRRRDBTd1o0OVBMQ0lyc2RPTmVZUHdFSzdmZDV0OUo1aC1YaXctS185OGRZM3c3SGlHeWNQbVBBQmM1LUc1ZG5xdjR5ZmRiREdsWllvQVE?oc=5
+### Rockstar Games (2026-11-20), selo sugerido confirmado
+Manchete: Grand Theft Auto VI: The Album Now Available - Rockstar Games
+Link: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOUdHR3lsOTUwbEM0QkdnZHZSRjJTdXFuVjhKV1lvd28xUmhBVURQamg5R3kyZ2YtX0tBX3JoQi14cHk3d18zaV9pcjlid3c3YlZFb1p3Ylc1ZTJYWm1BT2gxN3hUcWRpZ0FCd0RsQW50bEtyWTdkdzI2N1k3cFdVck5IQ2Nyb1VpTkY5Y2lOamRaTHlKUk5lSG1NOEltTHRWckgwNTFGUWs?oc=5
 
 (só a manchete: a matéria não abriu)
 
-### Game Informer (2026-11-20), selo sugerido rumor
-Manchete: Grand Theft Auto VI: The Album Is Now Available - Game Informer
-Link: https://news.google.com/rss/articles/CBMiigFBVV95cUxOTEs2S2hPTm0tdEcxSkdnWVBCVEVMd0xKYW5DR3BkQk9MWWNYa3dlVkRHTndTajVXdFZWTVRRRDBTd1o0OVBMQ0lyc2RPTmVZUHdFSzdmZDV0OUo1aC1YaXctS185OGRZM3c3SGlHeWNQbVBBQmM1LUc1ZG5xdjR5ZmRiREdsWllvQVE?oc=5
+### Rockstar Games (2026-11-20), selo sugerido confirmado
+Manchete: Grand Theft Auto VI: The Album Now Available - Rockstar Games
+Link: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOUdHR3lsOTUwbEM0QkdnZHZSRjJTdXFuVjhKV1lvd28xUmhBVURQamg5R3kyZ2YtX0tBX3JoQi14cHk3d18zaV9pcjlid3c3YlZFb1p3Ylc1ZTJYWm1BT2gxN3hUcWRpZ0FCd0RsQW50bEtyWTdkdzI2N1k3cFdVck5IQ2Nyb1VpTkY5Y2lOamRaTHlKUk5lSG1NOEltTHRWckgwNTFGUWs?oc=5
 
 (só a manchete: a matéria não abriu)
 
-Outras manchetes: Grand Theft Auto VI: The Album Is Now Available - Game Informer | Grand Theft Auto VI: The Album Now Available - Rockstar Games
-
-
-## Assunto 3
-
-### news.xbox.com (2026-11-19), selo sugerido confirmado
-Manchete: Grand Theft Auto VI is Out Now
-Link: https://news.xbox.com/en-us/2026/11/19/grand-theft-auto-vi-is-out-now/
-
-Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
-Stories Untold Is Now Available For Xbox One
-Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
-XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
-An Alligator Swallowed an XBOX Series X – You Can Win It
-
-### news.xbox.com (2026-11-19), selo sugerido confirmado
-Manchete: Grand Theft Auto VI is Out Now
-Link: https://news.xbox.com/en-us/2026/11/19/grand-theft-auto-vi-is-out-now/
-
-Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
-Stories Untold Is Now Available For Xbox One
-Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
-XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
-An Alligator Swallowed an XBOX Series X – You Can Win It
-
-### news.xbox.com (2026-11-19), selo sugerido confirmado
-Manchete: Grand Theft Auto VI is Out Now
-Link: https://news.xbox.com/en-us/2026/11/19/grand-theft-auto-vi-is-out-now/
-
-Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
-Stories Untold Is Now Available For Xbox One
-Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
-XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
-An Alligator Swallowed an XBOX Series X – You Can Win It
-
-Outras manchetes: Grand Theft Auto VI is Out Now
+Outras manchetes: Grand Theft Auto VI: The Album Now Available - Rockstar Games | Grand Theft Auto VI: The Album Now Available - Rockstar Games
 
 
 ## Assunto 4
@@ -184,9 +187,9 @@ Outras manchetes: First-Person Action Horror, ILL, Gets Official Game Awards Fal
 
 ## Assunto 5
 
-### Checkpoint Gaming (2026-11-22), selo sugerido rumor
-Manchete: The Horror Game Awards winners of 2026 - Checkpoint Gaming
-Link: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQLThhamVmZThESy1kR1VrMGllWU11emVxbXQ4VXR5YW5QMW1KYjlZci00cmlLd3NDaTI0c2NUaXRSSFB3a0F5VEY5NlFEb2h6aXp3bkpyVXFCOGVrUzJDWmtybTJvQWFlLVYzc0ZkdkVPem5UTURLQTZzNFAxdFUxOVEtRTkwcXct?oc=5
+### Foro3D (2026-11-22), selo sugerido rumor
+Manchete: BrokenLore: Miki-Chan appears at the Horror Game Awards Fall 2026 - Foro3D
+Link: https://news.google.com/rss/articles/CBMirwFBVV95cUxQbDg0OGJqNHU4SDhrSmxhbHBuNy1BQWdjN1ZVSlg1X0x4VGhLLWd0dXA0OFlIVTA1U2xTbWd0Ml8zSEZRQ2k4YmxNTGkzcU1FdkIzSC1mMmJoaThnZTdPbVBCSlNpaUxvVlFaa0xVc3k2WW96OVBmTU44bDVZazU3M1QzZDkxZkQ0ZWxLcEcwT01lTUt3dWw3Q2MzLXRvMU9naERyMkt2bkpoa2plbEVz?oc=5
 
 (só a manchete: a matéria não abriu)
 
@@ -206,65 +209,6 @@ Outras manchetes: The Horror Game Awards winners of 2026 - Checkpoint Gaming | T
 
 
 ## Assunto 6
-
-### ign.com (2026-11-20), selo sugerido relato
-Manchete: GTA 6 Players React After Exclusive Shops Greet Non-Ultimate Edition Buyers With Locked Doors
-Link: https://www.ign.com/articles/gta-6-players-react-after-exclusive-shops-greet-non-ultimate-edition-buyers-with-locked-doors
-
-GTA 6 Players React After Exclusive Shops Greet Non-Ultimate Edition Buyers With Locked Doors
-GTA 6 players are being locked out of in-game stores because they don't own the Ultimate Edition, and they've got some thoughts about how Rockstar handled it.
-We've known for months that the developer's latest sprawling open-world video game would have a $79.99 Standard Edition and $99.99 Ultimate Edition to pick up at launch. Those willing to pay the $20 upcharge netted a solid assortment of cosmetics, weapons, vehicles, and unique shops, leaving those who didn't shell out the extra cash with fewer options to choose from when taking Jason and Lucia out into Vice City.
-Rockstar has been clear about what this would mean for standard owners, but in practice, players are feeling like the door has been (literally) closed in their faces. GTA 6's exclusive in-game shops – One-Eyed Willie's, Sara's Unisex Salon, Stock 305, and Electric Fang Tattoo Parlor – are the topic of conversation here. Not everyone was sure how exactly these stores would bar players from entry upon release. It seems, at least based on the consensus from disappointed players, they were expecting to at least be able to enter the locations and not buy anything – but Rockstar doesn't even give them that.
-GTA 6's Ultimate Edition grants you access to a few stores across Leonida, so what happens when you try to enter them in the Standard Edition? #gta6 https://t.co/GMaHpdLwnc
-We broke down the Standard vs. Ultimate Edition contents with a side-by-side video that you can check out above. As you can see, the shops have fully decorated interiors that are completely closed off to those who didn't pick up the more expensive version of GTA 6. Those who spent the extra dough can go about their days shopping as they please, while those who didn't have found an unwelcome surprise when heading to any of these spots in Leonida.
-Being physically locked out of the building is maybe a bit more brutal than some were expecting, but it's the reality players are meeting – and they aren't happy. Comments from disgruntled fans online have called Rockstar's move to keep content blocked off "greedy" and "shady," with many upset that a relatively substantial amount of finished content is only accessible by spending more money. Others are disappointed to see that there wasn't a cheaper compromise, such as making exclusive shops a late-game unlock. Either way, it's the door in the face that seems to sting the most.
-"I'm all for companies making money - but when you pull the kinda money rockstar is - this just feels greedy/shady," one player said.
-"Paid $80 just to get bounced from a store like I'm under 21," another replied.
-"So the Ultimate Edition just locks the door in your face?" another player reacted. "That's the most expensive closed sign I've ever seen."
-GTA 6 launched for PlayStation 5 and Xbox Series X/S November 19. Whether you decided to pick up those extra cosmetic options or not, Rockstar seems to be quite pleased with the release. Earlier today, it noted that it had secured the biggest entertainment launch in history with $3.79 billion in just 24 hours. IGN gave the game a 10/10 review.
-Just getting started in GTA 6 or wondering what to do next? Check out the Official Grand Theft Auto 6 guide right here on IGN. If you're still getting your bearings, discover GTA's new systems with the Beginner's Guide - 67 Tips and Tricks, or get all the details on the first chapters with the Chapter 1 Guide and Tips and Chapter 2 Guide and Tips. If you're already driving all around Leonida and want to know everything there is to find and do, see the Leonida interactive map.
-Michael Cripe is a freelance writer with IGN. He's best known for his work at sites like The Pitch, The Escapist, and OnlySP. Be sure to give him a follow on Bluesky (@mikecripe.bsky.social) and Twitter (@MikeCripe).
-
-### ign.com (2026-11-20), selo sugerido relato
-Manchete: GTA 6 Players React After Exclusive Shops Greet Non-Ultimate Edition Buyers With Locked Doors
-Link: https://www.ign.com/articles/gta-6-players-react-after-exclusive-shops-greet-non-ultimate-edition-buyers-with-locked-doors
-
-GTA 6 Players React After Exclusive Shops Greet Non-Ultimate Edition Buyers With Locked Doors
-GTA 6 players are being locked out of in-game stores because they don't own the Ultimate Edition, and they've got some thoughts about how Rockstar handled it.
-We've known for months that the developer's latest sprawling open-world video game would have a $79.99 Standard Edition and $99.99 Ultimate Edition to pick up at launch. Those willing to pay the $20 upcharge netted a solid assortment of cosmetics, weapons, vehicles, and unique shops, leaving those who didn't shell out the extra cash with fewer options to choose from when taking Jason and Lucia out into Vice City.
-Rockstar has been clear about what this would mean for standard owners, but in practice, players are feeling like the door has been (literally) closed in their faces. GTA 6's exclusive in-game shops – One-Eyed Willie's, Sara's Unisex Salon, Stock 305, and Electric Fang Tattoo Parlor – are the topic of conversation here. Not everyone was sure how exactly these stores would bar players from entry upon release. It seems, at least based on the consensus from disappointed players, they were expecting to at least be able to enter the locations and not buy anything – but Rockstar doesn't even give them that.
-GTA 6's Ultimate Edition grants you access to a few stores across Leonida, so what happens when you try to enter them in the Standard Edition? #gta6 https://t.co/GMaHpdLwnc
-We broke down the Standard vs. Ultimate Edition contents with a side-by-side video that you can check out above. As you can see, the shops have fully decorated interiors that are completely closed off to those who didn't pick up the more expensive version of GTA 6. Those who spent the extra dough can go about their days shopping as they please, while those who didn't have found an unwelcome surprise when heading to any of these spots in Leonida.
-Being physically locked out of the building is maybe a bit more brutal than some were expecting, but it's the reality players are meeting – and they aren't happy. Comments from disgruntled fans online have called Rockstar's move to keep content blocked off "greedy" and "shady," with many upset that a relatively substantial amount of finished content is only accessible by spending more money. Others are disappointed to see that there wasn't a cheaper compromise, such as making exclusive shops a late-game unlock. Either way, it's the door in the face that seems to sting the most.
-"I'm all for companies making money - but when you pull the kinda money rockstar is - this just feels greedy/shady," one player said.
-"Paid $80 just to get bounced from a store like I'm under 21," another replied.
-"So the Ultimate Edition just locks the door in your face?" another player reacted. "That's the most expensive closed sign I've ever seen."
-GTA 6 launched for PlayStation 5 and Xbox Series X/S November 19. Whether you decided to pick up those extra cosmetic options or not, Rockstar seems to be quite pleased with the release. Earlier today, it noted that it had secured the biggest entertainment launch in history with $3.79 billion in just 24 hours. IGN gave the game a 10/10 review.
-Just getting started in GTA 6 or wondering what to do next? Check out the Official Grand Theft Auto 6 guide right here on IGN. If you're still getting your bearings, discover GTA's new systems with the Beginner's Guide - 67 Tips and Tricks, or get all the details on the first chapters with the Chapter 1 Guide and Tips and Chapter 2 Guide and Tips. If you're already driving all around Leonida and want to know everything there is to find and do, see the Leonida interactive map.
-Michael Cripe is a freelance writer with IGN. He's best known for his work at sites like The Pitch, The Escapist, and OnlySP. Be sure to give him a follow on Bluesky (@mikecripe.bsky.social) and Twitter (@MikeCripe).
-
-### ign.com (2026-11-20), selo sugerido relato
-Manchete: GTA 6 Players React After Exclusive Shops Greet Non-Ultimate Edition Buyers With Locked Doors
-Link: https://www.ign.com/articles/gta-6-players-react-after-exclusive-shops-greet-non-ultimate-edition-buyers-with-locked-doors
-
-GTA 6 Players React After Exclusive Shops Greet Non-Ultimate Edition Buyers With Locked Doors
-GTA 6 players are being locked out of in-game stores because they don't own the Ultimate Edition, and they've got some thoughts about how Rockstar handled it.
-We've known for months that the developer's latest sprawling open-world video game would have a $79.99 Standard Edition and $99.99 Ultimate Edition to pick up at launch. Those willing to pay the $20 upcharge netted a solid assortment of cosmetics, weapons, vehicles, and unique shops, leaving those who didn't shell out the extra cash with fewer options to choose from when taking Jason and Lucia out into Vice City.
-Rockstar has been clear about what this would mean for standard owners, but in practice, players are feeling like the door has been (literally) closed in their faces. GTA 6's exclusive in-game shops – One-Eyed Willie's, Sara's Unisex Salon, Stock 305, and Electric Fang Tattoo Parlor – are the topic of conversation here. Not everyone was sure how exactly these stores would bar players from entry upon release. It seems, at least based on the consensus from disappointed players, they were expecting to at least be able to enter the locations and not buy anything – but Rockstar doesn't even give them that.
-GTA 6's Ultimate Edition grants you access to a few stores across Leonida, so what happens when you try to enter them in the Standard Edition? #gta6 https://t.co/GMaHpdLwnc
-We broke down the Standard vs. Ultimate Edition contents with a side-by-side video that you can check out above. As you can see, the shops have fully decorated interiors that are completely closed off to those who didn't pick up the more expensive version of GTA 6. Those who spent the extra dough can go about their days shopping as they please, while those who didn't have found an unwelcome surprise when heading to any of these spots in Leonida.
-Being physically locked out of the building is maybe a bit more brutal than some were expecting, but it's the reality players are meeting – and they aren't happy. Comments from disgruntled fans online have called Rockstar's move to keep content blocked off "greedy" and "shady," with many upset that a relatively substantial amount of finished content is only accessible by spending more money. Others are disappointed to see that there wasn't a cheaper compromise, such as making exclusive shops a late-game unlock. Either way, it's the door in the face that seems to sting the most.
-"I'm all for companies making money - but when you pull the kinda money rockstar is - this just feels greedy/shady," one player said.
-"Paid $80 just to get bounced from a store like I'm under 21," another replied.
-"So the Ultimate Edition just locks the door in your face?" another player reacted. "That's the most expensive closed sign I've ever seen."
-GTA 6 launched for PlayStation 5 and Xbox Series X/S November 19. Whether you decided to pick up those extra cosmetic options or not, Rockstar seems to be quite pleased with the release. Earlier today, it noted that it had secured the biggest entertainment launch in history with $3.79 billion in just 24 hours. IGN gave the game a 10/10 review.
-Just getting started in GTA 6 or wondering what to do next? Check out the Official Grand Theft Auto 6 guide right here on IGN. If you're still getting your bearings, discover GTA's new systems with the Beginner's Guide - 67 Tips and Tricks, or get all the details on the first chapters with the Chapter 1 Guide and Tips and Chapter 2 Guide and Tips. If you're already driving all around Leonida and want to know everything there is to find and do, see the Leonida interactive map.
-Michael Cripe is a freelance writer with IGN. He's best known for his work at sites like The Pitch, The Escapist, and OnlySP. Be sure to give him a follow on Bluesky (@mikecripe.bsky.social) and Twitter (@MikeCripe).
-
-Outras manchetes: GTA 6 Players React After Exclusive Shops Greet Non-Ultimate Edition Buyers With Locked Doors | GTA 6 Players React After Exclusive Shops Greet Non-Ultimate Edition Buyers With Locked Doors
-
-
-## Assunto 7
 
 ### eurogamer.net (2026-11-18), selo sugerido relato
 Manchete: PSA: Some GTA 6 Ultimate Edition content is only available for the first chapter, and you'll have to put in hard graft to unlock more
@@ -308,7 +252,7 @@ All this might be a little disappointing for players who were expecting to be sh
 Outras manchetes: PSA: Some GTA 6 Ultimate Edition content is only available for the first chapter, and you'll have to put in hard graft to unlock more | PSA: Some GTA 6 Ultimate Edition content is only available for the first chapter, and you'll have to put in hard graft to unlock more
 
 
-## Assunto 8
+## Assunto 7
 
 ### eurogamer.net (2026-11-16), selo sugerido relato
 Manchete: Original GTA 6 leaker pleads guilty to hacking Rockstar Games, years after first revealing Lucia
@@ -350,3 +294,65 @@ Those 2022 leaks were quite substantial, too, revealing about an hour of unfinis
 Four years later, GTA 6 is finally around the corner - you're probably already aware considering the marketing frenzy Rockstar's been drumming up.
 
 Outras manchetes: Original GTA 6 leaker pleads guilty to hacking Rockstar Games, years after first revealing Lucia | Original GTA 6 leaker pleads guilty to hacking Rockstar Games, years after first revealing Lucia
+
+
+## Assunto 8
+
+### eurogamer.net (2026-11-15), selo sugerido relato
+Manchete: The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
+Link: https://www.eurogamer.net/gta-6-tracklist-leak
+
+The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
+We are now just four days away from the release of GTA 6 on Xbox Series X/S and PS5, but the proximity to the much-anticipated launch date isn't stemming the tide of leaks that has been plaguing the game for much of the past year. Yesterday, a new video - seemingly from a record store that received vinyl records of the soundtrack early - showed off the full 34-song tracklist for the game.
+Thanks to the listing printed on the back of Grand Theft Auto 6: The Album vinyl, we have a better idea of the licensed music that'll appear in-game. Travis Scott, Rina Sawayama, Cardi B, Pinkpantheress, SZA, Keith Richards, Dua Lipa, Jennie, Lana Del Rey, Zara Larsson are just some of the names that make up the impressive list. We know about a few of these tracks from September's announcement of the record, but only six tracks were revealed then, not the whole list.
+Take a look at the full track listing below:
+Starting from Zero – Justice (feat. Michael McDonald)
+That's It – Yung Lean (feat. Future & Metro Boomin)
+Sexy Magic – CA7RIEL & Paco Amoroso, PinkPantheress, Fred Again.. & Étienne de Crécy
+Flower in a Hurricane – Justice (feat. Tame Impala, SZA & King Gizzard & The Lizard Wizard)
+Dance With Me – Boogie Wit Da Hoodie (feat. Elkan)
+Stone Cold Krazy Luuv – Jesse Johnson & DāM-FunK
+Overtown Lights – Stanley Clarke, Yussef Dayes & Robert Glasper
+You can expect to hear these tracks on the radio - alongside many more, no doubt - and deployed at curated times during cutscenes or in missions, to really tie together the vibe of the city. This is something Vice City did remarkably well its roster of 80s tracks, and I can't wait to see how Rockstar has used more contemporary music in the same way here.
+Of course, there have been a lot of Grand Theft Auto 6 leaks in the run-up to the game's launch. Another recent example is the full game's map which seemingly leaked online thanks to the £350 collector's edition on show in a UK department store. Then there were all the leaks from a group calling itself CyberLeek, which shared unofficial gameplay and map details over the course of a few weeks, before Rockstar had even revealed much gameplay itself.
+Amongst all this, Rockstar has been embroiled in legal action after it was accused of union busting following the firing of over 30 employees. The case's conclusion will be determined this week, as the game goes on sale.
+
+### eurogamer.net (2026-11-15), selo sugerido relato
+Manchete: The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
+Link: https://www.eurogamer.net/gta-6-tracklist-leak
+
+The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
+We are now just four days away from the release of GTA 6 on Xbox Series X/S and PS5, but the proximity to the much-anticipated launch date isn't stemming the tide of leaks that has been plaguing the game for much of the past year. Yesterday, a new video - seemingly from a record store that received vinyl records of the soundtrack early - showed off the full 34-song tracklist for the game.
+Thanks to the listing printed on the back of Grand Theft Auto 6: The Album vinyl, we have a better idea of the licensed music that'll appear in-game. Travis Scott, Rina Sawayama, Cardi B, Pinkpantheress, SZA, Keith Richards, Dua Lipa, Jennie, Lana Del Rey, Zara Larsson are just some of the names that make up the impressive list. We know about a few of these tracks from September's announcement of the record, but only six tracks were revealed then, not the whole list.
+Take a look at the full track listing below:
+Starting from Zero – Justice (feat. Michael McDonald)
+That's It – Yung Lean (feat. Future & Metro Boomin)
+Sexy Magic – CA7RIEL & Paco Amoroso, PinkPantheress, Fred Again.. & Étienne de Crécy
+Flower in a Hurricane – Justice (feat. Tame Impala, SZA & King Gizzard & The Lizard Wizard)
+Dance With Me – Boogie Wit Da Hoodie (feat. Elkan)
+Stone Cold Krazy Luuv – Jesse Johnson & DāM-FunK
+Overtown Lights – Stanley Clarke, Yussef Dayes & Robert Glasper
+You can expect to hear these tracks on the radio - alongside many more, no doubt - and deployed at curated times during cutscenes or in missions, to really tie together the vibe of the city. This is something Vice City did remarkably well its roster of 80s tracks, and I can't wait to see how Rockstar has used more contemporary music in the same way here.
+Of course, there have been a lot of Grand Theft Auto 6 leaks in the run-up to the game's launch. Another recent example is the full game's map which seemingly leaked online thanks to the £350 collector's edition on show in a UK department store. Then there were all the leaks from a group calling itself CyberLeek, which shared unofficial gameplay and map details over the course of a few weeks, before Rockstar had even revealed much gameplay itself.
+Amongst all this, Rockstar has been embroiled in legal action after it was accused of union busting following the firing of over 30 employees. The case's conclusion will be determined this week, as the game goes on sale.
+
+### eurogamer.net (2026-11-15), selo sugerido relato
+Manchete: The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
+Link: https://www.eurogamer.net/gta-6-tracklist-leak
+
+The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
+We are now just four days away from the release of GTA 6 on Xbox Series X/S and PS5, but the proximity to the much-anticipated launch date isn't stemming the tide of leaks that has been plaguing the game for much of the past year. Yesterday, a new video - seemingly from a record store that received vinyl records of the soundtrack early - showed off the full 34-song tracklist for the game.
+Thanks to the listing printed on the back of Grand Theft Auto 6: The Album vinyl, we have a better idea of the licensed music that'll appear in-game. Travis Scott, Rina Sawayama, Cardi B, Pinkpantheress, SZA, Keith Richards, Dua Lipa, Jennie, Lana Del Rey, Zara Larsson are just some of the names that make up the impressive list. We know about a few of these tracks from September's announcement of the record, but only six tracks were revealed then, not the whole list.
+Take a look at the full track listing below:
+Starting from Zero – Justice (feat. Michael McDonald)
+That's It – Yung Lean (feat. Future & Metro Boomin)
+Sexy Magic – CA7RIEL & Paco Amoroso, PinkPantheress, Fred Again.. & Étienne de Crécy
+Flower in a Hurricane – Justice (feat. Tame Impala, SZA & King Gizzard & The Lizard Wizard)
+Dance With Me – Boogie Wit Da Hoodie (feat. Elkan)
+Stone Cold Krazy Luuv – Jesse Johnson & DāM-FunK
+Overtown Lights – Stanley Clarke, Yussef Dayes & Robert Glasper
+You can expect to hear these tracks on the radio - alongside many more, no doubt - and deployed at curated times during cutscenes or in missions, to really tie together the vibe of the city. This is something Vice City did remarkably well its roster of 80s tracks, and I can't wait to see how Rockstar has used more contemporary music in the same way here.
+Of course, there have been a lot of Grand Theft Auto 6 leaks in the run-up to the game's launch. Another recent example is the full game's map which seemingly leaked online thanks to the £350 collector's edition on show in a UK department store. Then there were all the leaks from a group calling itself CyberLeek, which shared unofficial gameplay and map details over the course of a few weeks, before Rockstar had even revealed much gameplay itself.
+Amongst all this, Rockstar has been embroiled in legal action after it was accused of union busting following the firing of over 30 employees. The case's conclusion will be determined this week, as the game goes on sale.
+
+Outras manchetes: The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more | The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more
