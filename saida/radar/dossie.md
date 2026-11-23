@@ -11,19 +11,19 @@ Link: https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMy1WQ21GcGpGQTlTblpRe
 
 (só a manchete: a matéria não abriu)
 
-### Rockstar Games (2026-11-23), selo sugerido confirmado
-Manchete: Grand Theft Auto VI: The Album (Deluxe Edition) - Rockstar Games
-Link: https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMy1WQ21GcGpGQTlTblpRemlIb2pJZ2RBdlhNRFBqYVlMenJwWEVNb0ZPVG4tTFJwUjBBXzE0Y1BhdzJJMl9LUjZoREt2N29WSlhmU1RVS3haTVg0WDJKOW1kdEJCdHlnZnNHVUdfdWZHNG1iR05XdUxrS3R6a01pMks2NkhvZFhLTmNxcUtFSHEyS0RYYlA2d2RWSDhvV0xiaEFwUVh5QTdEQQ?oc=5
+### mxdwn Music (2026-11-23), selo sugerido rumor
+Manchete: Rockstar Games Unveils Deluxe Edition Of Grand Theft Auto VI: The Album Featuring 23 New Songs From Travis ... - mxdwn Music
+Link: https://news.google.com/rss/articles/CBMihAJBVV95cUxOVkd2Z1dBdlN6YWhSV3FfR1ZPellhOHVmZ1lwakh4SDloUTc0ZHFnaXRvcGtUOVRRWlluYjBCSU9DMjk2S1U5aF8tRnVTeFlVU3ctX0lDM0NqWnRyTGxyazN0R3BEYmxnZ0tCLUhrSnBIQ2liUDBINkpoSlVhXzVfaTRFajVEemNxRlRLWUk5dTRGeTFrcGRLQW5hS2tQaUtETVl6SXVPUkY0U1l6Q3pLa3dfOVZ0eHlqaWV6MjU0QXE1TGxaZU1VdXVac3NPLVV6U0VSRnRmNWUzUnFleUFvbW9XMkFrREFscmh2cWZlUk9KY3pDUERqbnVXOTRVd2hOeGFiONIBigJBVV95cUxPcFp0a1J0VUpCYjBQZUQ0SW9QUDhzQlY4ZVZRTTVaNTdWcXZSbjBpcDVmcjRxcFZsb3RybHgzVF9ET1pnVE5YeFoyV0MySHNYLWRMVmE2cmh4N1hmUk1sbmk2UG54UmNRMkRZZlZSeWlqM2h6N0FXTFFURE9NQ0dXQS15NDdlemNPckpFUmFHaFkxTlQydzBTc0VTaEVOMkR5YnA5NXhiYlFVNnpWVXBvd285VVJYZkc2YmQzMHFWN2tXWWxjSjd2YXZ5aFZnQzJGMnQ2MGktTnpjM2FZd3NfWjdaUktOVkVaXzBBVkMyY3pZYk44ZXZtM3BPZjdpelFHVFhreTRia2lPZw?oc=5
 
 (só a manchete: a matéria não abriu)
 
-### Rockstar Games (2026-11-23), selo sugerido confirmado
-Manchete: Grand Theft Auto VI: The Album (Deluxe Edition) - Rockstar Games
-Link: https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMy1WQ21GcGpGQTlTblpRemlIb2pJZ2RBdlhNRFBqYVlMenJwWEVNb0ZPVG4tTFJwUjBBXzE0Y1BhdzJJMl9LUjZoREt2N29WSlhmU1RVS3haTVg0WDJKOW1kdEJCdHlnZnNHVUdfdWZHNG1iR05XdUxrS3R6a01pMks2NkhvZFhLTmNxcUtFSHEyS0RYYlA2d2RWSDhvV0xiaEFwUVh5QTdEQQ?oc=5
+### RockstarINTEL (2026-11-23), selo sugerido rumor
+Manchete: GTA VI The Album Deluxe Edition Announced, Features 23 Bonus Tracks - RockstarINTEL
+Link: https://news.google.com/rss/articles/CBMimAFBVV95cUxPeHM4b1VwclpndEVhbEh4eExSekxTcld2VjliV2RKejNCUlFyQ3g5UTBVeWthLVU0ZGF3V2MweXBvSS0tRXpRTC1YUGhuTTB3QjVFWXBDYTg2VWNDUkRnaFpNdmx5YXVXRmxPRnN1TTNjS2pCMHZ0NEpNajJwRnhZaTZkdVFod0FZUnNkREUxZXktV19wQ2lKQQ?oc=5
 
 (só a manchete: a matéria não abriu)
 
-Outras manchetes: Grand Theft Auto VI: The Album (Deluxe Edition) - Rockstar Games | Grand Theft Auto VI: The Album (Deluxe Edition) - Rockstar Games
+Outras manchetes: Rockstar Games and Atlantic Records share GTA VI: The Album (Deluxe Edition) featuring 23 new tracks - Paste Magazine | Grand Theft Auto VI: The Album (Deluxe Edition) - Rockstar Games
 
 
 ## Assunto 2
@@ -55,8 +55,8 @@ Daniel Craig Principal Engineer, Graphics R&D, Sony Interactive Entertainment
 Julia Galus Marketing Specialist, Silver Lining Interactive
 Dongseok Oh Lead Director, Vindictus: Defying Fate, NEXON Korea
 Kristen Zitani (she/her) Manager, Content Communications, Sony Interactive Entertainment
-Yasser Saleem Lead Developer, Ocelot Technologies
 Kristen Zitani (she/her) Manager, Content Communications, Sony Interactive Entertainment
+Yasser Saleem Lead Developer, Ocelot Technologies
 Vincent Tao Lead Game Designer, Once Human
 
 ### blog.playstation.com (2026-11-18), selo sugerido confirmado
@@ -86,8 +86,8 @@ Daniel Craig Principal Engineer, Graphics R&D, Sony Interactive Entertainment
 Julia Galus Marketing Specialist, Silver Lining Interactive
 Dongseok Oh Lead Director, Vindictus: Defying Fate, NEXON Korea
 Kristen Zitani (she/her) Manager, Content Communications, Sony Interactive Entertainment
-Yasser Saleem Lead Developer, Ocelot Technologies
 Kristen Zitani (she/her) Manager, Content Communications, Sony Interactive Entertainment
+Yasser Saleem Lead Developer, Ocelot Technologies
 Vincent Tao Lead Game Designer, Once Human
 
 ### blog.playstation.com (2026-11-18), selo sugerido confirmado
@@ -117,8 +117,8 @@ Daniel Craig Principal Engineer, Graphics R&D, Sony Interactive Entertainment
 Julia Galus Marketing Specialist, Silver Lining Interactive
 Dongseok Oh Lead Director, Vindictus: Defying Fate, NEXON Korea
 Kristen Zitani (she/her) Manager, Content Communications, Sony Interactive Entertainment
-Yasser Saleem Lead Developer, Ocelot Technologies
 Kristen Zitani (she/her) Manager, Content Communications, Sony Interactive Entertainment
+Yasser Saleem Lead Developer, Ocelot Technologies
 Vincent Tao Lead Game Designer, Once Human
 
 Outras manchetes: Grand Theft Auto VI launches tomorrow, November 19 | Grand Theft Auto VI launches tomorrow, November 19
@@ -132,8 +132,8 @@ Link: https://news.xbox.com/en-us/2026/11/19/grand-theft-auto-vi-is-out-now/
 
 Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
 Stories Untold Is Now Available For Xbox One
-XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
 An Alligator Swallowed an XBOX Series X – You Can Win It
+XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
 Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
 
 ### news.xbox.com (2026-11-19), selo sugerido confirmado
@@ -142,8 +142,8 @@ Link: https://news.xbox.com/en-us/2026/11/19/grand-theft-auto-vi-is-out-now/
 
 Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
 Stories Untold Is Now Available For Xbox One
-XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
 An Alligator Swallowed an XBOX Series X – You Can Win It
+XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
 Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
 
 ### news.xbox.com (2026-11-19), selo sugerido confirmado
@@ -152,8 +152,8 @@ Link: https://news.xbox.com/en-us/2026/11/19/grand-theft-auto-vi-is-out-now/
 
 Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
 Stories Untold Is Now Available For Xbox One
-XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
 An Alligator Swallowed an XBOX Series X – You Can Win It
+XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
 Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
 
 Outras manchetes: Grand Theft Auto VI is Out Now | Grand Theft Auto VI is Out Now
@@ -190,8 +190,38 @@ Link: https://news.xbox.com/en-us/2026/11/23/grand-theft-auto-vi-xbox-cloud-and-
 
 Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
 Stories Untold Is Now Available For Xbox One
-XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
 An Alligator Swallowed an XBOX Series X – You Can Win It
+XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
+Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
+How to Play Grand Theft Auto VI in the Cloud and with Remote Play
+With XBOX Cloud Gaming and Remote Play you can enjoy your adventures throughout Leonida on the devices you already own.
+Grand Theft Auto VI supports XBOX Cloud Gaming, making it available to play even without a current-gen console. With XBOX Cloud Gaming, you can play by streaming it straight from the cloud to your XBOX One, or XBOX Series X|S if you’d like to save some hard drive space.
+Select Game Pass plans include a monthly allotment of up to 15 play hours, and you can buy more cloud playtime if you need it, giving you the opportunity to experience one of the biggest games of the year on the consoles you already own. The game uses XBOX Series S graphics settings when cloud-streamed with XBOX Cloud Gaming.
+You can also access Remote Play to enjoy Grand Theft Auto VI wherever you want to play, allowing you to stream gameplay directly from your XBOX Series X|S console to devices you already own, like your mobile phone, laptops, PCs, or even a handheld gaming PC like the XBOX ROG Ally.
+Here’s how to get these features up and running (a copy of Grand Theft Auto VI from the XBOX Store is required):
+How to Start Playing Grand Theft Auto VI via the Cloud
+To start your Cloud gaming session in Grand Theft Auto VI, you can use the controllers that are connected to your console following these steps:
+From your XBOX Wireless Controller, press the XBOX button to open the guide, then search for Grand Theft Auto VI
+Select the “Manage” button and then “See in Microsoft Store”
+From the Store listing, select “Play With Cloud”
+When possible, connecting a wired Ethernet cable is the best option for gaming quality. FYI, even wireless networks with high bandwidth can occasionally have a dip in audio and video quality.
+How To Start Playing Grand Theft Auto VI via Remote Play
+Remote Play allows you to stream gameplay from your XBOX Series X|S to devices you already own, like mobile devices, PCs, and handheld gaming PCs. Here’s how to enable it:
+From your XBOX Series X|S, go to Settings -> Devices & connections -> Remote features, and then check the box to “Enable remote features”
+Optional: Select “Test remote play” from this same menu to get a sense of the quality you can expect from your connection.
+Once you’ve completed those steps above, you can move forward with Remote Play on one of your devices:
+Play from mobile device: From your browser go to play.xbox.com/remoteplay and select the console you want to connect to and select “Remote Play on This Device.”
+Play from PC or XBOX ROG Ally: Open the XBOX on PC app, click on your profile icon in the top right, go to “Accessories & remote play,” and select “Remote play” from the console to play from.
+Whether you’re streaming from the Cloud to save space or picking up right where you left off on your handheld PC, XBOX Cloud Gaming and Remote Play give you more ways to play Grand Theft Auto VI on the devices you already own. For more info, visit XBOX Cloud Gaming and Grand Theft Auto VI on the XBOX Store.
+
+### news.xbox.com (2026-11-23), selo sugerido confirmado
+Manchete: How to Play Grand Theft Auto VI in the Cloud and with Remote Play
+Link: https://news.xbox.com/en-us/2026/11/23/grand-theft-auto-vi-xbox-cloud-and-remote-play/
+
+Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
+Stories Untold Is Now Available For Xbox One
+An Alligator Swallowed an XBOX Series X – You Can Win It
+XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
 Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
 How to Play Grand Theft Auto VI in the Cloud and with Remote Play
 With XBOX Cloud Gaming and Remote Play you can enjoy your adventures throughout Leonida on the devices you already own.
@@ -277,15 +307,23 @@ Alguns usuários rebateram o dado do Pop Base e indicaram a faixa The Fate of Op
 Um dos lançamentos mais aguardados da história do entretenimento não poderia passar batido sem quebrar vários recordes. O YouTube revelou que, no lançamento, GTA 6 passou de 40 bilhões de views em conteúdos envolvendo o título.
 GTA 6 também bateu recordes de audiência em lives na Twitch e no YouTube, além de alcançar nota 99 no Metacritic e igualar o recorde histórico de Zelda: Ocarina of Time.
 
+### canaltech.com.br (2026-11-23), selo sugerido relato
+Manchete: Trilha sonora de GTA 6 faz história e bate recorde de estreia no Spotify
+Link: https://canaltech.com.br/games/trilha-sonora-de-gta-6-faz-historia-e-bate-recorde-de-estreia-no-spotify/
+
+Trilha sonora de GTA 6 faz história e bate recorde de estreia no Spotify
+Por Gabriel Cavalheiro | 23/11/2026 às 18:18
+Uma publicação do perfil Pop Base no X do último sábado (21) sugere que Grand Theft Auto VI: The Album teria alcançado 29,85 milhões de streams no primeiro dia no Spotify. Se o número for confirmado oficialmente, será um recorde para trilhas sonoras na plataforma de streaming de músicas.
+Grand Theft Auto VI: The Album foi anunciado em setembro deste ano como parte do lançamento de GTA 6. O álbum foi lançado em versões físicas (CD e vinil) e em plataformas digitais, como o Spotify. A playlist inclui 34 faixas originais e inéditas compostas para o jogo protagonizado por Jason e Lucia.
+Uma loja de discos, no entanto, acabou vazando as faixas do vinil e revelou a trilha sonora de GTA 6 com Dua Lipa, Lana Del Rey e Travis Scott dias antes do lançamento do jogo.
+Agora, Grand Theft Auto VI: The Album teria alcançado 29,85 milhões de streams. A informação, no entanto, não foi confirmada nem pela Rockstar, nem pela gravadora Atlantic Records ou mesmo pelo próprio Spotify.
+Alguns usuários rebateram o dado do Pop Base e indicaram a faixa The Fate of Ophelia como a maior estreia do Spotify, com 30 milhões de streams no lançamento. No entanto, a página claramente cita Grand Theft Auto VI: The Album como a maior estreia de uma trilha sonora, número que, lembrando, não foi oficialmente confirmado.
+Um dos lançamentos mais aguardados da história do entretenimento não poderia passar batido sem quebrar vários recordes. O YouTube revelou que, no lançamento, GTA 6 passou de 40 bilhões de views em conteúdos envolvendo o título.
+GTA 6 também bateu recordes de audiência em lives na Twitch e no YouTube, além de alcançar nota 99 no Metacritic e igualar o recorde histórico de Zelda: Ocarina of Time.
+
 ### Rede Atlântida (2026-11-23), selo sugerido rumor
 Manchete: 'GTA VI' bate recorde histórico no Spotify com álbum de trilha sonora - Rede Atlântida
 Link: https://news.google.com/rss/articles/CBMi7gFBVV95cUxOU2hsVDk2T05MUE84eUV6ODRadVp5YnludUttRkVxSFJfSXBBYnhRcDB6QzMzM0c4a1YwZzBjQS1nLU9PS0RrYlY4T1JEcm52dXdFRkpjTWZMeWpOdlRWUDhSU1dDLU43cTdwNmJBbXVOM0FzSmptRnN5dFo1T045c1JPRnJKc21TbDRVVThjcHFUTi12dnRNUlZkb3IzeW5HWFJWMUNkREFxcnhWWUMwdHowOHJqTWdwSFNmbFI0bUpZYVhOZFJVVVBwRGpIU1JrRV9Yd3pIQnhfNUZhYkwtZFBzZWdRVTE2QVh5UXZn?oc=5
-
-(só a manchete: a matéria não abriu)
-
-### tmc.com.br (2026-11-23), selo sugerido rumor
-Manchete: Trilha sonora de GTA 6 bate recorde no Spotify com 29,85 milhões de streams em 24 horas - tmc.com.br
-Link: https://news.google.com/rss/articles/CBMiigFBVV95cUxNd19PTEZWRjF5YmRONFZrdGZGS3ZUSHA5d05NQ0kyV2dZM19XY3R6Znd5TUtvV05IUXNPUlROWlAwSlotQ1FEd2cySy03YTJSV2dTcUtXdTJOU1g1VzNzaC00R1J2Q0JOMXRrYjhHcHZ3SEtualZEWXM1ajJKSEtzclpLeE9yQUo0emc?oc=5
 
 (só a manchete: a matéria não abriu)
 
