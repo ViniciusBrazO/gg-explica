@@ -184,6 +184,39 @@ Outras manchetes: Grand Theft Auto VI: The Album Now Available - Rockstar Games 
 
 ## Assunto 5
 
+### news.xbox.com (2026-11-23), selo sugerido confirmado
+Manchete: How to Play Grand Theft Auto VI in the Cloud and with Remote Play
+Link: https://news.xbox.com/en-us/2026/11/23/grand-theft-auto-vi-xbox-cloud-and-remote-play/
+
+Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
+Stories Untold Is Now Available For Xbox One
+XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
+An Alligator Swallowed an XBOX Series X – You Can Win It
+Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
+How to Play Grand Theft Auto VI in the Cloud and with Remote Play
+With XBOX Cloud Gaming and Remote Play you can enjoy your adventures throughout Leonida on the devices you already own.
+Grand Theft Auto VI supports XBOX Cloud Gaming, making it available to play even without a current-gen console. With XBOX Cloud Gaming, you can play by streaming it straight from the cloud to your XBOX One, or XBOX Series X|S if you’d like to save some hard drive space.
+Select Game Pass plans include a monthly allotment of up to 15 play hours, and you can buy more cloud playtime if you need it, giving you the opportunity to experience one of the biggest games of the year on the consoles you already own. The game uses XBOX Series S graphics settings when cloud-streamed with XBOX Cloud Gaming.
+You can also access Remote Play to enjoy Grand Theft Auto VI wherever you want to play, allowing you to stream gameplay directly from your XBOX Series X|S console to devices you already own, like your mobile phone, laptops, PCs, or even a handheld gaming PC like the XBOX ROG Ally.
+Here’s how to get these features up and running (a copy of Grand Theft Auto VI from the XBOX Store is required):
+How to Start Playing Grand Theft Auto VI via the Cloud
+To start your Cloud gaming session in Grand Theft Auto VI, you can use the controllers that are connected to your console following these steps:
+From your XBOX Wireless Controller, press the XBOX button to open the guide, then search for Grand Theft Auto VI
+Select the “Manage” button and then “See in Microsoft Store”
+From the Store listing, select “Play With Cloud”
+When possible, connecting a wired Ethernet cable is the best option for gaming quality. FYI, even wireless networks with high bandwidth can occasionally have a dip in audio and video quality.
+How To Start Playing Grand Theft Auto VI via Remote Play
+Remote Play allows you to stream gameplay from your XBOX Series X|S to devices you already own, like mobile devices, PCs, and handheld gaming PCs. Here’s how to enable it:
+From your XBOX Series X|S, go to Settings -> Devices & connections -> Remote features, and then check the box to “Enable remote features”
+Optional: Select “Test remote play” from this same menu to get a sense of the quality you can expect from your connection.
+Once you’ve completed those steps above, you can move forward with Remote Play on one of your devices:
+Play from mobile device: From your browser go to play.xbox.com/remoteplay and select the console you want to connect to and select “Remote Play on This Device.”
+Play from PC or XBOX ROG Ally: Open the XBOX on PC app, click on your profile icon in the top right, go to “Accessories & remote play,” and select “Remote play” from the console to play from.
+Whether you’re streaming from the Cloud to save space or picking up right where you left off on your handheld PC, XBOX Cloud Gaming and Remote Play give you more ways to play Grand Theft Auto VI on the devices you already own. For more info, visit XBOX Cloud Gaming and Grand Theft Auto VI on the XBOX Store.
+
+
+## Assunto 6
+
 ### DSOGaming (2026-11-21), selo sugerido rumor
 Manchete: First-Person Action Horror, ILL, Gets Official Game Awards Fall 2026 Trailer - DSOGaming
 Link: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQa1p1b01fbXk0SXp4bm42dWFHZDEtNGcxQURLUTdubWllMi03dFdQTG5uR1ktSmI2ZU9NOXJGRzB2N1pKcU5iSGRvbXo5T3NINjNuaWlVQlJwQnlDaG1BWlhtNFpDMklES3BuUTkzX0tnQlhlQl9hbUhUX3BuTVExTU9KQWlrYW9vdnY4ejVBalM3RmVKdV9HQk93N0pHYmJJNkdiY1pNeVR2NHp3dnVGVzV4STg3enFydTU0?oc=5
@@ -205,7 +238,7 @@ Link: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQa1p1b01fbXk0SXp4bm42d
 Outras manchetes: First-Person Action Horror, ILL, Gets Official Game Awards Fall 2026 Trailer - DSOGaming | First-Person Action Horror, ILL, Gets Official Game Awards Fall 2026 Trailer - DSOGaming
 
 
-## Assunto 6
+## Assunto 7
 
 ### Foro3D (2026-11-23), selo sugerido rumor
 Manchete: BrokenLore: Don t Play announced at the Horror Game Awards Fall 2026 - Foro3D
@@ -228,89 +261,32 @@ Link: https://news.google.com/rss/articles/CBMirwFBVV95cUxQbDg0OGJqNHU4SDhrSmxhb
 Outras manchetes: BrokenLore: Miki-Chan appears at the Horror Game Awards Fall 2026 - Foro3D | BrokenLore: Miki-Chan appears at the Horror Game Awards Fall 2026 - Foro3D
 
 
-## Assunto 7
-
-### eurogamer.net (2026-11-18), selo sugerido relato
-Manchete: PSA: Some GTA 6 Ultimate Edition content is only available for the first chapter, and you'll have to put in hard graft to unlock more
-Link: https://www.eurogamer.net/gta-6-ultimate-edition-unlock-details-temporary-content
-
-PSA: Some GTA 6 Ultimate Edition content is only available for the first chapter, and you'll have to put in hard graft to unlock more
-GTA 6's Ultimate Edition has proven enormously popular, despite its hefty $100 price tag. So much so that Strauss Zelnick, boss of Rockstar parent company Take-Two, recently confirmed it's the edition most people are buying - and that's despite a lack of specific information about how its unlockable content works. With GTA 6 just hours away from release, however - and out now in certain parts of the work - details are beginning to emerge, and the answer is perhaps a little surprising.
-As previously confirmed, the $100/£90 Ultimate Edition provides access to exclusive vehicles, weapons, shops, and more, with the full list as follows:
-Rockstar also previously revealed that "Ultimate Edition bonuses become available to Jason and Lucia across their story, with new items uncovered behind each chapter". The specifics of how - and when - all this stuff unlocks, though, remained unclear. So if you've opted for the Ultimate Edition, you might be wondering where your stuff is when you finally fire up the game. As reported by IGN, which has full unlock details, it turns out virtually all of GTA 6's Ultimate Edition content, as per details in the in-game shop, requires progressing through the main story - in some cases dozens and dozens of hours into the story - before it'll become available.
-Ultimate Edition-exclusive shops, for instance, unlock during Chapter 1, and many of the other additions become available by the end of Chapter 2. That doesn't sound too difficult, but as Eurogamer's Chris Tapsell notes, reaching that point could take upward of 25 hours. As for some of the late-game unlocks, such as the Shitzu Squalo and the Vice City Style outfits and tattoos (available in Chapter 4) and Chapter 5's 95 Grotti Cheetah, you could be looking at closing in on 60 hours of playtime before they unlock.
-"It'll vary depending how hard people focus on the main story," Chris explains, "but if you were mostly focused on the main story plus the optional character-based missions in largely chronological order, that's about how long it'd take."
-It's also worth noting - perhaps surprisingly - that some Ultimate Edition content is only a temporary unlock, usable only during specific chapters. Jason's Dinka Enduro motorcycle and Crest Kayak, for instance, can only be accessed and enjoyed during Chapter 1. That's also true for his retro Vapid Ganado, available from the Coastal Auto Care mod shop in Key Lento. So basically, you'll want to make the most of these while you can!
-All this might be a little disappointing for players who were expecting to be showered with Ultimate Edition spoils from the off (and that they'd be permanent unlocks), but the good news is 60 hours in GTA 6 is far from a chore. As Chris explained in his five star GTA 6 review, Rockstar's latest is an "irreducible mix of silliness, intimacy, grand ideas and rock 'n' roll action" that "pushes back the horizon of video games once again".
-
-### eurogamer.net (2026-11-18), selo sugerido relato
-Manchete: PSA: Some GTA 6 Ultimate Edition content is only available for the first chapter, and you'll have to put in hard graft to unlock more
-Link: https://www.eurogamer.net/gta-6-ultimate-edition-unlock-details-temporary-content
-
-PSA: Some GTA 6 Ultimate Edition content is only available for the first chapter, and you'll have to put in hard graft to unlock more
-GTA 6's Ultimate Edition has proven enormously popular, despite its hefty $100 price tag. So much so that Strauss Zelnick, boss of Rockstar parent company Take-Two, recently confirmed it's the edition most people are buying - and that's despite a lack of specific information about how its unlockable content works. With GTA 6 just hours away from release, however - and out now in certain parts of the work - details are beginning to emerge, and the answer is perhaps a little surprising.
-As previously confirmed, the $100/£90 Ultimate Edition provides access to exclusive vehicles, weapons, shops, and more, with the full list as follows:
-Rockstar also previously revealed that "Ultimate Edition bonuses become available to Jason and Lucia across their story, with new items uncovered behind each chapter". The specifics of how - and when - all this stuff unlocks, though, remained unclear. So if you've opted for the Ultimate Edition, you might be wondering where your stuff is when you finally fire up the game. As reported by IGN, which has full unlock details, it turns out virtually all of GTA 6's Ultimate Edition content, as per details in the in-game shop, requires progressing through the main story - in some cases dozens and dozens of hours into the story - before it'll become available.
-Ultimate Edition-exclusive shops, for instance, unlock during Chapter 1, and many of the other additions become available by the end of Chapter 2. That doesn't sound too difficult, but as Eurogamer's Chris Tapsell notes, reaching that point could take upward of 25 hours. As for some of the late-game unlocks, such as the Shitzu Squalo and the Vice City Style outfits and tattoos (available in Chapter 4) and Chapter 5's 95 Grotti Cheetah, you could be looking at closing in on 60 hours of playtime before they unlock.
-"It'll vary depending how hard people focus on the main story," Chris explains, "but if you were mostly focused on the main story plus the optional character-based missions in largely chronological order, that's about how long it'd take."
-It's also worth noting - perhaps surprisingly - that some Ultimate Edition content is only a temporary unlock, usable only during specific chapters. Jason's Dinka Enduro motorcycle and Crest Kayak, for instance, can only be accessed and enjoyed during Chapter 1. That's also true for his retro Vapid Ganado, available from the Coastal Auto Care mod shop in Key Lento. So basically, you'll want to make the most of these while you can!
-All this might be a little disappointing for players who were expecting to be showered with Ultimate Edition spoils from the off (and that they'd be permanent unlocks), but the good news is 60 hours in GTA 6 is far from a chore. As Chris explained in his five star GTA 6 review, Rockstar's latest is an "irreducible mix of silliness, intimacy, grand ideas and rock 'n' roll action" that "pushes back the horizon of video games once again".
-
-### eurogamer.net (2026-11-18), selo sugerido relato
-Manchete: PSA: Some GTA 6 Ultimate Edition content is only available for the first chapter, and you'll have to put in hard graft to unlock more
-Link: https://www.eurogamer.net/gta-6-ultimate-edition-unlock-details-temporary-content
-
-PSA: Some GTA 6 Ultimate Edition content is only available for the first chapter, and you'll have to put in hard graft to unlock more
-GTA 6's Ultimate Edition has proven enormously popular, despite its hefty $100 price tag. So much so that Strauss Zelnick, boss of Rockstar parent company Take-Two, recently confirmed it's the edition most people are buying - and that's despite a lack of specific information about how its unlockable content works. With GTA 6 just hours away from release, however - and out now in certain parts of the work - details are beginning to emerge, and the answer is perhaps a little surprising.
-As previously confirmed, the $100/£90 Ultimate Edition provides access to exclusive vehicles, weapons, shops, and more, with the full list as follows:
-Rockstar also previously revealed that "Ultimate Edition bonuses become available to Jason and Lucia across their story, with new items uncovered behind each chapter". The specifics of how - and when - all this stuff unlocks, though, remained unclear. So if you've opted for the Ultimate Edition, you might be wondering where your stuff is when you finally fire up the game. As reported by IGN, which has full unlock details, it turns out virtually all of GTA 6's Ultimate Edition content, as per details in the in-game shop, requires progressing through the main story - in some cases dozens and dozens of hours into the story - before it'll become available.
-Ultimate Edition-exclusive shops, for instance, unlock during Chapter 1, and many of the other additions become available by the end of Chapter 2. That doesn't sound too difficult, but as Eurogamer's Chris Tapsell notes, reaching that point could take upward of 25 hours. As for some of the late-game unlocks, such as the Shitzu Squalo and the Vice City Style outfits and tattoos (available in Chapter 4) and Chapter 5's 95 Grotti Cheetah, you could be looking at closing in on 60 hours of playtime before they unlock.
-"It'll vary depending how hard people focus on the main story," Chris explains, "but if you were mostly focused on the main story plus the optional character-based missions in largely chronological order, that's about how long it'd take."
-It's also worth noting - perhaps surprisingly - that some Ultimate Edition content is only a temporary unlock, usable only during specific chapters. Jason's Dinka Enduro motorcycle and Crest Kayak, for instance, can only be accessed and enjoyed during Chapter 1. That's also true for his retro Vapid Ganado, available from the Coastal Auto Care mod shop in Key Lento. So basically, you'll want to make the most of these while you can!
-All this might be a little disappointing for players who were expecting to be showered with Ultimate Edition spoils from the off (and that they'd be permanent unlocks), but the good news is 60 hours in GTA 6 is far from a chore. As Chris explained in his five star GTA 6 review, Rockstar's latest is an "irreducible mix of silliness, intimacy, grand ideas and rock 'n' roll action" that "pushes back the horizon of video games once again".
-
-Outras manchetes: PSA: Some GTA 6 Ultimate Edition content is only available for the first chapter, and you'll have to put in hard graft to unlock more | PSA: Some GTA 6 Ultimate Edition content is only available for the first chapter, and you'll have to put in hard graft to unlock more
-
-
 ## Assunto 8
 
-### eurogamer.net (2026-11-16), selo sugerido relato
-Manchete: Original GTA 6 leaker pleads guilty to hacking Rockstar Games, years after first revealing Lucia
-Link: https://www.eurogamer.net/gta-6-leaker-pleads-guilty
+### canaltech.com.br (2026-11-23), selo sugerido relato
+Manchete: Trilha sonora de GTA 6 faz história e bate recorde de estreia no Spotify
+Link: https://canaltech.com.br/games/trilha-sonora-de-gta-6-faz-historia-e-bate-recorde-de-estreia-no-spotify/
 
-Original GTA 6 leaker pleads guilty to hacking Rockstar Games, years after first revealing Lucia
-The 21-year-old responsible for hacking Rockstar Games and leaking in-development GTA 6 footage in 2022 has pleaded guilty to a number of offenses.
-The GTA 6 leaker was initially sentenced to an indefinite stay at a hospital due to his severe autism, but was more recently deemed fit for trial and moved to a regular prison earlier this January. On Monday, at the Woolwich Crown Court in South East London, he pleaded guilty to hacking Rockstar Games and a number of other companies, including Uber and EE/BT, in cyber attacks estimated to have caused £10m in damages.
-At the time of his Rockstar hack - when he was between the ages of 16 and 17 - the leaker was already under police protection at a Travelodge hotel to keep him from rival hackers he had allegedly stolen Bitcoin from. Somewhat surprisingly, he then managed to hack the multi-billion dollar game maker with nothing but an Amazon Fire Stick, the hotel room's TV and a bluetooth-connected keyboard and mouse.
-As the BBC reports, he also managed to break into the developer's Slack channels, before threatening to release the GTA 6 source code if Rockstar failed to contact him within the day. The leaker has yet to be sentenced.
-Those 2022 leaks were quite substantial, too, revealing about an hour of unfinished gameplay and clueing the world in on Lucia's existence - the series' first female protagonist in years. Of course, those 2022 leaks shouldn't be confused with 2026's, which saw Cyberleek spill nuggets of nearly finished clips onto the internet, despite Rockstar's best efforts to keep GTA 6 a closely guarded secret.
-"We recently suffered a network intrusion in which an unauthorised third-party illegally accessed and downloaded confidential information from our systems, including early development footage for the next Grand Theft Auto," Rockstar said at the time, before it had officially unveiled GTA 6. "At this time we do not anticipate any disruption to our live game services, nor any long-term effect on the development of our ongoing projects. We are extremely disappointed to have any details of our next game shared with you all in this way."
-Four years later, GTA 6 is finally around the corner - you're probably already aware considering the marketing frenzy Rockstar's been drumming up.
+Trilha sonora de GTA 6 faz história e bate recorde de estreia no Spotify
+Por Gabriel Cavalheiro | 23/11/2026 às 18:18
+Uma publicação do perfil Pop Base no X do último sábado (21) sugere que Grand Theft Auto VI: The Album teria alcançado 29,85 milhões de streams no primeiro dia no Spotify. Se o número for confirmado oficialmente, será um recorde para trilhas sonoras na plataforma de streaming de músicas.
+Grand Theft Auto VI: The Album foi anunciado em setembro deste ano como parte do lançamento de GTA 6. O álbum foi lançado em versões físicas (CD e vinil) e em plataformas digitais, como o Spotify. A playlist inclui 34 faixas originais e inéditas compostas para o jogo protagonizado por Jason e Lucia.
+Uma loja de discos, no entanto, acabou vazando as faixas do vinil e revelou a trilha sonora de GTA 6 com Dua Lipa, Lana Del Rey e Travis Scott dias antes do lançamento do jogo.
+Agora, Grand Theft Auto VI: The Album teria alcançado 29,85 milhões de streams. A informação, no entanto, não foi confirmada nem pela Rockstar, nem pela gravadora Atlantic Records ou mesmo pelo próprio Spotify.
+Alguns usuários rebateram o dado do Pop Base e indicaram a faixa The Fate of Ophelia como a maior estreia do Spotify, com 30 milhões de streams no lançamento. No entanto, a página claramente cita Grand Theft Auto VI: The Album como a maior estreia de uma trilha sonora, número que, lembrando, não foi oficialmente confirmado.
+Um dos lançamentos mais aguardados da história do entretenimento não poderia passar batido sem quebrar vários recordes. O YouTube revelou que, no lançamento, GTA 6 passou de 40 bilhões de views em conteúdos envolvendo o título.
+GTA 6 também bateu recordes de audiência em lives na Twitch e no YouTube, além de alcançar nota 99 no Metacritic e igualar o recorde histórico de Zelda: Ocarina of Time.
 
-### eurogamer.net (2026-11-16), selo sugerido relato
-Manchete: Original GTA 6 leaker pleads guilty to hacking Rockstar Games, years after first revealing Lucia
-Link: https://www.eurogamer.net/gta-6-leaker-pleads-guilty
+### Rede Atlântida (2026-11-23), selo sugerido rumor
+Manchete: 'GTA VI' bate recorde histórico no Spotify com álbum de trilha sonora - Rede Atlântida
+Link: https://news.google.com/rss/articles/CBMi7gFBVV95cUxOU2hsVDk2T05MUE84eUV6ODRadVp5YnludUttRkVxSFJfSXBBYnhRcDB6QzMzM0c4a1YwZzBjQS1nLU9PS0RrYlY4T1JEcm52dXdFRkpjTWZMeWpOdlRWUDhSU1dDLU43cTdwNmJBbXVOM0FzSmptRnN5dFo1T045c1JPRnJKc21TbDRVVThjcHFUTi12dnRNUlZkb3IzeW5HWFJWMUNkREFxcnhWWUMwdHowOHJqTWdwSFNmbFI0bUpZYVhOZFJVVVBwRGpIU1JrRV9Yd3pIQnhfNUZhYkwtZFBzZWdRVTE2QVh5UXZn?oc=5
 
-Original GTA 6 leaker pleads guilty to hacking Rockstar Games, years after first revealing Lucia
-The 21-year-old responsible for hacking Rockstar Games and leaking in-development GTA 6 footage in 2022 has pleaded guilty to a number of offenses.
-The GTA 6 leaker was initially sentenced to an indefinite stay at a hospital due to his severe autism, but was more recently deemed fit for trial and moved to a regular prison earlier this January. On Monday, at the Woolwich Crown Court in South East London, he pleaded guilty to hacking Rockstar Games and a number of other companies, including Uber and EE/BT, in cyber attacks estimated to have caused £10m in damages.
-At the time of his Rockstar hack - when he was between the ages of 16 and 17 - the leaker was already under police protection at a Travelodge hotel to keep him from rival hackers he had allegedly stolen Bitcoin from. Somewhat surprisingly, he then managed to hack the multi-billion dollar game maker with nothing but an Amazon Fire Stick, the hotel room's TV and a bluetooth-connected keyboard and mouse.
-As the BBC reports, he also managed to break into the developer's Slack channels, before threatening to release the GTA 6 source code if Rockstar failed to contact him within the day. The leaker has yet to be sentenced.
-Those 2022 leaks were quite substantial, too, revealing about an hour of unfinished gameplay and clueing the world in on Lucia's existence - the series' first female protagonist in years. Of course, those 2022 leaks shouldn't be confused with 2026's, which saw Cyberleek spill nuggets of nearly finished clips onto the internet, despite Rockstar's best efforts to keep GTA 6 a closely guarded secret.
-"We recently suffered a network intrusion in which an unauthorised third-party illegally accessed and downloaded confidential information from our systems, including early development footage for the next Grand Theft Auto," Rockstar said at the time, before it had officially unveiled GTA 6. "At this time we do not anticipate any disruption to our live game services, nor any long-term effect on the development of our ongoing projects. We are extremely disappointed to have any details of our next game shared with you all in this way."
-Four years later, GTA 6 is finally around the corner - you're probably already aware considering the marketing frenzy Rockstar's been drumming up.
+(só a manchete: a matéria não abriu)
 
-### eurogamer.net (2026-11-16), selo sugerido relato
-Manchete: Original GTA 6 leaker pleads guilty to hacking Rockstar Games, years after first revealing Lucia
-Link: https://www.eurogamer.net/gta-6-leaker-pleads-guilty
+### tmc.com.br (2026-11-23), selo sugerido rumor
+Manchete: Trilha sonora de GTA 6 bate recorde no Spotify com 29,85 milhões de streams em 24 horas - tmc.com.br
+Link: https://news.google.com/rss/articles/CBMiigFBVV95cUxNd19PTEZWRjF5YmRONFZrdGZGS3ZUSHA5d05NQ0kyV2dZM19XY3R6Znd5TUtvV05IUXNPUlROWlAwSlotQ1FEd2cySy03YTJSV2dTcUtXdTJOU1g1VzNzaC00R1J2Q0JOMXRrYjhHcHZ3SEtualZEWXM1ajJKSEtzclpLeE9yQUo0emc?oc=5
 
-Original GTA 6 leaker pleads guilty to hacking Rockstar Games, years after first revealing Lucia
-The 21-year-old responsible for hacking Rockstar Games and leaking in-development GTA 6 footage in 2022 has pleaded guilty to a number of offenses.
-The GTA 6 leaker was initially sentenced to an indefinite stay at a hospital due to his severe autism, but was more recently deemed fit for trial and moved to a regular prison earlier this January. On Monday, at the Woolwich Crown Court in South East London, he pleaded guilty to hacking Rockstar Games and a number of other companies, including Uber and EE/BT, in cyber attacks estimated to have caused £10m in damages.
-At the time of his Rockstar hack - when he was between the ages of 16 and 17 - the leaker was already under police protection at a Travelodge hotel to keep him from rival hackers he had allegedly stolen Bitcoin from. Somewhat surprisingly, he then managed to hack the multi-billion dollar game maker with nothing but an Amazon Fire Stick, the hotel room's TV and a bluetooth-connected keyboard and mouse.
-As the BBC reports, he also managed to break into the developer's Slack channels, before threatening to release the GTA 6 source code if Rockstar failed to contact him within the day. The leaker has yet to be sentenced.
-Those 2022 leaks were quite substantial, too, revealing about an hour of unfinished gameplay and clueing the world in on Lucia's existence - the series' first female protagonist in years. Of course, those 2022 leaks shouldn't be confused with 2026's, which saw Cyberleek spill nuggets of nearly finished clips onto the internet, despite Rockstar's best efforts to keep GTA 6 a closely guarded secret.
-"We recently suffered a network intrusion in which an unauthorised third-party illegally accessed and downloaded confidential information from our systems, including early development footage for the next Grand Theft Auto," Rockstar said at the time, before it had officially unveiled GTA 6. "At this time we do not anticipate any disruption to our live game services, nor any long-term effect on the development of our ongoing projects. We are extremely disappointed to have any details of our next game shared with you all in this way."
-Four years later, GTA 6 is finally around the corner - you're probably already aware considering the marketing frenzy Rockstar's been drumming up.
+(só a manchete: a matéria não abriu)
 
-Outras manchetes: Original GTA 6 leaker pleads guilty to hacking Rockstar Games, years after first revealing Lucia | Original GTA 6 leaker pleads guilty to hacking Rockstar Games, years after first revealing Lucia
+Outras manchetes: Trilha sonora de GTA 6 bate recorde no Spotify com 29,85 milhões de streams em 24 horas - tmc.com.br | Trilha sonora de GTA 6 bate recorde no Spotify com 29,85 milhões de streams em 24 horas - tmc.com.br
