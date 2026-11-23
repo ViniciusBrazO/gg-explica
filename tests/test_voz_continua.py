@@ -125,3 +125,18 @@ def test_corte_sem_fala_volta_para_cena_por_cena(tmp_path):
     voz = VozQuePula()
     falas, continua = falar_continuo(voz, textos, tmp_path)
     assert not continua and len(voz.chamadas) == 4
+
+
+def test_fala_incompleta_nao_cai_na_voz_antiga():
+    import pytest
+    from pipeline import voz as v
+
+    class Cortada:
+        def falar(self, texto, saida):
+            raise v.FalaIncompleta("Gemini falou só 1/90 palavras")
+
+    class Antiga:
+        def falar(self, texto, saida):
+            return "antonio"
+    with pytest.raises(v.FalaIncompleta):
+        v.ComReserva(Cortada(), Antiga()).falar("oi", None)

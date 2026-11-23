@@ -180,6 +180,11 @@ class Azure:
         return Fala(wav, _duracao_audio(wav), palavras)
 
 
+class FalaIncompleta(RuntimeError):
+    """O Gemini respondeu, mas a fala saiu cortada ou trocada. Não cai na voz antiga (pedido do Vinicius,
+    23/11: todos os Reels com a voz nova): o vídeo fica para a rodada seguinte, que tenta de novo."""
+
+
 class Gemini:
     """Gemini TTS (Google AI Studio, GEMINI_API_KEY): vozes pt-BR da biblioteca, fala bem humana.
     A API não devolve o tempo de cada palavra; o kit descobre ouvindo o áudio (faster-whisper) e
@@ -225,7 +230,7 @@ class Gemini:
     def falar(self, texto: str, saida: Path) -> Fala:
         n_palavras = len([w for w in texto.split() if _norm(w)])
         motivo = ""
-        for tentativa in range(2):     # o Gemini às vezes corta ou pula um trecho: confere e tenta de novo
+        for tentativa in range(3):     # o Gemini às vezes corta ou pula um trecho: confere e tenta de novo
             wav = self._audio(texto, saida.with_suffix(".wav"))
             duracao = _duracao_audio(wav)
             ouvidas = ouvir_com_prazo(wav, texto)
@@ -236,7 +241,7 @@ class Gemini:
             ouviu = " ".join(p.texto for p in ouvidas[:15])
             print(f"  voz: Gemini {motivo} (tentativa {tentativa + 1}, {n_palavras} palavras, {duracao:.1f} s); "
                   f"o whisper ouviu: {ouviu[:160]!r}")
-        raise RuntimeError(f"Gemini {motivo}")
+        raise FalaIncompleta(f"Gemini {motivo}")
 
 
 def _ouvir(wav: Path, texto: str) -> list[Palavra]:
@@ -359,7 +364,9 @@ class ComReserva:
     def falar(self, texto: str, saida: Path) -> Fala:
         try:
             return self.principal.falar(texto, saida)
-        except Exception as e:  # noqa: BLE001
+        except FalaIncompleta:
+            raise
+        except Exception as e:  # noqa: BLE001  (cota do plano gratuito, fora do ar: o post sai no horário)
             print(f"  voz principal falhou ({str(e)[:160]}); usando a reserva")
             return self.reserva.falar(texto, saida)
 
