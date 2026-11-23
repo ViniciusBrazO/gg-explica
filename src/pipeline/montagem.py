@@ -711,6 +711,7 @@ def renderizar_video(marca: Marca, video: Video, pasta_saida: Path, voz_forcada:
         credito = next((c.credito for c in video.cenas if c.credito), "") or "Imagens: Rockstar Games"
         manchete = estilo_noticia.desenhar_manchete(marca, preencher_variaveis(primeira.titulo, hoje), selo,
                                                     fonte_txt, credito, trabalho / "manchete.png")
+        seguir = estilo_noticia.desenhar_seguir(marca, video.chamada_seguir, trabalho / "seguir.png")
 
     # final: legenda queimada, áudio normalizado, pronto para celular
     final = pasta_saida / f"{video.data.isoformat()}_{video.id}.mp4"
@@ -728,8 +729,12 @@ def renderizar_video(marca: Marca, video: Video, pasta_saida: Path, voz_forcada:
     base_video = "[0:v]"
     if manchete is not None:
         idx = 3 if (musica and musica.exists()) else 2
-        entradas += ["-loop", "1", "-framerate", str(FPS), "-i", str(manchete)]
-        audio = f"[0:v][{idx}:v]overlay=0:0:shortest=1[vm];" + audio
+        entradas += ["-loop", "1", "-framerate", str(FPS), "-i", str(manchete),
+                     "-loop", "1", "-framerate", str(FPS), "-i", str(seguir)]
+        fim_seguir = max(0.0, deslocamento - estilo_noticia.SEGUNDOS_CARTAO_SEGUIR)
+        audio = (f"[0:v][{idx}:v]overlay=0:0:shortest=1[vm0];"
+                 f"[{idx + 1}:v]format=rgba,fade=t=in:st={fim_seguir:.3f}:d=0.25:alpha=1[sg];"
+                 f"[vm0][sg]overlay=0:0:shortest=1:enable='gte(t,{fim_seguir:.3f})'[vm];" + audio)
         base_video = "[vm]"
     filtro = (f"{base_video}ass='{ass.name}':fontsdir='{fontes}'[vl];"
               f"{filtro_barra(deslocamento, marca.cores['destaque'])};{audio}")

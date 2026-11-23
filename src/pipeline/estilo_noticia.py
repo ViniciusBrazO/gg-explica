@@ -119,3 +119,45 @@ def moldura_vazia(destino: Path) -> Path:
     if not destino.exists():
         Image.new("RGBA", (1080, 1920), (0, 0, 0, 0)).save(destino)
     return destino
+
+
+SEGUNDOS_CARTAO_SEGUIR = 3.0
+TOPO_CARTAO_SEGUIR = 330        # acima da legenda falada, longe da manchete
+
+
+def desenhar_seguir(marca: Marca, chamada: str, destino: Path) -> Path:
+    """Cartão dos últimos 3 s (22/11: os Reels salvam e enviam, mas quase ninguém segue): o @ da página em
+    destaque e, se houver, o motivo concreto para seguir ("Amanhã: parte 2, o mapa dos cofres")."""
+    img = Image.new("RGBA", (1080, 1920), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    destaque = marca.cores.get("destaque", "#C8FF2E")
+    arroba = (marca.dados.get("arroba") or "@gg.explica").upper()
+    titulo = f"SEGUE A {arroba}"
+    f = _fonte("Anton", 74)
+    w = d.textlength(titulo, font=f)
+    while w > 940 and f.size > 40:
+        f = _fonte("Anton", f.size - 4)
+        w = d.textlength(titulo, font=f)
+    x0, y0 = (1080 - w) / 2 - 36, TOPO_CARTAO_SEGUIR
+    d.rounded_rectangle((x0 + 6, y0 + 8, x0 + w + 78, y0 + f.size + 46), radius=26, fill=(0, 0, 0, 150))
+    d.rounded_rectangle((x0, y0, x0 + w + 72, y0 + f.size + 38), radius=26, fill=destaque)
+    d.text(((1080 - w) / 2, y0 + 14), titulo, font=f, fill="#0B0D12")
+    if chamada.strip():
+        fb = _fonte("Barlow", 46)
+        linhas, linha = [], ""
+        for palavra in chamada.strip().split():
+            teste = f"{linha} {palavra}".strip()
+            if d.textlength(teste, font=fb) > 900 and linha:
+                linhas.append(linha)
+                linha = palavra
+            else:
+                linha = teste
+        linhas.append(linha)
+        y = y0 + f.size + 70
+        for linha in linhas[:2]:
+            lw = d.textlength(linha, font=fb)
+            d.text(((1080 - lw) / 2, y), linha, font=fb, fill="#FFFFFF", stroke_width=5, stroke_fill="#000000")
+            y += 60
+    destino.parent.mkdir(parents=True, exist_ok=True)
+    img.save(destino)
+    return destino

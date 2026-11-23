@@ -40,6 +40,9 @@ nota mais alta primeiro, **no máximo 6**.
   contar o final); depois narre o que a pessoa está vendo, com graça e linguagem de gente, como amigo
   comentando a jogada; uma dica útil se a descrição der base; termine com **uma pergunta fácil e com lado**
   ("Você teria fugido ou encarado?", "PS5 ou Xbox?").
+- **`chamada_seguir`** (até 45 caracteres): motivo concreto para seguir, mostrado nos 3 últimos segundos com
+  "SEGUE A @GG.EXPLICA". Só prometa o que já existe nos cortes livres (ex.: "Amanhã: a fuga de helicóptero").
+  A última frase da narração repete esse motivo.
 - **Legenda** (`legenda_post`): primeira linha = o gancho; 2 a 3 linhas curtas com o contexto ou a dica;
   termine com a mesma pergunta. O kit acrescenta sozinho o aviso de IA, o crédito e as hashtags.
 - **Nunca:** história da campanha, cena de cinema, final do jogo, nome de missão da história. Se a

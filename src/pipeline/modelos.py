@@ -146,6 +146,8 @@ class Video(BaseModel):
     produtos: list[Produto] = []
     cenas: list[Cena]
     notas_revisao: str = ""
+    # Motivo concreto para seguir, mostrado nos últimos 3 s do Reel (ex.: "Amanhã: parte 2, o mapa dos cofres")
+    chamada_seguir: str = ""
 
     @field_validator("id")
     @classmethod

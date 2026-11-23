@@ -28,7 +28,8 @@
           "default": "cartao",
           "enum": [
             "cartao",
-            "manchete"
+            "manchete",
+            "tabela"
           ],
           "title": "Estilo",
           "type": "string"
@@ -344,6 +345,11 @@
           "title": "Formato",
           "type": "string"
         },
+        "gerar_reel": {
+          "default": true,
+          "title": "Gerar Reel",
+          "type": "boolean"
+        },
         "plataformas": {
           "default": [
             "instagram",
@@ -405,6 +411,11 @@
         "notas_revisao": {
           "default": "",
           "title": "Notas Revisao",
+          "type": "string"
+        },
+        "chamada_seguir": {
+          "default": "",
+          "title": "Chamada Seguir",
           "type": "string"
         }
       },

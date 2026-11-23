@@ -51,6 +51,23 @@ com bom senso e o post sai sozinho (o Vinicius recebe o aviso no Telegram e pode
 >    `"gerar_reel": false`, **2 horas depois** do Reel, com outra capa, outra manchete e outras imagens (o kit também evita repetir).
 > Quando `saida/estado_voz.txt` diz `desligada`, siga a regra de formato abaixo (só carrossel).
 
+> **Seguidores (números de 22/11, leia antes de escrever).** Os Reels de dica já passam de 1.500 a 2.700
+> views, com muito salvamento e envio ("Bônus da Ultimate pode sumir": 2.676 views, 29 salvos; "Onde está o
+> bônus": 16 envios e 27 s de tempo médio; "Como ganhar dinheiro": 18 salvos), mas quase ninguém segue (0 a 1
+> por Reel). A pessoa salva a dica e vai embora: falta **motivo para voltar**. Então, em todo Reel:
+> - **`chamada_seguir`** (campo do vídeo, até 45 caracteres): a promessa concreta do próximo post, que aparece
+>   nos 3 últimos segundos com "SEGUE A @GG.EXPLICA". Ex.: "Amanhã: parte 2, onde achar os cofres",
+>   "Amanhã: o carro mais rápido sem gastar". **Só prometa o que você mesmo vai entregar:** antes de escrever,
+>   leia a `chamada_seguir` dos Reels de ontem (`pautas/`) e cumpra a promessa hoje, com o mesmo nome.
+> - **Séries numeradas:** pelo menos 2 dos 4 Reels do dia são uma parte de uma série curta (3 a 5 partes) de
+>   guia ("Guia do começo", "Dinheiro em GTA 6", "Segredos de Vice City"): manchete com a parte ("Dinheiro
+>   em GTA 6 *parte 2*") e a narração cita a parte anterior em meia frase. Quem gosta da parte 1 segue para
+>   não perder a 2.
+> - **Fim da narração:** a última frase dá o motivo para seguir, ligado à promessa ("Amanhã eu mostro onde
+>   ficam os cofres, então segue pra não perder"). A pergunta fácil com lado vai na legenda.
+> - **A resposta mais forte fica para o fim** (o Reel do bônus prendeu 27 s porque a resposta vinha no
+>   final): o gancho promete, o meio dá contexto rápido, o final entrega.
+
 > **O que funciona na GG Explica (números de 19/11, leia antes de escolher os assuntos).** Os Reels que mais
 > renderam foram serviço para o brasileiro que vai jogar ou já está jogando: "Onde está o bônus de pré-venda"
 > (268 views em 6 h, 10 curtidas, 3 envios: o melhor), "GTA 6 tem 80 horas" (308), "A que horas libera"

@@ -120,3 +120,15 @@ def test_ritmo_acelera_reel_longo_e_bloqueia_so_o_muito_longo():
     assert not any("passa de 60s" in b for b in checar_pauta(marca, v)[0])
     assert ajustar_ritmo(marca, video(185)).dados["voz"]["azure"]["velocidade"] != "+12%"
     assert any("passa de 60s" in b for b in checar_pauta(marca, video(230))[0])
+
+
+def test_cartao_de_seguir_tem_o_arroba(tmp_path):
+    from PIL import Image
+    from pipeline import estilo_noticia
+    from pipeline.marca import carregar_marca
+    arq = estilo_noticia.desenhar_seguir(carregar_marca("gg_explica"), "Amanhã: parte 2, onde achar os cofres",
+                                         tmp_path / "seguir.png")
+    img = Image.open(arq)
+    assert img.size == (1080, 1920) and img.mode == "RGBA"
+    assert img.getbbox() is not None                       # desenhou algo
+    assert img.getpixel((540, 1500))[3] == 0                # e deixou a manchete livre
