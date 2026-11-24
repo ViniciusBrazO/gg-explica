@@ -17,13 +17,13 @@ Link: https://news.google.com/rss/articles/CBMipwFBVV95cUxPNUUyX2lVdWI1a01EelYta
 
 (só a manchete: a matéria não abriu)
 
-### VICE (2026-11-24), selo sugerido rumor
-Manchete: GTA 6 IS Officially the Biggest PlayStation Launch Ever - VICE
-Link: https://news.google.com/rss/articles/CBMikgFBVV95cUxNbnEwZmZjblp0aG5uZm5qMkJKTUxsNE5VV0I5eG9Kak9pT0hWLWJ0X2wyWUNYUllCNVl5TXhZMnY2b3l2eFhqM1h5V1MxSkgwNFRDa3VrbU9fNWhxRWhUSXFtNGZOU2dWMHlpM2pGTFNiVGhaaHowRHZDMElpSHVqY2hjNzBCVGd3V1h5MkZ2ZTJHUQ?oc=5
+### Engadget (2026-11-24), selo sugerido rumor
+Manchete: Grand Theft Auto 6 Is The Biggest PlayStation Launch Of All Time - Engadget
+Link: https://news.google.com/rss/articles/CBMinwFBVV95cUxNQllJcU02OFpzQWdONG83d25objNNOGZLMXFjMVhlUnhWUndMcFliNDhqTTBnZXFfV25ibjBKb185V1FjeVJUOTZITUtsbl9QZkN5MWE2aDNlZGMwWXFEMmNkWTR2Vmd2RWJESXVpVWFrNHRwSjlRa0VaS2xlTFktdjAzdll5R2wtdmUwRXdMWkJpT2ppdGlvY1dJZTFWZTA?oc=5
 
 (só a manchete: a matéria não abriu)
 
-Outras manchetes: Grand Theft Auto 6 Is The Biggest PlayStation Launch Of All Time - Engadget | GTA 6 Is The Biggest PlayStation Launch Of All Time - Engadget
+Outras manchetes: GTA 6 Is The Biggest PlayStation Launch Of All Time - Engadget | Grand Theft Auto 6 becomes biggest entertainment launch in history - IBC.org
 
 
 ## Assunto 2
@@ -57,19 +57,19 @@ Link: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZjg4SmdBSUJCZnlaRnhkO
 
 (só a manchete: a matéria não abriu)
 
-### Yahoo (2026-11-24), selo sugerido rumor
-Manchete: ‘Grand Theft Auto VI: The Album’ Adds 4 More Songs Following Deluxe Edition - Yahoo
-Link: https://news.google.com/rss/articles/CBMipAFBVV95cUxQVVNXa01fTExPV3h6VjZhM2JYTVRTeHNrdWo1bGFEUjB6c05jQTdiSndEWXV2SXdUNEJkdkpQOWdCOHpvanJ3ZFRROUVRdWI4NVo4UmFsODVocVVpc2dxYjZwMzZHWks5cjFvZUN1TV9kQ2JyVkE2eC1QU0MwWFptUy15N1B2VUNOY1NzdHNnQmJmVHQwSUJNYUdMaVFOVUMyUjB0Qw?oc=5
+### Electronic Groove (2026-11-24), selo sugerido rumor
+Manchete: Listen to ‘Grand Theft Auto VI: The Album’ deluxe edition - Electronic Groove
+Link: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZjg4SmdBSUJCZnlaRnhkOWxzWnJwN3RpUUVSWTlfcHJqb2RQMEFUdnN3REVBLWYwQldfaHM1TU1vdkpob1ExODhRUFNUTTRHcWMtSWItZG04d2MtZHdQZmlIa3k2QWVsSnlYcmlEZnhBU0swNlNBSFpmdmlMOXYwODNoWk1MRm9N?oc=5
 
 (só a manchete: a matéria não abriu)
 
-### Headliner Magazine (2026-11-24), selo sugerido rumor
-Manchete: 'GTA VI: The Album Deluxe Edition' features Travis Scott & Slayyyter - Headliner Magazine
-Link: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVl9kNUMtRTJfR2VOSDBSaXlwMmpyYXczTUJnMkNva2NDTEFybThwWk80Z1ZOQTN3d3pKbFNRZTU4MnZLRF93Z2gxRDdQckJ3UVhZT0RnaG5aaWczREx3VjcybDYxNThFYjYxWTdMWUIyZ0N5alJhOWpWMXBfbG9MQ2ZhX3ZqTjY3elJhOWdyU1V4U1dZNlhEU1NGSXJMUE9DUmVaTFAyc19QNkttWEU4ejFjREVqSVo0d3Iw?oc=5
+### Electronic Groove (2026-11-24), selo sugerido rumor
+Manchete: Listen to ‘Grand Theft Auto VI: The Album’ deluxe edition - Electronic Groove
+Link: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZjg4SmdBSUJCZnlaRnhkOWxzWnJwN3RpUUVSWTlfcHJqb2RQMEFUdnN3REVBLWYwQldfaHM1TU1vdkpob1ExODhRUFNUTTRHcWMtSWItZG04d2MtZHdQZmlIa3k2QWVsSnlYcmlEZnhBU0swNlNBSFpmdmlMOXYwODNoWk1MRm9N?oc=5
 
 (só a manchete: a matéria não abriu)
 
-Outras manchetes: Rockstar Releases Deluxe Edition of Grand Theft Auto VI: The Album - IMDb | Rockstar Releases Deluxe Edition of Grand Theft Auto VI: The Album - IMDb
+Outras manchetes: ‘Grand Theft Auto VI: The Album’ Adds 4 More Songs Following Deluxe Edition - Yahoo | 'GTA VI: The Album Deluxe Edition' features Travis Scott & Slayyyter - Headliner Magazine
 
 
 ## Assunto 4
@@ -81,8 +81,8 @@ Link: https://news.xbox.com/en-us/2026/11/19/grand-theft-auto-vi-is-out-now/
 Stories Untold Is Now Available For Xbox One
 Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
 Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
-XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
 How to Play Grand Theft Auto VI in the Cloud and with Remote Play
+XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
 An Alligator Swallowed an XBOX Series X – You Can Win It
 
 ### news.xbox.com (2026-11-19), selo sugerido confirmado
@@ -92,8 +92,8 @@ Link: https://news.xbox.com/en-us/2026/11/19/grand-theft-auto-vi-is-out-now/
 Stories Untold Is Now Available For Xbox One
 Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
 Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
-XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
 How to Play Grand Theft Auto VI in the Cloud and with Remote Play
+XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
 An Alligator Swallowed an XBOX Series X – You Can Win It
 
 ### news.xbox.com (2026-11-19), selo sugerido confirmado
@@ -103,8 +103,8 @@ Link: https://news.xbox.com/en-us/2026/11/19/grand-theft-auto-vi-is-out-now/
 Stories Untold Is Now Available For Xbox One
 Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
 Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
-XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
 How to Play Grand Theft Auto VI in the Cloud and with Remote Play
+XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
 An Alligator Swallowed an XBOX Series X – You Can Win It
 
 Outras manchetes: Grand Theft Auto VI is Out Now | Grand Theft Auto VI is Out Now
@@ -222,8 +222,39 @@ Link: https://news.google.com/rss/articles/CBMioAFBVV95cUxQUG1BVm1MNzBSOHlrSEJwN
 
 (só a manchete: a matéria não abriu)
 
+### XBOX Wire (2026-11-24), selo sugerido confirmado
+Manchete: Como jogar Grand Theft Auto VI pela nuvem e com Remote Play - XBOX Wire
+Link: https://news.google.com/rss/articles/CBMioAFBVV95cUxQUG1BVm1MNzBSOHlrSEJwNHZITDhwM2ZFXzNfWnplYUktUmVfRlZjTEdReWV2cXlFNTc4bFEta2lvSDNmOVluNWtMSTdIMzh4N29EeUFBZ2w1dy1Ob2o1R2NoczdkeXpnTXVuUE1xV3JydV8wdVFLODdZbjlOWlNNbTdSYjk2aGxiSUtPa21sdEFVY0lrcTBZcHI3OGNMWF9M?oc=5
+
+(só a manchete: a matéria não abriu)
+
+Outras manchetes: Como jogar Grand Theft Auto VI pela nuvem e com Remote Play - XBOX Wire
+
 
 ## Assunto 7
+
+### MMORPG.com (2026-11-24), selo sugerido rumor
+Manchete: Grand Theft Auto VI Is PlayStation's Biggest Launch Ever With Over 39 Million Unique Players On PS5 - MMORPG.com
+Link: https://news.google.com/rss/articles/CBMi0wFBVV95cUxOTUYyc19jM3NYVV82ZnRFdzJSY1FFZ3p0M2M3bXdrUzdZb3lYNk9vcW8tVzdfdmR1R2pPTWRsbGVuT05oOUl4V2Z1LWZxNmdCN045T3BmZjNyU3VqQkd2QVIwTDU3NWIwNzZoM29NU2RYV0pFczFjV0w3UW5FaldrdmRNNFBLejdfY3h1QnRYTndtQWwtZVAtN2xoUGxqNzYtUDFKdndpa3ZDWWdGNnh3YVVlWUcwd2lpclZIdWNIUFh0VUFHa0tBQjdzSHUzaHVCSmFF0gHfAUFVX3lxTE9ueVczbEo1ZjRhZkNlVzNPSldrRHBWZlh3anRmajUyYjVwaHg5djRMQi1lUE1mUVo1VGNydXdzSmZMTGQzcUd3bmpiaTQ2aXZrVGtSYms5U19wQ0ZjSGhSRzlvQl9MUEwyUWRyenJoNjVvbl84YWN4akdhZTFRVm1VaUN0RnBIRGRPemRXdHJ5NTRCRk9jV3RnUjBGREQ3Nmd3ZUJxU2JYU1EycHRhVkRURWxhOEVlMWFlMkdKNTB6YmpIUFN0eUw5NmMwS25FQ0pHNG5JUG1SdDFvbXNNTmc?oc=5
+
+(só a manchete: a matéria não abriu)
+
+### MMORPG.com (2026-11-24), selo sugerido rumor
+Manchete: Grand Theft Auto VI Is PlayStation's Biggest Launch Ever With Over 39 Million Unique Players On PS5 - MMORPG.com
+Link: https://news.google.com/rss/articles/CBMi0wFBVV95cUxOTUYyc19jM3NYVV82ZnRFdzJSY1FFZ3p0M2M3bXdrUzdZb3lYNk9vcW8tVzdfdmR1R2pPTWRsbGVuT05oOUl4V2Z1LWZxNmdCN045T3BmZjNyU3VqQkd2QVIwTDU3NWIwNzZoM29NU2RYV0pFczFjV0w3UW5FaldrdmRNNFBLejdfY3h1QnRYTndtQWwtZVAtN2xoUGxqNzYtUDFKdndpa3ZDWWdGNnh3YVVlWUcwd2lpclZIdWNIUFh0VUFHa0tBQjdzSHUzaHVCSmFF0gHfAUFVX3lxTE9ueVczbEo1ZjRhZkNlVzNPSldrRHBWZlh3anRmajUyYjVwaHg5djRMQi1lUE1mUVo1VGNydXdzSmZMTGQzcUd3bmpiaTQ2aXZrVGtSYms5U19wQ0ZjSGhSRzlvQl9MUEwyUWRyenJoNjVvbl84YWN4akdhZTFRVm1VaUN0RnBIRGRPemRXdHJ5NTRCRk9jV3RnUjBGREQ3Nmd3ZUJxU2JYU1EycHRhVkRURWxhOEVlMWFlMkdKNTB6YmpIUFN0eUw5NmMwS25FQ0pHNG5JUG1SdDFvbXNNTmc?oc=5
+
+(só a manchete: a matéria não abriu)
+
+### Kotaku (2026-11-24), selo sugerido relato
+Manchete: GTA 6 Is PlayStation’s Biggest Launch Of All Time, With Over 39 Million Players - Kotaku
+Link: https://news.google.com/rss/articles/CBMikAFBVV95cUxOM0phTVE4S2oxSzNKa1JETzF4dWt3RzdpQmZuUXg0VlhJRzduWEZud3E0RkhJd0hvTFNCdXhzNzR6Q1ZZZl9hV0VXLVdNalFJVkk2ai1oZ3JFblRPa3FLd3FuaThEVVUzVDJDUU1aY0l1YWd2U2pyTzVfUG1QTHVSR3Jlbm9aQW1CanlLbnpTWjE?oc=5
+
+(só a manchete: a matéria não abriu)
+
+Outras manchetes: GTA 6 Is PlayStation’s Biggest Launch Of All Time, With Over 39 Million Players - Kotaku | GTA 6 Is PlayStation’s Biggest Launch Of All Time, With Over 39 Million Players - Kotaku
+
+
+## Assunto 8
 
 ### IGN Africa (2026-11-24), selo sugerido relato
 Manchete: GTA 6 Update 01.002.002 Out Now, Rockstar Releases Official Patch Notes - IGN Africa
@@ -244,59 +275,3 @@ Link: https://news.google.com/rss/articles/CBMinwFBVV95cUxPUEd5bDM0MzRLSFczVkdTR
 (só a manchete: a matéria não abriu)
 
 Outras manchetes: GTA 6 Update 01.002.002 Patch Notes: Rockstar Confirms 7 Fixes - Game News Plus | GTA 6 Update 01.002.002 Out Now, Rockstar Releases Official Patch Notes - IGN
-
-
-## Assunto 8
-
-### ign.com (2026-11-23), selo sugerido relato
-Manchete: Judge Lets Hacker Behind Massive GTA 6 Leak of 2022 Go Free With a Warning: 'Don't Let This Happen Again'
-Link: https://www.ign.com/articles/gta-6-hacker-free-after-time-served-over-2022-cyber-attack
-
-Judge Lets Hacker Behind Massive GTA 6 Leak of 2022 Go Free With a Warning: 'Don't Let This Happen Again'
-The hacker behind the massive GTA 6 leak in September 2022 has been released on license with a strong warning from the judge. Having already served the majority of his seven year sentence, Arion Kurtaj, from Oxford in the United Kingdom, was allowed to go free, conditionally.
-According to the BBC, the judge warned Kurtaj: "Don't let this happen again."
-Kurtaj attempted to extort GTA 6 developer Rockstar Games in 2022. After socially engineering his way into the company Slack, the now 21-year-old threatened to release clips of the unfinished game unless Rockstar paid a ransom. He pleaded guilty to the hacking offenses, which he carried out when he was 16 and 17 years old, earlier this week.
-⚖️ Arion Kurtaj, 21, has been convicted today for targeting major international companies, hacking into their private systems, stealing information and data, and causing millions of dollars in losses. 📰 https://t.co/UvJTCFWnct https://t.co/3CoLIw7dDs
-Originally, Kurtaj was sentenced to an indefinite stay in a prison hospital due to his autism diagnosis. After reconsideration, he was deemed fit to stand trial and spent the remainder of his time in a traditional prison, starting in January.
-With his release, Kurtaj has been given a Serious Crime Prevention Order, which restricts his interactions online, barring him from using social apps like Telegram and Discord, in an attempt to prevent him working with hacker groups. The order will last for five years.
-The hack happened while Kurtaj was already under police protection in a Travelodge with his computer confiscated. During his stay, he used an Amazon Fire Stick and the hotel television to hack Rockstar, Revolut, and Uber.
-The GTA 6 hack saw him steal 90 clips of an unfinished build well before Rockstar was ready to show gameplay from its anticipated open-world sequel, which launched last week. It resulted in the first major GTA 6 leak, as early gameplay footage was shared online. Here, we saw dual protagonists Jason and Lucia for the first time. These clips were shared under the online name TeaPotUberHacker. It would be over a year before Rockstar finally showed the protagonists itself, and even longer until we got an official gameplay reveal, which was only shared in August of this year.
-"If Rockstar does not contact me on Telegram within 24 hours I will start releasing the source code," he said in the company Slack. When the company didn’t respond, he released the files, costing the company $5 million in damages.
-Just getting started in GTA 6 or wondering what to do next? Check out the Official Grand Theft Auto 6 guide right here on IGN. If you're still getting your bearings, discover GTA's new systems with the Beginner's Guide - 67 Tips and Tricks, or get all the details on the first chapters with the Chapter 1 Guide and Tips, Chapter 2 Guide and Tips, and Chapter 3 Guide and Tips. If you're already driving all around Leonida and want to know everything there is to find and do, see the Leonida interactive map.
-Kirk McKeand is a Contributor on IGN News. Find him on Twitter @MckKirk
-
-### ign.com (2026-11-23), selo sugerido relato
-Manchete: Judge Lets Hacker Behind Massive GTA 6 Leak of 2022 Go Free With a Warning: 'Don't Let This Happen Again'
-Link: https://www.ign.com/articles/gta-6-hacker-free-after-time-served-over-2022-cyber-attack
-
-Judge Lets Hacker Behind Massive GTA 6 Leak of 2022 Go Free With a Warning: 'Don't Let This Happen Again'
-The hacker behind the massive GTA 6 leak in September 2022 has been released on license with a strong warning from the judge. Having already served the majority of his seven year sentence, Arion Kurtaj, from Oxford in the United Kingdom, was allowed to go free, conditionally.
-According to the BBC, the judge warned Kurtaj: "Don't let this happen again."
-Kurtaj attempted to extort GTA 6 developer Rockstar Games in 2022. After socially engineering his way into the company Slack, the now 21-year-old threatened to release clips of the unfinished game unless Rockstar paid a ransom. He pleaded guilty to the hacking offenses, which he carried out when he was 16 and 17 years old, earlier this week.
-⚖️ Arion Kurtaj, 21, has been convicted today for targeting major international companies, hacking into their private systems, stealing information and data, and causing millions of dollars in losses. 📰 https://t.co/UvJTCFWnct https://t.co/3CoLIw7dDs
-Originally, Kurtaj was sentenced to an indefinite stay in a prison hospital due to his autism diagnosis. After reconsideration, he was deemed fit to stand trial and spent the remainder of his time in a traditional prison, starting in January.
-With his release, Kurtaj has been given a Serious Crime Prevention Order, which restricts his interactions online, barring him from using social apps like Telegram and Discord, in an attempt to prevent him working with hacker groups. The order will last for five years.
-The hack happened while Kurtaj was already under police protection in a Travelodge with his computer confiscated. During his stay, he used an Amazon Fire Stick and the hotel television to hack Rockstar, Revolut, and Uber.
-The GTA 6 hack saw him steal 90 clips of an unfinished build well before Rockstar was ready to show gameplay from its anticipated open-world sequel, which launched last week. It resulted in the first major GTA 6 leak, as early gameplay footage was shared online. Here, we saw dual protagonists Jason and Lucia for the first time. These clips were shared under the online name TeaPotUberHacker. It would be over a year before Rockstar finally showed the protagonists itself, and even longer until we got an official gameplay reveal, which was only shared in August of this year.
-"If Rockstar does not contact me on Telegram within 24 hours I will start releasing the source code," he said in the company Slack. When the company didn’t respond, he released the files, costing the company $5 million in damages.
-Just getting started in GTA 6 or wondering what to do next? Check out the Official Grand Theft Auto 6 guide right here on IGN. If you're still getting your bearings, discover GTA's new systems with the Beginner's Guide - 67 Tips and Tricks, or get all the details on the first chapters with the Chapter 1 Guide and Tips, Chapter 2 Guide and Tips, and Chapter 3 Guide and Tips. If you're already driving all around Leonida and want to know everything there is to find and do, see the Leonida interactive map.
-Kirk McKeand is a Contributor on IGN News. Find him on Twitter @MckKirk
-
-### ign.com (2026-11-23), selo sugerido relato
-Manchete: Judge Lets Hacker Behind Massive GTA 6 Leak of 2022 Go Free With a Warning: 'Don't Let This Happen Again'
-Link: https://www.ign.com/articles/gta-6-hacker-free-after-time-served-over-2022-cyber-attack
-
-Judge Lets Hacker Behind Massive GTA 6 Leak of 2022 Go Free With a Warning: 'Don't Let This Happen Again'
-The hacker behind the massive GTA 6 leak in September 2022 has been released on license with a strong warning from the judge. Having already served the majority of his seven year sentence, Arion Kurtaj, from Oxford in the United Kingdom, was allowed to go free, conditionally.
-According to the BBC, the judge warned Kurtaj: "Don't let this happen again."
-Kurtaj attempted to extort GTA 6 developer Rockstar Games in 2022. After socially engineering his way into the company Slack, the now 21-year-old threatened to release clips of the unfinished game unless Rockstar paid a ransom. He pleaded guilty to the hacking offenses, which he carried out when he was 16 and 17 years old, earlier this week.
-⚖️ Arion Kurtaj, 21, has been convicted today for targeting major international companies, hacking into their private systems, stealing information and data, and causing millions of dollars in losses. 📰 https://t.co/UvJTCFWnct https://t.co/3CoLIw7dDs
-Originally, Kurtaj was sentenced to an indefinite stay in a prison hospital due to his autism diagnosis. After reconsideration, he was deemed fit to stand trial and spent the remainder of his time in a traditional prison, starting in January.
-With his release, Kurtaj has been given a Serious Crime Prevention Order, which restricts his interactions online, barring him from using social apps like Telegram and Discord, in an attempt to prevent him working with hacker groups. The order will last for five years.
-The hack happened while Kurtaj was already under police protection in a Travelodge with his computer confiscated. During his stay, he used an Amazon Fire Stick and the hotel television to hack Rockstar, Revolut, and Uber.
-The GTA 6 hack saw him steal 90 clips of an unfinished build well before Rockstar was ready to show gameplay from its anticipated open-world sequel, which launched last week. It resulted in the first major GTA 6 leak, as early gameplay footage was shared online. Here, we saw dual protagonists Jason and Lucia for the first time. These clips were shared under the online name TeaPotUberHacker. It would be over a year before Rockstar finally showed the protagonists itself, and even longer until we got an official gameplay reveal, which was only shared in August of this year.
-"If Rockstar does not contact me on Telegram within 24 hours I will start releasing the source code," he said in the company Slack. When the company didn’t respond, he released the files, costing the company $5 million in damages.
-Just getting started in GTA 6 or wondering what to do next? Check out the Official Grand Theft Auto 6 guide right here on IGN. If you're still getting your bearings, discover GTA's new systems with the Beginner's Guide - 67 Tips and Tricks, or get all the details on the first chapters with the Chapter 1 Guide and Tips, Chapter 2 Guide and Tips, and Chapter 3 Guide and Tips. If you're already driving all around Leonida and want to know everything there is to find and do, see the Leonida interactive map.
-Kirk McKeand is a Contributor on IGN News. Find him on Twitter @MckKirk
-
-Outras manchetes: Judge Lets Hacker Behind Massive GTA 6 Leak of 2022 Go Free With a Warning: 'Don't Let This Happen Again' | Judge Lets Hacker Behind Massive GTA 6 Leak of 2022 Go Free With a Warning: 'Don't Let This Happen Again'

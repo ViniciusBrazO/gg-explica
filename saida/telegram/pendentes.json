@@ -666,5 +666,13 @@
     "situacao": "agendado",
     "message_id": 652,
     "enviado": "2026-11-24T07:21:31.066211"
+  },
+  "5427e4c036": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-24_gg_explica.json",
+    "video": "radar_2026-11-24_sem_viagem_rapida_reel",
+    "impressao": "f149640236ad",
+    "situacao": "agendado",
+    "message_id": 682,
+    "enviado": "2026-11-24T17:17:41.761782"
   }
 }
