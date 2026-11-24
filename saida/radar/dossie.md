@@ -1,73 +1,47 @@
-# Dossiê do radar (23/11/2026)
+# Dossiê do radar (24/11/2026)
 
 Texto das matérias aberto pelo kit. Use os números, nomes e datas daqui. Matéria marcada "só a manchete" não abriu: procure outra fonte com WebSearch/WebFetch antes de escrever.
 
 
 ## Assunto 1
 
-### blog.playstation.com (2026-11-23), selo sugerido confirmado
-Manchete: Thank you for making Grand Theft Auto VI the biggest launch in PlayStation history
-Link: https://blog.playstation.com/2026/11/23/thank-you-for-making-grand-theft-auto-vi-the-biggest-launch-in-playstation-history/
+### polygon.com (2026-11-24), selo sugerido relato
+Manchete: GTA 6 is Officially the Biggest Launch in PlayStation History
+Link: https://www.polygon.com/gta-6-biggest-launch-in-ps-history/
 
-Thank you for making Grand Theft Auto VI the biggest launch in PlayStation history
-Celebrating the PlayStation community and Rockstar Games for creating an incredible moment in gaming and entertainment.
-After a long wait, players finally have had the chance to jump into Grand Theft Auto VI. It’s been amazing to see the PlayStation community around the world begin their adventures in the state of Leonida.
-Whether you’ve been counting down the days to return to the streets of Vice City or you’re experiencing the Grand Theft Auto series for the very first time, we want to take a moment to say: thank you. The excitement and passion of the community have made this a truly special moment for all of us.
-The launch of GTAVI marks an extraordinary moment for gaming and entertainment, becoming the biggest game launch in PlayStation history, across three decades and five console generations. More than 39 million unique players have experienced Jason and Lucia’s story in Grand Theft Auto VI on PlayStation 5.
-The PlayStation community came together in a big way to experience Grand Theft Auto VI during its launch and opening weekend. Here are a few highlights from the launch window ending November 22, 2026*:
-GTAVI set a new record for the highest number of concurrent players for any game on PlayStation, surpassing previous records across multiplayer, free-to-play, and single-player titles.
-Across PS5, players cumulatively logged an incredible 683 million hours of gameplay in GTAVI, reflecting the enthusiasm of the PlayStation community. Each player has spent an average of 17.4 hours exploring the state of Leonida during the game’s opening days.
-The PlayStation community has grown, as we saw the largest number of newly connected PS5 consoles on a single day since the console’s launch, outside of end-of-year holidays. Since its launch, GTAVI was the first game played on 70% of new PS5 consoles.
-These are just a few ways we’ve seen our PlayStation community come together around this incredible moment in gaming, and we’re excited to see how you continue to build and share new memories and experiences in the months ahead.
-Finally, we want to congratulate our partners at Rockstar Games for bringing this extraordinary game to players around the world and continuing a partnership with PlayStation that stretches back to Grand Theft Auto III on PlayStation 2. With GTAVI, we worked to bring the best experience on PS5 and gave players a memorable way to commemorate the game with two special limited-edition DualSense wireless controllers inspired by Vice City. We also celebrated the launch with live events including Grand Theft Auto VI: The Festival in Miami this past weekend.And to our PlayStation community, thank you for your continued passion and support, and for choosing to experience GTAVI on PS5. It’s your enthusiasm that make moments like these so meaningful for all of us.
-We can’t wait to see where your adventures in Leonida take you next!
-*All figures are based on SIE internal data collected from November 19, 2026, to November 22, 2026
-Please be kind, considerate, and constructive. Report inappropriate comments to PlayStationBlogModeration@sony.com
-Adam Michel Senior Director, Game Services, Sony Interactive Entertainment
-Daniel Craig Principal Engineer, Graphics R&D, Sony Interactive Entertainment
-Julia Galus Marketing Specialist, Silver Lining Interactive
-Dongseok Oh Lead Director, Vindictus: Defying Fate, NEXON Korea
-Kristen Zitani (she/her) Manager, Content Communications, Sony Interactive Entertainment
-Kristen Zitani (she/her) Manager, Content Communications, Sony Interactive Entertainment
-Yasser Saleem Lead Developer, Ocelot Technologies
+The stats don't lie: GTA 6 smashed every record in Play Station history
+GTA 6 is officially the biggest launch in PlayStation history
+It's not exactly a secret that Grand Theft Auto 6 is the most anticipated game of the past decade. Thanks to the long wait and Rockstar Games' excellent hype campaign, it seems everyone with a PS5 (and a few Xbox owners, too) is playing GTA 6 now. But what does that translate to in terms of numbers? That's what the PlayStation Blog just revealed.
+GTA 6 is officially the biggest launch in PlayStation history, period. The game shattered a list of records for Sony's console. While technically GTA 6 is also available on Xbox Series X, developer Rockstar Games is clearly playing favorites. The game's advertising campaign declared that it “plays best on PS,” and GTA 6 even got a DualSense controller.
+According to the data shared by Sony in the PlayStation Blog post, relative to the game's launch window between Nov. 19 and Nov. 22, more than 39 million unique players have experienced GTA 6 on PlayStation 5. GTA 6 also "set a new record for the highest number of concurrent players for any game on PlayStation, surpassing previous records across multiplayer, free-to-play, and single-player titles."
+The data become even more impressive when looking at the number of hours PlayStation players have poured into the game already. Across PS5, players logged 683 million hours of gameplay, with an average of 17.4 hours per player. It's true that Leonida is supposed to be the biggest map in the history of the GTA series, but those are still impressive numbers​​​​​​​. It surely helps that GTA 6 has a mind-boggling​​​​​​​ amount of side quests, Easter eggs, random events, and an apparently bottomless treasure chest of features for players to discover.
+Predictably, GTA 6 also significantly contributed to the growth of the PlayStation community​​​​​​​. The game's launch saw "the largest number of newly connected PS5 consoles on a single day since the console’s launch, outside of end-of-year holidays. Since its launch, GTAVI was the first game played on 70% of new PS5 consoles."
+What does that all mean in terms of business? According to estimates provided by Alinea Analytics​​​​​​​, GTA 6 sold 33.7 million copies on PS5 (75.1%) and 11.2 million on Xbox (24.9%) by the end of the game's launch weekend. (Publisher Take-Two Interactive initially reported 32.5 million copies sold for $3.79 billion in revenue.) This amounted to $4 billion in gross revenue via sold-through copies in four days, with over $3 billion came from PS5.
+As Rockstar said, this was truly the biggest launch in entertainment history. And as players keep exploring Leonida and engaging with the game, there is no telling just how big GTA 6 will get.
 
-### pushsquare.com (2026-11-24), selo sugerido rumor
-Manchete: GTA 6 Officially the 'Biggest Launch in PlayStation History' with Over 39 Million Players
-Link: https://www.pushsquare.com/news/2026/11/gta-6-officially-the-biggest-launch-in-playstation-history-with-over-39-million-players
+### ign.com (2026-11-24), selo sugerido relato
+Manchete: GTA 6 Was Biggest Launch in PlayStation History
+Link: https://www.ign.com/articles/gta-6-was-biggest-launch-in-playstation-history
 
-GTA 6 Officially the 'Biggest Launch in PlayStation History' with Over 39 Million Players
-Highest number of concurrent players ever on PlayStation
-Sony has shared a selection of staggering statistics relating to the launch of GTA 6 on PS5.
-From launch on 19th November through to the end of the title's opening weekend, Sony recorded over 39 million unique players.
-The game set a new record on PlayStation for the highest number of concurrent players on any game.
-PS5 players have logged 683 million hours of GTA 6 playtime, and on average, every owner on PlayStation has played it for 17.4 hours.
-Outside of the console's launch and Christmas holidays, the launch of GTA 6 resulted in "the largest number of newly connected PS5 consoles on a single day". GTA 6 was the first game played on 70% of those new PS5 systems.
-"These are just a few ways we’ve seen our PlayStation community come together around this incredible moment in gaming, and we’re excited to see how you continue to build and share new memories and experiences in the months ahead," said content communications manager Tim Turi on the PlayStation Blog.
-The day after release, Rockstar Games announced GTA 6 had sold 32.5 million units across PS5 and Xbox Series X|S. With these new stats from PlayStation, we know it's sold over 39 million copies on PS5 alone, as of yesterday.
-GTA 6 will continue to sell for years to come, as there'll be a PC version next year along with a brand new iteration of GTA Online. We've got a 10/10-rated GTA 6 PS5 review on the site, and we're working on our comprehensive GTA 6 guide right now.
-Are you one of those 39 million+ owners of GTA 6 on PS5? Let us know in the comments below.
-Liam grew up with a PlayStation controller in his hands and a love for Metal Gear Solid. Nowadays, he's found playing the latest and greatest PS5 games as well as supporting Derby County. That last detail is his downfall.
-Hold on there, you need to login to post a comment...
-GTA 6: Why Is It Too Dark? Here's How to Fix HDR Settings
-GTA 6: Randy's Wish List Vehicle Locations (WIP)
-GTA 6: How to Get Ultimate Edition Items & Pre-Order Bonuses
-GTA 6: Underwater Discoveries Locations & Kenton's Treasures (WIP)
+GTA 6 Was Biggest Launch in PlayStation History
+Now that the dust has somewhat settled after the avalanche that was the launch of GTA 6, PlayStation has revealed some of its stats from the game, revealing that this was the single largest game release in PlayStation history.
+PlayStation’s November 23 blog post states that more than 39 million unique players have played the game on the PlayStation 5, setting a new record for the highest number of concurrent players for any PlayStation game. This beats out other records for multiplayer games, single-player games, and perhaps most astonishingly, even free-to-play titles.
+On top of that, GTA 6 players logged a total of 683 million hours played in the game, with the average player spending an estimated 17.4 hours sticking up virtual pawn shops and stealing NPC’s cars during its first few days.
+What’s more impressive is the sheer amount of people who purchased PS5s specifically to play GTA 6. PlayStation’s blog says it saw the “largest number of newly-connected PS5 consoles on a single day” since the console’s launch in November 2020, not counting end-of-year holidays like Christmas. Since GTA 6’s launch, it was the first game played on 70% of these new consoles.
+GTA 6 has, perhaps unsurprisingly, broken a slew of big records. The most prominent of these is its status as the biggest entertainment launch of all time, with Rockstar reporting that the game earned $3.79 billion in its first 24 hours.
+On top of this, internet provider Comcast said that GTA 6’s launch day was its highest-traffic day ever, with 24% of all its internet traffic during peak times coming from users downloading and playing Rockstar’s latest offering. Xbox had its own big records, too; Xfinity, which is under the Comcast umbrella, said GTA 6 increased the internet traffic on Xbox consoles by four times the normal amount this November.
+People are still making new discoveries in this game, and there’s bound to be many more that pop up over the next few months. GTA 6 is up for eight awards at The Game Awards and has enjoyed massive critical reception, with IGN scoring it a glowing 10 out of 10 — the title of ‘Masterpiece.’ Reviewer Luke Reilly praised the game for being “exquisitely detailed, endlessly ripe for experimentation, and uncompromisingly engineered,” saying “Grand Theft Auto 6 is the single most impressive video game I have ever played.”
+It’s unlikely that we see a game release as big as this one, with such a massive cultural impact, ever again. Rockstar certainly set a new standard for the industry with this one, to the point where many users aren’t sure if a photo they see online is from the real world or from the game.
+Just getting started in GTA 6 or wondering what to do next? Check out the Official Grand Theft Auto 6 guide right here on IGN. If you're still getting your bearings, discover GTA's new systems with the Beginner's Guide - 67 Tips and Tricks, or get all the details on the first chapters with the Chapter 1 Guide and Tips and Chapter 2 Guide and Tips. If you're already driving all around Leonida and want to know everything there is to find and do, see the Leonida interactive map.
+Virginia (she/her) is IGN’s News Editor. With ten years of experience reporting on games and entertainment, she’s got a storied background in the fighting game community, influencer news, and viral online trends. Find her on Twitter at @TheeMissGlaze.
 
-### videogameschronicle.com (2026-11-23), selo sugerido relato
-Manchete: GTA 6 was the ‘biggest launch in PlayStation history’ with over 39 million players
-Link: https://www.videogameschronicle.com/news/gta-6-was-the-biggest-launch-in-playstation-history-with-over-39-million-players/
+### GosuGamers (2026-11-24), selo sugerido rumor
+Manchete: GTA VI is the biggest launch in PlayStation history, with over 39 million unique players - GosuGamers
+Link: https://news.google.com/rss/articles/CBMi1gFBVV95cUxNS19sLWlyYTZGckJob0F6eVhQalNPUVUwODQ2bFJaVTJOdEZ1QzJxazkxbE01UHJQRE50dXEyUlpYZXVobm9wOVZaUjhORV82U1VmMGhPY0JtSWxpMS1aRG94NzBXNkFQOG92UkZacGFFSlo1QnAtMHpnUUt5NEQ2Qmd1X0tMOHJ3RkFnN0RJa3dEbFNDQkxVVWtLMWZjZS1qc1dXUzViT1BMSUlIY2FQZC1jSXkycFljTC0yTmZrUWZ0NUNhRnhocVFYdDdGSkpHNFl0VEpB?oc=5
 
-GTA 6 was the ‘biggest launch in PlayStation history’ with over 39 million players
-Grand Theft Auto 6 was “the biggest launch in PlayStation history,” according to Sony, with over 39 million users playing the game on PS5.
-According to a post on the PlayStation blog, players cumulatively logged 683 million hours of gameplay in GTA 6 between launch and November 22. The game also set a new record for concurrent players of a single game on PlayStation consoles.
-PlayStation also claims that the platform holder “saw the largest number of newly connected PS5 consoles on a single day since the consoleâs launch, outside of end-of-year holidays.”
-GTA 6 was also “the first game played on 70% of new PS5 consoles” during the period of launch until November 22.
-This comes after Rockstar and publisher Take-Two announced that Grand Theft Auto 6 has become the most successful launch for any piece of media in history, after being pre-ordered over 32 million times.
-On Friday, Rockstar and Take-Two claimed that the game has generated $3.79 billion in day one retail sales, “setting a new record for entertainment across any medium, and becoming the biggest entertainment launch in history.”
-For comparison, Spider-Man: Brand New Day generated $2.5 billion across its entire theatrical run as the highest grossing film of the year. When compared to other GTA titles, GTA 5 generated $815 million on launch day, which means GTA 6 managed almost 5 times as much.
-Grand Theft Auto 6 released on Thursday November 19, 13 years after the previous entry in the franchise. Upon release, the game achieved a record-tieing 99 out of 100 on Metacritic, making it one of the highest rated games of all time.
-VGC’s Grand Theft Auto 6 review calls it “the game of the generation”, saying Rockstar “delivers its modern masterpiece with a remarkable artistic achievement that exceeds all expectations”.
-Guides: If you're playing Grand Theft Auto 6, make sure to checkÂ out ourÂ complete walkthrough hub, featuringÂ beginner tips, navigation experience explained, GTA 6 cheats, and more.
+(só a manchete: a matéria não abriu)
+
+Outras manchetes: GTA 6 Marks Biggest Launch in PlayStation History - Inven Global | GTA 6 Was Biggest Launch in PlayStation History
 
 
 ## Assunto 2
@@ -78,22 +52,60 @@ Link: https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMy1WQ21GcGpGQTlTblpRe
 
 (só a manchete: a matéria não abriu)
 
-### mxdwn Music (2026-11-23), selo sugerido rumor
-Manchete: Rockstar Games Unveils Deluxe Edition Of Grand Theft Auto VI: The Album Featuring 23 New Songs From Travis ... - mxdwn Music
-Link: https://news.google.com/rss/articles/CBMihAJBVV95cUxOVkd2Z1dBdlN6YWhSV3FfR1ZPellhOHVmZ1lwakh4SDloUTc0ZHFnaXRvcGtUOVRRWlluYjBCSU9DMjk2S1U5aF8tRnVTeFlVU3ctX0lDM0NqWnRyTGxyazN0R3BEYmxnZ0tCLUhrSnBIQ2liUDBINkpoSlVhXzVfaTRFajVEemNxRlRLWUk5dTRGeTFrcGRLQW5hS2tQaUtETVl6SXVPUkY0U1l6Q3pLa3dfOVZ0eHlqaWV6MjU0QXE1TGxaZU1VdXVac3NPLVV6U0VSRnRmNWUzUnFleUFvbW9XMkFrREFscmh2cWZlUk9KY3pDUERqbnVXOTRVd2hOeGFiONIBigJBVV95cUxPcFp0a1J0VUpCYjBQZUQ0SW9QUDhzQlY4ZVZRTTVaNTdWcXZSbjBpcDVmcjRxcFZsb3RybHgzVF9ET1pnVE5YeFoyV0MySHNYLWRMVmE2cmh4N1hmUk1sbmk2UG54UmNRMkRZZlZSeWlqM2h6N0FXTFFURE9NQ0dXQS15NDdlemNPckpFUmFHaFkxTlQydzBTc0VTaEVOMkR5YnA5NXhiYlFVNnpWVXBvd285VVJYZkc2YmQzMHFWN2tXWWxjSjd2YXZ5aFZnQzJGMnQ2MGktTnpjM2FZd3NfWjdaUktOVkVaXzBBVkMyY3pZYk44ZXZtM3BPZjdpelFHVFhreTRia2lPZw?oc=5
+### Rockstar Games (2026-11-23), selo sugerido confirmado
+Manchete: Grand Theft Auto VI: The Album (Deluxe Edition) - Rockstar Games
+Link: https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMy1WQ21GcGpGQTlTblpRemlIb2pJZ2RBdlhNRFBqYVlMenJwWEVNb0ZPVG4tTFJwUjBBXzE0Y1BhdzJJMl9LUjZoREt2N29WSlhmU1RVS3haTVg0WDJKOW1kdEJCdHlnZnNHVUdfdWZHNG1iR05XdUxrS3R6a01pMks2NkhvZFhLTmNxcUtFSHEyS0RYYlA2d2RWSDhvV0xiaEFwUVh5QTdEQQ?oc=5
 
 (só a manchete: a matéria não abriu)
 
-### RockstarINTEL (2026-11-23), selo sugerido rumor
-Manchete: GTA VI The Album Deluxe Edition Announced, Features 23 Bonus Tracks - RockstarINTEL
-Link: https://news.google.com/rss/articles/CBMimAFBVV95cUxPeHM4b1VwclpndEVhbEh4eExSekxTcld2VjliV2RKejNCUlFyQ3g5UTBVeWthLVU0ZGF3V2MweXBvSS0tRXpRTC1YUGhuTTB3QjVFWXBDYTg2VWNDUkRnaFpNdmx5YXVXRmxPRnN1TTNjS2pCMHZ0NEpNajJwRnhZaTZkdVFod0FZUnNkREUxZXktV19wQ2lKQQ?oc=5
+### Rockstar Games (2026-11-23), selo sugerido confirmado
+Manchete: Grand Theft Auto VI: The Album (Deluxe Edition) - Rockstar Games
+Link: https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMy1WQ21GcGpGQTlTblpRemlIb2pJZ2RBdlhNRFBqYVlMenJwWEVNb0ZPVG4tTFJwUjBBXzE0Y1BhdzJJMl9LUjZoREt2N29WSlhmU1RVS3haTVg0WDJKOW1kdEJCdHlnZnNHVUdfdWZHNG1iR05XdUxrS3R6a01pMks2NkhvZFhLTmNxcUtFSHEyS0RYYlA2d2RWSDhvV0xiaEFwUVh5QTdEQQ?oc=5
 
 (só a manchete: a matéria não abriu)
 
-Outras manchetes: Rockstar Games and Atlantic Records share GTA VI: The Album (Deluxe Edition) featuring 23 new tracks - Paste Magazine | Grand Theft Auto VI: The Album (Deluxe Edition) - Rockstar Games
+Outras manchetes: Grand Theft Auto VI: The Album (Deluxe Edition) - Rockstar Games | Grand Theft Auto VI: The Album (Deluxe Edition) - Rockstar Games
 
 
 ## Assunto 3
+
+### news.xbox.com (2026-11-19), selo sugerido confirmado
+Manchete: Grand Theft Auto VI is Out Now
+Link: https://news.xbox.com/en-us/2026/11/19/grand-theft-auto-vi-is-out-now/
+
+Stories Untold Is Now Available For Xbox One
+Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
+An Alligator Swallowed an XBOX Series X – You Can Win It
+From GDC: Building the Next Generation of Xbox
+How to Play Grand Theft Auto VI in the Cloud and with Remote Play
+Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
+
+### news.xbox.com (2026-11-19), selo sugerido confirmado
+Manchete: Grand Theft Auto VI is Out Now
+Link: https://news.xbox.com/en-us/2026/11/19/grand-theft-auto-vi-is-out-now/
+
+Stories Untold Is Now Available For Xbox One
+Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
+An Alligator Swallowed an XBOX Series X – You Can Win It
+From GDC: Building the Next Generation of Xbox
+How to Play Grand Theft Auto VI in the Cloud and with Remote Play
+Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
+
+### news.xbox.com (2026-11-19), selo sugerido confirmado
+Manchete: Grand Theft Auto VI is Out Now
+Link: https://news.xbox.com/en-us/2026/11/19/grand-theft-auto-vi-is-out-now/
+
+Stories Untold Is Now Available For Xbox One
+Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
+An Alligator Swallowed an XBOX Series X – You Can Win It
+From GDC: Building the Next Generation of Xbox
+How to Play Grand Theft Auto VI in the Cloud and with Remote Play
+Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
+
+Outras manchetes: Grand Theft Auto VI is Out Now | Grand Theft Auto VI is Out Now
+
+
+## Assunto 4
 
 ### blog.playstation.com (2026-11-18), selo sugerido confirmado
 Manchete: Grand Theft Auto VI launches tomorrow, November 19
@@ -191,198 +203,222 @@ Vincent Tao Lead Game Designer, Once Human
 Outras manchetes: Grand Theft Auto VI launches tomorrow, November 19 | Grand Theft Auto VI launches tomorrow, November 19
 
 
-## Assunto 4
-
-### news.xbox.com (2026-11-19), selo sugerido confirmado
-Manchete: Grand Theft Auto VI is Out Now
-Link: https://news.xbox.com/en-us/2026/11/19/grand-theft-auto-vi-is-out-now/
-
-Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
-Stories Untold Is Now Available For Xbox One
-An Alligator Swallowed an XBOX Series X – You Can Win It
-XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
-Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
-
-### news.xbox.com (2026-11-19), selo sugerido confirmado
-Manchete: Grand Theft Auto VI is Out Now
-Link: https://news.xbox.com/en-us/2026/11/19/grand-theft-auto-vi-is-out-now/
-
-Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
-Stories Untold Is Now Available For Xbox One
-An Alligator Swallowed an XBOX Series X – You Can Win It
-XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
-Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
-
-### news.xbox.com (2026-11-19), selo sugerido confirmado
-Manchete: Grand Theft Auto VI is Out Now
-Link: https://news.xbox.com/en-us/2026/11/19/grand-theft-auto-vi-is-out-now/
-
-Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
-Stories Untold Is Now Available For Xbox One
-An Alligator Swallowed an XBOX Series X – You Can Win It
-XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
-Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
-
-Outras manchetes: Grand Theft Auto VI is Out Now | Grand Theft Auto VI is Out Now
-
-
 ## Assunto 5
 
-### Rockstar Games (2026-11-20), selo sugerido confirmado
-Manchete: Grand Theft Auto VI: The Album Now Available - Rockstar Games
-Link: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOUdHR3lsOTUwbEM0QkdnZHZSRjJTdXFuVjhKV1lvd28xUmhBVURQamg5R3kyZ2YtX0tBX3JoQi14cHk3d18zaV9pcjlid3c3YlZFb1p3Ylc1ZTJYWm1BT2gxN3hUcWRpZ0FCd0RsQW50bEtyWTdkdzI2N1k3cFdVck5IQ2Nyb1VpTkY5Y2lOamRaTHlKUk5lSG1NOEltTHRWckgwNTFGUWs?oc=5
+### news.xbox.com (2026-11-23), selo sugerido confirmado
+Manchete: How to Play Grand Theft Auto VI in the Cloud and with Remote Play
+Link: https://news.xbox.com/en-us/2026/11/23/grand-theft-auto-vi-xbox-cloud-and-remote-play/
 
-(só a manchete: a matéria não abriu)
+Stories Untold Is Now Available For Xbox One
+Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
+An Alligator Swallowed an XBOX Series X – You Can Win It
+From GDC: Building the Next Generation of Xbox
+How to Play Grand Theft Auto VI in the Cloud and with Remote Play
+Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
+How to Play Grand Theft Auto VI in the Cloud and with Remote Play
+With XBOX Cloud Gaming and Remote Play you can enjoy your adventures throughout Leonida on the devices you already own.
+Grand Theft Auto VI supports XBOX Cloud Gaming, making it available to play even without a current-gen console. With XBOX Cloud Gaming, you can play by streaming it straight from the cloud to your XBOX One, or XBOX Series X|S if you’d like to save some hard drive space.
+Select Game Pass plans include a monthly allotment of up to 15 play hours, and you can buy more cloud playtime if you need it, giving you the opportunity to experience one of the biggest games of the year on the consoles you already own. The game uses XBOX Series S graphics settings when cloud-streamed with XBOX Cloud Gaming.
+You can also access Remote Play to enjoy Grand Theft Auto VI wherever you want to play, allowing you to stream gameplay directly from your XBOX Series X|S console to devices you already own, like your mobile phone, laptops, PCs, or even a handheld gaming PC like the XBOX ROG Ally.
+Here’s how to get these features up and running (a copy of Grand Theft Auto VI from the XBOX Store is required):
+How to Start Playing Grand Theft Auto VI via the Cloud
+To start your Cloud gaming session in Grand Theft Auto VI, you can use the controllers that are connected to your console following these steps:
+From your XBOX Wireless Controller, press the XBOX button to open the guide, then search for Grand Theft Auto VI
+Select the “Manage” button and then “See in Microsoft Store”
+From the Store listing, select “Play With Cloud”
+When possible, connecting a wired Ethernet cable is the best option for gaming quality. FYI, even wireless networks with high bandwidth can occasionally have a dip in audio and video quality.
+How To Start Playing Grand Theft Auto VI via Remote Play
+Remote Play allows you to stream gameplay from your XBOX Series X|S to devices you already own, like mobile devices, PCs, and handheld gaming PCs. Here’s how to enable it:
+From your XBOX Series X|S, go to Settings -> Devices & connections -> Remote features, and then check the box to “Enable remote features”
+Optional: Select “Test remote play” from this same menu to get a sense of the quality you can expect from your connection.
+Once you’ve completed those steps above, you can move forward with Remote Play on one of your devices:
+Play from mobile device: From your browser go to play.xbox.com/remoteplay and select the console you want to connect to and select “Remote Play on This Device.”
+Play from PC or XBOX ROG Ally: Open the XBOX on PC app, click on your profile icon in the top right, go to “Accessories & remote play,” and select “Remote play” from the console to play from.
+Whether you’re streaming from the Cloud to save space or picking up right where you left off on your handheld PC, XBOX Cloud Gaming and Remote Play give you more ways to play Grand Theft Auto VI on the devices you already own. For more info, visit XBOX Cloud Gaming and Grand Theft Auto VI on the XBOX Store.
 
-### Rockstar Games (2026-11-20), selo sugerido confirmado
-Manchete: Grand Theft Auto VI: The Album Now Available - Rockstar Games
-Link: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOUdHR3lsOTUwbEM0QkdnZHZSRjJTdXFuVjhKV1lvd28xUmhBVURQamg5R3kyZ2YtX0tBX3JoQi14cHk3d18zaV9pcjlid3c3YlZFb1p3Ylc1ZTJYWm1BT2gxN3hUcWRpZ0FCd0RsQW50bEtyWTdkdzI2N1k3cFdVck5IQ2Nyb1VpTkY5Y2lOamRaTHlKUk5lSG1NOEltTHRWckgwNTFGUWs?oc=5
+### news.xbox.com (2026-11-23), selo sugerido confirmado
+Manchete: How to Play Grand Theft Auto VI in the Cloud and with Remote Play
+Link: https://news.xbox.com/en-us/2026/11/23/grand-theft-auto-vi-xbox-cloud-and-remote-play/
 
-(só a manchete: a matéria não abriu)
+Stories Untold Is Now Available For Xbox One
+Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
+An Alligator Swallowed an XBOX Series X – You Can Win It
+From GDC: Building the Next Generation of Xbox
+How to Play Grand Theft Auto VI in the Cloud and with Remote Play
+Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
+How to Play Grand Theft Auto VI in the Cloud and with Remote Play
+With XBOX Cloud Gaming and Remote Play you can enjoy your adventures throughout Leonida on the devices you already own.
+Grand Theft Auto VI supports XBOX Cloud Gaming, making it available to play even without a current-gen console. With XBOX Cloud Gaming, you can play by streaming it straight from the cloud to your XBOX One, or XBOX Series X|S if you’d like to save some hard drive space.
+Select Game Pass plans include a monthly allotment of up to 15 play hours, and you can buy more cloud playtime if you need it, giving you the opportunity to experience one of the biggest games of the year on the consoles you already own. The game uses XBOX Series S graphics settings when cloud-streamed with XBOX Cloud Gaming.
+You can also access Remote Play to enjoy Grand Theft Auto VI wherever you want to play, allowing you to stream gameplay directly from your XBOX Series X|S console to devices you already own, like your mobile phone, laptops, PCs, or even a handheld gaming PC like the XBOX ROG Ally.
+Here’s how to get these features up and running (a copy of Grand Theft Auto VI from the XBOX Store is required):
+How to Start Playing Grand Theft Auto VI via the Cloud
+To start your Cloud gaming session in Grand Theft Auto VI, you can use the controllers that are connected to your console following these steps:
+From your XBOX Wireless Controller, press the XBOX button to open the guide, then search for Grand Theft Auto VI
+Select the “Manage” button and then “See in Microsoft Store”
+From the Store listing, select “Play With Cloud”
+When possible, connecting a wired Ethernet cable is the best option for gaming quality. FYI, even wireless networks with high bandwidth can occasionally have a dip in audio and video quality.
+How To Start Playing Grand Theft Auto VI via Remote Play
+Remote Play allows you to stream gameplay from your XBOX Series X|S to devices you already own, like mobile devices, PCs, and handheld gaming PCs. Here’s how to enable it:
+From your XBOX Series X|S, go to Settings -> Devices & connections -> Remote features, and then check the box to “Enable remote features”
+Optional: Select “Test remote play” from this same menu to get a sense of the quality you can expect from your connection.
+Once you’ve completed those steps above, you can move forward with Remote Play on one of your devices:
+Play from mobile device: From your browser go to play.xbox.com/remoteplay and select the console you want to connect to and select “Remote Play on This Device.”
+Play from PC or XBOX ROG Ally: Open the XBOX on PC app, click on your profile icon in the top right, go to “Accessories & remote play,” and select “Remote play” from the console to play from.
+Whether you’re streaming from the Cloud to save space or picking up right where you left off on your handheld PC, XBOX Cloud Gaming and Remote Play give you more ways to play Grand Theft Auto VI on the devices you already own. For more info, visit XBOX Cloud Gaming and Grand Theft Auto VI on the XBOX Store.
 
-### Rockstar Games (2026-11-20), selo sugerido confirmado
-Manchete: Grand Theft Auto VI: The Album Now Available - Rockstar Games
-Link: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOUdHR3lsOTUwbEM0QkdnZHZSRjJTdXFuVjhKV1lvd28xUmhBVURQamg5R3kyZ2YtX0tBX3JoQi14cHk3d18zaV9pcjlid3c3YlZFb1p3Ylc1ZTJYWm1BT2gxN3hUcWRpZ0FCd0RsQW50bEtyWTdkdzI2N1k3cFdVck5IQ2Nyb1VpTkY5Y2lOamRaTHlKUk5lSG1NOEltTHRWckgwNTFGUWs?oc=5
+### news.xbox.com (2026-11-23), selo sugerido confirmado
+Manchete: How to Play Grand Theft Auto VI in the Cloud and with Remote Play
+Link: https://news.xbox.com/en-us/2026/11/23/grand-theft-auto-vi-xbox-cloud-and-remote-play/
 
-(só a manchete: a matéria não abriu)
+Stories Untold Is Now Available For Xbox One
+Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
+An Alligator Swallowed an XBOX Series X – You Can Win It
+From GDC: Building the Next Generation of Xbox
+How to Play Grand Theft Auto VI in the Cloud and with Remote Play
+Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
+How to Play Grand Theft Auto VI in the Cloud and with Remote Play
+With XBOX Cloud Gaming and Remote Play you can enjoy your adventures throughout Leonida on the devices you already own.
+Grand Theft Auto VI supports XBOX Cloud Gaming, making it available to play even without a current-gen console. With XBOX Cloud Gaming, you can play by streaming it straight from the cloud to your XBOX One, or XBOX Series X|S if you’d like to save some hard drive space.
+Select Game Pass plans include a monthly allotment of up to 15 play hours, and you can buy more cloud playtime if you need it, giving you the opportunity to experience one of the biggest games of the year on the consoles you already own. The game uses XBOX Series S graphics settings when cloud-streamed with XBOX Cloud Gaming.
+You can also access Remote Play to enjoy Grand Theft Auto VI wherever you want to play, allowing you to stream gameplay directly from your XBOX Series X|S console to devices you already own, like your mobile phone, laptops, PCs, or even a handheld gaming PC like the XBOX ROG Ally.
+Here’s how to get these features up and running (a copy of Grand Theft Auto VI from the XBOX Store is required):
+How to Start Playing Grand Theft Auto VI via the Cloud
+To start your Cloud gaming session in Grand Theft Auto VI, you can use the controllers that are connected to your console following these steps:
+From your XBOX Wireless Controller, press the XBOX button to open the guide, then search for Grand Theft Auto VI
+Select the “Manage” button and then “See in Microsoft Store”
+From the Store listing, select “Play With Cloud”
+When possible, connecting a wired Ethernet cable is the best option for gaming quality. FYI, even wireless networks with high bandwidth can occasionally have a dip in audio and video quality.
+How To Start Playing Grand Theft Auto VI via Remote Play
+Remote Play allows you to stream gameplay from your XBOX Series X|S to devices you already own, like mobile devices, PCs, and handheld gaming PCs. Here’s how to enable it:
+From your XBOX Series X|S, go to Settings -> Devices & connections -> Remote features, and then check the box to “Enable remote features”
+Optional: Select “Test remote play” from this same menu to get a sense of the quality you can expect from your connection.
+Once you’ve completed those steps above, you can move forward with Remote Play on one of your devices:
+Play from mobile device: From your browser go to play.xbox.com/remoteplay and select the console you want to connect to and select “Remote Play on This Device.”
+Play from PC or XBOX ROG Ally: Open the XBOX on PC app, click on your profile icon in the top right, go to “Accessories & remote play,” and select “Remote play” from the console to play from.
+Whether you’re streaming from the Cloud to save space or picking up right where you left off on your handheld PC, XBOX Cloud Gaming and Remote Play give you more ways to play Grand Theft Auto VI on the devices you already own. For more info, visit XBOX Cloud Gaming and Grand Theft Auto VI on the XBOX Store.
 
-Outras manchetes: Grand Theft Auto VI: The Album Now Available - Rockstar Games | Grand Theft Auto VI: The Album Now Available - Rockstar Games
+Outras manchetes: How to Play Grand Theft Auto VI in the Cloud and with Remote Play | How to Play Grand Theft Auto VI in the Cloud and with Remote Play
 
 
 ## Assunto 6
 
-### news.xbox.com (2026-11-23), selo sugerido confirmado
-Manchete: How to Play Grand Theft Auto VI in the Cloud and with Remote Play
-Link: https://news.xbox.com/en-us/2026/11/23/grand-theft-auto-vi-xbox-cloud-and-remote-play/
+### IGN Africa (2026-11-24), selo sugerido relato
+Manchete: GTA 6 Update 01.002.002 Out Now, Rockstar Releases Official Patch Notes - IGN Africa
+Link: https://news.google.com/rss/articles/CBMitAFBVV95cUxQVWw5R1lBbFBEWVBrWUNZaU9iT241N3ZsbEp4cXpQTXZEZmdrS29SZFZmZFJVdFFTVWJVbllXTGdGN0lnNG5LV05QazNtVkpISWRVQ0UxcmpGU182SnBSMmJFWnlma2Q0blNfazFYRUVMS29NNjhEUjl0SThGeGZ5V0NGVjdCSlZmVzF4TDFnc0V5dUc4SjFCdXFlVXpwbW4wUXZ0aXZPbWUzejdZdWIzdDRHTGM?oc=5
 
-Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
-Stories Untold Is Now Available For Xbox One
-An Alligator Swallowed an XBOX Series X – You Can Win It
-XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
-Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
-How to Play Grand Theft Auto VI in the Cloud and with Remote Play
-With XBOX Cloud Gaming and Remote Play you can enjoy your adventures throughout Leonida on the devices you already own.
-Grand Theft Auto VI supports XBOX Cloud Gaming, making it available to play even without a current-gen console. With XBOX Cloud Gaming, you can play by streaming it straight from the cloud to your XBOX One, or XBOX Series X|S if you’d like to save some hard drive space.
-Select Game Pass plans include a monthly allotment of up to 15 play hours, and you can buy more cloud playtime if you need it, giving you the opportunity to experience one of the biggest games of the year on the consoles you already own. The game uses XBOX Series S graphics settings when cloud-streamed with XBOX Cloud Gaming.
-You can also access Remote Play to enjoy Grand Theft Auto VI wherever you want to play, allowing you to stream gameplay directly from your XBOX Series X|S console to devices you already own, like your mobile phone, laptops, PCs, or even a handheld gaming PC like the XBOX ROG Ally.
-Here’s how to get these features up and running (a copy of Grand Theft Auto VI from the XBOX Store is required):
-How to Start Playing Grand Theft Auto VI via the Cloud
-To start your Cloud gaming session in Grand Theft Auto VI, you can use the controllers that are connected to your console following these steps:
-From your XBOX Wireless Controller, press the XBOX button to open the guide, then search for Grand Theft Auto VI
-Select the “Manage” button and then “See in Microsoft Store”
-From the Store listing, select “Play With Cloud”
-When possible, connecting a wired Ethernet cable is the best option for gaming quality. FYI, even wireless networks with high bandwidth can occasionally have a dip in audio and video quality.
-How To Start Playing Grand Theft Auto VI via Remote Play
-Remote Play allows you to stream gameplay from your XBOX Series X|S to devices you already own, like mobile devices, PCs, and handheld gaming PCs. Here’s how to enable it:
-From your XBOX Series X|S, go to Settings -> Devices & connections -> Remote features, and then check the box to “Enable remote features”
-Optional: Select “Test remote play” from this same menu to get a sense of the quality you can expect from your connection.
-Once you’ve completed those steps above, you can move forward with Remote Play on one of your devices:
-Play from mobile device: From your browser go to play.xbox.com/remoteplay and select the console you want to connect to and select “Remote Play on This Device.”
-Play from PC or XBOX ROG Ally: Open the XBOX on PC app, click on your profile icon in the top right, go to “Accessories & remote play,” and select “Remote play” from the console to play from.
-Whether you’re streaming from the Cloud to save space or picking up right where you left off on your handheld PC, XBOX Cloud Gaming and Remote Play give you more ways to play Grand Theft Auto VI on the devices you already own. For more info, visit XBOX Cloud Gaming and Grand Theft Auto VI on the XBOX Store.
+(só a manchete: a matéria não abriu)
 
-### news.xbox.com (2026-11-23), selo sugerido confirmado
-Manchete: How to Play Grand Theft Auto VI in the Cloud and with Remote Play
-Link: https://news.xbox.com/en-us/2026/11/23/grand-theft-auto-vi-xbox-cloud-and-remote-play/
+### TheSixthAxis (2026-11-23), selo sugerido rumor
+Manchete: Here are the patch notes for GTA 6 Update 01.002.002 - TheSixthAxis
+Link: https://news.google.com/rss/articles/CBMimAFBVV95cUxPc0xkUXZxUWVJanZ0eWdRcVNpbkVJc0dqd2tldm16dTVEaE5zTWcyeHJZUzcxUDdkOE5NZlhzWi1DdmNScmtuZ19nSmtRR2lGUWhwYmc1NDg3QkFNWnRNZVl4SVZsWnpNN2Q2V29jUWxaN3JKbFRfLVRmYl95R3B4UWEyTVFNbGFFaXNGMGRTbjFyQWFNZXcwaQ?oc=5
 
-Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
-Stories Untold Is Now Available For Xbox One
-An Alligator Swallowed an XBOX Series X – You Can Win It
-XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
-Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
-How to Play Grand Theft Auto VI in the Cloud and with Remote Play
-With XBOX Cloud Gaming and Remote Play you can enjoy your adventures throughout Leonida on the devices you already own.
-Grand Theft Auto VI supports XBOX Cloud Gaming, making it available to play even without a current-gen console. With XBOX Cloud Gaming, you can play by streaming it straight from the cloud to your XBOX One, or XBOX Series X|S if you’d like to save some hard drive space.
-Select Game Pass plans include a monthly allotment of up to 15 play hours, and you can buy more cloud playtime if you need it, giving you the opportunity to experience one of the biggest games of the year on the consoles you already own. The game uses XBOX Series S graphics settings when cloud-streamed with XBOX Cloud Gaming.
-You can also access Remote Play to enjoy Grand Theft Auto VI wherever you want to play, allowing you to stream gameplay directly from your XBOX Series X|S console to devices you already own, like your mobile phone, laptops, PCs, or even a handheld gaming PC like the XBOX ROG Ally.
-Here’s how to get these features up and running (a copy of Grand Theft Auto VI from the XBOX Store is required):
-How to Start Playing Grand Theft Auto VI via the Cloud
-To start your Cloud gaming session in Grand Theft Auto VI, you can use the controllers that are connected to your console following these steps:
-From your XBOX Wireless Controller, press the XBOX button to open the guide, then search for Grand Theft Auto VI
-Select the “Manage” button and then “See in Microsoft Store”
-From the Store listing, select “Play With Cloud”
-When possible, connecting a wired Ethernet cable is the best option for gaming quality. FYI, even wireless networks with high bandwidth can occasionally have a dip in audio and video quality.
-How To Start Playing Grand Theft Auto VI via Remote Play
-Remote Play allows you to stream gameplay from your XBOX Series X|S to devices you already own, like mobile devices, PCs, and handheld gaming PCs. Here’s how to enable it:
-From your XBOX Series X|S, go to Settings -> Devices & connections -> Remote features, and then check the box to “Enable remote features”
-Optional: Select “Test remote play” from this same menu to get a sense of the quality you can expect from your connection.
-Once you’ve completed those steps above, you can move forward with Remote Play on one of your devices:
-Play from mobile device: From your browser go to play.xbox.com/remoteplay and select the console you want to connect to and select “Remote Play on This Device.”
-Play from PC or XBOX ROG Ally: Open the XBOX on PC app, click on your profile icon in the top right, go to “Accessories & remote play,” and select “Remote play” from the console to play from.
-Whether you’re streaming from the Cloud to save space or picking up right where you left off on your handheld PC, XBOX Cloud Gaming and Remote Play give you more ways to play Grand Theft Auto VI on the devices you already own. For more info, visit XBOX Cloud Gaming and Grand Theft Auto VI on the XBOX Store.
+(só a manchete: a matéria não abriu)
 
-### news.xbox.com (2026-11-23), selo sugerido confirmado
-Manchete: How to Play Grand Theft Auto VI in the Cloud and with Remote Play
-Link: https://news.xbox.com/en-us/2026/11/23/grand-theft-auto-vi-xbox-cloud-and-remote-play/
+### TheSixthAxis (2026-11-23), selo sugerido rumor
+Manchete: Here are the patch notes for GTA 6 Update 01.002.002 - TheSixthAxis
+Link: https://news.google.com/rss/articles/CBMimAFBVV95cUxPc0xkUXZxUWVJanZ0eWdRcVNpbkVJc0dqd2tldm16dTVEaE5zTWcyeHJZUzcxUDdkOE5NZlhzWi1DdmNScmtuZ19nSmtRR2lGUWhwYmc1NDg3QkFNWnRNZVl4SVZsWnpNN2Q2V29jUWxaN3JKbFRfLVRmYl95R3B4UWEyTVFNbGFFaXNGMGRTbjFyQWFNZXcwaQ?oc=5
 
-Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
-Stories Untold Is Now Available For Xbox One
-An Alligator Swallowed an XBOX Series X – You Can Win It
-XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
-Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
-How to Play Grand Theft Auto VI in the Cloud and with Remote Play
-With XBOX Cloud Gaming and Remote Play you can enjoy your adventures throughout Leonida on the devices you already own.
-Grand Theft Auto VI supports XBOX Cloud Gaming, making it available to play even without a current-gen console. With XBOX Cloud Gaming, you can play by streaming it straight from the cloud to your XBOX One, or XBOX Series X|S if you’d like to save some hard drive space.
-Select Game Pass plans include a monthly allotment of up to 15 play hours, and you can buy more cloud playtime if you need it, giving you the opportunity to experience one of the biggest games of the year on the consoles you already own. The game uses XBOX Series S graphics settings when cloud-streamed with XBOX Cloud Gaming.
-You can also access Remote Play to enjoy Grand Theft Auto VI wherever you want to play, allowing you to stream gameplay directly from your XBOX Series X|S console to devices you already own, like your mobile phone, laptops, PCs, or even a handheld gaming PC like the XBOX ROG Ally.
-Here’s how to get these features up and running (a copy of Grand Theft Auto VI from the XBOX Store is required):
-How to Start Playing Grand Theft Auto VI via the Cloud
-To start your Cloud gaming session in Grand Theft Auto VI, you can use the controllers that are connected to your console following these steps:
-From your XBOX Wireless Controller, press the XBOX button to open the guide, then search for Grand Theft Auto VI
-Select the “Manage” button and then “See in Microsoft Store”
-From the Store listing, select “Play With Cloud”
-When possible, connecting a wired Ethernet cable is the best option for gaming quality. FYI, even wireless networks with high bandwidth can occasionally have a dip in audio and video quality.
-How To Start Playing Grand Theft Auto VI via Remote Play
-Remote Play allows you to stream gameplay from your XBOX Series X|S to devices you already own, like mobile devices, PCs, and handheld gaming PCs. Here’s how to enable it:
-From your XBOX Series X|S, go to Settings -> Devices & connections -> Remote features, and then check the box to “Enable remote features”
-Optional: Select “Test remote play” from this same menu to get a sense of the quality you can expect from your connection.
-Once you’ve completed those steps above, you can move forward with Remote Play on one of your devices:
-Play from mobile device: From your browser go to play.xbox.com/remoteplay and select the console you want to connect to and select “Remote Play on This Device.”
-Play from PC or XBOX ROG Ally: Open the XBOX on PC app, click on your profile icon in the top right, go to “Accessories & remote play,” and select “Remote play” from the console to play from.
-Whether you’re streaming from the Cloud to save space or picking up right where you left off on your handheld PC, XBOX Cloud Gaming and Remote Play give you more ways to play Grand Theft Auto VI on the devices you already own. For more info, visit XBOX Cloud Gaming and Grand Theft Auto VI on the XBOX Store.
+(só a manchete: a matéria não abriu)
+
+Outras manchetes: Here are the patch notes for GTA 6 Update 01.002.002 - TheSixthAxis | GTA 6 Update 01.002.002 Patch Notes: Rockstar Confirms 7 Fixes - Game News Plus
 
 
 ## Assunto 7
 
-### DSOGaming (2026-11-21), selo sugerido rumor
-Manchete: First-Person Action Horror, ILL, Gets Official Game Awards Fall 2026 Trailer - DSOGaming
-Link: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQa1p1b01fbXk0SXp4bm42dWFHZDEtNGcxQURLUTdubWllMi03dFdQTG5uR1ktSmI2ZU9NOXJGRzB2N1pKcU5iSGRvbXo5T3NINjNuaWlVQlJwQnlDaG1BWlhtNFpDMklES3BuUTkzX0tnQlhlQl9hbUhUX3BuTVExTU9KQWlrYW9vdnY4ejVBalM3RmVKdV9HQk93N0pHYmJJNkdiY1pNeVR2NHp3dnVGVzV4STg3enFydTU0?oc=5
+### ign.com (2026-11-23), selo sugerido relato
+Manchete: Judge Lets Hacker Behind Massive GTA 6 Leak of 2022 Go Free With a Warning: 'Don't Let This Happen Again'
+Link: https://www.ign.com/articles/gta-6-hacker-free-after-time-served-over-2022-cyber-attack
 
-(só a manchete: a matéria não abriu)
+Judge Lets Hacker Behind Massive GTA 6 Leak of 2022 Go Free With a Warning: 'Don't Let This Happen Again'
+The hacker behind the massive GTA 6 leak in September 2022 has been released on license with a strong warning from the judge. Having already served the majority of his seven year sentence, Arion Kurtaj, from Oxford in the United Kingdom, was allowed to go free, conditionally.
+According to the BBC, the judge warned Kurtaj: "Don't let this happen again."
+Kurtaj attempted to extort GTA 6 developer Rockstar Games in 2022. After socially engineering his way into the company Slack, the now 21-year-old threatened to release clips of the unfinished game unless Rockstar paid a ransom. He pleaded guilty to the hacking offenses, which he carried out when he was 16 and 17 years old, earlier this week.
+⚖️ Arion Kurtaj, 21, has been convicted today for targeting major international companies, hacking into their private systems, stealing information and data, and causing millions of dollars in losses. 📰 https://t.co/UvJTCFWnct https://t.co/3CoLIw7dDs
+Originally, Kurtaj was sentenced to an indefinite stay in a prison hospital due to his autism diagnosis. After reconsideration, he was deemed fit to stand trial and spent the remainder of his time in a traditional prison, starting in January.
+With his release, Kurtaj has been given a Serious Crime Prevention Order, which restricts his interactions online, barring him from using social apps like Telegram and Discord, in an attempt to prevent him working with hacker groups. The order will last for five years.
+The hack happened while Kurtaj was already under police protection in a Travelodge with his computer confiscated. During his stay, he used an Amazon Fire Stick and the hotel television to hack Rockstar, Revolut, and Uber.
+The GTA 6 hack saw him steal 90 clips of an unfinished build well before Rockstar was ready to show gameplay from its anticipated open-world sequel, which launched last week. It resulted in the first major GTA 6 leak, as early gameplay footage was shared online. Here, we saw dual protagonists Jason and Lucia for the first time. These clips were shared under the online name TeaPotUberHacker. It would be over a year before Rockstar finally showed the protagonists itself, and even longer until we got an official gameplay reveal, which was only shared in August of this year.
+"If Rockstar does not contact me on Telegram within 24 hours I will start releasing the source code," he said in the company Slack. When the company didn’t respond, he released the files, costing the company $5 million in damages.
+Just getting started in GTA 6 or wondering what to do next? Check out the Official Grand Theft Auto 6 guide right here on IGN. If you're still getting your bearings, discover GTA's new systems with the Beginner's Guide - 67 Tips and Tricks, or get all the details on the first chapters with the Chapter 1 Guide and Tips, Chapter 2 Guide and Tips, and Chapter 3 Guide and Tips. If you're already driving all around Leonida and want to know everything there is to find and do, see the Leonida interactive map.
+Kirk McKeand is a Contributor on IGN News. Find him on Twitter @MckKirk
 
-### DSOGaming (2026-11-21), selo sugerido rumor
-Manchete: First-Person Action Horror, ILL, Gets Official Game Awards Fall 2026 Trailer - DSOGaming
-Link: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQa1p1b01fbXk0SXp4bm42dWFHZDEtNGcxQURLUTdubWllMi03dFdQTG5uR1ktSmI2ZU9NOXJGRzB2N1pKcU5iSGRvbXo5T3NINjNuaWlVQlJwQnlDaG1BWlhtNFpDMklES3BuUTkzX0tnQlhlQl9hbUhUX3BuTVExTU9KQWlrYW9vdnY4ejVBalM3RmVKdV9HQk93N0pHYmJJNkdiY1pNeVR2NHp3dnVGVzV4STg3enFydTU0?oc=5
+### ign.com (2026-11-23), selo sugerido relato
+Manchete: Judge Lets Hacker Behind Massive GTA 6 Leak of 2022 Go Free With a Warning: 'Don't Let This Happen Again'
+Link: https://www.ign.com/articles/gta-6-hacker-free-after-time-served-over-2022-cyber-attack
 
-(só a manchete: a matéria não abriu)
+Judge Lets Hacker Behind Massive GTA 6 Leak of 2022 Go Free With a Warning: 'Don't Let This Happen Again'
+The hacker behind the massive GTA 6 leak in September 2022 has been released on license with a strong warning from the judge. Having already served the majority of his seven year sentence, Arion Kurtaj, from Oxford in the United Kingdom, was allowed to go free, conditionally.
+According to the BBC, the judge warned Kurtaj: "Don't let this happen again."
+Kurtaj attempted to extort GTA 6 developer Rockstar Games in 2022. After socially engineering his way into the company Slack, the now 21-year-old threatened to release clips of the unfinished game unless Rockstar paid a ransom. He pleaded guilty to the hacking offenses, which he carried out when he was 16 and 17 years old, earlier this week.
+⚖️ Arion Kurtaj, 21, has been convicted today for targeting major international companies, hacking into their private systems, stealing information and data, and causing millions of dollars in losses. 📰 https://t.co/UvJTCFWnct https://t.co/3CoLIw7dDs
+Originally, Kurtaj was sentenced to an indefinite stay in a prison hospital due to his autism diagnosis. After reconsideration, he was deemed fit to stand trial and spent the remainder of his time in a traditional prison, starting in January.
+With his release, Kurtaj has been given a Serious Crime Prevention Order, which restricts his interactions online, barring him from using social apps like Telegram and Discord, in an attempt to prevent him working with hacker groups. The order will last for five years.
+The hack happened while Kurtaj was already under police protection in a Travelodge with his computer confiscated. During his stay, he used an Amazon Fire Stick and the hotel television to hack Rockstar, Revolut, and Uber.
+The GTA 6 hack saw him steal 90 clips of an unfinished build well before Rockstar was ready to show gameplay from its anticipated open-world sequel, which launched last week. It resulted in the first major GTA 6 leak, as early gameplay footage was shared online. Here, we saw dual protagonists Jason and Lucia for the first time. These clips were shared under the online name TeaPotUberHacker. It would be over a year before Rockstar finally showed the protagonists itself, and even longer until we got an official gameplay reveal, which was only shared in August of this year.
+"If Rockstar does not contact me on Telegram within 24 hours I will start releasing the source code," he said in the company Slack. When the company didn’t respond, he released the files, costing the company $5 million in damages.
+Just getting started in GTA 6 or wondering what to do next? Check out the Official Grand Theft Auto 6 guide right here on IGN. If you're still getting your bearings, discover GTA's new systems with the Beginner's Guide - 67 Tips and Tricks, or get all the details on the first chapters with the Chapter 1 Guide and Tips, Chapter 2 Guide and Tips, and Chapter 3 Guide and Tips. If you're already driving all around Leonida and want to know everything there is to find and do, see the Leonida interactive map.
+Kirk McKeand is a Contributor on IGN News. Find him on Twitter @MckKirk
 
-### DSOGaming (2026-11-21), selo sugerido rumor
-Manchete: First-Person Action Horror, ILL, Gets Official Game Awards Fall 2026 Trailer - DSOGaming
-Link: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQa1p1b01fbXk0SXp4bm42dWFHZDEtNGcxQURLUTdubWllMi03dFdQTG5uR1ktSmI2ZU9NOXJGRzB2N1pKcU5iSGRvbXo5T3NINjNuaWlVQlJwQnlDaG1BWlhtNFpDMklES3BuUTkzX0tnQlhlQl9hbUhUX3BuTVExTU9KQWlrYW9vdnY4ejVBalM3RmVKdV9HQk93N0pHYmJJNkdiY1pNeVR2NHp3dnVGVzV4STg3enFydTU0?oc=5
+### ign.com (2026-11-23), selo sugerido relato
+Manchete: Judge Lets Hacker Behind Massive GTA 6 Leak of 2022 Go Free With a Warning: 'Don't Let This Happen Again'
+Link: https://www.ign.com/articles/gta-6-hacker-free-after-time-served-over-2022-cyber-attack
 
-(só a manchete: a matéria não abriu)
+Judge Lets Hacker Behind Massive GTA 6 Leak of 2022 Go Free With a Warning: 'Don't Let This Happen Again'
+The hacker behind the massive GTA 6 leak in September 2022 has been released on license with a strong warning from the judge. Having already served the majority of his seven year sentence, Arion Kurtaj, from Oxford in the United Kingdom, was allowed to go free, conditionally.
+According to the BBC, the judge warned Kurtaj: "Don't let this happen again."
+Kurtaj attempted to extort GTA 6 developer Rockstar Games in 2022. After socially engineering his way into the company Slack, the now 21-year-old threatened to release clips of the unfinished game unless Rockstar paid a ransom. He pleaded guilty to the hacking offenses, which he carried out when he was 16 and 17 years old, earlier this week.
+⚖️ Arion Kurtaj, 21, has been convicted today for targeting major international companies, hacking into their private systems, stealing information and data, and causing millions of dollars in losses. 📰 https://t.co/UvJTCFWnct https://t.co/3CoLIw7dDs
+Originally, Kurtaj was sentenced to an indefinite stay in a prison hospital due to his autism diagnosis. After reconsideration, he was deemed fit to stand trial and spent the remainder of his time in a traditional prison, starting in January.
+With his release, Kurtaj has been given a Serious Crime Prevention Order, which restricts his interactions online, barring him from using social apps like Telegram and Discord, in an attempt to prevent him working with hacker groups. The order will last for five years.
+The hack happened while Kurtaj was already under police protection in a Travelodge with his computer confiscated. During his stay, he used an Amazon Fire Stick and the hotel television to hack Rockstar, Revolut, and Uber.
+The GTA 6 hack saw him steal 90 clips of an unfinished build well before Rockstar was ready to show gameplay from its anticipated open-world sequel, which launched last week. It resulted in the first major GTA 6 leak, as early gameplay footage was shared online. Here, we saw dual protagonists Jason and Lucia for the first time. These clips were shared under the online name TeaPotUberHacker. It would be over a year before Rockstar finally showed the protagonists itself, and even longer until we got an official gameplay reveal, which was only shared in August of this year.
+"If Rockstar does not contact me on Telegram within 24 hours I will start releasing the source code," he said in the company Slack. When the company didn’t respond, he released the files, costing the company $5 million in damages.
+Just getting started in GTA 6 or wondering what to do next? Check out the Official Grand Theft Auto 6 guide right here on IGN. If you're still getting your bearings, discover GTA's new systems with the Beginner's Guide - 67 Tips and Tricks, or get all the details on the first chapters with the Chapter 1 Guide and Tips, Chapter 2 Guide and Tips, and Chapter 3 Guide and Tips. If you're already driving all around Leonida and want to know everything there is to find and do, see the Leonida interactive map.
+Kirk McKeand is a Contributor on IGN News. Find him on Twitter @MckKirk
 
-Outras manchetes: First-Person Action Horror, ILL, Gets Official Game Awards Fall 2026 Trailer - DSOGaming | First-Person Action Horror, ILL, Gets Official Game Awards Fall 2026 Trailer - DSOGaming
+Outras manchetes: Judge Lets Hacker Behind Massive GTA 6 Leak of 2022 Go Free With a Warning: 'Don't Let This Happen Again' | Judge Lets Hacker Behind Massive GTA 6 Leak of 2022 Go Free With a Warning: 'Don't Let This Happen Again'
 
 
 ## Assunto 8
 
-### Foro3D (2026-11-23), selo sugerido rumor
-Manchete: BrokenLore: Don t Play announced at the Horror Game Awards Fall 2026 - Foro3D
-Link: https://news.google.com/rss/articles/CBMirwFBVV95cUxPQ3ptbkdRX2FkYlJLV1J6bjFQeGwweHcxRkE5ODd0UHNCUXROWTJqUGhHYWcxenBFZ2llc3k3eExzNVlRSUdHcWJRMTRybzItakFhc182RlNZT25zbGF5M1haNXQ5TTZJLVRfdWcyQjJkd3licFNGdGtjVUpBR05HOFpFTlVyNUJsbGFseU00YVZyRG5Jdldkd09tUmVkUHVYbzBtR2JTTUdiLWYxN0Zv?oc=5
+### eurogamer.net (2026-11-18), selo sugerido relato
+Manchete: PSA: Some GTA 6 Ultimate Edition content is only available for the first chapter, and you'll have to put in hard graft to unlock more
+Link: https://www.eurogamer.net/gta-6-ultimate-edition-unlock-details-temporary-content
 
-(só a manchete: a matéria não abriu)
+PSA: Some GTA 6 Ultimate Edition content is only available for the first chapter, and you'll have to put in hard graft to unlock more
+GTA 6's Ultimate Edition has proven enormously popular, despite its hefty $100 price tag. So much so that Strauss Zelnick, boss of Rockstar parent company Take-Two, recently confirmed it's the edition most people are buying - and that's despite a lack of specific information about how its unlockable content works. With GTA 6 just hours away from release, however - and out now in certain parts of the work - details are beginning to emerge, and the answer is perhaps a little surprising.
+As previously confirmed, the $100/£90 Ultimate Edition provides access to exclusive vehicles, weapons, shops, and more, with the full list as follows:
+Rockstar also previously revealed that "Ultimate Edition bonuses become available to Jason and Lucia across their story, with new items uncovered behind each chapter". The specifics of how - and when - all this stuff unlocks, though, remained unclear. So if you've opted for the Ultimate Edition, you might be wondering where your stuff is when you finally fire up the game. As reported by IGN, which has full unlock details, it turns out virtually all of GTA 6's Ultimate Edition content, as per details in the in-game shop, requires progressing through the main story - in some cases dozens and dozens of hours into the story - before it'll become available.
+Ultimate Edition-exclusive shops, for instance, unlock during Chapter 1, and many of the other additions become available by the end of Chapter 2. That doesn't sound too difficult, but as Eurogamer's Chris Tapsell notes, reaching that point could take upward of 25 hours. As for some of the late-game unlocks, such as the Shitzu Squalo and the Vice City Style outfits and tattoos (available in Chapter 4) and Chapter 5's 95 Grotti Cheetah, you could be looking at closing in on 60 hours of playtime before they unlock.
+"It'll vary depending how hard people focus on the main story," Chris explains, "but if you were mostly focused on the main story plus the optional character-based missions in largely chronological order, that's about how long it'd take."
+It's also worth noting - perhaps surprisingly - that some Ultimate Edition content is only a temporary unlock, usable only during specific chapters. Jason's Dinka Enduro motorcycle and Crest Kayak, for instance, can only be accessed and enjoyed during Chapter 1. That's also true for his retro Vapid Ganado, available from the Coastal Auto Care mod shop in Key Lento. So basically, you'll want to make the most of these while you can!
+All this might be a little disappointing for players who were expecting to be showered with Ultimate Edition spoils from the off (and that they'd be permanent unlocks), but the good news is 60 hours in GTA 6 is far from a chore. As Chris explained in his five star GTA 6 review, Rockstar's latest is an "irreducible mix of silliness, intimacy, grand ideas and rock 'n' roll action" that "pushes back the horizon of video games once again".
 
-### Foro3D (2026-11-22), selo sugerido rumor
-Manchete: BrokenLore: Miki-Chan appears at the Horror Game Awards Fall 2026 - Foro3D
-Link: https://news.google.com/rss/articles/CBMirwFBVV95cUxQbDg0OGJqNHU4SDhrSmxhbHBuNy1BQWdjN1ZVSlg1X0x4VGhLLWd0dXA0OFlIVTA1U2xTbWd0Ml8zSEZRQ2k4YmxNTGkzcU1FdkIzSC1mMmJoaThnZTdPbVBCSlNpaUxvVlFaa0xVc3k2WW96OVBmTU44bDVZazU3M1QzZDkxZkQ0ZWxLcEcwT01lTUt3dWw3Q2MzLXRvMU9naERyMkt2bkpoa2plbEVz?oc=5
+### eurogamer.net (2026-11-18), selo sugerido relato
+Manchete: PSA: Some GTA 6 Ultimate Edition content is only available for the first chapter, and you'll have to put in hard graft to unlock more
+Link: https://www.eurogamer.net/gta-6-ultimate-edition-unlock-details-temporary-content
 
-(só a manchete: a matéria não abriu)
+PSA: Some GTA 6 Ultimate Edition content is only available for the first chapter, and you'll have to put in hard graft to unlock more
+GTA 6's Ultimate Edition has proven enormously popular, despite its hefty $100 price tag. So much so that Strauss Zelnick, boss of Rockstar parent company Take-Two, recently confirmed it's the edition most people are buying - and that's despite a lack of specific information about how its unlockable content works. With GTA 6 just hours away from release, however - and out now in certain parts of the work - details are beginning to emerge, and the answer is perhaps a little surprising.
+As previously confirmed, the $100/£90 Ultimate Edition provides access to exclusive vehicles, weapons, shops, and more, with the full list as follows:
+Rockstar also previously revealed that "Ultimate Edition bonuses become available to Jason and Lucia across their story, with new items uncovered behind each chapter". The specifics of how - and when - all this stuff unlocks, though, remained unclear. So if you've opted for the Ultimate Edition, you might be wondering where your stuff is when you finally fire up the game. As reported by IGN, which has full unlock details, it turns out virtually all of GTA 6's Ultimate Edition content, as per details in the in-game shop, requires progressing through the main story - in some cases dozens and dozens of hours into the story - before it'll become available.
+Ultimate Edition-exclusive shops, for instance, unlock during Chapter 1, and many of the other additions become available by the end of Chapter 2. That doesn't sound too difficult, but as Eurogamer's Chris Tapsell notes, reaching that point could take upward of 25 hours. As for some of the late-game unlocks, such as the Shitzu Squalo and the Vice City Style outfits and tattoos (available in Chapter 4) and Chapter 5's 95 Grotti Cheetah, you could be looking at closing in on 60 hours of playtime before they unlock.
+"It'll vary depending how hard people focus on the main story," Chris explains, "but if you were mostly focused on the main story plus the optional character-based missions in largely chronological order, that's about how long it'd take."
+It's also worth noting - perhaps surprisingly - that some Ultimate Edition content is only a temporary unlock, usable only during specific chapters. Jason's Dinka Enduro motorcycle and Crest Kayak, for instance, can only be accessed and enjoyed during Chapter 1. That's also true for his retro Vapid Ganado, available from the Coastal Auto Care mod shop in Key Lento. So basically, you'll want to make the most of these while you can!
+All this might be a little disappointing for players who were expecting to be showered with Ultimate Edition spoils from the off (and that they'd be permanent unlocks), but the good news is 60 hours in GTA 6 is far from a chore. As Chris explained in his five star GTA 6 review, Rockstar's latest is an "irreducible mix of silliness, intimacy, grand ideas and rock 'n' roll action" that "pushes back the horizon of video games once again".
 
-### Foro3D (2026-11-22), selo sugerido rumor
-Manchete: BrokenLore: Miki-Chan appears at the Horror Game Awards Fall 2026 - Foro3D
-Link: https://news.google.com/rss/articles/CBMirwFBVV95cUxQbDg0OGJqNHU4SDhrSmxhbHBuNy1BQWdjN1ZVSlg1X0x4VGhLLWd0dXA0OFlIVTA1U2xTbWd0Ml8zSEZRQ2k4YmxNTGkzcU1FdkIzSC1mMmJoaThnZTdPbVBCSlNpaUxvVlFaa0xVc3k2WW96OVBmTU44bDVZazU3M1QzZDkxZkQ0ZWxLcEcwT01lTUt3dWw3Q2MzLXRvMU9naERyMkt2bkpoa2plbEVz?oc=5
+### eurogamer.net (2026-11-18), selo sugerido relato
+Manchete: PSA: Some GTA 6 Ultimate Edition content is only available for the first chapter, and you'll have to put in hard graft to unlock more
+Link: https://www.eurogamer.net/gta-6-ultimate-edition-unlock-details-temporary-content
 
-(só a manchete: a matéria não abriu)
+PSA: Some GTA 6 Ultimate Edition content is only available for the first chapter, and you'll have to put in hard graft to unlock more
+GTA 6's Ultimate Edition has proven enormously popular, despite its hefty $100 price tag. So much so that Strauss Zelnick, boss of Rockstar parent company Take-Two, recently confirmed it's the edition most people are buying - and that's despite a lack of specific information about how its unlockable content works. With GTA 6 just hours away from release, however - and out now in certain parts of the work - details are beginning to emerge, and the answer is perhaps a little surprising.
+As previously confirmed, the $100/£90 Ultimate Edition provides access to exclusive vehicles, weapons, shops, and more, with the full list as follows:
+Rockstar also previously revealed that "Ultimate Edition bonuses become available to Jason and Lucia across their story, with new items uncovered behind each chapter". The specifics of how - and when - all this stuff unlocks, though, remained unclear. So if you've opted for the Ultimate Edition, you might be wondering where your stuff is when you finally fire up the game. As reported by IGN, which has full unlock details, it turns out virtually all of GTA 6's Ultimate Edition content, as per details in the in-game shop, requires progressing through the main story - in some cases dozens and dozens of hours into the story - before it'll become available.
+Ultimate Edition-exclusive shops, for instance, unlock during Chapter 1, and many of the other additions become available by the end of Chapter 2. That doesn't sound too difficult, but as Eurogamer's Chris Tapsell notes, reaching that point could take upward of 25 hours. As for some of the late-game unlocks, such as the Shitzu Squalo and the Vice City Style outfits and tattoos (available in Chapter 4) and Chapter 5's 95 Grotti Cheetah, you could be looking at closing in on 60 hours of playtime before they unlock.
+"It'll vary depending how hard people focus on the main story," Chris explains, "but if you were mostly focused on the main story plus the optional character-based missions in largely chronological order, that's about how long it'd take."
+It's also worth noting - perhaps surprisingly - that some Ultimate Edition content is only a temporary unlock, usable only during specific chapters. Jason's Dinka Enduro motorcycle and Crest Kayak, for instance, can only be accessed and enjoyed during Chapter 1. That's also true for his retro Vapid Ganado, available from the Coastal Auto Care mod shop in Key Lento. So basically, you'll want to make the most of these while you can!
+All this might be a little disappointing for players who were expecting to be showered with Ultimate Edition spoils from the off (and that they'd be permanent unlocks), but the good news is 60 hours in GTA 6 is far from a chore. As Chris explained in his five star GTA 6 review, Rockstar's latest is an "irreducible mix of silliness, intimacy, grand ideas and rock 'n' roll action" that "pushes back the horizon of video games once again".
 
-Outras manchetes: BrokenLore: Miki-Chan appears at the Horror Game Awards Fall 2026 - Foro3D | BrokenLore: Miki-Chan appears at the Horror Game Awards Fall 2026 - Foro3D
+Outras manchetes: PSA: Some GTA 6 Ultimate Edition content is only available for the first chapter, and you'll have to put in hard graft to unlock more | PSA: Some GTA 6 Ultimate Edition content is only available for the first chapter, and you'll have to put in hard graft to unlock more
