@@ -51,25 +51,25 @@ Outras manchetes: How To Play GTA 6 On Your PC Or Phone Via Remote Play On Xbox 
 
 ## Assunto 3
 
+### Electronic Groove (2026-11-24), selo sugerido rumor
+Manchete: Listen to ‘Grand Theft Auto VI: The Album’ deluxe edition - Electronic Groove
+Link: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZjg4SmdBSUJCZnlaRnhkOWxzWnJwN3RpUUVSWTlfcHJqb2RQMEFUdnN3REVBLWYwQldfaHM1TU1vdkpob1ExODhRUFNUTTRHcWMtSWItZG04d2MtZHdQZmlIa3k2QWVsSnlYcmlEZnhBU0swNlNBSFpmdmlMOXYwODNoWk1MRm9N?oc=5
+
+(só a manchete: a matéria não abriu)
+
 ### Yahoo (2026-11-24), selo sugerido rumor
 Manchete: ‘Grand Theft Auto VI: The Album’ Adds 4 More Songs Following Deluxe Edition - Yahoo
 Link: https://news.google.com/rss/articles/CBMipAFBVV95cUxQVVNXa01fTExPV3h6VjZhM2JYTVRTeHNrdWo1bGFEUjB6c05jQTdiSndEWXV2SXdUNEJkdkpQOWdCOHpvanJ3ZFRROUVRdWI4NVo4UmFsODVocVVpc2dxYjZwMzZHWks5cjFvZUN1TV9kQ2JyVkE2eC1QU0MwWFptUy15N1B2VUNOY1NzdHNnQmJmVHQwSUJNYUdMaVFOVUMyUjB0Qw?oc=5
 
 (só a manchete: a matéria não abriu)
 
-### Complex (2026-11-24), selo sugerido rumor
-Manchete: 'Grand Theft Auto VI: The Album' Adds Even More Songs - Complex
-Link: https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZ0dQVlZuM212LVlVNlhKd21KZWEyMm54SDJKd0E3TWI1ZWI0bHRpWmhQZFR1Q25fM29JNjdRZkJybjg1NGZEQ3VuaXg1MmdpTVR4Nk9rTFVGcElxWENNWUljZG1nbkh4SXJZRlFwc0dqMXFtTjRUdmQ2VlI5LUdUUDRUbnRfNVFsVFN3?oc=5
+### Headliner Magazine (2026-11-24), selo sugerido rumor
+Manchete: 'GTA VI: The Album Deluxe Edition' features Travis Scott & Slayyyter - Headliner Magazine
+Link: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVl9kNUMtRTJfR2VOSDBSaXlwMmpyYXczTUJnMkNva2NDTEFybThwWk80Z1ZOQTN3d3pKbFNRZTU4MnZLRF93Z2gxRDdQckJ3UVhZT0RnaG5aaWczREx3VjcybDYxNThFYjYxWTdMWUIyZ0N5alJhOWpWMXBfbG9MQ2ZhX3ZqTjY3elJhOWdyU1V4U1dZNlhEU1NGSXJMUE9DUmVaTFAyc19QNkttWEU4ejFjREVqSVo0d3Iw?oc=5
 
 (só a manchete: a matéria não abriu)
 
-### Kazi Magazine (2026-11-24), selo sugerido rumor
-Manchete: GTA VI The Album Deluxe: Rockstar Adds 23 Songs - Kazi Magazine
-Link: https://news.google.com/rss/articles/CBMiY0FVX3lxTE9McEhOQllDdFNrNDhKVXpMZHNCeVhnLWw0MVB6cUJZSE9SX0RJQkVrWmZJR3ZRWHV3Z0FUR0hFLV9kUkMzR2xCUUZVbjVkR0FzTzdJWlhhVHQ0eTZXUF9zRU82OA?oc=5
-
-(só a manchete: a matéria não abriu)
-
-Outras manchetes: Rockstar Games Unveils Deluxe Edition Of Grand Theft Auto VI: The Album Featuring 23 New Songs From Travis ... - mxdwn Music | Rockstar Releases Deluxe Edition of Grand Theft Auto VI: The Album - IMDb
+Outras manchetes: Rockstar Releases Deluxe Edition of Grand Theft Auto VI: The Album - IMDb | Rockstar Releases Deluxe Edition of Grand Theft Auto VI: The Album - IMDb
 
 
 ## Assunto 4
@@ -80,8 +80,8 @@ Link: https://news.xbox.com/en-us/2026/11/19/grand-theft-auto-vi-is-out-now/
 
 Stories Untold Is Now Available For Xbox One
 Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
-XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
 Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
+XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
 How to Play Grand Theft Auto VI in the Cloud and with Remote Play
 An Alligator Swallowed an XBOX Series X – You Can Win It
 
@@ -91,8 +91,8 @@ Link: https://news.xbox.com/en-us/2026/11/19/grand-theft-auto-vi-is-out-now/
 
 Stories Untold Is Now Available For Xbox One
 Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
-XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
 Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
+XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
 How to Play Grand Theft Auto VI in the Cloud and with Remote Play
 An Alligator Swallowed an XBOX Series X – You Can Win It
 
@@ -102,8 +102,8 @@ Link: https://news.xbox.com/en-us/2026/11/19/grand-theft-auto-vi-is-out-now/
 
 Stories Untold Is Now Available For Xbox One
 Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
-XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
 Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
+XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
 How to Play Grand Theft Auto VI in the Cloud and with Remote Play
 An Alligator Swallowed an XBOX Series X – You Can Win It
 
@@ -209,6 +209,12 @@ Outras manchetes: Grand Theft Auto VI launches tomorrow, November 19 | Grand The
 
 
 ## Assunto 6
+
+### XBOX Wire (2026-11-24), selo sugerido confirmado
+Manchete: Como jogar Grand Theft Auto VI pela nuvem e com Remote Play - XBOX Wire
+Link: https://news.google.com/rss/articles/CBMioAFBVV95cUxQUG1BVm1MNzBSOHlrSEJwNHZITDhwM2ZFXzNfWnplYUktUmVfRlZjTEdReWV2cXlFNTc4bFEta2lvSDNmOVluNWtMSTdIMzh4N29EeUFBZ2w1dy1Ob2o1R2NoczdkeXpnTXVuUE1xV3JydV8wdVFLODdZbjlOWlNNbTdSYjk2aGxiSUtPa21sdEFVY0lrcTBZcHI3OGNMWF9M?oc=5
+
+(só a manchete: a matéria não abriu)
 
 ### XBOX Wire (2026-11-24), selo sugerido confirmado
 Manchete: Como jogar Grand Theft Auto VI pela nuvem e com Remote Play - XBOX Wire
