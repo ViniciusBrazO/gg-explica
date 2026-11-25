@@ -674,5 +674,29 @@
     "situacao": "agendado",
     "message_id": 682,
     "enviado": "2026-11-24T17:17:41.761782"
+  },
+  "729cf99bc2": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-25_gg_explica.json",
+    "video": "radar_2026-11-25_garagens_carros_reel",
+    "impressao": "5b4e0cea7e51",
+    "situacao": "agendado",
+    "message_id": 695,
+    "enviado": "2026-11-25T07:17:49.295172"
+  },
+  "57a6571a1a": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-25_gg_explica.json",
+    "video": "radar_2026-11-25_antes_de_sair_keys_reel",
+    "impressao": "43297d64e6df",
+    "situacao": "agendado",
+    "message_id": 696,
+    "enviado": "2026-11-25T07:21:13.062002"
+  },
+  "9e9c5705cd": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-25_gg_explica.json",
+    "video": "radar_2026-11-25_treino_foco_permanente_reel",
+    "impressao": "2fdb4d8091f5",
+    "situacao": "agendado",
+    "message_id": 697,
+    "enviado": "2026-11-25T07:24:48.969236"
   }
 }
