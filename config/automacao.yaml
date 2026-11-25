@@ -92,8 +92,9 @@ publicacao:
   # Reels no Instagram: "api" (o kit publica) ou "manual" (o kit manda vídeo, capa e legenda no Telegram
   # na hora marcada e o Vinicius posta pelo app). Manual desde 13/11: a API recusa vídeo (erro 2207076).
   instagram_reels: manual
-  # No modo manual, o 1º Reel de cada dia tenta a API antes: se passar, saida/instagram_api.json fica com
-  # api_ok e o kit volta a postar sozinho (avisa no Telegram); se a Meta recusar de novo, volta ao manual.
+  # No modo manual, cada Reel tenta a API antes (desde 25/11; antes era só o 1º do dia): se passar,
+  # saida/instagram_api.json fica com api_ok e o kit posta sozinho (avisa no Telegram); se a Meta recusar,
+  # aquele Reel vai na hora para o Telegram.
   # Só Reels (14/11): nenhum carrossel no feed do Instagram até a página ter mais seguidores
   instagram_carrosseis_por_dia: 0
   # Teto de Reels por dia (18/11): notícia do radar tira post de pauta; o que passar do teto não é agendado

@@ -218,8 +218,8 @@ def test_modo_dos_reels_testa_a_api_uma_vez_por_dia(tmp_path, monkeypatch):
     monkeypatch.setattr(cli, "ARQ_API_INSTAGRAM", tmp_path / "api.json")
     monkeypatch.setattr(cli, "reels_manuais", lambda: True)
     assert cli.modo_dos_reels("2026-11-19") == "teste"
-    cli.guardar_estado_api(ultimo_teste="2026-11-19")
-    assert cli.modo_dos_reels("2026-11-19") == "manual"
+    cli.guardar_estado_api(ultimo_teste="2026-11-19", api_ok=False)
+    assert cli.modo_dos_reels("2026-11-19") == "teste"          # cada Reel tenta de novo
     assert cli.modo_dos_reels("2026-11-20") == "teste"
     cli.guardar_estado_api(api_ok=True)
     assert cli.modo_dos_reels("2026-11-19") == "api"

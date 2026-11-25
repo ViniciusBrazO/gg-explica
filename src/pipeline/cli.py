@@ -188,7 +188,9 @@ def modo_dos_reels(hoje: str) -> str:
     estado = estado_api()
     if estado.get("api_ok"):
         return "api"
-    return "teste" if estado.get("ultimo_teste") != hoje else "manual"
+    # A recusa da Meta vai e volta (aceitou de 18 a 24/11, recusou em 25/11): cada Reel tenta a API antes
+    # e, se ela recusar, vai na hora para o Telegram. O repositório é público, então o minuto a mais é grátis.
+    return "teste"
 
 
 def link_do_reel_no_facebook(item) -> str:
