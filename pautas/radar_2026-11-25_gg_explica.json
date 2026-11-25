@@ -661,6 +661,102 @@
       ],
       "notas_revisao": "RELATO: Red Bull (19/11/2026) aberto nesta execução. Cumprir amanhã a parte 8 (assalto: loja de baixa segurança com 1 personagem; bancos e lojas de empréstimo só no capítulo 3 por causa das tintas nas notas).",
       "chamada_seguir": "Amanhã: parte 8, assalto sem dor de cabeça"
+    },
+    {
+      "id": "radar_2026-11-25_remote_play_reel",
+      "serie": "radar",
+      "status": "rascunho",
+      "data": "2026-11-25",
+      "horario": "19:00:00",
+      "formato": "reel",
+      "gerar_reel": true,
+      "plataformas": ["instagram", "facebook"],
+      "legenda_post": "DÁ PRA JOGAR GTA 6 NO CELULAR? DÁ, MAS TEM PEGADINHA!\nRemote Play não é nuvem: o jogo roda no seu console e só a imagem vai para a outra tela.\nNo PS5, o app PS Remote Play leva para celular, PC e PlayStation Portal. No Xbox, abra xbox.com/remoteplay no celular.\nVai precisar de um controle, e a velocidade da internet pode pesar.\nFonte: SVG, 18/11/2026\nVocê joga na TV ou no celular?",
+      "hashtags": [],
+      "publi": false,
+      "voz_ia": true,
+      "produtos": [],
+      "cenas": [
+        {
+          "tipo": "gancho",
+          "narracao": "Dá pra jogar GTA 6 no celular? Dá, mas tem uma pegadinha.",
+          "estilo": "manchete",
+          "kicker": "SERVIÇO",
+          "titulo": "GTA 6 no celular? *Tem pegadinha*",
+          "texto": "Remote Play",
+          "selo": "relato",
+          "fonte": "SVG, 18/11/2026",
+          "fonte_url": "https://www.svg.com/2315770/gta-6-remote-play-explained-playstation-xbox-support/",
+          "fundo_clipe": "busca:lucia celular selfie",
+          "midia_terceiros": true,
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "texto",
+          "narracao": "A Rockstar diz que o jogo suporta totalmente o Remote Play no PlayStation e no Xbox. Mas isso não é nuvem.",
+          "estilo": "cartao",
+          "titulo": "Remote Play não é nuvem",
+          "texto": "Rockstar confirma suporte",
+          "selo": "relato",
+          "fonte": "SVG, 18/11/2026",
+          "fonte_url": "https://www.svg.com/2315770/gta-6-remote-play-explained-playstation-xbox-support/",
+          "fundo_clipe": "busca:vice city skyline noite",
+          "midia_terceiros": true,
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "texto",
+          "narracao": "O jogo roda no seu console, ligado em casa. Só a imagem vai pra outra tela.",
+          "estilo": "cartao",
+          "titulo": "Roda no seu console",
+          "texto": "Só a imagem viaja",
+          "selo": "relato",
+          "fonte": "SVG, 18/11/2026",
+          "fonte_url": "https://www.svg.com/2315770/gta-6-remote-play-explained-playstation-xbox-support/",
+          "fundo_clipe": "busca:jason casa sala tv",
+          "midia_terceiros": true,
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "texto",
+          "narracao": "No PS5, o app PS Remote Play leva o jogo pro celular, pro PC e pro PlayStation Portal.",
+          "estilo": "cartao",
+          "titulo": "PS5",
+          "texto": "Celular, PC e Portal",
+          "selo": "relato",
+          "fonte": "SVG, 18/11/2026",
+          "fonte_url": "https://www.svg.com/2315770/gta-6-remote-play-explained-playstation-xbox-support/",
+          "fundo_clipe": "busca:carro esportivo estrada keys dia",
+          "midia_terceiros": true,
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "texto",
+          "narracao": "No Xbox, abra xbox.com/remoteplay no celular. E tenha um controle por perto.",
+          "estilo": "cartao",
+          "titulo": "Xbox",
+          "texto": "xbox.com/remoteplay",
+          "selo": "relato",
+          "fonte": "SVG, 18/11/2026",
+          "fonte_url": "https://www.svg.com/2315770/gta-6-remote-play-explained-playstation-xbox-support/",
+          "fundo_clipe": "busca:praia leonida pôr do sol",
+          "midia_terceiros": true,
+          "credito": "Imagens: Rockstar Games"
+        },
+        {
+          "tipo": "cta",
+          "narracao": "Amanhã é a parte oito: como assaltar sem dor de cabeça. Segue pra não perder. Você joga na TV ou no celular?",
+          "estilo": "cartao",
+          "titulo": "TV ou *celular*?",
+          "texto": "Você escolhe",
+          "selo": null,
+          "fundo_clipe": "busca:assalto loja noite",
+          "midia_terceiros": true,
+          "credito": "Imagens: Rockstar Games"
+        }
+      ],
+      "notas_revisao": "RELATO: SVG (18/11/2026) aberto nesta execução; Xbox Wire 'How to Play GTA VI in the Cloud and with Remote Play' não abriu: confira e troque para CONFIRMADO se bater. Mostre o fato do PC só para PlayStation (a matéria não lista PC no Xbox). Pauta escrita sem rodar `paginas validar` (Bash bloqueado): validar antes de renderizar.",
+      "chamada_seguir": "Amanhã: parte 8, assalto sem dor de cabeça"
     }
   ]
 }
