@@ -706,5 +706,29 @@
     "situacao": "agendado",
     "message_id": 737,
     "enviado": "2026-11-25T22:13:58.463119"
+  },
+  "6ab5df405d": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-26_gg_explica.json",
+    "video": "radar_2026-11-26_assalto_sem_dor_reel",
+    "impressao": "4a16d15db35f",
+    "situacao": "agendado",
+    "message_id": 740,
+    "enviado": "2026-11-26T07:21:42.390621"
+  },
+  "7daf0ef9a7": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-26_gg_explica.json",
+    "video": "radar_2026-11-26_vender_roubo_sacolas_reel",
+    "impressao": "ae25b45e851e",
+    "situacao": "agendado",
+    "message_id": 741,
+    "enviado": "2026-11-26T07:24:54.249296"
+  },
+  "940dc95994": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-26_gg_explica.json",
+    "video": "radar_2026-11-26_celular_hora_do_dia_reel",
+    "impressao": "8ef3da5d7cc6",
+    "situacao": "agendado",
+    "message_id": 742,
+    "enviado": "2026-11-26T07:28:16.563357"
   }
 }

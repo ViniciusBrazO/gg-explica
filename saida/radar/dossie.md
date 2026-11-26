@@ -1,4 +1,4 @@
-# Dossiê do radar (25/11/2026)
+# Dossiê do radar (26/11/2026)
 
 Texto das matérias aberto pelo kit. Use os números, nomes e datas daqui. Matéria marcada "só a manchete" não abriu: procure outra fonte com WebSearch/WebFetch antes de escrever.
 
@@ -28,48 +28,48 @@ Outras manchetes: How To Play GTA 6 On Your PC Or Phone Via Remote Play On Xbox 
 
 ## Assunto 2
 
-### Music Ally (2026-11-24), selo sugerido rumor
-Manchete: Grand Theft Auto VI album gets ‘deluxe edition’ three days after release - Music Ally
-Link: https://news.google.com/rss/articles/CBMipwFBVV95cUxQM0F0X1lhR1BXOVBVQ0tzNGN2Z2gta0RTeWRwNTdobmJiQVp0dW5yMjlyZnNmdlNfNk0yODFtRkRXU29ZVEVJNnZmVzRkME16UXI5NndlaS0zNTBuMjRHaEJtZVRNZmRna0EwdV9HQWR2bGxBdnA2OXFnM293MHprcTd5NUFuRGRVaFBwd2lSa1Z3akZ2Szh5TmF5VmxIODZhblhRYjlSOA?oc=5
+### PlayStation.Blog BR (2026-11-24), selo sugerido confirmado
+Manchete: Agradecemos por tornarem Grand Theft Auto VI o maior lançamento da história PlayStation - PlayStation.Blog BR
+Link: https://news.google.com/rss/articles/CBMiywFBVV95cUxQU0taM1ZrTDFZMmtRRTgwbklfalNIM085MlFIQmlSWXluVzVBXzhYWHNjMjNYOWktOU1jWnBIN2JUZ3BpbVVIcnFFU2t1cFQ0azR6OHJmcG1GbFluRlp3UnNaQ3RhTVVrb0JRcXpmZmtzQzFPSmZWUzFlTjBzc0ZwQ3JJeFpJUVphc01JR1E5VExWWmJnb3k3Q1BtUnNwMmE2cUllV09PRUs4dXNSRzB3ZEEyQnBrM0JwTWVmeVpzaWRnNjQ3SkljSjE1bw?oc=5
 
 (só a manchete: a matéria não abriu)
 
-### Music Ally (2026-11-24), selo sugerido rumor
-Manchete: Grand Theft Auto VI album gets ‘deluxe edition’ three days after release - Music Ally
-Link: https://news.google.com/rss/articles/CBMipwFBVV95cUxQM0F0X1lhR1BXOVBVQ0tzNGN2Z2gta0RTeWRwNTdobmJiQVp0dW5yMjlyZnNmdlNfNk0yODFtRkRXU29ZVEVJNnZmVzRkME16UXI5NndlaS0zNTBuMjRHaEJtZVRNZmRna0EwdV9HQWR2bGxBdnA2OXFnM293MHprcTd5NUFuRGRVaFBwd2lSa1Z3akZ2Szh5TmF5VmxIODZhblhRYjlSOA?oc=5
+### 40graus.com.br (2026-11-24), selo sugerido rumor
+Manchete: GTA 6 é o maior lançamento da história do PlayStation - 40graus.com.br
+Link: https://news.google.com/rss/articles/CBMidEFVX3lxTFAyNFQ1eDgzcEczbzNSeHpJSEhTX09nOWM5bzdTelk1NFVKX1lTdHJWU1N4Tmp1THk5RWZYbVgtMlMwQWI4X1dKckFoLTd2T2E4NkpQclR5ZWdsN0hrR0plck1tQmdrRTItcWRSYUFObkV4NkhP?oc=5
 
 (só a manchete: a matéria não abriu)
 
-### Music Ally (2026-11-24), selo sugerido rumor
-Manchete: Grand Theft Auto VI album gets ‘deluxe edition’ three days after release - Music Ally
-Link: https://news.google.com/rss/articles/CBMipwFBVV95cUxQM0F0X1lhR1BXOVBVQ0tzNGN2Z2gta0RTeWRwNTdobmJiQVp0dW5yMjlyZnNmdlNfNk0yODFtRkRXU29ZVEVJNnZmVzRkME16UXI5NndlaS0zNTBuMjRHaEJtZVRNZmRna0EwdV9HQWR2bGxBdnA2OXFnM293MHprcTd5NUFuRGRVaFBwd2lSa1Z3akZ2Szh5TmF5VmxIODZhblhRYjlSOA?oc=5
+### 40graus.com.br (2026-11-24), selo sugerido rumor
+Manchete: GTA 6 é o maior lançamento da história do PlayStation - 40graus.com.br
+Link: https://news.google.com/rss/articles/CBMidEFVX3lxTFAyNFQ1eDgzcEczbzNSeHpJSEhTX09nOWM5bzdTelk1NFVKX1lTdHJWU1N4Tmp1THk5RWZYbVgtMlMwQWI4X1dKckFoLTd2T2E4NkpQclR5ZWdsN0hrR0plck1tQmdrRTItcWRSYUFObkV4NkhP?oc=5
 
 (só a manchete: a matéria não abriu)
 
-Outras manchetes: Grand Theft Auto VI album gets ‘deluxe edition’ three days after release - Music Ally | Grand Theft Auto VI album gets ‘deluxe edition’ three days after release - Music Ally
+Outras manchetes: Agradecemos por tornarem Grand Theft Auto VI o maior lançamento da história PlayStation - PlayStation.Blog BR | GTA 6 se torna o maior lançamento da história de PlayStation; veja - Omelete
 
 
 ## Assunto 3
 
-### Fast Company Brasil (2026-11-25), selo sugerido rumor
-Manchete: GTA 6 bate recorde e se torna o maior lançamento da história do PlayStation - Fast Company Brasil
-Link: https://news.google.com/rss/articles/CBMimAFBVV95cUxQR0w4MzMtWFRsa2xOT3BKWmliQnRUQmRDZmNKNEtRSFBCWVZqTzQ4cG1ZWWdlSE9TSUVoWFNHUUdqX0g4enR2amtEZXBsUUxsMFhjQXQxanJ3bzg0SEViZl9JSmFlYW5TSXNXdE9TYlhDeGlJNk13NGVSVC1haU5kTmFUVGtfQzFBN2NnTE1BdXM2czNzMUVVWg?oc=5
+### XBOX Wire (2026-11-24), selo sugerido confirmado
+Manchete: Como jogar Grand Theft Auto VI pela nuvem e com Remote Play - XBOX Wire
+Link: https://news.google.com/rss/articles/CBMioAFBVV95cUxQUG1BVm1MNzBSOHlrSEJwNHZITDhwM2ZFXzNfWnplYUktUmVfRlZjTEdReWV2cXlFNTc4bFEta2lvSDNmOVluNWtMSTdIMzh4N29EeUFBZ2w1dy1Ob2o1R2NoczdkeXpnTXVuUE1xV3JydV8wdVFLODdZbjlOWlNNbTdSYjk2aGxiSUtPa21sdEFVY0lrcTBZcHI3OGNMWF9M?oc=5
 
 (só a manchete: a matéria não abriu)
 
-### Fast Company Brasil (2026-11-25), selo sugerido rumor
-Manchete: GTA 6 bate recorde e se torna o maior lançamento da história do PlayStation - Fast Company Brasil
-Link: https://news.google.com/rss/articles/CBMimAFBVV95cUxQR0w4MzMtWFRsa2xOT3BKWmliQnRUQmRDZmNKNEtRSFBCWVZqTzQ4cG1ZWWdlSE9TSUVoWFNHUUdqX0g4enR2amtEZXBsUUxsMFhjQXQxanJ3bzg0SEViZl9JSmFlYW5TSXNXdE9TYlhDeGlJNk13NGVSVC1haU5kTmFUVGtfQzFBN2NnTE1BdXM2czNzMUVVWg?oc=5
+### XBOX Wire (2026-11-24), selo sugerido confirmado
+Manchete: Como jogar Grand Theft Auto VI pela nuvem e com Remote Play - XBOX Wire
+Link: https://news.google.com/rss/articles/CBMioAFBVV95cUxQUG1BVm1MNzBSOHlrSEJwNHZITDhwM2ZFXzNfWnplYUktUmVfRlZjTEdReWV2cXlFNTc4bFEta2lvSDNmOVluNWtMSTdIMzh4N29EeUFBZ2w1dy1Ob2o1R2NoczdkeXpnTXVuUE1xV3JydV8wdVFLODdZbjlOWlNNbTdSYjk2aGxiSUtPa21sdEFVY0lrcTBZcHI3OGNMWF9M?oc=5
 
 (só a manchete: a matéria não abriu)
 
-### Fast Company Brasil (2026-11-25), selo sugerido rumor
-Manchete: GTA 6 bate recorde e se torna o maior lançamento da história do PlayStation - Fast Company Brasil
-Link: https://news.google.com/rss/articles/CBMimAFBVV95cUxQR0w4MzMtWFRsa2xOT3BKWmliQnRUQmRDZmNKNEtRSFBCWVZqTzQ4cG1ZWWdlSE9TSUVoWFNHUUdqX0g4enR2amtEZXBsUUxsMFhjQXQxanJ3bzg0SEViZl9JSmFlYW5TSXNXdE9TYlhDeGlJNk13NGVSVC1haU5kTmFUVGtfQzFBN2NnTE1BdXM2czNzMUVVWg?oc=5
+### XBOX Wire (2026-11-24), selo sugerido confirmado
+Manchete: Como jogar Grand Theft Auto VI pela nuvem e com Remote Play - XBOX Wire
+Link: https://news.google.com/rss/articles/CBMioAFBVV95cUxQUG1BVm1MNzBSOHlrSEJwNHZITDhwM2ZFXzNfWnplYUktUmVfRlZjTEdReWV2cXlFNTc4bFEta2lvSDNmOVluNWtMSTdIMzh4N29EeUFBZ2w1dy1Ob2o1R2NoczdkeXpnTXVuUE1xV3JydV8wdVFLODdZbjlOWlNNbTdSYjk2aGxiSUtPa21sdEFVY0lrcTBZcHI3OGNMWF9M?oc=5
 
 (só a manchete: a matéria não abriu)
 
-Outras manchetes: GTA 6 bate recorde e se torna o maior lançamento da história do PlayStation - Fast Company Brasil | GTA 6 bate recorde e se torna o maior lançamento da história do PlayStation - Fast Company Brasil
+Outras manchetes: Como jogar Grand Theft Auto VI pela nuvem e com Remote Play - XBOX Wire | Como jogar Grand Theft Auto VI pela nuvem e com Remote Play - XBOX Wire
 
 
 ## Assunto 4
@@ -207,25 +207,25 @@ Outras manchetes: Grand Theft Auto VI launches tomorrow, November 19 | Grand The
 
 ## Assunto 6
 
-### XBOX Wire (2026-11-24), selo sugerido confirmado
-Manchete: Como jogar Grand Theft Auto VI pela nuvem e com Remote Play - XBOX Wire
-Link: https://news.google.com/rss/articles/CBMioAFBVV95cUxQUG1BVm1MNzBSOHlrSEJwNHZITDhwM2ZFXzNfWnplYUktUmVfRlZjTEdReWV2cXlFNTc4bFEta2lvSDNmOVluNWtMSTdIMzh4N29EeUFBZ2w1dy1Ob2o1R2NoczdkeXpnTXVuUE1xV3JydV8wdVFLODdZbjlOWlNNbTdSYjk2aGxiSUtPa21sdEFVY0lrcTBZcHI3OGNMWF9M?oc=5
+### IGN (2026-11-25), selo sugerido relato
+Manchete: Take-Two Appears to Be Trying to Scrub GTA 6 PC Ports From the Internet, as Vibecoders Race Toward Controversial World First - IGN
+Link: https://news.google.com/rss/articles/CBMi4wFBVV95cUxOb1N4N0drN3ltdS1hZXE5SW1yZWc2Zm5TYmpDWlVGX05LZWctcUdzOWZYUmZQb0k5eHh4QXdRcVkwRnpoUVdhelZhWWtqMUlIa1QwNl9OVGZTTjVqU2F3eGlvQTZCeTJ4Vi1wVDE5cXJhNHNhV1dsQnJaM1pZTXhkMk1JUzY3MU1yenc5M2FEOVVWQjZBVEExTi1KX29SdzFaNlJha0xrbUhXOFVsQUNGMElWX1dHWVdYWGE1VmIyQWJOTzVnZHh3NlJ1S2FVRVdSUGFrbkY3YjdDYkVnbDRLcmtBOA?oc=5
 
 (só a manchete: a matéria não abriu)
 
-### XBOX Wire (2026-11-24), selo sugerido confirmado
-Manchete: Como jogar Grand Theft Auto VI pela nuvem e com Remote Play - XBOX Wire
-Link: https://news.google.com/rss/articles/CBMioAFBVV95cUxQUG1BVm1MNzBSOHlrSEJwNHZITDhwM2ZFXzNfWnplYUktUmVfRlZjTEdReWV2cXlFNTc4bFEta2lvSDNmOVluNWtMSTdIMzh4N29EeUFBZ2w1dy1Ob2o1R2NoczdkeXpnTXVuUE1xV3JydV8wdVFLODdZbjlOWlNNbTdSYjk2aGxiSUtPa21sdEFVY0lrcTBZcHI3OGNMWF9M?oc=5
+### IGN (2026-11-25), selo sugerido relato
+Manchete: Take-Two Appears to Be Trying to Scrub GTA 6 PC Ports From the Internet, as Vibecoders Race Toward Controversial World First - IGN
+Link: https://news.google.com/rss/articles/CBMi4wFBVV95cUxOb1N4N0drN3ltdS1hZXE5SW1yZWc2Zm5TYmpDWlVGX05LZWctcUdzOWZYUmZQb0k5eHh4QXdRcVkwRnpoUVdhelZhWWtqMUlIa1QwNl9OVGZTTjVqU2F3eGlvQTZCeTJ4Vi1wVDE5cXJhNHNhV1dsQnJaM1pZTXhkMk1JUzY3MU1yenc5M2FEOVVWQjZBVEExTi1KX29SdzFaNlJha0xrbUhXOFVsQUNGMElWX1dHWVdYWGE1VmIyQWJOTzVnZHh3NlJ1S2FVRVdSUGFrbkY3YjdDYkVnbDRLcmtBOA?oc=5
 
 (só a manchete: a matéria não abriu)
 
-### XBOX Wire (2026-11-24), selo sugerido confirmado
-Manchete: Como jogar Grand Theft Auto VI pela nuvem e com Remote Play - XBOX Wire
-Link: https://news.google.com/rss/articles/CBMioAFBVV95cUxQUG1BVm1MNzBSOHlrSEJwNHZITDhwM2ZFXzNfWnplYUktUmVfRlZjTEdReWV2cXlFNTc4bFEta2lvSDNmOVluNWtMSTdIMzh4N29EeUFBZ2w1dy1Ob2o1R2NoczdkeXpnTXVuUE1xV3JydV8wdVFLODdZbjlOWlNNbTdSYjk2aGxiSUtPa21sdEFVY0lrcTBZcHI3OGNMWF9M?oc=5
+### IGN Pakistan (2026-11-25), selo sugerido relato
+Manchete: Take-Two Appears to Be Trying to Scrub GTA 6 PC Ports From the Internet, as Vibecoders Race Toward Controversial World First - IGN Pakistan
+Link: https://news.google.com/rss/articles/CBMi8gFBVV95cUxNaWFfSlRBTWJNOXNITXFfYUs4aE5mSGNEM1lvSkZROVVuQzktZkNsNHN4dFA1MWhmZnQ2Z09ZUkhWcTBGQTFMQmhXbXhpd1R3Q2F1VGVobktMZXhTXzBwaENDU3o4MEE5YWRGTm1ULVg5LVBZeUVqZlZMT0wxWV9GQXhjMjJrTXVTM1BuenhUbmlnUWk1WHcxaVUzTzJGa29DeDVDTkRuYnFMTW51SE81TG5OcWRTeUxsRXpKXzdFUWlTN3ZQM3NlZDVicC1IV3NfVDhjQ1VsaXlZMkdaSHRlaHdfRS1id0ZKNXMtWkVYQTJ2Zw?oc=5
 
 (só a manchete: a matéria não abriu)
 
-Outras manchetes: Como jogar Grand Theft Auto VI pela nuvem e com Remote Play - XBOX Wire | Como jogar Grand Theft Auto VI pela nuvem e com Remote Play - XBOX Wire
+Outras manchetes: Take-Two Appears to Be Trying to Scrub GTA 6 PC Ports From the Internet, as Vibecoders Race Toward Controversial World First - IGN | Take-Two Appears to Be Trying to Scrub GTA 6 PC Ports From the Internet, as Vibecoders Race Toward Controversial World First - IGN
 
 
 ## Assunto 7
@@ -253,22 +253,22 @@ Outras manchetes: Steam Opens Up Voting for Its 2026 Game Awards - IGN India | S
 
 ## Assunto 8
 
-### Traxion.GG (2026-11-25), selo sugerido rumor
-Manchete: Grand Theft Auto VI is the “biggest game launch in PlayStation history” with over 39 million players - Traxion.GG
-Link: https://news.google.com/rss/articles/CBMiugFBVV95cUxPbWxVU3RET01OUmI1djRPUUFGR2JHWFI5UmRQamd3RkVIbEtrQmZmOEFKTV9XdUtLaVFWd3BwODZEZTlnYUZRblJMUzY4ZVlLTDZBbW5FTWZCTXYtVURKcnpWTEVfRkItSnJOcVNXY2lMY0U4dlFnWkgtZ1VVb2duUmEwVzRCQ1c5Tk1QbHVIMVk1TlYyRXZzQWs1ekV6dl9zZjhtVUwtNVJLRFNCLXVlbkNSM19Tempoemc?oc=5
+### IGN (2026-11-25), selo sugerido relato
+Manchete: Take-Two Battles Unofficial GTA 6 PC Port Work - IGN
+Link: https://news.google.com/rss/articles/CBMi5wFBVV95cUxNUDczM2RIY3JnY2xIbEdqWmVJOFdwRlNIZ1dENWJxVXpDcFdNNnVSWnBXbU4zRS1lZ1ZkamJKMWE5X0U5c2RZcDFVbmI1S3JoVmtTeGpaQ2NGR2pwaVlEM2hCYTQ4alVXS2VMOVY4eUJSQ1E0Vlp2VV9rUXpBTnJydENBel9LQklIME4wOTdSUEhIUHFINnpoaHJockxncG04U1Y0MEdyY0pkM3MtRWQ2TWJEQV9YRVlsTURscFVkMEVqRlRYcE9oUTRkRVRPMXVmSEZZR0gyOVd4U1ZvYzZ6RkV0TjBNWWc?oc=5
 
 (só a manchete: a matéria não abriu)
 
-### Traxion.GG (2026-11-25), selo sugerido rumor
-Manchete: GTA VI is the “biggest game launch in PlayStation history” with over 39 million players on PS5 - Traxion.GG
-Link: https://news.google.com/rss/articles/CBMiugFBVV95cUxPbWxVU3RET01OUmI1djRPUUFGR2JHWFI5UmRQamd3RkVIbEtrQmZmOEFKTV9XdUtLaVFWd3BwODZEZTlnYUZRblJMUzY4ZVlLTDZBbW5FTWZCTXYtVURKcnpWTEVfRkItSnJOcVNXY2lMY0U4dlFnWkgtZ1VVb2duUmEwVzRCQ1c5Tk1QbHVIMVk1TlYyRXZzQWs1ekV6dl9zZjhtVUwtNVJLRFNCLXVlbkNSM19Tempoemc?oc=5
+### IGN (2026-11-25), selo sugerido relato
+Manchete: Take-Two Battles Unofficial GTA 6 PC Port Work - IGN
+Link: https://news.google.com/rss/articles/CBMi5wFBVV95cUxNUDczM2RIY3JnY2xIbEdqWmVJOFdwRlNIZ1dENWJxVXpDcFdNNnVSWnBXbU4zRS1lZ1ZkamJKMWE5X0U5c2RZcDFVbmI1S3JoVmtTeGpaQ2NGR2pwaVlEM2hCYTQ4alVXS2VMOVY4eUJSQ1E0Vlp2VV9rUXpBTnJydENBel9LQklIME4wOTdSUEhIUHFINnpoaHJockxncG04U1Y0MEdyY0pkM3MtRWQ2TWJEQV9YRVlsTURscFVkMEVqRlRYcE9oUTRkRVRPMXVmSEZZR0gyOVd4U1ZvYzZ6RkV0TjBNWWc?oc=5
 
 (só a manchete: a matéria não abriu)
 
-### 80 Level (2026-11-25), selo sugerido rumor
-Manchete: GTA 6 Becomes the Biggest Launch in PlayStation History - 80 Level
-Link: https://news.google.com/rss/articles/CBMihAFBVV95cUxPYk4yRTBEWUJJZ2MxSF9wUGFSSEhnUVVxdl9aUTNhWnNVd2hXc0RPUU51VGUwT0FrUmVRRnVVTTd0ZDJrNE5UVzJlMzlCX0NvN2ZnNF9jMGRoOG5VZmNqbzl4b0dEaUpfLWh2eF9iUWc0YVJaRVd2ZnR4STdva1pHNDQ2UEM?oc=5
+### IGN (2026-11-25), selo sugerido relato
+Manchete: Take-Two Battles Unofficial GTA 6 PC Port Work - IGN
+Link: https://news.google.com/rss/articles/CBMi5wFBVV95cUxNUDczM2RIY3JnY2xIbEdqWmVJOFdwRlNIZ1dENWJxVXpDcFdNNnVSWnBXbU4zRS1lZ1ZkamJKMWE5X0U5c2RZcDFVbmI1S3JoVmtTeGpaQ2NGR2pwaVlEM2hCYTQ4alVXS2VMOVY4eUJSQ1E0Vlp2VV9rUXpBTnJydENBel9LQklIME4wOTdSUEhIUHFINnpoaHJockxncG04U1Y0MEdyY0pkM3MtRWQ2TWJEQV9YRVlsTURscFVkMEVqRlRYcE9oUTRkRVRPMXVmSEZZR0gyOVd4U1ZvYzZ6RkV0TjBNWWc?oc=5
 
 (só a manchete: a matéria não abriu)
 
-Outras manchetes: GTA 6 Becomes the Biggest Launch in PlayStation History - 80 Level | GTA 6 Becomes the Biggest Launch in PlayStation History - 80 Level
+Outras manchetes: Take-Two Battles Unofficial GTA 6 PC Port Work - IGN | Rockstar is trying to have the unofficial PC port for GTA VI taken down - Instant Gaming News
