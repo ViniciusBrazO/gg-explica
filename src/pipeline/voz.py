@@ -491,6 +491,17 @@ def cena_de_cada_palavra(textos: list[str], palavras: list[Palavra]) -> list[int
     return cenas  # type: ignore[return-value]
 
 
+def voz_cara(voz) -> bool:
+    """A voz principal (por baixo do cache e da reserva) tem cota pequena (Gemini grátis: 10 por dia)?"""
+    while True:
+        if isinstance(voz, Gemini):
+            return True
+        interna = getattr(voz, "voz", None) or getattr(voz, "principal", None)
+        if interna is None:
+            return False
+        voz = interna
+
+
 def falar_continuo(voz, textos: list[str], pasta: Path) -> tuple[list[Fala], bool]:
     """Narra o roteiro inteiro de uma vez (entonação de fala corrida, sem a pausa e o "recomeço" de
     cada cena) e corta o áudio no respiro entre as cenas. Devolve (falas por cena, ficou_continua).
@@ -499,6 +510,12 @@ def falar_continuo(voz, textos: list[str], pasta: Path) -> tuple[list[Fala], boo
         return [voz.falar(t, pasta / f"fala_{i:02d}") for i, t in enumerate(textos)], False
     inteira = voz.falar(" ".join(textos), pasta / "fala_inteira")
     cenas = cena_de_cada_palavra(textos, inteira.palavras) if inteira.palavras else None
+    if cenas is None and voz_cara(voz) and inteira.palavras:
+        # mesmo motivo: reparte as palavras pela ordem do roteiro, sem pedir áudio novo
+        cenas = [i for i, t in enumerate(textos) for w in t.split() if _norm(w)][:len(inteira.palavras)]
+        cenas += [len(textos) - 1] * (len(inteira.palavras) - len(cenas))
+        if set(cenas) != set(range(len(textos))):
+            cenas = None
     if cenas is None:
         print("  voz: não alinhou o roteiro inteiro; narrando cena por cena")
         return [voz.falar(t, pasta / f"fala_{i:02d}") for i, t in enumerate(textos)], False
@@ -516,8 +533,19 @@ def falar_continuo(voz, textos: list[str], pasta: Path) -> tuple[list[Fala], boo
         cortes.append(max(fim, min(ini - 0.03, (fim + ini) / 2)))
     cortes.append(total)
     if any(b - a < 0.3 for a, b in zip(cortes, cortes[1:])):
-        print("  voz: alguma cena ficou sem fala no corte; narrando cena por cena")
-        return [voz.falar(t, pasta / f"fala_{i:02d}") for i, t in enumerate(textos)], False
+        if voz_cara(voz):
+            # Gemini grátis tem 10 pedidos por dia: em vez de narrar cada cena de novo, corta o áudio
+            # que já existe na proporção do texto de cada cena
+            print("  voz: alguma cena ficou sem fala no corte; cortando na proporção do texto")
+            pesos = [max(1, len(t)) for t in textos]
+            acumulado, cortes = 0, [0.0]
+            for peso in pesos[:-1]:
+                acumulado += peso
+                cortes.append(total * acumulado / sum(pesos))
+            cortes.append(total)
+        else:
+            print("  voz: alguma cena ficou sem fala no corte; narrando cena por cena")
+            return [voz.falar(t, pasta / f"fala_{i:02d}") for i, t in enumerate(textos)], False
     falas = []
     for i in range(len(textos)):
         a, b = cortes[i], cortes[i + 1]
@@ -525,7 +553,7 @@ def falar_continuo(voz, textos: list[str], pasta: Path) -> tuple[list[Fala], boo
         with wave.open(str(destino), "wb") as w:
             w.setparams(params)
             w.writeframes(quadros[int(a * taxa) * largura:int(b * taxa) * largura])
-        palavras = [Palavra(p.texto, max(0.0, p.inicio - a), max(0.0, p.fim - a))
+        palavras = [Palavra(p.texto, min(b - a, max(0.0, p.inicio - a)), min(b - a, max(0.0, p.fim - a)))
                     for p, c in zip(inteira.palavras, cenas) if c == i]
         falas.append(Fala(destino, b - a, palavras))
     return falas, True

@@ -666,11 +666,14 @@
       "id": "radar_2026-11-25_remote_play_reel",
       "serie": "radar",
       "status": "rascunho",
-      "data": "2026-11-25",
-      "horario": "19:00:00",
+      "data": "2026-11-26",
+      "horario": "07:30:00",
       "formato": "reel",
       "gerar_reel": true,
-      "plataformas": ["instagram", "facebook"],
+      "plataformas": [
+        "instagram",
+        "facebook"
+      ],
       "legenda_post": "DÁ PRA JOGAR GTA 6 NO CELULAR? DÁ, MAS TEM PEGADINHA!\nRemote Play não é nuvem: o jogo roda no seu console e só a imagem vai para a outra tela.\nNo PS5, o app PS Remote Play leva para celular, PC e PlayStation Portal. No Xbox, abra xbox.com/remoteplay no celular.\nVai precisar de um controle, e a velocidade da internet pode pesar.\nFonte: SVG, 18/11/2026\nVocê joga na TV ou no celular?",
       "hashtags": [],
       "publi": false,
@@ -755,7 +758,7 @@
           "credito": "Imagens: Rockstar Games"
         }
       ],
-      "notas_revisao": "RELATO: SVG (18/11/2026) aberto nesta execução; Xbox Wire 'How to Play GTA VI in the Cloud and with Remote Play' não abriu: confira e troque para CONFIRMADO se bater. Mostre o fato do PC só para PlayStation (a matéria não lista PC no Xbox). Pauta escrita sem rodar `paginas validar` (Bash bloqueado): validar antes de renderizar.",
+      "notas_revisao": "RELATO: SVG (18/11/2026) aberto nesta execução; Xbox Wire 'How to Play GTA VI in the Cloud and with Remote Play' não abriu: confira e troque para CONFIRMADO se bater. Mostre o fato do PC só para PlayStation (a matéria não lista PC no Xbox). Pauta escrita sem rodar `paginas validar` (Bash bloqueado): validar antes de renderizar.\n[kit] adiado de 25/11 19h para 26/11 07h30: a cota grátis da voz do Gemini (10 por dia) acabou e o Vinicius quer todos os Reels com a voz nova.",
       "chamada_seguir": "Amanhã: parte 8, assalto sem dor de cabeça"
     }
   ]

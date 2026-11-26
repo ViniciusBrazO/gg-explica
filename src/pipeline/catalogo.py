@@ -328,6 +328,8 @@ def buscar_clipe(consulta: str, pasta: Path = PASTA_CLIPES, aceitar_spoiler: boo
             continue
         if "logo" in e.get("tags", []) and "logo" not in termos and "logos" not in termos:
             continue      # arte com o logotipo do jogo por cima: só quando pedida
+        if pasta == PASTA_CLIPES and not (RAIZ / e["arquivo"]).exists():
+            continue      # no catálogo, mas o arquivo sumiu do cache (25/11: travou um Reel inteiro)
         base = set(_normalizar(_texto_entrada(e)))
         candidatos = [(0.0, e.get("duracao_s"), base)]
         for m in e.get("momentos", []):

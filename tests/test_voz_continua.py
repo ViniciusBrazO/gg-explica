@@ -140,3 +140,24 @@ def test_fala_incompleta_nao_cai_na_voz_antiga():
             return "antonio"
     with pytest.raises(v.FalaIncompleta):
         v.ComReserva(Cortada(), Antiga()).falar("oi", None)
+
+
+def test_voz_cara_corta_na_proporcao_sem_pedir_audio_novo(tmp_path, monkeypatch):
+    from pipeline import voz as v
+
+    class GeminiFalso(VozFalsa, v.Gemini):
+        def __init__(self):
+            VozFalsa.__init__(self)
+
+        def falar(self, texto, saida):
+            fala = VozFalsa.falar(self, texto, saida)
+            if len(self.chamadas) == 1:      # roteiro inteiro com o fim espremido
+                fim = fala.duracao - 0.05
+                for k, p in enumerate(fala.palavras[3:]):
+                    p.inicio = p.fim = fim - 0.1 + k * 0.02
+            return fala
+    voz = v.ComReserva(GeminiFalso(), VozFalsa())
+    textos = ["Um um um.", "Dois.", "Três três três."]
+    falas, continua = v.falar_continuo(voz, textos, tmp_path)
+    assert continua and len(voz.principal.chamadas) == 1
+    assert all(f.duracao > 0.3 for f in falas)
