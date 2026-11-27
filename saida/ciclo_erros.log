@@ -647,3 +647,46 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py", line 939, in generate
     raise ChunkedEncodingError(e)
 requests.exceptions.ChunkedEncodingError: ('Connection broken: IncompleteRead(2097153 bytes read, 113940798 more expected)', IncompleteRead(2097153 bytes read, 113940798 more expected))
+
+[2026-11-27 19:09] biblioteca oficial
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/urllib3/response.py", line 929, in _error_catcher
+    yield
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/urllib3/response.py", line 1067, in _raw_read
+    raise IncompleteRead(self._fp_bytes_read, self.length_remaining)
+urllib3.exceptions.IncompleteRead: IncompleteRead(2097153 bytes read, 113940798 more expected)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py", line 937, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/urllib3/response.py", line 1291, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/urllib3/response.py", line 1179, in read
+    data = self._raw_read(amt)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/urllib3/response.py", line 1045, in _raw_read
+    with self._error_catcher():
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/urllib3/response.py", line 949, in _error_catcher
+    raise ProtocolError(arg, e) from e
+urllib3.exceptions.ProtocolError: ('Connection broken: IncompleteRead(2097153 bytes read, 113940798 more expected)', IncompleteRead(2097153 bytes read, 113940798 more expected))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/ciclo.py", line 60, in etapa
+    funcao()
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/ciclo.py", line 88, in material_oficial
+    novos = biblioteca.atualizar(mostrar=_log)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/gg-explica/gg-explica/src/pipeline/biblioteca.py", line 79, in atualizar
+    for pedaco in r.iter_content(1024 * 1024):
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py", line 939, in generate
+    raise ChunkedEncodingError(e)
+requests.exceptions.ChunkedEncodingError: ('Connection broken: IncompleteRead(2097153 bytes read, 113940798 more expected)', IncompleteRead(2097153 bytes read, 113940798 more expected))
