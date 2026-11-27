@@ -2024,13 +2024,13 @@
     "quando": "2026-11-27T12:00:00-03:00",
     "plataforma": "instagram",
     "tipo": "reel",
-    "status": "pendente",
+    "status": "publicado",
     "produtos_para_marcar": [],
-    "media_id": "",
-    "permalink": "",
+    "media_id": "18143943109620931",
+    "permalink": "https://www.instagram.com/reel/DgQEzdxOzG9/",
     "erro": "HTTP 400: {'message': \"Unsupported get request. Object with ID '1129469253394006' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api\", 'type': 'GraphMethodException', 'code': 100, 'error_subcode': 33}",
     "tentativas": 1,
-    "publicado_em": "",
+    "publicado_em": "2026-11-27T13:09:44-03:00",
     "furar_freio": false
   },
   {
