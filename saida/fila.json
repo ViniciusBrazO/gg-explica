@@ -2028,8 +2028,8 @@
     "produtos_para_marcar": [],
     "media_id": "",
     "permalink": "",
-    "erro": "",
-    "tentativas": 0,
+    "erro": "HTTP 400: {'message': \"Unsupported get request. Object with ID '1129469253394006' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api\", 'type': 'GraphMethodException', 'code': 100, 'error_subcode': 33}",
+    "tentativas": 1,
     "publicado_em": "",
     "furar_freio": false
   },
