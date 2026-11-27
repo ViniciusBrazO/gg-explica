@@ -738,5 +738,13 @@
     "situacao": "agendado",
     "message_id": 766,
     "enviado": "2026-11-27T07:16:34.416455"
+  },
+  "03dfaa092f": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-27_gg_explica.json",
+    "video": "radar_2026-11-27_sumir_policia_reel",
+    "impressao": "2c9be01dd02c",
+    "situacao": "agendado",
+    "message_id": 769,
+    "enviado": "2026-11-27T08:15:02.360287"
   }
 }
