@@ -746,5 +746,13 @@
     "situacao": "agendado",
     "message_id": 769,
     "enviado": "2026-11-27T08:15:02.360287"
+  },
+  "e205293c66": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-27_gg_explica.json",
+    "video": "radar_2026-11-27_pneu_helicoptero_reel",
+    "impressao": "134f16c1f542",
+    "situacao": "agendado",
+    "message_id": 772,
+    "enviado": "2026-11-27T09:14:45.258807"
   }
 }
