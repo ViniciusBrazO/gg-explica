@@ -754,5 +754,13 @@
     "situacao": "agendado",
     "message_id": 772,
     "enviado": "2026-11-27T09:14:45.258807"
+  },
+  "00f11c55a1": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-27_gg_explica.json",
+    "video": "radar_2026-11-27_assalto_loja_reel",
+    "impressao": "37fad31ce1b7",
+    "situacao": "agendado",
+    "message_id": 791,
+    "enviado": "2026-11-27T17:15:55.983968"
   }
 }

@@ -57,7 +57,7 @@ Dongseok Oh Lead Director, Vindictus: Defying Fate, NEXON Korea
 Beth Hu Global Public Relations Manager, Infold Games
 Kristen Zitani (she/her) Manager, Content Communications, Sony Interactive Entertainment
 Kristen Zitani (she/her) Manager, Content Communications, Sony Interactive Entertainment
-Yasser Saleem Lead Developer, Ocelot Technologies
+Kristen Zitani (she/her) Manager, Content Communications, Sony Interactive Entertainment
 
 ### blog.playstation.com (2026-11-18), selo sugerido confirmado
 Manchete: Grand Theft Auto VI launches tomorrow, November 19
@@ -88,7 +88,7 @@ Dongseok Oh Lead Director, Vindictus: Defying Fate, NEXON Korea
 Beth Hu Global Public Relations Manager, Infold Games
 Kristen Zitani (she/her) Manager, Content Communications, Sony Interactive Entertainment
 Kristen Zitani (she/her) Manager, Content Communications, Sony Interactive Entertainment
-Yasser Saleem Lead Developer, Ocelot Technologies
+Kristen Zitani (she/her) Manager, Content Communications, Sony Interactive Entertainment
 
 ### blog.playstation.com (2026-11-18), selo sugerido confirmado
 Manchete: Grand Theft Auto VI launches tomorrow, November 19
@@ -119,7 +119,7 @@ Dongseok Oh Lead Director, Vindictus: Defying Fate, NEXON Korea
 Beth Hu Global Public Relations Manager, Infold Games
 Kristen Zitani (she/her) Manager, Content Communications, Sony Interactive Entertainment
 Kristen Zitani (she/her) Manager, Content Communications, Sony Interactive Entertainment
-Yasser Saleem Lead Developer, Ocelot Technologies
+Kristen Zitani (she/her) Manager, Content Communications, Sony Interactive Entertainment
 
 Outras manchetes: Grand Theft Auto VI launches tomorrow, November 19 | Grand Theft Auto VI launches tomorrow, November 19
 
@@ -155,10 +155,10 @@ Link: https://news.xbox.com/en-us/2026/11/19/grand-theft-auto-vi-is-out-now/
 
 Stories Untold Is Now Available For Xbox One
 Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
-XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
 An Alligator Swallowed an XBOX Series X – You Can Win It
-25 Original XBOX Games Available Today on PC via XBOX Backward Compatibility
+XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
 How to Play Grand Theft Auto VI in the Cloud and with Remote Play
+Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
 
 ### news.xbox.com (2026-11-19), selo sugerido confirmado
 Manchete: Grand Theft Auto VI is Out Now
@@ -166,10 +166,10 @@ Link: https://news.xbox.com/en-us/2026/11/19/grand-theft-auto-vi-is-out-now/
 
 Stories Untold Is Now Available For Xbox One
 Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
-XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
 An Alligator Swallowed an XBOX Series X – You Can Win It
-25 Original XBOX Games Available Today on PC via XBOX Backward Compatibility
+XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
 How to Play Grand Theft Auto VI in the Cloud and with Remote Play
+Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
 
 ### news.xbox.com (2026-11-19), selo sugerido confirmado
 Manchete: Grand Theft Auto VI is Out Now
@@ -177,10 +177,10 @@ Link: https://news.xbox.com/en-us/2026/11/19/grand-theft-auto-vi-is-out-now/
 
 Stories Untold Is Now Available For Xbox One
 Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19
-XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
 An Alligator Swallowed an XBOX Series X – You Can Win It
-25 Original XBOX Games Available Today on PC via XBOX Backward Compatibility
+XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!
 How to Play Grand Theft Auto VI in the Cloud and with Remote Play
+Coming to XBOX Game Pass: Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and More
 
 Outras manchetes: Grand Theft Auto VI is Out Now | Grand Theft Auto VI is Out Now
 
@@ -210,52 +210,51 @@ Outras manchetes: Spotify revela aumento significativo nas reproduções das mú
 
 ## Assunto 6
 
-### canaltech.com.br (2026-11-26), selo sugerido relato
-Manchete: Take-Two derruba mais de 3 mil ports de GTA 6 para PC no GitHub
-Link: https://canaltech.com.br/games/take-two-derruba-mais-de-3-mil-ports-de-gta-6-para-pc-no-github/
+### IGN Brasil (2026-11-27), selo sugerido relato
+Manchete: Diretor de GTA 6 revela que a Rockstar criou três animações para cada interação com objetos - IGN Brasil
+Link: https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcHVqaEhETU12b2h4SW91TF9ESER1S0tOaUN0ZS1lMXM4Mzh4Y3VEUExtWGJCRXkySEtxMGtWREV0R0VxcEp3c2hHaHJqUkcyRDBpLS1vN2NHZ0pweUdWOEpDeDJtZFFjdnVnNDh6YWQweWRBWGJ0a09XNEVpblBuRkw5a1RMRnYycDg2WEoyb2YwX09HQUV6clM3TW5aUHVuRFBfNUk0ZnVwcGgyX09pcUpVZTdIaEI3Q1g5bEdLMkx4ZnhpdmJPa3BuOU50S0FMOV9B?oc=5
 
-Take-Two derruba mais de 3 mil ports de GTA 6 para PC no GitHub
-A Take-Two Interactive emitiu uma ordem para a derrubada de mais de 3 mil ports de GTA 6 para PC feitos por fãs. A solicitação para o GitHub visa garantir os direitos autorais da obra, principalmente neste momento, logo após o seu lançamento.
-Ainda que a Rockstar não tenha uma previsão para disponibilizar uma versão para os computadores, muitos projetos que usam a ferramenta de IA “Reverse Engineer Anything” surgiram, permitindo que o público explore Leonida sem um PS5 ou XBOX.
-Porém, isso não impede a comunidade de seguir adiante com as suas adaptações. Neste momento, a página PortWatchVI mostra um progresso superior a 90% — o que demonstra que, até o fim de semana, a experiência será liberada para o Windows.
-GTA 6 já possui diversas versões não-oficiais em produção, mas a Take-Two Interactive está de olho na maioria delas. O “Project Leonida”, criado por um adolescente de 15 anos, foi derrubado e ele sofreu sanções, como o banimento e a queda do servidor no Discord.
-Como a hidra, quando se corta uma cabeça, surgem duas: apenas no PortWatchVI há mais de 30 ports em desenvolvimento. No Reddit, uma versão com a taxa de quadros de 30 FPS é almejada por desenvolvedores independentes. O objetivo é trazer 60 FPS para o título e disponibilizar o código-fonte em breve.
-Enquanto a versão para PS5 e XBOX Series de Grand Theft Auto VI é vista como “capada” — pelo travamento em 30 FPS e ausência de vários recursos presentes nos computadores —, a Rockstar mantém em segredo quando o título chegará a plataformas como o seu próprio launcher e o Steam.
-Rumores indicam que isso ocorrerá em 2027, para otimizar a aventura e trazer suporte a recursos como o DLSS, FSR 4.1 e até a telas UltraWide. Tudo isso será possível com os ports não-oficiais, por isso a Take-Two está tão empenhada para tirá-los do ar.
-Se por um lado a produtora se aperta para impedir prejuízos, por outro ela celebra o sucesso atingido na última semana. GTA 6 é o maior lançamento da história do PlayStation; veja números do quanto o título foi impulsionado no console da Sony.
+(só a manchete: a matéria não abriu)
 
-### canaltech.com.br (2026-11-26), selo sugerido relato
-Manchete: Take-Two derruba mais de 3 mil ports de GTA 6 para PC no GitHub
-Link: https://canaltech.com.br/games/take-two-derruba-mais-de-3-mil-ports-de-gta-6-para-pc-no-github/
+### IGN Portugal (2026-11-26), selo sugerido relato
+Manchete: GTA 6: Rockstar fez três animações para cada interação com objetos - IGN Portugal
+Link: https://news.google.com/rss/articles/CBMisAFBVV95cUxPd2FXRk04bnhJTjNPS3MyNUxlcFZubWxaQW5zUlc1Ny0tOXlzZjF1WGZTbzlKV1BNSXRjQ1o2R2ZYeUhSZDAxd3RWcVlzNVVzdV9hZHJzWm5aZk85b0dKTTM0X0xoZnVsc1FGUjh6WFJ5eEEzTWs3RGw0WVZ6TzU2VDh4RU05N1A4ZjQ0YlZlTmwzWW5NRUV3MDlXMmJIRTJUdi1FSlJSV2FQWG9vdFRkRw?oc=5
 
-Take-Two derruba mais de 3 mil ports de GTA 6 para PC no GitHub
-A Take-Two Interactive emitiu uma ordem para a derrubada de mais de 3 mil ports de GTA 6 para PC feitos por fãs. A solicitação para o GitHub visa garantir os direitos autorais da obra, principalmente neste momento, logo após o seu lançamento.
-Ainda que a Rockstar não tenha uma previsão para disponibilizar uma versão para os computadores, muitos projetos que usam a ferramenta de IA “Reverse Engineer Anything” surgiram, permitindo que o público explore Leonida sem um PS5 ou XBOX.
-Porém, isso não impede a comunidade de seguir adiante com as suas adaptações. Neste momento, a página PortWatchVI mostra um progresso superior a 90% — o que demonstra que, até o fim de semana, a experiência será liberada para o Windows.
-GTA 6 já possui diversas versões não-oficiais em produção, mas a Take-Two Interactive está de olho na maioria delas. O “Project Leonida”, criado por um adolescente de 15 anos, foi derrubado e ele sofreu sanções, como o banimento e a queda do servidor no Discord.
-Como a hidra, quando se corta uma cabeça, surgem duas: apenas no PortWatchVI há mais de 30 ports em desenvolvimento. No Reddit, uma versão com a taxa de quadros de 30 FPS é almejada por desenvolvedores independentes. O objetivo é trazer 60 FPS para o título e disponibilizar o código-fonte em breve.
-Enquanto a versão para PS5 e XBOX Series de Grand Theft Auto VI é vista como “capada” — pelo travamento em 30 FPS e ausência de vários recursos presentes nos computadores —, a Rockstar mantém em segredo quando o título chegará a plataformas como o seu próprio launcher e o Steam.
-Rumores indicam que isso ocorrerá em 2027, para otimizar a aventura e trazer suporte a recursos como o DLSS, FSR 4.1 e até a telas UltraWide. Tudo isso será possível com os ports não-oficiais, por isso a Take-Two está tão empenhada para tirá-los do ar.
-Se por um lado a produtora se aperta para impedir prejuízos, por outro ela celebra o sucesso atingido na última semana. GTA 6 é o maior lançamento da história do PlayStation; veja números do quanto o título foi impulsionado no console da Sony.
+(só a manchete: a matéria não abriu)
 
-### canaltech.com.br (2026-11-26), selo sugerido relato
-Manchete: Take-Two derruba mais de 3 mil ports de GTA 6 para PC no GitHub
-Link: https://canaltech.com.br/games/take-two-derruba-mais-de-3-mil-ports-de-gta-6-para-pc-no-github/
+### IGN Portugal (2026-11-26), selo sugerido relato
+Manchete: GTA 6: Rockstar fez três animações para cada interação com objetos - IGN Portugal
+Link: https://news.google.com/rss/articles/CBMisAFBVV95cUxPd2FXRk04bnhJTjNPS3MyNUxlcFZubWxaQW5zUlc1Ny0tOXlzZjF1WGZTbzlKV1BNSXRjQ1o2R2ZYeUhSZDAxd3RWcVlzNVVzdV9hZHJzWm5aZk85b0dKTTM0X0xoZnVsc1FGUjh6WFJ5eEEzTWs3RGw0WVZ6TzU2VDh4RU05N1A4ZjQ0YlZlTmwzWW5NRUV3MDlXMmJIRTJUdi1FSlJSV2FQWG9vdFRkRw?oc=5
 
-Take-Two derruba mais de 3 mil ports de GTA 6 para PC no GitHub
-A Take-Two Interactive emitiu uma ordem para a derrubada de mais de 3 mil ports de GTA 6 para PC feitos por fãs. A solicitação para o GitHub visa garantir os direitos autorais da obra, principalmente neste momento, logo após o seu lançamento.
-Ainda que a Rockstar não tenha uma previsão para disponibilizar uma versão para os computadores, muitos projetos que usam a ferramenta de IA “Reverse Engineer Anything” surgiram, permitindo que o público explore Leonida sem um PS5 ou XBOX.
-Porém, isso não impede a comunidade de seguir adiante com as suas adaptações. Neste momento, a página PortWatchVI mostra um progresso superior a 90% — o que demonstra que, até o fim de semana, a experiência será liberada para o Windows.
-GTA 6 já possui diversas versões não-oficiais em produção, mas a Take-Two Interactive está de olho na maioria delas. O “Project Leonida”, criado por um adolescente de 15 anos, foi derrubado e ele sofreu sanções, como o banimento e a queda do servidor no Discord.
-Como a hidra, quando se corta uma cabeça, surgem duas: apenas no PortWatchVI há mais de 30 ports em desenvolvimento. No Reddit, uma versão com a taxa de quadros de 30 FPS é almejada por desenvolvedores independentes. O objetivo é trazer 60 FPS para o título e disponibilizar o código-fonte em breve.
-Enquanto a versão para PS5 e XBOX Series de Grand Theft Auto VI é vista como “capada” — pelo travamento em 30 FPS e ausência de vários recursos presentes nos computadores —, a Rockstar mantém em segredo quando o título chegará a plataformas como o seu próprio launcher e o Steam.
-Rumores indicam que isso ocorrerá em 2027, para otimizar a aventura e trazer suporte a recursos como o DLSS, FSR 4.1 e até a telas UltraWide. Tudo isso será possível com os ports não-oficiais, por isso a Take-Two está tão empenhada para tirá-los do ar.
-Se por um lado a produtora se aperta para impedir prejuízos, por outro ela celebra o sucesso atingido na última semana. GTA 6 é o maior lançamento da história do PlayStation; veja números do quanto o título foi impulsionado no console da Sony.
+(só a manchete: a matéria não abriu)
 
-Outras manchetes: Take-Two derruba mais de 3 mil ports de GTA 6 para PC no GitHub | Take-Two derruba mais de 3 mil ports de GTA 6 para PC no GitHub
+Outras manchetes: GTA 6: Rockstar fez três animações para cada interação com objetos - IGN Portugal | GTA 6: Rockstar fez três animações para cada interação com objetos - IGN Portugal
 
 
 ## Assunto 7
+
+### ScreenRant (2026-11-27), selo sugerido rumor
+Manchete: PlayStation Plus Officially Drops Free Download For One Of 2026's Best Games - ScreenRant
+Link: https://news.google.com/rss/articles/CBMiggFBVV95cUxPX3pPazdib1ppd1F3ajMwM2N2V294M0V1UFoyVHZKNXczNWFLSzB1RC1NZGI4TVROb21rZFFEaWhUekhyQUNLeGRVTm0wZHRQbHJmUkpkSnpjWUg0bk15VlY0NVN6TTZYamw5WEFhcTBRRjZOX2JIaEJDdjBOeUVhT3lR?oc=5
+
+(só a manchete: a matéria não abriu)
+
+### ScreenRant (2026-11-27), selo sugerido rumor
+Manchete: PlayStation Plus Officially Drops Free Download For One Of 2026's Best Games - ScreenRant
+Link: https://news.google.com/rss/articles/CBMiggFBVV95cUxPX3pPazdib1ppd1F3ajMwM2N2V294M0V1UFoyVHZKNXczNWFLSzB1RC1NZGI4TVROb21rZFFEaWhUekhyQUNLeGRVTm0wZHRQbHJmUkpkSnpjWUg0bk15VlY0NVN6TTZYamw5WEFhcTBRRjZOX2JIaEJDdjBOeUVhT3lR?oc=5
+
+(só a manchete: a matéria não abriu)
+
+### ScreenRant (2026-11-27), selo sugerido rumor
+Manchete: PlayStation Plus Officially Drops Free Download For One Of 2026's Best Games - ScreenRant
+Link: https://news.google.com/rss/articles/CBMiggFBVV95cUxPX3pPazdib1ppd1F3ajMwM2N2V294M0V1UFoyVHZKNXczNWFLSzB1RC1NZGI4TVROb21rZFFEaWhUekhyQUNLeGRVTm0wZHRQbHJmUkpkSnpjWUg0bk15VlY0NVN6TTZYamw5WEFhcTBRRjZOX2JIaEJDdjBOeUVhT3lR?oc=5
+
+(só a manchete: a matéria não abriu)
+
+Outras manchetes: PlayStation Plus Officially Drops Free Download For One Of 2026's Best Games - ScreenRant | PlayStation Plus Officially Drops Free Download For One Of 2026's Best Games - ScreenRant
+
+
+## Assunto 8
 
 ### eurogamer.net (2026-11-25), selo sugerido relato
 Manchete: GTA 6 recompilers and vibe-coders implore AI chatbots to 'work faster' and 'make no mistakes' as they race to get the game running on PC
@@ -303,26 +302,3 @@ The footage runs at sub-5fps, but the visuals look to have rendered normally. As
 If you're already playing Rockstar's latest on consoles, the Eurogamer GTA 6 walkthrough offers comprehensive guides on relationship mechanics, how the new Criminal Profile system works, a list of all safe codes and more.
 
 Outras manchetes: GTA 6 recompilers and vibe-coders implore AI chatbots to 'work faster' and 'make no mistakes' as they race to get the game running on PC | GTA 6 recompilers and vibe-coders implore AI chatbots to 'work faster' and 'make no mistakes' as they race to get the game running on PC
-
-
-## Assunto 8
-
-### gamespot.com (2026-11-25), selo sugerido relato
-Manchete: GTA 6 Modders Are Trying To Vibe-Code A PC Port, And It’s Not Going Well
-Link: https://www.gamespot.com/articles/gta-6-modders-are-trying-to-vibe-code-a-pc-port-and-its-not-going-well/
-
-(só a manchete: a matéria não abriu)
-
-### gamespot.com (2026-11-25), selo sugerido relato
-Manchete: GTA 6 Modders Are Trying To Vibe-Code A PC Port, And It’s Not Going Well
-Link: https://www.gamespot.com/articles/gta-6-modders-are-trying-to-vibe-code-a-pc-port-and-its-not-going-well/
-
-(só a manchete: a matéria não abriu)
-
-### gamespot.com (2026-11-25), selo sugerido relato
-Manchete: GTA 6 Modders Are Trying To Vibe-Code A PC Port, And It’s Not Going Well
-Link: https://www.gamespot.com/articles/gta-6-modders-are-trying-to-vibe-code-a-pc-port-and-its-not-going-well/
-
-(só a manchete: a matéria não abriu)
-
-Outras manchetes: GTA 6 Modders Are Trying To Vibe-Code A PC Port, And It’s Not Going Well | GTA 6 Modders Are Trying To Vibe-Code A PC Port, And It’s Not Going Well
