@@ -730,5 +730,13 @@
     "situacao": "agendado",
     "message_id": 742,
     "enviado": "2026-11-26T07:28:16.563357"
+  },
+  "f4d4b019f7": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-27_gg_explica.json",
+    "video": "radar_2026-11-27_roubar_carro_reel",
+    "impressao": "dfdbe5e3b4b8",
+    "situacao": "agendado",
+    "message_id": 766,
+    "enviado": "2026-11-27T07:16:34.416455"
   }
 }

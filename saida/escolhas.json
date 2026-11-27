@@ -1854,5 +1854,28 @@
     ],
     "estilo_capa": "faixa",
     "registrado": "2026-11-26T07:28"
+  },
+  "2026-11-27|radar_2026-11-27_roubar_carro_reel": {
+    "data": "2026-11-27",
+    "horario": "15:00",
+    "imagens": [
+      "clipes/oficial/vintage_vice_city_pack/VINTAGE_VICE_CITY_PACK_VAPID_STANIER_02.jpg",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@364.9",
+      "clipes/oficial/artes_e_wallpapers/Leonida_Keys_Postcard_phone.jpg",
+      "clipes/oficial/artes_e_wallpapers/Mount_Kalaga_National_Park_Postcard_phone.jpg",
+      "clipes/oficial/artes_e_wallpapers/Port_Gellhorn_Postcard_phone.jpg",
+      "clipes/oficial/ultimate_edition/ULTIMATE_EDITION_WYMAN_CAR_COLLECTION_04.jpg",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@908.5",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@483.6",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1198.4",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@557.5",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1083.3",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1083.3",
+      "clipes/oficial/artes_e_wallpapers/Jason_Lucia_Rooftop_ultrawide.jpg",
+      "clipes/oficial/Jason_and_Lucia_Beach_portrait.jpg",
+      "clipes/oficial/artes_e_wallpapers/Jason_and_Lucia_01_square.jpg"
+    ],
+    "estilo_capa": "base",
+    "registrado": "2026-11-27T07:16"
   }
 }
