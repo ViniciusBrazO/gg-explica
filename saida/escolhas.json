@@ -1947,5 +1947,51 @@
     ],
     "estilo_capa": "faixa",
     "registrado": "2026-11-27T17:15"
+  },
+  "2026-11-28|radar_2026-11-28_nao_ficar_liso_reel": {
+    "data": "2026-11-28",
+    "horario": "12:00",
+    "imagens": [
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@574.8",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1160.9",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1232.3",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1232.3",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1232.3",
+      "clipes/oficial/artes_e_wallpapers/Jason_Lucia_Rooftop_tablet.jpg",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@412.9",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@412.9",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@412.9",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1075.0",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1075.0",
+      "clipes/oficial/vintage_vice_city_pack/VINTAGE_VICE_CITY_PACK_EXCLUSIVE_LOOKS_01.jpg",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@825.1",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@825.1",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@825.1"
+    ],
+    "estilo_capa": "impacto",
+    "registrado": "2026-11-28T08:14"
+  },
+  "2026-11-28|radar_2026-11-28_antes_de_sair_key_lento_reel": {
+    "data": "2026-11-28",
+    "horario": "15:00",
+    "imagens": [
+      "clipes/oficial/artes_e_wallpapers/Leonida_Keys_Postcard_tablet.jpg",
+      "clipes/oficial/screenshots/Leonida_Keys_07.jpg",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1036.0",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1036.0",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1036.0",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1061.8",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1061.8",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1061.8",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@1061.8",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@993.7",
+      "clipes/oficial/trailers/gta6_an_extended_look.mp4@993.7",
+      "clipes/oficial/artes_e_wallpapers/Grassrivers_Postcard_square.jpg",
+      "clipes/oficial/artes_e_wallpapers/Grassrivers_Postcard_ultrawide.jpg",
+      "clipes/oficial/artes_e_wallpapers/Mount_Kalaga_National_Park_Postcard_tablet.jpg",
+      "clipes/oficial/artes_e_wallpapers/Grassrivers_Postcard_tablet.jpg"
+    ],
+    "estilo_capa": "base",
+    "registrado": "2026-11-28T08:18"
   }
 }
