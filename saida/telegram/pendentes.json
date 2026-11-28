@@ -778,5 +778,13 @@
     "situacao": "agendado",
     "message_id": 797,
     "enviado": "2026-11-28T08:18:16.575921"
+  },
+  "9d7b72f921": {
+    "pauta": "/home/runner/work/gg-explica/gg-explica/pautas/radar_2026-11-28_gg_explica.json",
+    "video": "radar_2026-11-28_viagem_rapida_reel",
+    "impressao": "caddd2ff354d",
+    "situacao": "agendado",
+    "message_id": 798,
+    "enviado": "2026-11-28T09:13:01.496642"
   }
 }
